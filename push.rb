@@ -42,7 +42,8 @@ def processrubric (pos, r, me)
               me = '!!! '+(empty?(me) ? '' : me)
             end
           end
-          c.content = empty?(me) && (c.parent.name != 'Fragment') ? "!!! #{en}" : me
+          c.content = !empty?(me) ? me : (c.parent.name=='Fragment' ? '.' : "!!! #{en}")
+          
           @i += 1          
         end    
       else
