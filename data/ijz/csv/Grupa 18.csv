@@ -1,0 +1,969 @@
+XVIII	preferred	Simptomi, znaci i patološki klinički laboratorijski nalazi, neklasifikovani na drugom mjestu
+XVIII	text	Ova grupa obuhvata simptome, znake i patološke kliničke ili druge dijagnostičke postupke, kao i nedovoljno definisana stanja za koja se dijagnoza ne može klasifikovati na drugom mjestu. Znaci i simptomi koji do izvjesnog stepena definišu datu dijagnozu kategorisani su u drugim grupama klasifikacije. Uopšte, kategorije u ovoj grupi uključuju nedovoljno definisana stanja i simptome, koji bez daljih neophodnih ispitivanja slučaja radi postavljanja konačne dijagnoze, možda podjednako ukazuju na dva ili više oboljenja, odnosno na dva ili više sistema u organizmu. Praktično sve kategorije u ovoj grupi mogu biti označene kao "neoznačene na drugi način", "nepoznate etiologije" ili "privremene". Da bi se odredilo koji simptomi i znaci pripadaju ovdje, a koji drugim grupama, treba koristiti abecedni indeks. Ostale potkategorije, označene sa .8, namijenjene su za druge relevantne simptome, koji nisu mogli da budu dodijeljeni drugdje u klasifikaciji. Stanja i znaci ili simptomi uključeni u kategorije R00-R99 sastoje se od: slučajeva za koje se ne može dati specifičnija dijagnoza, pa čak ni kada su sve činjenice koje se odnose na takav slučaj ispitane; znaci ili simptomi koji su postojali u okviru prvobitnog rasporeda, ali su bili prolaznog karaktera, tako da njihovi uzroci nisu mogli biti određeni; radne dijagnoze za pacijente koji se nisu javili na kontrolni pregled radi daljeg ispitivanja ili liječenja; slučajevi koji su se za dalja ispitivanja ili liječenja javljali u druge centre prije postavljanja definitivne dijagnoze; slučajevi kod kojih iz raznih razloga definitivna dijagnoza nije mogla biti postavljena; izvjesni simptomi, za koje su obezbijeđene dodatne informacije, a koji sami po sebi predstavljaju značajne probleme u medicinskom zbrinjavanju.
+XVIII	exclusion	abnormalni nalazi u antenatalnom skriningu majke O28.-
+XVIII	exclusion	određena stanja nastala u perinatalnom periodu  P00-P96
+R00-R09	preferred	Simptomi i znaci od strane cirkulatornog i respiratornog sistema
+R00	preferred	Poremećaji ritma srca
+R00	exclusion	abnormalnosti nastale u perinatalnom periodu P29.1
+R00	exclusion	određene aritmije l47-l49
+R00.0	preferred	Ubrzan rad srca,  neoznačen
+R00.0	inclusion	Ubrzani otkucaji srca
+R00.0	inclusion	Ubrzan rad srca: sinoaurikularni  NOS
+R00.0	inclusion	Ubrzan rad srca: sinusni (sinusalni) NOS
+R00.1	preferred	Usporen rad srca, neoznačen
+R00.1	inclusion	Usporen rad srca: sinoatrijalni
+R00.1	inclusion	Usporen rad srca: sinusni
+R00.1	inclusion	Usporen rad srca: vagalni
+R00.1	inclusion	Usporeni otkucaji srca
+R00.1	coding-hint	
+R00.2	preferred	Osjećaj lupanja srca (palpitacija)
+R00.2	inclusion	Svjesnost o srčanim otkucajima
+R00.8	preferred	Druge i neoznačene abnormalnosti srčanih otkucaja 
+R01	preferred	Srčani šumovi i drugi srčani zvukovi 
+R01	exclusion	one koje su nastali u perinatalnom periodu P29.8
+R01.0	preferred	Dobroćudni (benigni) i bezazleni srčani šumovi
+R01.0	inclusion	Funkcionalni srčani šum
+R01.1	preferred	Srčani šum, neoznačen
+R01.1	inclusion	Srčani šum NOS
+R01.2	preferred	Drugi srčani zvukovi
+R01.2	inclusion	Mukli otkucaji srca, ubrzavajući ili usporavajući
+R01.2	inclusion	Prekordijalno trenje
+R02	preferred	Gangrena (izumiranje tkiva), neklasifikovana na drugom mjestu
+R02	exclusion	gangrena u: aterosklerozi l70.2
+R02	exclusion	gangrena u: dijabetes melitus-u E10-E14 sa zajedničkim četvrtim karakterom .5
+R02	exclusion	gangrena u: drugim perifernim vaskularnim bolestima l73.-
+R02	exclusion	gangrena na drugim određenim mjestima - vidjeti Abecedni Indeks
+R02	exclusion	gasna gangrena A48.0
+R02	exclusion	gangrenozna piodermija L88
+R03	preferred	Izmjeren abnormalan krvni pritisak, bez dijagnoze
+R03.0	preferred	Izmjeren povišen krvni pritisak, bez dijagnoze hipertenzije
+R03.0	note	Ova se kategorija upotrebljava za bilježenje epizode povišenoga krvnoga pritiska kod bolesnika kod kojeg nije postavljena nikakva zvanična dijagnoza hipertenzije ili je ona izdvojeni slučajni nalaz.
+R03.1	preferred	Izmjerena niska vrijednost krvnog pritiska, neoznačena
+R03.1	exclusion	nizak krvni pritisak l95.-
+R03.1	exclusion	neurogeni ortostatski nizak krvni pritisak G90.3
+R03.1	exclusion	sindrom niskog krvnog pritiska majke O26.5
+R04	preferred	Krvarenje iz disajnih puteva
+R04.0	preferred	Krvarenje iz nosa (epistaksa)
+R04.0	inclusion	Krvarenje iz nosa
+R04.0	inclusion	Curenje krvi iz nosa
+R04.1	preferred	Krvarenje iz grla
+R04.1	exclusion	krvav ispljuvak (hemoptiza) R04.2
+R04.2	preferred	Krvav ispljuvak (hemoptiza)
+R04.2	inclusion	Sukrvičav ispljuvak
+R04.2	inclusion	Kašalj sa krvarenjem
+R04.8	preferred	Krvarenje iz drugih djelova disajnih puteva
+R04.8	inclusion	Plućno krvarenje  NOS
+R04.8	exclusion	perinatalno plućno krvarenje P26.-
+R04.9	preferred	Krvarenje iz disajnih puteva, neoznačeno
+R05	preferred	Kašalj
+R05	exclusion	kašalj sa krvarenjem R04.2
+R05	exclusion	psihogeni kašalj F45.3
+R06	preferred	Poremećaji disanja
+R06	exclusion	respiratorni: zastoj R09.2
+R06	exclusion	respiratorni: distres: sindrom kod odraslih J80
+R06	exclusion	respiratorni: distres: u novorođenčeta P22.-
+R06	exclusion	respiratorna: insuficijencija J96.-
+R06	exclusion	respiratorna: insuficijencija u novorođenčeta P28.5
+R06.0	preferred	Dispneja
+R06.0	inclusion	Ortopneja
+R06.0	inclusion	Kratak dah
+R06.0	exclusion	prolazno ubrzano disanje u novorođenčeta  P22.1
+R06.1	preferred	Piskanje prilikom disanja  (stridor)
+R06.1	exclusion	urođeno grkljansko piskanje prilikom disanja (kongenitalni laringealni stridor) P28.8
+R06.1	exclusion	laringizmus (stridulus) J38.5
+R06.2	preferred	Zviždanje (vizing)
+R06.3	preferred	Periodično disanje
+R06.3	inclusion	Cheyne-Stokes-ovo disanje
+R06.4	preferred	Pojačana ventilacija pluća
+R06.4	exclusion	psihogena pojačana ventilacija pluća F45.3
+R06.5	preferred	Disanje na usta
+R06.5	inclusion	Hrkanje
+R06.5	exclusion	suva usta NOS R68.2
+R06.6	preferred	Štucanje
+R06.6	exclusion	psihogeno štucanje F45.3
+R06.7	preferred	Kijanje
+R06.8	preferred	Druge i neoznačene abnormalnosti disanja
+R06.8	inclusion	Apneja NOS
+R06.8	inclusion	Zadržavanje daha (napadi)
+R06.8	inclusion	Osjećaj gušenja
+R06.8	inclusion	Uzdisanje
+R06.8	exclusion	apnea: novorođenčeta  P28.4
+R06.8	exclusion	apnea: u snu G47.3
+R06.8	exclusion	apnea: novorođenčeta u snu (primarna) P28.3
+R07	preferred	Bol u grlu i grudima
+R07	exclusion	otežano gutanje (disfagija) R13
+R07	exclusion	epidemijski bol u mišićima (mijalgija) B33.0
+R07	exclusion	bol u: grudima N64.4
+R07	exclusion	bol u: vratu M54.2
+R07	exclusion	suvo grlo (akutno) NOS J02.9
+R07.0	preferred	Bol u grlu
+R07.1	preferred	Bol u grudima pri disanju
+R07.1	inclusion	Bolni disajni pokreti
+R07.2	preferred	Bol u predjelu srca
+R07.3	preferred	Drugi bol u grudima
+R07.3	inclusion	Bol u prednjem dijelu grudnog koša NOS
+R07.4	preferred	Bol u grudima, neoznačen
+R09	preferred	Drugi simptomi i znaci sistema za krvotok i sistema za disanje
+R09	exclusion	respiratorni: distres (sindrom) kod: odraslih J80
+R09	exclusion	respiratorni: distres (sindrom) kod: novorođenčeta P22.-
+R09	exclusion	respiratorna: insuficijencija J96.-
+R09	exclusion	respiratorna: insuficijencija u novorođenčeta P28.5
+R09.0	preferred	Gušenje (asfiksija)
+R09.0	exclusion	gušenje (asfiksija) (zbog): prilikom rođenja P21.-
+R09.0	exclusion	gušenje (asfiksija) (zbog): karbon monoksida T58
+R09.0	exclusion	gušenje (asfiksija) (zbog): stranog tijela u respiratornom traktu T17.-
+R09.0	exclusion	gušenje (asfiksija) (zbog): intrauterino P20.-
+R09.0	exclusion	gušenje (asfiksija) (zbog): traumatsko T71
+R09.1	preferred	Zapaljenje plućne maramice
+R09.1	exclusion	Eksudativni pleuritis J90
+R09.2	preferred	Zastoj disanja
+R09.2	inclusion	Kardiorespiratorne smetnje 
+R09.3	preferred	Abnormalan ispljuvak
+R09.3	inclusion	Abnormalna: količina ispljuvka
+R09.3	inclusion	Abnormalna: boja ispljuvka
+R09.3	inclusion	Abnormalan: miris ispljuvka
+R09.3	inclusion	Preobilan ispljuvak
+R09.3	exclusion	sukrvičav ispljuvak R04.2
+R09.8	preferred	Drugi označeni simptomi i znaci sistema za krvotok i disanje
+R09.8	inclusion	Šum (arterijski)
+R09.8	inclusion	Grudna: abnormalna perkusija
+R09.8	inclusion	Grudni: šumovi trenja
+R09.8	inclusion	Grudni: timpanizam
+R09.8	inclusion	Hroptanje
+R09.8	inclusion	Slab puls
+R10-R19	preferred	Simptomi i znaci od strane sistema za varenje i trbuha
+R10-R19	exclusion	želudačno crijevno krvarenje K92.0-K92.2
+R10-R19	exclusion	želudačno crijevno krvarenje u novoročenčeta P54.0-P54.3
+R10-R19	exclusion	crijevne opstrukcije K56.-
+R10-R19	exclusion	crijevne opstrukcije u novorođenčeta P76.-
+R10-R19	exclusion	spazam (grč) pilorusa K31.3
+R10-R19	exclusion	spazam (grč) pilorusa urođeni ili u odojčeta Q40.0
+R10-R19	exclusion	simptomi i znaci od strane mokraćnog sistema R30-R39
+R10-R19	exclusion	simptomi od strane genitalnih organa: žena N94.-
+R10-R19	exclusion	simptomi od strane genitalnih organa: muškaraca N48-N50
+R10	preferred	Bol u trbuhu i karlici
+R10	exclusion	bol u leđima (dorzalgija) M54.-
+R10	exclusion	nadimanje i slična stanja R14
+R10	exclusion	bubrežni grčevi (kolike) N23
+R10.0	preferred	Akutni bol u trbuhu
+R10.0	inclusion	Ozbiljni trbušni bol (generalizovan) (lokalizovani (sa rigidnošću trbuha)
+R10.1	preferred	Bol u gornjem dijelu trbuha
+R10.1	inclusion	Bol u epigastrijumu
+R10.2	preferred	Bol u karlici i međici
+R10.3	preferred	Bol u drugim dijelovima donjeg dijela trbuha
+R10.4	preferred	Drugi i neoznačeni bol trbuha
+R10.4	inclusion	Osjetljivost trbuha NOS 
+R10.4	inclusion	Kolika (grč): NOS 
+R10.4	inclusion	Kolika (grč): odojčadi
+R11	preferred	Mučnina i povraćanje
+R11	exclusion	povraćanje krvi (hematemeza) K92.0
+R11	exclusion	povraćanje krvi u novorođenčeta (hematemeza) P54.0
+R11	exclusion	povraćanje: ekscesivno u trudnoći O21.-
+R11	exclusion	povraćanje: nakon hirurških gastrointestinalnih procedura K91.0
+R11	exclusion	povraćanje: u novorođenčeta P92.0
+R11	exclusion	povraćanje: psihogeno F50.5
+R12	preferred	Gorušica
+R12	exclusion	dispepsija K30
+R13	preferred	Otežano gutanje (disfagija) R13
+R13	inclusion	Poteškoće u gutanju
+R14	preferred	Nadutost (flatulencija) i slična stanja 
+R14	inclusion	Nadimanje trbuha (zbog gasova)
+R14	inclusion	Osjećaj nadutosti trbuha
+R14	inclusion	Podrigivanje
+R14	inclusion	Bol zbog gasa u trbuhu
+R14	inclusion	Meteorizam (abdominalni) (crijevni)
+R14	exclusion	psihogena aerofagija F45.3
+R15	preferred	Nevoljno pražnjenje crijeva (inkontinencija fecesa)
+R15	inclusion	Enkopreza NOS
+R15	exclusion	neorganskog porijekla F98.1
+R16	preferred	Uvećana jetra i uvećana slezina (hepatosplenomegalija), neklasifikovana na drugom mjestu
+R16.0	preferred	Uvećana jetra (hepatomegalija), neklasifikovana na drugom mjestu
+R16.0	inclusion	Uvećana jetra (hepatomegalija) NOS
+R16.1	preferred	Uvećana slezina (splenomegalija), neklasifikovana na drugom mjestu
+R16.1	inclusion	Uvećana slezina (splenomegalija) NOS
+R16.2	preferred	Uvećana jetra i uvećana slezina (hepatosplenomegalija), neklasifikovana na drugom mjestu
+R16.2	inclusion	Uvećana jetra i uvećana slezina (hepatosplenomegalija) NOS
+R17	preferred	Žutica nepoznatog porijekla
+R17	exclusion	novorođenačka žutica P55.-, P57-P59
+R18	preferred	Slobodna tečnost u trbuhu (ascites)
+R18	inclusion	Tečnost u peritonealnoj šupljini
+R19	preferred	Drugi simptomi i znaci sistema za varenje i trbuha
+R19	exclusion	akutni abdomen R10.0
+R19.0	preferred	Otok u trbuhu i karlici, masa i izraslina
+R19.0	inclusion	Difuzni ili generalizovani otok ili masa: intraabdominalna NOS
+R19.0	inclusion	Difuzni ili generalizovani otok ili masa: karlična NOS
+R19.0	inclusion	Difuzni ili generalizovani otok ili masa: pupčana
+R19.0	exclusion	adominalna distenzija (zbog gasova) R14
+R19.0	exclusion	ascites R18
+R19.1	preferred	Abnormalni zvukovi crijeva
+R19.1	inclusion	Odsustvo crijevnih zvukova
+R19.1	inclusion	Hiperaktivni crijevni zvukovi
+R19.2	preferred	Vidljiva peristaltika 
+R19.2	inclusion	Hiperperistaltika
+R19.3	preferred	Zategnutost trbuha (rigiditet)
+R19.3	exclusion	sa jakim bolom u trbuhu R10.0
+R19.4	preferred	Promjena normalnog rada crijeva
+R19.4	exclusion	opstipacija K59.0
+R19.4	exclusion	funkcionalna dijareja K59.1
+R19.5	preferred	Druge abnormalnosti stolice
+R19.5	inclusion	Abnormalna boja stolice
+R19.5	inclusion	Masivna stolica
+R19.5	inclusion	Sluzava stolica
+R19.5	inclusion	Skrivena krv u stolici (okultno krvarenje u stolici)
+R19.5	exclusion	melena K92.1
+R19.5	exclusion	melena novorođenčeta P54.1
+R19.6	preferred	Smrdljiva stolica
+R19.8	preferred	Drugi označeni simptomi i znaci koji se odnose na sistem za varenje i trbuh
+R20-R23	preferred	Simptomi i znaci koji se odnose na kožu i subkutano tkivo
+R20	preferred	Poremećaji osjetljivosti kože
+R20	exclusion	disocijativna anestezija i gubitak osjetljivosti F44.6
+R20	exclusion	psihogeni poremećaji F45.8
+R20.0	preferred	Neosjetljivost (anestezija) kože
+R20.1	preferred	Smanjena osjetljivost kože
+R20.2	preferred	Parestezija (trnjenje) kože
+R20.2	inclusion	Mravinjanje
+R20.2	inclusion	Osjećaj probadanja i bockanja
+R20.2	inclusion	Trnjenje kože
+R20.2	exclusion	akroparestezija l73.8
+R20.3	preferred	Pojačana osjetljivost (hiperestezija)
+R20.8	preferred	Drugi i neoznačeni poremećaji osjetljivosti kože
+R21	preferred	Osip i druge neoznačene kožne promjene
+R22	preferred	Lokalizovani otok, masa i izraslina kože i potkožnog tkiva
+R22	inclusion	potkožni čvorići (lokalizovani) (površinski)
+R22	exclusion	patološki nalazi u dijagnostici R90-R93
+R22	exclusion	uvećani limfni čvorovi R59.-
+R22	exclusion	lokalizovana gojaznost E65
+R22	exclusion	masa i izraslina: dojke N63
+R22	exclusion	masa i izraslina: intraabdominalna ili karlična R19.0
+R22	exclusion	edem R60.-
+R22	exclusion	otok: intraabdominalni ili karlični R19.0
+R22	exclusion	otok: zgloba M25.4
+R22.0	preferred	Lokalizovani otok, masa i izraslina glave
+R22.1	preferred	Lokalizovani otok, masa i izraslina vrata
+R22.2	preferred	Lokalizovani otok, masa i izraslina trupa
+R22.3	preferred	Lokalizovani otok, masa i izraslina gornjeg ekstremiteta
+R22.4	preferred	Lokalizovani otok, masa i izraslina donjeg ekstremiteta
+R22.7	preferred	Lokalizovani otok, masa i izraslina na više mjesta
+R22.9	preferred	Lokalizovani otok, masa i izraslina neoznačena
+R23	preferred	Druge promjene kože
+R23.0	preferred	Pomodrelost (cijanoza)
+R23.0	exclusion	akrocijanoza l73.8
+R23.0	exclusion	cijanotični napadi u novorođenčeta P28.2
+R23.1	preferred	Bljedilo
+R23.1	inclusion	Ljepljiva i hladna koža
+R23.2	preferred	Naglo crvenilo kože
+R23.2	inclusion	Pretjerano crvenilo (lica)
+R23.2	exclusion	menopauzalno i klimakterično stanje žena N95.1
+R23.3	preferred	Spontano nastale ekhimoze
+R23.3	inclusion	Tačkasto krvarenje (petehije)
+R23.3	exclusion	ekhimoze u fetusa i novorođenčeta P54.5
+R23.3	exclusion	purpura D69.-
+R23.4	preferred	Promjene strukture kože
+R23.4	inclusion	Deskvamacija (perutanje) kože
+R23.4	inclusion	Induracija kože
+R23.4	inclusion	Ljuštenje kože
+R23.4	exclusion	epidermalno zadebljanje NOS L85.9
+R23.8	preferred	Druge i neoznačene promjene kože
+R25-R29	preferred	Simptomi i znaci nervnog i mišićno-koštanog sistema
+R25	preferred	Abnormalni nevoljni pokreti
+R25	exclusion	specifični poremećaji kretanja G20-G26
+R25	exclusion	stereotipni poremećaji kretanja
+R25	exclusion	tikovi F95.-
+R25.0	preferred	Abnormalni pokreti glave
+R25.1	preferred	Tremor, neoznačen
+R25.1	exclusion	horeja NOS G25.5
+R25.1	exclusion	tremor: esencijalni G25.0
+R25.1	exclusion	tremor: histerični F44.4
+R25.1	exclusion	tremor: intencioni G25.2
+R25.2	preferred	Jak grč i spazam
+R25.2	exclusion	karpopedalni spazam R29.0
+R25.2	exclusion	spazmi (grčevi) kod odojčeta G40.4
+R25.3	preferred	Nevoljno grčenje snopova mišića (fascikulacije) 
+R25.3	inclusion	Trzanje mišića NOS 
+R25.8	preferred	Drugi i neoznačeni abnormalni nevoljni pokreti
+R26	preferred	Abnormalnosti hoda i pokretljivosti
+R26	exclusion	ataksija: NOS R27.0
+R26	exclusion	ataksija: hereditarna G11.-
+R26	exclusion	ataksija: lokomotorna (sifilitička) A52.1
+R26	exclusion	sindrom nepokretnosti (paraplegija) M62.3
+R26.0	preferred	Nekoordinisani hod (ataksični hod)
+R26.0	inclusion	Teturajući hod
+R26.1	preferred	Paralitički hod
+R26.1	inclusion	Spastičan hod
+R26.2	preferred	Otežan hod, neklasifikovan na drugom mjestu
+R26.3	preferred	Nepokretnost
+R26.3	inclusion	Vezanost za krevet 
+R26.3	inclusion	Vezanost za stolicu (kolica)
+R26.8	preferred	Druge i neoznačene abnormalnosti hoda i pokretljivosti
+R26.8	inclusion	Nestabilnost na nogama NOS
+R27	preferred	Drugi nedostatak koordinacije
+R27	exclusion	ataksični hod R26.0
+R27	exclusion	hereditarna ataksija G11.-
+R27	exclusion	vrtoglavica NOS R42
+R27.0	preferred	Ataksija, neoznačena
+R27.8	preferred	Drugi i neoznačeni nedostatak koordinacije
+R29	preferred	Drugi simptomi i znaci koji se odnose na nervni i mišićno-koštani sistem
+R29.0	preferred	Tetanija
+R29.0	inclusion	Karpopedalni spazam
+R29.0	exclusion	tetanija: histerična F44.5
+R29.0	exclusion	tetanija: novorođenčeta P71.3
+R29.0	exclusion	tetanija: paraštitasta E20.9
+R29.0	exclusion	tetanija: posttireoidektomična E89.2
+R29.1	preferred	Nadražaj moždanica mozga (meningizam)
+R29.2	preferred	Abnormalni refleks
+R29.2	exclusion	abnormalni refleks zjenice  H57.0
+R29.2	exclusion	hiperaktivni refleks povraćanja J39.2
+R29.2	exclusion	vazovagalna reakcija ili sinkopa R55
+R29.3	preferred	Abnormalno držanje tijela
+R29.4	preferred	Škljocanje u kuku
+R29.4	exclusion	urođene deformacije kuka Q65.-
+R29.6	preferred	Sklonost padanju, neklasifikovana na drugom mjestu 
+R29.6	inclusion	Sklonost padanju zbog starosti ili drugih nejasnih zdravstvenih problema
+R29.6	exclusion	nesreće X59.-
+R29.6	exclusion	otežan hod R26.2
+R29.6	exclusion	vrtoglavica i omaglica R42
+R29.6	exclusion	padovi koji dovode do povrede W00-W19
+R29.6	exclusion	padovi zbog bolesti koje su klasifikovane na drugom mjestu
+R29.6	exclusion	sinkopa i kolaps R55
+R29.8	preferred	Drugi i neoznačeni simptomi i znaci koji se odnose na nervni i mišićno-koštani sistem
+R30-R39	preferred	Simptomi i znaci koji se odnose na mokraćni sistem
+R30	preferred	Bol povezan sa mokrenjem
+R30	exclusion	psihogeni bol F45.3
+R30.0	preferred	Otežano mokrenje (dizurija)
+R30.0	inclusion	Suženje mokraćnih puteva
+R30.1	preferred	Grčevi mokraćne bešike
+R30.9	preferred	Bolno mokrenje, neoznačeno
+R30.9	inclusion	Bolno mokrenje NOS 
+R31	preferred	Krvava mokraća (hematurija), neoznačena
+R31	exclusion	povratna ili stalna krvava mokraća (hematurija) N02.-
+R32	preferred	Neoznačeno nezadržavanje mokraće (inkontinencija urina)
+R32	inclusion	Nekontrolisano noćno mokrenje (enureza) NOS 
+R32	exclusion	neorgansko nekontrolisano noćno mokrenje (enureza) F98.0
+R32	exclusion	stres inkontinencija i druga označena urinarna inkontinencija N39.3-N39.4
+R33	preferred	Zadržavanje (retencija) mokraće
+R34	preferred	Nemogućnost mokrenja (anurija) i smanjeno mokrenje (oligurija)
+R34	exclusion	komplikacije: pobačaja ili vanmaterične ili molarne trudnoće O00-O07; O08.4
+R34	exclusion	komplikacije: trudnoće, porođaja ili babinja O26.8, O90.4
+R35	preferred	Učestalo mokrenje (poliurija)
+R35	inclusion	Učestalo mokrenje
+R35	inclusion	Noćno mokrenje
+R35	exclusion	psihogeno učestalo mokrenje (poliurija) F45.3
+R36	preferred	Iscjedak iz mokraćne cijevi
+R36	inclusion	Iscjedak iz penisa
+R36	inclusion	Iscjedak iz mokraćne cijevi (uretroreja)
+R39	preferred	Drugi simptomi i znaci koji se odnose na mokraćni sistem
+R39.0	preferred	Mokrenje izvan normalnih puteva (ekstravazacija urina)
+R39.1	preferred	Druge teškoće mokrenja
+R39.1	inclusion	Otežani početak mokrenja
+R39.1	inclusion	Slab mlaz mokraće
+R39.1	inclusion	Isprekidan mlaz mokraće
+R39.2	preferred	Vanbubrežno povećanje ureje u krvi (ektrarenalna uremija)
+R39.2	inclusion	Predbubrežno povećanje ureje u krvi  (prerenalna uremija)
+R39.8	preferred	Drugi i neoznačeni simptomi i znaci koji se odnose na mokraćni sistem
+R40-R46	preferred	Simptomi i znaci koji se odnose na spoznaju, percepciju, emotivno stanje i ponašanje
+R40-R46	exclusion	oni koji čine dio obrasca mentalnog oboljenja F00-F99
+R40	preferred	Pospanost (somnolencija), obamrlost (stupor) i besvjesnost (koma)
+R40	exclusion	koma: dijabetična E10-E14 sa zajedničkim četvrtim karakterom .0
+R40	exclusion	koma: hepatična K72.-
+R40	exclusion	koma: hipoglikemijska (nedijabetična) E15
+R40	exclusion	koma: u novorođenčeta P91.5
+R40	exclusion	koma: uremijska N19
+R40.0	preferred	Pospanost (somnolencija)
+R40.0	inclusion	Mamurluk
+R40.1	preferred	Obamrlost (stupor)
+R40.1	inclusion	Polukoma
+R40.1	exclusion	stupor: katatonični F20.2
+R40.1	exclusion	stupor: depresivni F31-F33
+R40.1	exclusion	stupor: disocijativni F44.2
+R40.1	exclusion	stupor: manični F30.2
+R40.2	preferred	Besvjesnost (koma), neoznačena
+R40.2	inclusion	Nesvjesnost NOS
+R41	preferred	Drugi simptomi i znaci koji se odnose na kognitivne funkcije i svjesnost
+R41	exclusion	disocijativni (konverzivni) poremećaji F44.-
+R41.0	preferred	Dezorijentacija, neoznačena
+R41.0	inclusion	Zbunjenost (konfuzija) NOS 
+R41.0	exclusion	psihogena dezorijentacija F44.8
+R41.1	preferred	Gubitak pamćenja za period prije gubitka svijesti (anterogradna amnezija)
+R41.2	preferred	Gubitak pamćenja za period poslije dolaska svijesti (retrogradna amnezija)
+R41.3	preferred	Drugi gubitak pamćenja (amnezija)
+R41.3	inclusion	Gubitak pamćenja (amnezija) NOS 
+R41.3	exclusion	amnestički sindrom: zbog uzimanja psihoaktivnih supstanci F10-F19 sa zajedničkim četvrtim karakterom .6  
+R41.3	exclusion	amnestički sindrom: organski F04
+R41.3	exclusion	prolazna potpuna amnezija G45.4
+R41.8	preferred	Drugi i neoznačeni simptomi i znaci koji se odnose na kognitivne funkcije i svjesnost
+R42	preferred	Vrtoglavica i omaglica 
+R42	inclusion	Osjećaj lebdjenja 
+R42	inclusion	Vrtoglavica NOS 
+R42	exclusion	vertiginozni sindromi H81.-
+R43	preferred	Poremećaji čula mirisa i čula ukusa
+R43.0	preferred	Gubitak čula mirisa (anosmia)
+R43.1	preferred	Poremećaj razlikovanja mirisa (parosmia)
+R43.2	preferred	Poremećaj osjećanja ukusa (parageusia)
+R43.8	preferred	Drugi i neoznačeni poremećaji čula mirisa i čula ukusa
+R43.8	inclusion	Mješoviti poremećaj čula mirisa i čula ukusa
+R44	preferred	Drugi opšti simptomi i znaci koji se odnose na opšta osjećanja i opažanja (percepciju)
+R44	exclusion	poremećaji osjetljivosti kože R20.-
+R44.0	preferred	Slušne halucinacije
+R44.1	preferred	Vizuelne halucinacije
+R44.2	preferred	Druge halucinacije
+R44.3	preferred	Halucinacije, neoznačene
+R44.8	preferred	Drugi i neoznačeni simptomi i znaci koji se odnose na opšte osjećaje i opažanja (percepciju)
+R45	preferred	Simptomi i znaci koji se odnose na emotivno stanje
+R45.0	preferred	Nervoza
+R45.0	inclusion	Nervna napetost
+R45.1	preferred	Nemir i razdražljivost
+R45.2	preferred	Nezadovoljstvo
+R45.2	inclusion	Zabrinutost NOS
+R45.3	preferred	Demoralizacija i bezvoljnost
+R45.4	preferred	Razdražljivost i ljutnja
+R45.5	preferred	Neprijateljstvo
+R45.6	preferred	Fizičko nasilje
+R45.7	preferred	Stanje emocionalnog šoka i stresa, neoznačeno
+R45.8	preferred	Drugi simptomi i znaci koji se odnose na emotivno stanje
+R45.8	inclusion	Samoubilačke ideje (suicidalne tendencije)
+R45.8	exclusion	suicidalne ideje kao dio mentalnog oboljenja F00- F99
+R46	preferred	Simptomi i znaci koji se odnose na spoljašnji izgled i ponašanje
+R46.0	preferred	Veoma nizak nivo lične higijene
+R46.1	preferred	Neuobičajen lični izgled
+R46.2	preferred	Čudno i neobjašnjivo ponašanje
+R46.3	preferred	Pretjerana aktivnost
+R46.4	preferred	Usporeno i slabo reagovanje
+R46.4	exclusion	obamrlost (stupor) R40.1
+R46.5	preferred	Sumnjičavost i uočljivo izbjegavanje
+R46.6	preferred	Pretjerana briga i zaokupljenost stresnim događajima
+R46.7	preferred	Brbljivost i okolišanje koji čine razlog dolaska nejasnim 
+R46.8	preferred	Drugi simptomi i znaci kjie se odnose na spoljašnjei izgled i ponašanje
+R46.8	inclusion	Samozanemarivanje NOS
+R46.8	exclusion	nedovoljan unos hrane i vode zbog samozanemarivanja R63.6
+R47-R49	preferred	Simptomi i znaci koji se odnose na govor i glas
+R47	preferred	Poremećaji govora, neklasifikovani na drugom mjestu
+R47	exclusion	autizam F84.0-F84.1
+R47	exclusion	besmisleno gomilanje riječi F98.6
+R47	exclusion	specifični poremećaji razvoja govora i jezika F80.-
+R47	exclusion	mucanje (zamuckivanje) F98.5
+R47.0	preferred	Otežan govor (disfazija) i nemogućnost govora (afazija)
+R47.0	exclusion	progresivna izolovana afazija (nemogućnost govora) G31.0
+R47.1	preferred	Otežano izgovaranje riječi (dizartrija) i nemogućnost izgovaranja riječi (anartrija)
+R47.8	preferred	Drugi i neoznačeni poremećaji govora
+R48	preferred	Disleksija i drugi poremećaji raspoznavanja znakova, neklasifikovani na drugom mjestu
+R48	exclusion	specifični razvojni poremećaji u vještinama učenja F81.-
+R48.0	preferred	Disleksija i nerazumijevanje napisanih riječi (aleksija)
+R48.1	preferred	Nesposobnost shvatanja značenja čulnih utisaka (agnozija)
+R48.2	preferred	Nesposobnost izvođenja izvjesnih radnji (apraksija)
+R48.8	preferred	Drugi i neoznačeni poremećaji raspoznavanja znakova
+R48.8	inclusion	Nemogućnost računanja (akalkulija)
+R48.8	inclusion	Nemogućnost pisanja (agrafija)
+R49	preferred	Poremećaji glasa
+R49	exclusion	psihogeni poremećaj glasa F44.4
+R49.0	preferred	Poremećaj glasa (disfonija)
+R49.0	inclusion	Promuklost
+R49.1	preferred	Gubitak glasa (afonija)
+R49.1	inclusion	Gubitak glasa
+R49.2	preferred	Hipernazalni i hiponazalni govor 
+R49.8	preferred	Drugi i neoznačeni poremećaji glasa
+R49.8	inclusion	Promjene u glasu NOS
+R50-R69	preferred	Opšti simptomi i znaci
+R50	preferred	Groznica drugog i nepoznatog porijekla (febris causae ignote)
+R50	exclusion	groznica nepoznatog porijekla (za vrijeme) (kod): porođaja O75.2
+R50	exclusion	groznica nepoznatog porijekla (za vrijeme) (kod): novorođenčeta P81.9
+R50	exclusion	groznica u babinjama NOS O86.4
+R50.2	preferred	Groznica izazvana ljekovima
+R50.2	coding-hint	Ako se želi označiti uzrok, upotrebljava se dodatna šifra za identifikaciju lijeka (poglavlje XX)
+R50.8	preferred	Druga označena groznica
+R50.8	inclusion	Groznica sa drhtavicom
+R50.8	inclusion	Groznica sa ukočenošću
+R50.8	inclusion	Perzistentna (uporna) groznica
+R50.9	preferred	Groznica, neoznačena
+R50.9	inclusion	Hiperpireksija (veoma povećana tjelesna temperatura) NOS
+R50.9	inclusion	Pireksija (povećana tjelesna temperatura) NOS 
+R50.9	exclusion	maligna hipertermija zbog anestezije T88.3
+R51	preferred	Glavobolja
+R51	inclusion	Bol lica NOS 
+R51	exclusion	atipični bol lica G50.1
+R51	exclusion	migrena i drugi sindromi glavobolje G43-G44
+R51	exclusion	neuralgija trigeminusa G50.0
+R52	preferred	Bol, neklasifikovan na drugom mjestu
+R52	inclusion	bol koji se ne može odnositi na bilo koji organ ili dio tijela
+R52	exclusion	poremećaj ličnosti, osjećaj hroničnog bola F62.8
+R52	exclusion	glavobolja R51
+R52	exclusion	bol (u): trbuhu R10.-
+R52	exclusion	bol (u): leđima M54.9
+R52	exclusion	bol (u): dojci N64.4
+R52	exclusion	bol (u): grudima R07.1-R07.4
+R52	exclusion	bol (u): uhu H92.0
+R52	exclusion	bol (u): oku H57.1
+R52	exclusion	bol (u). zglobu M25.5
+R52	exclusion	bol (u): ekstremitetu M79.6
+R52	exclusion	bol (u): lumbalnoj regiji M54.5
+R52	exclusion	bol (u): karlici i perineumu R10.2
+R52	exclusion	bol (u): psihogeni F45.4
+R52	exclusion	bol (u): ramenu M75.8
+R52	exclusion	bol (u): kičmi M54.-
+R52	exclusion	bol (u): grlu R07.0
+R52	exclusion	bol (u): jeziku K14.6
+R52	exclusion	bol(u): zubu K08.0
+R52	exclusion	renalna kolika N23
+R52.0	preferred	Akutni bol
+R52.1	preferred	Hroničan nepodnošljiv bol
+R52.2	preferred	Drugi hroničan bol
+R52.9	preferred	Bol, neoznačen
+R52.9	inclusion	Generalizovan bol, NOS
+R53	preferred	Slabost i umor
+R53	inclusion	Astenija, NOS
+R53	inclusion	Malaksalost: NOS
+R53	inclusion	Malaksalost: hronična
+R53	inclusion	Malaksalost: nervna
+R53	inclusion	Opšte fizičko pogoršanje
+R53	inclusion	Letargija (mrtvilo, tromost, otupjelost)
+R53	inclusion	Zamor
+R53	exclusion	malaksalost: urođena P96.9
+R53	exclusion	malaksalost: staračka R54
+R53	exclusion	iscrpljenost i umor zbog: akutne stresne reakcije F43.0
+R53	exclusion	iscrpljenost i umor zbog: pretjeranog napora T73.3
+R53	exclusion	iscrpljenost i umor zbog: izloženosti T73.2
+R53	exclusion	iscrpljenost i umor zbog: vrućine T67.-
+R53	exclusion	iscrpljenost i umor zbog: neuroastenije F48.0
+R53	exclusion	iscrpljenost i umor zbog: trudnoće O26.8
+R53	exclusion	iscrpljenost i umor zbog: staračke astenije R54
+R53	exclusion	sindrom umora F48.0
+R53	exclusion	sindrom umora postvirotični G93.3
+R54	preferred	Senilnost
+R54	inclusion	Starija dob bez znakova psihoze
+R54	inclusion	Starenje bez znakova psihoze
+R54	inclusion	Senilna: astenija
+R54	inclusion	Senilna: malaksalost
+R54	exclusion	Senilna psihoza F03
+R55	preferred	Padanje u nesvijest (sinkopa) i iznenadna nedovoljna funkcija mozga ili srca (kolaps)
+R55	inclusion	Kratkotrajni gubitak svijesti
+R55	inclusion	Onesvješćivanje
+R55	exclusion	neurocirkulatorna astenija F45.3
+R55	exclusion	ortostatska hipotenzija I95.1
+R55	exclusion	neurogena ortostatska hipotenzija G90.3
+R55	exclusion	šok: NOS R57.9
+R55	exclusion	šok: kardiogeni R57.0
+R55	exclusion	šok: kao komplikacija ili nakon: pobačaja ili ektopične trudnoće ili molarne trudnoće O00-O07; O08.3
+R55	exclusion	šok: kao komplikacija ili nakon: trudova ili porođaja O75.1
+R55	exclusion	šok: postoperativni T81.1
+R55	exclusion	Stokes-Adamsov sindrom I45.9
+R55	exclusion	sinkopa karotidnog sinusa G90.0
+R55	exclusion	sinkopa zbog vrućine T67.1
+R55	exclusion	sinkopa: psihogena F48.8
+R55	exclusion	Nesvjesnost NOS R40.2
+R56	preferred	Grčevi (konvulzije), neklasifikovane na drugom mjestu
+R56	exclusion	konvulzije i napadi (kod): disocijativne F44.5
+R56	exclusion	konvulzije i napadi (kod): epilepsije G40-G41
+R56	exclusion	konvulzije i napadi (kod): novorođenčeta P90
+R56.0	preferred	Grčevi uzrokovani povišenom temperaturom tijela (febrilne konvulzije)
+R56.8	preferred	Drugi i neoznačeni grčevi (konvulzije)
+R56.8	inclusion	Napad NOS
+R56.8	inclusion	Konvulzivni napad NOS
+R57	preferred	Šok, neklasifikovan na drugom mjestu
+R57	exclusion	šok (zbog): anestezije T88.2
+R57	exclusion	šok (zbog): anafilakse (zbog): NOS T78.2
+R57	exclusion	šok (zbog): anafilakse (zbog): reakcije na hranu T78.0
+R57	exclusion	šok (zbog): anafilakse (zbog): reakcije na serum T80.5
+R57	exclusion	šok (zbog): komplikacije pobačaja ili ektopične ili molarne trudnoće O00-O07; O08.3
+R57	exclusion	šok (zbog): posljedice dejstva električne struje T75.4
+R57	exclusion	šok (zbog): dejstva munje T75.0
+R57	exclusion	šok (zbog ): akušerski O75.1
+R57	exclusion	šok (zbog): postoperativni T81.1
+R57	exclusion	šok (zbog): psihički F43.0
+R57	exclusion	šok (zbog): septički A41.9
+R57	exclusion	šok (zbog): traumatski T79.4
+R57	exclusion	Toksični šok sindrom A48.3
+R57.0	preferred	Kardiogeni šok 
+R57.1	preferred	Šok kod iskrvavljenosti (hipovolemijski)
+R57.2	preferred	Septički šok
+R57.8	preferred	Drugi šok
+R57.8	inclusion	Endotoksički šok
+R57.9	preferred	Šok, neoznačen
+R57.9	inclusion	Insuficijencija periferne cirkulacije NOS
+R58	preferred	Krvarenje (hemoragija), neklasifikovana na drugom mjestu
+R58	inclusion	Krvarenje (hemoragija) NOS
+R59	preferred	Povećani limfni čvorovi
+R59	inclusion	otok žlijezda
+R59	exclusion	limfadenitis: NOS I88.9
+R59	exclusion	limfadenitis: akutni L04.-
+R59	exclusion	limfadenitis: hronični I88.1
+R59	exclusion	limfadenitis: mezenterični (akutni) (hronični) I88.0
+R59.0	preferred	Lokalizovano povećani limfni čvorovi
+R59.1	preferred	Generalizovano povećani limfni čvorovi
+R59.1	inclusion	Limfadenopatija NOS
+R59.1	exclusion	HIV bolest koja rezultira (stalnom) generalizovanom limfadenopatijom B23.1
+R59.9	preferred	Povećani limfni čvorovi, neoznačeni
+R60	preferred	Otok (edem), neklasifikovan na drugom mjestu
+R60	exclusion	ascites R18
+R60	exclusion	hidrops fetusa NOS P83.2
+R60	exclusion	hidrotoraks J94.8
+R60	exclusion	edem (otok): angioneurotski T78.3
+R60	exclusion	edem (otok): mozga G93.6
+R60	exclusion	edem (otok): mozga zbog porođajne traume P11.0
+R60	exclusion	edem (otok): u trudnoći O12.0
+R60	exclusion	edem (otok): nasljedni Q82.0
+R60	exclusion	edem (otok): grkljana (larinksa) J38.4
+R60	exclusion	edem (otok): malnutricijski E40-E46
+R60	exclusion	edem (otok): nazofarinksa J39.2
+R60	exclusion	edem (otok): novorođenčeta P83.3
+R60	exclusion	edem (otok): farinksa (ždrijela) J39.2
+R60	exclusion	edem (otok): pluća J81
+R60.0	preferred	Lokalizovan otok (edem)
+R60.1	preferred	Generalizovan otok (edem)
+R60.9	preferred	Otok (edem), neoznačen
+R60.9	inclusion	Zadržavanje tečnosti NOS
+R61	preferred	Prekomjerno znojenje (hiperhidroza)
+R61.0	preferred	Lokalizovano prekomjerno znojenje (hiperhidroza)
+R61.1	preferred	Generalizovano prekomjerno znojenje (hiperhidroza)
+R61.9	preferred	Prekomjerno znojenje, (hiperhidroza), neoznačeno
+R61.9	inclusion	Prekomjerno znojenje
+R61.9	inclusion	Noćno znojenje
+R62	preferred	Izostanak očekivanog normalnog fiziološkog razvoja
+R62	exclusion	zakašnjeli pubertet E30.0
+R62.0	preferred	Zaostalost u razvoju
+R62.0	inclusion	Zakašnjenje ili izostanak očekivanog stepena fiziološkog razvoja
+R62.0	inclusion	Kašnjenje: govora
+R62.0	inclusion	Kašnjenje: hoda
+R62.8	preferred	Drugi izostanak normalnog fiziološkog razvoja
+R62.8	inclusion	Izostanak: postizanja težine
+R62.8	inclusion	Izostanak: uspješnog rasta
+R62.8	inclusion	Infantilnost, NOS
+R62.8	inclusion	Nedovoljan rast
+R62.8	inclusion	Tjelesna nerazvijenost
+R62.8	exclusion	HIV bolest koja onemogućava uspješan rast B22.2
+R62.8	exclusion	Fizička nerazvijenost zbog malnutricije E45
+R62.9	preferred	Drugi izostanak normalnog fiziološkog razvoja, neoznačen
+R63	preferred	Simptomi i znaci koji se odnose na uzimanje hrane i tečnosti
+R63	exclusion	bulimija NOS F50.2
+R63	exclusion	poremećaj uzimanja hrane neorganskog uzroka F50.-
+R63	exclusion	malnutricija E40-E46
+R63.0	preferred	Anoreksija
+R63.0	inclusion	Gubitak apetita 
+R63.0	exclusion	Anoreksija nervoza F50.8
+R63.0	exclusion	Gubitak apetita neorganskog uzroka F50.8
+R63.1	preferred	Prekomjerna žeđ (polidipsija)
+R63.1	inclusion	Prekomjerna žeđ
+R63.2	preferred	Prekomjerno uzimanje hrane (polifagija)
+R63.2	inclusion	Prekomjerno uzimanje hrane 
+R63.2	inclusion	Hiperalimentacija, NOS
+R63.3	preferred	Teškoće pri uzimanju hrane i loša prehrana
+R63.3	inclusion	Teškoće sa hranjenjem, NOS
+R63.3	exclusion	teškoće sa hranjenjem novorođenčeta P92.-
+R63.3	exclusion	problemi u hranjenju odojčeta neorganskog porijekla F98.2
+R63.4	preferred	Abnormalni gubitak težine
+R63.5	preferred	Abnormalno gojenje
+R63.5	exclusion	Gojaznost u trudnoći O26.0
+R63.5	exclusion	Gojaznost E66.-
+R63.6	preferred	Nedovoljan unos hrane i vode usljed samozanemarivanja
+R63.6	exclusion	izgladnjivanje zbog anoreksije R63.0
+R63.6	exclusion	izgladnjivanje zbog lišavanja hrane X53
+R63.6	exclusion	žeđ zbog lišavanja vode X54
+R63.6	exclusion	samozanemarivanje NOS, R46.8
+R63.8	preferred	Drugi simptomi i znaci koji  se odnose na uzimanje hrane i tečnosti
+R64	preferred	Izrazita mršavost (kaheksija)
+R64	exclusion	HIV bolest koja rezultira sindromom gubitka težine B22.2
+R64	exclusion	Maligna kaheksija C80.-
+R64	exclusion	Nutricioni marazam E41
+R65	preferred	Sindrom sistemskog odgovora na zapaljenje (SIRS)
+R65	note	Ova kategorija ne bi trebalo da se koristi u primarnom šifriranju. Ova kategorija se koristi u multiplom šifriranju kako bi se utvrdio uzrok ovog stanja. Šifra iz drugog poglavlja treba da se dodijeli prvo da bi se označio uzrok ili osnovna bolest. 
+R65.0	preferred	Sindrom sistemskog odgovora na zapaljenje (SIRS) zbog infekcije bez insuficijencije organa
+R65.1	preferred	Sindrom sistemskog odgovora na zapaljenje (SIRS) zbog infekcije sa insuficijencijom organa
+R65.1	inclusion	Teška sepsa
+R65.2	preferred	Sindrom sistemskog odgovora na zapaljenje (SIRS) bez infekcije i bez insuficijencije organa
+R65.3	preferred	Sindrom sistemskog odgovora na zapaljenje (SIRS) bez infekcije i sa insuficijencijom organa
+R65.9	preferred	Sindrom sistemskog odgovora na zapaljenje (SIRS), neoznačen
+R68	preferred	Drugi opšti simptomi i znaci
+R68.0	preferred	Niska temperatura tijela (hipotermija), koja nije povezana sa niskom spoljnom temperaturom
+R68.0	exclusion	hipotermija (zbog)(kod): NOS (slučajna) T68
+R68.0	exclusion	hipotermija (zbog)(kod): anestezije T88.5
+R68.0	exclusion	hipotermija (zbog)(kod): niske spoljne temperature T68
+R68.0	exclusion	hipotermija (zbog)(kod): novorođenčeta P80.-
+R68.1	preferred	Nespecifični simptomi dojenačke dobi
+R68.1	inclusion	Pretjerani plač odojčeta
+R68.1	inclusion	Razdražljivost odojčeta
+R68.1	exclusion	novorođenačka cerebralna razdražljivost P91.3
+R68.1	exclusion	sindrom teškoća u nicanju zuba K00.7
+R68.2	preferred	Suvoća usta, neoznačena
+R68.2	exclusion	suvoća usta zbog: dehidratacije E86
+R68.2	exclusion	suvoća usta zbog: sindroma suvoće [Sjögren] M35.0
+R68.2	exclusion	hiposekrecija pljuvačne žlijezde K11.7
+R68.3	preferred	Batičasti prsti
+R68.3	inclusion	Batičasti nokti
+R68.3	exclusion	kongenitalni četvrtasti (batičasti) prsti Q68.1
+R68.3	exclusion	kongenitalni četvrtasti (batičasti) nokti Q84.6
+R68.8	preferred	Drugi opšti označeni simptomi i znaci
+R69	preferred	Nepoznati i neoznačeni uzroci obolijevanja
+R69	inclusion	Bolest, NOS
+R69	inclusion	Nedijagnostifikovana bolest, neoznačena prema mjestu niti prema sistemu koji je zahvatila 
+R70-R79	preferred	Abnormalni nalazi pri ispitivanju krvi, bez dijagnoze
+R70-R79	exclusion	abnormalnosti: antenatalnog skrininga majke O28.-
+R70-R79	exclusion	abnormalnosti: koagulacije D65-D68
+R70-R79	exclusion	abnormalnosti: lipida E78.-
+R70-R79	exclusion	abnormalnosti: trombocita D69.-
+R70-R79	exclusion	abnormalnosti: bijelih krvnih zrnaca koji su klasifikovani na drugom mjestu D70-D72
+R70-R79	exclusion	dijagnostički abnormalni nalazi koji su klasifikovani na drugom mjestu - pogledati abecedni index
+R70-R79	exclusion	Hemoragijski i hematološki poremećaji fetusa i novorođenčeta P50-P61
+R70	preferred	Povećana sedimentacija eritrocita i poremećaji viskoznosti plazme 
+R70.0	preferred	Povećana sedimentacija eritrocita
+R70.1	preferred	Povećana viskoznost plazme
+R71	preferred	Poremećaj crvenih krvnih zrnaca
+R71	inclusion	Poremećaj crvenih krvnih zrnaca: morfologije NOS
+R71	inclusion	Poremećaj crvenih krvnih zrnaca: volumena NOS
+R71	inclusion	Anizocitoza
+R71	inclusion	Poikilocitoza
+R71	exclusion	anemije D50-D64
+R71	exclusion	policitemija: NOS D75.1
+R71	exclusion	policitemija: benigna (porodična) D75.0
+R71	exclusion	policitemija: novorođenčeta P61.1
+R71	exclusion	policitemija: sekundarna D75.1
+R71	exclusion	policitemija: vera D45
+R72	preferred	Poremećaj bijelih krvnih zrnaca, neklasifikovan na drugom mjestu
+R72	inclusion	Abnormalna leukocitna diferencijacija NOS
+R72	exclusion	leukocitoza D72.8
+R73	preferred	Povišen nivo šećera u krvi
+R73	exclusion	diabetes mellitus (šećerna bolest) E10-E14
+R73	exclusion	diabetes mellitus (šećerna bolest) u trudnoći, porođaju i babinjama O24.-
+R73	exclusion	poremećaji u novorođenačkom uzrastu P70.0-P70.2
+R73	exclusion	postoperativna hipoinsulinemija E89.1
+R73.0	preferred	Abnormalni nalaz testa opterećenja glukozom
+R73.0	inclusion	Dijabetes: hemijski
+R73.0	inclusion	Dijabetes: latentni
+R73.0	inclusion	Smanjena tolerancija glukoze
+R73.0	inclusion	Predijabetes
+R73.9	preferred	Povišen nivo šećera u krvi (hiperglikemija), neoznačena
+R74	preferred	Abnormalni nivo serumskih enzima 
+R74.0	preferred	Povećanei nivo transaminaze i dehidrogenaze mliječne kisjeline (LDH)
+R74.8	preferred	Abnormalni nivoi drugih serumskih enzima 
+R74.8	inclusion	Abnormalni nivo: kisjele fosfataze
+R74.8	inclusion	Abnormalni nivo: alkalne fosfataze
+R74.8	inclusion	Abnormalni nivo: amilaze
+R74.8	inclusion	Abnormalni nivo: lipaze (triacilglicerol lipaze)
+R74.9	preferred	Abnormalni nivo neoznačenih serumskih enzima 
+R75	preferred	Laboratorijska potvrda virusa humane imunodeficijencije (HIV)
+R75	inclusion	Neodređeni nalaz HIV-a kod odojčeta
+R75	exclusion	asimptomatska infekcija virusom humane imunodeficijencije (HIV) (Z21)
+R75	exclusion	HIV bolest B20-B24
+R75	exclusion	HIV bolest, koja komplikuje trudnoću, porođaj i babinje O98.7
+R76	preferred	Drugi abnormalni imunološki nalazi u serumu
+R76.0	preferred	Povećani titar antitijela
+R76.0	exclusion	izoimunizacija u trudnoći O36.0-O36.1
+R76.0	exclusion	izoimunizacija u trudnoći koja utiče na plod ili novorođenče P55.-
+R76.1	preferred	Abnormalna reakcija na tuberkulinski test
+R76.1	inclusion	Abnormalan rezultat Mantoux testa
+R76.2	preferred	Lažno pozitivna serološka reakcija na sifilis
+R76.2	inclusion	Lažno pozitivna Wassermann-ova reakcija
+R76.8	preferred	Druge označene imunološke nenormalnosti u serumu 
+R76.8	inclusion	Povišen nivo imunoglobulina NOS
+R76.9	preferred	Abnormalni imunološki nalaz u serumu, neoznačen
+R77	preferred	Drugi poremećaji bjelančevina u krvi
+R77	exclusion	Poremećaj metabolizma plazma proteina E88.0
+R77.0	preferred	Poremećaj albumina
+R77.1	preferred	Poremećaj globulina
+R77.1	inclusion	Hiperglobulinemija NOS
+R77.2	preferred	Poremećaj alfafetoproteina
+R77.8	preferred	Drugi označeni poremećaji proteina u plazmi
+R77.9	preferred	Poremećaj proteina plazme, neoznačen
+R78	preferred	Prisutnost droge i drugih supstanci kojih obično nema u krvi 
+R78	exclusion	Duševni poremećaji i poremećaji ponašanja zbog upotrebe psihoaktivnih supstanci F10-F19
+R78.0	preferred	Prisutnost alkohola u krvi
+R78.0	coding-hint	Koristiti dodatnu šifru vanjskog uzroka (Y90.-), ako je potrebno za detaljnije određivanje nivoa alkohola u krvi
+R78.1	preferred	Prisutnost opijata u krvi
+R78.2	preferred	Prisutnost kokaina u krvi
+R78.3	preferred	Prisutnost halucinogena u krvi
+R78.4	preferred	Prisutnost drugih droga u krvi koje mogu  uzrokovati zavisnost
+R78.5	preferred	Prisutnost psihotropnog lijeka u krvi
+R78.6	preferred	Prisutnost steroida u krvi
+R78.7	preferred	Prisutnost abnormalne količine teških metala u krvi
+R78.8	preferred	Prisutnost drugih označenih supstanci u krvi kojih normalno nema
+R78.8	inclusion	Prisutnost abnormalne količine litijuma u krvi
+R78.9	preferred	Prisutnost neoznačene supstance, koje normalno nema u krvi 
+R79	preferred	Drugi abnormalni krvni hemijski nalazi
+R79	exclusion	Abnormalnost tečnosti, elektrolita i acido-bazne ravnoteže E86-E87
+R79	exclusion	asimptomatska hiperurikemija E79.0
+R79	exclusion	hiperglikemija NOS R73.9
+R79	exclusion	hipoglikemija NOS E16.2
+R79	exclusion	hipoglikemija NOS novorođenčeta P70.3-P70.4
+R79	exclusion	specifični nalazi koji upućuju na poremećaj: metabolizma amino kiselina E70-E72
+R79	exclusion	specifični nalazi koji upućuju na poremećaj: metabolizma ugljenih hidrata E73-E74
+R79	exclusion	specifični nalazi koji upućuju na poremećaj: metabolizma lipida E75.-
+R79.0	preferred	Abnormalan nivo minerala u krvi
+R79.0	inclusion	Abnormalan nivo u krvi: kobalta
+R79.0	inclusion	Abnormalan nivo u krvi: bakra
+R79.0	inclusion	Abnormalan nivo u krvi: gvožđa
+R79.0	inclusion	Abnormalan nivo u krvi: magnezijuma
+R79.0	inclusion	Abnormalan nivo u krvi: minerala, neklasifikovanih na drugom mjestu
+R79.0	inclusion	Abnormalan nivo u krvi: cinka
+R79.0	exclusion	abnormalan nivo litijuma u krvi R78.8
+R79.0	exclusion	poremećaj u metabolizmu minerala E83.-
+R79.0	exclusion	novorođenačka hipomagnezemija P71.2
+R79.0	exclusion	nutriciona deficijencija minerala E58-E61
+R79.8	preferred	Drugi označeni abnormalni nalazi hemijske analize krvi 
+R79.8	inclusion	Abnormalan nivo gasova u krvi
+R79.9	preferred	Abnormalni nalazi hemijske analize krvi, neoznačeni
+R80-R82	preferred	Abnormalni nalazi mokraće, bez dijagnoze
+R80-R82	exclusion	abnormalni nalaz tokom antenatalnog skrininga majke O28.-
+R80-R82	exclusion	Dijagnostički abnormalni nalazi klasifikovani na drugom mjestu - pogledati abecedni indeks
+R80-R82	exclusion	specifični nalazi koji ukazuju na poremećaj: metabolizma amino kisjelina E70-E72
+R80-R82	exclusion	specifični nalazi koji ukazuju na poremećaj: metabolizma ugljenih hidrata E73-E74
+R80	preferred	Izolovana proteinurija
+R80	inclusion	Albuminurija NOS
+R80	inclusion	Bence Jones proteinurija
+R80	inclusion	Proteinurija NOS
+R80	exclusion	proteinurija: u trudnoći O12.1
+R80	exclusion	proteinurija: izolovana, sa označenim morfološkim lezijama N06.-
+R80	exclusion	proteinurija: ortostatska N39.2
+R80	exclusion	proteinurija: stalna N39.1
+R81	preferred	Šećer u mokraći (glikozurija)
+R81	exclusion	renalna glikozurija E74.8
+R82	preferred	Drugi abnormalni nalazi u mokraći
+R82	exclusion	Hematurija R31
+R82.0	preferred	Prisustvo masnih kapljica u mokraći (hilurija)
+R82.0	exclusion	hilurija kod filarijaze B74.-
+R82.1	preferred	Mioglobin u mokraći (mioglobinurija)
+R82.2	preferred	Prisustvo žučnih soli ili žuči u mokraći (biliurija)
+R82.3	preferred	Hemoglobin u mokraći (hemoglobinurija)
+R82.3	exclusion	hemoglobinurija: zbog hemolize koja je izazvana spoljašnjim uzrocima, neklasifikovana na drugom mjestu D59.6
+R82.3	exclusion	hemoglobinurija: paroksizmalna noćna  [Marchiafava-Micheli] D59.5
+R82.4	preferred	Aceton u mokraći (acetonurija)
+R82.4	inclusion	Ketoni u mokraći (ketonurija)
+R82.5	preferred	Povećan nivo droga, ljekova i bioloških supstanci u mokraći
+R82.5	inclusion	Povećan nivo u mokraći: kateholamina
+R82.5	inclusion	Povećan nivo u mokraći: indol-acetatne kisjeline
+R82.5	inclusion	Povećan nivo u mokraći: 17-ketosteroida
+R82.5	inclusion	Povećan nivo u mokraći: steroida
+R82.6	preferred	Abnormalan nivo supstanci uglavnom nemedicinskog porijekla u mokraći
+R82.6	inclusion	Abnormalan nivo teških metala u mokraći
+R82.7	preferred	Abnormalan nalaz pri mikrobiološkim analizama mokraće
+R82.7	inclusion	Pozitivan nalaz urinokulture
+R82.8	preferred	Abnormalan nalaz pri citološkim i histološkim analizama mokraće
+R82.9	preferred	Drugi i neoznačeni abnormalni nalaz u mokraći
+R82.9	inclusion	Ćelije i cilindri u urinu
+R82.9	inclusion	Kristalurija
+R82.9	inclusion	Melanurija
+R83-R89	preferred	Abnormalni nalazi drugih tjelesnih tečnosti, supstanci i tkiva, bez dijagnoze
+R83-R89	exclusion	abnormalni nalaz: antenatalnog skrininga majke O28.-
+R83-R89	exclusion	abnormalni nalaz: pregled: krvi, bez dijagnoze R70-R79
+R83-R89	exclusion	abnormalni nalaz: pregled: mokraće, bez dijagnoze R80-R82
+R83-R89	exclusion	dijagnostički abnormalni nalazi klasifikovani na drugom mjestu-pogledati abecedni indeks
+R83	preferred	Abnormalni nalazi u cerebrospinalnoj tečnosti
+R83[S18R83_4]	modifierlink	Vidjeti prije R83 za podgrupe
+R84	preferred	Abnormalni nalazi u uzorcima iz disajnih organa i grudnog koša
+R84[S18R83_4]	modifierlink	Vidjeti prije R83 za podgrupe
+R84	inclusion	Abnormalan nalaz u: bronhijalnom ispirku
+R84	inclusion	Abnormalan nalaz u: nosnom sekretu
+R84	inclusion	Abnormalan nalaz u: pleuralnoj tečnosti
+R84	inclusion	Abnormalan nalaz u: sputumu
+R84	inclusion	Abnormalan nalaz u: brisu grla
+R84	exclusion	sukrvičav ispljuvak R04.2
+R85	preferred	Abnormalni nalazi u uzorcima iz sistema za varenje i abdominalne šupljine
+R85[S18R83_4]	modifierlink	Vidjeti prije R83 za podgrupe
+R85	inclusion	Abnormalan nalaz u: peritonealnoj tečnosti
+R85	inclusion	Abnormalan nalaz u: pljuvački
+R85	exclusion	abnormalnosti stolice R19.5
+R86	preferred	Abnormalni nalazi u uzorcima iz muških polnih organa
+R86[S18R83_4]	modifierlink	Vidjeti prije R83 za podgrupe
+R86	inclusion	Abnormalan nalaz u: sekretu prostate
+R86	inclusion	Abnormalan nalaz u: sjemenu, sjemenoj tečnosti
+R86	inclusion	Abnormalnosti spermatozoida
+R86	exclusion	azoospermija N46
+R86	exclusion	oligospermija N46
+R87	preferred	Abnormalni nalazi u uzorcima iz ženskih polnih organa
+R87[S18R83_4]	modifierlink	Vidjeti prije R83 za podgrupe
+R87	inclusion	Abnormalni nalazi u sekretu i brisevima iz: grlića materice
+R87	inclusion	Abnormalni nalazi u sekretu i brisevima iz: vagine
+R87	inclusion	Abnormalni nalazi u sekretu i brisevima iz: vulve
+R87	exclusion	karcinom in situ D05-D07.3
+R87	exclusion	displazija: grlića materice N87.-
+R87	exclusion	displazija: vagine N89.0-N89.3
+R87	exclusion	displazija: vulve N90.0-N90.3
+R89	preferred	Abnormalni nalazi u uzorcima iz drugih organa, sistema i tkiva
+R89[S18R83_4]	modifierlink	Vidjeti prije R83 za podgrupe
+R89	inclusion	Abnormalni nalazi u: iscjetku iz bradavice dojke
+R89	inclusion	Abnormalni nalazi u: sinovijalnoj (zglobnoj) tečnosti
+R89	inclusion	Abnormalni nalazi u: sekretu rane
+R90-R94	preferred	Abnormalni nalazi dijagnostičkog snimanja i funkcionalnih ispitivanja, bez dijagnoze
+R90-R94	inclusion	Nespecifični abnormalni nalazi dijagnostičkog snimanja: kompjuterizovana aksijalna tomografija (CAT scan)
+R90-R94	inclusion	Nespecifični abnormalni nalazi dijagnostičkog snimanja: magnetne rezonance (MRI) (NMR)
+R90-R94	inclusion	Nespecifični abnormalni nalazi dijagnostičkog snimanja: pozitron emisione tomografije (PET scan)
+R90-R94	inclusion	Nespecifični abnormalni nalazi dijagnostičkog snimanja: termografije
+R90-R94	inclusion	Nespecifični abnormalni nalazi dijagnostičkog snimanja: ultrazvuka (ehograma)
+R90-R94	inclusion	Nespecifični abnormalni nalazi dijagnostičkog snimanja: rendgenski snimak
+R90-R94	exclusion	abnormalni nalazi u antenatalnom skriningu majke O28.-
+R90-R94	exclusion	dijagnostički abnormalni nalazi koji su klasifikovani na drugom mjestu-pogledati abecedni index
+R90	preferred	Abnormalni nalazi dijagnostičkog snimanja centralnog nervnog sistema
+R90.0	preferred	Ekspandirajuće oštećenje unutar lobanje
+R90.8	preferred	Drugi abnormalni nalazi kod radiološke dijagnostike centralnog nervnog sistema
+R90.8	inclusion	Abnormalni ehoencefalogram
+R90.8	inclusion	Bolest bijele mase mozga, NOS
+R91	preferred	Abnormalan nalaz dijagnostičkog snimanja pluća
+R91	inclusion	Lezije okrugle poput novčića NOS
+R91	inclusion	Masa u plućima NOS
+R92	preferred	Abnormalan nalaz dijagnostičkog snimanja dojke
+R93	preferred	Abnormalni nalazi dijagnostičkog snimanja drugih struktura tijela
+R93.0	preferred	Abnormalni nalazi dijagnostičkog snimanja lobanje i glave, neklasifikovane na drugom mjestu
+R93.0	exclusion	Ekspandirajuće oštećenje unutar lobanje R90.0
+R93.1	preferred	Abnormalni nalazi dijagnostičkog snimanja srca i koronarne cirkulacije 
+R93.1	inclusion	Abnormalni: ehokardiogram NOS
+R93.1	inclusion	Abnormalna: srčana sjenka 
+R93.2	preferred	Abnormalni nalazi dijagnostičkog snimanja jetre i žučnih puteva
+R93.2	inclusion	Nevidljivost žučne kese
+R93.3	preferred	Abnormalni nalazi dijagnostičkog snimanja drugih dijelova organa za varenje
+R93.4	preferred	Abnormalni nalazi dijagnostičkog snimanja mokraćnih organa
+R93.4	inclusion	Nedostatak punjenja: bešike
+R93.4	inclusion	Nedostatak punjenja: bubrega
+R93.4	inclusion	Nedostatak punjenja: uretera
+R93.4	exclusion	hipertrofija bubrega N28.8
+R93.5	preferred	Abnormalni nalazi dijagnostičkog snimanja ostalih djelova trbušne šupljine, uključujući retroperitoneum
+R93.6	preferred	Abnormalni nalazi dijagnostičkog snimanja ekstremiteta
+R93.6	exclusion	abnormalni nalazi na koži i potkožnom tkivu R93.8
+R93.7	preferred	Abnormalni nalazi dijagnostičkog snimanja mišićno-koštanog sistema
+R93.7	exclusion	abnormalni nalazi dijagnostičkog snimanja lobanje R93.0
+R93.8	preferred	Abnormalni nalazi dijagnostičkog snimanja drugih označenih struktura tijela
+R93.8	inclusion	Abnormalni radiološki nalazi kože i potkožnog tkiva
+R93.8	inclusion	Medijastinalni pomak
+R94	preferred	Abnormalni rezultati funkcionalnih ispitivanja
+R94	inclusion	Abnormalni rezultati: radioizotopskih ispitivanja
+R94	inclusion	Abnormalni rezultati: scintigrafije
+R94.0	preferred	Abnormalni rezultati funkcionalnog ispitivanja centralnog nervnog sistema
+R94.0	inclusion	Abnormalni elektroencefalogram (EEG)
+R94.1	preferred	Abnormalni rezultati funkcionalnog ispitivanja perifernog nervnog sistema i posebnih čula
+R94.1	inclusion	Abnormalni: elektromiogram (EMG)
+R94.1	inclusion	Abnormalni: elektrookulogram (EOG)
+R94.1	inclusion	Abnormalni: elektroretinogram (ERG)
+R94.1	inclusion	Abnormalni: odgovor na stimulaciju nerva
+R94.1	inclusion	Abnormalni: vizuelni evocirani potencijal (VEP)
+R94.2	preferred	Abnormalni rezultati funkcionalnog ispitivanja pluća
+R94.2	inclusion	Smanjen: ventilacijski kapacitet
+R94.2	inclusion	Smanjen: vitalni kapacitet
+R94.3	preferred	Abnormalni rezultati funkcionalnog ispitivanja kardiovaskularnog sistema
+R94.3	inclusion	Abnormalni: elektrokardiogram (ECG) (EKG)
+R94.3	inclusion	Abnormalne: elektrofiziološke intrakardijalne pretrage
+R94.3	inclusion	Abnormalni: fonokardiogram
+R94.3	inclusion	Abnormalni: vektorkardiogram
+R94.4	preferred	Abnormalni rezultati funkcionalnog ispitivanja bubrega
+R94.4	inclusion	Abnormalnost rezultata testa bubrežne funkcije
+R94.5	preferred	Abnormalni rezultati funkcionalnog ispitivanja jetre
+R94.6	preferred	Abnormalni rezultati funkcionalnog ispitivanja štitaste žlijezde
+R94.7	preferred	Abnormalni rezultati funkcionalnog ispitivanja endokrinog sistema
+R94.7	exclusion	abnormalni test tolerancije na glukozu R73.0
+R94.8	preferred	Abnormalni rezultati funkcionalnog ispitivanja drugih organa i sistema
+R94.8	inclusion	Abnormalna: vrijednost bazalnog metabolizma (BMR)
+R94.8	inclusion	Abnormalna: funkcionalna pretraga bešike
+R94.8	inclusion	Abnormalna: funkcionalna pretraga slezine
+R95-R99	preferred	Smrt koja je izazvana bolešću i smrt nepoznatog uzroka
+R95-R99	exclusion	smrt ploda neodređenog uzroka P95
+R95-R99	exclusion	akušerska smrt, NOS O95
+R95	preferred	Iznenadna smrt odojčeta
+R96	preferred	Druga iznenadna smrt, uzrok nepoznat
+R96	exclusion	iznenadna: srčana smrt (opisana kao takva) I46.1
+R96	exclusion	iznenadni: sindrom iznenadne smrti odojčeta R95
+R96.0	preferred	Trenutna smrt
+R96.0	inclusion	Iznenadna neobjašnjiva smrt odrasle osobe
+R96.0	exclusion	Iznenadna smrt nepoznate etiologije (A00.0-Q99.9,U04.9,V01.0-Y89.9)
+R96.1	preferred	Smrt koja nastaje za manje od 24 sata od pojave simptoma, a nije objašnjena na drugi način
+R96.1	inclusion	Smrt za koju se zna da nije bila nasilna, ni trenutna, a uzrok se nije mogao utvrditi
+R96.1	inclusion	Smrt bez znakova bolesti
+R98	preferred	Smrt bez prisustva svjedoka
+R98	inclusion	Smrt pod okolnostima kada je tijelo umrlog nađeno, a uzrok smrti se nije mogao utvrditi
+R98	inclusion	Nađen mrtav
+R99	preferred	Druga smrt uzrokovana bolešću i neoznačeni uzroci smrti
+R99	inclusion	Smrt, NOS
+R99	inclusion	Nepoznat uzrok smrti

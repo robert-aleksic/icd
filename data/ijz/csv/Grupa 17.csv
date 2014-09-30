@@ -1,0 +1,1597 @@
+XVII	preferred	Urođene malformacije, deformacije i hromozomske nenormalnosti
+XVII	exclusion	urođeni poremećaji metabolizma
+Q00-Q07	preferred	Urođene malformacije nervnog sistema
+Q00	preferred	Nedostatak mozga i slicne nakaznosti
+Q00.0	preferred	Nedostatak mozga
+Q00.0	inclusion	Nedostatak glave
+Q00.0	inclusion	Nedostatak kostiju lobanje
+Q00.0	inclusion	Nedostatak mozga i kičmene moždine
+Q00.0	inclusion	Nedostatak polovine mozga
+Q00.0	inclusion	Nedostatak polovine glave
+Q00.1	preferred	Rascijepljenost lobanje i kičme
+Q00.2	preferred	Rascijepljenost potiljka i vratne kičme
+Q01	preferred	Kila mozga
+Q01	inclusion	Kila mozga i kičmene moždine
+Q01	inclusion	Vodena moždana kila
+Q01	inclusion	Vodena kila moždanih ovojnica na glavi
+Q01	inclusion	Kila moždanih ovojnica mozga
+Q01	inclusion	Kila mozga i moždanih ovojnica
+Q01	exclusion	Meckel-Gruber-ov sindrom
+Q01.0	preferred	Kila mozga u predjelu cela
+Q01.1	preferred	Kila mozga u predjelu nosa i cela
+Q01.2	preferred	Kila mozga u predjelu potiljka
+Q01.8	preferred	Kila mozga, druge lokalizacije
+Q01.9	preferred	Kila mozga, neoznačena
+Q02	preferred	Mala glava
+Q02	inclusion	Mala vodena glava
+Q02	inclusion	Mali (mikro) mozak
+Q02	exclusion	Meckel-Gruber-ov sindrom (Q61.9)
+Q03	preferred	urođena vodena glava
+Q03	inclusion	Vodena glava u novorođenčeta
+Q03	exclusion	Arnold-chiarijev sindrom (Q07.0)
+Q03	exclusion	Stečena vodena glava (G91.-)
+Q03	exclusion	Vodena glava usled urođene toksoplazmozne infekcije (P37.1)
+Q03	exclusion	Vodena glava sa rascepom kičme (spinom bifidom) (Q05.0-Q05.4)
+Q03.0	preferred	Malformacije sylviusovog kanala
+Q03.0	inclusion	Anomalije Silvijusovog kanala
+Q03.0	inclusion	Urođena opstrukcija Silvijusovog kanala
+Q03.0	inclusion	Stenoza Silvijusovog kanala
+Q03.1	preferred	Srastanje (atrezjia) Magendijevog i Luškinovog otvora
+Q03.1	inclusion	Dandy-Walker-ov sindrom
+Q03.8	preferred	Urođena vodena glava - ostale
+Q03.9	preferred	urođena vodena glava, neoznačena
+Q04	preferred	Druge urođene anomalije mozga
+Q04	exclusion	Kilkopost (Q87.0)
+Q04	exclusion	Velika glava (Q75.3)
+Q04.0	preferred	urođene malformacije zuljevitog tijela (corpus calosum)
+Q04.0	inclusion	Nedostatak zametka (agenezija) žuljevitog tijela 
+Q04.1	preferred	Nedostatak vidnog dijela mozga
+Q04.2	preferred	Šupljikavost prednjeg dijela mozga
+Q04.3	preferred	Druga nakaznost sa nedovoljnim razvojem mozga
+Q04.3	inclusion	Nedostatak (odustnost) dijela mozga
+Q04.3	inclusion	Nedostatak zametka (agenezija) dijela mozga
+Q04.3	inclusion	Nepostojanje razvoja (aplazija) dijela mozga
+Q04.3	inclusion	Zakržljalost (hipoplazija) dijela mozga
+Q04.3	inclusion	Nedostatak moždanih vijuga
+Q04.3	inclusion	Nedostatak mozga sa nakupljanjem cerebospinalne tečnosti u lobanji
+Q04.3	inclusion	"Glatki mozak" - nedostatak moždanih vijuga i kanala (lizencefalija)
+Q04.3	inclusion	Male moždane vijuge
+Q04.3	inclusion	Široke moždane vijuge
+Q04.3	exclusion	Urođene malformacije žuljevitog tijela (Q04.0)
+Q04.4	preferred	Nepravilan razvoj ocnih pregrada
+Q04.5	preferred	Veliki mozak
+Q04.6	preferred	urođena cista mozga
+Q04.6	inclusion	Ciste i kavitacije bele mase mozga (porencefalija)
+Q04.6	inclusion	Razdojenost moždanog tkiva (šizencefalija)
+Q04.6	exclusion	Stečena porencefalična cista (G93.0)
+Q04.8	preferred	Druge označene urođene malformacije mozga
+Q04.8	inclusion	Velike vijuge
+Q04.9	preferred	urođena malformacija mozga, neoznačena
+Q04.9	inclusion	Urođena anomalija mozga: NOS
+Q04.9	inclusion	Urođeni deformitet mozga: NOS
+Q04.9	inclusion	Urođena bolest ili oštećenje mozga: NOS
+Q04.9	inclusion	Urođene višestruke anomalije mozga: NOS
+Q05	preferred	Rascjep kičmenog stuba
+Q05	inclusion	Vodeno-moždanične kile kičme
+Q05	inclusion	Moždanične kile kičme
+Q05	inclusion	Kile moždanica i kičmene moždine
+Q05	inclusion	Kile kičmene moždine
+Q05	inclusion	Kile kičmene moždine i moždanica
+Q05	inclusion	Nedovršeno srastanje donjeg kraja kičmene moždine i kičmenog stuba
+Q05	inclusion	Rascjep kičmenog stuba, otvoreni, cistični
+Q05	inclusion	Kila kanala kičmene moždine i kičmene moždine
+Q05	exclusion	Arnold-Chiari-jev sindrome (Q07.0)
+Q05	exclusion	Neprimjećeni rascjep kičmenog stuba )Q76.0)
+Q05.0	preferred	Rascjep vratnog dijela kičmenog stuba sa vodenom glavom
+Q05.1	preferred	Rascjep grudnog dijela kičmenog stuba  sa vodenom glavom
+Q05.1	inclusion	Rascjep zadnje strane kičmenog stuba sa vodenom glavom
+Q05.1	inclusion	Rascjep grudnoslabinskog dijela kičmenog stuba sa vodenom glavom
+Q05.2	preferred	Rascjep slabinskog dijela kičmenog stuba sa vodenom glavom
+Q05.2	inclusion	Rascjep slabinsko-krstnog dijela kičmenog stuba sa vodenom glavom
+Q05.3	preferred	Rascjep krsne kosti sa vodenom glavom
+Q05.4	preferred	Rascjep kičmenog stuba sa vodenom glavom, neoznačen
+Q05.5	preferred	Rascjep vratnog dijela kičmenog stuba bez vodene glave
+Q05.6	preferred	Rascjep grudnog dijela kičmenog stuba bez vodene glave
+Q05.6	inclusion	Rascjep zadnje strane kičmenog stuba NOS
+Q05.6	inclusion	Rascjep grudnoslabinskog dijela kičmenog stuba NOS
+Q05.7	preferred	Rascjep slabinskog dijela kičme bez vodene glave
+Q05.7	inclusion	Rascjep slabinsko-krstnog dijela kičmenog stuba NOS
+Q05.8	preferred	Rascjep krsne kosti bez vodene glave
+Q05.9	preferred	Rascjep kičmenog stuba, neoznačen
+Q06	preferred	Druge urođene malformacije kičmene moždine
+Q06.0	preferred	urođen nedostatak kičmene moždine
+Q06.1	preferred	Zakrzljalost i nepravilan razvoj kičmene moždine
+Q06.1	inclusion	
+Q06.1	inclusion	
+Q06.1	inclusion	Nepravilan razvoj kičmene moždine
+Q06.2	preferred	Rascijepljenost kičmene moždine
+Q06.3	preferred	Druge urođene malformacije donjeg kraja (cauda equina-e) kičmene moždine
+Q06.4	preferred	Vodena kičmena mozdina
+Q06.4	inclusion	Rascjepi i kaverne kičmene moždine
+Q06.8	preferred	Druge označene urođene malformacije kičmene moždine
+Q06.9	preferred	urođena malformacija kičmene moždine, neoznačena
+Q06.9	inclusion	Urođene anomalije kičmene moždine ili moždanica: NOS
+Q06.9	inclusion	Urođeni deformiteti kićmene moždine ili moždanica: NOS
+Q06.9	inclusion	Urođene bolesti ili oštećenja kičmene moždine ili moždanica: NOS
+Q07	preferred	Druge urođene malformacije nervnog sistema
+Q07	exclusion	Porodični (nasledni) poremećaji autonomnog nervnog sistema [Riley-Day] (G90.1)
+Q07	exclusion	Bujanje nervnog i vezivnog tkiva (neurofibromatoza) (ne-maligno) Q85.0
+Q07.0	preferred	Arnold-chiarijev sindrom
+Q07.8	preferred	Druge urođene označene anomalije nervnog sistema
+Q07.8	inclusion	Nedostatak zametka (agenezija) živca
+Q07.8	inclusion	Poremećaj položaja pazušnog živčanog spleta
+Q07.8	inclusion	Sindrom "jaw-winking" (zevanje-treptanje)
+Q07.8	inclusion	Marcus-Gunn-ov sindrom
+Q07.9	preferred	urođena malformacija nervnog sistema, neoznačena
+Q07.9	inclusion	Urođena anomalija nervnog sistema: NOS
+Q07.9	inclusion	Urođeni deformitet nervnog sistema: NOS
+Q07.9	inclusion	Urođena bolest ili oštećenje nervnog sistema: NOS
+Q10-Q18	preferred	Urođena malformacije oka, uha glave i vrata
+Q10-Q18	exclusion	Rascijep usne i nepca (Q35-Q37)
+Q10-Q18	exclusion	Urođena malformacija vratne kičme (Q5.0, Q05.5, Q67.5, Q76.0-Q76.4)
+Q10-Q18	exclusion	Urođene malformacije grkljana Q31.-
+Q10-Q18	exclusion	Urođene malformacije usana NEC Q38.0
+Q10-Q18	exclusion	Urođene malformacije nosa Q30.-
+Q10-Q18	exclusion	Urođene malformacije paratiroidnih žlezda Q89.2
+Q10-Q18	exclusion	Urođene malformacije štitaste žlezde Q89.2
+Q10	preferred	Urođene malformacije kapka, suznog aparata i očne duplje
+Q10	exclusion	Zatvorena očna duplja: NOS Q11.2
+Q10	exclusion	Sindrom zatvorene očne duplje Q87.0
+Q10.0	preferred	urođena spustenost očnog kapka
+Q10.1	preferred	urođena izvrnutost kapka
+Q10.2	preferred	urođena uvrnutost kapka
+Q10.3	preferred	Druge urođene nakaznosti očnog kapka
+Q10.3	inclusion	Nepostojanje očnog kapka
+Q10.3	inclusion	Nepostojanje ili nedostatak razvoja trepavica
+Q10.3	inclusion	Nepostojanje ili nedostatak razvoja očnog kapka
+Q10.3	inclusion	Dodatni očni kapak
+Q10.3	inclusion	Dodatni očni mišić
+Q10.3	inclusion	Urođena suženost očnog otvora
+Q10.3	inclusion	Nakaznost (kolobom) očnog kapka
+Q10.3	inclusion	Urođene malformacije očnih kapaka NOS
+Q10.4	preferred	Nedostatak ili zakrzljao suzni aparat
+Q10.4	inclusion	Nepostojanje otvora suznog kanala
+Q10.5	preferred	urođeno suženje i začepljanje suznog kanala
+Q10.6	preferred	Druge urođene malformacije suznog kanala
+Q10.6	inclusion	Urođene malformacije suznog kanala NOS
+Q10.7	preferred	urođena nakaznost očne duplje
+Q11	preferred	Nedostatak oka, malo oko i preveliko oko
+Q11.0	preferred	Cisticno oko
+Q11.1	preferred	Drugi nedostatak oka
+Q11.1	inclusion	Nedostatak zametka (ageneza) oka
+Q11.1	inclusion	Nedostatak razvoja oka
+Q11.2	preferred	Malo oko
+Q11.2	inclusion	Zatvorena očna duplja NOS
+Q11.2	inclusion	Nepravilan razvoj oka
+Q11.2	inclusion	Zakržljalost (hipoplazija) oka
+Q11.2	inclusion	Zaostali razvoj oka
+Q11.2	exclusion	Sindrom  zatvorene očne duplje Q87.0
+Q11.3	preferred	Veliko oko
+Q11.3	exclusion	Veliko oko u sklopu urođenog glaukoma Q15.0
+Q12	preferred	urođene nakaznosti sočiva oka
+Q12.0	preferred	urođena katarakta
+Q12.1	preferred	Urođeni nepravilni položaj očnog sočiva
+Q12.2	preferred	Nakaznost sočiva oka
+Q12.3	preferred	urođeni nedostatak sočiva oka
+Q12.4	preferred	Loptasto socivo oka
+Q12.8	preferred	Druge urođene nakaznosti sočiva oka
+Q12.9	preferred	urođena nakaznost sočiva oka, neoznačena
+Q13	preferred	urođene nakaznosti prednjeg dijela oka
+Q13.0	preferred	Nakaznost dužice
+Q13.0	inclusion	Nakaznost oka (kolobom) NOS
+Q13.1	preferred	Nepostojanje dužice
+Q13.1	inclusion	nedostatak dužice
+Q13.2	preferred	Druge urođene nakaznosti dužice
+Q13.2	inclusion	Urođena različita veličina zenica
+Q13.2	inclusion	Atrezija (nepostojanje) zenice
+Q13.2	inclusion	Urođena malformacija dužice NOS
+Q13.2	inclusion	Periferno pomjerena zenica
+Q13.3	preferred	urođena neprozračnost rožnjače
+Q13.4	preferred	Druge urođene malformacije rožnjače
+Q13.4	inclusion	Urođene malformacije rožnjače NOS
+Q13.4	inclusion	Mala rožnjača
+Q13.4	inclusion	Peter-ova anomalija
+Q13.5	preferred	Plava beonjaca
+Q13.8	preferred	Druge urođene nakaznosti prednjeg dijela oka
+Q13.8	inclusion	Rieger-ova anomalija
+Q13.9	preferred	urođena nakaznost prednjeg dijela oka, neoznačena
+Q14	preferred	urođene malformacije zadnjeg dijela oka
+Q14.0	preferred	urođena malformacija staklastog tijela
+Q14.0	inclusion	Urođena neprozračnost staklastog tijela
+Q14.1	preferred	urođena malformacija mrežnjače
+Q14.1	inclusion	Urođena aneurizma krvnih suodva mrežnjače
+Q14.2	preferred	urođena malformacija diskusa vidnog živca
+Q14.2	inclusion	Nakaznost (kolobom) disusa očnog živca
+Q14.3	preferred	urođena malformacija sudovnjače
+Q14.8	preferred	Druge urođene malformacije zadnjeg dijela oka
+Q14.8	inclusion	Nakaznog (kolobom) očnog dna
+Q14.9	preferred	urođena malformacija zadnjeg dijela oka, neoznačena
+Q15	preferred	Druge urođene malformacije oka
+Q15	exclusion	urođeni nistagmus (H55)
+Q15	exclusion	očni albinizam E70.3
+Q15	exclusion	retinitis pigmentosa H35.5
+Q15.0	preferred	Urođeni glaukom
+Q15.0	inclusion	Uvećana očna jabučica
+Q15.0	inclusion	Glaukom novorođenčeta
+Q15.0	inclusion	Vodena očna jabučica
+Q15.0	inclusion	Urođeni keratoglobus sa glaukomom
+Q15.0	inclusion	Velika rožnjača sa glaukomom
+Q15.0	inclusion	Veliko oko u sklopu urođenog glaukoma
+Q15.0	inclusion	Ogromna rožnjača sa glaukomom
+Q15.8	preferred	Druge označene urođene malformacije oka
+Q15.9	preferred	urođena malformacija oka, neoznačena
+Q15.9	inclusion	Urođena anomalija oka NOS
+Q15.9	inclusion	Urođeni deformitet oka NOS
+Q16	preferred	Urođene malformacije uha koje dovode do poremećaja sluha
+Q16	exclusion	Urođena gluhoća H90.-
+Q16.0	preferred	Nedostatak skoljke uha
+Q16.1	preferred	Nedostatak, zacepljenost i suženje spoljnjeg kanala uha
+Q16.1	inclusion	Začepljenost ili suženje koštanog otvora slušnog kanala
+Q16.2	preferred	Nedostatak eustahijeve tube
+Q16.3	preferred	Urođena malformasija slušnih koščica
+Q16.3	inclusion	Srastanje slušnih koščica
+Q16.4	preferred	Druge urođene malformacije srednjeg uha
+Q16.4	inclusion	Urođene malformacije srednjeg uha NOS
+Q16.5	preferred	urođena malformacija unutrašnjeg uha
+Q16.5	inclusion	Anomalije membranoznog lavirinta
+Q16.5	inclusion	Anomalije Kortijevog organa
+Q16.9	preferred	Urođene malformacije uha koje dovode do poremećaja sluha, neoznačene
+Q16.9	inclusion	Urođeni nedostatak uha NOS
+Q17	preferred	Druge urođene malformacije uha
+Q17	exclusion	Kanal (sinus) ispred usne školjke Q18.1
+Q17.0	preferred	Dodatna ušna školjka
+Q17.0	inclusion	Dodatni tragus
+Q17.0	inclusion	Prekobrojna ušna školjka
+Q17.0	inclusion	Preaurikularni privezak
+Q17.0	inclusion	Prekobrojno uho
+Q17.0	inclusion	Prekobrolna aurikula
+Q17.1	preferred	Veliko uho
+Q17.2	preferred	Malo uho
+Q17.3	preferred	Izobliceno uho
+Q17.3	inclusion	Zašiljeno uho
+Q17.4	preferred	Uvo na pogresnom mjestu
+Q17.4	inclusion	Nisko spuštene ušne školjke
+Q17.4	exclusion	Ušna školjka na vratu Q18.2
+Q17.5	preferred	Klempavo uho
+Q17.5	inclusion	Uho kao kod slepog miša
+Q17.8	preferred	Druge označene urođene malformacije uha
+Q17.8	inclusion	Urođeno odsustvo resice uha
+Q17.9	preferred	urođena malformacija uha, neoznačena
+Q17.9	inclusion	Urođena anomalija uha NOS
+Q18	preferred	Druge urođene malformacije lica i vrata
+Q18	exclusion	rascjep usne i nepca Q35-Q37
+Q18	exclusion	stanja označena pod Q67.0-Q67.4
+Q18	exclusion	urođene malformacije kostiju lobanje i lica Q75
+Q18	exclusion	Kiklopija Q87.0
+Q18	exclusion	anomalije zuba i lica [ugljučujući nepravilan zagrižaj] K07.-
+Q18	exclusion	Malformacijski sindromi za zahvatanjem lica Q87.0
+Q18	exclusion	Postojani štitasto-jezični kanal Q89.2
+Q18.0	preferred	Sinus, fistula i cista škržnog porijekla
+Q18.0	inclusion	Zaostaci škržnih lukova
+Q18.1	preferred	Fistula i cista ispred skoljke uha
+Q18.1	inclusion	Urođena fistula ušne školjke
+Q18.1	inclusion	Fistula između vrata i ušne školjke
+Q18.1	inclusion	Sinus i cista ispred tragusa
+Q18.2	preferred	Druge malformacije škržnog porijekla
+Q18.2	inclusion	Malformacije škržnih lukova NOS
+Q18.2	inclusion	Ušna školjka na vratu
+Q18.2	inclusion	Otocefalija
+Q18.3	preferred	Nabor kože vrata
+Q18.3	inclusion	Pterygium colli
+Q18.4	preferred	Velika usta
+Q18.5	preferred	Mala usta
+Q18.6	preferred	Velike usne
+Q18.6	inclusion	Urođeno uvećanje usana
+Q18.7	preferred	Male usne
+Q18.8	preferred	Druge označene urođene malformacije lica i vrata
+Q18.8	inclusion	Centralna (medijalna) cista lica i vrata
+Q18.8	inclusion	Centralna (medijalna) fistula lica i vrata
+Q18.8	inclusion	Centralna (medijalna) fistula lica i vrata
+Q18.9	preferred	urođena malformacija lica i vrata, neoznačena
+Q18.9	inclusion	Urođena anomalija lica i vrata NOS
+Q20-Q28	preferred	Urođena malformacije cirkulatornog sistema
+Q20	preferred	Urođene malformacije pretkomora i komora srca
+Q20	exclusion	Destostrano srce u sklopu izmjenjenog položaja organa Q89.3
+Q20	exclusion	Obruti (kao u ogledalu) položaj pretkomora u sklopu obrnutog položaja organa Q89.3
+Q20.0	preferred	Zajedničko arterijsko stablo
+Q20.0	inclusion	Postojano arterijsko stablo (truncus arteriosus)
+Q20.1	preferred	Dvostruki otvor desne komore srca
+Q20.1	inclusion	Taussig-Bing-ov sinrom
+Q20.2	preferred	Dvostruki otvor lijeve komore srca
+Q20.3	preferred	Neskladan komorno-arterijski otvor
+Q20.3	inclusion	Destostrana transpozicija aorte
+Q20.3	inclusion	Transpozicija velikih krvnih sudova, (kompletna) 
+Q20.4	preferred	Medjukomorni otvor srca
+Q20.4	inclusion	Zajednička komora
+Q20.4	inclusion	Troprostorno srce sa dvije pretkomore
+Q20.4	inclusion	Jedna komora
+Q20.5	preferred	Neskladni pretkomorno-komorni otvor
+Q20.5	inclusion	Ispravljena transpozicja
+Q20.5	inclusion	Levostrana transpozicija aorte
+Q20.5	inclusion	Inverzija komora
+Q20.6	preferred	Jednakost pripojaka pretkomora
+Q20.6	inclusion	Jednakost pripojaka pretkomora sa nedostatkom slezine ili višestrukim slezinama
+Q20.8	preferred	Druge urođene malformacije pretkomore i komore srca
+Q20.9	preferred	urođena malformacija pretkomore i komore srca, neoznačena
+Q21	preferred	urođene malformacije pregrade srca
+Q21	exclusion	stečene defekti srčane pregrade I51.0
+Q21.0	preferred	Defekt pregrade komore srca
+Q21.1	preferred	Defekt pregrade pretkomora srca
+Q21.1	inclusion	Defet koronarnog sinusa
+Q21.1	inclusion	Otvoreni ili postojan ovalni otvor (Foramen ovale)
+Q21.1	inclusion	Otvoren ili postojan otvor sekundarnog ušća (Tip II)
+Q21.1	inclusion	Defekt venskogf sinusa
+Q21.2	preferred	Defekt pretkomorno-komorne pregrade
+Q21.2	inclusion	Zajednički pretkomorno-komorni kanal
+Q21.2	inclusion	Defekti endokardijalnih jastučića
+Q21.2	inclusion	Defekt pretkomorne pregrade primarnog ušća (Tip I)
+Q21.3	preferred	Tetralogija Fallot - urođena kombinovana anomalija srca
+Q21.3	text	Defekt komorske pregrade sa stenozom ili atrezije plućne arterije, destostrano postavljenom aortom i hipertrofijom desne komore.
+Q21.4	preferred	Defekt aortno-pulmonalnog otvora
+Q21.4	inclusion	Defekt aortnog otvora
+Q21.4	inclusion	Aorto-pulmonalni otvor
+Q21.8	preferred	Druge urođene malformacije pregrade srca
+Q21.8	inclusion	Eisenmenger-ov defekt
+Q21.8	inclusion	Pentalogija Fallot
+Q21.8	exclusion	Eisenmenger-ov kompleks I27.8
+Q21.8	exclusion	Eisenmenger-ov sindrom I27.8
+Q21.9	preferred	urođena malformacija pregrade srca, neoznačena
+Q21.9	inclusion	Defekt (srčane) pregrade NOS
+Q22	preferred	urođene malformacije plucnih i trolisnih zalistaka
+Q22.0	preferred	urođena pregrada plucnog zaliska
+Q22.1	preferred	urođeno suženje plucnog zaliska
+Q22.2	preferred	urođena nedovoljna funkcija plucnog zaliska
+Q22.2	inclusion	Urođena regurgitacija krvi kroz plućni zalistak
+Q22.3	preferred	Druge urođene malformacije plucnog zaliska
+Q22.3	inclusion	Urođene malformacije plućnog zaliska NOS
+Q22.4	preferred	urođeno suženje trikuspidalnog zaliska
+Q22.4	inclusion	Srasli trikuspidalnog zalistak (atresia)
+Q22.5	preferred	Ebsteinova anomalija
+Q22.6	preferred	Sindrom zakrzljalosti desnog srca
+Q22.8	preferred	Druge urođene malformacije trikuspidalnog zaliska
+Q22.9	preferred	urođena malformacija trikuspidalnog zaliska, neoznačena
+Q23	preferred	urođene malformacije aortnog i mitralnog zaliska
+Q23.0	preferred	urođeno suženje aortnog zaliska
+Q23.0	inclusion	Urođeno srasli aortni zalistak (atrezija)
+Q23.0	inclusion	Suženje aortnog zaliska 
+Q23.0	exclusion	Urođeno suženje ispod aortnog ušća Q24.4
+Q23.0	exclusion	Suženje aortnog zaliska u sklopu sindrom zakržljalosti (hipoplazije) lijevog srca Q23.4
+Q23.1	preferred	urođena nedovoljna funkcija aortnog zaliska
+Q23.1	inclusion	Dvolisna aortna valvula
+Q23.1	inclusion	Urođena nedovoljna funkcija aortnog zaliska
+Q23.2	preferred	urođeno suženje mitralnog usca
+Q23.2	inclusion	Urođeno sraslo mitralno ušće (atrezija)
+Q23.3	preferred	urođena nedovoljna funkcija mitralnog ušća
+Q23.4	preferred	Sindrom zakrzljalosti lijevog srca
+Q23.4	text	Nepostojanje ili označena zakržljalost aortnog otvora ili valvule sa zakržljalošću uzlaznog dijela aorte i poremećenim razvojem lijeve komore (sa stenozom ili sraslim mitralnim ušćem)
+Q23.8	preferred	Druge urođene malformacije aortnog i mitralnog zaliska
+Q23.9	preferred	urođena malformacija aortnog i mitralnog zaliska, neoznačena
+Q24	preferred	Druge urođene malformacije srca
+Q24	exclusion	Bujanje vezivno- elastičnog tkiva u endokardu (Endokardna fibroelatoza) I42.4
+Q24.0	preferred	Desni polozaj srca
+Q24.0	exclusion	Desno postavljeno srce u sklopu izmjenjenog položaja svih organa Q89.3
+Q24.0	exclusion	Jednakost pripojaka pretkomora (sa nedostatkom slezine ili višestrukim slezinama) Q20.6
+Q24.0	exclusion	Obruti (kao u ogledalu) položaj pretkomora u sklopu obrnutog položaja organa Q89.3
+Q24.1	preferred	Lijevi polozaj srca
+Q24.1	definition	Smještaj srce u grudnom košu je u lijevoj polovini grudnoga koša sa srčanim vrhom usmjerenim u lijevu stranu ali u sklopu obrnutog položaja drugih organa i srčanih defekata ili ispravljene transpozicije velikih krvnih sudova.
+Q24.2	preferred	Srce sa tri pretkomore
+Q24.3	preferred	Suženje plucnog lijevka
+Q24.4	preferred	Urođeno suženje ispod aortnog ušća
+Q24.5	preferred	Malformacije krvnih sudova srca
+Q24.5	inclusion	Urođeno proširenje (aneurizma) krvnih sudova srca
+Q24.6	preferred	urođeni blok rada srca
+Q24.8	preferred	Druge urođene označene anomalije srca
+Q24.8	inclusion	Urođeno proširenje (divertikulum) lijeve komore
+Q24.8	inclusion	Urođena malformacija srčanog mišića
+Q24.8	inclusion	Urođena malformacija srčane maramice
+Q24.8	inclusion	Nepravilan položaj srca
+Q24.8	inclusion	Uul bolest
+Q24.9	preferred	urođena malformacija srca, neoznačena
+Q24.9	inclusion	Urođena anomalija srca NOS
+Q24.9	inclusion	Urođeno srčano oboljenje NOS
+Q25	preferred	urođene malformacije velikih arterija
+Q25.0	preferred	Otvoreni arterijski kanal
+Q25.0	inclusion	Otvoren Botallo-ov kanal
+Q25.0	inclusion	Postojani arterijski kanal
+Q25.1	preferred	Suženje aorte
+Q25.1	inclusion	Suženje (koarktacija) aorte (predukatalna) (post duktalna)
+Q25.2	preferred	Zacepljenost (srastanje) lumena aorte
+Q25.3	preferred	Suzenost aorte
+Q25.3	inclusion	Arortna suženje (stenoza) iznad aortne valvule
+Q25.3	exclusion	Urođeno suženje (stenoza) aorte Q23.0
+Q25.4	preferred	Druge urođene malformacije aorte
+Q25.4	inclusion	Odsustvo aorte
+Q25.4	inclusion	Nepostojanje razvoja (aplazija) aorte
+Q25.4	inclusion	Urođeno proširenje (aneurizma) aorte
+Q25.4	inclusion	Urođeno proširena aorta
+Q25.4	inclusion	Proširenje (aneurizma) Valsalva-inog sinusa (rupturirano)
+Q25.4	inclusion	Udvojeni aortni luk [vaskularni aortni prsten]
+Q25.4	inclusion	Zakržljalost aorte
+Q25.4	inclusion	Postojani zavijutci aortnog luka
+Q25.4	inclusion	Postojani destostrani aortni luk
+Q25.4	exclusion	Zakržljalost aorte u sklopu sindroma zakržljalosti lijevog srca Q23.4
+Q25.5	preferred	urođena pregrada plućne arterije
+Q25.6	preferred	Suženje (stenoza) plućne arterije
+Q25.6	inclusion	Suženje (stenoza) plućne arterije iznad valvule
+Q25.7	preferred	Druge urođene malgformacije plućne arterije
+Q25.7	inclusion	Neuobičajena (aberantna) plućna arterija
+Q25.7	inclusion	Nedostatak zametka (agenezija) plućne arterije
+Q25.7	inclusion	Urođeno proširenje (aneirizma) plućne arterije
+Q25.7	inclusion	Anomalija plućne arterije
+Q25.7	inclusion	Zakržljalost plućne arterije
+Q25.7	inclusion	Plućno arterijsko-vensko proširenje aneurizma
+Q25.8	preferred	Druge urođene malformacije velikih arterija
+Q25.9	preferred	urođena malformacija velikih arterija, neoznačena
+Q26	preferred	urođene malformacije velikih vena
+Q26.0	preferred	urođeno suženje suplje vene
+Q26.0	inclusion	Urođeno suženje (stenoza) velike šuplje vene (donje) (gornje)
+Q26.1	preferred	Postojana gornja lijeva suplja vena
+Q26.2	preferred	Potpuna anomalija vena pluća
+Q26.3	preferred	Djelimicna anomalija vena pluća
+Q26.4	preferred	Anomalija vena pluća, neoznačena
+Q26.5	preferred	Anomalija ulazne vene
+Q26.6	preferred	Arteriovenska komunikacija u jetri
+Q26.8	preferred	Druge urođene malformacije velikih vena
+Q26.8	inclusion	Nedostatak velike šuplje vene (donje) (gornje)
+Q26.8	inclusion	Azigosni nastavak donje šuplje vene
+Q26.8	inclusion	Postojana lijeva zadnja kardinalna vena
+Q26.8	inclusion	Sindom sablje
+Q26.9	preferred	urođene malformacije velikih vena, neoznačene
+Q26.9	inclusion	Anomalije velike šuplje vene (donje) (gornje) NOS
+Q27	preferred	Druge urođene malformacije perifernog sudovnog sistema
+Q27	exclusion	Anomalije moždanih i premoždanih krvnih sudova Q28.0 - Q28.3
+Q27	exclusion	Anomalije srčanih krvnih sudova q24.5
+Q27	exclusion	Anomalije plućne arterije Q25.5 - Q25.7
+Q27	exclusion	Urođeno proširenje (aneurizma) mrežnjače Q14.1
+Q27	exclusion	Benigni tumor krvnih i limfnih sudova D18.-
+Q27.0	preferred	urođen nedostatak ili zakrzljalost pupčane arterije
+Q27.0	inclusion	Usamljena pupčana arterija
+Q27.1	preferred	urođeno suženje arterije bubrega
+Q27.2	preferred	Druge urođene malformacije arterije bubrega
+Q27.2	inclusion	Urođena malformacija bubrežne arterije NOS
+Q27.2	inclusion	Vuišestruke bubrežne arterije
+Q27.3	preferred	Periferna arteriovenska malformacija
+Q27.3	inclusion	Arteriovensko proširenje (aneurizma)
+Q27.3	exclusion	Stečeno arteriovensko proširenje (aneurizma)
+Q27.4	preferred	urođeno prosirenje vena
+Q27.8	preferred	Druge urođene označene anomalije perifernog sudovnog sistema
+Q27.8	inclusion	Neuobičajena (aberantna) podključna arterija
+Q27.8	inclusion	Nepostojanje arterije ili vene NEC
+Q27.8	inclusion	Srastanje lumena arterije ili vene NEC
+Q27.8	inclusion	Urođeno periferno proširenje (aneurizma)
+Q27.8	inclusion	Urođeno arterijsko suženje
+Q27.8	inclusion	Urođeno vensko proširenje - variks
+Q27.9	preferred	urođena malformacija perifernog sudovnog sistema, neoznačena
+Q27.9	inclusion	Anomalije arterija ili vena NOS
+Q28	preferred	Druge urođene malformacije sistema krvotoka
+Q28	exclusion	Urođena aneurizma NOS Q27.8
+Q28	exclusion	Urođena aneurizma krvnih sudova srca Q24.5
+Q28	exclusion	Urođena aneurizma perifernik sudova Q27.8
+Q28	exclusion	Urođena aneurizma plućne arterije Q25.7
+Q28	exclusion	Urođena aneurizma krvnih sudova mrežnjače Q14.1
+Q28	exclusion	Prsnuće arterijsko-venske malformacije krvoga suda mozga I60.8
+Q28	exclusion	Prsnuće malformacije premoždanskih krvnih sudova I72.-
+Q28.0	preferred	Anomalija arteriovenskih sudova prije mozga
+Q28.0	inclusion	Urođena arterijsko-venska aneurizma premožanskih krvnih sudova (bez prsnuća) 
+Q28.1	preferred	Druge anomalije sudova prije mozga
+Q28.1	inclusion	Urođena malformacija premoždanih krvnih sudova NOS
+Q28.1	inclusion	Urođeno proširenje (aneurizma) premoždanskih krvnih sudova (bez prsnuća)
+Q28.2	preferred	Anomalija arteriovenskih sudova mozga
+Q28.2	inclusion	Malformacija arterijskovenskih sudova mozga NOS
+Q28.2	inclusion	Urođeno proširenje (aneurizma) arterijsko-venskih krvnih sudova mozga (bez prsnuća)
+Q28.3	preferred	Druge malformacije arteriovenskih sudova mozga
+Q28.3	inclusion	Urođeno proširenje (aneurizma) krvnih sudova mozga (bez prsnuća)
+Q28.3	inclusion	Urođena malformacija moždanih krvnih sudova NOS
+Q28.8	preferred	Označene urođene malformacije sistema krvotoka
+Q28.8	inclusion	Urođeno proširenje krvnoga suda (aneurizma), označene lokalizacija NEC
+Q28.9	preferred	urođena malformacija sistema krvotoka, neoznačena
+Q30-Q34	preferred	Urođene malformacije respiratornog sistema
+Q30	preferred	urođene malformacije nosa
+Q30	exclusion	urođena devijacija nosne pregrade Q67.4
+Q30.0	preferred	urođeno srastanje hoana
+Q30.0	inclusion	Srastanje nozdrva (prednje) (zadnje)
+Q30.0	inclusion	Urođeno suženje nozdrva (prednje) (zadnje)
+Q30.1	preferred	Nedostatak i nedovoljan razvoj nosa
+Q30.1	inclusion	Urođeni nedostatak nosa
+Q30.2	preferred	Rascijepljen nos
+Q30.3	preferred	urođeni otvori pregrade nosa
+Q30.8	preferred	Druge urođene malformacije nosa
+Q30.8	inclusion	Prekobrojni nos
+Q30.8	inclusion	Urođene anomalije zidova nosnih šupljina
+Q30.9	preferred	urođena malformacija nosa, neoznačena
+Q31	preferred	urođene malformacija grkljana
+Q31	exclusion	Urođena grkljanska promuklost (stridor) NOS P28.8
+Q31.0	preferred	Nabor grkljana
+Q31.0	inclusion	Nabor grkljana NOS
+Q31.0	inclusion	Nabor grkljanskog otvora
+Q31.0	inclusion	Nabor grkljana ispod grkljanskog otvora
+Q31.1	preferred	urođeno suženje ispod grkljanskog otvora
+Q31.2	preferred	Zakrzljalost grkljana
+Q31.3	preferred	Ispadanje sluznice grkljana
+Q31.5	preferred	Urođeno mek grkljan
+Q31.8	preferred	Druge urođene malformacije grkljana
+Q31.8	inclusion	Otsustvo krikoidne hrskavice, hrskavice grkljanskog otvora, poklopca, grkljana ili tireoidne hrskavice
+Q31.8	inclusion	Nedostatak zametka krikoidne hrskavice, hrskavice grkljanskog otvora, poklopca, grkljana ili tireoidne hrskavice
+Q31.8	inclusion	Srastanje krikoidne hrskavice, hrskavice grkljanskog otvora, poklopca, grkljana ili tireoidne hrskavice
+Q31.8	inclusion	Rascjep tireoidne hrskavice
+Q31.8	inclusion	Urođeno suženje grkljana NEC
+Q31.8	inclusion	Rascjep grkljanskog poklopca
+Q31.8	inclusion	Rascjep zadnje strane krikoiden hrskavice
+Q31.9	preferred	urođena malformacija grkljana, neoznačena
+Q32	preferred	urođene malformacije dušnika i dusnica
+Q32	exclusion	Urođena proširenja dušnica Q33.4
+Q32.0	preferred	urođeno mek dusnik
+Q32.1	preferred	Druge urođene malformacije dušnika
+Q32.1	inclusion	Anomalije hrskavice dušnika
+Q32.1	inclusion	Srastanje dušnika
+Q32.1	inclusion	Urođeno proširen dušnik
+Q32.1	inclusion	Urođena malformacija dušnika
+Q32.1	inclusion	Urođeno suženje (stenoza) dušnika
+Q32.1	inclusion	Urođeno ispadanje sluznice dušnika
+Q32.2	preferred	urođeno meke dušnice
+Q32.3	preferred	urođeno suženje dušnica
+Q32.4	preferred	Druge urođene malformacije dušnice
+Q32.4	inclusion	Otsustvo dušnica
+Q32.4	inclusion	Nedostatak zametka (agenezija) dušnica
+Q32.4	inclusion	Srastanje dušnica
+Q32.4	inclusion	Urođene malformacije dušnica NOS
+Q32.4	inclusion	Proširenje (divertikulum) dušnica
+Q33	preferred	urođene malformacije pluća
+Q33.0	preferred	Urođena cistična pluća
+Q33.0	inclusion	Urođena saćasta pluća
+Q33.0	inclusion	Urođena cistična bolest pluća
+Q33.0	inclusion	Urođena policistična bolest pluća
+Q33.0	exclusion	Cistična bolest pluća stečena ili neoznačena J98.4
+Q33.1	preferred	Prekobrojni rezanj pluća
+Q33.2	preferred	Višedjelni razvoj pluća
+Q33.3	preferred	Nedostatak pluća
+Q33.3	inclusion	Nedostatak pluća (režnja)
+Q33.4	preferred	Urođena proširenja dušnica
+Q33.5	preferred	Strano (ektopijsko) tkivo u plucima
+Q33.6	preferred	Zakrzljalost i nepravilan razvoj pluća
+Q33.6	exclusion	Zakržlalost pluća povezana sa kratkom trudnoćom P28.0
+Q33.8	preferred	Druge urođene malformacije pluća
+Q33.9	preferred	urođena malformacija pluća, neoznačena
+Q34	preferred	Druge urođene malformacije sistema za disanje
+Q34.0	preferred	Anomalija plućne maramice
+Q34.1	preferred	urođena cista sredogrudja
+Q34.8	preferred	Druge označene urođene malformacije sistema za disanje
+Q34.8	inclusion	Srastanje nosnog dijela ždrijela
+Q34.9	preferred	urođena malformacija sistema za disanje, neoznačena
+Q34.9	inclusion	Urođeno odsustvo disajnih organa
+Q34.9	inclusion	Urođena anomalija disajnih organa NOS
+Q35-Q37	preferred	Rascijep usne i nepca
+Q35-Q37	coding-hint	Po potrebi koristiti dodatne šifre (Q30.2) kako bi se označile povezane malformacije nosa
+Q35-Q37	exclusion	Robin-ov sindrom Q87.0
+Q35	preferred	Rascjep nepca
+Q35	inclusion	fisura nepca
+Q35	inclusion	Razdvojeno nepce (palatošiza)
+Q35	exclusion	Rascijep nepca sa rascjepom usne Q37.-
+Q35.1	preferred	Jednostrani rascjep tvrdog nepca
+Q35.3	preferred	Jednostrani rascjep mekog nepca
+Q35.5	preferred	Jednostrani rascjep tvrdog i mekog nepca
+Q35.7	preferred	Dvojna resica
+Q35.9	preferred	Jednostrani rascjep nepca, neoznačen
+Q36	preferred	Rascjep usne
+Q36	inclusion	Razdvojena usna - heliošiza
+Q36	inclusion	Urođena fisura usne
+Q36	inclusion	Zečija usna
+Q36	inclusion	labium leporinum
+Q36	exclusion	Rascijep usne sa rascjepom nepca Q37.-
+Q36.0	preferred	Obostrani rascjep usne
+Q36.1	preferred	Sredisnji rascjep usne
+Q36.9	preferred	Jednostrani rascjep usne
+Q36.9	inclusion	Rascijep usne NOS
+Q37	preferred	Rascjep usne i nepca
+Q37.0	preferred	Rascjep tvrdog nepca sa obostranim rascjepom usne
+Q37.1	preferred	Rascjep tvrdog nepca sa jednostranim rascjepom usne
+Q37.1	inclusion	Rascijep tvrdog nepca sa rascjepom usne NOS
+Q37.2	preferred	Rascjep mekog nepca sa obostranim rascjepom usne
+Q37.3	preferred	Jednostrani rascjep usne i mekog nepca
+Q37.3	inclusion	rascjep mekog nepca sa rascjepom usne NOS
+Q37.4	preferred	Rascjep tvrdog i mekog nepca sa obostranim rascjepom usne
+Q37.5	preferred	Rascjep tvrdog i mekog nepca sa jednostranim rascjepom usne
+Q37.5	inclusion	Rascjep tvrdog i mekog nepca sa rascjepom usne NOS
+Q37.8	preferred	Neoznačeni rascjep nepca sa obostranim rascjepom usne
+Q37.9	preferred	Neoznačeni rascjep nepca sa jednostranim rascjepom usne
+Q37.9	inclusion	Rascjep nepca sa rascjepom usne NOS
+Q38-Q45	preferred	Druge urođenemalformacije sistema organa za varenje
+Q38	preferred	Druge urođene malformacije jezika, usta i ždrijela
+Q38	exclusion	Velika usta Q18.4
+Q38	exclusion	Mala usta Q18.5
+Q38.0	preferred	Urođene malformacije usana, neklasifikovana na drugom mjestu
+Q38.0	inclusion	Urođena fistua usne
+Q38.0	inclusion	Urođena malformacija usne NOS
+Q38.0	inclusion	Vad der Woude-ov sindrom
+Q38.0	exclusion	Rascjep usne q36
+Q38.0	exclusion	Rascjep usne sa rascjepom nepca Q37.-
+Q38.0	exclusion	Velike usne Q18.6
+Q38.0	exclusion	Male usne Q18.7
+Q38.1	preferred	Sraslost jezika
+Q38.1	inclusion	
+Q38.2	preferred	Veliki jezik
+Q38.3	preferred	Druge urođene malformacije jezika
+Q38.3	inclusion	Nedostatak jezika
+Q38.3	inclusion	Dvojni jezik
+Q38.3	inclusion	Urođena sraslost jezika
+Q38.3	inclusion	Urođeni rasjep jezika
+Q38.3	inclusion	Urođena malformacija jezika NOS
+Q38.3	inclusion	Mali jezik
+Q38.3	inclusion	Zakržljalost jezika
+Q38.3	inclusion	Kratak jezik
+Q38.4	preferred	Urođene malformacije pljuvačnih žlezda i njihovih kanala
+Q38.4	inclusion	Odsustvo pljuvačne žlezde ili njenog izvodnog kanala
+Q38.4	inclusion	Prekobrojne pljuvačne žlezde ili njihovi kanali
+Q38.4	inclusion	Usahlost pljuvačne žlezde ili njenog kanala
+Q38.4	inclusion	Urođeni rascjep pljuvačne žlezde
+Q38.5	preferred	Urođene malformacije nepca, neklasifikovane na drugom mjestu
+Q38.5	inclusion	Odsustvo resice nepca
+Q38.5	inclusion	Urođene malformacije nepca NOS
+Q38.5	inclusion	"Gotsko" nepce
+Q38.5	exclusion	Rascjep nepca Q35
+Q38.5	exclusion	Rascjep nepca sa rascjepom usne Q37.-
+Q38.6	preferred	Druge urođene malformacije usta
+Q38.6	inclusion	Urođene malformacije usta NOS
+Q38.7	preferred	Vrecasto prosirenje ždrijela
+Q38.7	inclusion	Proširenje (divertikulum) ždrijela
+Q38.7	exclusion	Sindrom "ždrijelnog džepa" D82.1
+Q38.8	preferred	Druge urođene malformacije ždrijela
+Q38.8	inclusion	Urođene malformacije ždrijela
+Q39	preferred	Urođene malformacije jednjaka
+Q39.0	preferred	urođeno srastanje jednjaka bez fistule
+Q39.0	inclusion	Srastanje jednjaka NOS
+Q39.1	preferred	Srastanje lumena jednjaka sa fistulom do dušnika
+Q39.1	inclusion	Srastanje lumena jednjaka sa fistulom do dušnica
+Q39.2	preferred	urođena fistula izmedju dušnika i jednjaka
+Q39.2	inclusion	Urođena fistula između dušnika i jednjaka
+Q39.3	preferred	urođeno suženje i striktura jednjaka
+Q39.4	preferred	Nabor jednjaka
+Q39.5	preferred	urođeno prosirenje jednjaka
+Q39.6	preferred	Pobocno vrecasto prosirenje jednjaka
+Q39.6	inclusion	Proširenje jednjaka u vidu džepa
+Q39.8	preferred	Druge urođene malformacije jednjaka
+Q39.8	inclusion	Nedostatak jednjaka
+Q39.8	inclusion	Urođeni poremećaj položaja jednjaka
+Q39.8	inclusion	Udvojeni jednjak
+Q39.9	preferred	urođena malformacija jednjaka, neoznačena
+Q40	preferred	Druge urođene malformacije gornjih organa za varenje
+Q40.0	preferred	urođeno suženje izlaza želuca usljed hipertofije
+Q40.0	inclusion	Urođena ili rano manifestovana konstrikcija izlaza želuca
+Q40.0	inclusion	Urođeno ili rano manifestovano uvećanje izlaza želuca
+Q40.0	inclusion	Urođeni ili rano manifestovani grč mišića izlaza želuca
+Q40.0	inclusion	Urođeno ili rano manifestovano suženje izlaza želuca
+Q40.0	inclusion	Urođena ili rana manifestovana striktura izlaza želuca
+Q40.1	preferred	urođena kila izlaza jednjaka
+Q40.1	inclusion	Promjena položaja kardije želuca kroz jednjači otvor dijafragme
+Q40.1	exclusion	Urođena dijafragmalna kila Q79.0
+Q40.2	preferred	Druge urođene označene anomalije želuca
+Q40.2	inclusion	Urođena promjena položaja želuca
+Q40.2	inclusion	Urođeno proširenje (divertikulum) želuca
+Q40.2	inclusion	Urođeni poremećaj želuca u obliku peščanog sata
+Q40.2	inclusion	Udvojeni želudac
+Q40.2	inclusion	Veliki želudac
+Q40.2	inclusion	Mali želudac
+Q40.3	preferred	urođena malformacija želuca, neoznačena
+Q40.8	preferred	Druge urođene označene anomalije gornjih organa za varenje
+Q40.9	preferred	urođena neoznačena anomalija gornjih organa za varenje
+Q40.9	inclusion	Urođena anomalija gornjih organa za varenje NOS
+Q40.9	inclusion	Urođeni deformitet gornjih organa za varenje NOS
+Q41	preferred	urođeni nedostatak, urođena pregrada i suženje tankog crijeva
+Q41	inclusion	Urođena opstrukcija, začepljenje i suženje crijeva ili tankog crijeva NOS
+Q41	exclusion	Mekonijalni ileus E84.1
+Q41.0	preferred	urođeni nedostatak, urođena pregrada i suženje dvanaestopalacnog crijeva
+Q41.1	preferred	urođeni nedostatak, urođena pregrada i suženje praznog crijeva
+Q41.1	inclusion	Sindrom kore jabuke
+Q41.1	inclusion	Neprohodni jejunum
+Q41.2	preferred	urođeni nedostatak, urođena pregrada i suženje usukanog crijeva
+Q41.8	preferred	urođeni nedostatak, urođena pregrada i suženje drugih posebnih djelova tankog crijeva
+Q41.9	preferred	urođeni nedostatak, urođena pregrada i suženje dijela tankog crijeva, neoznačen
+Q41.9	inclusion	Urođeni nedostatak, pregrada i suženje crijeva NOS
+Q42	preferred	urođeni nedostatak, urođena pregrada i suženje debelog crijeva
+Q42	inclusion	Urođena pregrada, začepljenje i suženje debelog crijeva
+Q42.0	preferred	urođeni nedostatak, urođena pregrada i suženje pravog crijeva, sa fistulom
+Q42.1	preferred	urođeni nedostatak, urođena pregrada i suženje zadnjeg crijeva, bez fistule
+Q42.1	inclusion	Neprohodno pravo crijevo
+Q42.2	preferred	urođeni nedostatak, urođena pregrada i suženje čmara, sa fistulom
+Q42.3	preferred	urođeni nedostatak, urođena pregrada i suženje čmara, bez fistule
+Q42.3	inclusion	Neprohodni čmar
+Q42.8	preferred	Drudi urođeni nedostatak, urođena pregrada i suženje dijela debelog crijeva
+Q42.9	preferred	urođeni nedostatak, urođena pregrada i suženje dijela debelog crijeva, neoznačen
+Q43	preferred	Druge urođene malformacije crijeva
+Q43.0	preferred	Meckelovo vrecasto prosirenje crijeva
+Q43.0	inclusion	Postojani omfalomezenterični kanal
+Q43.0	inclusion	postojani vitelinski kanal
+Q43.1	preferred	Hirschsprungova bolest
+Q43.1	inclusion	Nedostatak ganglija crijeva
+Q43.1	inclusion	Urođeno (aganglijski) uvećano debelo crijevo
+Q43.2	preferred	Drugi urođeni poremećaji funkcije debelog crijeva
+Q43.2	inclusion	Urođena dilatacija debelog crijeva
+Q43.3	preferred	urođene malformacije, fiksiranja crijeva
+Q43.3	inclusion	Urođene anomalijske priraslice [trake] omentuma
+Q43.3	inclusion	Urođene priraslice [trake] trbušne maramice
+Q43.3	inclusion	Jackson-ova membrana
+Q43.3	inclusion	Pogrešna rotacije beleg crijeva
+Q43.3	inclusion	Poremećena rotacija slijepog i debelog crijeva
+Q43.3	inclusion	Nekompletna rotacija slijepog i debelog crijeva
+Q43.3	inclusion	Nedovoljna rotacija slijepog i debelog crijeva
+Q43.3	inclusion	
+Q43.4	preferred	Udvojena crijeva
+Q43.5	preferred	Nenormalno mjesto čmara
+Q43.6	preferred	urođena fistula pravog crijeva i čmara
+Q43.6	exclusion	Urođena fistula: rekto-vaginalna Q52.2
+Q43.6	exclusion	Urođena fistula: uretro-rektalna Q64.7
+Q43.6	exclusion	Pilonidalni sinus ili fistula L05.-
+Q43.6	exclusion	sa odsustvom, srastanjem i suženjem Q42.0, Q42.2
+Q43.7	preferred	Postojana kloaka
+Q43.7	inclusion	Kloaka NOS
+Q43.8	preferred	Druge označene urođene malformacije crijeva
+Q43.8	inclusion	Urođeni sindrom slijepe vijuge
+Q43.8	inclusion	Urođeno zapaljenje vrećastih proširenja debelog crijeva
+Q43.8	inclusion	Urođeno vrećasto proširenje tankog crijeva
+Q43.8	inclusion	Dugačko debelo crijevo
+Q43.8	inclusion	Uvećani crvuljak
+Q43.8	inclusion	Uvećano dvanaestopalačno crijevo
+Q43.8	inclusion	Malo debelo crijevo
+Q43.8	inclusion	Promijenjen položaj apendiksa
+Q43.8	inclusion	Promijenjen položaj debelog crijeva
+Q43.8	inclusion	Promijenjen položaj tankog crijeva
+Q43.9	preferred	urođena malformacija crijeva, neoznačena
+Q44	preferred	urođene malformacije žučne kesice, zucnih kanala i jetre
+Q44.0	preferred	Nedostatak, nerazvijenost i zakrzljalost žučne kesice
+Q44.0	inclusion	Urođeni nedostatak žune kese
+Q44.1	preferred	Druge urođene malformacije žučne kesice
+Q44.1	inclusion	Urođena malformacija žučne kese NOS
+Q44.1	inclusion	Žučna kesa postavljena unutar jetre
+Q44.2	preferred	urođena pregrada zucnih kanala
+Q44.3	preferred	urođeno suženje zucnih kanala
+Q44.4	preferred	Cista glavog zucnog kanala
+Q44.5	preferred	Druge urođene malformacije zucnih kanala
+Q44.5	inclusion	Prekobrojni jetreni žučni kanal
+Q44.5	inclusion	Urođena malformacija žučnih kanala NOS
+Q44.5	inclusion	Udvojenost žučnih kanala 
+Q44.5	inclusion	Udvojenost kanala žučne kese
+Q44.6	preferred	urođeno cisticna jetra
+Q44.6	inclusion	Fibro-cistična bolest jetre
+Q44.7	preferred	Druge urođene malformacije jetre
+Q44.7	inclusion	Prekobrojna jetra
+Q44.7	inclusion	Alagille-ov sindrom
+Q44.7	inclusion	Urođeni nedostatak jetre
+Q44.7	inclusion	Urođeno uvećana jetra
+Q44.7	inclusion	Urođena malformacija jetre NOS
+Q45	preferred	Druge urođene malformacije organa za varenje
+Q45	exclusion	Urođena dijafragmalna kila Q79.0
+Q45	exclusion	Urođena hijiatusna kila Q40.1
+Q45.0	preferred	Nedostatak, nedovoljna razvijenost i zakrzljalost gusterace
+Q45.0	inclusion	Urođeni nedostatak gušterače
+Q45.1	preferred	Prstenasta gusteraca
+Q45.2	preferred	urođena cista gusterace
+Q45.3	preferred	Druge urođene malformacije gusterace i kanala gusterace
+Q45.3	inclusion	Prekobrojna gušterača
+Q45.3	inclusion	Urođene malformacije gušterače ili kanala gušterače NOS
+Q45.3	exclusion	Urođena šećerna bolest E10.-
+Q45.3	exclusion	Novorođenačka šećerna bolest P70.2
+Q45.3	exclusion	Fibro-cistična bolest gušterače
+Q45.8	preferred	Druge urođene označene anomalije organa za varenje
+Q45.8	inclusion	Nedostatak (kompletni) (djelimični) sistema za varenje NOS
+Q45.8	inclusion	Udvojenost organa za varenje NOS
+Q45.8	inclusion	Urođeni pormećaj položaja organa za varenje NOS
+Q45.9	preferred	urođena malformacija organa za varenje, neoznačena
+Q45.9	inclusion	Urođena anomalija sistema za varenje NOS
+Q45.9	inclusion	Urođena deformacije sistema za varenje NOS
+Q50-Q56	preferred	Urođena malformacija genitalnih organa
+Q50-Q56	exclusion	Sindrom androgene rezistencije E34.5
+Q50-Q56	exclusion	Sindromi povezanisa anomalijama broja i oblika hromozoma Q90-Q99
+Q50-Q56	exclusion	Sindrom testikularne feminizacije E34.5
+Q50	preferred	urođene malformacije jajnika, jajovoda i siroke veze
+Q50.0	preferred	urođeni nedostatak jajnika
+Q50.0	exclusion	Turner-ov sindrom Q96.-
+Q50.1	preferred	urođena cista jajnika
+Q50.2	preferred	urođeno uvrtanje jajnika
+Q50.3	preferred	Druge urođene malformacije jajnika
+Q50.3	inclusion	Prekobrojni jajnik
+Q50.3	inclusion	Urođena malformacija jajnika NOS
+Q50.3	inclusion	Ovarijalna traka
+Q50.4	preferred	urođena cista jajovoda
+Q50.4	inclusion	Fibrijalna cista
+Q50.5	preferred	Embrionalna cista široke veze uterusa
+Q50.5	inclusion	Efooforonska cista
+Q50.5	inclusion	Cista Gartner-ovog kanala
+Q50.5	inclusion	Cista okoline jajnika
+Q50.6	preferred	Druge urođene malformacije jajovoda i siroke veze
+Q50.6	inclusion	Nedostatak jajovoda ili širokog ligamenta
+Q50.6	inclusion	Prekobrojni jajovod ili široki ligament
+Q50.6	inclusion	Srastanje lumena jajovoda ili širokog ligamenta
+Q50.6	inclusion	Urođena malformacija
+Q51	preferred	urođene malformacije materice i grlića materice
+Q51.0	preferred	Nedostatak i zakrzljalost materice
+Q51.0	inclusion	Urođeni nedostatak materice
+Q51.1	preferred	Dvostruka materica sa dvostrukim grlicem materice i rodnice
+Q51.2	preferred	Udvojena materica, drugo
+Q51.2	inclusion	Udvajanje materice NOS
+Q51.3	preferred	Dvoroga materica
+Q51.4	preferred	Jednoroga materica
+Q51.5	preferred	Nedostatak i zakrzljalost materice
+Q51.5	inclusion	Urođeni nedostatak grliča materice
+Q51.6	preferred	urođena cista grlića materice
+Q51.7	preferred	urođena fistula materice i crijeva i fistula materice i mokracnog sistema
+Q51.8	preferred	Druge urođene malformacije materice i grlića materice
+Q51.8	inclusion	Zakržljalost materice i grlića
+Q51.9	preferred	urođena malformacija materice i grlića materice, neoznačena
+Q52	preferred	Druge urođene malformacije polnih organa zene
+Q52.0	preferred	urođeni nedostatak rodnice
+Q52.1	preferred	Udvojena rodnica
+Q52.1	inclusion	Pregrađena rodnica
+Q52.1	exclusion	Udvajanje rodnice za udvajanjem materice i grlića Q51.1
+Q52.2	preferred	urođena fistula izmedju zadnjeg crijeva i rodnice
+Q52.2	exclusion	Kloaka Q43.7
+Q52.3	preferred	Neprobusen djevicnjak
+Q52.4	preferred	Druge urođene malformacije rodnice
+Q52.4	inclusion	Urođena malformacija rodnice NOS
+Q52.4	inclusion	Cista Nuck-ovog kanala, urođena
+Q52.4	inclusion	Embrionalna cista rodnice
+Q52.5	preferred	Spojene velike usne stidnice
+Q52.6	preferred	urođena malformacija drazice
+Q52.7	preferred	Druge urođene malformacije stidnice
+Q52.7	inclusion	Urođeni nedostatak stidnice
+Q52.7	inclusion	Urođena cista stidnice
+Q52.7	inclusion	Urođena malformacija rodnice NOS
+Q52.8	preferred	Druge urođene označene anomalije polnih organa zene
+Q52.9	preferred	urođena malformacija polnih organa zene, neoznačena
+Q53	preferred	Nespusten sjemenik
+Q53.0	preferred	Nenormalan polozaj sjemenika
+Q53.0	inclusion	Jednostrani ili dvostrani nenormalni položaj sjemenika
+Q53.1	preferred	Jednostrano nespusten sjemenik
+Q53.2	preferred	Obostrano nespusten sjemenik
+Q53.9	preferred	Nespusten sjemenik, neoznačen
+Q53.9	inclusion	Kriptorhizam NOS
+Q54	preferred	Otvor mokraćne cijevi sa donje strane polnog uda - hipospadija
+Q54	exclusion	Otvor mokraćne cijevi sa gornje strane polnog uda - epispadija Q64.0
+Q54.0	preferred	Otvor mokraćne cijevi sa donje strane glavića polnog uda
+Q54.0	inclusion	Otvor mokraćne cijevi sa donje strane prstena glavića muškog uda
+Q54.0	inclusion	Otvor mokraćne cijevi sa donje strane muških polnih žlezda 
+Q54.1	preferred	Otvor mokraćne cijevi sa donje strane tijela muskog uda
+Q54.2	preferred	Otvor mokraćne cijevi sa donje strane muskog uda i mosnjice
+Q54.3	preferred	Otvor mokraćne cijevi sa donje strane medjice
+Q54.4	preferred	Muski ud u obliku luka
+Q54.8	preferred	Drugi položaji otvora mokraćne cijevi kod muškaraca
+Q54.9	preferred	Otvor mokraćne cijevi sa donje strane muškog polnog uda, neoznačen
+Q55	preferred	Druge urođene malformacije muških polnih organa
+Q55	exclusion	Urođena vodena kila P83.5
+Q55	exclusion	Otvor mokraćne cijevi sa donje strane muškog polnog uda Q54.-
+Q55.0	preferred	Nedostatak i nedovoljna razvijenost sjemenika
+Q55.0	inclusion	Jedan sjemenik
+Q55.1	preferred	Zakrzljalost sjemenika i mosnjice
+Q55.1	inclusion	Spojeni sjemenici
+Q55.2	preferred	Druge urođene malformacije sjemenika i mosnjice
+Q55.2	inclusion	Urođene malformacije sjemenika ili mošnjica NOS
+Q55.2	inclusion	Više sjemenika
+Q55.2	inclusion	Klizajući sjemenik
+Q55.2	inclusion	Pokretni sjemenik
+Q55.3	preferred	sraslost lumena sjemevoda
+Q55.4	preferred	Druge urođene malformacije suda sjemevoda, pasjemenika, sjemene kesice i kestenjace
+Q55.4	inclusion	Odsustvo ili nedovoljna razvijenost prostate
+Q55.4	inclusion	Odsustvo ili nedovoljna razvijenost sjemene vrpce
+Q55.4	inclusion	Urođena malformacija suda sjemenika, pasjemenika, sjemenih vrećica ili prostate NOS
+Q55.5	preferred	urođeni nedostatak ili nerazvijenost muskog uda
+Q55.6	preferred	Druge urođene malformacije muskog uda
+Q55.6	inclusion	Urođena malformacija muškog polnog uda NOS
+Q55.6	inclusion	Zakrivljenost muškog polnog uda (bočna)
+Q55.6	inclusion	Zakržljalost muškog polnog uda
+Q55.8	preferred	Druge urođene označene anomalije muskogih polnih organa
+Q55.9	preferred	urođena malformacija muskogih polnih organa, neoznačena
+Q55.9	inclusion	Urođene anomalije muških polnih organa NOS
+Q55.9	inclusion	Urođeni deformiteti muških polnih organa NOS
+Q56	preferred	Neodredjen pol i prividna dvopolnost
+Q56	exclusion	Prividna dvopolnost: žena sa poremećajima kore nadbubrega E25.-
+Q56	exclusion	Prividna dvopolnost: muškarac sa androgenom rezistencijom E34.5
+Q56	exclusion	Prividna dvopolnost: sa označenim hromozomskim anomalijama Q96-q99
+Q56.0	preferred	Dvopolnost, neklasifikovana na drugom mjestu
+Q56.0	inclusion	Ovotestis
+Q56.1	preferred	Muska prividna dvopolnost, neklasifikovana na drugom mjestu
+Q56.1	inclusion	Muška prividna dvopočnost NOS
+Q56.2	preferred	Zenska prividna dvopolnost, neklasifikovana na drugom mjestu
+Q56.2	inclusion	Ženska prividna dvopolnost NOS
+Q56.3	preferred	Dvopolnost, neoznačena
+Q56.4	preferred	Neodredjen pol, neoznačen
+Q56.4	inclusion	Polni organi sa odlikama oba pola
+Q60-Q64	preferred	Urođene malformacije mokraćnog sistema
+Q60	preferred	Nedostatak i nerazvijenost bubrega i drugi redukujući deformiteti bubrega
+Q60	inclusion	Atrofija bubrega: urođena
+Q60	inclusion	Atrofija bubrega: dječija
+Q60	inclusion	Urođeni nedostatak bubrega
+Q60.0	preferred	Jednostrani nedostatak bubrega
+Q60.1	preferred	Obostrani nedostatak bubrega
+Q60.2	preferred	Nedostatak bubrega, neoznačen
+Q60.3	preferred	Jednostrana zakrzljalost bubrega
+Q60.4	preferred	Obostrana zakrzljalost bubrega
+Q60.5	preferred	Zakrzljalost bubrega, neoznačena
+Q60.6	preferred	Potterov sindrom
+Q61	preferred	Cistična bolest bubrega
+Q61	exclusion	Stečena cista bubrega N28.1
+Q61	exclusion	Potter-ov sindrom Q60.6
+Q61.0	preferred	Jedna urođena cista bubrega
+Q61.0	inclusion	Cista bubrega (urođena) (jedna)
+Q61.1	preferred	Policistični bubreg, autozomno recesivno naslijeđen
+Q61.1	inclusion	Policistični bubreg, dječijeg tipa
+Q61.2	preferred	Policistični bubreg, autozomno dominantno naslijeđen
+Q61.2	inclusion	Policistični bubreg, odraslih
+Q61.3	preferred	Policističan bubreg, neoznačen
+Q61.4	preferred	Nepravilan razvoj bubrega
+Q61.4	inclusion	Multicistični, nepravilno razvijeni bubreg
+Q61.4	inclusion	Multicistični bubreg (razvojni poremjećaj)
+Q61.4	inclusion	Multicistična bubrežna bolest
+Q61.4	inclusion	Multicistična bubrežna displazija
+Q61.4	exclusion	Policistična bolest bubrega Q61.1-Q61.3
+Q61.5	preferred	Cista srži bubrega
+Q61.5	inclusion	Sunđerasti bubreg NOS
+Q61.8	preferred	Druge cisticke bolesti bubrega
+Q61.8	inclusion	Fibrocistoza bubrega
+Q61.8	inclusion	Fibrocistoza: bubrežna degeneracija ili oboljenje
+Q61.9	preferred	Cistična bolest bubrega, neoznačena
+Q61.9	inclusion	Meckel-Gruber-ov sindrom
+Q62	preferred	urođene prepreke karlice bubrega i urođene malformacije mokracovoda bubrega
+Q62.0	preferred	urođeno nagomilavanje mokraće u bubregu
+Q62.1	preferred	urođena pregrada i suženje mokracovoda bubrega
+Q62.1	inclusion	Urođeno začepljenje mokraćovoda
+Q62.1	inclusion	Urođeno začepljenje bubrežnog otvora mokraćovoda
+Q62.1	inclusion	Urođeno začepljenje bešičnog otvora mokraćovoda 
+Q62.1	inclusion	
+Q62.2	preferred	urođeno veliki mokracovod bubrega
+Q62.2	inclusion	Urođeno proširenje mokraćovoda
+Q62.3	preferred	Druge urođene prepreke bubrežne čašice i mokracovoda
+Q62.3	inclusion	Urođena kila mokraćovoda
+Q62.4	preferred	Nerazvijenost mokracovoda bubrega
+Q62.4	inclusion	Nedostatak mokraćovoda
+Q62.5	preferred	Udvojeni mokraćovod
+Q62.5	inclusion	Prekobrojni mokraćovod
+Q62.5	inclusion	Dvojni mokraćovod
+Q62.6	preferred	Pogrešna pozicija mokraćovoda
+Q62.6	inclusion	Devijacija mokraćovoda ili otvora mokraćovoda
+Q62.6	inclusion	Pomjeren mokraćovod ili otvor mokraćovoda
+Q62.6	inclusion	Nenormalni mokraćovod ili otvor mokraćovoda
+Q62.6	inclusion	Implantaciona anomalija mokraćovoda ili otvora mokraćovoda
+Q62.7	preferred	urođeno besicno-bubrezno vracanje mokraće
+Q62.8	preferred	Druge urođene malformacije mokracovoda bubrega
+Q62.8	inclusion	Anomalije mokraćovoda NOS
+Q63	preferred	Druge urođene malformacije bubrega
+Q63	exclusion	Urođeni nefrotski sindrom N04.-
+Q63.0	preferred	Prekobrojni bubreg
+Q63.1	preferred	Reznjevit bubreg, spojen bubreg i bubreg u obliku konjske potkovice
+Q63.2	preferred	Bubreg na pogresnom mjestu
+Q63.2	inclusion	Urođeni poremećaj položaja bubrega
+Q63.2	inclusion	Poremećaj rotacije bubrega
+Q63.3	preferred	Uvecan bubreg
+Q63.8	preferred	Druge urođene označene anomalije bubrega
+Q63.8	inclusion	Urođeni bubrežni kamenci
+Q63.9	preferred	urođena malformacija bubrega, neoznačena
+Q64	preferred	Druge urođene malformacije mokracnog sistema
+Q64.0	preferred	urođeni rascjep mokracovoda na prednjoj strani muskog uda
+Q64.0	exclusion	Otvor mokraćne cijevi sa donje strane polnog uda - hipospadija Q54.-
+Q64.1	preferred	Izvrnutost mokraćne bešike
+Q64.1	inclusion	Nenormalan položaj bešike
+Q64.1	inclusion	Izvrnutost mokraćne bešike
+Q64.2	preferred	urođeni zalistak zadnjeg dijela bešičnog otvora mokracovoda 
+Q64.3	preferred	Druga urođena pregrada i suženje mokracovoda i vrata mokraćne bešike
+Q64.3	inclusion	Urođena opstrukcija vrata bešike
+Q64.3	inclusion	Urođena striktura mokraćne cijevi
+Q64.3	inclusion	Urođena striktura otvora mokraćne cijevi
+Q64.3	inclusion	Urođena striktura bešičnog otvora mokraćne cijevi
+Q64.3	inclusion	
+Q64.4	preferred	Malformacija besicno-alantoidnog voda
+Q64.4	inclusion	Cista bešično-alantoidnog kanala
+Q64.4	inclusion	Otvoreni bešično-alantoidni kanal
+Q64.4	inclusion	Ispad bešično-alantoidnog kanala
+Q64.5	preferred	urođeni nedostatak mokraćne bešike i mokracovoda bešike
+Q64.6	preferred	urođeno vrecasto prosirenje zida mokraćne bešike
+Q64.7	preferred	Druge urođene malformacije mokraćne bešike i mokracovoda bešike
+Q64.7	inclusion	Prekobrojna bešika
+Q64.7	inclusion	Prekobrojna mokraćna cijev
+Q64.7	inclusion	Urođena kila bešike
+Q64.7	inclusion	Urođena malformacija bešike ili mokraćne cijevi NOS
+Q64.7	inclusion	Urođeni ispad (sluznice) bešike
+Q64.7	inclusion	Urođeni ispad mokraćne cijevi
+Q64.7	inclusion	Urođeni ispad otvora mokrane cijevi
+Q64.7	inclusion	Urođena fistula između mokraćovoda i pravog crijeva
+Q64.7	inclusion	Udvojena mokraćna cijev
+Q64.7	inclusion	Udvojen otvor mokraćne cijevi
+Q64.8	preferred	Druge urođene označene anomalije mokracnog sistema
+Q64.9	preferred	urođena malformacija mokracnog sistema, neoznačena
+Q64.9	inclusion	Urođena anomalija mokraćnog sistema NOS
+Q64.9	inclusion	Urođeni deformitet mokraćnog sistema NOS
+Q65-Q79	preferred	Urođene malformacije i deformacije mišićno-koštanog sistema
+Q65	preferred	urođeni deformiteti kuka
+Q65	exclusion	Krepitirajući ku R29.4
+Q65.0	preferred	Jednostrano iščašenje kuka
+Q65.1	preferred	Obostrano urođeno iščašenje kuka
+Q65.2	preferred	urođeno iščašenje kuka, neoznačeno
+Q65.3	preferred	Jednostrano nepotpuno urođeno iščašenje kuka
+Q65.4	preferred	Obostrano nepotpuno urođeno iščašenje kuka
+Q65.5	preferred	urođeno nepotpuno iščašenje kuka, neoznačeno
+Q65.6	preferred	urođeno nestabilan zglob kuka
+Q65.6	inclusion	Dislocirajući kuk
+Q65.6	inclusion	Subluksabilni kuk
+Q65.8	preferred	Drugi urođeni deformiteti kuka
+Q65.8	inclusion	Anteverzija vrata butne kosti
+Q65.8	inclusion	Urođeni nepravilni razvoj acetabuluma
+Q65.8	inclusion	Urođeni poremećaj kukova: coxa valga
+Q65.8	inclusion	Urođeni poremećaj kukova: coxa vara
+Q65.9	preferred	urođeni deformitet kuka, neoznačen
+Q66	preferred	urođeni deformiteti stopala
+Q66	exclusion	Redukujući defekti stopala Q72.-
+Q66	exclusion	deformacije tipa valgus (stečene) M21.0
+Q66	exclusion	deformacije tipa varus (stečene) M21.1
+Q66.0	preferred	Skvrceno kopitasto stopalo, uvrnuto unutra
+Q66.1	preferred	Skvrceno stopalo, uvrnuto unutra
+Q66.2	preferred	Donozje, uvrnuto unutra
+Q66.3	preferred	Drugi urođeni deformiteti stopala uvrnutog unutra
+Q66.3	inclusion	Palac stopala urođeno uvrnut unutra
+Q66.4	preferred	Skvrceno stopalo, izvrnuto upolje
+Q66.5	preferred	urođeno ravno stopalo
+Q66.5	inclusion	Urođeno ravno stopalo
+Q66.5	inclusion	Rigidno ravno stopalo
+Q66.5	inclusion	Spastičko (izvrnuto) ravno stopalo
+Q66.6	preferred	Drugi urođeni deformiteti stopala izvrnutog upolje
+Q66.6	inclusion	Metatarsus valgus
+Q66.7	preferred	Izdubljeno stopalo
+Q66.8	preferred	Drugi urođeni deformiteti stopala
+Q66.8	inclusion	Stopalo poput palice NOS
+Q66.8	inclusion	Urođeni čekićasti palac stopala
+Q66.8	inclusion	Talusno stopalo NOS
+Q66.8	inclusion	Asimetrično talusno stopalo
+Q66.8	inclusion	Srastanje tarzusa
+Q66.8	inclusion	Vertikalni talus
+Q66.9	preferred	urođeni deformitet stopala, neoznačen
+Q67	preferred	urođene misicno-koštane deformacije glave, lica kičme i grudnog kosa
+Q67	exclusion	Urođeni malformacioni sindromi klasifikovani pod Q87.-
+Q67	exclusion	Potter-ov sindrom Q60.6
+Q67.0	preferred	Asimetrija lica
+Q67.1	preferred	Skraceno lice
+Q67.2	preferred	Glava izduzena u prednje-zadnjem smjeru
+Q67.3	preferred	Glava nesimetricnog oblika
+Q67.4	preferred	Druge urođene deformacije glave, lica i donje vilice
+Q67.4	inclusion	Udubljenja lobanje
+Q67.4	inclusion	Devijacija nosne pregrade, urođena
+Q67.4	inclusion	Zakržljalosti ili uvećanje jedne polovine lica
+Q67.4	inclusion	Urođeno splošten ili iskrivljen nos
+Q67.4	exclusion	Anomalije lica i zuba [uključujući i poremećaje ugriza] K07.-
+Q67.4	exclusion	Sifilitični sedlasti nos A50.5
+Q67.5	preferred	urođena deformacija kičme
+Q67.5	inclusion	Urođena skolioza NOS
+Q67.5	inclusion	Urođena skolioza pri stajanju
+Q67.5	exclusion	Dječija idiopatska skolioza (M41.0)
+Q67.5	exclusion	Skolioza uzrokovana urođenim malformacijama kostiju Q76.3
+Q67.6	preferred	Ugnut grudni kos
+Q67.6	inclusion	Urođeni levkasti grudni koš
+Q67.7	preferred	Ispupcen grudni kos
+Q67.7	inclusion	Urođene pileće grudi
+Q67.8	preferred	Druge urođene deformacije grudnog kosa
+Q67.8	inclusion	Urođeni deformitet grudnoga koša NOS
+Q68	preferred	Druge urođene deformacije misicno-kostanog sistema
+Q68	exclusion	Redukcioni defekti udova Q71-Q73
+Q68.0	preferred	Urođeni deformitet sternokleidomastoidnog mišića
+Q68.0	inclusion	Urođena (sternomastoidna) krivošija
+Q68.0	inclusion	Kontraktura sternokleidomastoidnog mišića
+Q68.0	inclusion	Tumor sternokleidomastoidnog mišića (urođeni)
+Q68.1	preferred	urođena deformacija šake
+Q68.1	inclusion	Urođeni batičasti prsti
+Q68.1	inclusion	Lopatasta šaka (urođena)
+Q68.2	preferred	urođena deformacija koljena
+Q68.2	inclusion	Urođena iščašenost kolena
+Q68.2	inclusion	Urođena hiperekstenzija koljena
+Q68.3	preferred	urođena iskrivljenost butnjace
+Q68.3	exclusion	Antevrzija (vrata) butne kosti Q65.8
+Q68.4	preferred	urođena iskrivljenost golenjače i lišnjače
+Q68.5	preferred	urođena iskrivljenost drugih kostiju noge, neoznačena
+Q68.8	preferred	Druge označene deformacije misicno-kostanog sistema
+Q68.8	inclusion	Urođeni deformitet ključne kosti
+Q68.8	inclusion	Urođeni deformitet lakta
+Q68.8	inclusion	Urođeni deformitet podlaktice
+Q68.8	inclusion	Urođeni deformitet lopatice
+Q68.8	inclusion	Urođena iščašenost lakta
+Q68.8	inclusion	Urođena iščašenost ramena
+Q69	preferred	Prekobrojni prsti
+Q69.0	preferred	Prekobrojni prst(i) ruke
+Q69.1	preferred	Prekobrojni palac na ruci
+Q69.2	preferred	Prekobrojni prst(i) na stopalu
+Q69.2	inclusion	Prekobrojni palac na stopalu
+Q69.9	preferred	Prekobrojni prsti, neoznačeni
+Q69.9	inclusion	Prekobrojni prst(i) NOS
+Q70	preferred	Sraslost prstiju
+Q70.0	preferred	Spoj prstiju ruke
+Q70.0	inclusion	Složena sraslost prstiju šake sa sraslošću kostiju
+Q70.1	preferred	Kozicom spojeni prsti
+Q70.1	inclusion	Prosta sraslost prstiju šake bez srastanja kostiju
+Q70.2	preferred	Sraslost prstiju noge
+Q70.2	inclusion	Složena sraslost prstiju stopala sa sraslošću kostiju
+Q70.3	preferred	Kozicom spojeni prsti stopala
+Q70.3	inclusion	Prosta sraslost prstiju stopala bez srastanja kostiju
+Q70.4	preferred	Sraslost više prstiju
+Q70.9	preferred	Sraslost prstiju, neoznačena
+Q70.9	inclusion	Odsustvo ili zakržljalost posljednjeg članka prstiju NOS
+Q71	preferred	urođena skracenost ruke
+Q71.0	preferred	urođeni nedostatak ruke
+Q71.1	preferred	urođeni nedostatak nadlaktice i podlaktice uz postojanje šake
+Q71.2	preferred	urođeni nedostatak podlaktice i šake
+Q71.3	preferred	urođeni nedostatak šake i prsta (prstiju)
+Q71.4	preferred	Skracenost duzine zbice
+Q71.4	inclusion	Urođeni poremećaj ruke u obliku palice
+Q71.4	inclusion	Radiusna ruka u obliku palice
+Q71.5	preferred	Skracenost duzine lakatne kosti
+Q71.6	preferred	Kandzasta saka
+Q71.8	preferred	Druge urođene skracenosti ruke
+Q71.8	inclusion	Urođeno kratki gornji ud (udovi)
+Q71.9	preferred	urođena skracenost ruke, neoznačena
+Q72	preferred	urođena skracenost noge
+Q72.0	preferred	urođeni nedostatak noge
+Q72.1	preferred	urođeni nedostatak nadkoljenice i podkoljenice uz postojanje stopala
+Q72.2	preferred	urođeni nedostatak podkoljenice i stopala
+Q72.3	preferred	urođeni nedostatak stopala i prstiju
+Q72.4	preferred	Skracenost duzine butne kosti
+Q72.4	inclusion	Nedostatak proksimalnog okrajka butne kosti
+Q72.5	preferred	Skracenost duzine golenjace
+Q72.6	preferred	Skracenost duzine lisnjace
+Q72.7	preferred	Rascjep stopala
+Q72.8	preferred	Druga urođena skracenost noge
+Q72.8	inclusion	Urođeno kratki donji ud (udovi)
+Q72.9	preferred	urođena skracenost noge, neoznačena
+Q73	preferred	urođena skracenost uda, neoznačena
+Q73.0	preferred	urođeni nedostatak neoznačenog uda
+Q73.0	inclusion	Nedostatak uda - amelia NOS
+Q73.1	preferred	Postojanje samo šake ili stopala neoznačenog uda
+Q73.1	inclusion	Fokomelija NOS
+Q73.8	preferred	Drugi redukujući defekti neoznačenog uda (udova)
+Q73.8	inclusion	Deformiteti neoznačenih udova praćeni skraćenjem dužine 
+Q73.8	inclusion	Zakržljalost dugih kostiju NOS udova NOS - ektromelija
+Q73.8	inclusion	Nedostatak dugih kostiju NOS udova NOS - hemimelija
+Q73.8	inclusion	Redukujući defekti uda (udova) NOS
+Q74	preferred	Druge urođene malformacije uda
+Q74	exclusion	Polidaktilija Q69.-
+Q74	exclusion	Redukujući defekti uda Q71-Q73
+Q74	exclusion	Srastanje prstiju - sindaktilija Q70.-
+Q74.0	preferred	Druge urođene malformacije ruke, uključujući rame
+Q74.0	inclusion	Prekobrojnost kostiju ručja
+Q74.0	inclusion	Zakasnelo okoštavanje i nepravilan razvoj kostiju glave i ramena - kleidokranijalna dizostoza
+Q74.0	inclusion	Urođeni lažni zglob (pseudoartroza) kljlučne kosti
+Q74.0	inclusion	Uvećani prsti
+Q74.0	inclusion	Medelung-ov deformitet
+Q74.0	inclusion	Srastanje kostiju podlaktice - žbice i lakatne kosti
+Q74.0	inclusion	Sprengel-ov deformitet
+Q74.0	inclusion	Tro-člankoviti palac
+Q74.1	preferred	urođena malformacija koljena
+Q74.1	inclusion	Urođeni nedostatak čašice
+Q74.1	inclusion	Urođena iščašenost čašice - patele
+Q74.1	inclusion	Urođeni poremećaj koljena izvrnutih upolje
+Q74.1	inclusion	Urođeni poremećaj koljena izvrnutih unutra
+Q74.1	inclusion	Zakržljala (rudimentirana) patela
+Q74.1	exclusion	Urođena iščašenost koljena Q68.2
+Q74.1	exclusion	Urođena hiperekstenzija koljena Q68.2
+Q74.1	exclusion	Sindrom "patele nalik na nokat" ("nail-patella") Q87.2
+Q74.2	preferred	Druge urođene malformacije noge, uključujući karlicu
+Q74.2	inclusion	Urođena sraslost krstno-bedrenog zgloba
+Q74.2	inclusion	Urođena malformacija skočnog zgloba
+Q74.2	inclusion	Urođena malformacija krstno-bedrenog zgloba
+Q74.2	exclusion	Anteverzija vrata butne kosti Q65.8
+Q74.3	preferred	urođena ukocenost više zglobova u savijenom polozaju
+Q74.8	preferred	Druge urođene označene anomalije uda
+Q74.9	preferred	urođena malformacija uda, neoznačena
+Q74.9	inclusion	Urođeme anomalije udova NOS
+Q75	preferred	Druge urođene malformacije kostiju lobanje i lica
+Q75	exclusion	Urođena malformacija lica NOS Q18.-
+Q75	exclusion	Urođene malformacione sindrome klasifikovane pod Q87.-
+Q75	exclusion	Anomalije lica i zuba [uključujući i poremećaje ugriza] K07.-
+Q75	exclusion	Mišićno-skeletne deformitete glave i lica Q67.0-Q67.4
+Q75	exclusion	Poremećaje lobanje povezane sa urođenim anomalijama mozga kao što je anencefalija Q00.0
+Q75	exclusion	Poremećaje lobanje povezane sa urođenim anomalijama mozga kao što je encefalokela Q00.0
+Q75	exclusion	Poremećaje lobanje povezane sa urođenim anomalijama mozga kao što je hidrocefalus Q03.-
+Q75	exclusion	Poremećaje lobanje povezane sa urođenim anomalijama mozga kao što je mikrocefalija Q02
+Q75.0	preferred	Prijevremeno okoštavanje savova kostiju lobanje
+Q75.0	inclusion	Izdužena lobanja - akrocefalija
+Q75.0	inclusion	Nepravilno srastanje kostiju lobanje
+Q75.0	inclusion	Izdužena lobanja - oksicefalija
+Q75.0	inclusion	Trouglasto čelo - trigonocefalija
+Q75.1	preferred	Nenormalno okoštavanje kostiju lobanje i lica
+Q75.1	inclusion	Kcrouzon-ova bolest
+Q75.2	preferred	Prevelika razdaljina izmedju ociju
+Q75.3	preferred	Velika glava
+Q75.4	preferred	Nenormalno okoštavanje donje vilice i kostiju lica
+Q75.4	inclusion	Franceschetti-jev sindrom
+Q75.4	inclusion	Treacher-Collins-ov sindrom
+Q75.5	preferred	Nenormalno okoštavanje kostiju očne duplje i donje vilice
+Q75.8	preferred	Druge urođene označene anomalije kostiju lobanje i lica
+Q75.8	inclusion	Urođeno odsustvo kostiju lobanje
+Q75.8	inclusion	Urođeni deformitet čela
+Q75.8	inclusion	Zaravnjenje baze lobanje - platibazija
+Q75.9	preferred	urođena malformacija kostiju lobanje i lica, neoznačena
+Q75.9	inclusion	Urođena anomalija kostiju lica NOS
+Q75.9	inclusion	Urođena anomalilja lobanje NOS
+Q76	preferred	urođene malformacije kičme i kostiju grudnog kosa
+Q76	exclusion	Urođeni mišićno-koštani deformiteti kičme i grudnog koša Q67.5-Q67.8
+Q76.0	preferred	Rascjep kičmenog stuba
+Q76.0	exclusion	Moždanične kile kičme Q05.-
+Q76.0	exclusion	Rascjep kičmenog stuba, otvoreni, cistični
+Q76.1	preferred	Kippel-Feil-ov sindrom
+Q76.1	inclusion	Sindrom srastanja vratnih pršljenova
+Q76.2	preferred	urođeno skliznuce pršljena
+Q76.2	inclusion	Urođena spondiloliza - defekt interartikularnog dijela pršljenskog luka M43.1
+Q76.2	exclusion	Skliznuće pršljena (stečeno) M43.1
+Q76.2	exclusion	Stečana spondiloliza M43.0
+Q76.3	preferred	Urođena skolioza usled urođene koštane malformacije
+Q76.3	inclusion	Srastanje polupršljenova ili poremećaj razdvajanja pršljenova sa skoliozom 
+Q76.4	preferred	Druge urođene malformacije kičme, bez iskrivljenosti
+Q76.4	inclusion	Urođeni nedostatak pršljena neoznačen ili nepovezan sa skoliozom
+Q76.4	inclusion	Urođeno srastanje pršljenova neoznačeno ili nepovezano sa soliozom
+Q76.4	inclusion	Urođena kifoza, neoznačena ili nepovezana sa skoliozom
+Q76.4	inclusion	Zurođena loroza, neoznačena ili nepovezana sa skoliozom
+Q76.4	inclusion	Urođena malformacija slabinsko-krstnog zgloba (dijela), neoznačena ili nepovezana sa skoliozom
+Q76.4	inclusion	Polupršljen, neoznačen ili nepovezan sa skoliozom
+Q76.4	inclusion	Malformacije kičmenog stuba, neoznačene ili nepobezane sa skoliozom
+Q76.4	inclusion	Zaravnjenje tijela pršljena, neoznačeno ili nepovezano sa skoliozom
+Q76.4	inclusion	Prekobrojni pršljen, neoznačen ili nepovezan sa skoliozom
+Q76.5	preferred	Vratno rebro
+Q76.5	inclusion	Prekobrojno rebro u vratnom regionu
+Q76.6	preferred	Druge urođene malformacije rebara
+Q76.6	inclusion	Pomoćno rebro
+Q76.6	inclusion	Urođeni nedostatak rebra
+Q76.6	inclusion	Urođeno srastanje rebara
+Q76.6	inclusion	Urođena malformacija rebara NOS
+Q76.6	exclusion	Sindrom kratog rebra Q77.2
+Q76.7	preferred	urođena malformacija grudne kosti
+Q76.7	inclusion	Urođeni nedostatak grudne kosti
+Q76.7	inclusion	Rascepljena grudna kost
+Q76.8	preferred	Druge urođene malformacije kostiju grudnog kosa
+Q76.9	preferred	urođena malformacija kostiju grudnog kosa, neoznačena
+Q77	preferred	Nepravilan razvoj kostiju i hrskavica sa losim stvaranjem supljih kostiju i kičme
+Q77	exclusion	
+Q77.0	preferred	Nedostatak hrskavice
+Q77.0	inclusion	Smanjeno stvaranje hrskavice
+Q77.1	preferred	Smrtonosan patuljasti rast
+Q77.2	preferred	Sindrom kratkog rebra
+Q77.2	inclusion	Nepravilan razvoj grudnoga koša praćen asfiksijom 
+Q77.3	preferred	Nepravilan razvoj hrskavice tackastog oblika
+Q77.4	preferred	Odsustvo rasta kostiju u duzini
+Q77.4	inclusion	Smanjenje rasta kostiju u dužinu
+Q77.4	inclusion	Urođena skleroza kostiju
+Q77.5	preferred	Nepravilan razvoj tkiva uzrokovan poremecenom ishranom
+Q77.6	preferred	Nepravilan razvoj hrskavice i spoljnjeg razvojnog lista uzrokovan poremecenom ishranom
+Q77.6	inclusion	Ellis-van Creveld-ov sindrom
+Q77.7	preferred	Nepravilan razvoj pršljena i okrajka dogih kosti
+Q77.8	preferred	Drugi nepravilan razvoj kostiju i hrskavica sa losim stvaranjem supljih kostiju i kičme
+Q77.9	preferred	Nepravilan razvoj kostiju i hrskavica sa losim stvaranjem supljih kostiju i kičme, neoznačen
+Q78	preferred	Drugi nepravilan razvoj kostiju i hrskavica
+Q78.0	preferred	Lako lomljiva kost
+Q78.0	inclusion	Lomljive kosti
+Q78.0	inclusion	
+Q78.1	preferred	Nepravilan fibrozirajuci razvoj kostiju
+Q78.1	inclusion	Albright(-McCune)(-Sternberg)-ov sindrom
+Q78.2	preferred	Preveliko otvrdnjavanje kostiju
+Q78.2	inclusion	Albers-Schönberg-ov sindrom
+Q78.3	preferred	Progresivan poremećaj razvoja grupe dugih kostiju
+Q78.3	inclusion	Camurati-Engelmann-ov sindrom
+Q78.4	preferred	Tumor ćelija hrskavice okrajaka dugih kostiju
+Q78.4	inclusion	Maffucci-jev sindrom
+Q78.4	inclusion	Ollier-ova bolest
+Q78.5	preferred	Poremećaj razvoja grupe dugih kostiju
+Q78.5	inclusion	Pyle-ov sindrom
+Q78.6	preferred	urođeni brojni spoljnji izrastaji kosti
+Q78.6	inclusion	Dijafizna aklasija
+Q78.8	preferred	Drugi označeni nepravilan razvoj kostiju i hrskavica
+Q78.8	inclusion	Nepravilan trazvoj kostiju sa mnogobrojnim tačkama osifikacije
+Q78.9	preferred	Nepravilan razvoj kostiju i hrskavica, neoznačen
+Q78.9	inclusion	Poremećaj razvoja hrskavice NOS
+Q78.9	inclusion	Poremećaj razvoja kostiju NOS
+Q79	preferred	urođene malformacije misicno-kostanog sistema, neklasifikovane na drugom mjestu
+Q79	exclusion	Urođena (sternomastoidna) krivošija Q68.0
+Q79.0	preferred	Urođena dijafragmalna kila
+Q79.0	exclusion	Urođena hijatusna kila Q40.1
+Q79.1	preferred	Druge urođene malformacije dijafragme
+Q79.1	inclusion	Nepostojanje dijafragme (prečage)
+Q79.1	inclusion	Urođena malformacija dijafragme (prečage) NOS
+Q79.1	inclusion	Ispupčenje dijafragme (prečage)
+Q79.2	preferred	Poremećaj razvoja zida abdomena sa protruzijom organa
+Q79.2	inclusion	Omfalocela
+Q79.2	exclusion	Pupčana kila K42.-
+Q79.3	preferred	urođeni zjap trbuha
+Q79.4	preferred	Sindrom naduvenog trbuha
+Q79.5	preferred	Druge urođene malformacije zida abdomena
+Q79.5	exclusion	Pupčana kila K42.-
+Q79.6	preferred	Ehler-Danlos-ov sindrom
+Q79.8	preferred	Druge urođene malformacije misicno-kostanog sistema
+Q79.8	inclusion	Odsustvo mišića
+Q79.8	inclusion	Osustvo tetive
+Q79.8	inclusion	Prekobrojni mišić
+Q79.8	inclusion	Urođena mišićna zakržljalost
+Q79.8	inclusion	Urođena
+Q79.8	inclusion	Urođeno skraćene tetive
+Q79.8	inclusion	Poland-ov sindrom
+Q79.9	preferred	urođena malformacija misicno-kostanog sistema, neoznačena
+Q79.9	inclusion	Urođena anomalija NOS mišićno-koštanog sistema NOS
+Q79.9	inclusion	Urođeni deformitet NOS mišićno koštanog sistema NOS
+Q80-Q89	preferred	Druge urođene malformacije
+Q80	preferred	Urođena krljuštica (ihtioza)
+Q80	exclusion	Refsum-ova bolest G60.1
+Q80.0	preferred	Obicna krljuštica (ihtioza)
+Q80.1	preferred	Krljuštica (ihtioza) vezana za x-hromosom
+Q80.2	preferred	Ljuspasta krljuštica (ihtioza)
+Q80.2	inclusion	Kolodijumsko novorođenče
+Q80.3	preferred	urođeno plikovito crvenilo kože slicno krljuštici (ihtiozi)
+Q80.4	preferred	"Harlekinsko" novorođenče
+Q80.8	preferred	Druge urođene krljuštice (ihtioze)
+Q80.9	preferred	urođena krljuštica, neoznačena
+Q81	preferred	Mjehurasto ljuštenje pokožice
+Q81.0	preferred	Obicno mjehurasto ljuštenje pokožice
+Q81.0	exclusion	Cockayne-ov sindrom Q87.1
+Q81.1	preferred	Smrtonosno mjehurasto ljuštenje pokožice
+Q81.1	inclusion	Herlitz-ov sindrom
+Q81.2	preferred	Mjehurasto ljuštenje pokožice uzrokovano lošom ishranom kože
+Q81.8	preferred	Drugo mjehurasto ljuštenje pokožice
+Q81.9	preferred	Mjehurasto ljuštenje pokožice, neoznačeno
+Q82	preferred	Druge urođene malformacije kože
+Q82	exclusion	Enteropatski akrodermatitis E83.2
+Q82	exclusion	Urođena eritropoetska porfirija E80.0
+Q82	exclusion	Pilonidalna cista ili sinus L05.-
+Q82	exclusion	Sturge-Weber (Dimitri)-jev sindrom Q85.8
+Q82.0	preferred	Nasljedni limfedem
+Q82.1	preferred	Pigmentovana suha koza
+Q82.2	preferred	Mastocitoza
+Q82.2	inclusion	Prebojena urtikarija
+Q82.2	exclusion	Maligna mastocitoza C96.2
+Q82.3	preferred	Nezadrzavanje pigmenta
+Q82.4	preferred	Ektodermaticki poremećaj razvoja
+Q82.4	exclusion	Ellis-van Creveld-ov sindrom Q77.6
+Q82.5	preferred	urođeni dobroćudni mladež
+Q82.5	inclusion	Mladež na rođenju NOS
+Q82.5	inclusion	Mladež:
+Q82.5	inclusion	Mladež boje porto vina
+Q82.5	inclusion	Mladež boje krvi
+Q82.5	inclusion	Mladež: jagodasti
+Q82.5	inclusion	Mladež vaskularnog porijekla NOS
+Q82.5	inclusion	Bradavičasti mladež
+Q82.5	exclusion	Fleke boje bijele kafe - "café au lait" L81.3
+Q82.5	exclusion	Gubitag pigmenta kože - lentigo L81.4
+Q82.5	exclusion	Mladež NOS D22.-
+Q82.5	exclusion	Spider nevus I78.1
+Q82.5	exclusion	Melanocitni mladež D22.-
+Q82.5	exclusion	Pigmentni mladež D22.-
+Q82.5	exclusion	Spider nevus I78.1
+Q82.5	exclusion	Zvjezdasti mladež I78.1
+Q82.8	preferred	Druge urođene označene anomalije kože
+Q82.8	inclusion	Abnormalne brazde dlanova
+Q82.8	inclusion	
+Q82.8	inclusion	Benigni nasljedni pemfigus [Hailey-ailey]
+Q82.8	inclusion	prekomjerno elastična koža
+Q82.8	inclusion	Poremećaji nabora na koži
+Q82.8	inclusion	Nasljedna keratoza dlanova i tabana 
+Q82.8	inclusion	Folikularna keratoza [Darier-White]
+Q82.8	exclusion	Ehler-Danlos-ov sindrom Q79.6
+Q82.9	preferred	urođena malformacija kože, neoznačena
+Q83	preferred	urođene malformacije dojke
+Q83	exclusion	Nepostojanje grudnog mišića Q79.8
+Q83.0	preferred	urođeni nedostatak dojke i bradavice dojke
+Q83.1	preferred	Dodatna dojka
+Q83.1	inclusion	Prekobrojna dojka
+Q83.2	preferred	Nedostatak bradavice dojke
+Q83.3	preferred	Dodatna bradavica dojke
+Q83.3	inclusion	Prekobrojna bradavica dojke
+Q83.8	preferred	Druge urođene malformacije dojke
+Q83.8	inclusion	Smanjen razvoj dojke
+Q83.9	preferred	urođena malformacija dojke, neoznačena
+Q84	preferred	Druge urođene malformacije kože
+Q84.0	preferred	urođeno opadanje kose
+Q84.0	inclusion	Urođeni nedostatak dlake
+Q84.1	preferred	Urođeni poremećaji morfologije dlake, neklasifikovani nda drugom mjestu
+Q84.1	inclusion	Mjehurasta dlaka
+Q84.1	inclusion	Moniletriks - mjehurasta dlaka
+Q84.1	inclusion	Prstenasta dlaka
+Q84.1	exclusion	Menkes-ov sindrom kovrdžave kose E83.0
+Q84.2	preferred	Druge urođene malformacije dlaka
+Q84.2	inclusion	Urođena prekomjerna maljavost
+Q84.2	inclusion	Urođena malformacije dlake NOS
+Q84.2	inclusion	Postojani lanugo
+Q84.3	preferred	Nedostatak nokta
+Q84.3	exclusion	Sindrom "patele nalik na nokat" ("nail-patella") Q87.2
+Q84.4	preferred	Bijela mrlja nokta
+Q84.5	preferred	Veliki i zadebljao nokat
+Q84.5	inclusion	Urođeno zadebljanje noktiju
+Q84.5	inclusion	Zadebljali nokatni krevetac - pahionihija
+Q84.6	preferred	Druge urođene malformacije nokata
+Q84.6	inclusion	Urođeni poremećaj nokta poput palice
+Q84.6	inclusion	Urođena koilonihija - nokti poput kašike
+Q84.6	inclusion	Urođena malformacija nokta NOS
+Q84.8	preferred	Druge urođene označene malformacije kože i kožnih adneksa
+Q84.8	inclusion	Urođeno nepostojanje razvoja kože
+Q84.9	preferred	Druge urođene označene malformacije kože i kožnih adneksa, neznačenih
+Q84.9	inclusion	Urođene anomalije NOS kože i kožnih adneksa NOS
+Q84.9	inclusion	Urođeni deformiteti NOS kože i kožnih adneksa, NOS
+Q85	preferred	Fakomatose - tumori sočiva oka, neklasifikovani na drugom mjestu
+Q85	exclusion	Poremećaj ataksija-teleangiektazija [Louis-Bar] G11.3
+Q85	exclusion	Porodični (nasledni) poremećaji autonomnog nervnog sistema [Riley-Day] (G90.1)
+Q85.0	preferred	Mnogobrojni dobroćudni tumori vezivnog tkiva živca
+Q85.0	inclusion	Von Recklinghausen-ova bolest
+Q85.1	preferred	Kvrgasto otvrdnuće tkiva
+Q85.1	inclusion	Bourneville-ska bolest
+Q85.1	inclusion	Epiloja
+Q85.8	preferred	Druge fakomatoze
+Q85.8	inclusion	Peutz-Jeghers-ov sindrom
+Q85.8	inclusion	Struge-Weber(-Dimitri) -ov sindrom
+Q85.8	inclusion	von Hippel - Lindau-ov sindrom
+Q85.8	exclusion	Meckel-Gruber-ov sindrom Q61.9
+Q85.9	preferred	Fakomatoza, neoznačena
+Q85.9	inclusion	Hamartoza NOS
+Q86	preferred	Sindromi urođenih anomalija izazvani potznatim spoljnjim uzrocima, neklasifikovani na drugom mjestu
+Q86	exclusion	Smanjena funkcija štitaste žlezde povezana sa nedostatkom joda E00-E02
+Q86	exclusion	Nenakazni efekti supstanice dospjelih preko placente ili majčinog mlijeka P04.-
+Q86.0	preferred	Alkoholni sindrom fetusa (dismorfni) 
+Q86.1	preferred	Sindrom ploda ostecenog hidantoinom
+Q86.1	inclusion	Meadow sindrom
+Q86.2	preferred	Nakaznost uzrokovana varfarinom
+Q86.8	preferred	Drugi sindromi urođenih anomalija izazvani poznatim spoljnjim uzrocima
+Q87	preferred	Drugi sindromi urođenih anomalija više sistema, označeni
+Q87.0	preferred	Sindromi urođenih anomalija pretezno lica
+Q87.0	inclusion	Izdužena lobanja - akrocefalija udružena sa višestrukim poremjećajima sraslih prstiju.
+Q87.0	inclusion	Izdužena lobanja - akrocefalija udružena sa sraslim prstima [Apert]
+Q87.0	inclusion	Sindrom zatvorene očne duplje udružen sa malformacijom genitalnih organa
+Q87.0	inclusion	Kiklopija
+Q87.0	inclusion	Sindrom Zlatokose
+Q87.0	inclusion	Moebius-ov sindrom
+Q87.0	inclusion	Sindrom usta-lice-prsti
+Q87.0	inclusion	Robin-ov sindrom
+Q87.0	inclusion	Lice zvizdača
+Q87.1	preferred	Sindromi urođenih anomalija pretezno sa malim rastom
+Q87.1	inclusion	Aarskog-ov sindrom
+Q87.1	inclusion	Cockayne-ov sindrom
+Q87.1	inclusion	De Lange-ov sindrom
+Q87.1	inclusion	Dubowitz-ov sindrom
+Q87.1	inclusion	Noonan-ov sindrom
+Q87.1	inclusion	Prader-Willi-jev sindrom
+Q87.1	inclusion	Robinow-Silverman-Smith-ov sindrom
+Q87.1	inclusion	Russell-Silver-ov sindrom
+Q87.1	inclusion	Seckel-ov sindrom
+Q87.1	inclusion	Smith-Lemli-Opitz-ov sindrom
+Q87.1	exclusion	Ellis-van Creveld-ov sindrom Q77.6
+Q87.2	preferred	Sindromi urođenih anomalija pretezno udova
+Q87.2	inclusion	Holt-Oram-ov sindrom
+Q87.2	inclusion	Klippel-Trenaunay-Weber-ov sindrom
+Q87.2	inclusion	Sindrom "patele nalik na nokat" ("nail-patella") 
+Q87.2	inclusion	Rubinstein-Taybi-ev sindrom
+Q87.2	inclusion	Sindrom sirenomelije
+Q87.2	inclusion	Trombocitopenijski sindrom sa nedostatkom žbice [tar]
+Q87.2	inclusion	VATER sindrom
+Q87.3	preferred	Sindromi urođene malformacije ranog prekomjernog rasta
+Q87.3	inclusion	Beckwith-Wiedemann-ov sindrom
+Q87.3	inclusion	Sotos-ov sindrom
+Q87.3	inclusion	Weaver-ov sindrom
+Q87.4	preferred	Marfanov sindrom
+Q87.5	preferred	Drugi sindromi urođene malformacije sa drugim promjenama kostiju
+Q87.8	preferred	Drugi označeni sindromi urođene malformacije
+Q87.8	inclusion	Alport-ov sindrom
+Q87.8	inclusion	Laurence-Moon(-Bardet)-Biedl-ov sindrom
+Q87.8	inclusion	Zellweger-ov sindrom
+Q89	preferred	Druge urođene malformacije
+Q89.0	preferred	urođene malformacije sljezine
+Q89.0	inclusion	Nedostatak slezine (urođeni)
+Q89.0	inclusion	Urođena uvećana slezina
+Q89.0	exclusion	Jednakost pripojaka pretkomora sa nedostatkom slezine ili višestrukim slezinama
+Q89.1	preferred	urođene malformacije nadbubrezne žlijezde
+Q89.1	exclusion	Urođena uvećana nadbubrežna žlezda E25.0
+Q89.2	preferred	urođene malformacije drugih žlijezda sa unutrašnjim lučenjem
+Q89.2	inclusion	Urođene malformacije paraštitastih ili štitaste žlezde
+Q89.2	inclusion	Postojani štitasto-jezični kanal
+Q89.2	inclusion	štitasto-jezična cista
+Q89.3	preferred	Obrnuti polozaj organa
+Q89.3	inclusion	Desnostrano srce u sklopu obrnutog položaja organa
+Q89.3	inclusion	Obruti (kao u ogledalu) položaj pretkomora u sklopu obrnutog položaja organa
+Q89.3	inclusion	Obrnuti polozaj organa abdomena
+Q89.3	inclusion	Obrnuti polozaj organa grudnoga koša
+Q89.3	inclusion	Izmijenjani položaj organa abdomena
+Q89.3	inclusion	Izmijenjani položaj organa grudnoga koša
+Q89.3	exclusion	Desni polozaj srca Q24.0
+Q89.3	exclusion	Lijevi položaj srca Q24.1
+Q89.4	preferred	Spojeni blizanci
+Q89.4	inclusion	Blizanci spojeni glavama
+Q89.4	inclusion	Dvoglavost
+Q89.4	inclusion	Udvojena nakaza
+Q89.4	inclusion	Blizanci spojeni karličnim prstenom
+Q89.4	inclusion	Blizanci spojeni grudnim košem
+Q89.7	preferred	Mnogostruke urođene malformacije
+Q89.7	inclusion	Nakaza NOS
+Q89.7	inclusion	Višestruke urođene anomalije NOS
+Q89.7	inclusion	Višestruki urođeni deformiteti NOS
+Q89.7	exclusion	Urođeni malformacioni sindromi sa zahvatanjem više organskih sistema Q87.-
+Q89.8	preferred	Druge označene urođene malformacije
+Q89.9	preferred	urođena malformacija, neoznačena
+Q89.9	inclusion	Urođena anomalija NOS
+Q89.9	inclusion	Urođeni deformitet NOS
+Q90-Q99	preferred	Hromozomske nenormalnosti, neklasifikovane na drugom mjestu
+Q90	preferred	Downov sindrom
+Q90.0	preferred	Trisomija 21, nerazdvajanje u mejozi
+Q90.1	preferred	Trisomija 21, mozaicizam, nerazdvajanje u mitozi
+Q90.2	preferred	Trisomija 21, translokacija
+Q90.9	preferred	Downov sindrom, neoznačen
+Q90.9	inclusion	Trizomija 21 NOS
+Q91	preferred	Edwardov i Patauov sindrom
+Q91.0	preferred	Trisomija 18, nerazdvajanje u mejozi
+Q91.1	preferred	Trisomija 18, mozaicizam, nerazdvajanje u mitozi
+Q91.2	preferred	Trisomija 18, poprecno postavljanje
+Q91.3	preferred	Edwardsov sindrom, neoznačen
+Q91.4	preferred	Trisomija 13, nerazdvajanje u mejozi
+Q91.5	preferred	Trisomija 13, mozaicizam, nerazdvajanje u mitozi
+Q91.6	preferred	Trisomija 13, translokacija
+Q91.7	preferred	Patauov sindrom, neoznačen
+Q92	preferred	Druge trisomije i djelimicne autosomne trisomije
+Q92	inclusion	Nejednake translokacije i insercije
+Q92	exclusion	Trizomije hromozoma 13, 18 i 21 Q90-Q91
+Q92.0	preferred	Autosomna trisomija, nerazdvajanje u mejozi
+Q92.1	preferred	Autosomna trisomija, mozaicizam (nerazdvajanje u mitozi)
+Q92.2	preferred	Autosomna velika djelimicna trisomija
+Q92.2	text	Dupliciran je cijeli krak ili više od toga
+Q92.3	preferred	Autosomna mala djelimicna trisomija
+Q92.3	text	Manje od cijeloga kraka hromozoma je duplicirano
+Q92.4	preferred	Autosomna duplikatura hromosoma, vidljiva samo u prometafazi
+Q92.5	preferred	Autosomna duplikatura sa potpunom reorganizacijom
+Q92.6	preferred	Posebno obiljezeni hromosomi
+Q92.7	preferred	Triploidi i poliploidi
+Q92.8	preferred	Druge označene autosomne trisomije i djelimicne trisomije
+Q92.9	preferred	Autosomna trisomija i djelimicna trisomija, neoznačena
+Q93	preferred	Monosomije i djelimicne monosomije, autosomne
+Q93.0	preferred	Autosomna monosomija, nerazdvajanje u mejozi
+Q93.1	preferred	Autosomna monosomija, mozaicizam (nerazdvajanje u mitozi)
+Q93.2	preferred	Hromosom zamijenjen prstenom ili necentrican
+Q93.3	preferred	Razaranje kratkog kraka hromosoma 4
+Q93.3	inclusion	Wolff-Hirschorn-ov sindrom
+Q93.4	preferred	Razaranje kratkog kraka hromosoma 5
+Q93.4	inclusion	Sindrom mačijeg plača djeteta
+Q93.5	preferred	Drugo razaranje dijela hromosoma
+Q93.5	inclusion	Angelman-ov sindrom
+Q93.6	preferred	Razaranja vidljiva samo u prometafazi
+Q93.7	preferred	Razaranja sa drugim kompletnim reorganizacijama
+Q93.8	preferred	Razaranja drugih autosomnih hromosoma
+Q93.9	preferred	Razaranje autosomnog hromosoma, neoznačeno
+Q95	preferred	Translokacije i pripajanja hromosoma
+Q95	inclusion	
+Q95.0	preferred	Balansirane translokacije i pripajanja hromosoma kod normalnih osoba
+Q95.1	preferred	Inverzija hromosoma kod normalnih osoba
+Q95.2	preferred	Autosomna balansirana reorganizacija kod nenormalnih osoba
+Q95.3	preferred	Balansirana polno-autosomna reorganizacija kod nenormalnih osoba
+Q95.4	preferred	Osobe sa označenim heterohromatinom
+Q95.5	preferred	Osobe sa autosomnim nestabilnim mjestom
+Q95.8	preferred	Druge poprecne translokacije i pripajanja hromosoma
+Q95.9	preferred	Neoznačena translokacija i pripajanje hromosoma
+Q96	preferred	Turnerov sindrom
+Q96	exclusion	Noonan-ov sindrom Q87.1
+Q96.0	preferred	Kariotip 45, x
+Q96.1	preferred	Kariotip 46, x izo (xq)
+Q96.2	preferred	Kariotip 46, x sa nenormalnim polnim hromosomom, osim iso (xq)
+Q96.3	preferred	Mozaicizam 45, x/46, xx ili xy
+Q96.4	preferred	Mozaicizam 45, x druge celijske linije sa nenormalnim polnim hromosomom
+Q96.8	preferred	Drugi oblici turnerovog sindroma
+Q96.9	preferred	Turnerov sindrom, neoznačen
+Q97	preferred	Druge anomalije polnog hromosoma, zenski fenotip
+Q97	exclusion	Turner-ov sindrom Q96.-
+Q97.0	preferred	Kariotip 47, xxx
+Q97.1	preferred	Zena sa brojem x hromosoma vecim od tri
+Q97.2	preferred	Mozaicizam, linija sa razlicitim brojem x hromosoma
+Q97.3	preferred	Zena sa kariotipom 46, xy
+Q97.8	preferred	Druge označene anomalije polnog hromosoma, zenski fenotip
+Q97.9	preferred	Anomalija polnog hromosoma, zenski fenotip, neoznačena
+Q98	preferred	Druge anomalije polnog hromosoma, muski fenotip
+Q98.0	preferred	Klinefelterov sindrom, kariotip 47, xxy
+Q98.1	preferred	Klinefelterov sindrom, muskarac sa brojem x hromosoma vecim od dva
+Q98.2	preferred	Klinefelterov sindrom, muskarac sa 46, xx kariotipom
+Q98.3	preferred	Drugi muskarac sa kariotipom 46, xx
+Q98.4	preferred	Klinefelterov sindrom, neoznačen
+Q98.5	preferred	Kariotip 47, xyy
+Q98.6	preferred	Muskarac sa nenormalnom strukturom polnog hromosoma
+Q98.7	preferred	Muskarac sa mozaicizmom polnog hromosoma
+Q98.8	preferred	Druge označene anomalije polnog hromosoma, muski fenotip
+Q98.9	preferred	Anomalija polnog hromosoma, muski fenotip, neoznačena
+Q99	preferred	Druge hromosomatske anomalije
+Q99.0	preferred	Himerizam 46,XX/46,XY
+Q99.0	inclusion	Himerizam 46,XX/46,XY‚prava dvopolnost
+Q99.1	preferred	Prava dvopolnost 46, xx
+Q99.1	inclusion	46, XX sa gonadnom trakom
+Q99.1	inclusion	46, XY sa gonadnom trakom
+Q99.1	inclusion	Jasna disgeneza polnih žlezda
+Q99.2	preferred	Nestabilan hromosom x
+Q99.2	inclusion	Sindrom nestabilnog - krtog (fragilnog) X hromozoma
+Q99.8	preferred	Druge označene hromosomatske anomalije
+Q99.9	preferred	Hromosomatska anomalija, neoznačena

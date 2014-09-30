@@ -1,0 +1,826 @@
+XII	preferred	Bolesti kože i bolesti potkožnog tkiva (L00-L99)
+XII	exclusion	Stanja nastala u perinatalnom periodu (P00-P96)
+XII	exclusion	Zarazne i parazitarne bolesti (A00-B99)
+XII	exclusion	Komplikacije trudnoće, rađanja i babinja (O00-O99)
+XII	exclusion	Urođene nakaznosti, deformacije i hromosomske nenormalnosti (Q00-Q99)
+XII	exclusion	Bolesti žlijezda sa unutrašnjim lučenjem, ishrane i metabolizma (E00-F99)
+XII	exclusion	Povrede, trovanja i druge posljedice djelovanja spoljašnjih uzroka (S00-T98)
+XII	exclusion	!!!!!!
+XII	exclusion	Tumori (C00-D48)
+XII	exclusion	Simptomi, znaci i nenormalni klinički i laboratorijski nalazi (R00-R99)
+XII	exclusion	Sistemski poremećaji vezivnog tkiva (M30-M36)
+L00-L08	preferred	Infekcije kože i potkožnog tkiva (L00-L08)
+L00-L08	coding-hint	Koristite dodatne šifre (B95-B97)za identifakiciju infektivnog egensa.
+L00-L08	exclusion	ČmičakH00.0
+L00-L08	exclusion	Zarazno zapaljenje kožeL30.3
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:crveni vjetarA46-
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:Erizipeloid-oboljenje slično crvenom vjetruA26-
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:infekcija virusom, uzročnik herpes simpleksB00.-
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:čmarno polna infekcija uzrokovana virusom herpes simpleksA60
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:Zarazna peteljkasta bradavicaB08.1
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:mikoze-gljivična oboljenjaB35-B49
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:vašljivost, grinje i drugi člankonošciB85-B89
+L00-L08	exclusion	Lokalne infekcije kože klasifikovane u grupi I, kao što su:virusne bradaviceB07
+L00-L08	exclusion	Zapaljenje potkožnog masnog tkiva neoznačeno:NOS M79.3
+L00-L08	exclusion	Zapaljenje potkožnog masnog tkiva:kod lupusa L93.2
+L00-L08	exclusion	Zapaljenje potkožnog masnog tkiva: vrata i leđa M54.0
+L00-L08	exclusion	Zapaljenje potkožnog masnog tkiva: povratno(Weber-Christian)M35.6
+L00-L08	exclusion	Zarazno zapaljenje ugla usana NOSK13.0
+L00-L08	exclusion	Zarazno zapaljenje ugla usana:gljivično-uzročnik kandida-kandidijaza ugla usanaB37.-
+L00-L08	exclusion	Zarazno zapaljenje ugla usana: kod nedostataka vitamina B2 -(nedostatka riboflavina(E53.0
+L00-L08	exclusion	gnojni tumor granulacionog tkivaL98.0
+L00-L08	exclusion	Zoster-pojasni herpesB02.-
+L00	preferred	Sindrom stafilokoknog ljuštenja kože
+L00	inclusion	novorođenački penfigus
+L00	inclusion	Riterova bolest
+L00	exclusion	toksićna epidermalna nekroliza(Lyell)L51.2
+L01	preferred	Impetigo-gnojno oboljenje kože
+L01	exclusion	herpetiformno gnojno zapaljenje kožeL40.1
+L01	exclusion	novorođenački penfigusL00
+L01.0	preferred	Impetigo (bilo koji mikroorganizam)(bilo koja lokalizacija)
+L01.0	inclusion	Bokhartovo gnojno oboljenje kože
+L01.1	preferred	Druga gnojna oboljenja kože
+L02	preferred	Apsces, furunkul i karbunkul(apsces,čir i grupa čireva)
+L02	inclusion	!!!
+L02	inclusion	furunkuloza
+L02	exclusion	apsces čmara i rektalne regijeK61.-
+L02	exclusion	apsces polnih organa(spoljašnjih ): ženskihN76.4
+L02	exclusion	apsces polnih organa(spoljašnjih ): muškihN48.2N49.-
+L02.0	preferred	Apsces, furunkul i karbunkul lica
+L02.0	exclusion	apsces spoljašnjeg uvaH60.0
+L02.0	exclusion	apsces očnog kapka H00.0
+L02.0	exclusion	apsces glave, osim lica L02.8
+L02.0	exclusion	apsces suzne žlijezdeH04.0
+L02.0	exclusion	apsces suznih putevaH04.3
+L02.0	exclusion	apsces ustaK12.2
+L02.0	exclusion	apsces nosaJ34.0
+L02.0	exclusion	apsces očne dupljeH05.0
+L02.0	exclusion	apsces ispod donje viliceK12.2
+L02.1	preferred	Apsces, furunkul i karbunku kože  vrata
+L02.2	preferred	Apsces, furunkul i karbunkul kože trupa
+L02.2	inclusion	abdominalnog zida
+L02.2	inclusion	Leđa
+L02.2	inclusion	Zida grudnog koša
+L02.2	inclusion	Prepona
+L02.2	inclusion	Perineuma
+L02.2	inclusion	Pupka
+L02.2	exclusion	dojkeN61
+L02.2	exclusion	udovaL02.4
+L02.2	exclusion	zapaljenje pupka novorođenčeta
+L02.3	preferred	Apsces, furunkul i karbunkul sjedalnog predjela
+L02.3	inclusion	Glutealna regija
+L02.3	exclusion	pilonidalna cista sa apscesom L05.0
+L02.4	preferred	Apsces, furunkul i karbunkul kože udova
+L02.4	inclusion	Pazuh,Rame!!!
+L02.4	inclusion	Udovi
+L02.4	inclusion	Ramena
+L02.8	preferred	Apsces, furunkul i karbunkul drugih lokalizacije
+L02.8	inclusion	Glava,bilo koji dio,bez lica
+L02.8	inclusion	!!!!
+L02.9	preferred	Apsces, furunkul i karbunkul, neoznačen
+L02.9	inclusion	furunkuloza NOS
+L03	preferred	Celulit
+L03	inclusion	akutni linfangitis
+L03	exclusion	celulit:analne i rektalne regijeK61.-
+L03	exclusion	celulit:spoljašnjeg ušnog kanalaH60.1
+L03	exclusion	celulit:spoljašnjih polnih organa:ženskihN76.4
+L03	exclusion	celulit:spoljašnjih polnih organa:muških N48.2N49.-
+L03	exclusion	celulit: očnog kapkaH00.0
+L03	exclusion	celulit:suznog aparataH04.3
+L03	exclusion	celulit:usneK12.2
+L03	exclusion	celulit:nosaJ34.0
+L03	exclusion	eosinofilni celulit(Wells)L98.3
+L03	exclusion	febrilna neutrofilna dermatoza(Sweet)L98.2
+L03	exclusion	Linfangitis(hronični)(subakutni)I89.1
+L03.0	preferred	Celulit prsta ruke i noge
+L03.0	inclusion	Infekcija nokta
+L03.0	inclusion	Onihija!!!
+L03.0	inclusion	Paronihija!!!
+L03.0	inclusion	Perinihija!!!
+L03.1	preferred	Celulit drugih dijelova udova
+L03.1	inclusion	Ramena!!!!!
+L03.1	inclusion	Donji Udovi
+L03.1	inclusion	Ramena
+L03.2	preferred	Celulit lica
+L03.3	preferred	Celulit trupa
+L03.3	inclusion	Trbušnog zida
+L03.3	inclusion	Leđa(bilo koji dio)
+L03.3	inclusion	Zida grudnog koša
+L03.3	inclusion	Prepona
+L03.3	inclusion	Perineuma
+L03.3	inclusion	Pupka
+L03.3	exclusion	zapaljenje pupka novorođenčeta
+L03.8	preferred	Celulit drugih lokalizacija
+L03.8	inclusion	Glava,bilo koji dio,bez lica
+L03.8	inclusion	!!!
+L03.9	preferred	Celulit, neoznačena
+L04	preferred	Akutno zapaljenje limfnog čvora
+L04	inclusion	apsces (akutni) bilo kojeg limfnog čvora , osim opornjaka
+L04	inclusion	limfadenitis, akutni bilo kojeg limfnog čvora, osim opornjaka
+L04	exclusion	limfadenopatija(uvećanje svih limfnih čvorova)R59.-!!!
+L04	exclusion	generalizovana limfadenopatija uzrokovana HIV virusom, B23.1
+L04	exclusion	limfadenitis: NOS I88.9
+L04	exclusion	limfadenitis:hronični ili akutni,osim opornjaka I88.1
+L04	exclusion	limfadenitis:opornjaka, neoznačeni I88.0
+L04.0	preferred	Akutni limfadenitis zapaljenje limfnog čvora lica, glave i vrata
+L04.1	preferred	Akutni limfadenitis zapaljenje limfnog čvora trupa
+L04.2	preferred	Akutni limfadenitis zapaljenje limfnog čvora gornjih udova
+L04.2	inclusion	!!!!! Pazušne jame
+L04.2	inclusion	!!!! Ramena
+L04.3	preferred	Akutno zapaljenje limfnog čvora donjih udova
+L04.3	inclusion	!!!
+L04.8	preferred	Akutno zapaljenje limfnog čvora drugih lokalizacija
+L04.9	preferred	Akutno zapaljenje limfnog čvora, neoznačeno
+L05	preferred	Pilonidalna cista
+L05	inclusion	fistula: kokcigealna ili pilonidalna
+L05	inclusion	sinus kokcigealni ili pilonidalni
+L05.0	preferred	Pilonidalna cista sa apscesom
+L05.9	preferred	Pilonidalna cista bez apcesa
+L05.9	inclusion	Pilonidalna cista NOS
+L08	preferred	Ostale lokalne infekcije kože i potkožnog tkiva
+L08.0	preferred	Pioderma - gnojno zapaljenje kože
+L08.0	inclusion	Zapaljenje kože:purulentno(gnojno) 
+L08.0	inclusion	Zapaljenje kože:septično 
+L08.0	inclusion	Zapaljenje kože: supurativno ( gnojno)
+L08.0	exclusion	gnojno zapaljenje kože  : gangrenozno L88
+L08.1	preferred	Eritrazma - hronično bakerijsko oboljenje velikih pregiba
+L08.8	preferred	Druge oznaćene lokalne infekcije kože i potkožnog tkiva
+L08.9	preferred	Lokalna infekcija kože i potkožnog tkiva, neoznačena
+L10-L14	preferred	Plikovite bolesti
+L10-L14	exclusion	Benigni nasledni pemfigus (Hailey-Hailey) Q82.8
+L10-L14	exclusion	Sindrom stafilokoknog ljuštenja kože L00
+L10-L14	exclusion	Odlubljivanje pokožice uzrokovano toksinom(Lyell) L51.2
+L10	preferred	Pemfigus (Plikovica)
+L10	exclusion	Penfigus novorođenčeta L00
+L10.0	preferred	Obični pemfigus
+L10.1	preferred	Karfiolasti pemfigus
+L10.2	preferred	Listasti pemfigus
+L10.3	preferred	Brazilski pemfigus
+L10.4	preferred	Eritematozni pemfigus
+L10.4	inclusion	Sener -Ušerov sindrom
+L10.5	preferred	Pemfigus uzrokovana lijekom
+L10.5	coding-hint	Koristite dodatne šifre spoljnjih uzroka (grupa XX)za identifakiciju infektivnog lijeka.
+L10.8	preferred	Drugi pemfigus
+L10.9	preferred	Pemfigus, neoznačen
+L11	preferred	Ostala akantolitična oboljenja
+L11.0	preferred	Stečeno orožavanje mješkova kože
+L11.0	exclusion	folikularna keratoza( nasledna)
+L11.1	preferred	Prolazno akantolitično oboljenje kože (grover)
+L11.8	preferred	Druga označena akantolitična oboljenja
+L11.9	preferred	Akantolitično oboljenje, neoznačeno
+L12	preferred	Pemfigoid
+L12	exclusion	Herpes u trudnoći O26.4
+L12	exclusion	Impetigo sličan herpesu L40.1
+L12.0	preferred	Plikoviti pemfigoid
+L12.1	preferred	Ožiljni pemfigoid
+L12.1	inclusion	Benigni mukozni pemfigoid sa membranama
+L12.2	preferred	Dječje hronično plikovito oboljenje kože
+L12.2	inclusion	Zapaljenje kože kod djece slično herpesu
+L12.3	preferred	Stečeni plikoviti gubitak pokožice
+L12.3	exclusion	Mjehurasto-plikovito ljuštenje pokožice(kongenitalno)Q81.-
+L12.8	preferred	Drugi pemfigoid
+L12.9	preferred	Pemfigoid, neoznačen
+L13	preferred	Ostali plikoviti poremećaji kože
+L13.0	preferred	Zapaljenje kože slično herpesu
+L13.0	inclusion	Dahringova bolest
+L13.1	preferred	Gnojno subkornealno zapaljenje kože
+L13.1	inclusion	Snedon-Wilkinsonova bolest
+L13.8	preferred	Drugi označeni plikoviti poremećaj kože
+L13.9	preferred	Plikoviti poremećaj kože, neoznačen
+L14	preferred	Plikoviti poremećaj kože u drugim bolestima
+L20-L30	preferred	Zapaljenje kože i ekcemi
+L20-L30	note	U ovoj podgrupi termini dermatitis i ekcemi koriste se kao sinonimi
+L20-L30	exclusion	Hronično granulomatozna bolest kod djece D71
+L20-L30	exclusion	Zapaljenje kože: suva koža L85.3
+L20-L30	exclusion	Zapaljenje kože: namjerno izazvani dermatit L98.1
+L20-L30	exclusion	Zapaljenje kože: Gnojno-gangrebnozno zapaljenje kožeL88
+L20-L30	exclusion	Zapaljenje kože: slično herpesu L13.0
+L20-L30	exclusion	Zapaljenje kože: oko usta L71.0
+L20-L30	exclusion	Zapaljenje kože: zbog staze I83.1-I83.2
+L20-L30	exclusion	Bolesti kože i potkožnog tkiva izazvane radijacijom L55-L59
+L20	preferred	Atopijsko zapaljenje kože
+L20	exclusion	Ožiljni neurodermatitis
+L20.0	preferred	Besnierov svrab
+L20.8	preferred	Drugo atopijsko zapaljenje kože
+L20.8	inclusion	Ekcem: na prevojima NEC
+L20.8	inclusion	Ekcem:infatilni(akutni)(hronični)
+L20.8	inclusion	Ekcem: unurašnji(alergijski)
+L20.8	inclusion	Neurodermatitis:atopijski
+L20.8	inclusion	Neurodermatitis: difuzni
+L20.9	preferred	Atopijsko zapaljenje kože, neoznačeno
+L21	preferred	Seboroično zapaljenje kože
+L21	exclusion	Zarazno zapaljenje kože L30.3
+L21.0	preferred	Seboreja poglavine
+L21.0	inclusion	!!!!!
+L21.1	preferred	Dječije seboroično zapaljenje kože
+L21.8	preferred	Drugo  seboroično zapaljenje kože
+L21.9	preferred	Seboroično zapaljenje kože, neoznačeno
+L22	preferred	Zapaljenje kože odojčeta zbog pelena
+L22	inclusion	Zapaljenje kože odojčeta: eritematozno
+L22	inclusion	Zapaljenje kože odojčeta:osip
+L22	inclusion	Zapaljenje kože odojčeta: psorijaziformni osip
+L23	preferred	Kontaktno alergijsko zapaljenje kože
+L23	inclusion	Alergijski kontaktni ekcem
+L23	exclusion	Alergija neoznačena T78.4
+L23	exclusion	Zapaljenje kože: neoznačeno L30.9
+L23	exclusion	Zapaljenje kože: kontaktno  neoznačenog uzroka L25.9
+L23	exclusion	Zapaljenje kože: odojčeta L22
+L23	exclusion	Zapaljenje kože: izazvano unijetim materijama L27.-
+L23	exclusion	Zapaljenje kože: očnog kapka H01.1
+L23	exclusion	Zapaljenje kože: kontaktno nadražajno L24.-
+L23	exclusion	Zapaljenje kože: oko usta L71.0
+L23	exclusion	Ekcem spoljašnjeg uva H60.5
+L23	exclusion	Bolesti kože i potkožnog tkiva izazvane radijacijom L55-L59
+L23.0	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano metalima
+L23.0	inclusion	Hrom
+L23.0	inclusion	Nikal
+L23.1	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano priraslicama
+L23.2	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano kozmetičkim preparatima
+L23.3	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano lijekovima
+L23.3	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L23.3	exclusion	Alergijska reakcija neoznačena uzrokovana lijekovima T88.7
+L23.3	exclusion	Zapaljenje kože uzrokovano unijetim lijekovima L27.0-L27.1
+L23.4	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano bojama
+L23.5	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano drugim hemijskim sredstvima
+L23.5	inclusion	Cement
+L23.5	inclusion	Insekticid
+L23.5	inclusion	Plastika
+L23.5	inclusion	Guma
+L23.6	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano hranom
+L23.6	exclusion	Zapaljenje kože uzrokovano unijetom hranom L27.2
+L23.7	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano biljkama, osim hranljivih
+L23.8	preferred	Kontaktno alergijsko zapaljenje kože uzrokovano drugim činiocima
+L23.9	preferred	Kontaktno alergijsko zapaljenje kože, neoznačenog uzroka
+L23.9	inclusion	Kontaktni alergijski ekcem neoznačen
+L24	preferred	Kontaktno nadražajno zapaljenje kože
+L24	inclusion	Kontaktni nadražajni ekcem
+L24	exclusion	Alergija neoznačena T78.4
+L24	exclusion	Zapaljenje kože: neoznačeno L30.9
+L24	exclusion	Zapaljenje kože:
+L24	exclusion	Zapaljenje kože: kontaktno zapaljenje kože neoznačenog uzroka L25.9
+L24	exclusion	Zapaljenje kože: odojčeta L22
+L24	exclusion	Zapaljenje kože: uzrokovano unijetim materijama L27.-
+L24	exclusion	Zapaljenje kože: očnog kapka H01.1
+L24	exclusion	Zapaljenje kože: oko usta L71.0
+L24	exclusion	Ekcem spoljašnjeg uva H60.5
+L24	exclusion	Bolesti kože i potkožnog tkiva izazvane radijacijom L55-L59
+L24.0	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano deterdžentima
+L24.1	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano uljima i mastima
+L24.2	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano rastvorima
+L24.2	inclusion	Rastvori: koji sadrže hlor
+L24.2	inclusion	Rastvori:cikloheksana
+L24.2	inclusion	Rastvori: estara
+L24.2	inclusion	Rastvori: glikola
+L24.2	inclusion	Rastvori: hidrokarbonata
+L24.2	inclusion	Rastvori: ketona
+L24.3	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano kozmetickim preparatima
+L24.4	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano ljekovima
+L24.4	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L24.4	exclusion	alergijska reakcija neoznačena uzrokovana lijekovima T88.7
+L24.4	exclusion	zapaljenje kože uzrokovano unijetim lijekovima L27.0-L27.1
+L24.5	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano drugim hemijskim sredstvima
+L24.5	inclusion	Cement
+L24.5	inclusion	Insekticid
+L24.6	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano hranom
+L24.6	exclusion	
+L24.7	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano biljkama, osim hranljivih
+L24.8	preferred	Kontaktno nadražajno zapaljenje kože uzrokovano drugim činiocima
+L24.8	inclusion	Boje
+L24.9	preferred	Kontaktno nadražajno zapaljenje kože, neoznačenog uzroka
+L24.9	inclusion	Kontaktni nadražajni ekcem neoznačen
+L25	preferred	Neoznačeno kontaktno zapaljenje kože
+L25	inclusion	neoznačen kontaktni ekcem
+L25	exclusion	alergija neoznačena T78.4
+L25	exclusion	Zapaljenje kože:neoznačeno L30.9
+L25	exclusion	Zapaljenje kože: kontaktno alergijsko L23.-
+L25	exclusion	Zapaljenje kože: uzrokovano unijetim materijama L27.-
+L25	exclusion	Zapaljenje kože: očnog kapka H01.1
+L25	exclusion	Zapaljenje kože: kontaktno nadražajno L24.-
+L25	exclusion	Zapaljenje kože: oko usta L71.0
+L25	exclusion	Ekcem spoljašnjeg uva H60.5
+L25	exclusion	Bolesti kože i potkožnog tkiva izazvane radijacijom L55-L59
+L25.0	preferred	Neoznačeno kontaktno zapaljenje kože uzrokovano kozmetickim preparatima
+L25.1	preferred	Neoznačeno kontaktno zapaljenje kože uzrokovano ljekovima
+L25.1	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L25.1	exclusion	Alergijska reakcija neoznačena uzrokovana lijekovima T88.7
+L25.1	exclusion	Zapaljenje kože uzrokovano unijetim lijekovima L27.0-L27.1
+L25.2	preferred	Neoznačeno kontaktno zapaljenje kože uzrokovano bojama
+L25.3	preferred	Neoznačeno kontaktno zapaljenje kože uzrokovano drugim hemijskim sredstvima
+L25.3	inclusion	Cement
+L25.3	inclusion	Insekticid
+L25.4	preferred	Neoznačeno kontaktno zapaljenje kože uzrokovano hranom 
+L25.4	exclusion	
+L25.5	preferred	Neoznačeno kontaktno zapaljenje kože uzrokovano biljkama, osim hranljivih
+L25.8	preferred	Neoznačeno kontaktno zapaljenje kože uzrokovano drugim činiocima
+L25.9	preferred	Neoznačeno kontaktno zapaljenje kože, neoznačenog uzroka
+L25.9	inclusion	Kontaktno: zapaljenje kože (profesionalno) neoznačeno
+L25.9	inclusion	Kontakti: ekcem (profesionalni) neoznačen
+L26	preferred	Zapaljenje kože sa ljuštenjem
+L26	inclusion	Pitriaza
+L26	exclusion	Riterova bolest L00
+L27	preferred	Zapaljenje kože uzrokovano unijetom materijom
+L27	exclusion	Neoznačeno nepovoljno dejkstvo lijeka T88.7
+L27	exclusion	Nepovoljna reakcija na hranu,isključujući zapaljenja kože T78.0-T78.1
+L27	exclusion	Alergija neoznačena T78.4
+L27	exclusion	Kontaktno zapaljenje kože L23-L25
+L27	exclusion	Lijek: fotoalergijski odgovor L56.1
+L27	exclusion	Lijek: fototoksički odgovor L56.0
+L27	exclusion	Koprivnjača L50.-
+L27.0	preferred	Generalizovani kožni osip uzrokovan ljekovima
+L27.0	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L27.1	preferred	Lokalizovan kožni osip uzrokovan ljekovima
+L27.1	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L27.2	preferred	Zapaljenje kože uzrokovano unijetom hranom
+L27.2	exclusion	Kontaktno zapaljenje kože uzrokovano sa hranom L23.6 L24.6 L25.4
+L27.8	preferred	Zapaljenje kože uzrokovano drugim unijetim materijama
+L27.9	preferred	Zapaljenje kože uzrokovano unijetom neoznačenom materijom
+L28	preferred	Obični hronični lišaj i svrab
+L28.0	preferred	Obični hronični lišaj
+L28.0	inclusion	Ograničeni neurodermatitis
+L28.0	inclusion	Lišaj neoznačen
+L28.1	preferred	Svrab sa nodoznim promjenama
+L28.2	preferred	Drugi svrab
+L28.2	inclusion	Svrab: neoznačen
+L28.2	inclusion	Svrab: hebra
+L28.2	inclusion	Svrab: blag
+L28.2	inclusion	Koprivnjača sa papulama
+L29	preferred	Svrab
+L29	exclusion	Neurotična namjerno izazvano ekskorijacija kože L98.1
+L29	exclusion	Psihogeni svrab F45.8
+L29.0	preferred	Svrab anusa
+L29.1	preferred	Svrab mošnjica
+L29.2	preferred	Svrab vulve
+L29.3	preferred	Svrab anusa i spoljašnjih polnih organa, neoznačen
+L29.8	preferred	Drugi svrab
+L29.9	preferred	Svrab, neoznačen
+L29.9	inclusion	Svrab neoznačen
+L30	preferred	Ostala zapaljenja kože
+L30	exclusion	Zapaljenje kože: kontaktno L23-L25
+L30	exclusion	Zapaljenje kože: suva koža L85.3
+L30	exclusion	Parapsorijaza u malim pločicama L41.3
+L30	exclusion	Zapaljenje kože uzrokovano stazom I83.1-I83.2
+L30.0	preferred	Zapaljenje kože sa promjenama u obliku metalnog novca
+L30.1	preferred	Dishidroza
+L30.2	preferred	Autosenzibilizacija kože
+L30.2	inclusion	Kandida
+L30.2	inclusion	Dermatofiti
+L30.2	inclusion	Ekcematoidno
+L30.3	preferred	Zarazno zapaljenje kože
+L30.3	inclusion	Zarazno ekcematoidno zapaljenje kože
+L30.4	preferred	Zapaljeni ojed pregiba kože
+L30.5	preferred	Pitirijaza alba
+L30.8	preferred	Drugo označeno zapaljenje kože
+L30.9	preferred	Zapaljenje kože, neoznačeno
+L30.9	inclusion	Ekcem neoznačen
+L40-L45	preferred	Papuloskvamozne bolesti
+L40	preferred	Psorijaza
+L40.0	preferred	Obična psorijaza
+L40.0	inclusion	Numulrna psorijaza
+L40.0	inclusion	Pločasta psorijaza
+L40.1	preferred	Generalizovana gnojna psorijaza
+L40.1	inclusion	Herpetiformni impetigo
+L40.1	inclusion	Von Zumbusch bolest
+L40.2	preferred	Akrodermatitis koji traje
+L40.3	preferred	Pustule na dlanovima i tabanima
+L40.4	preferred	Psorijaza u obliku kapi
+L40.5	preferred	Psorijaza oboljelih zglobova
+L40.8	preferred	Druga psorijaza
+L40.8	inclusion	Psorijaza na prebojima
+L40.9	preferred	Psorijaza, neoznačena
+L41	preferred	Parapsorijaza
+L41	exclusion	Poikiloderma izazvana slabom prokrvljenošću L94.5
+L41.0	preferred	Akutno perutanje slicno lišaju i velikim boginjama
+L41.0	inclusion	Mucha-Habermann bolest
+L41.1	preferred	Hronično perutanje slično lišaju
+L41.2	preferred	Limfomatoidna papuloza
+L41.3	preferred	Parapsorijaza u malim pločicama
+L41.4	preferred	Parapsorijaza u velikim pločicama
+L41.5	preferred	Mrežasta parapsorijaza
+L41.8	preferred	Druga parapsorijaza
+L41.9	preferred	Parapsorijaza, neoznačena
+L42	preferred	Pitirijaza rozea
+L43	preferred	Ravan lišaj
+L43	exclusion	Planopapilarni lišaj L66.1
+L43.0	preferred	Veci ravan lišaj
+L43.1	preferred	Plikovit ravan lišaj
+L43.2	preferred	Lišaj uzrokovan lijekom
+L43.2	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L43.3	preferred	Subakutan (aktivni) ravan lišaj
+L43.3	inclusion	Subakutan ravan lišaj
+L43.8	preferred	Drugi ravan lišaj
+L43.9	preferred	Ravan lišaj, neoznačen
+L44	preferred	Ostali papuloskvamozni poremećaji
+L44.0	preferred	Pitirijaza sa crvenim perutanjem
+L44.1	preferred	Lišaj sa sitnim papulama
+L44.2	preferred	Lišaj sa strijama
+L44.3	preferred	Lišaj sa papulama u obliku ogrlice
+L44.4	preferred	Dječje papuloskvamozni akrodermatitis (giannotti-crosti)
+L44.8	preferred	Drugi označeni papuloskvamozni poremećaji
+L44.9	preferred	Papuloskvamozni poremećaj, neoznačen
+L45	preferred	Papuloskvamozni poremećaji u drugim bolestima
+L50-L54	preferred	Koprivnjača i eritem
+L50-L54	exclusion	Lajmska bolest A69.2
+L50-L54	exclusion	Rosacea L71.-
+L50	preferred	Koprivnjača
+L50	exclusion	Kontaktno alergijsko zapaljenje kože L23.-
+L50	exclusion	Angioneurotski otok T78.3
+L50	exclusion	Nasledni angio otok E84.1
+L50	exclusion	Kvinkeov otok T78.3
+L50	exclusion	Koprivnjača: gigantska T78.3
+L50	exclusion	Koprivnjača: novorođenčeta P83.8
+L50	exclusion	Koprivnjača: papulozna L28.2
+L50	exclusion	Koprivnjača: pigmentozna Q82.2
+L50	exclusion	Koprivnjača: imunološka T80.6
+L50	exclusion	Koprivnjača: izazvana sunčanim zracima L56.3
+L50.0	preferred	Alergijska koprivnjača
+L50.1	preferred	Idiopatska koprivnjača
+L50.2	preferred	Koprivnjača na hladnoću i toplotu
+L50.3	preferred	Koprivnjača uzrokovana češanjem
+L50.4	preferred	Koprivnjača uzrokovana vibracijama
+L50.5	preferred	Koprivnjača uzrokovana holinergičkim lijekovima
+L50.6	preferred	Kontaktna koprivnjača
+L50.8	preferred	Druga koprivnjača
+L50.8	inclusion	Koprivnjača: hronična
+L50.8	inclusion	Koprivnjača: periodična
+L50.9	preferred	Koprivnjača, neoznačena
+L51	preferred	Raznoliki eritem
+L51.0	preferred	Raznoliki eritem bez plikova
+L51.1	preferred	Raznoliki eritem sa plikovima
+L51.1	inclusion	Stevens-Johnson sindrom
+L51.2	preferred	Odljubljivanje pokožice uzrokovano toksinom (lyell)
+L51.8	preferred	Drugi raznoliki eritem
+L51.9	preferred	Raznoliki eritem, neoznačen
+L52	preferred	Eritem sa nodusima
+L53	preferred	Ostala stanja sa eritemom
+L53	exclusion	Eritem: izazvan toplotom L59.0
+L53	exclusion	Eritem: uzrokovan spoljnim agensima u kontaktu s kožom L23-L25
+L53	exclusion	Eritem: zapaljenski ojed pregiba kože L30.4
+L53.0	preferred	Eritem uzrokovan toksinom
+L53.0	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L53.0	exclusion	Toksični eritem novorođenčeta P83.1
+L53.1	preferred	Prstenasti centrifugalni eritem
+L53.2	preferred	Oivičeni eritem
+L53.3	preferred	Drugi uobličeni hronicni eritem
+L53.8	preferred	Druga označena stanja sa eritemom
+L53.9	preferred	Eritemska bolest, neoznačena
+L53.9	inclusion	Eritem neoznačen
+L53.9	inclusion	Eritoderma neoznačena
+L54	preferred	Eritem u drugim bolestima
+L54.0	preferred	Ivični eritem kod akutne reumatske bolesti
+L54.8	preferred	Eritem u drugim bolestima
+L55-L59	preferred	Bolesti kože i potkožnog tkiva izazvane radijacijom L55-L59
+L55	preferred	Opekotina uzrokovana sunčanim zracima
+L55.0	preferred	Opekotina uzrokovana sunčanim zracima, prvog stepena
+L55.1	preferred	Opekotina uzrokovana sunčanim zracima, drugog stepena
+L55.2	preferred	Opekotina uzrokovana sunčanim zracima, trećeg stepena
+L55.8	preferred	Druga opekotina uzrokovana sunčanim zracima
+L55.9	preferred	Opekotina uzrokovana sunčanim zracima, neoznačena
+L56	preferred	Ostale akutne kožne promjene uzrokovane ultraljubčastim zracima
+L56.0	preferred	Fototoksična reakcija na lijek
+L56.0	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L56.1	preferred	Fotoalergijska reakcija na lijek
+L56.1	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L56.2	preferred	Fotokontaktno zapaljenje kože
+L56.3	preferred	Koprivnjača uzrokovana suncem
+L56.4	preferred	Raznoliki osip uzrokovan svjetlosnim zracima
+L56.8	preferred	Druge označene akutne kožne promjene uzrokovane ultraljubičastim zracima
+L56.9	preferred	Akutna kožna promjena uzrokovana ultraljubicastim zracima, neoznačena
+L57	preferred	Promjene kože uzrokovane dugotrajnim dejstvom nejonizirajućih zračenja
+L57.0	preferred	Aktinička keratoza
+L57.0	inclusion	Keratoza neoznačena
+L57.0	inclusion	Keratoza senilna
+L57.0	inclusion	Keratoza uzrokovana sunčevim zracima
+L57.1	preferred	Aktinička retikuloida
+L57.2	preferred	Romboidna promjena kože potiljka
+L57.3	preferred	Poikiloderma civatte
+L57.4	preferred	Staračka mlitavost kože
+L57.4	inclusion	Senilna elastoza
+L57.5	preferred	Aktinički granulom
+L57.8	preferred	Druge promjene kože uzrokovane dugotrajnim dejstvom nejonizirajućih zračenja
+L57.8	inclusion	Farmerska koža
+L57.8	inclusion	Mornarska koža
+L57.8	inclusion	Zapaljenje kože uzrokovano sunčevim zracima
+L57.9	preferred	Promjena kože uzrokovana dugotrajnim dejstvom nejonizirajućih zračenja, neoznačena
+L58	preferred	Zapaljenje kože uzrokovano x-zracima
+L58.0	preferred	Akutno zapaljenje kože uzrokovano x-zracima
+L58.1	preferred	Hronično zapaljenje kože uzrokovano x-zracima
+L58.9	preferred	Zapaljenje kože uzrokovano x-zracima, neoznačeno
+L59	preferred	Ostali poremećaji kože i potkožnog tkiva uzrokovane radijacijama
+L59.0	preferred	Eritem uzrokovan toplotom
+L59.8	preferred	Drugi označeni poremećaji kože i potkožnog tkiva uzrokovane radijacijama
+L59.9	preferred	Poremećaji kože i potkožnog tkiva uzrokovana radijacijama, neoznačena
+L60-L75	preferred	Bolesti kožnih struktura
+L60-L75	exclusion	Nasledni poremećaju kožnih stuktura Q84.-
+L60	preferred	Bolesti nokata
+L60	exclusion	Batičasti prsti R68.3
+L60	exclusion	Onihija i paronihija L03.0
+L60.0	preferred	Urastao nokat
+L60.1	preferred	Otpadanje nokta
+L60.2	preferred	Kandžast nokat
+L60.3	preferred	Distrofija nokta
+L60.4	preferred	Linije beau
+L60.5	preferred	Sindrom žutog nokta
+L60.8	preferred	Drugi poremećaji nokata
+L60.9	preferred	Bolest nokta, neoznačena
+L62	preferred	Bolesti nokata u drugim bolestima
+L62.0	preferred	Zadebljanje nokata kod kožno-pokosničkog oboljenja
+L62.8	preferred	Bolesti nokata u drugim bolestima
+L63	preferred	Opadanje kose u okruglim pločama
+L63.0	preferred	Potpuno opadanje kose
+L63.1	preferred	Opšte opadanje dlaka
+L63.2	preferred	Opadanje kose duž ivice skalpa
+L63.8	preferred	Druga opadanja kose u okruglim pločama
+L63.9	preferred	Opadanje kose u okruglim pločama, neoznačeno
+L64	preferred	Androgeno opadanje kose
+L64	inclusion	Muška ćelavost
+L64.0	preferred	Androgeno opadanje kose uzrokovano lijekom
+L64.0	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L64.8	preferred	Druga androgena opadanja kose
+L64.9	preferred	Androgeno opadanje kose, neoznačeno
+L65	preferred	Ostalo opadanje kose bez ožiljaka
+L65	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L65	exclusion	Bolesno čupanje dlake F63.3
+L65.0	preferred	Telogeno opadanje kose
+L65.1	preferred	Anageno opadanje kose
+L65.2	preferred	Mucinozno opadanje kose
+L65.8	preferred	Drugo označeno opadanje kose bez ožiljaka
+L65.9	preferred	Opadanje kose bez ožiljaka, neoznačeno
+L65.9	inclusion	Alopecija (ćelavost) neoznačena 
+L66	preferred	Opadanje kose sa ožiljcima
+L66.0	preferred	Pseudopelade
+L66.1	preferred	Planopilarni lišaj
+L66.1	inclusion	Ravan folikularni lišaj
+L66.2	preferred	Zapaljenje korijena dlake sa trajnim gubitkom dlake
+L66.3	preferred	Ascedentno gnojno zapaljenje oko korijena kose
+L66.4	preferred	Zapaljenje korijena dlake sa eritemom i ožiljcima
+L66.8	preferred	Drugo opadanje kose sa ožiljcima
+L66.9	preferred	Opadanje kose sa ožiljcima, neoznačeno
+L67	preferred	Nenormalnosti boje i stabla dlaka
+L67	exclusion	monilethrixQ84.1
+L67	exclusion	pili annulatiQ84.1
+L67	exclusion	telogen effluviumL65.0
+L67.0	preferred	Nodozna lomljivost dlaka
+L67.1	preferred	Varijacije boje dlaka
+L67.1	inclusion	Sijeda kosa
+L67.1	inclusion	Prerano sijeđenje
+L67.1	inclusion	Heterohromija kose
+L67.1	inclusion	Polioza: neoznačena
+L67.1	inclusion	Polioza: ograničena, stečena
+L67.8	preferred	Druge nenormalnosti boje i stabla dlaka
+L67.8	inclusion	Lomljiva kosa
+L67.9	preferred	Nenormalnosti boje i stabla dlaka, neoznačena
+L68	preferred	Prekomjerna dlakavost
+L68	inclusion	Višak kose
+L68	exclusion	Nasledna prekomjerana dlakavost Q84.2
+L68	exclusion	Perzistentni lanugo Q84.2
+L68.0	preferred	Pojačana dlakavost
+L68.0	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L68.1	preferred	Stečena prekomjerna dlakavost
+L68.1	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L68.2	preferred	Lokalizovana prekomjerna dlakavost
+L68.3	preferred	Prekomjerna rastenje dlaka
+L68.8	preferred	Druga prekomjerna dlakavost
+L68.9	preferred	Prekomjerna dlakavost, neoznačena
+L70	preferred	Akne
+L70	exclusion	Keloidne akne L73.0
+L70.0	preferred	Obične akne
+L70.1	preferred	Grupisane akne
+L70.2	preferred	Akne slične velikim boginjama
+L70.2	inclusion	Nekrotične milijarne akne
+L70.3	preferred	Tropske akne
+L70.4	preferred	Dječje akne
+L70.5	preferred	Akne u mladih uzrokovane češanjem
+L70.8	preferred	Druge akne
+L70.9	preferred	Akne, neoznačene
+L71	preferred	Rozacea
+L71.0	preferred	Zapaljenje kože oko usta
+L71.0	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L71.1	preferred	Kvrgav nos
+L71.8	preferred	Druga rozacea
+L71.9	preferred	Rozacea, neoznačena
+L72	preferred	Ciste korijena dlake kože i potkožnog tkiva
+L72.0	preferred	Potkožna cista
+L72.1	preferred	Cista od spoljnog omotača meška dlake
+L72.1	inclusion	Pilarna cista
+L72.1	inclusion	Lojna cista
+L72.2	preferred	Višestruka lojna cista
+L72.8	preferred	Druge ciste korijena dlake kože i potkožnog tkiva
+L72.9	preferred	Cista korijena dlake kože i potkožnog tkiva, neoznačena
+L73	preferred	Ostali poremećaji korijena dlake
+L73.0	preferred	Keloidne akne
+L73.1	preferred	Lažno zapaljenje korijena dlake brade
+L73.2	preferred	Gnojno zapaljenje znojnih žlijezda
+L73.8	preferred	Drugi označeni poremećaji korijena dlake
+L73.8	inclusion	Sikoza brade
+L73.9	preferred	Poremećaj korijena dlake, neoznačen
+L74	preferred	Poremećaji znojnih žlijezda
+L74	exclusion	Povećano znojenje R61.-
+L74.0	preferred	Crvena prosasta ospa
+L74.1	preferred	Bistra prosasta ospa
+L74.2	preferred	Duboka prosasta ospa
+L74.2	inclusion	Tropska ospa
+L74.3	preferred	Prosasta ospa, neoznačena
+L74.4	preferred	Nelučenje znoja
+L74.4	inclusion	Smanjeno znojenje
+L74.8	preferred	Drugi poremećaji znojnih žlijezda
+L74.9	preferred	Poremećaj znojnih žlijezda, neoznačen
+L74.9	inclusion	Spoljni poremećaj lučenja znoja, neoznačen
+L75	preferred	Poremećaji apokrinih znojnih žlijezda
+L75	exclusion	Dishidroza (plikovnjača) L30.1
+L75	exclusion	Gnojno zapaljenje znojnih žlijezda
+L75.0	preferred	Znoj neprijatnog mirisa
+L75.1	preferred	Obojeni znoj
+L75.2	preferred	Apokrina prosasta ospa
+L75.2	inclusion	Fox-Fordyce bolest
+L75.8	preferred	Drugi poremećaji apokrinih znojnih žlijezda
+L75.9	preferred	Poremećaj apokrinih znojnih žlijezda, neoznačen
+L80-L99	preferred	Druge bolesti kože i potkožnog tkiva
+L80	preferred	Vitiligo
+L81	preferred	Drugi poremećaji pigmentacije kože
+L81	exclusion	Urođeni mladež neoznačen Q82.5
+L81	exclusion	Mladež 
+L81	exclusion	Peutz-Jeghers sindrom Q85.8
+L81.0	preferred	Pojačana pigmentacija poslije zapaljenja
+L81.1	preferred	Hloazme
+L81.2	preferred	Pjege
+L81.3	preferred	Mrke mrlje na koži
+L81.4	preferred	Druga pojačana melaninska pigmentacija
+L81.4	inclusion	Lentigo
+L81.5	preferred	Leukoderma, neklasifikovana na drugom mjestu
+L81.6	preferred	Drugi poremećaji sa smanjenim stvaranjem melanina
+L81.7	preferred	Pigmentna purpurno oboljenje kože
+L81.7	inclusion	Serpiginozni angiom
+L81.8	preferred	Drugi označeni poremećaji pigmentacije kože
+L81.8	inclusion	prebojenost kože uzrokovana nagomilavanjem gvožđa
+L81.8	inclusion	Tetovaža
+L81.9	preferred	Poremećaj pigmentacije, neoznačen
+L82	preferred	Seboroična keratoza
+L82	inclusion	Crna papulozna dermatoza
+L82	inclusion	Leser -Trelatova bolest
+L83	preferred	Crnkasta akantoza kože
+L83	inclusion	konfluentna i mrežasta papilomatoza
+L84	preferred	Žuljevitost i žulj
+L84	inclusion	Žulj
+L84	inclusion	Kurje oko
+L85	preferred	Ostala orožavanja kože
+L85	exclusion	Hipertrofičke bolesti kože L91.-
+L85.0	preferred	Stečena ihtioza
+L85.0	exclusion	Urođena kljuštica Q80.-
+L85.1	preferred	Stečena keratoza dlanova i tabana
+L85.1	exclusion	Nasledna keratoza dlanova i tabana
+L85.2	preferred	Tačkasta keratoza (dlanova i tabana)
+L85.3	preferred	Suva koža
+L85.3	inclusion	
+L85.8	preferred	Druga označena orožavanja kože
+L85.8	inclusion	Kožni rog
+L85.9	preferred	Orožavanje kože, neoznačeno
+L86	preferred	Keratoderma u drugim bolestima
+L86	inclusion	Folikularna keratoza uzrokovana nedostatka vitamina A E50.8
+L86	inclusion	Kseroderma zbog nedostatka vitamina A E50.8
+L87	preferred	Poremećaji lučenja preko pokožice
+L87	exclusion	Prstenasti granulom (perforirajući) L92.0
+L87.0	preferred	Folikularna i parafolikularna keratoza sa prodiranjem u kožu (kyrle)
+L87.0	inclusion	Penetrantna folikularna hiperkeratoza
+L87.1	preferred	Reaktivna perforativna kolagenoza
+L87.2	preferred	Serpigenozna perforativna elastoza
+L87.8	preferred	Drugi poremećaji lučenja preko pokožice
+L87.9	preferred	Poremećaj lučenja preko pokožice, neoznačen
+L88	preferred	Gnojno-gangrenozno zapaljenje kože
+L88	inclusion	Gangrenozno zapaljenje kože
+L88	inclusion	!!!!!
+L89	preferred	Dekubitalna rana
+L89	inclusion	Rana zbog dugog ležanja
+L89	inclusion	Rana uzrokovana gipsom
+L89	note	Za višestruke dekubituse različitog stepena razvoja, dodijeliti samo jednu šifru i naznačiti najviši stepen
+L89	exclusion	Dekubitalna (trofična) rana grlića materice N86
+L89.0	preferred	Dekubitus I stepena
+L89.0	inclusion	
+L89.0	definition	Dekubitus se pojavljuje kao definisana površina crvenila (eritem) na lako pigmentovanoj koži tamnije boje, sa upornim crvenim, plavim, ili ljubičastim nijansama, bez gubitka kože.
+L89.1	preferred	Dekubitis II stepena
+L89.1	inclusion	Dekubitalna ( uzrokovana pritiskom) rana sa: abrazijom
+L89.1	inclusion	Dekubitalna ( uzrokovana pritiskom) rana sa: plikom
+L89.1	inclusion	Dekubitalna ( uzrokovana pritiskom) rana sa:  djelomičnim gubitkom debljine kože koji uključuje epiderm i / ili derm
+L89.1	inclusion	Dekubitalna ( uzrokovana pritiskom) rana sa: gubitkom kože neoznačenim
+L89.2	preferred	Dekubitis III stepena
+L89.2	definition	Dekubitus se sa gubitkom kože, sa oštećenjem, ili nekrozom subkutanog tkiva, koje se širi do mišića, ali ne i kroz njih.
+L89.3	preferred	Dekubitis IV stepena
+L89.3	definition	Dekubitus se pjavljuje sa nekrozom mišića i potpornih tkiva kostiju i zglobova (npr. tetiva i kapsula)
+L89.9	preferred	Dekubitalna rana, neoznačena
+L89.9	inclusion	Dekubitalna rana bez određivanja stepena oštećenja
+L90	preferred	Atrofički poremećaji kože
+L90.0	preferred	Sklerozni i atrofični lišaj
+L90.0	exclusion	Sklerozni lišaj spoljašnih polnih organa žene N90.4
+L90.0	exclusion	Sklerozni lišaj spoljašnih polnih organa muškarca N48.0
+L90.1	preferred	Anetodermija schweninger-buzzi
+L90.2	preferred	Anetodermija jadasson-pellizzari
+L90.3	preferred	Atrofija kože pasini-pierini
+L90.4	preferred	Hronična atrofična akrodermatitis
+L90.5	preferred	Oziljna stanja kože i fibroza kože
+L90.5	inclusion	Ožiljne priraslice kože
+L90.5	inclusion	Ožiljci
+L90.5	inclusion	Deformacije uzrokovane ožiljcima
+L90.5	inclusion	Ožiljak neoznačen
+L90.5	exclusion	Hpetrofični ožiljak L90.0
+L90.5	exclusion	Keloidni ožiljak L91.0
+L90.6	preferred	Atrofične strije
+L90.8	preferred	Drugi atrofični poremećaji kože
+L90.9	preferred	Atrofični poremećaj kože, neoznačen
+L91	preferred	Hipertrofični poremećaj kože
+L91.0	preferred	Hipertrofični ožiljak
+L91.0	inclusion	Keloidni ožiljak
+L91.0	inclusion	Keloid
+L91.0	exclusion	Keloidne akne L73.0
+L91.0	exclusion	Ožiljak neoznačen L90.5
+L91.8	preferred	Drugi hipertrofični poremećaji kože
+L91.9	preferred	Hipertrofični poremećaj kože, neoznačen
+L92	preferred	Granulomatozni poremećaji kože i potkožnog tkiva
+L92	exclusion	Granulomatizne aktiničke promjene na koži
+L92.0	preferred	Prstenasti granulom
+L92.0	inclusion	Perforirajući prstenasti granulom
+L92.1	preferred	Izumiranje masnih ćelija, neklasifikovana na drugom mjestu
+L92.1	exclusion	koji su povezani sa šećernom bolesti E10-E14
+L92.2	preferred	Eozinofilni granulom lica
+L92.3	preferred	Granulom kože i potkožnog tkiva
+L92.8	preferred	Druga granulomatozni poremećaji kože i potkožnog tkiva
+L92.9	preferred	Granulomatozni poremećaj kože i potkožnog tkiva, neoznačen
+L93	preferred	Eritemski lupus
+L93	coding-hint	Koristiti dodatne šifre spoljnjih uzroka (Grupa XX), ako je potrebno, za identifikaciju lijeka.
+L93	exclusion	Lupus: izjedajući A18.4
+L93	exclusion	Lupus: vulgaris A18.4
+L93	exclusion	skleroderma M34
+L93	exclusion	Sistemski eritemski lupus M32.-
+L93.0	preferred	Diskoidni eritemski lupus
+L93.0	inclusion	Lupus eritematozni neoznačen
+L93.1	preferred	Subakutni kožni eritemski lupus
+L93.2	preferred	Drugi lokalni eritemski lupus
+L93.2	inclusion	Lupus: eritemski duboki
+L93.2	inclusion	Lupus: panikulitis
+L94	preferred	Ostali lokalizovani poremećaji vezivnog tkiva
+L94	exclusion	Sistemske bolesti vezivnog tkiva M30-M36
+L94.0	preferred	Lokalizovana skleroderma
+L94.0	inclusion	Ograničena sklerodrema
+L94.1	preferred	Linijska skleroderma
+L94.1	inclusion	Sabljasta lesija
+L94.2	preferred	Prožimanje kože kalcijumom
+L94.3	preferred	Sklerodaktilija
+L94.4	preferred	Papule gottron
+L94.5	preferred	Poikiloderma uzrokovana slabom prokrvljenošću
+L94.6	preferred	Trakasto kružno stanje oko prsta ili uda
+L94.8	preferred	Drugi označeni lokalizovani poremećaji vezivnog tkiva
+L94.9	preferred	Lokalizovani poremećaj vezivnog tkiva, neoznačen
+L95	preferred	Zapaljenje krvnih sudova ograničeno na kožu, neklasifikovano na drugom mjestu
+L95	exclusion	Serpiginozni angiom L81.7
+L95	exclusion	Henoch(-Schönlein) purpura D69.0
+L95	exclusion	Alergijsko zapaljenje krvnog suda M31.0
+L95	exclusion	Zapaljenje masnog potkožnog tkiva: neoznačeno M79.3
+L95	exclusion	Zapaljenje masnog potkožnog tkiva: kod lupusa L93.2
+L95	exclusion	Zapaljenje masnog potkožnog tkiva: vrata i leđa M54.0
+L95	exclusion	Zapaljenje masnog potkožnog tkiva: povratno (Weber Christian) M35.6
+L95	exclusion	Poliarteritis nodoza M30.0
+L95	exclusion	Reumatoidni vaskulitis M05.2
+L95	exclusion	Imunološka bolest T80.6
+L95	exclusion	Koprivnjača L50.-
+L95	exclusion	Wegenerova granulomatoza M31.3
+L95.0	preferred	Zapaljenje krvnih sudova ljubičaste boje
+L95.0	inclusion	Atrophie blanche (en plaque)
+L95.1	preferred	Uzdignuti dugotrajni eritem
+L95.8	preferred	Drugo zapaljenje krvnih sudova ograničeno na kožu
+L95.9	preferred	Zapaljenje krvnih sudova ograničeno na kožu, neoznačeno
+L97	preferred	Grizlica donjih udova, neklasifikovano na drugom mjestu
+L97	exclusion	Dekubitalna rana L89.-
+L97	exclusion	Gangrena R02
+L97	exclusion	Infekcije kože i potkožnog tkiva (L00-L08)
+L97	exclusion	Infektivne i parazitarne bolesti A00-B99
+L97	exclusion	Varikozna grizlica I83.0 I83.2
+L98	preferred	Ostali poremećaji kože i potkožnog tkiva, neklasifikovani na drugom mjestu
+L98.0	preferred	Gnojni granulom
+L98.1	preferred	Namjerno izazvano zapaljenje kože
+L98.1	inclusion	Neurotična namjerno izazvana ekskorijacija kože L98.1
+L98.2	preferred	Neutrofilocitno febrilno oboljenje kože (sweet)
+L98.3	preferred	Eozinofilni celilit (wells)
+L98.4	preferred	Hronična grizlica kože, neklasifikovana na drugom mjestu
+L98.4	inclusion	Hronična grizlica kože neoznačena
+L98.4	inclusion	Tropska grizlica neoznačena
+L98.4	inclusion	Grizlica kože neoznačen
+L98.4	exclusion	Dekubitalna rana L89.-
+L98.4	exclusion	Gangrena R02
+L98.4	exclusion	Infekcije kože i potkožnog tkiva (L00-L08)
+L98.4	exclusion	Infektivne i parazitarne bolesti A00-B99
+L98.4	exclusion	Ostale grizlice donjih ekstremiteta L97
+L98.4	exclusion	Proširene vene sa grizlicom I83.0 I83.2
+L98.5	preferred	Razmekšavanje kože
+L98.5	inclusion	Fokalno razmekšanje
+L98.5	inclusion	Miksoedematozni lišaj
+L98.5	exclusion	Fokalno razmekšanje sluznice usta K13.7
+L98.5	exclusion	Miksedem E039
+L98.6	preferred	Drugi infiltrativni poremećaji kože i potkožnog tkiva
+L98.6	exclusion	
+L98.8	preferred	Drugi označeni poremećaji kože i potkožnog tkiva
+L98.9	preferred	Poremećaj kože i potkožnog tkiva, neoznačen
+L99	preferred	Ostali poremećaji kože i potkožnog tkiva u drugim bolestima
+L99.0	preferred	Amiloidoza kože
+L99.0	inclusion	Amiloidni lišaj
+L99.0	inclusion	Makularni amiloid
+L99.8	preferred	Drugi označeni poremećaji kože i potkožnog tkiva u drugim bolestima
+L99.8	inclusion	Opadanje kose uzrokovano sifilisom A51.3
+L99.8	inclusion	Sifilisna leukoderma A51.3 A52.7

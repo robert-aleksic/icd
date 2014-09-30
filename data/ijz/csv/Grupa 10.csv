@@ -1,0 +1,882 @@
+X	preferred	Bolesti sistema organa za disanje
+X	note	Ako se želi označiti neko od stanja sistema organa za disanje koje ima više od jedne lokalizacije a za koje ne postoje zasebne šifre, treba ga šifrirati  u niže anatomske dijelove (npr. upala dušnika i bronnhija šifrira se kao upala bronhija - bronhitis J40).
+X	exclusion	Određena stanja koja nastaju u porođajnom periodu (P00-P96)
+X	exclusion	Određene zarazne i parazitarne bolesti (A00-B99)
+X	exclusion	Komplikacije trudnoće, porođaja i babinja (O00-O99)
+X	exclusion	Urođeni poremećaji, deformacije i hromozomske nenormalnosti (Q00-Q99)
+X	exclusion	Endokrine, nutritivne i metaboličke bolesti (E00-E90)
+X	exclusion	Povrede, trovanja i određene druge posljedice djelovanja spoljašnjih faktora (S00-T98)
+X	exclusion	Tumori (C00-D48)
+X	exclusion	simptomi, znaci i patološki klinički i laboratorijski nalazi, neklasifikovani na drugom mestu (R00-R99)
+J00-J06	preferred	Akutne infekcije gornjih djelova sistema za disanje
+J00-J06	exclusion	Hronična opstruktivna bolest pluća sa akutnim pogoršanjem NOS (J44.1)
+J00	preferred	Akutno zapaljenje nosnog dijela ždrijela (obična prehlada)
+J00	inclusion	Koriza, kijavica (akutna)
+J00	inclusion	Nosni katar, akutni
+J00	inclusion	Zapaljenje nosnog dijela ždrijela NOS
+J00	inclusion	Zapaljenje nosnog dijela ždrijela zaraznog porijekla NOS
+J00	inclusion	Akutna kijavica
+J00	inclusion	Kijavica zaraznog porijekla
+J00	exclusion	Hronična upala nosnog dijela ždrijela (J31.1)
+J00	exclusion	Zapaljenje ždrijela NOS (J02.9)
+J00	exclusion	Akutno zapaljenje ždrijela (J02.-)
+J00	exclusion	Hronično zapaljenje ždrijela (J31.2)
+J00	exclusion	Kijavica NOS (J31.0)
+J00	exclusion	Alergijska kijavica (J30.1-J30.4)
+J00	exclusion	Hronična kijavica (J31.0)
+J00	exclusion	Vazomotorna kijavica (J30.0)
+J00	exclusion	Gušobolja NOS (J02.9)
+J00	exclusion	Akutna gušobolja (J02.-)
+J00	exclusion	Hronična gušobolja (J31.2)
+J01	preferred	Akutno zapaljenje sinusa, sinuzitis
+J01	inclusion	Akutni apsces sinusa (paranazalnih) (nazalnih)
+J01	inclusion	Akutni empijem sinusa (paranazalnih) (nazalnih)
+J01	inclusion	Akutna infekcija sinusa (paranazalnih) (nazalnih)
+J01	inclusion	Akutno zapaljenje sinusa (paranazalnih) (nazalnih)
+J01	inclusion	Gnojno (supurativno) zapaljenje sinusa (paranazalnih) (nazalnih)
+J01	coding-hint	Po potrebi je moguće koristiti šifre B95-B98, u cilju identifikacije infektivnog agensa
+J01	exclusion	Zapaljenje sinusa, hronično ili NOS (J32.-)
+J01.0	preferred	Akutno zapaljenje maksilarnog sinusa
+J01.0	inclusion	Akutno zapaljenje ulaznog dijela maksilarnog sinusa
+J01.1	preferred	Akutno zapaljenje čeonog sinusa
+J01.2	preferred	Akutno zapaljenje sinusa sitaste kosti
+J01.3	preferred	Akutno zapaljenje sinusa klinaste kosti
+J01.4	preferred	Akutno zapaljenje svih sinusa
+J01.8	preferred	Drugo akutno zapaljenje sinusa
+J01.8	inclusion	Akutno zapaljenje sinusa kojim je zahvaćeno više od jednog sinusa, ali nije pansinusitis
+J01.9	preferred	Akutno zapaljenje sinusa, neoznačeno
+J02	preferred	Akutno zapaljenje ždrijela
+J02	inclusion	Akutna gušobolja
+J02	exclusion	Apsces oko krajnika (peritonzilarni apsces) (J36)
+J02	exclusion	Apsces ždrijela (J39.1)
+J02	exclusion	Apsces prostora iza ždrijela (J39.0)
+J02	exclusion	Akutna upala grkljana i ždrijela (J06.0)
+J02	exclusion	Hronična upala ždrijela (J31.2)
+J02.0	preferred	Zapaljenje ždrijela uzrokovano streptokokom
+J02.0	inclusion	Gušobolja (angina) uzrokovana streptokokom
+J02.0	exclusion	Šarlah (A38)
+J02.8	preferred	Akutno zapaljenje ždrijela uzrokovano drugim označenim mikroorganizmima
+J02.8	coding-hint	Po potrebi koristiti dodatne šifre (B95-B97), kako bi se identifikovao infektivni uzročnik.
+J02.8	exclusion	Enterovirusna vezikularna upala ždrijela (B08.5)
+J02.8	exclusion	Herpesvirusna [herpes simpleks] upala ždrijela (B00.2)
+J02.8	exclusion	Upala ždrijela kod infektivne mononukleoze (B27.-)
+J02.8	exclusion	Upala ždrijela kod potvrđene infekcije virusom gripa (J09, J10.1)
+J02.8	exclusion	Upala ždrijela kod nepotvrđene infekcije virusom gripa (J11.1)
+J02.9	preferred	Akutno zapaljenje ždrijela, neoznačeno
+J02.9	inclusion	Akutno zapaljenje ždrijela NOS
+J02.9	inclusion	Gangrenozno (akutno) zapaljenje ždrijela
+J02.9	inclusion	Zarazno (akutno) zapaljenje ždrijela NOS
+J02.9	inclusion	Gnojno (akutno) zapaljenje ždrijela
+J02.9	inclusion	Ulcerozno (sa grizlicom) (akutno) zapaljenje ždrijela
+J02.9	inclusion	Gušobolja (akutna) NOS
+J03	preferred	Akutno zapaljenje krajnika
+J03	exclusion	Peritonzilarni apsces (J36)
+J03	exclusion	Gušobolja NOS (J02.9)
+J03	exclusion	Gušobolja akutna (J02)
+J03	exclusion	Gušobolja uzrokovana streptokokom (J02.0)
+J03.0	preferred	Zapaljenje krajnika uzrokovano streptokokom
+J03.8	preferred	Akutno zapaljenje krajnika uzrokovano drugim označenim mikroorganizmima
+J03.8	coding-hint	Po potrebi koristiti dodatne šifre (B95-B98), kako bi se identifikovao infektivni uzročnik.
+J03.8	exclusion	Zapaljenje krajnika i ždrijela uzrokovano herpes virusom [Herpes simpleks] (B00.2)
+J03.9	preferred	Akutno zapaljenje krajnika, neoznačeno
+J03.9	inclusion	Zapaljenje krajnika (akutno) NOS
+J03.9	inclusion	Mjehurasto zapaljenje krajnika (akutno)
+J03.9	inclusion	Gangrenozno zapaljenje krajnika (akutno)
+J03.9	inclusion	Zarazno zapaljenje krajnika (akutno)
+J03.9	inclusion	Ulcerativno zapaljenje krajnika (akutno)
+J04	preferred	Akutno zapaljenje grkljana i dušnika
+J04	coding-hint	Po potrebi koristiti dodatne šifre (B95-B98), kako bi se identifikovao infektivni uzročnik.
+J04	exclusion	Akutno opstruktivno zapaljenje grkljana [krup] sa zapaljenjem grkljanskog poklopca (J05.-)
+J04	exclusion	
+J04.0	preferred	Akutno zapaljenje grkljana
+J04.0	inclusion	Zapaljenje grkljana (akutno) NOS
+J04.0	inclusion	Zapaljenje grkljana (akutno) sa otokom
+J04.0	inclusion	Zapaljenje grkljana (akutno) ispod grkljanskog poklopca
+J04.0	inclusion	Zapaljenje grkljana (akutno) sa gnojenjem
+J04.0	inclusion	Zapaljenje grkljana (akutno) sa grizlicom (ulceracijom)
+J04.0	exclusion	Hronična uala grkljana (J37.0)
+J04.0	exclusion	Zapaljenje grkljana uzrokovano virusom gripa koji je laboratorijski potvrđen (J09, J10.1)
+J04.0	exclusion	Zapaljenje grkljana uzrokovano virusom gripa koji nije laboratorijski potvrđen (J11.1)
+J04.1	preferred	Akutno zapaljenje dušnika
+J04.1	inclusion	Zapaljenje dušnika (akutno) NOS
+J04.1	inclusion	Kataralno zapaljenje dušnika (akutno)
+J04.1	exclusion	Hronično zapalljenje dušnika (J42)
+J04.2	preferred	Akutno zapaljenje grkljana i dušnika
+J04.2	inclusion	Zapaljenje grkljana i dušnika NOS
+J04.2	inclusion	Zapaljenje dušnika (akutno) sa upalom (akutnom) grkljana
+J04.2	exclusion	Hronično zapaljenje grkljana i dušnika (J37.1)
+J05	preferred	Akutno opstruktivno zapaljenje grkljana [krup] i grkljanskog poklopca
+J05	coding-hint	Po potrebi koristiti dodatne šifre (B95-B98), kako bi se identifikovao infektivni uzročnik.
+J05.0	preferred	Akutno opstruktivno zapaljenje grkljana (krup)
+J05.0	inclusion	Opstruktivno zapaljenje grkljana NOS
+J05.1	preferred	Akutno zapaljenje grkljanskog poklopca
+J05.1	inclusion	Zapaljenje grkljanskog poklopca NOS
+J06	preferred	Akutne infekcije gornjih disajnih puteva, višestrukih i neoznačenih lokalizacija
+J06	exclusion	Akutna infekcija disajnih puteva NOS (J22)
+J06	exclusion	Grip, virus identifikovan (J09, J10.1)
+J06	exclusion	Grip, virus neidentifikovan (J11.1)
+J06.0	preferred	Akutno zapaljenje grkljana i ždrijela
+J06.8	preferred	Druge akutne infekcije gornjih disajnih puteva, višestrukih lokalizacija
+J06.9	preferred	Akutna infekcija gornjih disajnih puteva, neoznačena
+J06.9	inclusion	Akutna bolest gornjih djelova sistema za disanje
+J06.9	inclusion	Infekcija gornjih djelova sistema za disanje NOS
+J09-J18	preferred	Grip i upala pluća
+J09	preferred	Grip, uzrokovan određenim indentifikovanim sojevima virusa 
+J09	definition	Grip izazvan sojevima virusa gripa koji su od posebnog epidemiološkog značaja (prenos sa životinje na čovjeka ili interhumani prenos), ograničen na navedene sojeve .
+J09	note	Dodatni virusni sojevi mogu se uvrstiti u šifarnik samo na osnovu preporuka SZO-a.
+J09	inclusion	Grip A/H1N1 pandemijski soj 2009 [svinjski grip]
+J09	inclusion	Grip A/H5N1 epidemijski [ptičiji grip]
+J09	coding-hint	Po potrebi se mogu koristiti dodatne šifre za označavanje zapaljenja pluća ili drugih manifestacija gripa.
+J09	exclusion	Infekcija uzrokovana sa Haemophilus influenzae NOS (A49.2)
+J09	exclusion	Upala moždanica uzrokovana sa Haemophilus influenzae (G00.0)
+J09	exclusion	Upala pluća uzrokovana sa Haemophilus influenzae (J14)
+J10	preferred	Grip, uzrokovan drugim identifikovanim sojevima virusa 
+J10	exclusion	Infekcija uzrokovana sa Haemophilus influenzae NOS (A49.2)
+J10	exclusion	Upala moždanica uzrokovana sa Haemophilus influenzae (G00.0)
+J10	exclusion	Upala pluća uzrokovana sa Haemophilus influenzae (J14)
+J10.0	preferred	Grip sa zapaljenjem pluća, uzrokovan drugim identifikovanim sojevima virusa influenze
+J10.0	inclusion	Grip sa zapaljenjem pluća (i dušnica), uzrokovan drugim identifikovanim sojevima virusa influenze
+J10.1	preferred	Grip sa drugim disajnim smetnjama, uzrokovan drugim identifikovanim sojevima virusa influenze
+J10.1	inclusion	Grip, uzrokovan drugim identifikovanim sojevima virusa 
+J10.1	inclusion	Gripozna akutna upala gornjih disajnih puteva, uzrokovana drugim identifikovanim sojevima virusa
+J10.1	inclusion	Gripozna upala grkljana uzrokovana drugim identifikovanim sojevima virusa
+J10.1	inclusion	Gripozna upala ždrijela uzrokovana drugim identifikovanim sojevima virusa
+J10.1	inclusion	Izliv u plućnu maramicu uzrokovan drugim identifikovanim sojevima virusa gripa
+J10.8	preferred	Grip sa drugim manifestacijama, uzrokovan drugim identifikovanim sojevima virusa gripa
+J10.8	inclusion	Gripozno oboljenje mozga uzrokovano drugim identifikovanim sojevima virusa gripa
+J10.8	inclusion	Gripozno zapaljenje želuca i crijeva, uzrokovano drugim identifikovanim sojevima virusa
+J10.8	inclusion	Gripozno zapaljenje srčanog mišića (akutno), uzrokovano drugim identifikovanim sojevima virusa
+J11	preferred	Grip, virus neidentifikovan
+J11	inclusion	Grip, bez navoda da je identifikovan specifični soj virusa
+J11	inclusion	Virusna gripozna infekcija, bez navoda da je identifikovan specifični soj virusa
+J11	exclusion	Infekcija uzrokovana sa Haemophilus influenzae NOS (A49.2)
+J11	exclusion	Upala moždanica uzrokovana sa Haemophilus influenzae (G00.0)
+J11	exclusion	Upala pluća uzrokovana sa Haemophilus influenzae (J14)
+J11.0	preferred	Grip sa zapaljenjem pluća, virus neidentifikovan
+J11.0	inclusion	Grip sa zapaljenjem pluća (i dušnica), uzrokovan neoznačenim ili neidentifikovanim sojevima virusa influenze
+J11.1	preferred	Grip sa drugim disajnim smetnjama, virus neidentifikovan
+J11.1	inclusion	Grip NOS
+J11.1	inclusion	Gripozna akutna upala gornjih disajnih puteva, uzrokovana neoznačenim ili neidentifikovanim sojevima virusa
+J11.1	inclusion	Gripozna upala grkljana uzrokovana neoznačenim ili neidentifikovanim sojevima virusa
+J11.1	inclusion	Gripozna upala ždrijela uzrokovana neoznačenim ili neidentifikovanim sojevima virusa
+J11.1	inclusion	Izliv u plućnu maramicu, uzrokovana neoznačenim ili neidentifikovanim sojevima virusa
+J11.8	preferred	Grip sa drugim manifestacijama, uzrokovan neoznačenim ili neidentifikovanim sojevima virusa
+J11.8	inclusion	Gripozno oboljenje mozga uzrokovano drugim identifikovanim sojevima virusa gripa
+J11.8	inclusion	Gripozno zapaljenje želuca i crijeva, uzrokovano drugim identifikovanim sojevima virusa
+J11.8	inclusion	Gripozno zapaljenje srčanog mišića (akutno), uzrokovano drugim identifikovanim sojevima virusa
+J12	preferred	Zapaljenje pluća uzrokovano virusima, neklasifikovano na drugom mjestu
+J12	inclusion	Zapaljenje pluća i dušnica uzrokovano virusima osim virusa gripa
+J12	exclusion	Urođeni rubelozni pneumonitis (P35.0)
+J12	exclusion	Aspiraciona upala pluća NOS (J69.0)
+J12	exclusion	Aspiraciona upala pluća u sklopu anestezije tokom porođaja (O74.0)
+J12	exclusion	Aspiraciona upala pluća u sklopu anestezije tokom trudnoće (O29.0)
+J12	exclusion	Aspiraciona upala pluća u sklopu anestezije tokom babinja (O89.0)
+J12	exclusion	Upala pluća kod novorođenčeta (P24.9)
+J12	exclusion	Zapaljenje pluća uzrokovano čvrstim tijelima i tečnostima (J69.-)
+J12	exclusion	Urođeno zapaljenje pluća (P23.0)
+J12	exclusion	Upala pluća u sklopu gripozne infekcije (J09, J10, J11.0)
+J12	exclusion	Intersticijalna upala pluća NOS (J84.9)
+J12	exclusion	Zapaljenje pluća uzrokovano mastima (J69.1)
+J12	exclusion	Teški akutni respiratorni sindrom [SARS] (U04.9)
+J12.0	preferred	Zapaljenje pluća uzrokovano adenovirusima
+J12.1	preferred	Zapaljenje pluća uzrokovano respiratornim sincicijalnim virusima
+J12.2	preferred	Zapaljenje pluća uzrokovano virusima parainfluenze
+J12.3	preferred	Zapaljenje pluća izazvano humanim metapneumovirusom
+J12.8	preferred	Zapaljenje pluća uzrokovano drugim virusima
+J12.9	preferred	Zapaljenje pluća uzrokovano virusom, neoznačeno
+J13	preferred	Zapaljenje pluća uzrokovano sa Streptococcus pneumoniae
+J13	inclusion	Zapaljenje pluća i dušnica uzrokovano sa S. pneumoniae
+J13	exclusion	Urođeno zapaljenje pluća uzrokovano sa S. pneumoniae (P23.6)
+J13	exclusion	Zapaljenje pluća uzrokovano drugim streptokokama (J15.3-J15.4) 
+J14	preferred	Zapaljenje pluća uzrokovano haemophilus influenzae
+J14	inclusion	Zapaljenje pluća i dušnica uzrokovano sa H. influenzae
+J14	exclusion	Urođeno zapaljenje pluća uzrokovano sa H. influenzae (P23.6)
+J15	preferred	Bakterijsko zapaljenje pluća, neklasifikovano na drugom mjestu
+J15	inclusion	Zapaljenje pluća i dušnica uzrokovano bakterijama osim S. pneumoniae i H. influenzae
+J15	exclusion	Zapaljenje pluća uzrokovano hlamidijom (J16.0)
+J15	exclusion	Urođeno zapaljenje pluća (P23.-)
+J15	exclusion	Legionarska bolest (A48.1)
+J15.0	preferred	Zapaljenje pluća uzrokočnik Klebsiella pneumoniae
+J15.1	preferred	Zapaljenje pluća uzrokovano pseudomonasom
+J15.2	preferred	Zapaljenje pluća  uzrokovano stafilokokom
+J15.3	preferred	Zapaljenje pluća uzrokovano streptokokom grupe B
+J15.4	preferred	Zapaljenje pluća uzrokovano drugim streptokokama
+J15.4	exclusion	Zapaljenje pluća uzrokovano streptokokom grupe B (J15.3)
+J15.4	exclusion	Zapaljenje pluća uzrokovano sa Streptococcus pneumoniae (J13)
+J15.5	preferred	Zapaljenje pluća uzrokovano sa Escherichia colli
+J15.6	preferred	Zapaljenje pluća uzrokovano drugim aerobnim gram-negativnim bekterijama
+J15.6	inclusion	Zapaljenje pluća uzrokovano sa Serratia marcescens
+J15.7	preferred	Zapaljenje pluća uzročnik Mycoplasma pneumoniae
+J15.8	preferred	Drugo bakterijsko zapaljenje pluća
+J15.9	preferred	Bakterijsko zapaljenje pluća, neoznačeno
+J16	preferred	Zapaljenje pluća uzrokovano ostalim zaraznim mikroorganizmima, neklasifikovano na drugom mjestu
+J16	exclusion	Ornitoza (A70)
+J16	exclusion	Pneumocistoza (B59)
+J16	exclusion	Zapaljenje pluća NOS (J18.9)
+J16	exclusion	Urođeno zapaljenje pluća (P23.-)
+J16.0	preferred	Zapaljenje pluća uzrokovano hlamidijom
+J16.8	preferred	Zapaljenje pluća uzrokovano drugim označenim zaraznim organizmima
+J17	preferred	Zapaljenje pluća u drugim bolestima
+J17.0	preferred	Zapaljenje pluća u drugim bakterijskim bolestima
+J17.0	inclusion	Zapaljenje pluća (uzrokovano) u sklopu aktinomikoze (A42.0)
+J17.0	inclusion	Zapaljenje pluća (usljed) (u sklopu): antraksa (A22.1)
+J17.0	inclusion	Zapaljenje pluća (usljed) (u sklopu): gonoreje (A54.8)
+J17.0	inclusion	Zapaljenje pluća (usljed) (u sklopu): nokardioze (A43.0)
+J17.0	inclusion	Zapaljenje pluća (usljed) (u sklopu): salmonelozne infekcije (A02.2)
+J17.0	inclusion	Zapaljenje pluća (usljed) (u sklopu): tularemije (A21.2)
+J17.0	inclusion	Zapaljenje pluća (usljed) (u sklopu): tifusne groznice (A01.0)
+J17.0	inclusion	Zapaljenje pluća (usljed) (u sklopu): velikog kašlja (A37.-)
+J17.1	preferred	Zapaljenje pluća u virusnim bolestima
+J17.1	inclusion	Zapaljnje pluća u sklopu citomegalovirusne bolesti (B25.0)
+J17.1	inclusion	Zapaljenje pluća u sklopu malih boginja (B05.2)
+J17.1	inclusion	Zapaljenje pluća u sklopu rubeole (B06.8)
+J17.1	inclusion	Zapaljenje pluća u sklopu varičele (B01.2)
+J17.2	preferred	Zapaljenje pluća u gljivicnim bolestima
+J17.2	inclusion	Zapaljenje pluća u sklopu aspergiloze (B44.0-B44.1)
+J17.2	inclusion	Zapaljenje pluća u sklopu kandidijaze (B37.1)
+J17.2	inclusion	Zapaljenje pluća u sklopu kokcidioidomikoze (B38.0-B38.2)
+J17.2	inclusion	Zapaljenje pluća u sklopu histoplazmoze (B39.-)
+J17.3	preferred	Zapaljenje pluća u parazitarnim bolestima
+J17.3	inclusion	Zapaljenje pluća u sklopu askarijaze (B77.8)
+J17.3	inclusion	Zapaljenje pluća u sklopu šistosomijaze (B65.-)
+J17.3	inclusion	Zapaljenje pluća u sklopu toksoplazmoze (B58.3)
+J17.8	preferred	Zapaljenje pluća u bolestima klasifikovanim na drugom mjestu
+J17.8	inclusion	Zapaljenje pluća u sklopu ornitoze (A70)
+J17.8	inclusion	Zapaljenje pluća u sklopu "kju" (Q) groznice (A78)
+J17.8	inclusion	Zapaljenje pluća u sklopu reumatske groznice (I00)
+J17.8	inclusion	Zapaljenje pluća u sklopu infekcije spirohetama neklasifikovane na drugom mjestu (A69.8)
+J18	preferred	Zapaljenje pluća, mikroorganizam neoznačen
+J18	exclusion	Apsces pluća sa zapaljenjem pluća (J85.1)
+J18	exclusion	Poremećaji intercticijuma pluća uzrokovano lijekovima (J70.2 - J70.4)
+J18	exclusion	Aspiraciona upala pluća NOS (J69.0)
+J18	exclusion	Aspiraciona upala pluća u sklopu anestezije tokom porođaja (O74.0)
+J18	exclusion	Aspiraciona upala pluća u sklopu anestezije tokom trudnoće (O29.0)
+J18	exclusion	Aspiraciona upala pluća u sklopu anestezije tokom babinja (O89.0)
+J18	exclusion	Zapaljenje pluća kod novorođenčeta (P24.9)
+J18	exclusion	Zapaljenje pluća uzrokovano čvrstim tijelima i tečnostima (J69.-)
+J18	exclusion	Urođeno zapaljenje pluća (P23.9)
+J18	exclusion	Intersticijalna upala pluća NOS (J84.9)
+J18	exclusion	Zapaljenje pluća uzrokovano mastima (J69.1)
+J18	exclusion	Uobičajena intersticijalna upala pluća NOS (J84.1)
+J18	exclusion	Pneumonitis uzrokovan spoljašnjim uzročnicima (J67-J70)
+J18.0	preferred	Zapaljenje dušnica i pluća, neoznačeno
+J18.0	exclusion	Brohiolitis (J21.-)
+J18.1	preferred	Zapaljenje plućnog režnja, neoznačeno
+J18.2	preferred	Hipostatsko zapaljenje pluća, neoznačeno
+J18.8	preferred	Drugo zapaljenje pluća, mikroorganizam neoznačen
+J18.9	preferred	Zapaljenje pluća, neoznačeno
+J20-J22	preferred	Druge akutne infekcije donjih dijelova sistema organa za disanje 
+J20-J22	exclusion	Hronične opstruktivne bolesti pluća sa akutnim pogoršanjima NOS (J44.1)
+J20-J22	exclusion	Hronične opstruktivne bolesti pluća sa akutnim infekcijama donjih dijelova sistema organa za disanje (J44.0)
+J20	preferred	Akutni bronhitis (zapaljenje dušnica)
+J20	inclusion	Bronhitis NOS, kod osoba mlađih od 15 godina
+J20	inclusion	Bronhitis, akutni i subakutni, sa spazmom
+J20	inclusion	Bronhitis, akutni i subakutni, sa fibrinoznim ispljuvkom
+J20	inclusion	Bronhitis, akutni i subakutni, sa membranama
+J20	inclusion	Bronhitis, akutni i subakutni, sa gnojnim ispljuvkom
+J20	inclusion	Bronhitis, akutni i subakutni, sa sepsom
+J20	inclusion	Bronhitis, akutni i subakutni, sa zapaljenjem dušnika
+J20	inclusion	Akutno zapaljenje dušnica i dušnika
+J20	exclusion	Bronhitis NOS, kod osoba starih 15 i više godina (J40)
+J20	exclusion	Alergijski bronhitis NOS (J45.0)
+J20	exclusion	Hronični bronhitis NOS (J42)
+J20	exclusion	Hronični bronhitis sa mukozno-gnojnim ispljuvkom (J41.1)
+J20	exclusion	Hronični opstruktivni bronhitis (J44.-)
+J20	exclusion	Hronični bronhitis (J41.0)
+J20	exclusion	Zapaljenje dušnica i dušnika NOS (J40)
+J20	exclusion	Hronično zapaljenje dušnika i dušnica (J42)
+J20	exclusion	Hronično opstruktivno zapaljenje dušnika i dušnica (J42)
+J20.0	preferred	Akutni bronhitis uzrokovan sa Mycoplasma pneumoniae
+J20.1	preferred	Akutni bronhitis uzrokovan sa Haemophillus influenzae
+J20.2	preferred	Akutni bronhitis uzrokovan streptokokama
+J20.3	preferred	Akutni bronhitis uzrokovan koksaki virusom
+J20.4	preferred	Akutni bronhitis uzrokovan virusima parainfluence
+J20.5	preferred	Akutni bronhitis uzrokovan respiratornim sincicijalnim virusima
+J20.6	preferred	Akutni bronhitis uzrokovan rinovirusima
+J20.7	preferred	Akutni bronhitis uzrokovan ehovirusima
+J20.8	preferred	Akutni bronhitis uzrokovan drugim označenim mikroorganizmima
+J20.9	preferred	Akutni bronhitis, neoznačen
+J21	preferred	Akutni bronhiolitis
+J21	inclusion	Akutni bronhiolitis sa bronhospazmom
+J21.0	preferred	Akutni bronhiolitis uzrokovan respiratornim sincicijalnim virusima
+J21.1	preferred	Akutni bronhiolitis uzrokovan humanim metapneumovirusom
+J21.8	preferred	Akutni bronhiolitis uzrokovan drugim označenim mikroorganizmima
+J21.9	preferred	Akutni bronhiolitis, neoznačen
+J21.9	inclusion	Bronhiolitis (akutni)
+J22	preferred	Neoznačena akutna infekcija donjih disajnih puteva
+J22	inclusion	Akutna infekcija (donjih dijelova) sistema organa za disanje NOS
+J22	exclusion	Infekcija (akutna) gornjih djelova sistema organa za disanje (J06.9)
+J30-J39	preferred	Druge bolesti gornjih dijelova sistema organa za disanje
+J30	preferred	Vazomotorna i alergijska kijavica
+J30	inclusion	Curenje iz nosa, uzrokovano spazmom krvnih sudova
+J30	exclusion	Alergijska kijavica sa astmom (J45.0)
+J30	exclusion	Kijavica NOS (J31.0)
+J30.0	preferred	Vazomotorna kijavica
+J30.1	preferred	Alergijska kijavica uzrokovana polenom
+J30.1	inclusion	Alergija NOS uzrokovana polenom
+J30.1	inclusion	Polenska groznica
+J30.1	inclusion	Polenska alergija
+J30.2	preferred	Druga sezonska alergijska kijavica
+J30.3	preferred	Druga alergijska kijavica
+J30.3	inclusion	Nesezonska alergijska kijavica
+J30.4	preferred	Alergijska kijavica, neoznačena
+J31	preferred	Hronična kijavica, zapaljenje nosnog dijela ždrijela i ždrijela
+J31.0	preferred	Hronična kijavica
+J31.0	inclusion	Ozena
+J31.0	inclusion	Kijavica (hronična) NOS
+J31.0	inclusion	Kijavica (hronična) sa atrofijom
+J31.0	inclusion	Kijavica (hronična) sa granulomatoznim tkivom
+J31.0	inclusion	Kijavica (hronična) sa hipertorfijom
+J31.0	inclusion	Kijavica (hronična) sa opstrukcijom
+J31.0	inclusion	Kijavica (hronična) sa gnojenjem
+J31.0	inclusion	Kijavica (hronična) sa grizlicama (ulceracijama)
+J31.0	exclusion	Alergijska kijavica (J30.1 - J30.4)
+J31.0	exclusion	Vazomotorna kijavica (J30.0)
+J31.1	preferred	Hronično zapaljenje nosnog dijela ždrijela
+J31.1	exclusion	Zapaljenje nosnog dijela ždrijela, akutno ili NOS (J00)
+J31.2	preferred	Hronično zapaljenje ždrijela
+J31.2	inclusion	Hronična gušobolja
+J31.2	inclusion	Zapaljenje ždrijela (hronično) sa atrofijom
+J31.2	inclusion	Zapaljenje ždrijela (hronično) sa granulomatoznim tkivom
+J31.2	inclusion	Zapaljenje ždrijela (hronično) sa hipertrofijom
+J31.2	exclusion	Zapaljenje ždrijela, akutno ili NOS (J02.9)
+J32	preferred	Hronično zapaljenje sinusa
+J32	inclusion	Apsces (hronični) sinusa (paranazalnih) (nazalnih)
+J32	inclusion	Empijem (hronični) sinusa (paranazalnih) (nazalnih)
+J32	inclusion	Infekcija (hronična) sinusa (paranazalnih) (nazalnih)
+J32	inclusion	Gnojenje (hronično) sinusa (paranazalnih) (nazalnih)
+J32	coding-hint	Po potrebi koristiti dodatne šifre (B95-B98), kako bi se identifikovao infektivni uzročnik.
+J32	exclusion	Akutno zapaljenje sinusa (J01.-)
+J32.0	preferred	Hronično zapaljenje maksilarnog sinusa
+J32.0	inclusion	Zapaljenje ulaza u maksilarni sinus (hronično)
+J32.0	inclusion	Zapaljenje maksilarnog sinusa NOS
+J32.1	preferred	Hronično zapaljenje čeonog sinusa
+J32.1	inclusion	Zapaljenje čeonog sinusa NOS
+J32.2	preferred	Hronično zapaljenje sinusa sitaste kosti
+J32.2	inclusion	Zapaljenje sinusa sitaste kosti NOS
+J32.3	preferred	Hronično zapaljenje sinusa klinaste kosti
+J32.3	inclusion	Zapaljenje sinusa klinaste kosti NOS
+J32.4	preferred	Hronično zapaljenje svih sinusa
+J32.4	inclusion	Zapaljenje svih sinusa NOS
+J32.8	preferred	Drugo hronično zapaljenje sinusa
+J32.8	inclusion	Zapaljenje sinusa (hronično) kojim je zahvaćeno više od jednog sinusa, ali nije pansinusitis
+J32.9	preferred	Hronično zapaljenje sinusa, neoznačeno
+J32.9	inclusion	Zapaljenje sinua (hronično) NOS
+J33	preferred	Polip nosa - peteljkast izraštaj sluznice nosa
+J33	exclusion	Adenomatozni polipi (D14.0)
+J33.0	preferred	Polip nosne šupljine
+J33.0	inclusion	Polip u hoanama
+J33.0	inclusion	Polip nosnog dijela ždrijela
+J33.1	preferred	Polipoidna degeneracija sinusa
+J33.1	inclusion	"Woakes-ov sindrom" ili etmoiditid
+J33.8	preferred	Drugi polipi sinusa
+J33.8	inclusion	Polip paranazalnog sinusa
+J33.8	inclusion	Polip sinusa sitaste kosti
+J33.8	inclusion	Polip maksilarnog sinusa
+J33.8	inclusion	Polip sinusa klinaste kosti
+J33.9	preferred	Polip nosa, neoznačen
+J34	preferred	Ostali poremećaji nosa i nosnih sinusa
+J34	exclusion	Varikozna grizlica nosne pregrade (I86.8)
+J34.0	preferred	Apsces, furunkul i karbunkul nosa
+J34.0	inclusion	Celulitis nosa (nosne pregrade)
+J34.0	inclusion	Nekroza nosa (nosne pregrade)
+J34.0	inclusion	Grizlica nosa (nosne pregrade)
+J34.1	preferred	Cista i sluzna cista nosa i sinusa nosa
+J34.2	preferred	Devijacija nosne pregrade
+J34.2	inclusion	Iskrivljenost ili devijacija nosne pregrade (stečena)
+J34.3	preferred	Povećanje školjki nosa
+J34.8	preferred	Drugi označeni poremećaji nosa i sinusa nosa
+J34.8	inclusion	Proboj nosne pregrade NOS
+J34.8	inclusion	Rinolit - nosni kamen
+J35	preferred	Hronične bolesti krajnika i adenoida
+J35.0	preferred	Hronično zapaljenje krajnika
+J35.0	exclusion	Zapaljenje krajnika NOS (J03.9)
+J35.0	exclusion	Zapaljenje krajnika akutno (J03.-)
+J35.1	preferred	Hipertorfija krajnika
+J35.1	inclusion	Uvećanje krajnika
+J35.2	preferred	Uvećanje adenoida
+J35.2	inclusion	Uvećanje "trećeg krajnika"
+J35.3	preferred	Uvećanje krajnika sa povećanjem adenoida ("trećeg krjnika")
+J35.8	preferred	Druge hronične bolesti krajnika i adenoida ("trećeg krajnika")
+J35.8	inclusion	Adenoidne vegetacije
+J35.8	inclusion	Amigdalolitijaza - tonzilarni kamen
+J35.8	inclusion	Ožiljavanje krajnika i adenoidnih vegetacija
+J35.8	inclusion	Tonzilarni zaostatak (rezidum) nakon urađene tonzilektomije
+J35.8	inclusion	Grizlica krajnika
+J35.9	preferred	Hronična bolest krajnika i adenoida, neoznačena
+J35.9	inclusion	Bolest (hronična) krajnika i adenoida, NOS
+J36	preferred	Peritonzilarni apsces
+J36	inclusion	Tonzilarni apsces
+J36	inclusion	Peritonzilarni celulitis
+J36	inclusion	Gnojna angina
+J36	coding-hint	Po potrebi koristiti dodatne šifre (B95-B98), kako bi se identifikovao infektivni uzročnik.
+J36	exclusion	Apsces prostora iza ždrijela (J39.0)
+J36	exclusion	Zapaljenje krajnika NOS (J03.9)
+J36	exclusion	Akutno zapaljenje krajnika (J03.-)
+J36	exclusion	Hronično zapaljenje krajnika (J35.0)
+J37	preferred	Hronično zapaljenje grkljana i grkljana sa dušnikom
+J37	coding-hint	Po potrebi koristiti dodatne šifre (B95-B98), kako bi se identifikovao infektivni uzročnik.
+J37.0	preferred	Hronično zapaljenje grkljana
+J37.0	inclusion	Kataralno zapaljenje grkljana
+J37.0	inclusion	Hipertrofično zapaljenje grkljana
+J37.0	inclusion	Suvo zapaljenje grkljana
+J37.0	exclusion	Zapaljenje grkljana NOS (J04.0)
+J37.0	exclusion	Akutno zapaljenje grkljana (J04.0)
+J37.0	exclusion	Zapaljenje (akutno) grkljana sa opstrukcijom (J05.0)
+J37.1	preferred	Hronično zapaljenje grkljana i dušnika
+J37.1	inclusion	Hronično zapaljenje grkljana sa zapaljenjem dušnika (hroničnim)
+J37.1	inclusion	Hronično zapaljenje dušnika sa zapaljenjem grkljana
+J37.1	exclusion	Zapaljenje grkljana i dušnika NOS (J04.2)
+J37.1	exclusion	Akutno apaljenje grkljana i dušnika (J04.2)
+J37.1	exclusion	Zapaljenje dušnika NOS (J04.1)
+J37.1	exclusion	Akutno zapaljenje dušnika (J04.1)
+J37.1	exclusion	Hronično zapaljenje dušnika (J42)
+J38	preferred	Bolesti glasnica i grkljana, neklasifikovano na drugom mjestu
+J38	exclusion	Opstruktivno zapaljenje (akutno) grkljana [krup] (J05.0)
+J38	exclusion	Zapaljenje grkljana sa ulceracijom (J04.0)
+J38	exclusion	Stenoza grkljlana nakon operacije (J95.5)
+J38	exclusion	Urođeni grkljanski stridor NOS (P28.8)
+J38	exclusion	Stridor NOS (R06.1)
+J38.0	preferred	Paraliza glasnica i grkljana
+J38.0	inclusion	Slabost grkljana
+J38.0	inclusion	Paraliza glotisa
+J38.1	preferred	Polip glasnice i grkljana
+J38.1	exclusion	Adenomatozni polipi (D14.1)
+J38.2	preferred	Čvorići glasnih žica
+J38.2	inclusion	Upala glasnih žica (fibrinozna) (čvorićasta) (čvorasta)
+J38.2	inclusion	Čvorići glasnica kod pevača
+J38.2	inclusion	Čvorići glasnica kod predavača
+J38.3	preferred	Druge bolesti glasnica
+J38.3	inclusion	Apsces glasne žice
+J38.3	inclusion	Celulitis glasne žice
+J38.3	inclusion	Granulom glasne žice
+J38.3	inclusion	Leukokeratoza glasne žice
+J38.3	inclusion	Leukoplakija glasne žice
+J38.4	preferred	Otok grkljana
+J38.4	inclusion	Otok grkljanskog poklopca
+J38.4	inclusion	Otok grkljana ispod grkljanskog poklopca
+J38.4	inclusion	Otok grkljana ispod grkljanskog poklopca
+J38.4	exclusion	Opstruktivno akutno zapaljenje grkljana [krup] (J05.0)
+J38.4	exclusion	Zapaljenje grkljana sa otokom (J04.0)
+J38.5	preferred	Grč grkljana
+J38.5	inclusion	Laringizmus (stridulus)
+J38.6	preferred	Suženje grkljana
+J38.7	preferred	Druge bolesti grkljana
+J38.7	inclusion	Apsces grkljana
+J38.7	inclusion	Celulitis grkljana
+J38.7	inclusion	Oboljenje grkljana NOS
+J38.7	inclusion	Nekroza grkljana
+J38.7	inclusion	Zadebljanje grkljana
+J38.7	inclusion	Zapaljenje grkljanskih hrskavica
+J38.7	inclusion	Grizlica grkljana
+J39	preferred	Ostale bolesti gornjih disajnih puteva
+J39	exclusion	Akutna infekcija sistema organa za disanje NOS (J22)
+J39	exclusion	Akutna infekcija gornjih djelova sistema organa za disanje NOS (J06.9)
+J39	exclusion	Zapaljenje gornjih dijelova sistema organa za disanje usljed hemikalija, gasova, dimova i para (J68.2)
+J39.0	preferred	Apsces iza i pored ždrijela
+J39.0	inclusion	Apsces oko ždrijela
+J39.0	exclusion	Peritonzilarni apsces (J36)
+J39.1	preferred	Drugi apsces ždrijela
+J39.1	inclusion	Celulitis ždrijela
+J39.1	inclusion	Apsces nosnog dijela ždrijela
+J39.2	preferred	Druge bolesti ždrijela
+J39.2	inclusion	Cista ždrijela ili nosnog dijela ždrijela
+J39.2	inclusion	Otok ždrijela ili nosnog dijela ždrijela
+J39.2	exclusion	Hronična upala ždrijela (J31.2)
+J39.2	exclusion	Ulcerozno (sa grizlicom) zapaljenje ždrijela (J02.9)
+J39.3	preferred	Hipersenzitivna reakcija gornjih disajnih  puteva, neoznačene lokalizacije
+J39.8	preferred	Druge označene bolesti gornjih disajnih puteva
+J39.9	preferred	Bolest gornjih disajnih puteva, neoznačena
+J40-J47	preferred	Hronične bolesti donjeg dijela sistema organa za disanje
+J40-J47	exclusion	Cistična fibroza (E84.-)
+J40	preferred	Bronhitis, neoznačen kao akutni ili hronični
+J40	note	Bronhitis koji nije označen kao akutni ili hronični, u osoba mlađih od 15 godina, može se smatrati akutnim i klasifikovati kao J20.-.
+J40	inclusion	Bronhitis NOS
+J40	inclusion	Kataralno zapaljenje dušnica (bronhitis)
+J40	inclusion	Bronhitis sa zapaljenjem dušnika NOS
+J40	inclusion	Zapaljenje dušnika i dušnica NOS
+J40	exclusion	Alergijski bronhitis NOS (J45.0)
+J40	exclusion	Asmatični bronhitis NOS (J45.9)
+J40	exclusion	Hemijskim djelovanjem izazvan (akutni) bronhitis (J68.0)
+J41	preferred	Obični i sluzno-gnojni hronični bronhitis
+J41	exclusion	Hronični bronhitis NOS (J42)
+J41	exclusion	Hronični opstruktivni bronhitis (J44.-)
+J41.0	preferred	Obični hronični bronhitis
+J41.1	preferred	Sluzno-gnojni hronični bronhitis
+J41.8	preferred	Mješoviti obični i sluzno-gnojnoi hronični bronhitis
+J42	preferred	Neoznačeni hronični bronhitis
+J42	inclusion	Hronični bronhitis NOS
+J42	inclusion	Hronično zapaljenje dušnika
+J42	inclusion	Hronično zapaljenje dušnika i dušnica
+J42	exclusion	Hronični asmatični bronhitis (J44.-)
+J42	exclusion	Hronični obični i sluzno-gnojni bronhitis (J41)
+J42	exclusion	Hronični bronhitis sa opstrukcijom disajnih puteva (J44.-)
+J42	exclusion	Hronični emfizematozni bronhitis (J44.-)
+J42	exclusion	Hronična opstruktivna bolest pluća NOS (J44.9)
+J43	preferred	Emfizem pluća
+J43	exclusion	Kompenzatorni emfizem (J98.3)
+J43	exclusion	Emfizem usljed udisanja hemikalija, gasova, dimova i para (J68.4)
+J43	exclusion	Intersticijalni emfizem (J98.2)
+J43	exclusion	Novorođenački intersticijalni emfizem (P25.0)
+J43	exclusion	Emfizem sredogruđa (J98.2)
+J43	exclusion	Hirurški (potkožni) emfizem (T81.8)
+J43	exclusion	Traumatski (potkožni) emfizem (T79.7)
+J43	exclusion	Emfizem sa hroničnim (opstruktivnim) bronhitisom (J44.-)
+J43	exclusion	Emfizematozni (obstruktivni) emfizem (J44.-)
+J43.0	preferred	"MacLeodov sindrom"
+J43.0	inclusion	Jednostrani emfizem
+J43.0	inclusion	Jednostrana "prozračnost" pluća
+J43.1	preferred	Panlobularni emfizem
+J43.1	inclusion	Panacinarni emfizem
+J43.2	preferred	Centrolobularni emfizem
+J43.8	preferred	Drugi emfizem
+J43.9	preferred	Emfizem, neoznačen
+J43.9	inclusion	Emfizem (pluća) (plućni) NOS
+J43.9	inclusion	Emfizem (pluća) (plućni) sa bulama
+J43.9	inclusion	Emfizem (pluća) (plućni) sa vezikulama
+J43.9	inclusion	Emfizematozna bula
+J44	preferred	Druga hronična opstruktivna bolest pluća
+J44	inclusion	Hronični asmatični (opstruktivni) bronhitis
+J44	inclusion	Hronični emfizematozni bronhitis
+J44	inclusion	Hronični bronchitis sa opstrukcijom disajnih puteva
+J44	inclusion	Hronični bronhitis sa emfizemom
+J44	inclusion	Hronična opstruktivna astma
+J44	inclusion	Hronični opstruktivni bronhitis
+J44	inclusion	Hronično opstruktivno zapaljenje dušnika i dušnica
+J44	exclusion	Astma (J45.-)
+J44	exclusion	Astmatični bronhitis NOS (J45.9)
+J44	exclusion	Bronhiektazije (J47)
+J44	exclusion	Hronični bronhitis NOS (J42)
+J44	exclusion	Hronični obični i sluzno-gnojni bronhitis (J41)
+J44	exclusion	Hronično zapaljenje dušnika (J42)
+J44	exclusion	Hronično zapaljenje dušnika i dušnica (J42)
+J44	exclusion	Emfizem (J43.-)
+J44	exclusion	Bolesti pluća uzrokovane spoljašnjim činiocima (J60-J70)
+J44.0	preferred	Hronična opstruktivna bolest pluća sa akutnom infekcijom donjih disajnih puteva
+J44.0	exclusion	Hronična opstruktivna bolest pluća sa gripoznom infekcijom (J09 - J11)
+J44.1	preferred	Hronična opstruktivna bolest pluća sa akutnom pogoršanjem, neoznačena
+J44.8	preferred	Druga označena hronična opstruktivna bolest pluća
+J44.8	inclusion	Hronični asmatični (opstruktivni) bronhitis NOS
+J44.8	inclusion	Hronični emfizematozni bronhitis NOS
+J44.8	inclusion	Hronični opstruktivni bronhitis NOS
+J44.8	exclusion	Akutno pogoršanje hronične opstruktivne bolesti pluća (J44.1)
+J44.8	exclusion	Hronična opstruktivna bolest pluća sa akutnom infekcijom donjih disajnih puteva (J44.0)
+J44.9	preferred	Hronična opstruktivna bolest pluća, neoznačena
+J44.9	inclusion	Hronična opstruktivna bolest disajnih puteva NOS
+J44.9	inclusion	Hronična opstruktivna bolest pluća NOS
+J45	preferred	Astma
+J45	exclusion	Teška akutna astma (J46)
+J45	exclusion	Hronični asmatični (opstruktivni) bronhitis (J44.-)
+J45	exclusion	Hronična opstruktivna astma (J44.-)
+J45	exclusion	Astma sa eozinofilijom pluća (J82)
+J45	exclusion	Bolesti pluća uzrokovane spoljašnjim činiocima (J60-J70)
+J45	exclusion	Astmatični status
+J45.0	preferred	Pretežno alergijska astma
+J45.0	inclusion	Alergijski bronhitis NOS
+J45.0	inclusion	Alergijska kijavica sa astmom
+J45.0	inclusion	Atopijska astma
+J45.0	inclusion	Alergijska astma uzrokovana spoljašnjim činiocima
+J45.0	inclusion	"Polenska groznica" sa astmom
+J45.1	preferred	Nealergijska astma
+J45.1	inclusion	Idiosinkrazijska (unutrašnja) astma
+J45.1	inclusion	Nealergijska astma uzrokovana unutrašnjim činiocima
+J45.8	preferred	Mješovita astma
+J45.8	inclusion	Kombinacija stanja nabrojanih pod J45.0 i J45.1
+J45.9	preferred	Astma, neoznačena
+J45.9	inclusion	Astmatični bronhitis NOS
+J45.9	inclusion	Astma sa kasnim početkom
+J46	preferred	Astmatični status
+J46	inclusion	Teška akutna astma
+J47	preferred	Bronhiektazije
+J47	inclusion	Bronhioloektazije
+J47	exclusion	Urođene bronhiektazije (Q33.4)
+J47	exclusion	Bronhiektazije u sklopu tuberkuloze (A15 - A16)
+J60-J70	preferred	Bolesti pluća uzrokovane spoljašnjim činiocima (J60-J70)
+J60-J70	exclusion	Astma, označena pod J45.-
+J60	preferred	Pneumokonioza kod rudara - profesionalna bolest pluća uzrokovana udisanjem čestica prašine
+J60	inclusion	Antrakosilikoza
+J60	inclusion	Antrakoza
+J60	inclusion	Rudarska pluća
+J60	exclusion	Pneumokonioza sa tuberkulozom (A15-A16, J65)
+J61	preferred	Pneumokonioza uzrokovana udisanjem azbestnih i drugih mineralnih vlakana
+J61	inclusion	Azbestoza
+J61	exclusion	Naslage (plak) na plućnoj maramici sa azbestozom (J92.0)
+J61	exclusion	Azbestoza sa tuberkulozom (A15-A16, J65)
+J62	preferred	Silikoza pluća - profesionalna bolest uzrokovana udisanjem silikatnih čestica
+J62	inclusion	Silikotična fibroza (masivna) pluća
+J62	exclusion	Pneumokonioza sa tuberkulozom (A15-A16, J65)
+J62.0	preferred	Pneumokonioza uzrokovana prahom talka
+J62.8	preferred	Druga pneumokonioza uzrokovana prašinom silicijuma
+J62.8	inclusion	Silikoza NOS
+J63	preferred	Pneumokonioza uzrokovana drugom neorganskom prašinom
+J63	exclusion	Pneumokonioza sa tuberkulozom (A15-A16, J65)
+J63.0	preferred	Pneumokonioza uzrokovana prašinom aluminijuma
+J63.1	preferred	Fibroza uzrokovana prašinom boksita
+J63.2	preferred	Pneumokonioza uzrokovana prašinom berilijuma
+J63.3	preferred	Pneumokonioza uzrokovana prašinom grafita
+J63.4	preferred	Pneumokonioza uzrokovana prašinom gvoždja
+J63.5	preferred	Pneumokonioza uzrokovana prašinom kalaja
+J63.8	preferred	Pneumokonioza uzrokovana drugom označenom neorganskom prašinom
+J64	preferred	Neoznačena pneumokonioza
+J64	exclusion	Pneumokonioza sa tuberkulozom (A15-A16, J65)
+J65	preferred	Pneumokonioza sa tuberkulozom
+J65	inclusion	Bilo koje od stanja šifrirano u J60-J64 sa bilo kojim oblikom tuberkuloze šifriranim u A15-A16
+J66	preferred	Bolest disajnih puteva uzrokovana označenom organskom prašinom
+J66	exclusion	Bagasoza - bolest uzrokovana udisnjem pljesnjive prašine (J67.1)
+J66	exclusion	Farmerska pluća (J67.0)
+J66	exclusion	Hipersenzitivni pneumonitis uzrokovan organskom prašinom (J67.-)
+J66	exclusion	Reaktivni sindrom disfunkcije disajnih puteva (J68.3)
+J66.0	preferred	Bisinoza - bolest uzrokovana prašinom pamuka
+J66.0	inclusion	Bolest disajnih puteva uzrokovana prašinom pamuka
+J66.1	preferred	Bolest preradjivača lana
+J66.2	preferred	Kanabinoza - bolest uzrokovana udisanjem prašine konoplje
+J66.8	preferred	Bolest disajanih puteva uzrokovana drugom označenom organskom prašinom
+J67	preferred	Hipersenzitivni pneumonitis uzrokovan organskom prašinom
+J67	inclusion	Alergijski alveolitis i pneumonitis uzrokovan udisanjem organske prašine i čestica gljivičnog, aktinomikoznog i drugog porijekla
+J67	exclusion	Pneumonitis usljed udisanja hemikalija, gasova, dimova i para (J68.0)
+J67.0	preferred	Farmerska pluća
+J67.0	inclusion	Pluća žetelaca
+J67.0	inclusion	Pluća kosača
+J67.0	inclusion	Bolest buđavog (plesnivog) sena
+J67.1	preferred	Bagasoza - bolest uzrokovana udisnjem pljesnjive prašine
+J67.1	inclusion	Bagasozna bolest
+J67.1	inclusion	Bagasozni pneumonitis
+J67.2	preferred	Pluća ljubitelja ptica
+J67.2	inclusion	Pluća (bolest) uzgaivača papagaja
+J67.2	inclusion	Pluća (bolest) uzgaivača golubova
+J67.3	preferred	Suberoza - bolest uzrokovana plutom
+J67.3	inclusion	Bolest pluća prerađivača plute
+J67.3	inclusion	Bolest pluća radnika sa plutom
+J67.4	preferred	Pluća proizvodjača slada
+J67.4	inclusion	Zapaljenje alveola izazvano sa Aspergillus clavatus
+J67.5	preferred	Pluća radnika sa gljivama
+J67.6	preferred	Pluća strugača kore javora
+J67.6	inclusion	Zapaljenje alveola izazvano sa Cryptostroma corticale
+J67.6	inclusion	Kriptostromoza 
+J67.7	preferred	Bolest pluća prouzrokovana uređajima za ovlaživanje i kondicioniranje vazduha
+J67.7	inclusion	Alergijski alveolitis uzrokovan gljivama, termofilnim aktinomicetama i drugim organizmima koji rastu u ventilacionim sistemima (sistemima za kondicioniranje vazduha)
+J67.8	preferred	Hipersenzitivni pneumonitis uzrokovan drugom organskom prašinom
+J67.8	inclusion	Pluća perača sira
+J67.8	inclusion	Pluća prerađivača kafe
+J67.8	inclusion	Pluća proizvođača ribljeg brašna
+J67.8	inclusion	Pluća krznara
+J67.8	inclusion	Sequoiosis
+J67.9	preferred	Hipersenzitivni pneumonitis uzrokovan neoznačenom organskom prašinom
+J67.9	inclusion	Zapaljenje alveola pluća (uzrokovano spoljašnjim činiocima) NOS
+J67.9	inclusion	Hipersenzitivni pneumonitis NOS
+J68	preferred	Respiratorna stanja uzrokovana udisanjem hemikalija, gasova, dima i para
+J68	coding-hint	Po potrebi koristiti dodatne šifre iz Grupe XX kako bi se identifikovao uzrok
+J68.0	preferred	Bronhitis i pneumonitis uzrokovan hemikalijama, gasovima, dimovima i parama
+J68.0	inclusion	Bronhitis (akutni) izazvan hemikalijama
+J68.1	preferred	Plućni otok uzrokovan hemikalijama, gasovima, dimovima i parama
+J68.1	inclusion	Edem pluća (akutni) uzrokovan hemikalijama
+J68.2	preferred	Zapaljenje gornjeg disajnih puteva uzrokovano hemikalijama, gasovima, dimovima i parama
+J68.3	preferred	Druga akutna i subakutna respiratorna stanja uzrokovana hemikalijama, gasovima, dimovima i parama
+J68.3	inclusion	Reaktivni sindrom disfunkcije disajnih puteva
+J68.4	preferred	Hronična respiratorna stanja uzrokovana hemikalijama, gasovima, dimovima i parama
+J68.4	inclusion	Emfizem (difuzni) (hronični) uzrokovan udisanjem hemikalija, gasova, dimova i para
+J68.4	inclusion	Obliterativni bronhiolitis (hronični) (subakutni) uzrokovan udisanjem hemikalija, gasova, dimova i para
+J68.4	inclusion	Fibroza pluća (hronična) uzrokovana udisanjem hemikalija, gasova, dimova i para
+J68.8	preferred	Druga respiratorna stanja uzrokovana hemikalijama, gasovima, dimovima i parama
+J68.9	preferred	Neoznačena respiratorna stanja uzrokovana hemikalijama, gasovima, dimovima i parama
+J69	preferred	Pneumonitis uzrokovan čvrstim tijelima i tećnostima
+J69	coding-hint	Po potrebi koristiti dodatne šifre iz Grupe XX kako bi se identifikovao uzrok
+J69	exclusion	Aspiracioni sindromi novorođenčadi (P24.-)
+J69.0	preferred	Pneumonitis uzrokovan hranom i povraćanim sadržajem
+J69.0	inclusion	Aspiraciono zapaljenje pluća NOS
+J69.0	inclusion	Aspiraciono zapaljenje pluća uzrokovano udisanjem hrane (regurgitovane)
+J69.0	inclusion	Aspiraciono zapaljenje pluća uzrokovano udisanjem želudačnog soka 
+J69.0	inclusion	Aspiraciono zapaljenje pluća uzrokovano udisanjem mlijeka 
+J69.0	inclusion	Aspiraciono zapaljenje pluća uzrokovano udisanjem povraćenog sadržaja 
+J69.0	exclusion	"Mendelson sindrom" (J95.4)
+J69.1	preferred	Pneumonitis uzrokovan uljima i tečnostima
+J69.1	inclusion	Zapaljenje pluća uzrokovano mastima
+J69.8	preferred	Pneumonitis uzrokovan drugim čvrstim tijelima i tećnostima
+J69.8	inclusion	Pneumonitis uzrokovan udisanjem krvi
+J70	preferred	Respiratorna stanja uzrokovana drugim spoljašnjim činiocima
+J70	coding-hint	Po potrebi koristiti dodatne šifre iz Grupe XX kako bi se identifikovao uzrok
+J70.0	preferred	Akutne plućne smetnje uzrokovane zračenjem
+J70.0	inclusion	Radiacioni pneumonitis
+J70.1	preferred	Hronične i druge plućne smetnje uzrokovane zračenjem
+J70.1	inclusion	Fibroza pluća kao posledica zračenja
+J70.2	preferred	Akutni poremećaji plućnog intersticijuma uzrokovani lekovima
+J70.3	preferred	Hronični poremećaji plućnog intersticijuma uzrokovani lekovima
+J70.4	preferred	Poremećaji plućnog intersticijuma uzrokovani lekovima, neoznačeni
+J70.8	preferred	Respiratorna stanja uzrokovana drugim označenim spoljasnjim činiocima
+J70.9	preferred	Respiratorna stanja uzrokovana neoznačenim spoljašnjim činiocima
+J80-J84	preferred	Druge respiratorne bolesti koje, prije svega, zahvataju intersticijum pluća
+J80	preferred	Respiratorni distres sindrom kod odraslih
+J80	inclusion	Bolest hijalinih membrana kod odraslih
+J81	preferred	Otok pluća
+J81	inclusion	Akutni plućni edem
+J81	inclusion	Plućna kongestija (pasivna)
+J81	exclusion	Hipostatsko zapaljenje pluća (J18.2)
+J81	exclusion	Edem pluća (akutni) uzrokovan hemikalijama (J68.1)
+J81	exclusion	Edem pluća uzrokovan spoljašnjim uzročnicima (J60 - J70)
+J81	exclusion	Edem pluća usljed srčane bolesti NOS ili srčane insuficijencije (I50.1)
+J82	preferred	Plućna eozinofilija, neklasifikovana na drugom mjestu
+J82	inclusion	Eozinofilna astma
+J82	inclusion	"Löffler-ovo" zapaljenje pluća
+J82	inclusion	Tropska (plućna) eozinofilija NOS
+J82	exclusion	Plućna eozinofilija usljed aspergiloze B44.-
+J82	exclusion	Plućna eozinofilija uzrokovana ljekovima (J70.2 - J70.4)
+J82	exclusion	Plućna eozinofilija usljed specifične parazitarne infestacije (B50 - B83)
+J82	exclusion	Plućna eozinofilija uzrokovana sistematskim bolestima vezivnog tkiva (B30 - B36)
+J84	preferred	Druga zapaljenja potpornog tkiva pluća
+J84	exclusion	Poremećaji plućnog intersticijuma uzrokovani lekovima, (J70.2 - J70.4)
+J84	exclusion	Intersticijalni emfizem (J98.2)
+J84	exclusion	Bolesti pluća uzrokovane spoljašnjim činiocima (J60-J70)
+J84	exclusion	Intersticijalni limfoidni pneumonitis kao posljedica infekcije sa virusom humane imunodeficijencije [HIV] (B22.1)
+J84.0	preferred	Alveolarni i parietalveolarni poremećaji
+J84.0	inclusion	Aleveolarna proteinoza
+J84.0	inclusion	Plućna - alveolarna mikrolitijaza
+J84.1	preferred	Druge intersticijske bolesti pluća s fibrozom
+J84.1	inclusion	Difuzna plućna fibroza
+J84.1	inclusion	Fibrozirajući alveolitis (kriptogeni)
+J84.1	inclusion	Sindrom "Hamman-Rich"
+J84.1	inclusion	Idiopatska plućna fibroza
+J84.1	inclusion	Obična intersticijska pneumonia
+J84.1	exclusion	Fibroza pluća (hronična) uzrokovana udisanjem hemikalija, gasova, dimova i para (J68.4)
+J84.1	exclusion	Fibroza pluća kao posledica zračenja (J70.1)
+J84.8	preferred	Druge označene intersticijske bolesti pluća
+J84.9	preferred	Neoznačene intersticijske bolesti pluća
+J84.9	inclusion	Intersticijalno zapaljenje pluća NOS
+J85-J86	preferred	Patološka stanja donjeg dela sistema za disanje praćena gnojenjem i nekrozom tkiva
+J85	preferred	Apsces pluća i medijastinuma
+J85.0	preferred	Gangrena i nekroza pluća
+J85.1	preferred	Apsces pluća sa zapaljenjem pluća
+J85.1	exclusion	Apsces pluća sa zapaljenjem pluća uzrokovan označenim mikroorganizmima (J09-J16)
+J85.2	preferred	Apsces pluća bez zapaljenja pluća
+J85.2	inclusion	Apsces pluća NOS
+J85.3	preferred	Apsces sredogruđa
+J86	preferred	Gnojni proces u grudnom košu
+J86	inclusion	Apsces plućne maramice
+J86	inclusion	Apsces grudnog koša
+J86	inclusion	Empijem
+J86	inclusion	Nakupljanje gnoja i vazduha u plućnoj maramici (Pyopneumothorax)
+J86	coding-hint	Po potrebi je moguće koristiti šifre B95-B98, u cilju identifikacije infektivnog agensa
+J86	exclusion	Gnojni proces u grudnom košu usljed tuberkuloze (A15-A16)
+J86.0	preferred	Gnojenje u grudnom košu sa fistulom
+J86.9	preferred	Gnojenje u grudnom košu bez fistule
+J90-J94	preferred	Druge bolesti plućne maramice
+J90	preferred	Izliv u slobodnom prostoru plućne maramice neklasifikovan na drugom mjestu
+J90	inclusion	Zapaljenje plućne maramice sa izlivom
+J90	exclusion	Hilozna tecnost u slobodnom prostoru plućne maramice (J94.0)
+J90	exclusion	Zapaljenje plućne maramice NOS (R09.1)
+J90	exclusion	Tuberkulozno zapaljenje plućne maramice (A15 - A16)
+J91	preferred	Izliv u u slobodnom prostoru plućne maramice u stanjima klasifikovanim na drugom mestu
+J92	preferred	Naslage ("plak") na plućnoj maramici
+J92	inclusion	Zadebljanje pleure
+J92.0	preferred	Azbestne naslage na plućnoj maramici
+J92.9	preferred	Neazbestne naslage na plućnoj maramici
+J92.9	inclusion	Naslage ("plak") na plućnoj maramici NOS
+J93	preferred	Pneumotoraks – vazduh u slobodnom prostoru plućne maramice
+J93	exclusion	Urođeni ili pneumotoraks kod novorođenčadi (P25.1)
+J93	exclusion	Pneumotoraks nakon traume (S27.0)
+J93	exclusion	Tuberkulozni pneumotoraks (u sklopu aktivne bolesti) (A15 - A16)
+J93	exclusion	Nakupljanje gnoja i vazduha u slobodnom prostoru plućne maramice (piopneumotoraks) (J86)
+J93.0	preferred	Spontani tenzioni pneumotoraks
+J93.1	preferred	Drugi spontani pneumotoraks
+J93.8	preferred	Drugi pneumotoraks
+J93.9	preferred	Pneumotoraks, neoznačen
+J94	preferred	Ostala stanja plućne maramice
+J94	exclusion	Zapaljenje plućne maramice NOS (R09.1)
+J94	exclusion	Traumatsko nakupljanje krvi i vazduha u slobodnom prostoru plućne maramice (S27.2)
+J94	exclusion	Traumatsko nakupljanje krvi u slobodnom prostoru plućne maramice (S27.1)
+J94	exclusion	Tuberkulozna stanja pleure (u toku bolesti) (A15-A16)
+J94.0	preferred	Hilozna tecnost u slobodnom prostoru plućne maramice
+J94.0	inclusion	Hilozni izliv
+J94.1	preferred	Fibroza prostora plućne maramice
+J94.2	preferred	Krv u slobodnom prostoru plućne maramice
+J94.2	inclusion	Nakupljanje krvi i vazduha u u slobodnom prostoru plućne maramice
+J94.8	preferred	Druga označena stanja plućne maramice
+J94.8	inclusion	Nakupljanje tečnosti u u slobodnom prostoru plućne maramice
+J94.9	preferred	Bolesti plućne maramice, neoznačena
+J95-J99	preferred	Druge bolesti sistema organa za disanje
+J95	preferred	Poremećaji organa za disanje poslije intervencija, neklasifikovani na drugom mjestu
+J95	exclusion	Emfizem (potkožni) kao posledica medicnske procedure (T81.8)
+J95	exclusion	Plućne smetnje uzrokovane zračenjem (J70.0 - J70.1)
+J95.0	preferred	Poremećaj funkcije vještačkog otvora dušnika
+J95.0	inclusion	Krvarenje iz otvora traheostome
+J95.0	inclusion	Obstrukcija traheostome
+J95.0	inclusion	Sepsa nastala zbog infekcije traheostome
+J95.0	inclusion	Dušničko-jednjačka fistula nakon traheostome
+J95.1	preferred	Akutna insuficijencija pluća poslije operacije grudnog koša
+J95.2	preferred	Akutna insuficijencija pluća poslije operacije van grudnog koša
+J95.3	preferred	Hronična insuficijencija pluća poslije operacije
+J95.4	preferred	"Mendelsonov sindrom"
+J95.4	exclusion	Komplikacije porođaja (O74.0)
+J95.4	exclusion	Komplikacije trudnoće (O29.0)
+J95.4	exclusion	Komplikacije babinja (O89.0)
+J95.5	preferred	Supglotično suženje poslije intervencije
+J95.8	preferred	Drugi poremećaji organa za disanje poslije intervencija
+J95.9	preferred	Poremećaj organa za disanje poslije intervencija, neoznačen
+J96	preferred	Respiratorna insuficijencija, neklasifikovana na drugom mjestu
+J96	exclusion	Srčano respiratorna insuficijencija (R09.2)
+J96	exclusion	Respiratorna insuficiencija posle medicinske intervencije (J95.-)
+J96	exclusion	Respiratorni zastoj (R09.2)
+J96	exclusion	Respiratorni sindrom distresa kod odraslih (J80.-)
+J96	exclusion	Respiratorni sindrom distresa kod novorođenčeta  (P22.-)
+J96.0	preferred	Akutna respiratorna insuficijencija
+J96.1	preferred	Hronična respiratorna insuficijencija
+J96.9	preferred	Respiratorna insuficijencija, neoznačena
+J98	preferred	Ostali poremećaji organa za disanje
+J98	exclusion	Apneja NOS (R06.8)
+J98	exclusion	Apneja novorođenčeta (P28.4)
+J98	exclusion	Apneja u snu (G47.3)
+J98	exclusion	Apneja novorođenčeta u snu (P28.3)
+J98.0	preferred	Bolesti dušnica, neklasifikovane na drugom mjestu
+J98.0	inclusion	Bronholitijaza
+J98.0	inclusion	Kalcifikacija u dušnicama
+J98.0	inclusion	Stenoza dušnica
+J98.0	inclusion	Grizlica dušnica
+J98.0	inclusion	Kolabirane dušnice
+J98.0	inclusion	Diskinetične dušnice
+J98.1	preferred	Kolaps pluća - nepotpuno širenje mehurića pluća
+J98.1	inclusion	Atelektaza
+J98.1	inclusion	Kolabirana pluća
+J98.1	exclusion	Atelektaza kod novorođenčeta (P28.0 - P28.1)
+J98.1	exclusion	Atelektaza u sklopu tuberkuloze (trenutna bolest) (A15 - A16)
+J98.2	preferred	Intersticijalni emfizem
+J98.2	inclusion	Emfizem sredogruđa
+J98.2	exclusion	Emfizem NOS (J43.9)
+J98.2	exclusion	Emfizem fetusa i novorođenčeta (P25.0)
+J98.2	exclusion	Emfizem hirurški (podkožni) (T81.8)
+J98.2	exclusion	Emfizem traumatski podkožni (T79.7)
+J98.3	preferred	Kompezatorni emfizem
+J98.4	preferred	Drugi poremećaji pluća
+J98.4	inclusion	Kalcifikacija pluća
+J98.4	inclusion	Cistična bolest pluća (stečena)
+J98.4	inclusion	Bolest pluća NOS
+J98.4	inclusion	Pulmolitijaza
+J98.5	preferred	Bolesti sredogruđa neklasifikovani na drugom mjestu
+J98.5	inclusion	Fibroza sredogruđa
+J98.5	inclusion	Kila sredoguđa
+J98.5	inclusion	Povlačenje sredogruđa
+J98.5	inclusion	Zapaljenje sredogruđa (mediastinitis)
+J98.5	exclusion	Apsces sredogruđa (J85.3)
+J98.6	preferred	Poremećaji dijafragme
+J98.6	inclusion	Zapaljenje dijafragme
+J98.6	inclusion	Paraliza dijafragme
+J98.6	inclusion	Opuštenost dijafragme
+J98.6	exclusion	Urođena malformacija dijagragme NEC (Q79.1)
+J98.6	exclusion	Dijafragmalna kila (K44.-)
+J98.6	exclusion	Urođena dijafragmalna kila (Q79.0)
+J98.8	preferred	Drugi označeni poremećaji organa za disanje
+J98.9	preferred	Poremećaj organa za disanje, neoznačen
+J98.9	inclusion	Bolest organa za disanje (hronična) NOS 
+J99	preferred	Respiratorni poremećaji u bolestima klasifikovanim na drugom mestu
+J99.0	preferred	Reumatoidna bolest pluća (M05.1)
+J99.1	preferred	Respiratorni pormećaji u drugim difuznim bolestima vezivnog tkiva
+J99.1	inclusion	Respiratorni pormećaji u sklopu dermatomiozitisa (M33.0-M33.1)
+J99.1	inclusion	Respiratorni pormećaji u sklopu polimiozitisa (M33.2)
+J99.1	inclusion	Respiratorni pormećaji u sklopu "suvog" sicca [Sjögren] sindroma (M35.0)
+J99.1	inclusion	Respiratorni pormećaji u sklopu sistemskog eritematoznog lupusa (M32.1)
+J99.1	inclusion	Respiratorni pormećaji u sklopu sistemske skleroze (M34.8)
+J99.1	inclusion	Respiratorni pormećaji u sklopu "Wegener-ove" granulomatoze (M31.3)
+J99.8	preferred	Respiratorni poremećaji u drugim bolestima klasifikovanim na drugom mestu
+J99.8	inclusion	Respiratoprni poremećaji u sklopu amebijaze (A06.5)
+J99.8	inclusion	Respiratoprni poremećaji u sklopu ankilozirajućeg spondilitisa (M45)
+J99.8	inclusion	Respiratoprni poremećaji u sklopu krioglobulinemije (D89.1)
+J99.8	inclusion	Respiratoprni poremećaji u sklopu sporotrihoze (B42.0)
+J99.8	inclusion	Respiratorni poremećaji u sklopu sifilisa (A52.7)

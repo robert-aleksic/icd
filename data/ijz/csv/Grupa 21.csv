@@ -1,0 +1,1267 @@
+XXI	preferred	Faktori koji utiču na zdravstveno stanje i kontakt sa zdravstvenom službom	
+XXI	note	Ova grupa se ne koristi za međunarodno poređenje niti za primarnošifriranje smrtnosti.	
+XXI	coding-hint	Kategorije Z00–Z99 se koriste u prilikama kada se kao „dijagnoze“ ili „problemi“ bilježe druga stanja, koja nijesu bolesti, povrede niti spoljašnji uzroci koji se mogu klasifikovati u kategorije A00–Y89. Ova potreba može nastati u dvije ključne situacije: a) Kada osoba koja može ili ne mora biti bolesna, kontaktira sa zdravstvenom službom iz određenih specifičnih razloga, kao što su pružanje ograničene njege ili usluge zbog aktuelnog stanja, davanje organa ili tkiva, primanje profilaktičke vakcine ili savjetovanje o problemu koji po sebi nije ni bolest ni povreda. b) Kad postoje određeni problemi ili okolnosti koji utiču na zdravstveno stanja osobe, ali nijesu aktuelna bolest niti povreda. Takvi faktori mogu biti uočeni tokom pregleda stanovništva, kada osoba može ali ne mora biti u tom momentu bolesna, ili mogu biti zabilježeni kao dodatni faktori na koje treba obratiti pažnju kada se osobi pruža zdravstvena zaštita zbog neke bolesti ili povrede.
+Z00-Z13	preferred	Osobe u kontaktu sa zdravstvenom službom radi pregleda i ispitivanja	
+Z00-Z13	note	Nespecifični i abnormalni nalazi otkriveni ovim pregledima klasifikuju se u kategorijama R70-R94	
+Z00-Z13	exclusion	pregledi povezani sa trudnoćom i reprodukcijom Z30-Z36, Z39.-	
+Z00	preferred	Opšti pregled i ispitivanje osoba bez tegoba ili postavljene dijagnoze	Opsti pregled i ispitivanje osoba bez tegoba ili postavljene dijagnoze
+Z00	exclusion	Pregled u administrativne svrhe Z02.-	
+Z00	exclusion	Poseban skrining pregled Z11-Z13	
+Z00.0	preferred	Opšti medicinski pregled	Opsti medicinski pregled
+Z00.0	inclusion	Provjera zdravstvenog stanja NOS	
+Z00.0	inclusion	Periodični pregled (godišnji)(fizikalni)	
+Z00.0	exclusion	Opšta provjera zdravstvenog stanja: definisanih subpopulacija Z10.-	
+Z00.0	exclusion	Opšta provjera zdravstvenog stanja: odojčadi ili djece Z00.1	
+Z00.1	preferred	Rutinski zdravstveni pregled djece	Rutinski zdravstveni pregled djece
+Z00.1	inclusion	Provjera razvoja odojčeta ili djeteta	
+Z00.1	exclusion	supervizija zdravstvenog stanja napuštenog djeteta ili drugog zdravog odojčeta ili djeteta Z76.1-Z76.2	
+Z00.2	preferred	Pregled u periodu ubrzanog rasta u djetinjstvu	Pregled u periodu ubrzanog rasta u djetinjstvu
+Z00.3	preferred	Pregled u adolescenciji	Pregled u adolescenciji
+Z00.3	inclusion	Stanje razvoja u pubertetu	
+Z00.4	preferred	Opšti psihijatrijski pregled, neklasifikovan na drugom mjestu	Opsti psihijatrijski pregled
+Z00.4	exclusion	pregled koji se traži iz sudskomedicinskih razloga Z04.6	
+Z00.5	preferred	Pregled potencijalnog davaoca organa ili tkiva	Pregled potencijalnog davaoca organa ili tkiva
+Z00.6	preferred	Pregled za normalno poređenje i kontrolu u kliničkom istraživačkom programu	Pregled normalne osobe za poredjenje i kontrolu u klinickom istrazivackom programu
+Z00.8	preferred	Drugi opšti pregledi	Drugi opsti pregledi
+Z00.8	inclusion	Zdravstveni pregled prilikom populacionog istraživanja	
+Z01	preferred	Drugi posebni pregledi i ispitivanja osoba bez tegoba ili ranije postavljene dijagnoze	Drugi posebni pregledi i ispitivanja osoba bez tegoba ili ranije dijagnoze
+Z01	inclusion	rutinski pregled posebnog sistema	
+Z01	exclusion	pregled zbog: administrativnih razloga Z02.-	
+Z01	exclusion	pregled zbog: suspektnog stanja, nedokazanog Z03.-	
+Z01	exclusion	Poseban skrining pregled Z11-Z13	
+Z01.0	preferred	Pregledi očiju i vida	Pregledi ociju i vida
+Z01.0	exclusion	pregled za vozačku dozvolu Z02.4	
+Z01.1	preferred	Pregled ušiju i sluha	Pregled usiju i sluha
+Z01.2	preferred	Pregled zuba	Pregled zuba
+Z01.3	preferred	Pregled krvnog pritiska	Pregled krvnog pritiska
+Z01.4	preferred	Ginekološki pregled (opšti)(rutinski)	Ginekoloski pregled (opsti)(rutinski)
+Z01.4	inclusion	Papanikolau test	
+Z01.4	inclusion	Pregled karlice (godišnji)(periodični)	
+Z01.4	exclusion	pregled ili test na trudnoću Z32.-	
+Z01.4	exclusion	rutinski pregled radi održavanja kontracepcije Z30.4-Z30.5	
+Z01.5	preferred	Dijagnosticki kožni testovi i testovi osjetljivosti	Dijagnosticki kozni i alergijski testovi
+Z01.5	inclusion	Alergijski testovi	
+Z01.5	inclusion	Kožni testovi na: bakterijske bolesti	
+Z01.5	inclusion	Kožni testovi na: preosjetljivost	
+Z01.6	preferred	Radiološki pregled, neklasifikovan na drugom mjestu	Radioloski pregled
+Z01.6	inclusion	Rutinski: rendgenografija grudnog koša	
+Z01.6	inclusion	Rutinska: mamografija	
+Z01.7	preferred	Laboratorijski pregledi	Laboratorijski pregledi
+Z01.8	preferred	Drugi označeni posebni pregledi	Drugi označeni posebni pregledi
+Z01.9	preferred	Posebni pregled, neoznačen	Posebni pregled, neoznačen
+Z02	preferred	Pregled i kontakt iz administrativnih razloga	Pregled i kontakt iz administrativnih razloga
+Z02.0	preferred	Pregled za prijem u obrazovnu instituciju	Pregled za prijem u obrazovnu instituciju
+Z02.0	inclusion	Pregled za prijem u predškolsku ustanovu (obrazovanje)	
+Z02.1	preferred	Pregled prije zaposlenja	Pregled prije zaposlenjenja
+Z02.1	exclusion	zdravstveni pregled zaposlenih Z10.0	
+Z02.2	preferred	Pregled za prijem radi boravka u ustanovi	Pregled za prijem u zatvorenu instituciju
+Z02.2	exclusion	pregled za prijem u zatvor Z02.8	
+Z02.2	exclusion	opšta provjera zdravstvenog stanja osoba koje žive u institucijama Z10.1	
+Z02.3	preferred	Pregled prilikom regrutacije za vojsku	Pregled regruta za vojsku
+Z02.3	exclusion	opšta provjera zdravstvenog stanja vojnika Z10.2	
+Z02.4	preferred	Pregled za vozačku dozvolu	Pregled za vozacku dozvolu
+Z02.5	preferred	Pregled radi bavljenja sportom	Pregled radi ucesca u sportu
+Z02.5	exclusion	test na alkohol ili drogu u krvi Z04.0	
+Z02.5	exclusion	opšta provjera zdravstvenog stanja sportskih timova Z10.2	
+Z02.6	preferred	Pregled za svrhe osiguranja	Pregled za osiguranje
+Z02.7	preferred	Izdavanje medicinskog uvjerenja 	Izdavanje medicinske potvrde
+Z02.7	inclusion	Izdavanje medicinskog uvjerenja o: uzroku smrti	
+Z02.7	inclusion	Izdavanje medicinskog uvjerenja o: fizičkoj spremnosti	
+Z02.7	inclusion	Izdavanje medicinskog uvjerenja o: nesposobnosti	
+Z02.7	inclusion	Izdavanje medicinskog uvjerenja o: invaliditetu	
+Z02.7	exclusion	Kontakt radi opšteg medicinskog pregleda (Z00-Z01, Z02.0-Z02.6, Z02.8-,Z02.9, Z10.-)	
+Z02.8	preferred	Drugi pregledi iz administrativnih razloga	Drugi pregledi iz administrativnih razloga
+Z02.8	inclusion	Pregled (radi): prijema u: zatvor	
+Z02.8	inclusion	Pregled (radi): prijema u: ljetnji kamp	
+Z02.8	inclusion	Pregled (radi): usvajanja	
+Z02.8	inclusion	Pregled (radi): imigracije	
+Z02.8	inclusion	Pregled (radi): naturalizacije	
+Z02.8	inclusion	Pregled (radi): sklapanja braka	
+Z02.8	exclusion	zdravstveni nadzor nad napuštenim djetetom ili drugim zdravim odojčetom ili djetetom Z76.1-Z76.2	
+Z02.9	preferred	Pregled zbog administrativnih razloga, neoznačen	Pregled zbog administrativnih razloga, neoznačen
+Z03	preferred	Medicinsko posmatranje i procjena zbog sumnje na neke bolesti ili stanja	Medicinsko posmatranje i praćenje zbog sumnje na neke bolesti ili stanja
+Z03	inclusion	osobe koje navedu određene simptome ili dokaze abnormalnog stanja koje zahtijevaju ispitivanje, ali koje, nakon pregleda i posmatranja, ne zahtijevaju daljnji tretman ili medicinsku njegu	
+Z03	exclusion	osoba koja ima strah da je bolesna a kod koje nije postavljena dijagnoza Z71.1	
+Z03.0	preferred	Posmatranje zbog sumnje na tuberkulozu	Posmatranje zbog sumnje na tuberkulozu
+Z03.1	preferred	Posmatranje zbog sumnje na malignu neoplazmu	Posmatranje zbog sumnje na malignu neoplazmu
+Z03.2	preferred	Posmatranje zbog sumnje na mentalni poremećaj ili poremećaj ponašanja	Posmatranje zbog sumnje na mentalni poremećaj ili poremećaj ponašanja
+Z03.2	inclusion	Posmatranje zbog: asocijalnog ponašanja bez manifestnog psihijatrijskog poremećaja	
+Z03.2	inclusion	Posmatranje zbog: podmetanja požara bez manifestnog psihijatrijskog poremećaja	
+Z03.2	inclusion	Posmatranje zbog: siledžijstva (pripadnosti bandi) bez manifestnog psihijatrijskog poremećaja	
+Z03.2	inclusion	Posmatranje zbog: krađe u prodavnicama bez manifestnog psihijatrijskog poremećaja	
+Z03.3	preferred	Posmatranje zbog sumnje na oboljenje nervnog sistema	Posmatranje zbog sumnje na oboljenje nervnog sistema
+Z03.4	preferred	Posmatranje zbog sumnje na infarkt srca	Posmatranje zbog sumnje na infarkt srca
+Z03.5	preferred	Posmatranje zbog sumnje na druge kardiovaskularne bolesti	Posmatranje zbog sumnje na druge srcano-sudovne bolesti
+Z03.6	preferred	Posmatranje zbog sumnje na toksične efekte progutanih supstanci	Posmatranje zbog sumnje na toksicne efekte unijetih supstanci
+Z03.6	inclusion	Posmatranje zbog sumnje na: štetne efekte ljekova	
+Z03.6	inclusion	Posmatranje zbog sumnje na: trovanje	
+Z03.8	preferred	Posmatranje zbog sumnje na druge bolesti ili stanja	Posmatranje zbog sumnje na druge bolesti ili stanja
+Z03.9	preferred	Posmatranje zbog sumnje na bolest ili stanje, neoznačeno	Posmatranje zbog sumnje na bolest ili stanje, neoznačeno
+Z04	preferred	Pregledi i posmatranje zbog drugih razloga	Pregledi i posmatranje zbog drugih razloga
+Z04	inclusion	pregled zbog sudskomedicinskih razloga	
+Z04.0	preferred	Test na alkohol i drogu u krvi	Test na alkohol ili drogu u krvi
+Z04.0	exclusion	prisustvo: alkohola u krvi R78.0	
+Z04.0	exclusion	prisustvo: droga u krvi R78.-	
+Z04.1	preferred	Pregled i posmatranje nakon saobraćajnog udesa	Pregled i posmatranje poslije saobracajnog udesa
+Z04.1	exclusion	nakon nesreće na poslu	
+Z04.2	preferred	Pregled i posmatranje nakon nesreće na poslu	Pregled i posmatranje poslije udesa na radu
+Z04.3	preferred	Pregled i posmatranje nakon druge nesreće	Pregled i posmatranje poslije drugih udesa
+Z04.4	preferred	Pregled i posmatranje nakon navodnog silovanja ili zavođenja	Pregled i posmatranje poslije navodnog silovanja ili zavodjenja
+Z04.4	inclusion	Pregled žrtve ili krivca nakon navodnog silovanja ili zavođenja	
+Z04.5	preferred	Pregled i posmatranje nakon drugih nanijetih povreda	Pregled i posmatranje poslije drugih nanijetih povreda
+Z04.5	inclusion	Pregled žrtve ili krivca nakon drugih nanijetih povreda	
+Z04.6	preferred	Opšti psihijatrijski pregled, na zahtjev vlasti	Opsti psihijatrijski pregled na zahtjev vlasti
+Z04.8	preferred	Pregled i posmatranje zbog drugih označenih razloga	Pregled i posmatranje zbog drugih označenih razloga
+Z04.8	inclusion	Zahtjev za svjedočenje stručnjaka (vještačenje)	
+Z04.9	preferred	Pregled i posmatranje zbog neoznačenih razloga	Pregled i posmatranje zbog neoznačenih razloga
+Z04.9	inclusion	Posmatranje NOS	
+Z08	preferred	Kontrolni pregled poslije liječenja zloćudnog tumora	Kontrolni pregled poslije lijecenja zlocudnog tumora
+Z08	inclusion	medicinski nadzor nakon liječenja	
+Z08	exclusion	medicinska njega tokom liječenja i oporavka Z42-Z51, Z54.-	
+Z08.0	preferred	Kontrolni pregled poslije operacije zbog zloćudnog tumora	Kontrolni pregled poslije operacije zbog zlocudnog tumora
+Z08.1	preferred	Kontrolni pregled poslije radioterapije zbog zloćudnog tumora	Kontrolni pregled poslije radioterapije zbog zlocudnog tumora
+Z08.1	exclusion	primanje doze radioterapije (seansa) Z51.0	
+Z08.2	preferred	Kontrolni pregled poslije hemoterapije zbog zloćudnog tumora	Kontrolni pregled poslije hemioterapije zbog zlocudnog tumora
+Z08.2	exclusion	primanje doze hemoterapije (seansa) Z51.1	
+Z08.7	preferred	Kontrolni pregled poslije kombinovanog liječenja zloćudnog tumora	Kontrolni pregled poslije kombinovanog lijecenja zlocudnog tumora
+Z08.8	preferred	Kontrolni pregled poslije drugog liječenja zloćudnog tumora	Kontrolni pregled poslije drugog lijecenja zlocudnog tumora
+Z08.9	preferred	Kontrolni pregled poslije neoznačenog liječenja zloćudnog tumora	Kontrolni pregled poslije neoznačenog lijecenja zlocudnog tumora
+Z09	preferred	Kontrolni pregled poslije liječenja stanja koja nijesu zloćudni tumori	Kontrolni pregled poslije lijecenja stanja koja nijesu zloćudni tumori
+Z09	inclusion	medicinski nadzor nakon liječenja	
+Z09	exclusion	medicinska njega tokom liječenja i oporavka Z42-Z51, Z54.-	
+Z09	exclusion	medicinski nadzor nakon liječenja zbog zloćudnog tumora Z08.-	
+Z09	exclusion	nadzor nad: kontracepcijom Z30.4-Z30.5	
+Z09	exclusion	nadzor nad: protezama i drugim medicinskim pomagalima Z30.4-Z30.5	
+Z09.0	preferred	Kontrolni pregled poslije operacije zbog drugih stanja	Kontrolni pregled poslije operacije zbog drugih stanja
+Z09.1	preferred	Kontrolni pregled poslije radioterapije zbog drugih stanja	Kontrolni pregled poslije radioterapije zbog drugih stanja
+Z09.1	exclusion	seansa (primanje doze) radioterapije Z51.0	
+Z09.2	preferred	Kontrolni pregled poslije hemoterapije zbog drugih stanja	Kontrolni pregled poslije hemioterapije zbog drugih stanja
+Z09.2	exclusion	seansa (primanje doze) hemoterapije Z51.1	
+Z09.3	preferred	Kontrolni pregled poslije psihoterapije	Kontrolni pregled poslije psihoterapije
+Z09.4	preferred	Kontrolni pregled poslije liječenja preloma	Kontrolni pregled poslije lijecenja preloma
+Z09.7	preferred	Kontrolni pregled poslije kombinovanog liječenja zbog drugih stanja	Kontrolni pregled poslije kombinovanog lijecenja zbog drugih stanja
+Z09.8	preferred	Kontrolni pregled poslije liječenja drugih stanja	Kontrolni pregled poslije lijecenja drugih stanja
+Z09.9	preferred	Kontrolni pregled poslije neoznačenog liječenja drugih stanja	Kontrolni pregled poslije neoznačenog lijecenja drugih stanja
+Z10	preferred	Rutinski opšti zdravstveni pregled definisane subpopulacije	Rutinski opsti zdravstveni pregled definisane subpopulacije
+Z10	exclusion	medicinski pregled u administrativne svrhe Z02.-	
+Z10.0	preferred	Sistematski pregled zbog profesionalnih bolesti	Zdravstveni pregled zaposlenih (radnika)
+Z10.0	exclusion	Pregled prije zaposlenja Z02.1	
+Z10.1	preferred	Rutinski opšti zdravstveni pregled osoba koje žive u institucijama	Rutinski opsti zdravstveni pregled osoba koje zive u zatvorenim institucijama
+Z10.1	exclusion	pregled za prijem na boravak u ustanovi Z02.2	
+Z10.2	preferred	Rutinski opšti zdravstveni pregled pripadnika oružanih snaga	Rutinski opsti zdravstveni pregled pripadnika oruzanih snaga
+Z10.2	exclusion	pregled pri regrutaciji Z02.3	
+Z10.3	preferred	Rutinski opšti zdravstveni pregled sportskih timova	Rutinski opsti zdravstveni pregled sportskih timova
+Z10.3	exclusion	Test na alkohol i drogu u krvi Z04.0	
+Z10.3	exclusion	Pregled radi bavljenja sportom Z02.5	
+Z10.8	preferred	Rutinski opšti zdravstveni pregled drugih definisanih subpopulacija	Rutinski opsti zdravstveni pregled drugih definisanih subpopulacija
+Z10.8	inclusion	Školske djece	
+Z10.8	inclusion	Studenata	
+Z11	preferred	Specijalan skrining (screening) pregled radi otkrivanja infektivnih i parazitarnih bolesti	Specijalan skrining (screening) pregled radi otkrivanja infektivnih i parazitarnih bolesti
+Z11.0	preferred	Specijalan skrining pregled radi otkrivanja crijevnih zaraznih bolesti	Specijalan skrining pregled radi otkrivanja crijevnih zaraznih bolesti
+Z11.1	preferred	Specijalan skrining pregled radi otkrivanja plućne tuberkuloze	Specijalan skrining pregled radi otkrivanja plucne tuberkuloze
+Z11.2	preferred	Specijalan skrining pregled radi otkrivanja drugih bakterijskih bolesti	Specijalan skrining pregled radi otkrivanja drugih bakterijskih bolesti
+Z11.3	preferred	Specijalan skrining pregled radi otkrivanja infektivnih bolesti sa pretežno polnim načinom prenošenja	Specijalan skrining pregled radi otkrivanja infektivnih bolesti sa pretezno polnim nacinom prenosenja
+Z11.4	preferred	Specijalan skrining pregled radi otkrivanja virusa humane imunodeficijencije (HIV)	Specijalan skrining pregled radi otkrivanja virusa humane imunodeficijencije (hiv)
+Z11.5	preferred	Specijalan skrining pregled radi otkrivanja drugih virusnih bolesti	Specijalan skrining pregled radi otkrivanja drugih virusnih bolesti
+Z11.5	exclusion	crijevna virusna bolest Z11.0	
+Z11.6	preferred	Specijalan skrining pregled radi otkrivanja drugih protozoalnih bolesti i helmintijaza	Specijalan skrining pregled radi otkrivanja drugih protozoalnih bolesti i helmintijaza
+Z11.6	exclusion	crijevna protozoalna bolest Z11.0	
+Z11.8	preferred	Specijalan skrining pregled radi otkrivanja drugih zaraznih bolesti i parazitarnih bolesti	Specijalan skrining pregled radi otkrivanja drugih zaraznih bolesti i parazitarnih bolesti
+Z11.8	inclusion	Hlamidijaze	
+Z11.8	inclusion	Rikecioze	
+Z11.8	inclusion	Spirohetoze	
+Z11.8	inclusion	Mikoze	
+Z11.9	preferred	Specijalan skrining pregled radi otkrivanja zaraznih bolesti i parazitarnih bolesti, neoznačen	Specijalan skrining pregled radi otkrivanja zaraznih bolesti i parazitarnih bolesti, neoznačen
+Z12	preferred	Specijalan skrining (screening) pregled radi otkrivanja neoplazmi	Specijalan skrining (screening) pregled radi otkrivanja neoplazmi
+Z12.0	preferred	Specijalan skrining pregled radi otkrivanja tumora želuca	Specijalan skrining pregled radi otkrivanja tumora zaluca
+Z12.1	preferred	Specijalan skrining pregled radi otkrivanja tumora crijevnog trakta	Specijalan skrining pregled radi otkrivanja tumora crijevnog trakta
+Z12.2	preferred	Specijalan skrining pregled radi otkrivanja tumora disajnih organa	Specijalan skrining pregled radi otkrivanja tumora disajnih organa
+Z12.3	preferred	Specijalan skrining pregled radi otkrivanja tumora dojke	Specijalan skrining pregled radi otkrivanja tumora dojke
+Z12.3	exclusion	rutinska mamografija Z01.6	
+Z12.4	preferred	Specijalan skrining pregled radi otkrivanja tumora grlića materice	Specijalan skrining pregled radi otkrivanja tumora grlića materice
+Z12.4	exclusion	kao rutinski test ili kao dio opšteg ginekološkog pregleda Z01.4	
+Z12.5	preferred	Specijalan skrining pregled radi otkrivanja tumora prostate (kestenjače)	Specijalan skrining pregled radi otkrivanja tumora kestenjace
+Z12.6	preferred	Specijalan skrining pregled radi otkrivanja tumora mokraćne bešike	Specijalan skrining pregled radi otkrivanja tumora mokraćne bešike
+Z12.8	preferred	Specijalan skrining pregled radi otkrivanja tumora drugih lokalizacija	Specijalan skrining pregled radi otkrivanja tumora drugih lokalizacija
+Z12.9	preferred	Specijalan skrining pregled radi otkrivanja tumora, neoznačen	Specijalan skrining pregled radi otkrivanja tumora, neoznačen
+Z13	preferred	Specijalan skrining pregled radi otkrivanja drugih bolesti i poremećaja	Specijalan skrining pregled radi otkrivanja drugih bolesti i poremećaja
+Z13.0	preferred	Specijalan skrining pregled radi otkrivanja bolesti krvi, krvotvornih organa i određenih poremećaja imunih mehanizama	Specijalan skrining pregled radi otkrivanja bolesti krvi, krvotvornih organa i odredjenih poremećaja imunih mehanizama
+Z13.1	preferred	Specijalan skrining pregled radi otkrivanja šećerne bolesti (diabetes mellitus)	Specijalan skrining pregled radi otkrivanja secerne bolesti (diabetes mellitus)
+Z13.2	preferred	Specijalan skrining pregled radi otkrivanja poremećaja ishrane	Specijalan skrining pregled radi otkrivanja poremećaja ishrane
+Z13.3	preferred	Specijalan skrining pregled radi otkrivanja duševnih poremećaja i poremećaja ponašanja	Specijalan skrining pregled radi otkrivanja duševnih poremećaja i alcohoismus poremećaja ponašanja
+Z13.3	inclusion	Alkoholizam	
+Z13.3	inclusion	Depresija	
+Z13.3	inclusion	Mentalna retardacija	
+Z13.4	preferred	Specijalan skrining pregled radi otkrivanja poremećaja razvoja u djetinjstvu	Specijalan skrining pregled radi otkrivanja poremećaja razvoja u djetinjstvu
+Z13.4	exclusion	rutinsko testiranje razvoja odojčeta ili djeteta Z00.1	
+Z13.5	preferred	Specijalan skrining pregled radi otkrivanja poremećaja oka i uha	Specijalan skrining pregled radi otkrivanja poremećaja oka i uva
+Z13.6	preferred	Specijalan skrining pregled radi otkrivanja kardiovaskularnih poremećaja	Specijalan skrining pregled radi otkrivanja srcano-sudovnih poremećaja
+Z13.7	preferred	Specijalan skrining pregled radi otkrivanja urođenih malformacija, deformacija i hromozomskih aberacija	Specijalan skrining pregled radi otkrivanja urođenih malformacija, deformacija i hromosomskih aberacija
+Z13.8	preferred	Specijalan skrining pregled radi otkrivanja drugih označenih bolesti i poremećaja	Specijalan skrining pregled radi otkrivanja drugih označenih bolesti i poremećaja
+Z13.8	inclusion	Poremećaj zuba	
+Z13.8	inclusion	Endokrini i metabolički poremećaji	
+Z13.8	exclusion	šećerna bolest Z13.1	
+Z13.9	preferred	Specijalan skrining pregled, neoznačen	Specijalan skrining pregled, neoznačen
+Z20-Z29	preferred	Osobe sa potencijalno ugroženim zdravljem povezanim sa zaraznim bolestima	
+Z20	preferred	Kontakt i izloženost zaraznim bolestima	Kontakt i izlozenost zaraznim bolestima
+Z20.0	preferred	Kontakt i izloženost crijevnim zaraznim bolestima	Kontakt i izlozenost crijevnim zaraznim bolestima
+Z20.1	preferred	Kontakt i izloženost tuberkulozi	Kontakt i izlozenost tuberkulozi
+Z20.2	preferred	Kontakt i izloženost infekcijama sa pretežno polnim načinom prenošenja	Kontakt i izlozenost infekcijama sa pretezno polnim nacinom prenosenja
+Z20.3	preferred	Kontakt i izloženost bjesnilu	Kontakt i izlozenost bjesnilu
+Z20.4	preferred	Kontakt i izloženost rubeoli (crvenki)	Kontakt i izlozenost crvenki (rubeola)
+Z20.5	preferred	Kontakt i izloženost virusnom hepatitisu	Kontakt i izlozenost virusnom hepetitisu
+Z20.6	preferred	Kontakt i izloženost virusu humane imunodeficijencije (HIV)	Kontakt i izlozenost virusu humane imunideficijencije (hiv)
+Z20.6	exclusion	asimptomatska infekcija virusom humane imunodeficijencije (HIV) Z21	
+Z20.7	preferred	Kontakt i izloženost vašljivosti, infestaciji grinjama i drugim infestacijama	Kontakt i izlozenost vasljivosti, infestaciji grinjama i drugim infestacijama
+Z20.8	preferred	Kontakt i izloženost drugim zaraznim bolestima	Kontakt i izlozenost drugim zaraznim bolestima
+Z20.9	preferred	Kontakt i izloženost neoznačenim zaraznim bolestima	Kontakt i izlozenost neoznačenim zaraznim bolestima
+Z21	preferred	Asimptomatska infekcija virusom humane imunodeficijencije (HIV)	Asimptomatska infekcija virusom humane imunodeficijencije (hiv)
+Z21	inclusion	HIV pozitivnost NOS	
+Z21	exclusion	kontakt sa ili izloženost virusu humane imunodeficijencije (HIV) Z20.6	
+Z21	exclusion	bolest virusa humane imunodeficijencije (HIV) B20-B24	
+Z21	exclusion	trudnoća, porođaj i puerperijum koji su iskomplikovani bolešću virusa humane imunodeficijencije (HIV) O98.7	
+Z21	exclusion	laboratorijski dokaz virusa humane imunodeficijencije(HIV) R75	
+Z22	preferred	Kliconoša zaraznih bolesti	Kliconosa zaraznih bolesti
+Z22	inclusion	suspektan kliconoša	
+Z22.0	preferred	Kliconoša trbušnog tifusa	Kliconosa trbusnog tifusa
+Z22.1	preferred	Kliconoša drugih crijevnih zaraznih bolesti	Kliconosa drugih crijevnih zaraznih bolesti
+Z22.2	preferred	Kliconoša difterije	Kliconosa difterije
+Z22.3	preferred	Kliconoša drugih označenih bakterijskih bolesti	Kliconosa drugih označenih bakterijskih bolesti
+Z22.3	inclusion	Kliconoša bakterijske bolesti zbog prisustva: meningokoka	
+Z22.3	inclusion	Kliconoša bakterijske bolesti zbog prisustva: stafilokoka	
+Z22.3	inclusion	Kliconoša bakterijske bolesti zbog prisustva: streptokoka	
+Z22.4	preferred	Kliconoša infekcija koji se pretežno prenose polnim putem	Kliconosa uzročnika koji se pretezno prenose polnim putem
+Z22.4	inclusion	Kliconoša: gonoreje	
+Z22.4	inclusion	Kliconoša: sifilisa	
+Z22.5	preferred	Kliconoša virusnog hepatitisa	Kliconosa hepatitisa uzrokovanih virusom
+Z22.5	inclusion	Kliconoša HBsAg (površinskog antigena hepatitisa B)	
+Z22.6	preferred	Kliconoša infekcije humanim T-limfotropnim virusom tip 1 (HTLV-1)	Kliconosa humanog t-limfotropnog virusa tip 1 (htlv-1)
+Z22.8	preferred	Kliconoša drugih zaraznih bolesti	Kliconosa drugih zaraznih bolesti
+Z22.9	preferred	Kliconoša zarazne bolesti, neoznačene	Kliconosa zarazne bolesti, neoznačene
+Z23	preferred	Potreba za imunizacijom protiv pojedinačnih bakterijskih bolesti 	Potreba za imunizacijom protiv bakterijskih bolesti (pojedinacno)
+Z23	exclusion	imunizacija: protiv više bolesti Z27.-	
+Z23	exclusion	imunizacija: neizvršena Z28.-	
+Z23.0	preferred	Potreba za imunizacijom samo protiv kolere	Potreba za imunizacijom protiv kolere
+Z23.1	preferred	Potreba za imunizacijom samo protiv tifusa-paratifusa (TAB)	Potreba za imunizacijom protiv tifusa-paratifusa (tab)
+Z23.2	preferred	Potreba za imunizacijom protiv tuberkuloze (BCG)	Potreba za imunizacijom protiv tuberkuloze(bcg)
+Z23.3	preferred	Potreba za imunizacijom protiv kuge	Potreba za imunizacijom protiv kuge
+Z23.4	preferred	Potreba za imunizacijom protiv tularemije	Potreba za imunizacijom protiv tularemije
+Z23.5	preferred	Potreba za imunizacijom samo protiv tetanusa	Potreba za imunizacijom samo protiv tetanusa
+Z23.6	preferred	Potreba za imunizacijom samo protiv difterije	Potreba za imunizacijom samo protiv difterije
+Z23.7	preferred	Potreba za imunizacijom samo protiv pertusisa	Potreba za imunizacijom samo protiv pertusisa
+Z23.8	preferred	Potreba za imunizacijom protiv druge pojedinačne bakterijske bolesti	Potreba za imunizacijom protiv druge pojedinacne bakterijske bolesti
+Z24	preferred	Potreba za imunizacijom protiv samo jedne virusne bolesti	Potreba za imunizacijom protiv samo jedne virusne bolesti
+Z24	exclusion	imunizacija: protiv više bolesti Z27.-	
+Z24	exclusion	imunizacija: neizvršena Z28.-	
+Z24.0	preferred	Potreba za imunizacijom protiv poliomijelitisa	Potreba za imunizacijom protiv poliomijelitisa
+Z24.1	preferred	Potreba za imunizacijom protiv virusnog encefalitisa koji se prenosi artropodima	Potreba za imunizacijom protiv virusnog encefalitisa koji se prenosi artropodima
+Z24.2	preferred	Potreba za imunizacijom protiv bjesnila	Potreba za imunizacijom protiv bjesnila
+Z24.3	preferred	Potreba za imunizacijom protiv žute groznice	Potreba za imunizacijom protiv zute groznice
+Z24.4	preferred	Potreba za imunizacijom samo protiv morbila	Potreba za imunizacijom samo protiv morbila
+Z24.5	preferred	Potreba za imunizacijom samo protiv rubeole	Potreba za imunizacijom samo protiv rubele
+Z24.6	preferred	Potreba za imunizacijom protiv virusnog hepatitisa	Potreba za imunizacijom protiv virusnog hepatitisa
+Z25	preferred	Potreba za imunizacijom protiv drugih pojedinačnih virusnih bolesti	Potreba za imunizacijom protiv drugih virusnih bolesti (pojedinacno)
+Z25	exclusion	imunizacija: protiv više bolesti Z27.-	
+Z25	exclusion	imunizacija: neizvršena Z28.-	
+Z25.0	preferred	Potreba za imunizacijom protiv parotitisa	Potreba za imunizacijom protiv parotitisa
+Z25.1	preferred	Potreba za imunizacijom protiv influence	Potreba za imunizacijom protiv influence
+Z25.8	preferred	Potreba za imunizacijom protiv druge označene pojedinačne virusne bolesti	Potreba za imunizacijom protiv druge označene pojedinacne virusne bolesti
+Z26	preferred	Potreba za imunizacijom protiv drugih pojedinačnih zaraznih bolesti 	Potreba za imunizacijom protiv drugih zaraznih bolesti (pojedinacno)
+Z26	exclusion	imunizacija: protiv više bolesti Z27.-	
+Z26	exclusion	imunizacija: neizvršena Z28.-	
+Z26.0	preferred	Potreba za imunizacijom protiv kala-azara (lišmanijaze)	Potreba za imunizacijom protiv kala-azara (lismanijaze)
+Z26.8	preferred	Potreba za imunizacijom protiv druge označene pojedinačne zarazne bolesti	Potreba za imunizacijom protiv druge označene pojedinacne zarazne bolesti
+Z26.9	preferred	Potreba za imunizacijom protiv neoznačene zarazne bolesti	Potreba za imunizacijom protiv neoznačene zarazne bolesti
+Z26.9	inclusion	Potreba za imunizacijom NOS	
+Z27	preferred	Potreba za kombinovanom imunizacijom protiv više infektivnih bolesti	Potreba za kombinovanom imunizacijom protiv više infektivnih bolesti
+Z27	exclusion	neizvršena imunizacija Z28.-	
+Z27.0	preferred	Potreba za imunizacijom protiv kolere  i tifusa-paratifusa (cholera+TAB)	Potreba za imunizacijom protiv kolere i tifusa-paratifusa (cholera+tab)
+Z27.1	preferred	Potreba za imunizacijom protiv difterije-tetanusa-pertusisa, kombinovana (DTP)	Potreba za imunizacijom protiv difterije-tetanusa-pertusisa, kombinovana (dtp)
+Z27.2	preferred	Potreba za imunizacijom protiv difterije-tetanusa-pertusisa, i tifusa-paratifusa (DTP + TAB)	Potreba za imunizacijom protiv difterije-tetanusa-pertusisa, i tifusa-paratifusa (dtp + tab)
+Z27.3	preferred	Potreba za imunizacijom protiv difterije-tetanusa i poliomijelitisa (DTP+ polio)	Potreba za imunizacijom protiv difterije-tetanusa-pertusisa i poliomijelitisa (dtp + polio)
+Z27.4	preferred	Potreba za imunizacijom protiv morbila-parotitisa-rubeole (MMR)	Potreba za imunizacijom protiv morbila-parotitisa-rubele (mmr)
+Z27.8	preferred	Potreba za kombinovanom imunizacijom protiv drugih infektivnih bolesti	Potreba za kombinaovanom imunizacijom protiv drugih infektivnih bolesti
+Z27.9	preferred	Potreba za kombinovanom imunizacijom protiv neoznačenih infektivnih bolesti	Potreba za kombinaovanom imunizacijom protiv neoznačenih infektivnih bolesti
+Z28	preferred	Neizvršena imunizacija	Neizvršena imunizacija
+Z28.0	preferred	Neizvršena imunizacija zbog kontraindikacije	Neizvršena imunizacija zbog kontraindikacije
+Z28.1	preferred	Neizvršena imunizacija zbog odluke pacijenta donijete na osnovu ličnog ubjeđenja ili pritiska sredine	Neizvršena imunizacija zbog odluke pacijenta donijete na osnovu licnog ubjedjenja ili pritiska sredine
+Z28.2	preferred	Neizvršena imunizacija zbog odluke pacijenta donijete zbog drugih i neoznačenih razloga	Neizvršena imunizacija zbog odluke pacijenta donijete zbog drugih i neoznačenih razloga
+Z28.8	preferred	Neizvršena imunizacija zbog drugih razloga	Neizvršena imunizacija zbog drugih razloga
+Z28.9	preferred	Neizvršena imunizacija zbog neoznačenih razloga	Neizvršena imunizacija zbog neoznačenih razloga
+Z29	preferred	Potreba za drugim profilaktičkim  mjerama	Potreba za drugim profilaktičkim  mjerama
+Z29	exclusion	desenzibilizacija na alergene Z51.6	
+Z29	exclusion	profilaktička operacija Z40.0	
+Z29.0	preferred	Izolacija	Izolacija
+Z29.0	inclusion	Prijem radi zaštite osobe od njegovog/njenog okruženja ili radi izolacije osobe nakon kontakta sa zaraznom bolešću	
+Z29.1	preferred	Profilaksa imunoterapijom	Profilaktička imunoterapija
+Z29.1	inclusion	Primjena imunoglobulina	
+Z29.2	preferred	Druga profilaktička hemoterapija	Druga profilaktička hemioterapija
+Z29.2	inclusion	Hemoprofilaksa	
+Z29.2	inclusion	Profilaktička antibiotska terapija	
+Z29.8	preferred	Druge označene profilaktičke mjere	Druge označene profilaktičke mjere
+Z29.9	preferred	Profilaktička mjera, neoznačena	Profilaktička mjere, neoznačene
+Z30-Z39	preferred	Osobe u kontaktu sa zdravstvenom službom u okolnostima vezanim za reprodukciju	
+Z30	preferred	Kontracepcija (postupci u vezi sa sprečavanjem neželjene trudnoće)	Kontracepcija
+Z30.0	preferred	Opšte konsultovanje i savjet o kontracepciji	Opste konsultovanje i savjet o kontracepciji
+Z30.0	inclusion	Savjet o planiranju porodice NOS	
+Z30.0	inclusion	Inicijalno propisivanje kontraceptiva	
+Z30.1	preferred	Umetanje (intrauterinog) kontraceptivnog sredstva	Umetanje (intrauterinog) kontraceptivnog sredstva
+Z30.2	preferred	Sterilizacija	Sterilizacija
+Z30.2	inclusion	Prijem zbog podvezivanja jajovoda ili sjemenovoda	
+Z30.3	preferred	Kontrola menstruacije (menstrualna ekstrakcija) 	Kontrola menstruacije (menstrualna ekstrakcija)
+Z30.3	inclusion	Prekid trudnoće	
+Z30.3	inclusion	Regulacija menstruacije	
+Z30.4	preferred	Nadzor nad kontraceptivnim ljekovima	Nadzor nad kontraceptivnim ljekovima
+Z30.4	inclusion	Ponovno propisivanje kontraceptivnih pilula ili drugih kontraceptivnih preparata	
+Z30.4	inclusion	Rutinski pregled radi održavanja kontracepcije	
+Z30.5	preferred	Nadzor nad (intrauterinim) kontraceptivnim sredstvima (napravama)	Nadzor nad (intrauterinim) kontraceptivnim sredstvima (napravama)
+Z30.5	inclusion	Provjera, ponovno plasiranje ili odstranjenje (intrauterinog) kontraceptivnog sredstva	
+Z30.8	preferred	Drugi kontraceptivni postupak	Drugi kontraceptivni postupak
+Z30.8	inclusion	Spermogram nakon vazektomije	
+Z30.9	preferred	Kontracepcijski postupak, neoznačen	Kontraceptivni postupak, neoznačen
+Z31	preferred	Vođenje postupka oplodnje	Unapredjenje reprodukcije
+Z31	exclusion	komplikacije povezane sa vještačkom oplodnjom N98.-	
+Z31.0	preferred	Tuboplastika ili vazoplastika poslije prethodne sterilizacije	Tuboplastika ili vazoplastika poslije prethodne sterilizacije
+Z31.1	preferred	Vještačka inseminacija	Vjestačko oplodjenje (insemenacija)
+Z31.2	preferred	In vitro oplođenje (fertilizacija)	In vitro oplodjenje (fertilizacija)
+Z31.2	inclusion	Prijem radi uzimanja ili implantacije jajnih ćelija	
+Z31.3	preferred	Drugi pomoćni metodi oplodnje	Drugi pomocni fertilizacioni metodi
+Z31.4	preferred	Ispitivanje i testiranje plodnosti	Ispitivanje i testiranje plodnosti
+Z31.4	inclusion	Insuflacija jajovoda 	
+Z31.4	inclusion	Spermogram 	
+Z31.4	exclusion	spermogram nakon vazektomije Z30.8	
+Z31.5	preferred	Genetsko savjetovanje	Genetsko savjetovanje
+Z31.6	preferred	Opšta konsultacija i savjet vezan za oplodnju	Opsta konsultacija i savjet o plodnosti
+Z31.8	preferred	Drugi postupak vezan oplodnju	Drugi postupak vezan za plodnost
+Z31.9	preferred	Postupak vezan oplodnju, neoznačen	Postupak vezan za plodnost, neoznačen
+Z32	preferred	Ispitivanje i testiranje na trudnoću	Ispitivanje i testiranje na trudnocu
+Z32.0	preferred	Trudnoća, (još) nepotvrđena	Trudnoca, (za sad) nepotvrdjena
+Z32.1	preferred	Trudnoća, potvrđena	Trudnoca, potvrdjena
+Z33	preferred	Gravidno stanje, nenamjerno	Gravidno stanje, slucajno
+Z33	inclusion	Gravidno stanje NOS	
+Z34	preferred	Kontrola normalne trudnoće	Kontrola normalne trudnoce
+Z34.0	preferred	Kontrola normalne prve trudnoće	Kontrola normalne prve trudnoce
+Z34.8	preferred	Kontrola normalne druge trudnoće	Kontrola normalne druge trudnoce
+Z34.9	preferred	Kontrola normalne trudnoće, neoznačene	Kontrola normalne trudnoce, neoznačene
+Z35	preferred	Kontrola trudnoće sa visokim rizikom	Kontrola trudnoce sa visokim rizikom
+Z35.0	preferred	Kontrola trudnoće koja u anamnezi ima: sterilitet	Kontrola trudnoce koja u anamnezi ima sterilitet
+Z35.1	preferred	Kontrola trudnoće koja u anamnezi ima: abortus	Kontrola trudnoce koja u anamnezi ima abortus
+Z35.1	inclusion	Kontrola trudnoće koja u anamnezi ima: grozdastu molu	
+Z35.1	inclusion	Kontrola trudnoće koja u anamnezi ima: vezikularnu molu	
+Z35.1	exclusion	spontani pobačaj: njega u trudnoći O26.2	
+Z35.1	exclusion	spontani pobačaj: bez sadašnje trudnoće N96 	
+Z35.2	preferred	Kontrola trudnoće sa drugom nepovoljnom reproduktivnom ili akušerskom anamneznom	Kontrola trudnoce sa drugom nepovoljnom reprodukovanom ili akuserskom anamneznom
+Z35.2	inclusion	Kontrola trudnoće sa anamnezom o: stanje se može klasifikovati kao O10-O92	
+Z35.2	inclusion	Kontrola trudnoće sa anamneznom: neonatalna smrt	
+Z35.2	inclusion	Kontrola trudnoće sa anamneznom: mrtvorođenje	
+Z35.3	preferred	Kontrola trudnoće sa anamneznom o nedovoljnoj antenatalnoj njezi	Kontrola trudnoce sa anamneznom o nedovoljnoj antenatalnoj zastiti
+Z35.3	inclusion	Trudnoća: prećutana	
+Z35.3	inclusion	Trudnoća: sakrivena	
+Z35.4	preferred	Kontrola trudnoće sa velikim multiparitetom	Kontrola trudnoce sa visokim multiparitetom
+Z35.4	exclusion	multiparitet bez sadašnje trudnoće Z64.1	
+Z35.5	preferred	Kontrola starije prvorotke	Kontrola starije primipare
+Z35.6	preferred	Kontrola vrlo mlade prvorotke	Kontrola vrlo mlade primipare
+Z35.7	preferred	Kontrola trudnoće koja je u visokom riziku zbog socijalnih problema	Kontrola trudnoce koja je u visokom riziku zbog socijalnih problema
+Z35.8	preferred	Kontrola druge visokorizične trudnoće	Kontrola druge visokorizicne trudnoce
+Z35.9	preferred	Kontrola trudnoće koja je u visokom riziku, neoznačena	Kontrola trudnoce koja je u visokom riziku, neoznačene
+Z36	preferred	Antenatalni skrining (screening)	Antenatalni skrining (screening)
+Z36	exclusion	abnormalni nalazi kod antenatalnog skrininga majki O28.-	
+Z36	exclusion	rutinska prenatalna njega Z34-Z35	
+Z36.0	preferred	Antenatalni skrining na hromosomske anomalije	Antenatalni skrining na hromosomske anomalije
+Z36.0	inclusion	Amniocenteza	
+Z36.0	inclusion	Uzorak placente (uzet vaginalno)	
+Z36.1	preferred	Antenatalni skrining na prisustvo povećanih vrijednosti alfafetoproteina	Antenatalni skrining na prisustvo povećanih vrijednosti alfafetoproteina
+Z36.2	preferred	Drugi antenatalni skrining na osnovu amniocenteze	Drugi antenatalni skrining na osnovu amniocenteze
+Z36.3	preferred	Antenatalni skrining na prisustvo malformacija korišćenjem ultrazvuka i drugih fizičkih metoda	Antenatalni skrining na prisustvo malformacija koriscenjem ultrazvuka i drugih fizickih metoda
+Z36.4	preferred	Antenatalni skrining na prisustvo usporenog rasta fetusa korišćenjem ultrazvuka i drugih fizičkih metoda	Antenatalni skrining na prisustvo usporenog rasta fetusa koriscenjem ultrazvuka i drugih fizickih metoda
+Z36.5	preferred	Antenatalni skrining zbog izoimunizacije	Antenatalni skrining zbog izoimunizacije
+Z36.8	preferred	Drugi antenatalni skrining	Drugi antenatalni skrining
+Z36.8	inclusion	Skrining na hemoglobinopatije	
+Z36.9	preferred	Antenatalni skrining, neoznačen	Antenatalni skrining, neoznačen
+Z37	preferred	Ishod porođaja	Ishod porodjaja
+Z37	note	Ova kategorija je namijenjena za upotrebu kao dodatna šifra za identifikaciju ishoda porođaja u otpusnoj listi majke	
+Z37.0	preferred	Živorođeno jedno dijete	Zivorođeno jedno dijete
+Z37.1	preferred	Mrtvorođeno jedno dijete	Mrtvorođeno jedno dijete
+Z37.2	preferred	Blizanci, oba živorođena	Blizanci, oba zivorođena
+Z37.3	preferred	Blizanci, jedan živorođen, drugi mrtvorođen	Blizanci, jedan zivorođen, drugi mrtvorođen
+Z37.4	preferred	Blizanci, oba mrtvorođena	Blizanci, oba mrtvorođena
+Z37.5	preferred	Drugi multipli porođaj, sva djeca živorođena	Drugi multipli porodjaj, sva djeca zivorođena
+Z37.6	preferred	Drugi multipli porođaj, neka djeca živorođena	Drugi multipli porodjaj, neka djeca zivorođena
+Z37.7	preferred	Drugi multipli porođaj, sva djeca mrtvorođena	Drugi multipli porodjaj, sva djeca mrtvorođena
+Z37.9	preferred	Ishod porođaja, neoznačen	Neoznačen ishod porodjaja
+Z37.9	inclusion	Multipli porođaj NOS	
+Z37.9	inclusion	Rođenje jednog djeteta NOS	
+Z38	preferred	Živorođena djeca prema mjestu rođenja	Zivorođena djeca prema mjestu rođenja
+Z38.0	preferred	Jedno dijete, rođeno u bolnici	Jedno dijete, rođeno u bolnici
+Z38.1	preferred	Jedno dijete, rođeno van bolnice	Jedno dijete, rođeno van bolnice
+Z38.2	preferred	Jedno dijete, neoznačeno mjesto rođenja	Jedno dijete, neoznačeno mjesto rođenja
+Z38.2	inclusion	Živorođeno dijete NOS	
+Z38.3	preferred	Blizanci, rođeni u bolnici	Blizanci, rođeni u bolnici
+Z38.4	preferred	Blizanci, rođeni van bolnice	Blizanci, rođeni van bolnice
+Z38.5	preferred	Blizanci, neoznačeno mjesto rođenja	Blizanci, neoznačeno mjesto rođenja
+Z38.6	preferred	Drugi multipli porođaj u bolnici	Drugi multipli porodjaj u bolnici
+Z38.7	preferred	Drugi multipli porođaj van bolnice	Drugi multipli porodjaj van bolnice
+Z38.8	preferred	Drugi multipli porođaj, neoznačeno mjesto rođenja	Drugi multipli porodjaj, neoznačeno mjesto rođenja
+Z39	preferred	Njega i pregled poslije porođaja	Njega i pregled poslije porodjaja
+Z39.0	preferred	Njega i pregled neposredno nakon porođaja	Njega i pregled neposredno nakon porodjaja
+Z39.0	inclusion	Njega i pregled kod nekomplikovanih slučajeva	
+Z39.0	exclusion	njega postporođajnih komplikacija - pogledati abecedni indeks	
+Z39.1	preferred	Njega i pregled majke dojilje	Njega i pregled majke dojilje
+Z39.1	inclusion	Nadzor nad laktacijom	
+Z39.1	exclusion	poremećaji laktacije O92.-	
+Z39.2	preferred	Rutinsko praćenje poslije porođaja	Rutinsko praćenje poslije porodjaja
+Z40-Z54	preferred	Osobe u kontaktu sa zdravstvenom službom zbog posebnih procedura i zdravstvene njege	
+Z40-Z54	note	Kategorije Z40–Z54 koriste se za identifikovanje razloga za njegu. Koriste se za bolesnike koji su već bili liječeni zbog bolesti ili povrede, ali koji se prate ili primaju profilaktičku zaštitu, konvalescentnu njegu ili njegu u cilju konsolidovanja liječenja, tretmana rezidualnog stanja, osiguranja da ne dođe do recidiva ili prevencije recidiva	
+Z40-Z54	exclusion	kontrolni pregled radi medicinskog nadzora nakon liječenja Z08-Z09	
+Z40	preferred	Profilaktička operacija	Profilaktička operacija
+Z40.0	preferred	Profilaktička operacija zbog faktora rizika povezanih sa zloćudnim tumorima	Profilaktička operacija zbog faktora rizika povezanih sa zloćudnim tumorima
+Z40.0	inclusion	Prijem radi profilaktičkog odstranjenja organa	
+Z40.8	preferred	Druga profilaktička operacija	Druga profilaktička operacija
+Z40.9	preferred	Profilaktička operacija, neoznačena	Profilaktička operacija, neoznačena
+Z41	preferred	Procedure koje se ne izvode u cilju liječenja	Procedure koje se ne izvode u cilju lijecenja
+Z41.0	preferred	Transplatacija kose	Transplatacija kose
+Z41.1	preferred	Druga plastična operacija zbog neprihvatljivog kozmetičkog izgleda	Druga plastična operacija zbog neprihvatljivog kozmetickog izgleda
+Z41.1	inclusion	Implant dojke	
+Z41.1	exclusion	plastična i rekonstruktivna hirurgija nakon povrede koja je zarasla ili operacije Z42.-	
+Z41.2	preferred	Rutinska i ritualna cirkumcizija	Rutinsko i ritualno obrezivanje muskog polnog uda
+Z41.3	preferred	Bušenje ušiju	Busenje usiju
+Z41.8	preferred	Druge procedure koje se ne izvode u cilju liječenja	Druge procedure koje se ne izvode u cilju lijecenja
+Z41.9	preferred	Procedura koja se ne izvodi u cilju liječenja, neoznačena	Procedura koja se ne izvode u cilju lijecenja, neoznačena
+Z42	preferred	Naknadna njega koja uključuje plastičnu operaciju	Praćenje i njega koji uključuju plastičnu operaciju
+Z42	inclusion	plastična i rekonstruktivna hirurgija nakon povrede koja je zarasla ili operacije	
+Z42	inclusion	korekcija ožiljnog tkiva	
+Z42	exclusion	plastična operacija: kao tretman za trenutnu povredu - šifra odgovarajuće povrede - pogledajte abecedni indeks	
+Z42	exclusion	plastična operacija: zbog neprihvatljivog kozmetičkog izgleda Z41.1	
+Z42.0	preferred	Naknadna njega koja uključuje plastičnu operaciju glave i vrata	Praćenje i njega koji uključuju plastičnu operaciju glave i vrata
+Z42.1	preferred	Naknadna njega koja uključuje plastičnu operaciju dojke	Praćenje i njega koji uključuju plastičnu operaciju dojke
+Z42.2	preferred	Naknadna njega koja uključuje plastičnu operaciju drugih djelova trupa	Praćenje i njega koji uključuju plastičnu operaciju drugih djelova trupa
+Z42.3	preferred	Naknadna njega koja uključuje plastičnu operaciju ruke	Praćenje i njega koji uključuju plastičnu operaciju ruke
+Z42.4	preferred	Naknadna njega koja uključuje plastičnu operaciju noge	Praćenje i njega koji uključuju plastičnu operaciju noge
+Z42.8	preferred	Naknadna njega koja uključuje plastičnu operaciju drugog dijela tijela	Praćenje i njega koji uključuju plastičnu operaciju drugog dijela tijela
+Z42.9	preferred	Naknadna njega koja uključuje plastičnu operaciju, neoznačenu	Praćenje i njega koji uključuju plastičnu operaciju, neoznačenu
+Z43	preferred	Nadziranje vještačkih (arteficijalnih) otvora	Nadziranje vjestačkih (arteficijalnih) otvora
+Z43	inclusion	neprohodnost	
+Z43	inclusion	pasaža sondi ili sredstava za bužiranje	
+Z43	inclusion	rekonstrukcija	
+Z43	inclusion	odstranjenje katetera	
+Z43	inclusion	toaleta ili čišćenje	
+Z43	exclusion	postojanje vještačkog otvora, bez potrebe za njegom Z93.-	
+Z43	exclusion	komplikacije vanjske stome J95.0, K91.4, N99.5	
+Z43	exclusion	postavljanje i podešavanje proteze ili drugog pomagala Z44-Z46	
+Z43.0	preferred	Nadziranje traheostome	Nadziranje traheostome
+Z43.1	preferred	Nadziranje gastrostome	Nadziranje gastrostome
+Z43.2	preferred	Nadziranje ileostome	Nadziranje ileostome
+Z43.3	preferred	Nadziranje kolostome	Nadziranje kolostome
+Z43.4	preferred	Nadziranje drugih vještačkih otvora želudačno crijevnog sistema	Nadziranje drugih vjestačkih otvora zeludacno crijevnog sistema
+Z43.5	preferred	Nadziranje cistostome	Nadziranje cistostome
+Z43.6	preferred	Nadziranje drugih vještačkih otvora mokraćnog sistema	Nadziranje drugih vjestačkih otvora mokracnog sistema
+Z43.6	inclusion	Nefrostoma	
+Z43.6	inclusion	Ureterostoma	
+Z43.6	inclusion	Uretrostoma	
+Z43.7	preferred	Nadziranje vještačke rodnice	Nadziranje vjestačke rodnice
+Z43.8	preferred	Nadziranje drugih vještačkih otvora	Nadziranje drugih vjestačkih otvora
+Z43.9	preferred	Nadziranje neoznačenog vještačkog otvora	Nadziranje neoznačenog vjestačkog otvora
+Z44	preferred	Nadziranje i podešavanje spoljašnjih protetskih pomagala	Nadziranje i podesavanje spoljasnjih protetskih pomagala
+Z44	exclusion	prisustvo protetskog pomagala Z97.-	
+Z44.0	preferred	Postavljanje i podešavanje vještačke ruke (kompletne)(parcijalne)	Namjestanje i podesavanje vjestačke ruke (kompletne)(parcijalne)
+Z44.1	preferred	Postavljanje i podešavanje vještačke noge (kompletne)(parcijalne)	Namjestanje i podesavanje vjestačke noge (kompletne)(parcijalne)
+Z44.2	preferred	Postavljanje i podešavanje vještačkog oka	Namjestanje i podesavanje vjestačkog oka
+Z44.2	exclusion	mehanička komplikacija očne proteze T85.3	
+Z44.3	preferred	Postavljanje i podešavanje spoljašnje proteze dojke	Namjestanje i podesavanje spoljasnje proteze dojke
+Z44.8	preferred	Postavljanje i podešavanje drugih spoljašnjih proteza	Namjestanje i podesavanje drugih spoljasnjih proteza
+Z44.9	preferred	Postavljanje i podešavanje neoznačene spoljašnje proteze	Namjestanje i podesavanje neoznačene spoljasnje proteze
+Z45	preferred	Podešavanje i održavanje implanta	Podesavanje i odrzavanje ugradjenog pomagala
+Z45	exclusion	poremećaj funkcije ili druge komplikacije pomagala - pogledajte abecedni indeks	
+Z45	exclusion	prisustvo protetskih i drugih pomagala Z95.-Z97	
+Z45.0	preferred	Podešavanje i održavanje pejsmejkera (pacemaker)	Podesavanje i odrzavanje pejsmejkera (pacemaker)
+Z45.0	inclusion	Provjera i testiranje generatora pulsa (baterija)	
+Z45.1	preferred	Podešavanje i održavanje infuzione pumpe	Podesavanje i odrzavanje pumpe za infuziju
+Z45.2	preferred	Podešavanje i održavanje kanile krvnog suda	Podesavanje i odrzavanje kanile krvnog suda
+Z45.3	preferred	Podešavanje i održavanje ugrađenog slušnog aparata	Podesavanje i odrzavanje ugradjenog slusnog aparata
+Z45.3	inclusion	Slušni aparat za koštano provođenje zvuka	
+Z45.3	inclusion	Kohlearni implant	
+Z45.8	preferred	Podešavanje i održavanje drugih ugrađenih pomagala	Podesavanje i odrzavanje drugih ugradjenih pomagala
+Z45.9	preferred	Podešavanje i održavanje neoznačenih ugrađenih pomagala	Podesavanje i odrzavanje neoznačenih ugradjenih pomagala
+Z46	preferred	Postavljanje i podešavanje drugih pomagala	Postavljanje i podesavanje drugih pomagala
+Z46	exclusion	izdavanje ponovnog recepta Z76.0	
+Z46	exclusion	poremećaj funkcije ili druge komplikacije pomagala - pogledajte abecedni indeks	
+Z46	exclusion	prisustvo proteze ili drugog pomagala Z59-Z97	
+Z46.0	preferred	Postavljanje i podešavanje naočara i kontaktnih sočiva	Postavljanje i podesavanje naocara i kontaktnih sočiva
+Z46.1	preferred	Postavljanje i podešavanje slušnog pomagala	Postavljanje i podesavanje slusnog pomagala
+Z46.2	preferred	Postavljanje i podešavanje drugih pomagala povezanih sa nervnim sistemom i odredjenim čulima	Postavljanje i podesavanje drugih pomagala povezanih sa nervnim sistemom i odredjenim culima
+Z46.3	preferred	Postavljanje i podešavanje zubne proteze	Postavljanje i podesavanje zubne proteze
+Z46.4	preferred	Postavljanje i podešavanje ortodonskog pomagala	Postavljanje i podesavanje ortodonskog pomagala
+Z46.5	preferred	Postavljanje i podešavanje uređaja za ileostomu i drugih intestinalnih pomagala	Postavljanje i podesavanje uredjaja za ileostomu i drugih intestinalnih pomagala
+Z46.6	preferred	Postavljanje i podešavanje pomagala za mokrenje	Postavljanje i podesavanje pomagala za mokrenje
+Z46.7	preferred	Postavljanje i podešavanje ortopedskih pomagala	Postavljanje i podesavanje ortopedskih pomagala
+Z46.7	inclusion	Ortopedska pomagala: proteza za nepravilno izrasle zube	
+Z46.7	inclusion	Ortopedska pomagala: gips	
+Z46.7	inclusion	Ortopedska pomagala: mider	
+Z46.7	inclusion	Ortopedska pomagala: cipele	
+Z46.8	preferred	Postavljanje i podešavanje drugih označenih pomagala	Postavljanje i podesavanje drugih označenih pomagala
+Z46.8	inclusion	Invalidska kolica	
+Z46.9	preferred	Postavljanje i podešavanje neoznačenih pomagala	Postavljanje i podesavanje neoznačenih pomagala
+Z47	preferred	Druga ortopedska nakadna njega	Drugo praćenje i njega u ortopedskom lijecenju
+Z47	exclusion	njega koja uključuje procedure rehabilitacije Z50.-	
+Z47	exclusion	komplikacija unutrašnjeg ortopedskog pomagala, implanta i grafta T84.-	
+Z47	exclusion	kontrolni pregled nakon liječenja frakture Z09.4	
+Z47.0	preferred	Praćenje i njega koji uključuju odstranjenje pločice i drugih unutrašnjih sredstava za fiksaciju kod preloma	Praćenje i njega koji uključuju otklanjanje plocica i drugih unutrasnjih fiksacionih naprava kod preloma
+Z47.0	inclusion	Odstranjivanje: eksera	
+Z47.0	inclusion	Odstranjivanje: pločica	
+Z47.0	inclusion	Odstranjivanje: šipki	
+Z47.0	inclusion	Odstranjivanje: šrafova	
+Z47.0	exclusion	odstranjenje spoljašnjeg sredstva za fiksaciju Z47.8	
+Z47.8	preferred	Drugo specifično ortopedsko praćenje i njega	Drugo specificno ortopedsko praćenje i njega
+Z47.8	inclusion	Zamjena, provjera ili odstranjenje: spoljašnjeg sredstva za fiksaciju ili trakciju	
+Z47.8	inclusion	Zamjena, provjera ili odstranjenje: gipsane udlage	
+Z47.9	preferred	Ortopedsko praćenje i njega, neoznačeni	Ortopedsko praćenje i njega, neoznačeni
+Z48	preferred	Drugo praćenje i njega u hirurškom liječenju	Drugo praćenje i njega u hirurskom lijecenju
+Z48	exclusion	nadziranje vještačkih otvora Z43.-	
+Z48	exclusion	postavljanje i podešavanje proteza i drugih pomagala Z44-Z46	
+Z48	exclusion	kontrolni pregled nakon: operacije Z09.0	
+Z48	exclusion	kontrolni pregled nakon: liječenja frakture Z09.4	
+Z48	exclusion	ortopedsko praćenje i njega Z47.-	
+Z48.0	preferred	Nadziranje hirurškog previjanja i šavova	Nadziranje hirurskog previjanja i savova
+Z48.0	inclusion	Zamjena zavoja	
+Z48.0	inclusion	Odstranjivanje konaca	
+Z48.8	preferred	Drugo označeno praćenje i njega u hirurškom liječenju	Drugo označeno praćenje i njega u hirurskom lijecenju
+Z48.9	preferred	Praćenje i njega u hirurškom liječenju, neoznačeni 	Praćenje i njega, neoznačeni u hirurskom lijecenju
+Z49	preferred	Njega koja uključuje dijalizu	Njega koja uključuje dijalizu
+Z49	inclusion	priprema za dijalizu i liječenje dijalizom	
+Z49	exclusion	status dijalize bubrega Z99.2	
+Z49.0	preferred	Pripremna njega za dijalizu	Pripremna njega za dijalizu
+Z49.1	preferred	Ekstrakorporalna dijaliza	Ekstrakorporalna dijaliza
+Z49.1	inclusion	Dijaliza (bubrežna) NOS	
+Z49.2	preferred	Druga dijaliza	Druga dijaliza
+Z49.2	inclusion	Peritonealna dijaliza	
+Z50	preferred	Njega koja uključuje upotrebu rehabilitacionih procedura	Njega koja uključuje upotrebu rehabilitacionih procedura
+Z50	exclusion	savjetovanje Z70-Z71	
+Z50.0	preferred	Rehabilitacija od bolesti srca	Rehabilitacija srca
+Z50.1	preferred	Druga fizikalna terapija	Druga fizikalna terapija
+Z50.1	inclusion	Terapijske i pomoćne vježbe za povratak funkcije	
+Z50.2	preferred	Rehabilitacija alkoholičara	Rehabilitacija alkoholicara
+Z50.3	preferred	Rehabilitacija narkomana	Rehabilitacija narkomana
+Z50.4	preferred	Psihoterapija, neklasifikovana na drugom mjestu	Psihoterapija
+Z50.5	preferred	Terapija govora	Terapija govora
+Z50.6	preferred	Ortoptičke vježbe	Ortopticke vježbe
+Z50.7	preferred	Radna terapija i profesionalna rehabilitacija, neklasifikovana na drugom mjestu	Profesionalna terapija i rehabilitacija
+Z50.8	preferred	Njega koja uključuje korišćenje rehabilitacionih procedura	Njega koja uključuje koriscenje rehabilitacionih procedura
+Z50.8	inclusion	Rehabilitacija pušača	
+Z50.8	inclusion	Trening u dnevnim životnim aktivnostima NEC	
+Z50.9	preferred	Njega koja uključuje rehabilitacione procedure, neoznačena	Njega koja uključuje rehabilitacione procedure, neoznačena
+Z50.9	inclusion	Rehabilitacija NOS	
+Z51	preferred	Druga medicinska njega	Druga medicinska njega
+Z51	exclusion	kontrolni pregled nakon liječenja Z08-Z09	
+Z51.0	preferred	Radioterapijska seansa	Radioterapijska seansa
+Z51.1	preferred	Hemoterapijska seansa zbog tumora	Hemoterapijska seansa zbog tumora
+Z51.2	preferred	Druga hemoterapija	Druga hemioterapia
+Z51.2	inclusion	Hemoterapija održavanja NOS	
+Z51.2	exclusion	profilaktička hemoterapija radi imunizacije Z23-Z27, Z29.-	
+Z51.3	preferred	Transfuzija krvi (bez utvrđene dijagnoze)	Transfuzija krvi bez utvrdjene dijagnoze
+Z51.4	preferred	Pripremna njega za kasnije liječenje, neklasifikovana na drugom mjestu	Pripremna njega za kasnije lijecenje, neklasifikovana na drugom mjestu
+Z51.4	exclusion	pripremna njega za dijalizu Z49.0	
+Z51.5	preferred	Palijativna njega	Palijativna njega
+Z51.6	preferred	Desenzibilizacija na alergene	Desenzibilizacija na alergene
+Z51.8	preferred	Druga specifična medicinska njega	Druga specificna medicinska njega
+Z51.8	exclusion	odmor njegovatelja Z75.5 	
+Z51.9	preferred	Medicinska njega, neoznačena	Medicinska njega, neoznačena
+Z52	preferred	Davaoci organa i tkiva	Davaoci organa i tkiva
+Z52	exclusion	pregled potencijalnog davaoca organa Z00.5	
+Z52.0	preferred	Davalac krvi	Davalac krvi
+Z52.0	inclusion	Komponente krvi kao što su limfociti, krvne pločice ili matične ćelije	
+Z52.1	preferred	Davalac kože	Davalac kože
+Z52.2	preferred	Davalac kosti	Davalac kosti
+Z52.3	preferred	Davalac koštane srži	Davalac kostne srži
+Z52.4	preferred	Davalac bubrega	Davalac bubrega
+Z52.5	preferred	Davalac rožnjače	Davalac rožnjače
+Z52.6	preferred	Davalac jetre	Davalac jetre
+Z52.7	preferred	Davalac srca	Davalac srca
+Z52.8	preferred	Davalac drugih organa i tkiva	Davalac drugih organa i tkiva
+Z52.9	preferred	Davalac neoznačenog organa ili tkiva	Davalac neoznačenog organa ili tkiva
+Z52.9	inclusion	Davalac NOS	
+Z53	preferred	Osobe u kontaktu sa zdravstvenom službom zbog označenih procedura koje nijesu izvršene	Osobe u kontaktu sa zdravstvenom sluzbom zbog označenih procedura koje nijesu izvršene
+Z53	exclusion	neizvršena imunizacija Z28.-	
+Z53.0	preferred	Procedura neizvršena zbog kontraindikacije	Procedura neizvršena zbog kontraindikacije
+Z53.1	preferred	Procedura neizvršena zbog odluke pacijenta na osnovu ličnog uvjerenja ili pritiska sredine	Procedura neizvršena zbog odluke pacijenta na osnovu licnog uvjerenja ili pritiska sredine
+Z53.2	preferred	Procedura neizvršena zbog odluke pacijenta iz drugih ili neoznačenih razloga	Procedura neizvršena zbog odluke pacijenta na drugih ili neoznačenih razloga
+Z53.8	preferred	Procedura neizvršena zbog drugih razloga	Procedura neizvršena zbog drugih razloga
+Z53.9	preferred	Procedura neizvršena zbog neoznačenih razloga	Procedura neizvršena zbog neoznačenih razloga
+Z54	preferred	Oporavljanje	Oporavljanje
+Z54.0	preferred	Oporavljanje poslije operacije	Oporavljanje poslije operacije
+Z54.1	preferred	Oporavljanje poslije radioterapije	Oporavljanje poslije radioterapije
+Z54.2	preferred	Oporavljanje poslije hemoterapije	Oporavljanje poslije hemioterapije
+Z54.3	preferred	Oporavljanje poslije psihoterapije	Oporavljanje poslije psihoterapije
+Z54.4	preferred	Oporavljanje poslije liječenja preloma	Oporavljanje poslije lijecenja preloma
+Z54.7	preferred	Oporavljanje poslije kombinovanog liječenja	Oporavljanje poslije kombinovanog lijecenja
+Z54.7	inclusion	Oporavljanje poslije bilo koje kombinacije liječenja klasifikovane kao Z54.0-Z54.4	
+Z54.8	preferred	Oporavljanje poslije drugog liječenja	Oporavljanje poslije drugog lijecenja
+Z54.9	preferred	Oporavljanje poslije neoznačenog liječenja	Oporavljanje poslije neoznačenog lijecenja
+Z55-Z65	preferred	Osobe sa potencijalnom opasnošću po zdravlje povezanom sa socioekonomskim i psihosocijalnim uslovima	
+Z55	preferred	Problemi sa obrazovanjem i pismenošću	Problemi sa obrazovanjem i pismenoscu
+Z55	exclusion	poremećaj psihološkog razvoja F80-F89	
+Z55.0	preferred	Nepismenost ili nizak nivo pismenosti	Nepismenost ili nizak nivo pismenosti
+Z55.1	preferred	Nedostupnost školovanja	Nedostupnost skolovanja
+Z55.2	preferred	Neuspjeh na ispitima	Neuspjeh na ispitima
+Z55.3	preferred	Neuspjeh u školi	Neuspjeh u skoli
+Z55.4	preferred	Neprilagođenost na uslove obrazovanja i neslaganje sa nastavnicima i školskim drugovima	Neprilagodjenost na uslove obrazovanja i neslaganje sa nastavnicima i skolskim drugovima
+Z55.8	preferred	Drugi problemi povezani sa obrazovanjem i pismenošću	Drugi problemi povezani sa obrazovanjem i pismenoscu
+Z55.8	inclusion	Neadekvatno podučavanje	
+Z55.9	preferred	Problem povezan sa obrazovanjem i pismenošću, neoznačeni	Problemi povezani sa obrazovanjem i pismenoscu, neoznačeni
+Z56	preferred	Problemi zaposlenih i nezaposlenih osoba	Problemi zaposlenih i nezaposlenih osoba
+Z56	exclusion	profesionalna izloženost faktorima rizika Z57.- 	
+Z56	exclusion	problemi povezani sa stanovanjem i imovinskim stanjem Z59.- 	
+Z56.0	preferred	Nezaposlenost, neoznačena	Nezaposlenost, neoznačena
+Z56.1	preferred	Promjena posla	Promjena posla
+Z56.2	preferred	Strah od gubitka posla	Strah od gubitka posla
+Z56.3	preferred	Stresogeni uslovi rada	Stresogeni uslovi rada
+Z56.4	preferred	Neslaganje sa pretpostavljenim ili kolegama	Neslaganje sa pretpostavljenim ili kolegama
+Z56.5	preferred	Neodgovarajući posao	Neodgovarajuci posao
+Z56.5	inclusion	Otežani uslovi na poslu 	
+Z56.6	preferred	Drugi fizički ili psihički napor povezan sa poslom	Drugi fizicki ili psihicki napor povezan sa poslom
+Z56.7	preferred	Drugi i neoznačeni problemi u vezi sa zapošljavanjem	Drugi i neoznačeni problemi nezaposlenih osoba
+Z57	preferred	Profesionalna izloženost faktorima rizika	Profesionalna izlozenost faktorima rizika
+Z57.0	preferred	Profesionalna izloženost buci	Profesionalna izlozenost buci
+Z57.1	preferred	Profesionalna izloženost radijaciji	Profesionalna izlozenost radijaciji
+Z57.2	preferred	Profesionalna izloženost prašini	Profesionalna izlozenost prasini
+Z57.3	preferred	Profesionalna izloženost drugim zagađivačima vazduha	Profesionalna izlozenost drugim zagadjivacima vazduha
+Z57.4	preferred	Profesionalna izloženost toksičnim agensima u poljoprivredi	Profesionalna izlozenost toksicnim agensima u poljoprivredi
+Z57.4	inclusion	Čvrste supstance, tečnosti, gasovi ili isparenja	
+Z57.5	preferred	Profesionalna izloženost toksičnim agensima u drugim granama industrije	Profesionalna izlozenost toksicnim agensima u drugim granama industrije
+Z57.5	inclusion	Čvrste supstance, tečnosti, gasovi ili isparenja	
+Z57.6	preferred	Profesionalna izloženost ekstremnim temeperaturama	Profesionalna izlozenost ekstremnim temeperaturama
+Z57.7	preferred	Profesionalna izloženost vibraciji	Profesionalna izlozenost vibraciji
+Z57.8	preferred	Profesionalna izloženost drugim faktorima rizika	Profesionalna izlozenost drugim faktorima rizika
+Z57.9	preferred	Profesionalna izloženost neoznačenim faktorima rizika	Profesionalna izlozenost neoznačenim faktorima rizika
+Z58	preferred	Problemi koji se odnose na fizičku sredinu	Problemi osoba u zivotnoj sredini
+Z58	exclusion	Profesionalna izloženost Z57.-	
+Z58.0	preferred	Izloženost buci	Izlozenost buci
+Z58.1	preferred	Izloženost zagađenom vazduhu	Izlozenost zagadjenom vazduhu
+Z58.1	exclusion	Duvanski dim Z58.7	
+Z58.2	preferred	Izloženost zagađenoj vodi	Izlozenost zagadjenoj vodi
+Z58.3	preferred	Izloženost zagađenom tlu	Izlozenost zagadjenom zemljistu
+Z58.4	preferred	Izloženost radijaciji	Izlozenost radijaciji
+Z58.5	preferred	Izloženost drugom zagađenju	Izlozenost drugom zagadjenju
+Z58.6	preferred	Neodgovarajuće snabdijevanje pijaćom vodom	Neodgovarajuce snabdijevanje vodom
+Z58.6	exclusion	Posljedice žeđi T73.1	
+Z58.7	preferred	Izloženost duvanskom dimu	Izlozenost duvanskom dimu
+Z58.7	inclusion	Pasivno pušenje	
+Z58.7	exclusion	Duševni poremećaji i poremećaji ponašanja vezani za korišćenje duvana F17.-	
+Z58.7	exclusion	Lična anamneza o zloupotrebi psihoaktivnih supstanci Z86.4	
+Z58.7	exclusion	Korišćenje duvana Z72.0	
+Z58.8	preferred	Drugi problemi koji se odnose na fizičku sredinu	Drugi opsti problemi osoba u zivotnoj sredini
+Z58.9	preferred	Problem koji se odnosi na fizičku sredinu, neoznačen	Problem osoba u zivotnoj sredini, neoznačen
+Z59	preferred	Problemi povezani sa stanovanjem i imovinskim stanjem 	Problemi stanovanja i ekonomski problemi
+Z59	exclusion	Neodgovarajuće snabdijevanje pijaćom vodom Z58.6	
+Z59.0	preferred	Beskućništvo	Beskucnik
+Z59.1	preferred	Neodgovarajući uslovi stanovanja	Neodgovarajuci stambeni uslovi
+Z59.1	inclusion	Nedostatak grijanja	
+Z59.1	inclusion	Manjak prostora	
+Z59.1	inclusion	Tehnički nedostaci u kući koji sprečavaju odgovarajuću njegu	
+Z59.1	inclusion	Nezadovoljavajuće okruženje	
+Z59.1	exclusion	Problemi koji se odnose na fizičku sredinu Z58.-	
+Z59.2	preferred	Neslaganje sa susjedima, stanarima i stanodavcima	Neslaganje sa susjedima, stanarima i stanodavcima
+Z59.3	preferred	Problemi koji se odnose na stanovanje u ustanovi za smještaj	Problemi povezani sa stanovanjem u institucijama
+Z59.3	inclusion	Smještaj u školi sa cjelodnevnim boravkom (školski internat)	
+Z59.3	exclusion	Odgajanje u ustanovi Z62.2	
+Z59.4	preferred	Nedostatak odgovarajuće hrane	Nedostatak odgovarajuce ishrane
+Z59.4	exclusion	Posledice gladi T73.0	
+Z59.4	exclusion	Neprikladna ishrana ili navike u ishrani Z72.4	
+Z59.4	exclusion	Neuhranjenost E40-E46	
+Z59.5	preferred	Krajnje siromaštvo	Krajnje siromastvo
+Z59.6	preferred	Niska primanja	Mala primanja
+Z59.7	preferred	Nedovoljno socijalno osiguranje i socijalna pomoć	Nedovoljno socijalno osiguranje i socijalna zastita
+Z59.8	preferred	Drugi problemi povezani sa stanovanjem i imovinskim stanjem 	Drugi problemi stanovanja i ekonomski problemi
+Z59.8	inclusion	Zaplena imovine zbog neotplaćivanja kredita	
+Z59.8	inclusion	Stanovanje u izolaciji	
+Z59.8	inclusion	Problemi sa kreditorima	
+Z59.9	preferred	Problem povezani sa stanovanjem i imovinskim stanjem, neoznačen	Problem stanovanja i ekonomski problemi, neoznačeni
+Z60	preferred	Problemi koji se odnose na društvenu sredinu	Problemi osoba u socijalnoj sredini
+Z60.0	preferred	Problemi prilagođavanja prelaznim životnim razdobljima	Problemi prilagodjavanja zivotnim ciklicnim promjenama
+Z60.0	inclusion	Prilagođavanje na penzionisanje (penziju)	
+Z60.0	inclusion	Sindrom praznog kućnog gnijezda	
+Z60.1	preferred	Atipična situacija u pogledu roditeljstva	Atipicna situacija u pogledu roditelja
+Z60.1	definition	Problemi koji se odnose na roditeljsku ulogu (odgajanje djece) sa jednim roditeljem ili gdje biološki roditelji ne žive zajedno	
+Z60.2	preferred	Samački život	Samacki zivot
+Z60.3	preferred	Teškoće u prilagođavanju kulturološkoj sredini	Teskoce u prilagodjavanju kulturnoj sredini
+Z60.3	inclusion	Selidba	
+Z60.3	inclusion	Promjena socijalnog statusa	
+Z60.4	preferred	Isključivanje i odbacivanje od društva	Socijalno iskljucivanje ili odbacivanje
+Z60.4	definition	Isključivanje i odbacivanje zasnovani na ličnim osobinama, kao što su neobičan fizički izgled, bolest ili ponašanje	
+Z60.4	exclusion	Žrtva diskriminacije zbog rasističkih ili religioznih razloga Z60.5	
+Z60.5	preferred	Žrtva opažene negativne diskriminacije i progona	Zrtva opazene negativne diskriminacije i progona
+Z60.5	definition	Proganjanje ili diskriminacija, navodna ili stvarna, na osnovu pripadnosti nekoj grupi (definisanoj bojom kože, religijom, nacionalnoj pripadnosti) više nego zbog ličnih osobina 	
+Z60.5	exclusion	Isključivanje iz društva i odbacivanje Z60.4	
+Z60.8	preferred	Drugi problemi povezani sa društvenom sredinom	Drugi problemi povezani sa socijalnom sredinom
+Z60.9	preferred	Problem povezan sa društvenom sredinom, neoznačen	Problem povezan sa socijalnom sredinom, neoznačen
+Z61	preferred	Problemi povezani sa negativnim životnim doživljajima u djetinjstvu	Problemi sa negativnim zivotnim dozivljajima u djetinjstvu
+Z61	exclusion	Sindromi zlostavljanja T74.-	
+Z61.0	preferred	Nedostatak ljubavi u djetinjstvu	Nedostatak ljubavi u djetinjstvu
+Z61.0	definition	Gubitak bliske emocionalne veze u djetinjstvu, na primjer s roditeljem, bratom ili sestrom, vrlo bliskim prijateljem ili kućnim ljubimcem, zbog smrti ili trajnog odvajanja ili odbacivanja 	
+Z61.1	preferred	Odvajanje od kuće u djetinjstvu	Odvajanje od kuce u djetinjstvu
+Z61.1	definition	Prijem u hraniteljski dom, bolnicu ili drugu instituciju što je uzrokovalo psihosocijalni stres ili prisilno uključivanje u neku aktivnost daleko od kuće na duži period	
+Z61.2	preferred	Izmijenjeni porodični odnosi u djetinjstvu	Izmijenjeni porodicni odnosi u djetinjstvu
+Z61.2	definition	Dolazak nove osobe u porodicu što je rezultiralo negativnom promjenom u dječjim odnosima. Može uključiti novo sklapanje braka roditelja ili rođenje brata ili sestre	
+Z61.3	preferred	Događaji koji su izazvali gubitak samopouzdanja u djetinjstvu	Dogadjaji koji izazivaju gubitak samopouzdanja u djetinjstvu
+Z61.3	definition	Događaji koji  izazivaju  osjećaj manje vrijednosti djeteta kao što su neuspjeh u zadacima sa velikim ličnim zalaganjima; objelodanjenje ili otkriće sramnih ili na drugi način stigmatizujućih ličnih ili porodičnih događaja; i druga ponižavajuća iskustva	
+Z61.4	preferred	Problemi u vezi sa navodnim seksualnim zlostavljanjem djeteta od strane osobe koja pripada grupi za pružanje primarne podrške	Problemi povezani sa navodnom seksualnom zloupotrebom djeteta od strane osobe koja je u grupi za pruzanje primarne podrske
+Z61.4	definition	Problemi u vezi sa bilo kojim oblikom fizičkog kontakta ili izloženosti između odraslog člana djetetovog domaćinstva i djeteta koji je doveo do seksualnog uzbuđenja, bez obzira na to da li je dijete voljno uključeno, ili nije u seksualnu aktivnost (npr. bilo kakav genitalni kontakt ili manipulacija ili namjerno otkrivanje dojki ili genitalija)	
+Z61.5	preferred	Problemi povezani sa navodnim seksualnim zlostavljanjem djeteta od strane osobe koja je izvan grupe za pružanje primarne podrške	Problemi povezani sa navodnom seksualnom zloupotrebom djeteta od strane osobe koja je izvan grupe za pruzanje primarne podrske
+Z61.5	definition	Problemi povezani sa kontaktom ili pokušajem kontakta sa dojkama ili genitalijama djeteta ili druge osobe; seksualna izloženost u bliskoj konfrontaciji ili pokušaju da se svuče odjeća ili zavede dijete, bitno starije osobe koja ne pripada djetetovoj porodici  temeljeni na položaju ili statusu, ili učinjeni na djetetovo protivljenje	
+Z61.6	preferred	Problemi povezani sa navodnom fizičkom zloupotrebom djeteta	Problemi povezani sa navodnom fizickom zloupotrebom djeteta
+Z61.6	definition	Problemi povezani sa prošlim događajima u kojima je bilo koja odrasla osoba iz domaćinstva povrijedila  dijete u znatnoj medicinskoj mjeri (npr. prelomi, uočljive modrice) ili gdje je došlo do oblika abnormalnog nasilja (npr. udaranje djeteta tvrdim ili oštrim predmetima, paljenje ili vezivanje djeteta)	
+Z61.7	preferred	Lično zastrašujuće iskustvo u djetinjstvu	Licno iskustvo vezano za strahovanje u djetinjstvu
+Z61.7	definition	Iskustvo koje predstavlja prijetnju za budućnost djeteta, kao što je otmica, prirodne nepogode koje ugrožavaju život, povreda koja je narušila djetetovu sliku o sebi ili sigurnost, ili prisustvovanje teškoj traumi voljene osobe	
+Z61.8	preferred	Drugi negativni životni događaji u djetinjstvu	Drugi negativni zivotni dogadjaji u djetinjstvu
+Z61.9	preferred	Negativni životni događaj u djetinjstvu, neoznačen	Negativni zivotni dogadjaj u djetinjstvu, neoznačen
+Z62	preferred	Drugi problemi u vezi sa vaspitanjem	Drugi problemi vaspitanja
+Z62	exclusion	Sindrom zlostavljanja T74.-	
+Z62.0	preferred	Neodgovarajući roditeljski nadzor i kontrola	Neodgovarajuci roditeljski nadzor i kontrola
+Z62.0	definition	Neupućenost roditelja u ono što dijete radi ili gdje se nalazi; slaba kontrola; nedostatak brige ili izostajanje pokušaja intervencije kada se dijete nađe u rizičnim situacijama 	
+Z62.1	preferred	Pretjerana roditeljska zaštita	Pretjerana roditeljska zastita
+Z62.1	definition	Tip vaspitanja koji stvara infantilnost i sprečava samostalno ponašanje	
+Z62.2	preferred	Vaspitanje u instituciji 	Vaspitanje u instituciji
+Z62.2	definition	Grupni odgoj tuđe djece gdje odgovornosti roditelja uveliko preuzima neka ustanova (kao što su jaslice sa stalnim boravkom, sirotište ili dom za djecu), ili dugotrajno liječenje zbog koga je dijete u bolnici, u domu za rekonvalescente ili sličnoj ustanovi, bez bar jednog roditelja koji živi sa djetetom	
+Z62.3	preferred	Neprijateljstvo prema djetetu i kada je dijete nečija žrtva	Neprijateljstvo prema djetetu ili okrivljavanje djeteta
+Z62.3	definition	Negativno ponašanje roditelja usmjereno prema dijetetu kao pojedincu,  koje je dugotrajno i odnosi se na navike djeteta (npr. automatsko optuživanje djeteta za sve probleme u domaćinstvu ili pripisivanje negativnih osobina djetetu)	
+Z62.4	preferred	Emotivno zanemarivanje djeteta	Emotivno zapostavljanje djeteta
+Z62.4	definition	Roditelj se obraća djetetu sa odbacivanjem ili na bezosjećan način. Nedostatak interesovanja za dijete, nedostatak razumijevanja za dječije poteškoće i nagrađivanja i ohrabrivanja. Razdražljivo reagovanje na dječiju zabrinutost, nedovoljna fizička utjeha i emocionalna toplina.	
+Z62.5	preferred	Drugi problemi povezani sa zanemarivanjem u vaspitanju	Drugi problemi povezani sa zapostavljanjem u vaspitanju
+Z62.5	inclusion	Nedostatak učenja i iskustva u igri	
+Z62.6	preferred	Neprikladan pritisak roditelja i druge abnormalnosti u vaspitanju	Neodgovarajuci pritisak roditelja i druga nenormalna svojstva vaspitanja
+Z62.6	definition	Roditelji koji prisiljavaju dijete da bude drugačije u odnosu na uobičajene norme, bilo da je riječ o neodgovarajućem ponašanju u pogledu pola (npr.oblačenje dječaka u odjeću za djevojčice), u odnosu na uzrast (npr.prisiljavanje djeteta da preuzme odgovornost starijih) ili na neki drugi način (npr. prisiljavanje djeteta da se angažuje u neželjenim ili preteškim aktivnostima)	
+Z62.8	preferred	Drugi označeni problemi povezani sa vaspitanjem	Drugi označeni problemi vezani za vaspitanje
+Z62.9	preferred	Problem povezan sa vaspitanjem, neoznačen	Problem povezan sa vaspitanjem, neoznačen
+Z63	preferred	Drugi problemi povezani sa grupom za primarnu podršku, uključujući i porodičnu sredinu	Drugi problemi sa grupom za primarnu podrsku, uključujući i porodicnu sredinu
+Z63	exclusion	Sindromi zlostavljanja T74.-	
+Z63	exclusion	Problemi povezani sa: negativnim životnim događajima u djetinjstvu Z61.-	
+Z63	exclusion	Problemi povezani sa: vaspitanjem Z62.-	
+Z63.0	preferred	Problemi u odnosu sa supružnikom ili partnerom	Problemi u odnosima sa bracnim drugom ili partnerom
+Z63.0	definition	Neslaganje među partnerima koje izaziva ozbiljan i dugotrajan gubitak kontrole, opšte neprijateljstvo ili kritičnost ili neprekidnu atmosferu ozbiljnog međusobnog nasilja (tuče)  	
+Z63.1	preferred	Problemi u odnosima sa roditeljima i rođacima	Problemi u odnosima sa roditeljima i rodjacima
+Z63.2	preferred	Neodgovarajuća podrška porodice	Neodgovarajuca podrska porodice
+Z63.3	preferred	Odsustvo člana porodice	Odsustvo clana porodice
+Z63.4	preferred	Nestanak i smrt člana porodice	Nestanak ili smrt clana porodice
+Z63.4	inclusion	Pretpostavljena smrt člana porodice	
+Z63.5	preferred	Raspad porodice razdvajanjem ili razvodom	Raspad porodice razdvajanjem ili razvodom
+Z63.5	inclusion	Otuđenost	
+Z63.6	preferred	Izdržavani rođak kome je potrebna njega u kući	Izdrzavani roðak kome je potrebna njega u kuci
+Z63.7	preferred	Drugi stresogeni životni događaji koji utiču na porodicu i dom	Drugi stresogeni zivotni dogadjaji koji uticu na porodicu i dom
+Z63.7	inclusion	Anksioznost (normalna) zbog bolesne osobe u porodici	
+Z63.7	inclusion	Zdravstveni problemi u porodici	
+Z63.7	inclusion	Bolestan ili uznemiren član porodice	
+Z63.7	inclusion	Izolovana porodica	
+Z63.8	preferred	Drugi označeni problemi povezani sa grupom za primarnu podršku	Drugi označeni problemi povezani sa grupom za primarnu podrsku
+Z63.8	inclusion	Neslaganje u porodici NOS	
+Z63.8	inclusion	Prenaglašena emotivna atmosfera u porodici	
+Z63.8	inclusion	Neodgovarajuća ili poremećena komunikacija u porodici	
+Z63.9	preferred	Problem povezan sa grupom za primarnu podršku, neoznačen	Problem povezan sa grupom za primarnu podrsku, neoznačen
+Z64	preferred	Problemi uzrokovani određenim psihosocijalnim uslovima	Problemi uzrokovani psihosocijalnim uslovima
+Z64.0	preferred	Problemi povezani sa neželjenom trudnoćom	Problemi povezani sa nezeljenom trudnocom
+Z64.0	exclusion	Nadzor nad visokorizičnom trudnoćom  zbog socijalnih problema Z35.7	
+Z64.1	preferred	Problemi povezani sa multiparitetom	Problemi povezani sa multiparitetom
+Z64.1	exclusion	Nadzor nad trudnoćom sa visokim multiparitetom Z35.4	
+Z64.2	preferred	Traženje i prihvatanje fizičkih, nutritivnih i hemijskih intervencija za koje se zna da su štetne i opasne	Trazenje i prihvatanje fizickih, nutritivnih i hemijskih intervencija za koje se zna da su stetne i opasne
+Z64.2	exclusion	Supstance koje izazivaju zavisnost – vidi Abecedni indeks	
+Z64.3	preferred	Traženje i prihvatanje ponašanja i psihosocijalnih intervencija za koje se zna da su štetne i opasne	Trazenje i prihvatanje ponašanja i psihosocijalnih intervencija za koje se zna da su stetne i opasne
+Z64.4	preferred	Neslaganje sa savjetnicima	Neslaganje sa savjetodavnom sluzbom
+Z64.4	inclusion	Neslaganje sa: službenikom za uslovnu kaznu	
+Z64.4	inclusion	Neslaganje sa: socijalnim radnikom	
+Z65	preferred	Problemi uzrokovani drugim psihosocijalnim okolnostima	Problemi uzrokovani drugim psihosocijalnim uslovima
+Z65	exclusion	Sadašnja povreda – vidi Abecedni indeks	
+Z65.0	preferred	Osuda bez zatvora u građanskom i krivičnom postupku	Osuda bez zatvora u gradjanskom i krivicnom postupku
+Z65.1	preferred	Kazna zatvorom i drugi vid lišavanja slobode	Zatvaranje i drugi vid tamnicenja
+Z65.2	preferred	Problemi povezani sa oslobađanjem iz zatvora	Problemi povezani sa oslobadjanjem iz zatvora
+Z65.3	preferred	Problemi povezani sa drugim zakonskim okolnostima	Problemi povezani sa drugim zakonskim okolnostima
+Z65.3	inclusion	Hapšenje	
+Z65.3	inclusion	Presuda o starateljstvu ili izdržavanju djeteta	
+Z65.3	inclusion	Parničenje	
+Z65.3	inclusion	Sudsko gonjenje	
+Z65.4	preferred	Žrtva kriminala i terorizma	Zrtva kriminala i terorizma
+Z65.4	inclusion	Žrtva mučenja	
+Z65.5	preferred	Izloženost katastrofi, ratu i drugim vidovima neprijateljstva	Izlozenost katastrofi, ratu i drugim vidovima neprijateljstva
+Z65.5	exclusion	Žrtva opažene diskriminacije ili progona Z60.5	
+Z65.8	preferred	Drugi označeni problemi povezani sa psihosocijalnim okolnostima	Drugi označeni problemi povezani sa psihosocijalnim okolnostima
+Z65.9	preferred	Problem povezan sa neoznačenim psihosocijalnim okolnostima	Problem povezan sa neoznačenim psihosocijalnim okolnostima
+Z70-Z76	preferred	Osobe u kontaktu sa zdravstvenim službama u drugim okolnostima 	
+Z70	preferred	Savjetovanje u vezi sa seksualnim stavom, ponašanjem i orijentacijom	Konsultovanje u vezi sa seksualnim stavom, ponasanjem i orijentacijom
+Z70	exclusion	Savjetovanje u vezi sa kontracepcijom ili rađanjem Z30-Z31	
+Z70.0	preferred	Savjetovanje u vezi sa seksualnim stavom	Konsultovanje u vezi sa stavom o seksu
+Z70.0	inclusion	Osoba zabrinuta vezano za zbunjenosti, stidljivosti i drugih negativnih reakcija na pitanja seksualnosti	
+Z70.1	preferred	Savjetovanje u vezi seksualnog ponašanja i orijentacije pacijenta	Konsultovanje u pogledu seksualnog ponašanja i orijentacije pacijenata
+Z70.1	inclusion	Zabrinutost pacijenta u vezi sa: impotencijom	
+Z70.1	inclusion	Zabrinutost pacijenta u vezi sa: frigidnošću	
+Z70.1	inclusion	Zabrinutost pacijenta u vezi sa: promiskuitetom	
+Z70.1	inclusion	Zabrinutost pacijenta u vezi sa: seksualnom orjentacijom	
+Z70.2	preferred	Savjetovanje u vezi sa seksualnim ponašanjem i orijentacijom trećeg lica	Konsultovanje u vezi sa seksualnim ponasanjem i orijentacijom trece osobe
+Z70.2	inclusion	Savjet koji se traži u vezi seksualnog ponašanja i orijentacije: djeteta	
+Z70.2	inclusion	Savjet koji se traži u vezi seksualnog ponašanja i orijentacije: partnera	
+Z70.2	inclusion	Savjet koji se traži u vezi seksualnog ponašanja i orijentacije: supružnika	
+Z70.3	preferred	Savjetovanje u vezi seksualnog stava, ponašanja i orijentacije u situaciji kada je više strana zainteresovano	Konsultovanje u pogledu seksualnog stava, ponašanja i orijentacije u situaciji kada je više strana zainteresovano
+Z70.8	preferred	Drugo savjetovanje o seksualnosti	Drugo savjetovanje u pogledu seksa
+Z70.8	inclusion	Seksualno obrazovanje	
+Z70.9	preferred	Seksualno savjetovanje, neoznačeno	Seksualno savjetovanje, neoznačeno
+Z71	preferred	Osobe u kontaktu sa zdravstvenom službom radi drugog savjetovanja i medicinskog savjeta, neklasifikovano na drugom mjestu	Osobe u kontaktu sa zdravstvenom sluzbom radi drugog konsultovanja i medicinskog savjeta
+Z71	exclusion	Savjetovanje u vezi sa kontracepcijom ili rađanjem Z30–Z31	
+Z71	exclusion	Seksualno savjetovanje Z70.-	
+Z71.0	preferred	Osoba koja se savjetuje u ime druge osobe	Osoba koja se konsultuje u korist druge osobe
+Z71.0	inclusion	Savjet ili tretman za treće lice koje nije prisutno	
+Z71.0	exclusion	Anksioznost (normalna) zbog bolesne osobe u porodici Z63.7	
+Z71.1	preferred	osoba koja ima strah da je bolesna a kod koje nije postavljena dijagnoza	Osoba sa zalbama straha kod koje nije postavljena nikakva dijagnoza
+Z71.1	inclusion	Stanje straha koje se ne manifestuje	
+Z71.1	inclusion	Problem je bio normalno stanje	
+Z71.1	inclusion	"Zabrinuto zdrav"	
+Z71.1	exclusion	Medicinsko posmatranje i praćenje zbog sumnje na bolesti ili stanja Z03.-	
+Z71.2	preferred	Osoba koja se savjetuje zbog objašnjenja nalaza ispitivanja	Osoba koja se konsultuje radi objasnjenja nalaza ispitivanja
+Z71.3	preferred	Dijetetsko savjetovanje i nadzor	Dijetetsko ispitivanje i nadzor
+Z71.3	inclusion	Dijetetsko savjetovanje i nadzor (za): neoznačeno	
+Z71.3	inclusion	Dijetetsko savjetovanje i nadzor (za): zapaljenje debelog crijeva	
+Z71.3	inclusion	Dijetetsko savjetovanje i nadzor (za): šećernu bolest	
+Z71.3	inclusion	Dijetetsko savjetovanje i nadzor (za): alergije na hranu ili nepodnošenje hrane	
+Z71.3	inclusion	Dijetetsko savjetovanje i nadzor (za): zapaljenje sluznice želuca	
+Z71.3	inclusion	Dijetetsko savjetovanje i nadzor (za): povećanje holesterola u krvi	
+Z71.3	inclusion	Dijetetsko savjetovanje i nadzor (za): gojaznost	
+Z71.4	preferred	Savjetovanje i nadzor zbog zloupotrebe alkohola	Savjetovanje i nadzor zbog zloupotrebe alkohola
+Z71.4	exclusion	Rehabilitacione procedure alkoholičara Z50.2	
+Z71.5	preferred	Savjetovanje i nadzor zbog zloupotrebe narkotika	Savjetovanje i nadzor zbog narkomanije
+Z71.5	exclusion	Rehabilitacione procedure narkomana Z50.3	
+Z71.6	preferred	Savjetovanje zbog zloupotrebe duvana	Savjetovanje i zbog zloupotrebe duvana
+Z71.6	exclusion	Rehabilitacione procedure pušača Z50.8	
+Z71.7	preferred	Savjetovanje u vezi sa virusom humane imunodeficijencije (HIV)	Savjetovanje u vezi sa virusom humane imunodeficijencije (hiv)
+Z71.8	preferred	Drugo označeno savjetovanje	Drugo označeno savjetovanje
+Z71.8	inclusion	Savjetovanje zbog rodoskrnavljenja (konsangviniteta)	
+Z71.9	preferred	Savjetovanje, neoznačeno	Savjetovanje, neoznačeno
+Z71.9	inclusion	Medicinski savjet, NOS	
+Z72	preferred	Problemi povezani sa načinom života	Problemi povezani sa nacinom zivota
+Z72	exclusion	Problemi povezani sa: savlađivanjem životnih teškoća Z73.-	
+Z72	exclusion	Problemi povezani sa: društveno-ekonomskim i psihosocijalnim okolnostima Z55-Z65	
+Z72.0	preferred	Upotreba duvana	Upotreba duvana
+Z72.0	exclusion	Zavisnost od duvana F17.2	
+Z72.1	preferred	Upotreba alkohola	Upotreba alkohola
+Z72.1	exclusion	Zavisnost od alkohola F10.2	
+Z72.2	preferred	Upotreba narkotika	Upotreba droga
+Z72.2	exclusion	Zloupotreba supstanci koje ne izazivaju zavisnost F55	
+Z72.2	exclusion	Zavisnost od narkotika  F11- F16  F19.- sa zajedničkom četrvrtom karakteristikom	
+Z72.3	preferred	Nedostatak fizičke aktivnosti	Odsustvo fizickog vjezbanja
+Z72.4	preferred	Neodgovarajuca ishrana i navike ishrane	Neodgovarajuca ishrana i navike u ishrani
+Z72.4	exclusion	Poremećaji ponašanja ishrane u doba odojčeta ili u djetinjstvu F98.2-F98.3	
+Z72.4	exclusion	Poremećaji ishrane F50.-	
+Z72.4	exclusion	Nedostatak adekvatne hrane Z59.4	
+Z72.4	exclusion	Neuhranjenost i drugi nedostaci ishrane E40-E64	
+Z72.5	preferred	Visoko rizično seksualno ponašanje	Visoko rizicno seksualno ponasanje
+Z72.6	preferred	Kockanje i klađenje	Kockanje i kladjenje
+Z72.6	exclusion	Kompulzivno ili patološko kockanje F63.0	
+Z72.8	preferred	Drugi problemi povezani sa načinom života	Drugi problemi povezani sa nacinom zivota
+Z72.8	inclusion	Ponašanje kojim osoba sebi nanosi štetu	
+Z72.9	preferred	Problem povezan sa načinom života, neoznačen	Problem povezan sa nacinom zivota, neoznačen
+Z73	preferred	Problemi u savlađivanju životnih teškoća	Problemi u savladjivanju zivotnih teskoca
+Z73	exclusion	Problemi povezani sa društveno-ekonomskim i psihosocijalnim okolnostima Z55– Z65	
+Z73.0	preferred	"Izgaranje" (krajnja iscrpljenost)	Iscrpljenost
+Z73.0	inclusion	Stanje vitalne iscrpljenosti	
+Z73.1	preferred	Prenaglašenost crta ličnosti	Prenaglasenost nekih licnih karakteristika
+Z73.1	inclusion	Tip A ponašanja (koji se karakteriše neobuzdanom ambicijom, potrebom za visokim dostignućem, nestrpljivošću, takmičarskim duhom i pretjeranom užurbanošću)	
+Z73.2	preferred	Nedostatak  opuštanja i odmora	Odsustvo relaksacije i odmora
+Z73.3	preferred	Stres, neklasifikovan na drugom mjestu	Stres
+Z73.3	inclusion	Fizički i psihički napor NOS	
+Z73.3	exclusion	Povezan sa zaposlenošću ili nezaposlenošću Z56.-	
+Z73.4	preferred	Neadekvatne socijalne vještine, neklasifikovane na drugom mjestu	Neodgovarajuca sposobnost socijalnog prilagodjavanja
+Z73.5	preferred	Konflikt društvene prirode, neklasifikovan na drugom mjestu 	Konflikti socijalne prirode
+Z73.6	preferred	Ograničenje aktivnosti zbog invalidnosti	Ogranicene aktivnosti zbog invalidnosti
+Z73.6	exclusion	Zavisnost od tuđe njege Z74.-	
+Z73.8	preferred	Drugi problemi povezani sa savlađivanjem životnih teškoća	Drugi problemi povezani sa savladjivanjem zivotnih teskoca
+Z73.9	preferred	Problem povezan sa savlađivanjem životnih teškoća, neoznačen	Problem povezan sa savladjivanjem zivotnih teskoca
+Z74	preferred	Problemi osoba sa tuđom njegom	Problemi osoba sa tudjom njegom
+Z74	exclusion	Zavisnost od pomagala ili uređaja NEC Z99.-	
+Z74.0	preferred	Potreba za pomoći zbog smanjene pokretljivosti	Smanjena pokretljivost
+Z74.1	preferred	Potreba za pomoći u ličnoj njezi	Potreba za pomoci u licnoj njezi
+Z74.2	preferred	Potreba za pomoći u kući i nedostajanje drugog člana domaćinstva sposobnog za pružanje njege	Potreba za pomoci u kuci i nedostajanje drugog clana domacinstva sposobnog za pruzanje njege
+Z74.3	preferred	Potreba za neprekidnim nadzorom	Potreba za neprekidnim nadzorom
+Z74.8	preferred	Drugi problemi povezani sa tuđom njegom	Drugi problemi povezani sa tudjom njegom
+Z74.9	preferred	Problem povezan sa tuđom njegom, neoznačen	Problem povezan sa tudjom njegom, neoznačen
+Z75	preferred	Problemi osoba sa medicinskim ustanovama i drugom zdravstvenom zastitom	Problemi osoba sa medicinskim ustanovama i drugom zdravstvenom zastitom
+Z75.0	preferred	Medicinske usluge nisu dostupne u kući	Medicinske usluge nijesu dostupne u kuci
+Z75.0	exclusion	Nedostajanje drugog člana domaćinstva sposobnog za pružanje njege Z74.2	
+Z75.1	preferred	Osoba koja čeka prijem u odgovarajuću ustanovu na drugom mjestu	Osoba koja ceka prijem u odgovarajucu ustanovu na drugom mjestu
+Z75.2	preferred	Drugi period čekanja zbog ispitivanja i liječenja	Drugi period cekanja radi ispitivanja i lijecenja
+Z75.3	preferred	Nepostojanje i nedostupnost zdravstvenih ustanova	Nepostojanje ili nedostupnost zdravtsvenih ustanova
+Z75.3	exclusion	Nedostatak kreveta Z75.1	
+Z75.4	preferred	Nepostojanje i nedostupnost drugih agencija za pomoć	Nepostojanje ili nedostupnost drugih agencija za pomoc
+Z75.5	preferred	Odmor njegovatelja Z75.1	Njega preko vikenda
+Z75.5	definition	Obezbjeđivanje njege u zdravstvenim ustanovama, osobi koja se inače njeguje u kući, da bi se omogućilo članovima porodice da se odmore	
+Z75.5	inclusion	Njega bolesnika da bi njegova okolina mogla odmoriti	
+Z75.8	preferred	Drugi problemi povezani sa medicinskim ustanovama i drugom zdravstvenom zaštitom	Drugi problemi povezani sa medicinskim ustanovama i drugom zdravztvenom zastitom
+Z75.9	preferred	Neoznačen problem povezan sa medicinskim ustanovama i drugom zdravstvenom zaštitom	Neoznačen problem povezan sa medicinskim ustanovama i drugom zdravztvenom zastitom
+Z76	preferred	Osoba u kontaktu sa zdravstvenom službom u drugim okolnostima	Osoba u kontaktu sa zdravstvenom sluzbom u drugim okolnostima
+Z76.0	preferred	Ponovno propisivanje recepta	Ponovno propisivanje
+Z76.0	inclusion	Ponovno propisivanje recepta za: aparat	
+Z76.0	inclusion	Ponovno propisivanje recepta za: ljekove	
+Z76.0	inclusion	Ponovno propisivanje recepta za: naočare	
+Z76.0	exclusion	Izdavanje zdravstvenog uvjerenja Z02.7	
+Z76.0	exclusion	Ponovno propisivanje recepta za kontraceptive Z30.4	
+Z76.1	preferred	Zdravstveni nadzor i njega napuštenog djeteta	Zdravstveni nadzor i njega nahoceta
+Z76.2	preferred	Zdravstveni nadzor i njega drugog zdravog odojčeta i djeteta	Zdravstveni nadzor i njega zdravog odojceta i djeteta
+Z76.2	inclusion	Medicinska njega ili dojenje zdravog odojčeta u okolnostima kao što su: nepovoljni socialno-ekonomski uslovi u kući	
+Z76.2	inclusion	Medicinska njega ili dojenje zdravog odojčeta u okolnostima kao što su: čekanje hranitelja ili usvojitelja	
+Z76.2	inclusion	Medicinska njega ili dojenje zdravog odojčeta u okolnostima kao što su: majčina bolest	
+Z76.2	inclusion	Medicinska njega ili dojenje zdravog odojčeta u okolnostima kao što su: brojna djeca u kući koja onemogućavaju ili ometaju normalnu njegu	
+Z76.3	preferred	Zdrava osoba kao pratilac bolesne osobe	Zdrava osoba kao pratilac bolesnika
+Z76.4	preferred	Drugi smještaj u zdravstvenu ustanovu	Drugi smjestaj u zdravstvenu ustanovu
+Z76.4	exclusion	Beskućništvo Z59.0	
+Z76.5	preferred	Simulant (svjesno simuliranje)	Simulant (svjesno simuliranje)
+Z76.5	inclusion	Osoba izmišlja bolest (sa očiglednom motivacijom)	
+Z76.5	exclusion	Namjerno izazvan poremećaj F68.1	
+Z76.5	exclusion	Lutajući pacijent (osoba koja ide od jednog do drugog ljekara) F68.1	
+Z76.8	preferred	Osobe koje kontaktiraju sa zdravstvenom službom u drugim označenim okolnostima	Osobe koje kontaktiraju sa zdravstvenom sluzbom u druim označenim situacijama
+Z76.9	preferred	Osobe koje kontaktiraju sa zdravstvenom službom u neoznačenim okolnostima	Osobe koje kontaktiraju sa zdravstvenom sluzbom u neoznačenim situacijama
+Z80-Z99	preferred	Osobe sa potencijalnim rizicima po zdravlje koje uzrokuje porodična ili lična anamneza i izvjesni životni uslovi	
+Z80-Z99	exclusion	Kontrolni pregled Z08–Z09	
+Z80-Z99	exclusion	Praćenje medicinske njege i oporavka Z42-Z51 Z54.-	
+Z80-Z99	exclusion	Kada je porodična ili lična anamneza razlog specijalnog skrininga ili drugog pregleda ili ispitivanja Z00–Z13	
+Z80-Z99	exclusion	Kada je mogućnost oštećenja ploda razlog posmatranja ili preduzimanja određenih mjera tokom trudnoće O35.-	
+Z80	preferred	Porodična anamneza o zloćudnom tumoru	Porodična anamneza o zloćudnom tumoru
+Z80.0	preferred	Porodična anamneza o zloćudnom tumoru organa za varenje	Porodična anamneza o zloćudnom tumoru zeludacno-crijevnih organa
+Z80.0	inclusion	Stanja koja se klasifikuju pod C15–C26	
+Z80.1	preferred	Porodična anamneza o zloćudnom tumoru dušnika, dušnica i pluća	Porodična anamneza o zloćudnom tumoru dušnika, dusnica i pluća
+Z80.1	inclusion	Stanja koja se klasifikuju pod C33–C34	
+Z80.2	preferred	Porodična anamneza o zloćudnom tumoru drugih organa za disanje i organa u grudnoj duplji	Porodična anamneza o zloćudnom tumoru drugih organa za disanje i organa u grudnoj duplji
+Z80.2	inclusion	Stanja koja se klasifikuju pod C30-C32, C37-C39	
+Z80.3	preferred	Porodična anamneza o zloćudnom tumoru dojke	Porodična anamneza o zloćudnom tumoru dojke
+Z80.3	inclusion	Stanja koja se klasifikuju pod C50.-	
+Z80.4	preferred	Porodična anamneza o zloćudnom tumoru polnih organa	Porodična anamneza o zloćudnom tumoru polnih organa
+Z80.4	inclusion	Stanja koja se klasifikuju pod C51-C63	
+Z80.5	preferred	Porodična anamneza o zloćudnom tumoru mokraćnih puteva	Porodična anamneza o zloćudnom tumoru mokraćnih puteva
+Z80.5	inclusion	Stanja koja se klasifikuju pod C64-C68	
+Z80.6	preferred	Porodična anamneza o leukemiji	Porodična anamneza o leukemiji
+Z80.6	inclusion	Stanja koja se klasifikuju pod C91-C95	
+Z80.7	preferred	Porodična anamneza o drugim zloćudnIm tumorima limfnog, hematopoeznog i srodnih tkiva	Porodična anamneza o drugom zloćudnom tumoru limfnog, hematopoeznog i srodnih tkiva
+Z80.7	inclusion	Stanja koja se klasifikuju pod C81-C90, C96.-	
+Z80.8	preferred	Porodična anamneza o zloćudnom tumoru drugih organa ili sistema	Porodična anamneza o zloćudnom tumoru drugih organa ili sistema
+Z80.8	inclusion	Stanja koja se klasifikuju pod  C00-C14, C40-C49, C69-C79, C97	
+Z80.9	preferred	Porodična anamneza o zloćudnom tumoru, neoznačena	Porodična anamneza o zloćudnom tumoru, neoznačena
+Z80.9	inclusion	Stanja koja se klasifikuju pod C80.-	
+Z81	preferred	Porodična anamneza o mentalnim poremećajima i poremećajima ponašanja	Porodična anamneza o duševnim poremećajima i poremećajima ponašanja
+Z81.0	preferred	Porodična anamneza o mentalnoj retardaciji	Porodična anamneza o mentalnoj retardaciji
+Z81.0	inclusion	Stanja koja se klasifikuju pod F70-F79	
+Z81.1	preferred	Porodična anamneza o zloupotrebi alkohola	Porodična anamneza o alkoholizmu
+Z81.1	inclusion	Stanja koja se klasifikuju pod F10.-	
+Z81.2	preferred	Porodična anamneza o zloupotrebi duvana	Porodična anamneza o pusenju duvana
+Z81.2	inclusion	Stanja koja se klasifikuju pod F17.-	
+Z81.3	preferred	Porodična anamneza o zloupotrebi druge psihoaktivne supstance	Porodična anamneza o zloupotrebi drugih psihoaktivnih supstanci
+Z81.3	inclusion	Stanja koja se klasifikuju pod F11-F16, F18-F19	
+Z81.4	preferred	Porodična anamneza o zloupotrebi druge supstance	Porodična anamneza o zloupotrebi druge supstance
+Z81.4	inclusion	Stanja koja se klasifikuju pod F55	
+Z81.8	preferred	Porodična anamneza o drugim mentalnim poremećajima i poremećajima ponašanja	Porodična anamneza o drugim mentalnim poremećajima i poremećajima ponašanja
+Z81.8	inclusion	Stanja koja se klasifikuju na drugom mjestu pod F00-F99	
+Z82	preferred	Porodična anamneza o određenim onesposobljenostima i hroničnim bolestima koje izazivaju onesposobljenost	Porodična anamneza o odredjenim onesposobljavanjima i hronicnim bolestima koje izazivaju onesposobljenost
+Z82.0	preferred	Porodična anamneza o epilepsiji i drugim bolestima nervnog sistema	Porodična anamneza o epilepsiji i drugim bolestima nervnog sistema
+Z82.0	inclusion	Stanja koja se klasifikuju pod G00-G99	
+Z82.1	preferred	Porodična anamneza o sljepilu i gubitku vida	Porodična anamneza o sljepilu i ostecenju vida
+Z82.1	inclusion	Stanja koja se klasifikuju pod H54.-	
+Z82.2	preferred	Porodična anamneza o gluvoći i gubitku sluha	Porodična anamneza o gluvoci i ostecenju sluha
+Z82.2	inclusion	Stanja koja se klasifikuju pod H90-H91	
+Z82.3	preferred	Porodična anamneza o moždanom udaru (šlogu)	Porodična anamneza o mozdanom udaru (slogu)
+Z82.3	inclusion	Stanja koja se klasifikuju pod I60-I64	
+Z82.4	preferred	Porodična anamneza o ishemijskoj bolesti srca i drugim bolestima cirkulatornog sistema	Porodična anamneza o ishemijskoj bolesti srca i drugim bolestima cirkulatornog sistema
+Z82.4	inclusion	Stanja koja se klasifikuju pod I00-I52, I65-I99	
+Z82.5	preferred	Porodična anamneza o astmi i drugim hroničnim bolestima donjeg dijela disajnog sistema	Porodična anamneza o astmi i drugim hronicnim bolestima donjeg dijela disajnog sistema
+Z82.5	inclusion	Stanja koja se klasifikuju pod J40-J47	
+Z82.6	preferred	Porodična anamneza o artritisu i drugim bolestima mišićno-koštanog sistema i vezivnog tkiva	Porodična anamneza o artritisu i drugim bolestima misicno-kostanog sistema i vezivnog tkiva
+Z82.6	inclusion	Stanja koja se klasifikuju pod M00-M99	
+Z82.7	preferred	Porodična anamneza o urođenim malformacijama, deformacijama i hromozomskim abnormalnostima	Porodična anamneza o urodjenim malformacijama, deformacijama i hromozomskim abnormalnostima
+Z82.7	inclusion	Stanja koja se klasifikuju pod Q00-Q99	
+Z82.8	preferred	Porodična anamneza o drugim onesposobljenostima i hroničnim bolestima koje uzrokuju onesposobljenost, koja nije klasifikovana na drugom mjestu	Porodična anamneza o drugim onesposobljenostima i hronicnim bolestima koje uzrokuju onesposobljenost
+Z83	preferred	Porodična anamneza o drugim označenim poremećajima	Porodična anamneza o drugim označenim poremećajima
+Z83	exclusion	Kontakt sa ili izloženost zaraznoj bolesti u porodici Z20.-	
+Z83.0	preferred	Porodična anamneza o bolesti uzrokovanoj virusom humane imunodeficijencije (HIV)	Porodična anamneza o bolesti uzrokovanoj virusom humane imunodeficijencije (hiv)
+Z83.0	inclusion	Stanja koja se klasifikuju pod B20-B24, O98.7	
+Z83.1	preferred	Porodična anamneza o drugim zaraznim bolestima i parazitarnim bolestima	Porodična anamneza o zaraznim bolestima i parazitarnim bolestima
+Z83.1	inclusion	Stanja koja se klasifikuju pod A00-B19, B25-B94, B99	
+Z83.2	preferred	Porodična anamneza o bolestima krvi i krvotvornih organa i određenim poremećajima koji uključuju poremećaj imuniteta	Porodična anamneza o bolestima krvi i krvotvornih organa i odredjenim poremećajima koji ukljucuju poremećaj imuniteta
+Z83.2	inclusion	Stanja koja se klasifikuju pod D50-D89	
+Z83.3	preferred	Porodična anamneza o šećernoj bolesti	Porodična anamneza o secernoj bolesti
+Z83.3	inclusion	Stanja koja se klasifikuju pod E10-E14, O24	
+Z83.4	preferred	Porodična anamneza o drugim bolestima žlijezda sa unutrašnjim lučenjem, ishrane i metabolizma	Porodična anamneza o drugim bolestima žlijezda sa unutrašnjim lučenjem, ishrane i metabolizma
+Z83.4	inclusion	Stanja koja se klasifikuju pod E00-E07, E15-E90	
+Z83.5	preferred	Porodična anamneza o poremećajima oka i uha	Porodična anamneza o oboljenjima oka i uva
+Z83.5	inclusion	Stanja koja se klasifikuju pod H00-H53, H55-H83, H92-H95	
+Z83.5	exclusion	Porodična anamneza o: sljepilu i gubitku vida Z82.1	
+Z83.5	exclusion	Porodična namneza o gluvoći i gubitku sluha Z82.2	
+Z83.6	preferred	Porodična anamneza o bolestima sistema za disanje	Porodična anamneza o bolestima sistema za disanje
+Z83.6	inclusion	Stanja koja se klasifikuju pod J00-J39, J60-J99	
+Z83.6	exclusion	Porodična anamneza o hroničnim bolestima donjeg dijela sistema za disanje Z82.5	
+Z83.7	preferred	Porodična anamneza o bolestima organa za varenje	Porodična anamneza o bolestima zeludacno-crijevnog sistema
+Z83.7	inclusion	Stanja koja se klasifikuju pod K00-K93	
+Z84	preferred	Porodična anamneza o drugim stanjima	Porodična anamneza o drugim stanjima
+Z84.0	preferred	Porodična anamneza o bolestima kože i potkožnog tkiva	Porodična anamneza o bolestima kože i potkožnog tkiva
+Z84.0	inclusion	Stanja koja se klasifikuju pod L00-L99	
+Z84.1	preferred	Porodična anamneza o oboljenjima bubrega i uretera	Porodična anamneza o oboljenjima bubrega i uretera
+Z84.1	inclusion	Stanja koja se klasifikuju pod N00-N29	
+Z84.2	preferred	Porodična anamneza o drugim oboljenjima genito-urinarnog sistema	Porodična anamneza o oboljenjima polno-mokraćnog sistema
+Z84.2	inclusion	Stanja koja se klasifikuju pod N30-N99	
+Z84.3	preferred	Porodična anamneza o srodnosti po krvi (konsagvinitetu)	Porodična anamneza o srodnosti po krvi (konsagvinitetu)
+Z84.8	preferred	Porodična anamneza o drugim označenim stanjima	Porodična anamneza o drugim označenim stanjima
+Z85	preferred	Lična anamneza o zloćudnom tumoru	Lična anamneza o zloćudnom tumoru
+Z85	exclusion	Naknadna medicinska njega i oporavak Z42–Z51, Z54.-	
+Z85	exclusion	Kontrolni pregled nakon liječenja zloćudnog tumora Z08.-	
+Z85.0	preferred	Lična anamneza o zloćudnom tumoru organa za varenje	Lična anamneza o zloćudnom tumoru organa za varenje
+Z85.0	inclusion	Stanja koja se klasifikuju pod C15–C26	
+Z85.1	preferred	Lična anamneza o zloćudnom tumoru dušnika, dušnica i pluća	Lična anamneza o zloćudnom tumoru dušnika, dusnica i pluća
+Z85.1	inclusion	Stanja koja se klasifikuju pod C33–C34	
+Z85.2	preferred	Lična anamneza o zloćudnom tumoru drugih organa za disanje i organa u grudnoj duplji	Lična anamneza o zloćudnom tumoru drugih organa za disanje i organa u grudnoj duplji
+Z85.2	inclusion	Stanja koja se klasifikuju pod C30-C32, C37-C39	
+Z85.3	preferred	Lična anamneza o zloćudnom tumoru dojke	Lična anamneza o zloćudnom tumoru dojke
+Z85.3	inclusion	Stanja koja se klasifikuju pod C50.-	
+Z85.4	preferred	Lična anamneza o zloćudnom tumoru polnih organa	Lična anamneza o zloćudnom tumoru polnih organa
+Z85.4	inclusion	Stanja koja se klasifikuju pod C51-C63	
+Z85.5	preferred	Lična anamneza o zloćudnom tumoru mokraćnih puteva	Lična anamneza o zloćudnom tumoru mokraćnih puteva
+Z85.5	inclusion	Stanja koja se klasifikuju pod C64-C68	
+Z85.6	preferred	Lična anamneza o leukemiji	Lična anamneza o leukemiji
+Z85.6	inclusion	Stanja koja se klasifikuju pod C91-C95	
+Z85.7	preferred	Lična anamneza o drugim zloćudnim tumorima limfnog, hematopoeznog sistema i srodnih tkiva	Lična anamneza o drugom zloćudnom tumoru limfnog, hematopeznog i srodnih tkiva
+Z85.7	inclusion	Stanja koja se klasifikuju pod C81-C90, C96.-	
+Z85.8	preferred	Lična anamneza o zloćudnom tumoru drugih organa ili sistema	Lična anamneza o zloćudnom tumoru drugih organa ili sistema
+Z85.8	inclusion	Stanja koja se klasifikuju pod C00-C14, C40-C49, C69-C79, C97	
+Z85.9	preferred	Lična anamneza o zloćudnom tumoru, neoznačena	Lična anamneza o zloćudnom tumoru, neoznačena
+Z85.9	inclusion	Stanja koja se klasifikuju pod C80.-	
+Z86	preferred	Lična anamneza o određenim drugim bolestima	Lična anamneza o odredjenim drugim bolestima
+Z86	exclusion	Naknadna medicinska njega i oporavak Z42–Z51, Z54.-	
+Z86.0	preferred	Lična anamneza o drugim tumorima	Lična anamneza o drugim tumorima
+Z86.0	inclusion	Stanja koja se klasifikuju pod D00-D48	
+Z86.0	exclusion	Zloćudni tumori Z85.-	
+Z86.1	preferred	Lična anamneza o zaraznim bolestima i parazitarnim bolestima	Lična anamneza o zaraznim bolestima i parazitarnim bolestima
+Z86.1	inclusion	Stanja koja se klasifikuju pod A00-B89, B99	
+Z86.1	exclusion	Posljedice zaraznih i parazitarnih bolesti B90-B94	
+Z86.2	preferred	Lična anamneza o bolestima krvi i krvotvornih organa i određenim poremećajima koji uključuju poremećaje imuniteta	Lična anamneza o bolestima krvi i krvotvornih organa i odredjenim poremećajima koji ukljucuju poremećaj imuniteta
+Z86.2	inclusion	Stanja koja se klasifikuju pod D50-D89	
+Z86.3	preferred	Lična anamneza o bolestima žlijezda sa unutrašnjim lučenjem, ishrane i metabolizma	Lična anamneza o bolestima žlijezda sa unutrašnjim lučenjem, ishrane i metabolizma
+Z86.3	inclusion	Stanja koja se klasifikuju pod E00-E90	
+Z86.4	preferred	Lična anamneza o zloupotrebi psihoaktivnih supstanci	Lična anamneza o zloupotrebi psihoaktivnih supstanci
+Z86.4	inclusion	Stanja koja se klasifikuju pod F10-F19	
+Z86.4	exclusion	Sadašnja zavisnost F10–F19 sa istom četvrtom karakteristikom .2	
+Z86.4	exclusion	Problemi povezani sa upotrebom: alkohola Z72.1	
+Z86.4	exclusion	Problemi povezani sa upotrebom: droge Z72.2	
+Z86.4	exclusion	Problemi povezani sa upotrebom: duvana Z72.0	
+Z86.5	preferred	Lična anamneza o drugim mentalnim poremećajima i poremećajima ponašanja	Lična anamneza o drugim duševnim poremećajima i poremećajima ponašanja
+Z86.5	inclusion	Stanja koja se klasifikuju pod F00-F09, F20-F99	
+Z86.6	preferred	Lična anamneza o bolestima nervnog sistema i čulnih organa	Lična anamneza o bolestima nervnog sistema i culnih organa
+Z86.6	inclusion	Stanja koja se klasifikuju pod G00-G99, H00-H95	
+Z86.7	preferred	Lična anamneza o bolestima sistema krvotoka	Lična anamneza o bolestima sistema krvotoka
+Z86.7	inclusion	Stanja koja se klasifikuju pod I00-I99	
+Z86.7	exclusion	Stari infarkt miokarda I25.2	
+Z86.7	exclusion	Sindrom poslije infarkta miokarda I24.1	
+Z86.7	exclusion	Posljedice cerebrovaskularne bolesti I69.-	
+Z87	preferred	Lična anamneza o drugim bolestima i stanjima	Lična anamneza o drugim bolestima i stanjima
+Z87	exclusion	Naknadna medicinska njega i oporavak Z42–Z51, Z54.-	
+Z87.0	preferred	Lična anamneza o bolestima sistema za disanje	Lična anamneza o bolestima sistema za disanje
+Z87.0	inclusion	Stanja koja se klasifikuju pod J00-J99	
+Z87.1	preferred	Lična anamneza o bolestima organa za varenje	Lična anamneza o bolestima zeludacno-crijevnog sistema
+Z87.1	inclusion	Stanja koja se klasifikuju pod K00-K93	
+Z87.2	preferred	Lična anamneza o bolestima kože i potkožnog tkiva	Lična anamneza o bolestima kože i potkožnog tkiva
+Z87.2	inclusion	Stanja koja se klasifikuju pod L00-L99	
+Z87.3	preferred	Lična anamneza o bolestima mišićno-koštanog sistema i vezivnog tkiva	Lična anamneza o bolestima misicno-kostanog sistema i vezivnog tkiva
+Z87.3	inclusion	Stanja koja se klasifikuju pod M00-M99	
+Z87.4	preferred	Lična anamneza o bolestima genito-urinarnog sistema	Lična anamneza o bolestima polno-mokracnog sistema
+Z87.4	inclusion	Stanja koja se klasifikuju pod N00-N99	
+Z87.5	preferred	Lična anamneza o komplikacijama trudnoće, porođaja i babinja	Lična anamneza o komplikacijama trudnoce, porodjaja i babinja
+Z87.5	inclusion	 Stanja koja se klasifikuju pod O00-O99	
+Z87.5	inclusion	Lična anamneza o trofoblastnoj bolesti	
+Z87.5	exclusion	Spontani pobačaj N96	
+Z87.5	exclusion	Nadzor tokom sadašnje trudnoće žene sa nepovoljnom porodiljskom anamnezom Z35.-	
+Z87.6	preferred	Lična anamneza o određenim stanjima koja se javljaju u perinatalnom periodu	Lična anamneza o odredjenim stanjima koja se javljaju u perinatalnom periodu
+Z87.6	inclusion	Stanja koja se klasifikuju pod P00-P96	
+Z87.7	preferred	Lična anamneza o urođenim malformacijama, deformacijama i hromozomskim abnormalnostima	Lična anamneza o urodjenim malformacijama, deformacijama i hromosomskim nenormalnostima
+Z87.7	inclusion	Stanja koja se klasifikuju pod Q00-Q99	
+Z87.8	preferred	Lična anamneza o drugim označenim stanjima	Lična anamneza o drugim označenim stanjima
+Z87.8	inclusion	Stanja koja se klasifikuju pod S00-T98	
+Z87.8	exclusion	Lična anamneza o samopovređivanju Z91.5	
+Z88	preferred	Lična anamneza o alergiji na ljekove, preparate i biološke supstance	Lična anamneza o alergiji na ljekove, preparate i bioloske supstance
+Z88.0	preferred	Lična anamneza o alergiji na penicilin	Lična anamneza o alergiji na penicilin
+Z88.1	preferred	Lična anamneza o alergiji na druge antibiotske supstance	Lična anamneza o alergiji na druge antibiotske supstance
+Z88.2	preferred	Lična anamneza o alergiji na sulfonamide	Lična anamneza o alergiji na sulfonamide
+Z88.3	preferred	Lična anamneza o alergiji na druge antiinfektivne suspstance	Lična anamneza o alergiji na druge antiinfektivne suspstance
+Z88.4	preferred	Lična anamneza o alergiji na sredstva za anesteziju	Lična anamneza o alergiji na sredstva za anesteziju
+Z88.5	preferred	Lična anamneza o alergiji na narkotike	Lična anamneza o alergiji na narkotike
+Z88.6	preferred	Lična anamneza o alergiji na analgetike	Lična anamneza o alergiji na analgetike
+Z88.7	preferred	Lična anamneza o alergiji na serume i vakcine	Lična anamneza o alergiji na serume i vakcine
+Z88.8	preferred	Lična anamneza o alergiji na druge ljekove, preparate i biološke supstance	Lična anamneza o alergiji na druge ljekove, preparate i bioloske supstance
+Z88.9	preferred	Lična anamneza o alergiji na neoznačene ljekove, preparate i biološke supstance	Lična anamneza o alergiji na neoznačene ljekove, preparate i bioloske supstance
+Z89	preferred	Stečeni nedostatak ekstremiteta	Stečeni nedostatak uda
+Z89	inclusion	Gubitak ekstremiteta: nakon operacije	
+Z89	inclusion	Gubitak ekstremiteta: nakon povrede	
+Z89	exclusion	Stečeni deformiteti ekstremiteta M20-M21	
+Z89	exclusion	Urođeni nedostatak ekstremiteta Q71-Q73	
+Z89.0	preferred	Stečeni nedostatak prsta (prstiju) (uključujući palac), jednostrano	Stečeni nedostatak prsta (prstiju)(uključujući palac), jednostrano
+Z89.1	preferred	Stečeni nedostatak ruke i ručnog zgloba	Stečeni nedostatak ruke i rucnog zgloba
+Z89.2	preferred	Stečeni nedostatak ruke iznad ručnog zgloba	Stečeni nedostatak ruke iznad rucnog zgloba
+Z89.2	inclusion	Ruka NOS	
+Z89.3	preferred	Stečeni nedostatak obje ruke (bilo kog nivoa)	Stečeni nedostatak obje ruke (bilo kog nivoa)
+Z89.3	inclusion	Stečeni nedostatak prsta (-iju), obostrano	
+Z89.4	preferred	Stečeni nedostatak stopala i skočnog zgloba	Stečeni nedostatak stopala i skocnog zgloba
+Z89.4	inclusion	Nožni prst(-i)	
+Z89.5	preferred	Stečeni nedostatak na nivou koljena ili ispod koljena	Stečeni nedostatak na nivou koljena ili ispod koljena
+Z89.6	preferred	Stečeni nedostatak noge iznad koljena	Stečeni nedostatak noge iznad koljena
+Z89.6	inclusion	Noga NOS	
+Z89.7	preferred	Stečeni nedostatak obje noge (bilo kog nivoa, izuzev samo nožnih prstiju)	Stečeni nedostatak obje noge (bilo kog nivoa, izuzev samo prstiju na nozi)
+Z89.8	preferred	Stečeni nedostatak ruku i nogu (bilo kog nivoa)	Stečeni nedostatak ruku i nogu (bilo kog nivoa)
+Z89.9	preferred	Stečeni nedostatak ekstremiteta, neoznačen	Stečeni nedostatak uda, neoznačen
+Z90	preferred	Stečeni nedostatak organa, neklasifikovano na drugom mjestu	Stečeni nedostatak organa
+Z90	inclusion	Postoperativni ili postraumatski gubitak dijela tijela, neklasifikovan na drugom mjestu	
+Z90	exclusion	Urođeni nedostatak – vidi Abecedni indeks	
+Z90	exclusion	Gubitak nakon operacije: žlijezda sa unutrašnjim lučenjem E89.-	
+Z90	exclusion	Gubitak nakon operacije: slezine D73.0	
+Z90.0	preferred	Stečeni nedostatak dijela glave i vrata	Stečeni nedostatak djelova glave i vrata
+Z90.0	inclusion	Oko	
+Z90.0	inclusion	Grkljan	
+Z90.0	inclusion	Nos	
+Z90.0	exclusion	Zubi K08.1	
+Z90.1	preferred	Stečeni nedostatak dojke(-i)	Stečeni nedostatak dojke(-i)
+Z90.2	preferred	Stečeni nedostatak pluća (dijela)	Stečeni nedostatak pluća (dijela)
+Z90.3	preferred	Stečeni nedostatak dijela želuca	Stečeni nedostatak dijela želuca
+Z90.4	preferred	Stečeni nedostatak drugih djelova sistema za varenje	Stečeni nedostatak drugih djelova zeludacno-crijevnog sistema
+Z90.5	preferred	Stečeni nedostatak bubrega	Stečeni nedostatak bubrega
+Z90.6	preferred	Stečeni nedostatak drugih djelova mokraćnog sistema	Stečeni nedostatak drugih djelova mokraćnih puteva
+Z90.7	preferred	Stečeni nedostatak polnog(-ih) organa	Stečeni nedostatak polnog(-ih) organa
+Z90.8	preferred	Stečeni nedostatak drugih organa	Stečeni nedostatak drugih organa
+Z91	preferred	Lična anamneza o faktorima rizika, neklasifikovano na drugom mjestu	Lična anamneza o faktorima rizika
+Z91	exclusion	Izloženost zagađenju i drugi problemi povezani sa fizičkom sredinom Z58.-	
+Z91	exclusion	Profesionalna izloženost faktorima rizika Z57.-	
+Z91	exclusion	Lična anamneza o zloupotrebi psihoaktivnih supstanci Z86.4	
+Z91.0	preferred	Lična anamneza o alergiji, ne na ljekove i biološke supstance	Lična anamneza o alergiji, ne na ljekove i bioloske supstance
+Z91.0	exclusion	Lična anamneza o alergiji na ljekove i biološke supstance Z88.-	
+Z91.1	preferred	Lična anamneza o nepridržavanju propisanog medicinskog liječenja i tretmana	Lična anamneza o nepridrzavanju propisanog medicinskog lijecenja i tretmana
+Z91.2	preferred	Lična anamneza o lošoj ličnoj higijeni	Lična anamneza o losoj licnoj higijeni
+Z91.3	preferred	Lična anamneza o nezdravom rasporedu sna-buđenja	Lična anamneza o nezdravom rasporedu sna i budnog stanja
+Z91.3	exclusion	Poremećaji sna G47.-	
+Z91.4	preferred	Lična anamneza o psihološkoj traumi, neklasifikovano na drugom mjestu	Lična anamneza o psiholoskoj traumi
+Z91.5	preferred	Lična anamneza o samopovređivanju	Lična anamneza o samopovredjivanju
+Z91.5	inclusion	Odglumljeno samoubistvo	
+Z91.5	inclusion	Samotrovanje	
+Z91.5	inclusion	Pokušaj samoubistva	
+Z91.6	preferred	Lična anamneza o drugoj fizičkoj traumi	Lična anamneza o drugoj fizickoj traumi
+Z91.8	preferred	Lična anamneza o drugim označenim faktorima rizika, neklasifikovano na drugom mjestu	Lična anamneza o drugim označenim faktorima rizika
+Z91.8	inclusion	Zloupotreba NOS	
+Z91.8	inclusion	Zlostavljanje NOS	
+Z92	preferred	Lična anamneza o medicinskom liječenju	Lična anamneza o medicinskom lijecenju
+Z92.0	preferred	Lična anamneza o kontracepciji	Lična anamneza o kontracepciji
+Z92.0	exclusion	Savjetovanje ili upućivanje o načinima primjene kontracepcije Z30.-	
+Z92.0	exclusion	Prisutnost (intrauterinog) kontracepcijskog sredstva Z97.5	
+Z92.1	preferred	Lična anamneza o dugotrajnoj (tekućoj) upotrebi antikoagulanata	Lična anamneza o dugorocnoj (tekucoj) upotrebi antikoagulantnin sredstava
+Z92.2	preferred	Lična anamneza o dugotrajnoj (tekućoj) upotrebi drugih ljekova	Lična anamneza o dugorocnoj (tekucoj) upotrebi drugih ljekova
+Z92.2	inclusion	Aspirin	
+Z92.3	preferred	Lična anamneza o zračenju	Lična anamneza o zracenju
+Z92.3	inclusion	Terapijsko zračenje	
+Z92.3	exclusion	Izloženost zračenju u fizičkoj sredini Z58.4	
+Z92.3	exclusion	Profesionalna izloženost zračenju Z57.1	
+Z92.4	preferred	Lična anamneza o velikoj operaciji, neklasifikovana na drugom mjestu	Lična anamneza o velikoj operaciji
+Z92.4	exclusion	Stanje vještačkog (arteficijalnog) otvora Z93.-	
+Z92.4	exclusion	Postoperativna stanja Z98.-	
+Z92.4	exclusion	Prisutnost funkcionalnog implantata ili presađenih djelova (grafta) Z95-Z96	
+Z92.4	exclusion	Stanje transplantiranog organa ili tkiva Z94.-	
+Z92.5	preferred	Lična anamneza o mjerama rehabilitacije	Lična anamneza o mjerama rehabilitacije
+Z92.6	preferred	Lična anamneza o hemoterapiji za neoplastične bolesti	Lična anamneza o hemoterapiji
+Z92.8	preferred	Lična anamneza o drugom medicinskom liječenju	Lična anamneza o drugom medicinskom lijecenju
+Z92.9	preferred	Lična anamneza o medicinskom liječenju, neoznačena	Lična anamneza o medicinskom lijecenju, neoznačena
+Z93	preferred	Stanje vještačkog (arteficijalnog) otvora	Stanje vjestackog (arteficijalnog) otvora
+Z93	exclusion	Vještački otvor koji zahtijeva nadziranje ili održavanje Z43.-	
+Z93	exclusion	Komplikacije spoljašnje stome J95.0, K91.4, N99.5	
+Z93.0	preferred	Stanje traheostome	Vjestacki otvor dušnika
+Z93.1	preferred	Stanje gastrostome	Vjestacki otvor želuca
+Z93.2	preferred	Stanje ileostome	Vjestacki otvor tankog crijeva
+Z93.3	preferred	Stanje kolostome	Vjestacki otvor debelog crijeva
+Z93.4	preferred	Stanje drugih vještačkih otvora sistema za varenje	Drugi vjestacki otvori zeludacno-crijevnog sistema
+Z93.5	preferred	Stanje cistostome	Vjestacki otvor mokraćne bešike
+Z93.6	preferred	Stanje drugih vještačkih otvora mokraćnog sistema	Drugi vjestacki otvori mokracnog sistema
+Z93.6	inclusion	Nefrostoma	
+Z93.6	inclusion	Ureterostoma	
+Z93.6	inclusion	Uretrostoma	
+Z93.8	preferred	Stanje drugog vještačkog otvora	Stanje drugog vjestackog otvora
+Z93.9	preferred	Stanje drugog vještačkog otvora, neoznačeno	Stanje drugog vjestackog otvora, neoznačeno
+Z94	preferred	Stanje presađenog organa ili tkiva	Stanje presadjenog organa ili tkiva
+Z94	inclusion	Organ ili tkivo zamijenjeni heterogenim ili homogenim transplantantom	
+Z94	exclusion	Komplikacije transplantiranog organa ili tkiva - vidjeti Abecedni index	
+Z94	exclusion	Prisustvo vaskularnog grafta Z95.-	
+Z94	exclusion	Prisustvo heterogenog zalistka srca Z95.3	
+Z94.0	preferred	Stanje presađenog bubrega	Stanje presadjenog bubrega
+Z94.1	preferred	Stanje presađenog srca	Stanje presadjenog srca
+Z94.1	exclusion	Stanje nakon zamjene srčanog zalistka Z95.2-Z95.4	
+Z94.2	preferred	Stanje presađenih pluća	Stanje presadjenih pluća
+Z94.3	preferred	Stanje presađenih pluća i srca	Stanje presadjenih pluća i srca
+Z94.4	preferred	Stanje presađene jetre	Stanje presadjene jetre
+Z94.5	preferred	Stanje presađene kože	Stanje presadjene kože
+Z94.5	inclusion	Stanje nakon presađene sopstvene kože (autotransplant kože)	
+Z94.6	preferred	Stanje presađene kosti	Stanje presadjene kosti
+Z94.7	preferred	Stanje presađene rožnjače	Stanje presadjene rožnjače
+Z94.8	preferred	Stanje drugog presađenog organa ili tkiva	Stanje drugog presadjenog organa ili tkiva
+Z94.8	inclusion	Koštana srž	
+Z94.8	inclusion	Crijevo	
+Z94.8	inclusion	Gušterača	
+Z94.8	inclusion	Matične ćelije 	
+Z94.9	preferred	Stanje presađenog organa ili tkiva, neoznačeno	Stanje presadjenog organa ili tkiva, neoznačeno
+Z95	preferred	Prisustvo implantata i graftova na srcu i krvnim sudovima	Prisustvo implantata i graftova na srcu i krvnim sudovima
+Z95	exclusion	Komplikacije srčanih i vaskularnih uređaja, implantata i graftova T82.-	
+Z95.0	preferred	Prisustvo pejsmejkera srca (pacemaker)	Prisustvo pejsmejkera srca (pacemaker)
+Z95.0	exclusion	Podešavanje i održavanje pejsmejkera srca Z45.0	
+Z95.1	preferred	Prisustvo aortokoronarnog bajpas grafta	Prisustvo aortokoronarnog bajpasa grafta (bypass graft)
+Z95.2	preferred	Prisustvo vještačkog zalistka srca	Prisustvo vjestackog zaliska srca
+Z95.3	preferred	Prisustvo heterolognog zalistka srca	Prisustvo heterolognog zaliska srca
+Z95.4	preferred	Prisustvo druge zamjene zalistka srca	Prisustvo druge zamjene zaliska srca
+Z95.5	preferred	Prisustvo implantata i grafta na koronarnim sudovima (koronarna angioplastika)	Prisustvo implantata i grafta na koronarnim sudovima (koronarna angioplastika)
+Z95.5	inclusion	Prisustvo proteze koronarnih arterija	
+Z95.5	inclusion	Stanje poslije koronarne angioplastike, NOS	
+Z95.8	preferred	Prisustvo drugih implantata i graftova srca i krvnih sudova	Prisustvo drugih implantata i graftova srca i krvnih sudova
+Z95.8	inclusion	Prisustvo proteze koronarnih arterija NEC	
+Z95.8	inclusion	Stanje nakon periferne angioplastike NOS	
+Z95.9	preferred	Prisustvo implantata i grafta na srcu i krvnom sudu, neoznačeno	Prisustvo implantata ili grafta na srcu i krvnim sudovima
+Z96	preferred	Prisustvo drugih funkcionalnih implantata	Prisustvo drugog funkcionalnog implantata
+Z96	exclusion	Komplikacije unutrašnjih protetskih uređaja, implantata i graftova T82-T85	
+Z96	exclusion	Ugrađivanje i podešavanje protetskog i drugog uređaja Z44-Z46	
+Z96.0	preferred	Prisustvo genito-urinarnog implantata	Prisustvo mokracno-polnog implantata
+Z96.1	preferred	Prisustvo sočiva u oku	Prisustvo sočiva u oku
+Z96.1	inclusion	Pseudofakija	
+Z96.2	preferred	Prisustvo implantata za poboljšanje sluha	Prisustvo implantata za poboljsanje sluha
+Z96.2	inclusion	Slušni aparat za koštanu sprovodljivost	
+Z96.2	inclusion	Kohlearni implantat	
+Z96.2	inclusion	Stent Eustahijeve tube 	
+Z96.2	inclusion	Implantat bubne opne (i)	
+Z96.2	inclusion	Zamjena stapesa (uzengije)	
+Z96.3	preferred	Prisustvo vještačkog grkljana	Prisustvo vjestackog grkljana
+Z96.4	preferred	Prisustvo implantata žlijezde sa unutrašnjim lučenjem	Prisustvo implantata žlijezde sa unutrašnjim lučenjem
+Z96.4	inclusion	Insulinska pumpa	
+Z96.5	preferred	Prisustvo implantata korijena zuba i donje vilice	Prisustvo implantata korijena zuba i donje vilice
+Z96.6	preferred	Prisustvo vještački ugrađenog zgloba	Prisustvo vjestacki ugradjenog zgloba
+Z96.6	inclusion	Zamjena zgloba prsta	
+Z96.6	inclusion	Zamjena zgloba kuka (parcijalna) (totalna)	
+Z96.7	preferred	Prisustvo implantata druge kosti i tetive	Prisustvo implantata druge kosti i tetive
+Z96.7	inclusion	Kranijalna ploča	
+Z96.8	preferred	Prisustvo drugog označenog funkcionalnog implantata	Prisustvo drugog označenog funkcionalnog implantata
+Z96.9	preferred	Prisustvo funkcionalnog implantata, neoznačeno	Prisustvo funkcionalnog implantata, neoznačeno
+Z97	preferred	Prisustvo drugih uređaja	Prisustvo drugih naprava
+Z97	exclusion	Komplikacije unutrašnjih protetskih uređaja, implantata i graftova T82-T85	
+Z97	exclusion	Stavljanje i podešavanje protetskog i drugog uređaja Z44–Z46	
+Z97	exclusion	Prisustvo uređaja za drenažu cerebro-spinalne tečnosti Z98.2	
+Z97.0	preferred	Prisustvo vještačkog oka	Prisustvo vjestackog oka
+Z97.1	preferred	Prisustvo vještačkog ekstremiteta (potpun)(djelimičan)	Prisustvo vjestackog uda (potpun)(djelimican)
+Z97.2	preferred	Prisustvo zubne proteze (potpuna)(djelimična)	Prisustvo zubne proteze (potpuna)(djelimicna)
+Z97.3	preferred	Prisustvo naočara i kontaktnih sočiva	Prisustvo naocara i kontaktnih sočiva
+Z97.4	preferred	Prisustvo spoljašnjeg slušnog pomagala	Prisustvo spoljašnjeg slusnog pomagala
+Z97.5	preferred	Prisustvo (intrauterinog) kontraceptivnog sredstva	Prisustvo (unutarmaterickog) kontraceptivnog sredstva
+Z97.5	exclusion	Provjera, ponovno stavljanje ili otklanjanje kontraceptivnog sredstva Z30.5	
+Z97.5	exclusion	Ubacivanje kontraceptivnog sredstva Z30.1	
+Z97.8	preferred	Prisustvo drugih označenih uređaja	Prisustvo drugih označenih naprava
+Z98	preferred	Druga postoperativna stanja	Druga postoperativna stanja
+Z98	exclusion	Naknadna medicinska njega i oporavak Z42–Z51, Z54.-	
+Z98	exclusion	Postproceduralna ili postoperativna komplikacija – vidi Abecedni indeks	
+Z98.0	preferred	Stanje intestinalnog bajpasa (bypass) i anastomoze	Intestinalni bajpas (bypass) i anastomoza
+Z98.1	preferred	Ukočenost zgloba uzrokovana operativnim putem	Ukocenost zgloba uzrokovana operativnim putem
+Z98.2	preferred	Prisustvo naprave za drenažu cerebro-spinalne tečnosti	Prisustvo naprave za drenazu mozdano-kičmene tecnosti csf ant (shunt)
+Z98.2	inclusion	Naprava za drenažu cerebrospinalne tečnosti (CSF šant)	
+Z98.8	preferred	Druga označena postoperativna stanja	Druga označena postoperativna stanja
+Z99	preferred	Zavisnost od pomagala, neklasifikovana na drugom mjestu	Zavisnost od pomagala
+Z99.0	preferred	Zavisnost od aspiratora	Zavisnost od aspiratora
+Z99.1	preferred	Zavisnost od respiratora	Zavisnost od respiratora
+Z99.2	preferred	Zavisnost od dijalize bubrega	Zavisnost od dijalize bubrega
+Z99.2	inclusion	Prisustvo arteriovenskog šanta za dijalizu	
+Z99.2	inclusion	Stanje dijalize bubrega	
+Z99.2	exclusion	Priprema za dijalizu, tretman ili liječenje Z49.-	
+Z99.3	preferred	Zavisnost od invalidskih kolica	Zavisnost od invalidskih kolica
+Z99.8	preferred	Zavisnost od drugih uređaja i pomagala	Zavisnost od drugog pomagala
+Z99.9	preferred	Zavisnost od neoznačenog uređaja i pomagala	Zavisnost od neoznačenog pomagala

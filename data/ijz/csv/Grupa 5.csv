@@ -1,0 +1,1304 @@
+V	preferred	Duševni poremećaji i poremećaji ponašanja
+V	inclusion	poremećaji psihološkog razvoja
+V	exclusion	simptomi, znaci i patološki klinički i laboratorijski nalaziR00-R99
+F00-F09	preferred	Organski i simptomatski duševni poremećaji
+F00-F09	text	Ova podgrupa obuhvata niz duševnih poremećaja grupisanih na osnovu zajedničke, dokazive etiologije bolesti, povrede ili drugog oštećenja mozga, koje dovode do disfunkcije mozga. Disfunkcija može biti primarna, kao sto je to kod bolesti, povreda i oštećenja koje direktno ili selektivno pogađaju mozak; ili sekundarna, kao kod sistemskih bolesti i poremećaja koja napadaju mozak samo kao jedan od više organa ili organskih sistema. Demencija (F00-F03) je sindrom uzrokovan oboljenjem mozga, obično hronične ili progresivne prirode, u kome postoji oštećenje mnogostrukih viših kortikalnih funkcija, uključujući pamćenje, mišljenje, orijentaciju, shvatanje, računanje, sposobnost učenja, govor i rasuđivanje. Svijest nije izmijenjena. Kognitivna oštećenja su, obično praćena, a nekada im prethode deterioracija kontrole emocija, socijalnog ponašanja i motivacije. Ovaj se sindrom javlja kod Aizheimerove bolesti, cerebrovaskularne bolesti i u drugim stanjima koja primarno ili sekundarno pogađaju mozak. 
+F00-F09	coding-hint	Koristite dodatnu šifru, ako je potrebno, za označavanje osnovne bolesti.
+F00	preferred	Demencija u Alzheimerovoj bolesti
+F00	definition	Alzheimerova bolest je primarno degenerativno oboljenje mozga nepoznate etiologije sa karakterističnim neuropatološkim i neurohemijskim odlikama. Počinje, obično, podmuklo, i razvija se sporo, ali sigurno u periodu od nekoliko godina.
+F00.0	preferred	Demencija u Alzheimerovoj bolesti sa ranim početkom
+F00.0	definition	Demencija u Alzheimerovoj bolesti koja počinje prije 65. godine starosti, sa relativno brzim tokom deterioracije i značajnim multiplim poremećajima viših kortikalnih funkcija.
+F00.0	inclusion	Alzheimerova bolest, tip 2
+F00.0	inclusion	Presenilna demencija po tipu Alzheimer
+F00.0	inclusion	Primarna degenerativna presenilna demencija po tipu Alzheimera
+F00.1	preferred	Demencija u Alzheimerovoj bolesti sa kasnim početkom
+F00.1	definition	Demencija u Alzheimerovoj bolesti koja počinje poslije 65. godine, obično u poznim sedamdesetim ili kasnije, sa sporim napredovanjem bolesti i oštećenjem pamćenja kao glavnom karakteristikom
+F00.1	inclusion	Alzheimerova bolest, tip 1
+F00.1	inclusion	Primarna degenerativna senilna demencija po tipu Alzheimera
+F00.1	inclusion	Senilna demencija po tipu Alzheimera
+F00.2	preferred	Demencija u Alzheimerovoj bolesti, atipična ili mješoviti tip
+F00.2	inclusion	Atipična demencija po tipu Alzheimera
+F00.9	preferred	Demencija u Alzheimerovoj bolesti, neoznačena
+F01	preferred	Vaskularna demencija
+F01	definition	Vaskularna demencija je posljedica infarkta mozga, izazvana vaskularnim oboljenjem, uključujući i hipertenzivnu cerebrovaskularnu bolest. Infarkti su obično mali, ali imaju kumulativni efekat. Počinje, obično, u kasnijem životnom dobu.
+F01	inclusion	arteriosklerotska demencija
+F01.0	preferred	Akutna vaskularna demencija
+F01.0	definition	Obično se razvija brzo, poslije niza moždanih udara uzrokovanih: trombozom, embolijom ili krvarenjem. U rijetkim slučajevima, uzrok može biti i samo jedan masivan infarkt.
+F01.1	preferred	Multiinfarktna demencija
+F01.1	definition	Postepeno počinje i nakon brojnih tranzitornih ishemijskih epizoda koje prouzrokuju akumulaciju infarkta u parenhimu mozga.
+F01.1	inclusion	Predominantno kortikalna demencija
+F01.2	preferred	Subkortikalna vaskularna demencija
+F01.2	definition	Obuhvata slučajeve sa arterijskom hipertenzijom u istoriji bolesti i fokusima ishemijske destrukcije, u dubini bijele mase hemisfera mozga. Kora mozga je obično očuvana i to je u suprotnosti sa kliničkom slikom, koja može ličiti na demenciju u Alzheimerovoj bolesti.
+F01.3	preferred	Mješovita kortikalna i subkortikalna vaskularna demencija
+F01.8	preferred	Druga vaskularna demencija
+F01.9	preferred	Vaskularna demencija, neoznačena
+F02	preferred	Demencija u drugim bolestima koje su klasifikovane na drugom mjestu
+F02	definition	Slučajevi demencije koju izazivaju drugi uzroci (ili se to pretpostavlja), a ne Alzheimerova ili cerebrovaskularna bolest. Početak može da bude u bilo kom životnom dobu, mada rijetko u starosti.
+F02.0	preferred	Demencija u Pickovoj bolestiG31.0
+F02.0	definition	Progresivna demencija, počinje u srednjem životnom dobu, a karakterišu je rane sporo progredirajuće promjene karaktera i socijalna deterioracija, zatim slijede oštećenja intelekta, pamćenja i govornih funkcija sa apatijom, euforijom i ponekad, ekstrapiramidni fenomeni.
+F02.1	preferred	Demencija u Creutzfeldt-Jakobovoj bolestiA81.0
+F02.1	definition	Progresivna demencija sa opsežnim neurološkim znacima, koje izazivaju specifične neuropatološke promjene, za koje se pretpostavlja da su prouzrokovane prenosivim uzročnikom. Počinje, obično, u srednjem ili starijem životnom dobu, ali može da se javi i bilo kad u zrelom dobu. Tok bolesti je subakutan i dovodi do smrti u roku od jedne do dvije godine.
+F02.2	preferred	Demencija u Huntingtonovoj bolesti
+F02.2	definition	Demencija koja se javlja kao posljedica široko rasprostranjene degeneracije mozga. Poremećaj se prenosi  posebnim autozomno dominantnim genom. Simptomi se javljaju, tipično, u trećoj ili četvrtoj deceniji života. Napredovanje bolesti je sporo i vodi do smrti, obično za 10 do 15 godina.
+F02.2	inclusion	Demencija u Huntingtonovoj horei
+F02.3	preferred	Demencija u Parkinsonovoj bolestiG20
+F02.3	definition	Demencija nastala u toku potvrđene Parkinsonove bolesti. Posebne kliničke karakteristike za razlikovanje još uvijek nisu dokazane.
+F02.3	inclusion	Demencija u: agitirajućoj paralizi
+F02.3	inclusion	Demencija u: parkinsonizmu
+F02.4	preferred	Demencija u HIV encefalopatiji Demencija u bolesti izazvanoj virusom humane imunodeficijencije [HIV]B22.0
+F02.4	definition	Demencija koja se razvija u toku AIDS-a, a ne postoji istovremeno oboljenje ili stanje koje bi moglo da objasni kliničku sliku, osim HIV infekcije
+F02.8	preferred	Demencija u drugim označenim bolestima klasifikovanim na drugom mjestu
+F02.8	inclusion	Demencija (u): cerebralnoj lipoidaziE75.-
+F02.8	inclusion	Demencija (u): epilepsijiG40.-
+F02.8	inclusion	Demencija (u): hepatolentikularnoj degeneracijiE83.0
+F02.8	inclusion	Demencija (u): hiperkalciemijiE83.5
+F02.8	inclusion	Demencija (u): hipotereoidizmu, stečenomE01.-E03.-
+F02.8	inclusion	Demencija (u): intoksikacijamaT36-T65
+F02.8	inclusion	Demencija (u): multiploj skleroziG35
+F02.8	inclusion	Demencija (u): neurosifilisuA52.1
+F02.8	inclusion	Demencija (u): deficijenciji niacina [pelagri]E52
+F02.8	inclusion	Demencija (u): nodoznom poliarteritisuM30.0
+F02.8	inclusion	Demencija (u): sistemskom eritomatoznom lupusuM32.-
+F02.8	inclusion	Demencija (u): tripanozomijaziB56.-B57.-
+F02.8	inclusion	Demencija (u): uremijiN18.5
+F02.8	inclusion	Demencija (u): deficijenciji vitamina B12E53.8
+F03	preferred	Neoznačena demencija
+F03	inclusion	Presenilna: demencija NOS
+F03	inclusion	Presenilna: psihoza NOS
+F03	inclusion	Primarna degenerativna demencija NOS
+F03	inclusion	Senilna: demencija: NOS
+F03	inclusion	Senilna: demencija: depresivni ili paranoidni tip
+F03	inclusion	Senilna: psihoza NOS
+F03	exclusion	senilna demecija sa delirijumom ili akutnim konfuznim stanjemF05,1
+F03	exclusion	senilnost NOSR54
+F04	preferred	Organski amnestički sindrom, koji nije izazvan upotrebom alkohola ili drugih psihoaktivnih supstanci
+F04	definition	Sindrom izraženog oštećenja kratkotrajnog i dugotrajnog pamćenja, dok je trenutno sjećanje očuvano, sa smanjenom sposobnošću učenja novog materijala i dezorijentacijom u vremenu. Konfabulacije mogu da budu izražene, ali percepcija i druge kognitivne funkcije, uključujući inteligenciju, su obično očuvane. Prognoza zavisi od razvojnog toka osnovne lezije.
+F04	inclusion	Korsakovova psihoza ili sindrom, nealkoholična
+F04	exclusion	amnezija: NOSR41.3
+F04	exclusion	amnezija: anterogradnaR41.1
+F04	exclusion	amnezija: disocijativnaF44.0
+F04	exclusion	amnezija: retrogradnaR41.2
+F04	exclusion	Korsakovov sindrom: izazvan upotrebom alkohola ili neoznačeniF10.6
+F04	exclusion	Korsakovov sindrom: izazvan upotrebom drugih psihoaktivnih supstanciF11-F19 sa zajedničkim četvrtim karakterom .6
+F05	preferred	Delirijum, koji nije izazvan upotrebom alkohola ili drugih psihoaktivnih supstanci
+F05	definition	Etiološki nespecifičan organski moždani sindrom koji karakterišu istovremeni poremećaji svijesti i pažnje, percepcije, mišljenja, pamćenja, psihomotornog ponašanja, emocija  i reda spavanja i buđenja. Trajanje bolesti varira, a težina se kreće od blagog do vrlo teškog oblika.
+F05	inclusion	akutni ili subakutni: moždani sindrom
+F05	inclusion	akutno ili subakutno: stanje konfuznosti (nealkoholično)
+F05	inclusion	akutna ili subakutna: infektivna psihoza
+F05	inclusion	akutna ili subakutna: organska reakcija
+F05	inclusion	akutni ili subakutni: psiho-organski sindrom
+F05	exclusion	delirijum tremens, izazvan upotrebom alkohola ili neoznačeniF10.4
+F05.0	preferred	Delirijum koji nije superponiran na demenciju, tako opisan
+F05.1	preferred	Delirijum superponiran na demenciju
+F05.1	inclusion	Stanja koja ispunjavaju gornje kriterijume , ali se razvijaju tokom demencije (F00-F03)
+F05.8	preferred	Drugi delirijum
+F05.8	inclusion	Delirijum mješovitog proijekla
+F05.8	inclusion	Postoperativni delirijum
+F05.9	preferred	Delirijum, neoznačen
+F06	preferred	Drugi duševni poremećaji uzrokovani oštećenjem i disfunkcijom mozga i tjelesnom bolešću
+F06	definition	Uključuje raznovrsna stanja uzročno vezana za oboljenja mozga uzrokovana primarnom cerebralnom bolešću, sistemskom bolešću koja sekundarno pogađa mozak, egzogenim toksičnim supstancama ili hormonima, endokrinim poremećajima ili drugim somatskim bolestima.
+F06	exclusion	udružene sa: delirijumomF05
+F06	exclusion	udružene sa: demencijom klasifikovanom u F00-F03
+F06	exclusion	kao rezultat upotrebe alkohola i drugih psihoaktivnih supstanciF10-F19
+F06.0	preferred	Organska halucinoza
+F06.0	definition	Poremećaj sa stalnim ili rekurentnim halucinacijama, obično vidnim ili slušnim, koje se javljaju  pri čistoj svijesti i mogu biti prepoznate, ili ne, od strane samog subjekta. Sumanuta obrada halucinacija se može pojaviti, ali sumanute ideje ne dominiraju u kliničkoj slici; uvid može biti očuvan.
+F06.0	inclusion	Organsko halucinatorno stanje (nealkoholično)
+F06.0	exclusion	alkoholna halucinozaF10.5
+F06.0	exclusion	shizofrenijaF20
+F06.1	preferred	Organski katatoni poremećaj
+F06.1	definition	Poremećaj smanjene (stupor) ili povećane (uzbuđenje) psihomotorne aktivnosti udružene sa katatonim simptomima. Ekstremi psihomotornog poremećaja se mogu smjenjivati.
+F06.1	exclusion	katatona shizofrenijaF20.2
+F06.1	exclusion	stupor: NOSR40.1
+F06.1	exclusion	stupor: disocijativniF44.2
+F06.2	preferred	Organski sumanuti (sličan shizofreniji) poremećaj 
+F06.2	definition	Poremećaji u kome stalne ili rekurentne sumanute ideje dominiraju u kliničkoj slici. Sumanute ideje mogu biti praćene halucinacijama. Neke odlike koje upućuju na shizofreniju, kao što su bizarne halucinacije ili poremećaj misli, mogu biti prisutne.
+F06.2	inclusion	Paranoidna i paranoidno-halucinatorna organska stanja
+F06.2	inclusion	Psihoza slična shizofreniji u epilepsiji
+F06.2	exclusion	poremećaj: akutni i tranzitorni psihotičniF23.-
+F06.2	exclusion	poremećaj: perzistirajući sumanutiF22.-
+F06.2	exclusion	poremećajpsihotični izazvan upotrebom ljekovaF11-F19 sa zajedničkim karakterom na četvrtom mjestu .5
+F06.2	exclusion	shizofrenijaF20.-
+F06.3	preferred	Organski poremećaji raspoloženja [afekata]
+F06.3	definition	Poremećaji koje karakterišu promjene raspoloženja ili afekta obično praćeni promjenom sveukupnog nivoa aktivnosti, depresivnom, hipomaničnom, maničnom ili bipolarnom (vidi F30-F38), ali koji nastaje kao posljedica organskog oboljenja.
+F06.3	exclusion	poremećaji raspoloženja, neorganski ili neoznačeniF30-F39
+F06.4	preferred	Organski anksiozni poremećaj
+F06.4	definition	Poremećaj karakterišu osnovne deskriptivne odlike opšteg anksioznog poremećaja (F41.1), paničnog poremećaja (F41.0) ili kombinacija oba, ali koji nastaju kao posledica organskog oboljenja.
+F06.4	exclusion	anksiozni poremećaji, neorganski ili neoznačeniF41.-
+F06.5	preferred	Organski disocijativni poremećaj
+F06.5	definition	Poremećaj karakteriše djelimični ili potpuni gubitak normalne integracije između pamćenja iz prošlosti, svijesnosti identiteta i neposrednih senzacija i kontrole tjelesnih pokreta (vidi F44.-), ali koji nastaje kao posljedica organskog oboljenja.
+F06.5	exclusion	disocijativni [konverzivni] poremećaji, neorganski ili neoznačeniF44.-
+F06.6	preferred	Organski emocionalni poremećaj (astenički)
+F06.6	definition	Poremećaj koji karakterišu emocionalna inkontinencija ili labilnost i sijaset neprijatnih fizičkih senzacija (npr. vrtoglavica) i bolovi, ali koji nastaju kao posljedica organskog oboljenja.
+F06.6	exclusion	somatoformni poremećaji, neorganski ili neoznačeniF45.-
+F06.7	preferred	Blagi kognitivni poremećaj
+F06.7	definition	Poremećaj koji karekterišu poremećaj pamćenja, teškoće u učenju i smanjena sposobnost koncentracije na neki zadatak duže od kratkih perioda. Postoji, često, izražen osjećaj mentalnog umora kada se pokuša sa nekim mentalnim zadatkom, a učenje novog djeluje subjektivno teško čak i kada je objektivno uspješno. Nijedan od ovih simptoma nije toliko težak da bi se dijagnoza bilo demencije (F00-F03) ili delirijuma (F05.-) mogla postaviti. Ovu dijagnozu treba postaviti samo kada postoji i neki označen tjelesni poremećaj, a ne bi je trebalo postaviti kada postoji bilo koji duševni poremećaj ili poremećaj u ponašanju klasifikovan pod F10-F99. Poremećaj može da prethodi, da se udruži  ili  da uslijedi nakon velikog broja infekcija i tjelesnih oboljenja, i cerebralnih i sistemskih, ali direktan dokaz cerebralne involviranosti nije nužan. Može se razlikovati od postencefalitičkog sindroma (F07.1) i postkomocionog sindroma (F07.2) po etiologiji, ograničenom opsegu blažih simptoma i obično kraćem trajanju.
+F06.8	preferred	Drugi označeni duševni poremećaji uzrokovani oštećenjem i disfunkcijom mozga i tjelesnom bolešću
+F06.8	inclusion	Epileptička psihoza NOS
+F06.9	preferred	Neoznačeni duševni poremećaj uzrokovan oštećenjem i disfunkcijom mozga i tjelesnom bolešću
+F06.9	inclusion	Organski: moždani sindrom NOS
+F06.9	inclusion	Organski: duševni poremećaj NOS
+F07	preferred	Poremećaji ličnosti i poremećaji ponašanja uzrokovani bolešću, oštećenjem i disfunkcijom mozga
+F07	definition	Izmjena ličnosti i ponašanja može biti rezidualna ili istovremena u odnosu na bolest, oštećenje ili disfunkciju mozga.
+F07.0	preferred	Organski poremećaji ličnosti
+F07.0	definition	Poremećaj koji karakteriše značajna izmjena uobičajenih obrazaca kod subjekta premorbidno, uključujući ispoljavanje emocija, potreba i impulsa. Poremećaj kognitivnih i misaonih i izmjenjena seksualnost, mogu, takođe, biti dio kliničke slike.
+F07.0	inclusion	Organska: pseudopsihopatska ličnost
+F07.0	inclusion	Organska: pseudoretardirana ličnost
+F07.0	inclusion	Sindrom: frontalnog režnja
+F07.0	inclusion	Sindrom: ličnosti limbične epilepsije
+F07.0	inclusion	Sindrom: lobotomije
+F07.0	inclusion	Sindrom: post leukotomije
+F07.0	exclusion	trajna promjena ličnosti poslije: doživljene katastrofeF62.0
+F07.0	exclusion	trajna promjena ličnosti poslije: psihijatrijske bolestiF62.1
+F07.0	exclusion	postkomocioni sindromF07.2
+F07.0	exclusion	postencefalitički sindromF07.1
+F07.0	exclusion	specifični poremećaj ličnostiF60.-
+F07.1	preferred	Postencefalitički sindrom
+F07.1	definition	Rezidualna nespecifična i promjenljiva promjena ponašanja poslije oporavka od virusnog ili bakterijskog encefalitisa. Osnovna razlika između ovog poremećaja i organskog poremečaja ličnosti je što je on reverzibilan. 
+F07.1	exclusion	organski poremećaji ličnostiF07.0
+F07.2	preferred	Postkomocioni sindrom
+F07.2	definition	Sindrom koji se javlja nakon povrede glave (obično dovoljno teške da dovode do gubitka svijesti) i uključuje određeni broj sasvim različitih simptoma kao što su glavobolja, vrtoglavica, zamor, razdražljivost, teškoće u koncentraciji i obavljanju mentalnih zadataka, oštećenje pamćenja, nesanica i snižena tolerancija na stres, emocionalnu uzbuđenost ili alkohol.
+F07.2	inclusion	Postkontuzioni sindrom (encefalopatija)
+F07.2	inclusion	Posttraumatski moždani sindrom, nepsihotični
+F07.2	exclusion	trenutni potres mozgaS06.0
+F07.8	preferred	Drugi organski poremećaji ličnosti i poremećaji ponašanja uzrokovani bolešću, oštećenjem i disfunkcijom mozga
+F07.8	inclusion	organski afektivni poremećaj desne hemisfere
+F07.9	preferred	Neoznačeni organski poremećaj ličnosti i poremećaj ponašanja uzrokovan bolešću, oštećenjem i disfunkcijom mozga
+F07.9	inclusion	Organski psihosindrom
+F09	preferred	Neoznačeni organski ili simptomatski duševni poremećaj
+F09	inclusion	Psihoza: organska NOS
+F09	inclusion	Psihoza: simptomatska NOS
+F09	exclusion	psihoza NOSF29
+F10-F19	preferred	Duševni poremećaji i poremćaji u ponašanju uzrokovani upotrebom psihoaktivnih supstanci
+F10-F19	definition	Ova podgrupa sadrži širok spektar poremećaja koji se razlikuju po kliničkoj slici i težini, a svi se mogu pripisati upotrebi jedne ili više psihoaktivnih supstanci, koje mogu biti ili ne biti medicinski propisane. Karakter na trećem mjestu u šifri ukazuje na upotrebljenu supstancu, a četvrti karakter označava kliničko stanje. Šifre treba koristiti, po potrebi, za svaku označenu supstancu, ali treba napomenuti da nijesu sve šifre od 4 karaktera primjenljive za sve supstance. Identifikaciju psihoaktivne supstance treba bazirati na što većem broju izvora informacija je moguće. To uključuje autoanamnestičke podatke, analize krvi i drugih tjelesnih tečnosti, tjelesne i psihičke simptome, kliničke znake i ponašanje, i druge dokaze kao što su droga u posjedstvu pacijenta ili pozitivni heteroanamnestički podaci. Mnogi korisnici droge upotrebljavaju više od jedne vrste psihoaktivnih supstanci. Glavna dijagnoza treba da bude klasifikovana, kad god je to moguće, na osnovu supstance ili grupe supstanci koja je izazvala ili doprinijela najviše trenutnom kliničkom sindromu. Druge dijagnoze treba šifrirati kada se druge psihoaktivne supstance upotrijebe u toksičnim količinama (zajednički četvrti karakter .0) ili u količini koja uzrokuje oštećenja (zajednički četvrti karakter .1), zavisnost (zajednički četvrti karakter .2) ili druge poremećaje (zajednički četvrti karakter .3 -.9). Samo u slučajevima kada je obrazac upotrebe psihoaktivne supstance tako haotičan i nasumičan, ili u kojima su doprinosi različitih droga nerazdvojivo izmiješani, treba koristiti dijagnozu poremećaja nastalih upotrebom mnogobrojnih drogašifru (F19.-).
+F10-F19	exclusion	zloupotreba supstanci koje ne izazivaju zavisnost
+F10	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom alkohola
+F10[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F11	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom opijata
+F11[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F12	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom kanabinoida
+F12[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F13	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom hipnotika ili sedativa
+F13[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F14	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom kokaina
+F14[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F15	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom drugih stimulansa, uključujući kofein
+F15[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F16	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom halucinogena
+F16[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F17	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom duvana
+F17[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F18	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom isparljivih rastvarača
+F18[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F19	preferred	Duševni poremećaji i poremećaji ponašanja uzrokovani upotrebom više psihoaktivnih supstanci i drugih droga
+F19[S05F10_4]	modifierlink	[Vidi potkategorije prije šifre F10]
+F19	definition	Ovu šifru treba koristiti kada je poznato da se koriste dvije ili više psihoaktivnih supstanci, ali je nemoguće procjeniti koja supstanca najviše doprinosi poremećajima.Takođe je treba koristiti kada tačan identitet nekih ili čak svih psihoaktivnih supstanci koje se upotrebljavaju, pošto mnogo korisnika više droga supstanci često supstance koje uzimaju ne poznaju detaljno.
+F19	inclusion	zloupotreba droga NOS
+F20-F29	preferred	Shizofrenija, shizotipski i sumanuti poremećaji 
+F20-F29	definition	Ova podgrupa obuhvata shizofreniju, kao najbitnijeg člana ove grupe, shizotipski poremećaj, stalne sumanute poremećaje i veću grupu akutnih i tranzitornih psihotičnih poremećaja. Shizoafektivni poremećaji su zadržani ovdje, iako je njihova priroda diskutabilna.
+F20	preferred	Shizofrenija
+F20	definition	Shizofrene poremećaje generalno karakterišu osnovne i karakteristične distorzije mišljenja i opažanja i neodgovarajući ili otupljeni afekti. Čista svijest i intelektualni kapacitet su obično očuvani iako se vremenom mogu razviti određeni kognitivni deficiti. Najznačajniji psihopatološki fenomeni podrazumijevaju eho misli; misli namatenja i misli oduzimanja ubacivanje misli i gubitak misli(marić); emitovanje misli; sumanute ideje odnosa i proganjanja; uticaj ili pasivnost; halucinatorni glasovi, koji komentarišu ili raspravljaju o oboljelom sa trećom osobom; poremećaji mišljenja i negativni simptomi.Tok bolesti može bili neprekidan ili epizodičan sa stalnim pogoršanjem, ili sa jednom ili više epizoda sa potpunom ili nepotpunom remisijom. Dijagnozu shizofrenije ne treba postavljati ako postoje izraziti depresijski ili manijački simptomi (osim kad je sigurno da su shizofreni simptomi prethodili afektivnim poremećajima); ako postoji očigledno moždano oboljenje i u stanjima intoksikacije drogama odnosno apstinencije. Slične poremećaje, koji se razvijaju kod epilepsije ili kod drugih moždanih oboljenja, treba klasifikovati kao F06.2, a one izazvane drogom kao F10-F19, obično četvorocifreno .5.
+F20	exclusion	shizofrenija: akutna (nediferencirana) F23.2
+F20	exclusion	shizofrenija: ciklična F25.2
+F20	exclusion	shizofrena reakcija F23.2
+F20	exclusion	Shizotipni poremećajF21
+F20.0	preferred	Paranoidna shizofrenija
+F20.0	definition	U paranoidnoj shizofreniji dominiraju relativno stabilne, često sumanute ideje paranoidne zablude, obično praćene halucinacijama, naročito slušnim, i poremećaji percepcije. Poremećaji afekta, volje i govora, i katatonički simptomi, su ili odsutni ili relativno neupadljivi.
+F20.0	inclusion	Parafrena shizofrenija parafrenija
+F20.0	exclusion	involutivni paranoidno stanjeF22.8
+F20.0	exclusion	paranojaF22.0
+F20.1	preferred	Hebefrena shizofrenija
+F20.1	definition	Forma shizofrenije u kojoj su afektivne promjene prominentne, sumanute ideje i halucinacije prolazne i fragmentirane, ponašanje neodgovorno i nepredvidljivo i manirizmi uobičajeni. Raspoloženje je površno i neprimjereno, mišljenje je dezorganizovano, a govor je nepovezan. Prisutna je tendencija socijalne izolacije. Prognoza je obično loša zbog brzog razvoja „negativnih” simptoma, posebno zaravnjenja afekta i gubitka volje. Hebefrenija se normalno dijagnostikuje samo kod adolescenata ili mladih odraslih osoba.
+F20.1	inclusion	dezorganizovana shizofrenija
+F20.1	inclusion	Hebefrenija
+F20.2	preferred	Katatona shizofrenija
+F20.2	definition	U katatonoj shizofreniji dominiraju izraziti psihomotorni poremećaji koji se mogu smjenjivati između ekstrema kao što su hiperkinezija i stupor, ili automatska poslušnost i negativizam. neprirodni-prinudni položaji i držanje mogu se zadržati u dugim periodima. Epizode nasilnog uzbuđenja mogu biti upadljiva odlika ovog stanja. Pojava katatonije se može biti kombinovana sa snu sličnim (oneroidnim) stanjem, sa živim scenskim halucinacijama.
+F20.2	inclusion	katatoni stupor
+F20.2	inclusion	Shizofrenična: katalepsija
+F20.2	inclusion	Shizofrenična: katatonija
+F20.2	inclusion	Shizofrenična: voštana savitljivost
+F20.3	preferred	Nediferencirana shizofrenija
+F20.3	definition	Psihotična stanja koja ispunjavaju opšte dijagnostičke kriterijume za shizofreniju, ali se ne uklapaju ni u jedan od subtipova u F20.0-F20.2, ili pak pokazuju obilježja više od jednog od njih bez jasne dominacije jednog seta dijagnostičkih karakteristika.
+F20.3	inclusion	Atipična shizofrenija
+F20.3	exclusion	akutni psihotični poremećaj sličan shizofreniji
+F20.3	exclusion	hronična nediferencirana shizofrenija
+F20.3	exclusion	postshizofrena depresijaF20.4
+F20.4	preferred	Postshizofrena depresija
+F20.4	definition	Depresivna epizoda, koja se može prolongirati, koja nastaje nakon shizofrene bolesti. Neki shizofreni simptomi, pozitivni ili negativni, moraju i dalje biti prisutni, ali oni više ne dominiraju u kliničkoj slici. Ova depresivna stanja su povezana sa povećanim rizikom od samoubistva. Akopacijent nema više shizofrene simptome, treba postaviti dijagnozu depresivne epizode (F32.-). Ako su shizofreni simptomi i dalje bujni i izraziti, treba postaviti dijagnozu odgovarajućeg subtipa shizofrenije (F20.0-F20.3).
+F20.5	preferred	Rezidualna shizofrenija
+F20.5	definition	Hronična faza u razvoju shizofrene bolesti u kojoj postoji jasna progresija od rane faze do kasnije faze i karakterišu je dugoročniost, ali ne obavezno i ireverzibilnost, „negativni”, simptomi, npr. psihomotorna usporenost; smanjena aktivnost, tupost afekta; pasivnost ili nedostatak inicijative; osiromašenje količine ili sadržaja govora; oskudna neverbalna komunikacija izrazima lica, izbegavanjem pogleda, modulacijom glasa i držanjem; loša briga o sebi i socijalna aktivnost.
+F20.5	inclusion	hronična nediferencirana shizofrenija
+F20.5	inclusion	
+F20.5	inclusion	Shizofreno rezidualno stanje
+F20.6	preferred	Obična shizofrenija
+F20.6	definition	Poremećaj u kom se javlja podmukao ali progresivan razvoj čudnog ponašanja, nesposobnosti odgovora zahtjevima društva i opadanje sveukupne djelatnosti. Karakteristične negativne odlike rezidualne shizofrenije (npr. otupljivanje afekta i gubitak volje) se razvijaju bez ikakvih prethodnih očiglednih psihotičnih simptoma.
+F20.8	preferred	Druga shizofrenija
+F20.8	inclusion	Cenestopatska shizofrenija
+F20.8	inclusion	Shizofreniformni: poremećaj NOS
+F20.8	inclusion	Shizofreniformna: psihoza NOS
+F20.8	exclusion	kratki shizofreniformni poremećaji F32.2
+F20.9	preferred	Shizofrenija, neoznačena
+F21	preferred	Shizotipni poremećaj
+F21	definition	Poremećaj koji karakterišu ekscentrično ponašanje i anomalije u mišljenju i afektu koji odgovaraju onima iz shizofrenije, mada se jasne i karakteristične shizofrene anomalije ne javljaju ni u kojoj fazi bolesti. Simptomi mogu biti hladan ili neodgovarajući afekat; nezadovoljstvo; čudno iili ekscentrično ponašanje; težnja ka socijalnom povlačenju; paranoidne ili bizarne ideje koje ne dostižu nivo.... sumanutih ideja; opsesivne ruminacije; misaoni poremećaji i perceptivni ispadi; povremene tranzitorne kvazipsihotičke epizode sa intenzivnim iluzijama, slušnim ili drugim halucinacijama i idejama sličnim sumanutim, koje obično  nastaju bez spoljašnje provokacije. Nema jasnog početka, a evolucija i tok su kao u poremećaju ličnosti.
+F21	inclusion	Latentna shizofrenična reakcija
+F21	inclusion	Shizofrenija: granična 
+F21	inclusion	Shizofrenija: latentna
+F21	inclusion	Shizofrenija: prepsihotična
+F21	inclusion	Shizofrenija: prodromalna
+F21	inclusion	Shizofrenija: pseudoneurotska
+F21	inclusion	Shizofrenija: pseudopsihopatska
+F21	inclusion	Shizotipni poremećaj ličnosti
+F21	exclusion	Aspergerov sindromF84.5
+F21	exclusion	shizoidni poremećaj ličnostiF60.1
+F22	preferred	Trajni sumanuti poremećaj
+F22	definition	Podrazumijeva raznovrsne poremećaje u kojima dugotrajne sumanute ideje čine jedinu ili najupadljiviju kliničku karakteristiku, i koji se ne mogu klasifikovati kao organski, shizofreni ili afektivni. Sumanute poremećaje koji traju manje od nekoliko mjeseci treba klasifikovati, barem privremeno pod F23.-.
+F22.0	preferred	Sumanuti poremećaj 
+F22.0	definition	Poremećaj koji karakteriše razvoj jedne sumanute ideje ili seta međusobno povezanih sumanutih ideja, koje su obično trajne i ponekad traju cijelog života. Sadržaj sumanute ideje ili ideja je veoma  promjenljiv. Jasne i trajne slušne halucinacije (glasovi), shizofreni simptomi kao što su sumanute ideje kontrole i značajna tupost afekta i jasni dokazi moždanog oboljenja se ne uklapaju u ovu dijagnozu. Međutim, prisustvo povremenih ili prolaznih slušnih halucinacija, naročito kod starijih pacijenata, ne isključuje ovu dijagnozu, pod uslovom da ovi simptomi nijesu tipično shizofreni i čine samo mali dio sveukupne kliničke slike.
+F22.0	inclusion	Paranoja
+F22.0	inclusion	Paranoidna: psihoza
+F22.0	inclusion	Paranopdino: stanje
+F22.0	inclusion	Parafrenija (kasna)
+F22.0	inclusion	Sensitiver Beziehungswahn
+F22.0	exclusion	paranoidni: poremećaj ličnostiF60.0
+F22.0	exclusion	paranoidna: psihozaF23.3
+F22.0	exclusion	paranoidni: reakcijaF23.3
+F22.0	exclusion	paranoidni: shizofrenijaF20.0
+F22.8	preferred	Drugi trajni sumanuti poremećaji
+F22.8	definition	Poremećaji u kojima je sumanuta ideja ili ideje praćena upornim slušnim halucinacijama ili shizofrenim simptomima, koji ne opravdavaju dijagnozu shizofrenije (F20.-).
+F22.8	inclusion	Sumanuta dizmorfofobija
+F22.8	inclusion	Involutivno paranodino stanje
+F22.8	inclusion	Kverulantna paranoja
+F22.9	preferred	Trajni sumanuti poremećaj, neoznačen
+F23	preferred	Akutni i prolazni psihotični poremećaji
+F23	definition	Heterogena grupa poremećaja koju karakteriše akutan početak psihičnih simptoma kao što su sumanute ideje, halucinacije, perceptivni poremećaji, i velika promjena težak poremećaj uobičajenog ponašanja. Akutni početak se definiše kao razvoj pojačavajućeg intenziteta jasne abnormalne kliničke slike u periodu od dvije nedjelje ili kraće. Za ove poremećaje nema dokaza o organskom porijeklu. Često postoji zbunjenost i zbrkanost, ali dezorijentacija u vremenu, prostoru i prema ličnostima nije trajna ili dovoljno intenzivna da opravda dijagnozu organski uzrokovanog delirijuma (F05-). Do potpunog oporavka obično dolazi u toku nekoliko mjeseci, često i u toku nekoliko nedjelja ili čak dana. Ako poremećaj perzistira, promjena klasifkacije biće nužna. Poremećaj može, a ne mora biti udružen sa akutnim stresom, koji se definiše kao stresogeni događaji koji prethode početku bolesti jednu ili dvije nedjelje.
+F23.0	preferred	Akutni polimorfni psihotični poremaćaj bez simptoma shizofrenije
+F23.0	definition	Akutni psihotični poremećaj u kome su halucinacije, sumanute ideje ili perceptivni poremećaji očigledni, ali upadljivo promjenljivi, mijenjajući se iz dana u dan ili čak iz sata u sat. Emotivni nemir sa intenzivnim prolaznim osjećanjima sreće ili ushićenja, ili anksioznosti i razdražljivosti je takođe često prisutan Polimorfnost i nestabilnost su karakteristike sveukupne kliničke slike, ali psihotične odlike ne opravdavaju dijagnozu shizofrenije (F20.-). Ovi poremećaji, često,imaju iznenadan početak, razvijaju se rapidno za nekoliko dana i često pokazuju rapidni nestanak simptoma bez recidiva. Ako simptomi opstaju, dijagnozu treba mijenjati u trajni sumanuti poremećaj (F22.-).
+F23.0	inclusion	Kratkotrajna psihoza bez simptoma shizofrenije ili neoznačena Bouffée délirante bez simptoma shizofrenije ili neoznačena
+F23.0	inclusion	Cikloidna psihoza bez simptoma shizofrenije ili neoznačena
+F23.1	preferred	Akutni polimorfni psihotični poremećaj sa simptomima shizofrenije
+F23.1	definition	Akutni psihotični poremećaj u kome je prisutna polimorfna i nestabilna klinička slika, i koja je opisana u F23.0, ali uprkos nestabilnosti, ipak neki simptomi, tipični su za shizofreniju su takođe vidni veći dio vremena. Ako shizofreni simptomi perzistiraju, dijagnozu treba promijeniti u shizofreniju (F20.-)
+F23.1	inclusion	akutna paranoidna reakcija Kratkotrajna psihoza Bouffée délirante sa simptomima shizofrenije
+F23.1	inclusion	Cikloidna psihoza sa simptomima shizofrenije
+F23.2	preferred	Akutni psihotični poremećaj sličan shizofreniji
+F23.2	definition	Akutni psihotični poremećaj u kome su psihotični simptomi relativno stabilni i opravdavaju dijagnozu shizofrenije, ali su trajali manje od oko mjesec dana; polimorfne nestabilne odlike, opisana u F23.0, nisu prisutne Ako shizofreni simptomi perzistiraju, dijagnozu treba promijeniti u shizofreniju (F20.-).
+F23.2	inclusion	Akutna (nediferentovana) shizofrenija
+F23.2	inclusion	Kratki shizofreniformni: poremećaj
+F23.2	inclusion	Kratki shizofreniformna: psihoza
+F23.2	inclusion	Oneirofrenija
+F23.2	inclusion	Shizofrena reakcija
+F23.2	exclusion	Organski sumanuti [sličan shizofreniji] poremećajF06.2
+F23.2	exclusion	shizofreniformni poremećaji NOSF20.8
+F23.3	preferred	Drugi akutni pretežno sumanuti psihotični poremećaji
+F23.3	definition	Akutni psihotični poremećaji u kojima su relativno stabilne sumanute ideje ili halucinacije glavne kliničke odlike, ali ne opravdavaju dijagnozu shizofrenije (F20.-). Ako sumanute ideje perzistiraju, dijagnozu treba promijeniti u trajni sumanuti poremećaj (F22.-).
+F23.3	inclusion	Paranodina reakcija
+F23.3	inclusion	Psihogena paranodina psihoza
+F23.8	preferred	Drugi akutni i prolazni psihotični poremećaji
+F23.8	definition	Svi drugi označeni akutni psihotični poremećaji za koje ne postoji dokaz da su organskog porijekla i koji se ne opravdavaju klasifikaciju pod F23.0-F23.3.
+F23.9	preferred	Akutni i prolazni psihotični poremećaji, neoznačeni
+F23.9	inclusion	Kratka reaktivna psihoza NOS
+F23.9	inclusion	Reaktivna psihoza
+F24	preferred	Indukovani sumanuti poremećaj
+F24	definition	Sumanuti poremećaj zajednički za dvije ili više osoba  emotivno tijesno povezanih. Samo jedna osoba boluje od pravog psihotičkog poremećaja,sumanute ideje su indukovane kod druge(ih) i obično nestaju kada se osobe razdvoje.
+F24	inclusion	Folie à deux Ludilo u dvoje
+F24	inclusion	Indukovani: paranoidni poremećaj
+F24	inclusion	Indukovani: psihotični poremećaj
+F25	preferred	Shizoafektivni poremećaj
+F25	definition	Epizodni poremećaji u kojima su i afektivni i shizofreni simptomi izraženi, ali koji ne opravdavaju dijagnozu ni shizofrenije, niti depresivne ili manične epizode. Druga stanja u kojima se afektivni simptomi nadograđuju na postojeću shizofrenu bolest, ili koegzistiraju ili se smjenjuju sa trajnim sumanutim poremećajima druge vrste, klasifikuju se pod F20-F29. Psihotični simptomi nesaglasni sa raspoloženjem u afektivnim poremećajima ne opravdavaju dijagnozu shizoafektivnog poremećaja.
+F25.0	preferred	Shizoafektivni poremećaj, manični tip
+F25.0	definition	Poremećaj u kojem su i shizofreni i manični simptomi izraženi tako da epizoda bolesti ne opravdava dijagnozu ni shizofrenije ni manične epizode. Ovu kategoriju treba koristiti i za pojedinačnu epizodu i za recidivirajući poremećaj u kojim je većina epizoda shizoafektivna, manijčnog tipa.
+F25.0	inclusion	Shizoafektivna psihoza, manični tip
+F25.0	inclusion	Shizofreniformna psihoza, manični tip
+F25.1	preferred	Shizoafektivni poremećaj, depresivni tip
+F25.1	definition	Poremećaj u kojem su i shizofreni i depresivni simptomi izraženi tako da epizoda bolesti ne opravdava dijagnozu ni shizofrenije ni depresivne epizode. Ovu kategoriju treba koristiti i za pojedinačnu epizodu i za recidivirajući poremećaj u kojim je većina epizoda shizoafektivna, depresivnog tipa.
+F25.1	inclusion	Shizoafektivna psihoza, depresivni tip
+F25.1	inclusion	Shizofreniformna psihoza, depresivni tip
+F25.2	preferred	Shizoafektivni poremećaj, mješoviti tip
+F25.2	inclusion	Ciklična shizofrenija
+F25.2	inclusion	Mješvita shizofrena i afektivna psihoza
+F25.8	preferred	Drugi shizoafektivni poremećaji
+F25.9	preferred	Shizoafektivni poremećaj, neoznačeni
+F25.9	inclusion	Shizoafektivna psihoza NOS
+F28	preferred	Drugi neorganski psihotični poremećaj
+F28	definition	Sumanuti ili halucinatomi poremećaji koji ne opravdavaju dijagnozu shizofrenije (F20.-), trajnih sumanutih poremećaja (F22.-), akutnih i prolaznih psihotičnih poremećaja (F23.-), psihotičnih tipova manične epizode (F30.2) ili teške depresivne epizode (F32.3).
+F28	inclusion	Hronična halucinatorna psihoza
+F29	preferred	Neoznanečena neorganska psihoza
+F29	inclusion	Psihoza NOS
+F29	exclusion	duševni poremećaj NOSF99
+F29	exclusion	organska ili simptomatska psihoza NOSF09
+F30-F39	preferred	Poremećaji rapoloženja [afektivni poremćaji]
+F30-F39	definition	Ovu podgrupu sačinjavaju  poremećaji u kojima je osnovni ispad promjena afekta ili raspoloženja do depresije (sa ili bez pridružene anksioznosti) ili do ushićenja. Promjena raspoloženja je obično praćena promjenom ukupnog nivoa aktivnosti; većina drugih simptoma je sekundarna ili lako razumljiva u kontekstu promijena raspoloženja i oduševljenja. Većina ovih poremećaja recidivira i početak pojedinačnih epizoda često može biti povezan sa stresnim događajima ili situacijama
+F30	preferred	Manična epizoda
+F30	definition	Sve dijagnoze ove podgrupe treba koristiti samo za pojedinačnu  epizodu. Hipomanične ili manične epizode kod osoba koje su imale jednu ili više prethodnih afektivnih epizoda (depresivne, hipomanične, manične ili mješovite) treba šifrirati kao bipolarni afektivni poremećaj (F31.-).
+F30	inclusion	bipolarni poremećaj, pojedinačna manična epizoda
+F30.0	preferred	Hipomanija
+F30.0	definition	Poremećaj koji karakterišu trajno blago povišeno raspoloženje, povećana energija i aktivnost, i obično izraženo osjećanje blagostanja i dobre i fizičke i mentalne efikasnosti. Povećana društvenost, pričljivost, pretjerana familijarnost, povećana seksualne energija i smanjena potreba za spavanjem su često prisutne, ali ne u takvom stepenu da bi ozbiljno ugrozile rad ili rezultirale socijalnim odbacivanjem.  Razdražljivost, uobraženo i neotesano ponašanje mogu se zamijeniti  češću euforičnu društvenost. Izmjene raspoloženja i ponašanja nijesu praćene halucinacijama ili sumanutim idejama.
+F30.1	preferred	Manija bez psihotičnih simptoma
+F30.1	definition	Raspoloženje je povišeno, nezavisno od okolnosti bolesnika, i može varirati od bezbrižne veselosti do skoro nekontrolisanog uzbuđenja. Raspoloženje je praćeno povećanom energijom i rezultira hiperaktivnošću, povećanom govorljivošću i nesanicom. Pažnja se ne može zadržati i često postojinaglašena rasijanost. Samopoštovanje je, često, naraslo, sa idejama veličine i slobodnim izražavanjem. Normalne socijalne inhibicije nestaju i to može dovesti do neuobičajenog, nepromišljenog ponašanja ili ponašanja neprimjernog za dotičnu osobu.
+F30.2	preferred	Manija sa psihotičnim simptomima
+F30.2	definition	Pored kliničke slike opisane u F30.1, sumanute ideje (obično veličine) ili halucinacije (obično glasovi koji govore direktno pacijentu) su prisutne ili uzbuđenost, pretjerana motorna aktivnost i bujica ideja su tako ekstremni da osobu nije moguće razumjeti ili joj prići uobičajenom komunikacijom.
+F30.2	inclusion	Manija sa: psihotičnim simptomima koji su u skladu sa raspoloženjem
+F30.2	inclusion	Manija sa: psihotičnim simptomima koji nisu u skladu sa raspoloženjem
+F30.2	inclusion	Manični stupor
+F30.8	preferred	Druge manične epizode
+F30.9	preferred	Manična epizoda, neoznačena
+F30.9	inclusion	Manija NOS
+F31	preferred	Bipolarni afektivni poremećaj
+F31	definition	Poremećaj koji karakterišu dvije ili više epizoda u kojima su pacijentovi nivoi raspoloženja i aktivnosti značajno poremećeni, ovi poremećaji se sastoje, nekada, od povišenja raspoloženja i povećane energije i aktivnosti (hipomanija ili manija), a nekada od sniženja raspoloženja i smanjenja energije i aktivnosti (depresija). Ponavljane epizode samo hipomanije ili manije se klasifikuju kao bipolarne.
+F31	inclusion	manično-depresivna: bolest
+F31	inclusion	manično-depresivna: psihoza
+F31	inclusion	manično-depresivna: reakcija
+F31	exclusion	bipolarni poremećaj, pojedinačna manična epizodaF30.-
+F31	exclusion	ciklotimijaF34.0
+F31.0	preferred	Bipolarni afektivni poremećaj, trenutna hipomanična epizoda
+F31.0	definition	Pacijent je trenutno hipomaničan, a imao je bar jednu drugu afektivnu epizodu (hipomaničnu, maničnu, depresivnu ili mješovitu) u prošlosti.
+F31.1	preferred	Bipolarni afektivni poremećaj, trenutna manična epizoda bez psihotičnih simptoma
+F31.1	definition	Pacijent je trenutno maničan, bez psihotičnih simptoma (kao u F30.1), a imao je bar jednu drugu afektivnu epizodu (hipomaničnu, maničnu, depresivnu ili mješovitu) u prošlosti.
+F31.2	preferred	Bipolarni afektivni poremećaj, trenutna manična epizoda sa simptomima psihoze
+F31.2	definition	Pacijent je trenutno maničan, sa psihotičnim simptomima (kao u F30.2), a imao je bar jednu drugu afektivnu epizodu (hipomaničnu, maničnu, depresivnu ili mješovitu) u prošlosti.
+F31.3	preferred	Bipolarni afektivni poremećaj, trenutna blaga ili umjerena depresivna epizoda
+F31.3	definition	Pacijent je trenutno depresivan, kao u blagoj ili umjerenoj depresivnoj epizodi  (F32.0 ili F32.1), a imao je bar jednu potvrđenu hipomaničnu, maničnu ili mješovitu afektivnu epizodu u prošlosti.
+F31.4	preferred	Bipolarni afektivni poremećaj, trenutna teška depresivna epizoda bez psihotičnih simptoma
+F31.4	definition	Pacijent je trenutno depresivan, kao u teškoj depresivnoj epizodi  bez psihotičnih simptoma (F32.2), a imao je bar jednu potvrđenu hipomaničnu, maničnu ili mješovitu afektivnu epizodu u prošlosti.
+F31.5	preferred	Bipolarni afektivni poremećaj, trenutna teška depresivna epizoda sa simptomima psihoze
+F31.5	definition	Pacijent je trenutno depresivan, kao u teškoj depresivnoj epizodi  sa psihotičnim simptomima (F32.3), a imao je bar jednu potvrđenu hipomaničnu, maničnu ili mješovitu afektivnu epizodu u prošlosti.
+F31.6	preferred	Bipolarni afektivni poremećaj, trenutna mješovita epizoda
+F31.6	definition	Pacijent je imao bar jednu potvrđenu hipomaničnu, maničnu, depresivnu ili mješovitu afektivnu epizodu u prošlosti, a sada ima ili mješavinu ili brzo smjenjivanje maničnih ili depresivnih simptoma. 
+F31.6	exclusion	pojedinačna mješovita afektivna epizodaF38.0
+F31.7	preferred	Bipolarni afektivni poremećaj, trenutno u remisiji
+F31.7	definition	Pacijent je imao  bar jednu potvrđenu hipomaničnu, maničnu ili mješovitu afektivnu epizodu u prošlosti, i barem još jednu drugu afektivnu epizodu (hipomaničnu, maničnu, depresivnu ili mješovitu), ali trenutno ne pati ni od kakvog značajnog poremećaja raspoloženja i nije nekoliko mjeseci. Periode remisije tokom profilaktičkog liječenja treba ovdje šifrirati.
+F31.8	preferred	Drugi bipolarni afektivni poremećaji
+F31.8	inclusion	Bipolarni poremećaj, tip II Bipolarni II poremećaj
+F31.8	inclusion	Ponavljajuće manične epizode NOS
+F31.9	preferred	Bipolarni afektivni poremećaj, neoznačen
+F32	preferred	Depresivna epizoda
+F32	definition	U tipičnim blagim, umjerenim ili teškim depresivnim epizodama, pacijent pati od sniženja raspoloženja, smanjenja energije i  smanjenja aktivnosti. Kapacitet za uživanje, interesovanje i koncentracija su sniženi, a upadljivi umor čak i poslije neznatnih napora je uobičajen. Spavanje je obično poremećeno, a apetit je smanjen. Samopoštovanje i samopouzdanje su gotovo uvijek redukovani, čak i kod blagih oblika, a neke ideje krivice i bezvrijednosti su često prisutne. Sniženo raspoloženje varira neznatno iz dana u dan, ne odgovara okolnostima i može biti praćeno takozvanim „somatskim” simptomima, kao što su gubitak interesovanja i osjećaja zadovoljstva, buđenjem nekoliko sati ranije nego obično, depresijom koja je gora ujutru, značajna psihomotorna retardiranost, agitacija, gubitak apetita, gubitak tjelesne mase i gubitak libida. U zavisnosti od broja i težine simptoma, depresivna epizoda se može označiti kao blaga, umjerena ili teška.
+F32	inclusion	Pojedinačna epizoda: depresivne reakcije
+F32	inclusion	Pojedinačna epizoda: psihogene depresije
+F32	inclusion	Pojedinačna epizoda: reaktivne depresije
+F32	exclusion	poremećaj prilagođavanjaF43.2
+F32	exclusion	Recidivirajući depresivni poremećajF33.-
+F32	exclusion	kada su u vezi sa poremećajima ponašanja konduktivni poremećaji u F91.-F92.0
+F32.0	preferred	Blaga depresivna epizoda
+F32.0	definition	Obično postoje dva ili tri opisana simptoma. Bolesnik je obično iznuren sa tim simptomima, ali  vjerovatno može nastaviti sa većinom aktivnosti.
+F32.1	preferred	Umjerena depresivna epizoda
+F32.1	definition	Obično postoje četiri ili više opisanih simptoma i bolesnik vjerovatno ima, znatne teškoće u nastavljanju svojih uobičajenih aktivnosti.
+F32.2	preferred	Teška depresivna epizoda bez psihotičnih simptoma
+F32.2	definition	Depresivna epizoda u kojoj nekoliko opisanih simptoma su istaknuti i iznurujući, tipično gubitak samopoštovanja i ideje bezvrijednosti ili krivice. Samoubilačke ideje i činovi su uobičajeni, a brojni „somatski” simptomi su  često prisutni.
+F32.2	inclusion	Agitirajuća depresivna pojedinačna epizoda bez psihotičnih simptoma (Pojedinačna epizoda agitirajuće depresije...)
+F32.2	inclusion	Velika depresivna pojedinačna epizoda bez psihotičnih simptoma (Pojedinačna epizoda velike depresije...)
+F32.2	inclusion	Vitalna depresivna pojedinačna epizoda bez psihotičnih simptoma (Pojedinačna epizoda vitalne depresije...)
+F32.3	preferred	Teška depresivna epizoda sa psihotičnim simptomima
+F32.3	definition	Depresivna epizoda kao što je opisana u F32.2, ali u kojoj postoje i halucinacije, sumanute ideje, psihomotorna retardiranost ili stupor tako teški da uobičajene socijalne aktivnosti nisu moguće; život može biti ugrožen zbog sklonosti samoubistvu, dehidracije ili izgladnivanja. Halucinacije i sumanute ideje mogu, a ne moraju, biti u skladu sa raspoloženjem.
+F32.3	inclusion	Pojedinačne epizode: velike depresije sa psihotičnim simptomima
+F32.3	inclusion	Pojedinačne epizode: psihogene depresivne psihoze
+F32.3	inclusion	Pojedinačne epizode: psihotične depresije
+F32.3	inclusion	Pojedinačne epizode: reaktivne depresivne psihoze
+F32.8	preferred	Druge depresivne epizode
+F32.8	inclusion	Atipična depresija
+F32.8	inclusion	Pojedinačne epizde "maskirane" depresije NOS
+F32.9	preferred	Depresivna epizoda, neoznačena
+F32.9	inclusion	Depresija NOS
+F32.9	inclusion	Depresivni poremećaj NOS
+F33	preferred	Recidivirajući depresivni poremećaj
+F33	definition	Poremećaj koji karakterišu ponavljane epizode depresije kao što su opisane depresivne epizode (F32.-), bez ranijih nezavisnih epizoda povišenog raspoloženja i povećane energije (manija). Međutim, mogu postojati kratke epizode blage povišenosti raspoloženja i preaktivnosti (hipomanija) odmah nakon depresivne epizode, nekada ubrzane antidepresivnim liječenjem. Teži oblici ovih recidivirajućih depresivnih poremećaja (F33.2 i F33.3) imaju mnogo zajedničkog sa ranijim konceptima kao što su manično-depresivna depresija, melanholija, vitalna depresija i endogena depresija. Prva epizoda se može pojaviti u bilo komuzrastu od djetinjstva do starosti, početak može biti akutan ili podmukao i može trajati različito dugo, od nekoliko nedjelja do više mjeseci. Rizik da se kod pacijenta sa recidivirajućim depresivnim poremećajem javi manična epizoda nikada ne nestaje potpuno, bez obzira na broj doživljenih depresijskih epizoda. Ako se ovakva epizoda desi, dijagnozu treba promijeniti u bipolarni afektivni poremećaj (F31.-).
+F33	inclusion	Recidivirajuće epizode: depresivne reakcije
+F33	inclusion	Recidivirajuće epizode: psihogene depresije
+F33	inclusion	Recidivirajuće epizode: reaktivne depresije
+F33	inclusion	sezonski depresivni poremećaj
+F33	exclusion	recidivirajuća kratka depresivna epizoda F38.1
+F33.0	preferred	Recidivirajući depresivni poremećaj, trenutna epizoda blaga
+F33.0	definition	Poremećaj koji karakterišu recidivirajuće epizode depresije, a trenutna epizoda je blaga, kao u F32.0, i bez podataka o maniji.
+F33.1	preferred	Recidivirajući depresivni poremećaj, trenutna epizoda umjerena
+F33.1	definition	Poremećaj koji karakterišu recidivirajuće epizode depresije, a trenutna epizoda je umjerene jačine, kao u F32.1, i bez podataka o maniji.
+F33.2	preferred	Recidivirajući depresivni poremećaj, trenutna epizoda teška bez psihotičnih simptoma
+F33.2	definition	Poremećaj koji karakterišu recidivirajuće eprzode depresije, a trenutna epizoda je teška  bez psihotičnih simptoma, kao u F32.2, i bez podataka o maniji.
+F33.2	inclusion	Endogena depresija bez psihotičnih simptoma
+F33.2	inclusion	Velika depresija, recidivirajuća bez psihotičnih simptoma
+F33.2	inclusion	Manično-depresivna psihoza, depresivni tip bez psihotičnih simptoma
+F33.2	inclusion	Vitalna depresija, recidivirajuća bez psihotičnih simptoma
+F33.3	preferred	Recidivirajući depresivni poremećaj, trenutna epizoda teška sa psihotičnim simptomima
+F33.3	definition	Poremećaj koji karakterišu recidivirajuće epizode depresije, a sadašnja epizoda je teška sa psihotičnim simptomima, kao u F32.3, i bez ranijih epizoda manije.
+F33.3	inclusion	Endogena depresija sa psihotičnim simptomima
+F33.3	inclusion	Manično-depresivna psihoza, depresivni tip sa psihotičnim simptomimaa
+F33.3	inclusion	Recidivirajuće teške epizode: velike depresije sa psihotičnim simptomima
+F33.3	inclusion	Recidivirajuće teške epizode: psihogene depresivne psihoze
+F33.3	inclusion	Recidivirajuće teške epizode: psihotične depresije
+F33.3	inclusion	Recidivirajuće teške epizode: reaktivne depresivne psihoze
+F33.4	preferred	Recidivirajući depresivni poremećaj, trenutno u remisiji
+F33.4	definition	Pacijent je imao dvije ili više depresivnih epizoda kao što su opisane u F33.0-F33.3, u prošlosti, ali nije imao depresivne simptome nekoliko mjeseci.
+F33.8	preferred	Drugi recidivirajući depresivni poremećaji
+F33.9	preferred	Recidivirajući depresivni poremećaj, neoznačen
+F33.9	inclusion	Monopolarna depresija NOS
+F34	preferred	Stalni poremećaji raspoloženja [afekata]
+F34	definition	Trajni i obično fluktuirajući poremećaji raspoloženja u kojima većina pojedinačnih epizoda nije dovoljno teška da bi se potvrdile kao hipomanija ili blaga depresivna epizoda. Pošto traju godinama, i nekada tokom većeg dijela pacijentovog odraslog doba, one uključuju podrazumijevaju značajnu iznurenost i invalidnost. U nekim slučajevima, recidivirajuće ili pojedinačne manične ili depresivne epizode se mogu superponirati na trajni afektivni poremećaj.
+F34.0	preferred	Ciklotimija
+F34.0	definition	Trajna nestabilnost raspoloženja koju prate brojni periodi depresije i blagog ushićenja, od kojih nijedan nije dovoljno težak ili dug da se opravda dijagnoza bipolarnog afektivnog poremećaja (F31.-) ili recidivirajućeg depresivnog poremećaja (F33.-). Ovaj poremećaj se često nalazi među rođacima oboljelih od bipolarnog afektivnog poremećaja. Neki pacijenti sa ciklotomijom mogu vremenom razviti bipolarni afektivni poremećaj.
+F34.0	inclusion	Afektivni poremećaj ličnosti
+F34.0	inclusion	Cikloidna ličnost
+F34.0	inclusion	Ciklotimična ličnost
+F34.1	preferred	Distimija
+F34.1	definition	Hronična depresija raspoloženja, koja traje najmanje nekoliko godina koja nije dovoljno teška ili  u kojoj pojedinačne epizode ne traju dovoljno da se opravda dijagnoza teškog, umjerenog ili blagog recidivirajućeg depresivnog poremećaja (F33.-).
+F34.1	inclusion	Depresivna: neuroza
+F34.1	inclusion	Depresivni: poremećaj ličnosti
+F34.1	inclusion	Neurotska depresija
+F34.1	inclusion	Trajna anksiozna depresija
+F34.1	exclusion	anksiozna depresija (blaga ili ne trajna)F41.2
+F34.8	preferred	Drugi trajni poremećaji raspoloženja [afekta] 
+F34.9	preferred	Stalni poremećaj raspoloženja [afekta], neoznačen
+F38	preferred	Drugi poremećaji raspoloženja [afekta]
+F38	definition	Svi drugi poremećaji raspoloženja koji neopravdavaju  klasifkaciju kao F30-F34, jer nisu dovoljno teški ili dugotrajni.
+F38.0	preferred	Drugi pojedinačni poremećaji raspoloženja [afekta]
+F38.0	inclusion	Mješovita afektivna epizoda
+F38.1	preferred	Drugi recidivirajući poremećaji raspoloženja [afekta]
+F38.1	inclusion	Recidivirajuća kratka depresivna epizoda
+F38.8	preferred	Drugi označeni poremećaji raspoloženja [afekta]
+F39	preferred	Neoznačeni poremećaj raspoloženja [afekta]
+F39	inclusion	Afektivna psihoza NOS
+F40-F48	preferred	Neurotski, stresogeni i somatoformni poremećaji
+F40-F48	exclusion	kada su u vezi sa poremećajima ponašanja u F91.-F92.8
+F40	preferred	Fobični anksiozni poremećaji
+F40	definition	Grupa poremećaja u kojima se anksioznost izaziva samo, ili predominantno, u određenim dobro definisanim situacijama, koje trenutno nijesu opasne. To rezultuje time da se ove situacije karakteristično izbjegavaju ili podnose sa strepnjom. Pacijentova zabrinutost može biti fokusirana na pojedinačne simptome kao što su palpitacije ili osjećaj nesvjestice i to je često povezano sa sekundarnim strahom od smrti, gubitka kontrole ili ludila. I pomisao o ulaženju u fobijsku situaciju obično izaziva očekivanu anksioznost. Fobijski strah često koegzistira sa depresijom. Da li treba postaviti dvije dijagnoze, fobičnu anksioznost i depresivnu epizodu, ili samo jednu, određuju vremenski tok ova dva stanja i terapeutska razmatranja u vrijeme konsultacije sa pacijentom
+F40.0	preferred	Agorafobija
+F40.0	definition	Dobro definisana grupa fobija koja obuhvata strah od napuštanja kuće, ulaženja u radnje, gužvi i javnih mjesta ili od samostalnog putovanja vozovima, autobusima ili avionima. Panični poremećaj je često slika sadašnje i prošlih epizoda. Depresivni i opsesivni simptomi i socijalne fobije, takođe, često postoje kao prateće karakteristike. Izbjegavanje fobičnih situacija je često upadljivo i neki agorafobičari doživljavaju malu anksioznost, jer mogu da izbjegavaju svoje fobijske situacije.
+F40.0	inclusion	Agorafobija bez podataka o paničnom poremećaju
+F40.0	inclusion	Panični poremećaj sa agorafobijom
+F40.1	preferred	Socijalne fobije
+F40.1	definition	Strah od pogleda drugih ljudi dovodi do izbjegavanja društvenih situacija. Prodornije socijalne fobije obično su vezane za nizak nivo samopoštovanja i strah od kritike. Mogu se ispoljiti kao crvenilo obraza, tremora ruku, mučnine ili neodložne potrebe za mokrenjem, pacijent je, ponekad, ubijeđen da je jedna od ovih sekundarnih manifestacija njegove anksioznosti, primarni problem. Simptomi mogu progredirati do napada panike.
+F40.1	inclusion	Antropofobija
+F40.1	inclusion	Socijalna neuroza
+F40.2	preferred	Specifične (izolovane) fobije
+F40.2	definition	Fobije ograničene na usko specifične situacije, kao što su blizina određenih životinja, visina, grmljavina, mrak, letjenje, zatvoreni prostori, uriniranje ili defekacija u javnim toaletima, jedenje određene hrane, odlazak zubaru ili viđenje krvi ili povrede. Mada je situacija koja izaziva fobiju diskretna, kontakt sa njom može izazvati paniku, kao kod agorafobije ili socijalne fobije.
+F40.2	inclusion	Akrofobija
+F40.2	inclusion	Zoofobija
+F40.2	inclusion	Klaustrofobija
+F40.2	inclusion	Jednostavna fobija
+F40.2	exclusion	dizmorfofobija (nesumanuta)F45.2
+F40.2	exclusion	nozofobijaF45.2
+F40.8	preferred	Drugi fobični anksiozni poremećaji
+F40.9	preferred	Fobijsko-anksiozni poremećaj, neoznačen
+F40.9	inclusion	Fobija NOS
+F40.9	inclusion	Fobično stanje NOS
+F41	preferred	Drugi anksiozni poremećaji
+F41	definition	Poremećaji u kojima je manifestacija anksioznosti glavni simptom i nije ograničena na neku posebnu situaciju u okolini. Depresivni i opsesivni simptomi, pa i neki elementi fobične anksioznosti, mogu takođe biti prisutni, pod uslovom da su oni jasno sekundarni ili manje teški.
+F41.0	preferred	Panični poremećaj [epizodna paroksizimalna anksioznost]
+F41.0	definition	Osnovna karakteristika su recidivirajući napadi teške anksioznosti (panike) koji nijesu vezani za posebnu situaciju ili okolnosti, te su stoga i nepredvidljivi. Kao i kod drugih anksioznih poremećaja, dominantni simptomi su iznenadni početak palpitacija, bola u grudima, osjećaja gušenja, nesvjestice i osjećanje nerealnosti (depersonalizacija ili derealizacija). Postoji često i sekundarni strah od smrti, gubitka kontrole ili ludila. Panični poremećaj ne treba postavljati kao glavnu dijagnozu ako bolesnik ima depresivni poremećaj u vrijeme početka napada; u ovim okolnostima panični napadi su vjerovatno sekundarni u odnosu na depresiju.
+F41.0	inclusion	Panični: napad
+F41.0	inclusion	Panično: stanje
+F41.0	exclusion	Panični poremećaj sa agorafobijomF40.0
+F41.1	preferred	Generalizovani anksiozni poremećaj
+F41.1	definition	Anksioznost koja je generalizovana i trajna, ali nije ograničena na, ili nije jako dominantno vezana za posebne prilike u okolini (tj. ona je „slobodno lebdeća”). Dominirajući simptomi su različiti, ali stalne žalbe su na: trajna nervoza, podrhtavanje, mišićna napetost, znojenje, vrtoglavica, palpitacije, nesvjestica i nelagodnost u epigastrijumu. Strahovanja pacijenta, da će se uskoro on ili neki njegov rođak razboljeti ili imati nezgodu, se često ispoljavaju.
+F41.1	inclusion	Anksiozna: neuroza
+F41.1	inclusion	Anksiozna: reakcija
+F41.1	inclusion	Anksiozno: stanje
+F41.1	exclusion	neurastenijaF48.0
+F41.2	preferred	Mješoviti anksiozni i depresivni poremećaj
+F41.2	definition	Ovu kategoriju treba upotrebiti kada su i simptomi anksioznosti i depresije prisutni, ali nijedni nijesu jasno predominantni i nijedan tip simptoma nije prisutan u mjeri da opravdava dijagnozu ako se razmatraju zasebno. Kada postoje i anksiozni i depresivni simptomi i dovoljno su teški da opravdavaju pojedinačne dijagnoze, tada treba koristiti obje dijagnoze, a ne ovu šifru.
+F41.2	inclusion	anksiozna depresija (blaga ili ne trajna) 
+F41.3	preferred	Drugi mješoviti anksiozni poremećaji
+F41.3	definition	Simptomi anksioznosti pomiješani sa karakteristikama drugih poremećaja u F42-F48. Nijedan tip simptoma nije tako težak da bi opravdao dijagnozu ako se posmatra odvojeno.
+F41.8	preferred	Drugi označeni anksiozni poremećaji
+F41.8	inclusion	Anksiozna histerija
+F41.9	preferred	Anksiozni poremećaj, neoznačen
+F41.9	inclusion	Anksioznost NOS
+F42	preferred	Opsesivno-kompulsivni poremećaj
+F42	definition	Osnovno obilježje su recidivirajuće opsesivne misli ili kompulsivne radnje. Opsesivne misli su ideje, slike ili impulsi, koji se uvijek iznova vraćaju na stereotipan način. One su skoro bez izuzetka uznemiravajuće i pacijent često pokušava bezuspješno, da im se odupre. One se, ipak prihvataju kao njegove ili njene misli, iako su neželjene i često neprijatne. Kompulsivne radnje i rituali su stereotipna ponašanja koja se stalno iznova ponavljaju. One same po sebi nijesu prijatne, niti dovode do izvršavanja nekih korisnih zadataka. Njihova funkcija je da spriječe objektivno neprijatan događaj, koji bi mogao nanijeti štetu bolesniku ili štete koju bi on mogao nanijeti drugima, koji bi se u suprotnom mogao desiti.  Obično, ovo ponašanje pacijent prepoznaje kao besmisleno ili neuspješno i ponavljano pokušava da mu se suprotstavi. Anksioznost je bez izuzetka prisutna. Ako se odupre kompulsivnim radnjama, anksioznost se pogoršava.
+F42	inclusion	anankastična neuroza
+F42	inclusion	opsesivno-kompulsivna neuroza
+F42	exclusion	opsesivno-kompulsivna ličnost (poremećaj)F60.5
+F42.0	preferred	Predominantno opsesivne misli ili ruminacije
+F42.0	definition	Mogu biti u obliku ideja, mentalnih slika ili impulsa za neku radnju i skoro uvijek su neprijatne za osobu. Ponekad su ideje neodlčne, a beskrajna razmatranja alternativa prate nesposobnost za donošenje neophodnih odluka u svakodnevnom životu. Veza između opsesivnih namenutih misli i depresije je naročito bliska i dijagnozu opsesivno-kompulsivnog poremećaja treba koristiti samo ako ruminacije nastaju ili traju u odsustvu depresivne epizode.
+F42.1	preferred	Predominantno kompulsivne radnje [opsesivni rituali]
+F42.1	definition	Većina kompulsivnih radnji su povezane sa čišćenjem (naročito sa pranjem ruku), ponavljanim provjeravanjem radi osiguravanja da se potencijalno opasnoj situaciji ne dozvoli da se desi ili sa uređenošću i urednošću. Ispod manifestnog ponašanja je strah, obično od opasnosti po pacijenta ili uzrokovanja iste, a ritual je neefikasni ili simbolički pokušaj otklanjanja opasnosti.
+F42.2	preferred	Mješovite opsesivne misli i radnje
+F42.8	preferred	Drugi opsesivno-kompulsivni poremećaji
+F42.9	preferred	Opsesivno-kompulsivni poremećaj, neoznačen
+F43	preferred	Reakcija na težak stres i poremećaji prilagođavanja
+F43	definition	Ova kategorija se razlikuje od drugih u tome što uključuje poremećaje koji se identifikuju ne samo po simptomatologiji i toku već i na osnovu postojanja jednog ili drugog od dva uzročna uticaja:  izuzetan stresogeni životni dogođaj koji stvara akutnu stresnu reakciju, ili značajna životna promjena koja dovodi do trajnih neprijatnih okolnosti koje dovode do poremećaja prilagođavanja. Mada manje težak psihosocijalni stres („životni događaji”) može ubrzati početak ili doprinijeti pojavi širokog spektra poremećaja klasifikovanih na drugom mjestu u ovoj grupi, njihova etiološka važnost nije uvijek jasna i u svakom slučaju naći će se zavisnost od individualne, često idiosinkratične ranjivosti, tj. životni događaji nijesu neophodni nitii dovoljni da objasne pojavu i oblik poremećaja. Nasuprot tome, smatra se da, ovdje objedinjeni poremećaji nastaju uvijek kao direktna posljedica akutnog teškog stresa ili kontinuirane traume. Stresni događaji ili kontinuirane neprijatne okolnosti su primarni i glavni uzročni faktor i poremećaj se ne bi javio bez njihovog uticaja. Poremećaji navedeni u ovoj sekciji se mogu, stoga, shvatiti kao loše prilagođeni odgovori na težak ili kontinuiran stres, tako remete uspješne odbrambene mehanizme i dovode do  problema društvenog funkcionisanja.
+F43.0	preferred	Akutna reakcija na stres
+F43.0	definition	Prolazni poremećaj koji se razvija kod pojedinca bez nekog drugog jasnog duševnog poremećaja, kao reakcija na izuzetan fizički i psihički stres koji se obično stišava za nekoliko sati ili dana. Individualna ranjivost i odbrambeni kapacitet igraju ulogu u pojavljivanju i težini akutnih reakcija na stres. Simptomi pokazuju mješovitu i promijenljivu kliničku sliku i podrazumijevaju inicijalno stanje „zgranutosti” sa izvjesnim stepenom sužene svijesti i pažnje, nesposobnost prijema draži i dezorijentacija. Ovo stanje može biti praćeno ili daljim povlačenjem iz date situacije (do nivoa disocijativnog stupora - F44.2) ili uznemirenošću i pretjeranom aktivnošću (reakcija bekstva ili fuga). Vegetativni znaci panične anksioznosti (tahikardija, znojenje, crvenilo obraza) su obično prisutni. Simptomi se, obično, pojavljuju nekoliko minuta poslije dejstva stresnih draži ili događaja i nestaju uroku od dva do tri dana (često u toku nekoliko sati). Može postojati djelimična ili potpuna amnezija (F44.0) za ovu epizodu. Ako simptomi potraju, treba razmotrati promjenu dijagnoze.
+F43.0	inclusion	Akutna: reakcija na krizu
+F43.0	inclusion	Akutna: reakcija na stres
+F43.0	inclusion	Borbeni zamor
+F43.0	inclusion	Krizno stanje
+F43.0	inclusion	Psihički šok
+F43.1	preferred	Posttraumatski stresni poremećaj
+F43.1	definition	Počinje kao odložena ili produžena reakcija na stresogeni događaj ili situaciju (kraćeg ili dužeg trajanja), izuzetno prijeteće ili katastrofalne prirode, što može lako da izazove opštu patnju skoro kod svakoga. Predisponirajući faktori, kao što su crte ličnosti (npr. kompulsivna, astenična) ili raniji neurotski poremećaji, mogu da snize prag razvoja sindroma ili pogoršaju tok bolesti, ali to nije ni neophodno, ni dovoljno da objasni pojavljivanje. Tipične karakteristike su epizode ponavljanog  proživljavanja trauma kroz nametljiva sjećanja (“flachback”-ove), snove ili noćne more, koje se javljaju na postojećoj osnovi osjećaja „utrnulosti” i emocionalne tuposti, odvojenosti od drugih ljudi, nereagovanja na okolinu, nezodovoljstva i izbjegavanja aktivnosti i situacija koje podsjećaju na traumu. Obično postoji i stanje vegetativne prenadraženosti sa hipervigilnošću, iznenadne reakcije uplašenosti i nesanice. Anksioznost i depresija su obično udružene su navedenim simptomima i znacima, a i samoubilačka ideacija nije rijetka. Početak slijedi nakon traume sa latentnim periodom koji može trajati od nekoliko nedjelja do više mjeseci. Tok bolesti je fluktuantan, ali se oporavak može očekivati u većini slučajeva. U malom procentu slučajeva, bolest može imati hroničan tok, trajati više godina, i da vremenom dovedu do trajne izmijene ličnosti (F62.0).
+F43.1	inclusion	Traumatska neuroza
+F43.2	preferred	Poremećaji prilagodjavanja
+F43.2	definition	Stanja lične patnje i emocionalne poremećenosti, koja obično remete socijalno funkcionisanje i učinak, a nastaju u periodu prilagođavanja na značajnu životnu promjenu ili na stresni životni događaj. Stresor pogađa integritet socijalne mreže osobe (težak gubitak, iskustva odvajanja) ili širi sistem socijalne podrške i vrijednosti (migracija, status izbjeglica), ili predstavlja veliku razvojnu promjenu ili krizu (polazak u školu, postati roditelj, neuspjeh u postizanju željenih ličnih ciljeva, penzionisanje). Individualna predispozicija ili ranjivost igraju značajnu ulogu u riziku nastanka i načinu ispoljavanja poremećaja prilagođavanja, ali, ipak, poremećaj se ne bi pojavio bez djelovanja stresora. Manifestacije variraju i uključuju depresivno raspoloženje, anksioznost ili brigu (ili njihovu mješavinu), osjećanje nesposobnosti da se bori, planira unaprijed, ili nastavi u trenutnoj situaciji, kao i određeni stepen nesposobnosti za obavljanje dnevne rutine. Poremećaji ponašanja mogu biti pridružena karakteristika, naročito kod adolescenata. Dominirajuća karakteristika može biti kratka ili produžena depresivna reakcija ili druge emocionalne poremećaje i poremećaje ponašanja.
+F43.2	inclusion	Kulturološki šok
+F43.2	inclusion	Reakcija tuge  žaljenja
+F43.2	inclusion	Hospitalizam kod djece
+F43.2	exclusion	anksiozni poremećaj odvajanja u djetinjstvuF93.0
+F43.8	preferred	Druge reakcije na težak stres
+F43.9	preferred	Reakcija na težak stres, neoznačena
+F44	preferred	Disocijativni [konverzivni] poremećaji
+F44	definition	Zajedničke osnove disocijativnih ili konverzivnih poremećaja su djelimičan ili potpun gubitak normalne povezanosti između sjećanja na prošle događaje, svjesnosti identiteta i neposrednih senzacija i kontrole tjelesnih pokreta. Svi oblici disocijativnih poremećaja imaju tendenciju ublažavanja poslije nekoliko nedjelja ili mjeseci, naročito ako je početak povezan sa nekim traumatskim životnim događajem. Druga hronična stanja, naročito paralize i anestezije, mogu da se razviju ako je početak udružen sa nerješivim problemima ili interpersonalnim poteškoćama. Ovi poremećaji su ranije bili klasifikovani kao različiti tipovi „konverzivne histerije”. Pretpostavlja se da su psihogeni po porijeklu, pošto su vremenski tijesno povezani sa traumatskim događajima, nerješivim i nepodnošljivim problemima ili narušenim odnosima. Simptomi često oslikavaju pacijentovu zamisao kako bi se fizička bolest manifestovala. Medicinski pregledi i pretrage ne otkrivaju postojanje nekog poznatog  fizičkog ili neurološkog poremećaja. Pored toga, postoje dokazi da je gubitak funkcije izraz emocionalnih konflikata ili potreba. Simptomi se mogu razviti u tijesnoj vezi sa psihološkim psihičkim stresom, i često se pojavljuju iznenada. Ovdje su uključeni samo poremećaji fizičkih funkcija pod voljnom kontrolom i gubitak osjećaja. Poremećaji koji uključuju bolove i druge složene fizičke osjećaje, koje kontroliše autonomni nervni sistem, šifriraju se kao somatizacijski poremećaji (F45.0). Mogućnost kasnije pojave teških fizičkih i psihijatrijskih poremećaja, treba uvijek imati na umu.
+F44	inclusion	konverzivna: histerija
+F44	inclusion	konverzivna: reakcija
+F44	inclusion	histerija
+F44	inclusion	histerična psihoza
+F44	exclusion	simuliranje [svjesna simulacija]Z76.5
+F44.0	preferred	Disocijativna amnezija
+F44.0	definition	Glavna karakteristika je gubitak pamćenja, obično važnih skorašnjih događaja, koji ne izaziva neki organski duševni poremećaj i koji je suviše veliki da bi se mogao objasniti običnom zaboravnošću ili zamorom. Amnezija je obično vezana za traumatske događaje, kao što su nesrećni slučajevi ili neočekivani teški gubici, i obično je djelimična i selektivna. Kompletna i generalizovana amnezija je rijetka, i obično je dio fuge (F44.1). Ako je to slučaj, poremećaj treba tako i klasifikovati. Ovu dijagnozu ne treba postaviti kada postoji organsko moždani poremećaj, trovanje ili pretjerani zamor.
+F44.0	exclusion	alkoholom- ili drugom psihoaktivnom supstancom- izazvan amnestički poremećaj F10-F19 sa zajedničkom oznakom na četvrtom mjestu .6 amnestički poremećaj  izazvan upotrebom alkohola- ili druge psihoaktivne supstance- F10-F19 sa zajedničkom oznakom na četvrtom mjestu .6
+F44.0	exclusion	amnezija: NOSR41.3
+F44.0	exclusion	amnezija: anterogradnaR41.1
+F44.0	exclusion	amnezija: retrogradnaR41.2
+F44.0	exclusion	nealkoholni organski amnestički sindromF04
+F44.0	exclusion	amnezija poslije napada u epilepsiji poslije epileptičkog napadaG40.-
+F44.1	preferred	Disocijativna fuga
+F44.1	definition	Fuga ima sve karakteristike disocijativne amnezije uz svrsishodno putovanje van uobičajenog svakodnevnog djelokruga. Mada postoji amnezija za period fuge, pacijentovo ponašanje u tom periodu može izgledati potpuno normalno nezavisnim posmatračima.
+F44.1	exclusion	fuga poslije napada u epilepsijiG40.- poslije epileptičkog napadaG40.-
+F44.2	preferred	Disocijativni stupor
+F44.2	definition	Disocijativni stupor se dijagnostikuje na osnovu teškog smanjenja ili odsustva voljnih pokreta i normalnih reagovanja na spoljne draži, kao što su svjetlost, buka i dodir, pri čemu se pregledom i pretragama ne nalaze dokazi postojanja fizičkog uzroka. Uz to, postoji pozitivni dokazi o psihogenom uzroku, u smislu nedavnih stresnih događaja ili problema.
+F44.2	exclusion	Organski katatoni poremećajF06.1
+F44.2	exclusion	stupor: NOSR40.1
+F44.2	exclusion	stupor: katatoniF20.2
+F44.2	exclusion	stupor: depresivniF31-F33
+F44.2	exclusion	stupor: maničniF30.2
+F44.3	preferred	Trans i poremećaji posjednutosti
+F44.3	definition	Poremećaji u kojima postoji privremeni gubitak osjećaja ličnog identiteta i pune svjesnosti okoline. Ovdje uključiti samo stanja transa koja su nevoljna ili neželjena, koja se dešavaju izvan religijskih ili kulturalno prihvatljivih situacija.
+F44.3	exclusion	stanje vezano za: akutni i prolazni psihotični poremećajiF23
+F44.3	exclusion	stanje vezano za: organskim poremećajem ličnostiF07.0
+F44.3	exclusion	stanje vezano za: postkomocioni sindromF07.2
+F44.3	exclusion	stanje vezano za: trovanje psihoaktivnim supstancamaF10-F18 sa zajedničkom oznakom na četvrtom mjestu .0
+F44.3	exclusion	stanje vezano za: shizofrenijomF20.-
+F44.4	preferred	Disocijativni motorni poremećaji
+F44.4	definition	U najčešćim oblicima postoji gubitak sposoboosti pokretanja cijelog ili dijela uda ili udova. Može postojati velika sličnost sa skoro svim oblicima ataksije, apraksije, akinezije, afonije, dizartrije, diskinezije, napada ili paralize.
+F44.4	inclusion	Psihogena: afonija
+F44.4	inclusion	Psihogena: disfonija
+F44.5	preferred	Disocijativne konvulzije
+F44.5	definition	Disocijativne konvulzije mogu imitirati veoma dobro epileptične napade, u smislu pokreta, ali su ugrizanje jezika, modrice zbog pada i inkontinencija mokraće veoma rijetki i vijest je očuvana ili zamijenjena stanjem stupora ili transa.
+F44.6	preferred	Disocijativna anestezija i gubitak osjećaja
+F44.6	definition	Anestezične zone kože obično imaju granice koje jasno pokazuju da su povezane sa bolesnikovim idejama o funkcijama tijela, a ne sa medicinskim znanjem. Može postojati i gubitak razlikovanja modaliteta osjećaja koji se ne može pripisati neurološkoj leziji. Gubitak sensibiliteta može biti praćen žalbama na parestezije. Gubitak vida i sluha su rijetko potpuni kod disocijativnih poremećaja.
+F44.6	inclusion	Psihogena gluvoća
+F44.7	preferred	Mješoviti disocijativni [konverzivni] poremećaji
+F44.7	inclusion	Kombinacija poremećaja označenih podF44.0-F44.6
+F44.8	preferred	Drugi disocijativni [konverzivni] poremećaji
+F44.8	inclusion	Ganserov sindrom
+F44.8	inclusion	Multipla ličnost
+F44.8	inclusion	Psihogena: konfuzija
+F44.8	inclusion	Psihogeno: pomračeno stanje
+F44.9	preferred	Disocijativni  [konverzivni] poremećaj, neoznačen
+F45	preferred	Somatoformni poremećaji
+F45	definition	Glavna karakteristika je ponavljano isticanje fizičkih simptoma zajedno sa stalnim traženjem medicinskih ispitivanja uprkos normalnim nalazima i uvjeravanjima ljekara da simptomi nemaju fizičku osnovu. Ako i postoje neki fizički poremećaji oni ne objašnjavaju prirodu i opseg simptoma, niti patnju i preokupiranost pacijenta
+F45	exclusion	disocijativni poremećajiF44.-
+F45	exclusion	čupanje koseF98.4
+F45	exclusion	tepanjeF80.0
+F45	exclusion	sigmatizamF80.8
+F45	exclusion	grizenje noktijuF98.8
+F45	exclusion	psihološki faktori ili faktori ponašanja u vezi sa poremećajem ili bolešću klasifikovanim na drugom mjestuF54
+F45	exclusion	polna disfunkcija koja nije uzrokovana organskim poremećajem ili bolešćuF52.-
+F45	exclusion	sisanje palcaF98.8
+F45	exclusion	tikovi (u djetinjstvu i adolescenciji)F95.-
+F45	exclusion	Touretteov sindromF95.2
+F45	exclusion	trihotilomanija F63.3
+F45.0	preferred	Somatizacijski poremećaj
+F45.0	definition	Osnovna obilježja su višestruki, recidivirajući, često promijenjivi  fizički simptomi, koji traju najmanje dvije godine. Većina pacijenata ima dugu i komplikovanu istoriju korišćenja zdravstvenih usluga primarnog i sekundarnog nivoa zdravstvene zaštite tokom koje su sprovedene mnogobrojne medicinske pretrage i neplodne eksplorativne operacije. Simptomi mogu biti vezani za bilo koji dio tijela ili sistem organa. Tok bolesti je hroničan i fluktuantan i često je vezan za poremećaj socijalnog, interpersonalnog i porodičnog ponašanja. Kraće trajanje poremećaja (manje od dvije godine) sa manje upadljivim šablonom simptoma treba klasifikovati pod nediferencirani somatoformni poremećaj (F45.1).
+F45.0	inclusion	Briquetov poremećaj
+F45.0	inclusion	Multipli psihosomatski poremećaj
+F45.0	exclusion	simuliranje [svjesna simulacija]Z76.5
+F45.1	preferred	Nediferencirani somatoformni poremećaj
+F45.1	definition	Kada su somatoformne žalbe brojne, promijenljive i trajne, ali potpuna i tipična klinička slika somatizacijskog poremećaja nije upotpunjena, treba razmotriti dijagnozu nediferenciranog somatoformnog poremećaja.
+F45.1	inclusion	Nediferencirani psihosomatski poremećaj
+F45.2	preferred	Hipohondrijski poremećaj
+F45.2	definition	Osnovna karakteristika je trajna preokupacija mogućnošću postojanja jedne ili više teških i progresivnih fizičkih bolesti. Pacijenti imaju stalne somatske žalbe ili trajnu preokupaciju svojim fizičkim izgledom. Normalne ili uobičajene osjećaje i pojave pacijenti interpretiraju kao nenormalne i zabrinjavajuće i  pažnja im je obično fokusirana na jedan ili dva organa ili sistema u organizmu. Značajna depresija i anksioznost su često prisutne i mogu opravdati dodatne dijagnoze.
+F45.2	inclusion	Tjelesni dizmorfični poremećaj
+F45.2	inclusion	Dizmorfofobija (nesumanuta)
+F45.2	inclusion	Hipohondrijska neuroza
+F45.2	inclusion	Hipohondrija
+F45.2	inclusion	Nozofobija
+F45.2	exclusion	sumanuta dizmorfofobijaF22.8
+F45.2	exclusion	fiksirane sumanute ideje o tjelesnim funkcijama ili oblikuF22.-
+F45.3	preferred	Somatoformna disfunkcija autonomnog nervnog sistema
+F45.3	definition	Pacijent prikazuje simptome kao da su uzrokovani fizičkim poremećajem organskog sistema koji većim dijelom ili potpuno inerviše autonomni nervni sistem, tj. kardiovaskularni, gastrointestinalni, respiratorni i urogenitalni sistem. Postoje obično dva tipa simptoma, ali nijedan ne ukazuje na  fizički poremećaj organa i sistema organa o kome je riječ. Prvi tip, žalbe se zasnivaju na objektivne znake ekscitiranosti povećane aktivnosti autonomnog nervnog sistema, kao što su palpitacije, znojenje, crvenilo, drhtanje, strahovanje i patnja od mogućeg fizičkog oboljenja. Drugi tip, postoje subjektivne žalbe su nespecifične ili promjenljive prirode kao što su prolazni bolovi, osjećaji žarenja, težine, stezanja, nadutosti ili rastezanja, koje bolesnik vezuje za poseban organ ili sistem organa.
+F45.3	inclusion	Srčana neuroza Kardijalna neuroza
+F45.3	inclusion	Da Costa sindrom 
+F45.3	inclusion	Želudačna neuroza Gastrična neuroza
+F45.3	inclusion	Neurocirkulatorna astenija
+F45.3	inclusion	Psihogena forma: aerofagije
+F45.3	inclusion	Psihogena forma: kašlja
+F45.3	inclusion	Psihogena forma: dijareje
+F45.3	inclusion	Psihogena forma: dispepsije
+F45.3	inclusion	Psihogena forma: dizurije
+F45.3	inclusion	Psihogena forma: flatulencije
+F45.3	inclusion	Psihogena forma: štucanja
+F45.3	inclusion	Psihogena forma: hiperventilacije
+F45.3	inclusion	Psihogena forma: učestale mikturacije
+F45.3	inclusion	Psihogena forma: sindroma iritabilnog kolona nervoznih crijeva
+F45.3	inclusion	Psihogena forma: pilorospazma
+F45.3	exclusion	psihiološki faktori i faktori ponašanja u vezi sa poremećajima i bolestima klasifikovanim na drugom mjestuF54
+F45.4	preferred	Stalan somatoformni bol
+F45.4	definition	Dominantna je žalba na trajan, jak i iscrpljujući bol, koji se ne može potpuno objasniti fiziološkim procesom ili fizičkim oboljenjem i koji se javlja udružen sa nekim emocionalnim konfliktom ili sa psihosocijalnim problemima, koji su dovoljni za zaključak da su oni glavni uzročni faktori. Rezultat je, obično, značajno povećanje podrške i pažnje, bilo lične ili medicinske. Bol za koji se smatra da ima psihogeno porijeklo, a javlja se u toku depresivnog poremećaja ili shizofrenije, ne treba ovdje ubrajati.
+F45.4	inclusion	Psihalgija
+F45.4	inclusion	Psihogeni: bol u leđima
+F45.4	inclusion	Psihogena: glavobolja
+F45.4	inclusion	Somatoformni bol
+F45.4	exclusion	bol u leđima NOSM54.9
+F45.4	exclusion	bol: NOSR52.9
+F45.4	exclusion	bol: akutniR52.0
+F45.4	exclusion	bol: hroničniR52.2
+F45.4	exclusion	bol: stalniR52.1
+F45.4	exclusion	tenziona glavoboljaG44.2
+F45.8	preferred	Drugi somatoformni poremećaji
+F45.8	definition	Bilo koji drugi poremećaji osjećaja, funkcija i ponašanja koji nisu uzrokovani fizičkim oboljenjem, a koje ne inerviše vegetativni nervni sistem, koji se ograničeni na specifične sisteme ili djelove tijela. Povezani su vremenski sa stresnim događajima ili problemima.
+F45.8	inclusion	Psihogena: dismenoreja
+F45.8	inclusion	Psihogena: disfagija, uključujući "knedlu u grlu"
+F45.8	inclusion	Psihogeni: pruritus
+F45.8	inclusion	Psihogeni: tortikolis
+F45.8	inclusion	Škrgutanje zubima bruksizam
+F45.9	preferred	Somatoformni poremećaj, neoznačen
+F45.9	inclusion	Psihosomatski poremećaj NOS
+F48	preferred	Drugi neurotski poremećaji
+F48.0	preferred	Neurastenija
+F48.0	definition	Značajne kulturološke varijacije se javljaju u ispoljavanju ovog poremećaja, i javljaju se dva glavna tipa sa znatnim preklapanjem. U jednom tipu, glavna karakteristika je žalba na povećan umor poslije mentalnog napora, obično praćeno određenim smanjenjem radnog učinka ili efikasnošću suočavanja sa dnevnim zadacima. Mentalni zamor se tipično opisuje kao neprijatno nametanje asocijacija ili sjećanja koja odvrćaju pažnju, teškoće u koncentrisanju i uopšteno, neefikasno mišljenje. U drugom tipu, naglasak je na osjećajima tjelesne ili fizičke slabosti i iscrpljenosti poslije i najmanjeg napora, praćenim osjećajem mišićnih bolova i nemogućnošću opuštanja. U oba tipa, obično su prisutni razni drugi neprijatni fizički osjećaji, kao što su vrtoglavica, tenzione glavobolje i osjećaj opšte nestabilnosti. Zabrinutost zbog smanjenja mentalnog i tjelesnog blagostanja, razdražljivost, nezadovoljstvo i različiti niži stepeni depresije i anksioznosti su česti. Spavanje je često poremećeno u početnoj i srednjoj fazi, ali i hipersomnija može biti upadljiva. 
+F48.0	inclusion	Sindrom umora
+F48.0	coding-hint	Koristiti dodatnu šifru, ako je potrebno, za označavanje ranije fizičke bolesti.
+F48.0	exclusion	astenija NOSR53
+F48.0	exclusion	"pregorijevanje" Z73.0
+F48.0	exclusion	slabost i umorR53
+F48.0	exclusion	postviralni sindrom umoraG 93.3
+F48.0	exclusion	psihoastenijaF48.8
+F48.1	preferred	Sindrom depersonalizacije - derealizacije
+F48.1	definition	Rijedak poremećaj pri kome se bolesnik spontano žali da se njegova ili njena mentalna aktivnost, tijelo i okolina mijenjaju u kvalitetu kao da postaju nerealni, udaljeni ili automatizovani. Između raznovrsnih fenomena u ovom sindromu, pacijenti se najčešće žale na gubitak emocija i osjećaj otuđenosti i odvojenosti od svojih misli, svoga tijela i realnog svijeta. Uprkos dramatičnoj prirodi ovog iskustva, pacijent je svjestan nerealnosti promjene. Čula su mormalna i kapacitet emocionalnog izražavanja je očuvan. Simptomi depersonalizacije-derealizacije se mogu javiti i u okviru shizofrenije, depresivnog, fobičnog ili opsesijvno-kompulsivnog poremećaja. U takvim slučajevima dijagnoza bi trebala biti ona od osnovnog poremećaja.
+F48.8	preferred	Drugi označeni neurotski poremećaji
+F48.8	inclusion	Dhat sindrom
+F48.8	inclusion	Profesionalna neuroza, uključujući "grčeve pisca"
+F48.8	inclusion	Psihoastenija
+F48.8	inclusion	Psihoastenična neuroza
+F48.8	inclusion	Psihogena sinkopa
+F48.9	preferred	Neurotski poremećaj, neoznačen
+F48.9	inclusion	Neuroza NOS
+F50-F59	preferred	Sindromi poremećaja ponašanja vezani sa fiziološkim smetnjama i fizičkim faktorima
+F50	preferred	Poremećaji ishrane
+F50	exclusion	anoreksija NOSR63.0
+F50	exclusion	u ishrani: teškoće i neuređena ishranaR63.3
+F50	exclusion	u ishrani: poremećaj u djetinjstvuF98.2
+F50	exclusion	polifagijaR63.2
+F50.0	preferred	Neurotska anoreksija
+F50.0	definition	Poremećaj koji karakteriše namjerni gubitak tjelesne mase, koji izaziva i održava sam pacijent. Javlja se najčešće kod devojaka u adolescenciji i mladih žena, ali takode mogu oboljeti i dječaci u adolescenciji i mladi muškarci, kao i pretpubertetna djeca i starije žene do menopauze. Poremećaj je vezan za specifičnu psihopatologiju po kojoj strah od debljine i mlitavosti tjelesnih kontura perzistira kao nametnuta, precijenjena ideja, i pacijenti primoravaju sebe na smanjenje tjelesne mase. Javljaju se, obično, pothranjenost različitog stepena, sa sekundarnim endokrinim i metaboličkim promjenama i poremećaji tjelesnih funkcija. Simptomi uključuju: restriktivnu dijetu, prekomjerno vježbanje, izazvanje povraćanja i čišćenja i upotrebu ljekova koji suzbijaju apetit i diuretika.
+F50.0	exclusion	gubitak apetitaR63.0
+F50.0	exclusion	psihogeni gubitak apetitaF50.8
+F50.1	preferred	Netipična neurotska anoreksija
+F50.1	definition	Poremećaji koji ispunjavaju neke karakteristike neurotske anoreksije, ali sveukupna klinička slika ne opravdava tu dijagnozu. Na primjer, jedan od ključnih simptoma kao što su amenoreja ili izraženi strah od debljine,mogu biti odsutni, uz prisustvo izraženog gubitka tjelesne mase i ponašanja usmjerenog smanjenju tjelesne mase. Ove dijagnoze ne treba postavljati kada se zna za prisustvo tjelesnih oboljenja koja su udružena sa gubitkom tjelesne mase.
+F50.2	preferred	Neurotska bulimija
+F50.2	definition	Ovaj sindrom karakterišu ponavljani napadi prejedanja i pretjerane preokupiranosti kontrolom tjelesne mase, dovodeći do obrasca prejedanja praćenog povraćanjem ili upotrebom purgativa. Ovaj poremećaj ima mnogo zajedničkih psihičkih odlika sa neurotskom anoreksijom, uključujući pretjeranu brigu o  izgledu i tjelesnoj masi. Često povraćanje najčešće dovodi do povećanja disbalansa elektrolita u organizmu i fizičkih komplikacija. Postoji često, ali ne uvijek, u anamnezi ranija epizoda neurotske anoreksije, u vremenskom intervalu od nekoliko mjeseci do nekoliko godina.
+F50.2	inclusion	Bulimija NOS
+F50.2	inclusion	Neurotska hiperoreksija
+F50.3	preferred	Netipična neurotska bulimija
+F50.3	definition	Poremećaji koji imaju neke odlike neurotske bulimije, ali sveobuhvatna klinička slika ne opravdava tu dijagnozu. Na primjer, mogu postojati česti napadi prejedanja i pretjerana upotreba purgativa bez značajnih promjena tjelesne mase ili bez pretjerane brige za izgled i tjelesnu masu.
+F50.4	preferred	Prejedanje povezano sa drugim psihološkim smetnjama
+F50.4	definition	Prejedanje uzrokovano stresnim događajima, kao što su težak gubitak, nesrećan slučaj, porođaj i dr.
+F50.4	inclusion	Psihogeno prejedanje
+F50.4	exclusion	gojaznostE66.-
+F50.5	preferred	Povraćanje povezano sa drugim psihološkim smetnjama
+F50.5	definition	Ponavljano povraćanjekoje se javlja kod disocijativnih poremećaja (F44.-), hipohondrijskog poremećaja (F45.2) ikoje nije uzrokovano jedino stanjima klasifikovanim van ove grupe. Ova potkategorija se može koristiti dodatno za O21.- (pretjerano povraćanje u trudnoći), kada su emocionalni faktori predominantni u uzročnosti kod ponavljanih mučnina i povraćanja u trudnoći.
+F50.5	inclusion	Psihogeno povraćanje
+F50.5	exclusion	mučninaR11
+F50.5	exclusion	povraćanje NOSR11
+F50.8	preferred	Drugi poremećaji ishrane
+F50.8	inclusion	Pika kod odraslih
+F50.8	inclusion	psihogeni gubitak apetita 
+F50.8	exclusion	pika u djetinjstvuF98.3
+F50.9	preferred	Poremećaj ishrane, neoznačen
+F51	preferred	Neorganski poremećaji spavanja
+F51	definition	U većini slučajeva, poremećaj spavanja je jedan od simptoma nekog drugog poremećaja, psihičkog ili fizičkog. Da li je poremećaj spavanja kod datog pacijenta nezavisno stanje ili jednostavno jedna od odlika nekog drugog poremećaja klasifikovanog na drugom mjestu, u ovoj grupi ili nekoj drugoj, utvrđuje se na osnovu kliničke prezentacije i toka, kao i terapeutskih razmatranja i prioriteta u vrijeme konsultacije. Generalno, ako je poremećaj spavanja glavna žalba i doima se kao stanje za sebe, treba koristiti ovu šifru zajedno sa drugim odgovarajućim dijagnozama koje objašnjavaju psihopatologiju i patofiziologiju u datom slučaju. Ova kategorija obuhvata samo one poremećaje spavanja u kojima se emocionalni uzroci smatraju primarnim faktorom i koji nisu uzrokovani fizičkim poremećajima koji se mogu identifikovati, klasifikovanim na drugom mjestu.
+F51	exclusion	poremećaji spavanja (organski)G47.-
+F51.0	preferred	Neorganska nesanica
+F51.0	definition	Stanje nezadovoljavajućeg kvantiteta i/ili kvaliteta spavanja, koja traje prilično dugo vremena, uključujući teškoće pri uspavljivanju, teškoće u spavanju ili rano krajnje buđenje. Nesanica je čest simptom mnogih psihičkih i fizičkih poremećaja i ovdje je treba klasifikovati uz osnovno oboljenje samo ako dominira u kliničkoj slici.
+F51.0	exclusion	nesanica (organska)G47.0
+F51.1	preferred	Neorganska hipersomnija (pretjerana pospanost)
+F51.1	definition	Hipersomnija se definiše kao stanje prekomjerne dnevne pospanosti i napada spavanja (koja se ne može pripisati neadekvatnoj količini spavanja) ili kao produženo stanje prelaska u ekscitirano stanje poslije buđenja. U odsustvu organskog faktora pojave hipersomnije, ovo stanje se obično povezuje sa duševnim poremećajima.
+F51.1	exclusion	hipersomnija (organska)G47.1
+F51.1	exclusion	narkolepsijaG47.4 
+F51.2	preferred	Neorganski poremećaj ritma spavanja
+F51.2	definition	Odsustvo sinhronizovanosti između obrasca spavanje-budnost i željenog obrasca spavanje-budnost za  okruženje osobe koje dovodi do žaljenja na nesanicu ili hipersomniju.
+F51.2	inclusion	Psihogena inverzija: cirkadijalnog ritma
+F51.2	inclusion	Psihogena inverzija: niktohemeralnog ritma
+F51.2	inclusion	Psihogena inverzija: ritma spavanja
+F51.2	exclusion	poremećaji obrasca spavanje-budnost (organski)G47.2
+F51.3	preferred	Mjesečarenje [somnambulizam]
+F51.3	definition	Stanje izmijenjene svjesnosti u kome su fenomeni spavanja i budnosti kombinovani sjedinjeni. Tokom epizode mjesečarenja osoba ustaje iz kreveta, obično tokom prve trećine noćnog spavanja, i šeta okolo ispoljavajući niske nivoe svjesnosti, reaktivnosti i motornih vještina. Obično se poslije buđenja ne sjeća događaja.
+F51.4	preferred	Strahovi spavanja [noćni strahovi]
+F51.4	definition	Noćne epizode ekstremnog straha i panike udreženih sa intenzivnom vokalizacijom, pokretljivošću i u visokom stepenu, vegetativnim znacima autonomno pražnjenje. Osoba se uspravlja ili ustaje iz kreveta, obično tokom prve trećine noćnog spavanja, sa paničnim vriskom. Prilično često on/ona juri ka vratima, kao da želi da pobjegne, mada rijetko napušta sobu. Sjećanje na događaj, ako uopšte postoji, je veoma ograničeno (obično na jednu ili dvije fragmentarne mentalne slike).
+F51.5	preferred	Noćne more
+F51.5	definition	Snovi puni anksioznosti i straha. Prisutno je veoma detaljno prisjećanje sadržaja snova. Snovi su vrlo živi i obično uključuju  sadržaje koje obuhvataju ugrožavanje života, sigurnosti ili samopoštovanja. Veoma često snovi se ponavljaju sa istim ili sličnim zastrašujućim sadržajima noćnih mora. Tokom tipične epizode javlja se izvjestan stepen autonomnog pražnjenja, ali bez znatne vokalizacije ili tjelesne pokretljivosti. Poslije buđenja osoba brzo postaje svjesna i orijentisana.
+F51.5	inclusion	Anksiozni poremećaj sna
+F51.8	preferred	Drugi neorganski poremećaji spavanja
+F51.9	preferred	Neorganski poremećaj spavanja, neoznačen
+F51.9	inclusion	Emocionalni poremećaj spavanja NOS
+F52	preferred	Seksualna disfunkcija, koja nije uzrkovana organskim poremećajem ili bolešću
+F52	definition	Seksualna disfunkcija obuhvata različite načine na koje je osoba nesposobna da učestvuje u polnom odnosu, onako kako bi željela. Seksualni odgovor je psihosomatski proces, a i psihički i somatski procesi su obično uključeni u uzrok seksualne disfunkcije.
+F52	exclusion	Dhat sindromF48.8
+F52.0	preferred	Nedostatak ili gubitak seksualne želje
+F52.0	definition	Gubitak seksualne želje je osnovni problem i nije sekundaran u odnosu na druge seksualne probleme, kao što su neuspješnost erekcije i dispareunija.
+F52.0	inclusion	Frigidnost
+F52.0	inclusion	Poremećaj hipoaktivne seksualne želje
+F52.1	preferred	Seksualna averzija i odsustvo polnog uživanja
+F52.1	definition	Ili mogućnost ostvarivanja polnog odnosa izaziva dovoljno straha ili anksioznosti da se seksualna aktivnost izbjegava (seksualna averzija) ili se seksualni odgovori dešavaju normalno i orgazam se doživljava, ali postoji nedostatak odgovarajućeg zadovoljstva (nedostatak polnog uživanja).
+F52.1	inclusion	Nezadovoljstvo (seksualno)
+F52.2	preferred	Neuspješnost polnog odgovora
+F52.2	definition	Osnovni problem kod muškaraca je erektilna disfunkcija (teškoća u postizanju i održavanju erekcije neophodne za zadovoljavajući polni odnos). Kod žena, osnovni problemi je vaginalna suvoća ili nedovoljno vlaženje.
+F52.2	inclusion	Poremećaj seksualnog uzbuđenja kod žena
+F52.2	inclusion	Poremećaj erekcije kod muškaraca
+F52.2	inclusion	Psihogena impotencija
+F52.2	exclusion	impotencija organskog porijeklaN48.4
+F52.3	preferred	Poremećaj orgazma
+F52.3	definition	Orgazam se ili ne doživljava ili je znčajno odložen.
+F52.3	inclusion	Inhibirani orgazam (kod žena)(kod muškaraca)
+F52.3	inclusion	Psihogena anorgazmija
+F52.4	preferred	Prijevremena ejakulacija
+F52.4	definition	Nesposobnost da se kontroliše ejakulacija dovoljno za uživanje oba partnera u polnom odnosu.
+F52.5	preferred	Neorganski vaginizam
+F52.5	definition	Spazam mišića dna karlice koji okružuju vaginu, koji uzrokuje okluziju otvora vagine. Prodiranje muškog uda je ili nemoguće, ili bolno.
+F52.5	inclusion	Psihogeni vaginizam
+F52.5	exclusion	vaginizam (organski)N94.2
+F52.6	preferred	Neorganska dispareunija
+F52.6	definition	Dispareunija (ili bol tokom polnog odnosa) se javlja i kod žena i kod muškaraca. Često se može pripisati lokalnoj patologiji  i tada je treba kategorizovati kao odgovarajuće patološko stanje. Ova kategorija se koristi samo ako ne postoji druga primarna neorganska seksualna disfunkcija (npr. vaginizam ili vaginalna suvoća).
+F52.6	inclusion	Psihogena dispareunija
+F52.6	exclusion	dispareunija (organska)N94.1
+F52.7	preferred	Prekomjerni polni nagon
+F52.7	inclusion	Nimfomanija
+F52.7	inclusion	Satirijaza
+F52.8	preferred	Druga seksualna disfunkcija, koja nije uzrkovana organskim poremećajem ili bolešću
+F52.9	preferred	Neoznaćena seksualna disfunkcija, koja nije uzrkovana organskim poremećajem ili bolešću
+F53	preferred	Duševni poremećaji i poremećaji ponašanja vezani za puerperijum, neklasifikovani na drugom mjestu
+F53	definition	Ova kategorija obuhvata samo duševne poremećaje povezane sa puerperijumom (počinju u okviru šest nedjelja od porođaja) koji ne zadovoljavaju kriterijume za poremećaje klasifikovane na drugom mjestu u ovoj grupi, zbog nedovoljno dostupnih informacija, ili zbog toga što se smatra da postoje specifične dodatne kliničke odlike koje čine njihovu klasifikaciju na drugom mjestu neodgovarajućom. 
+F53.0	preferred	Blagi duševni poremećaji i poremećaji ponašanja vezani za puerperijum, neklasifikovani na drugom mjestu
+F53.0	inclusion	Depresija: postnatalna NOS
+F53.0	inclusion	Depresija: postporođajna NOS
+F53.1	preferred	Teški duševni poremećaji i poremećaji ponašanja vezani za puerperijum, neklasifikovani na drugom mjestu
+F53.1	inclusion	Puerperalna psiohoza NOS
+F53.8	preferred	Drugi duševni poremećaji i poremećaji ponašanja vezani za puerperijum, neklasifikovani na drugom mjestu
+F53.9	preferred	Puerperalni duševni poremećaj, neoznačen
+F54	preferred	Psihološki  i bihejvioralni faktori udruženi sa poremećajima i bolestima klasifikovanim na drugom mjestu
+F54	definition	Ovu kategoriju treba koristiti za označavanje prisustva psiholoških ili bihejvioralnih uticaja za koje se smatra da su imali glavnu ulogu u nastanku fizičkih poremećaja, a koji se mogu klasifikovati u drugim grupama. Bilo kakve rezultirajuće duševne smetnje su obično blage, često prolongirane (kao što su zabrinutost, emocionalni konflikt, strepnja) i same za sebe ne opravdavaju upotrebu drugih kategorija u ovoj grupi.
+F54	inclusion	Psihološki faktori koji utiču na fizičko stanje
+F54	inclusion	Primjeri korišćenja ove kategorije su: astma F54 i J45.-
+F54	inclusion	Primjeri korišćenja ove kategorije su: dermatitis F54 i L23-L25
+F54	inclusion	Primjeri korišćenja ove kategorije su: želudačni ulkus F54 i K25.-
+F54	inclusion	Primjeri korišćenja ove kategorije su: mukozni kolitis F54 i K58.-
+F54	inclusion	Primjeri korišćenja ove kategorije su: ulcerativni kolitis F54 i K51.-
+F54	inclusion	Primjeri korišćenja ove kategorije su: urtikarija F54 i L50.-
+F54	coding-hint	Koristiti dodatnu šifru, ako je potrebno, za označavanje fizičkih poremećaja.
+F54	exclusion	tenzioni tip glavoboljeG44.2
+F55	preferred	Zloupotreba supstanci koje ne izazivaju zavisnost
+F55	definition	Širok spektar medikamenata i narodnih ljekova mogu biti u pitanju, ali posebno značajne grupe su: (a) psihotropni ljekovi koji ne izazivaju zavisnost, kao što su antidepresivi, (b) laksativi i (c) analgetici, koji se mogu kupiti bez ljekarskog recepta, kao što su aspirin i paracetamol. Trajna upotreba ovih supstanci obično dovodi do nepotrebnih kontakata sa medicinskim ili nemedicinskim zdravstvenim osobljem, i nekada je praćena, štetnim fizičkim posljedicama supstanci. Pokušaji odvraćanja od ili zabrane upotrebe često nailaze na otpor; za laksative i analgetike ovo se može dogoditi i uprkos upozorenjima o štetnim posljedicama (ili čak njihovom razvijanju), kao što su bubrežna disfunkcija ili disbalans elektrolita, Iako je obično jasno da pacijent ima snažnu potrebu da uzima tu supstancu, zavisnost i simptomi apstinencije se ne razvijaju, kao što je to slučaj sa psihoaktivnim supstancama označenim u F10-F19.
+F55	inclusion	Zloupotreba: antacida
+F55	inclusion	Zloupotreba: biljnih ili narodnih ljekova
+F55	inclusion	Zloupotreba: steroida ili hormona
+F55	inclusion	Zloupotreba: vitamina
+F55	inclusion	Navika upotrebe laksativa
+F55	exclusion	zloupotreba psihoaktivnih supstanciF10-F19 
+F59	preferred	Neozančeni sindromi ponašanja udruženi sa fiziološkim smetnjama i fizičkim faktorima
+F59	inclusion	Psihogena fiziološka disfunkcija NOS
+F60-F69	preferred	Poremećaji ličnosti i ponašanja odraslih
+F60-F69	definition	Ova podgrupa obuhvata različita stanja i obrasce ponašanja od kliničkog značaja koji teže perzistiranju i predstavljaju ispoljavanje karakterističnog životnog stila osobe i načina na koji se osoba odnosi prema sebi i drugima. Neka od ovih stanja i obrazaca ponašanja javljaju se u ranom periodu razvoja ličnosti, kao posljedica uticaja i konstitucionalnih faktora i društvenog iskustva, dok su druga stečena kasnije u životu. Specifični poremećaji ličnosti (F60.-), mješoviti i drugi poremećaji ličnosti (F61.-) i trajne promijene ličnosti (F62.-) su duboko ukorijenjeni i trajni obrasci ponašanja, koji se manifestuju kao nefleksibilni odgovori na širok spektar ličnih i društvenih situacija. Oni predstavljaju ekstremne, ili značajne devijacije od načina na koji prosječna osoba date kulture percipira, misli, osjeća i naročito, kako se odnosi prema drugima. Takvi obrasci ponašanja teže da budu stabilni i da obuhvataju mnogobrojne oblasti ponašanja i psihičkog funkcionisanja. Oni su, često, ali ne uvijek, udruženi sa različitim stepenom patnje i problemima socijalnog funkcionisanja.
+F60	preferred	Specifični poremećaji ličnosti
+F60	definition	Ovo su teški poremećaji ličnosti i tendencija ponašanja osobe, koji ne proističu direktno iz bolesti, oštećenja i drugih promjena na mozgu ili drugog psihijatrijskog poremećaja; obično uključuju nekoliko aspekata ličnosti; skoro uvijek su povezani sa značajnom ličnom  patnjom i društvenim problemima; i obično se manifestuju od djetinjstva ili adolescencije i nastavljaju se kroz odraslo doba.
+F60.0	preferred	Paranoidni poremećaj ličnosti
+F60.0	definition	Poremećaj ličnosti koji karakterišu pretjerana osjetljivost na prepreke; neopraštanje uvreda; sumnjičavost i tendencija izokretanja doživljaja događaja pogrešnim tumačenjem neutralnih i prijateljskih postupaka drugih kao neprijateljskih ili prezrivih; ponavljane sumnje bez opravdanja u seksualnu vjernost suprižnika ili seksualnog partnera i ratoborno i tvrdoglavo doživljavanje svojih prava. Mogu postojati pretjerana samovažnost i često, pretjerane upućenost na sebe
+F60.0	inclusion	(Poremećaj) ličnost(i): ekspanzivno paranoidni
+F60.0	inclusion	(Poremećaj) ličnost(i): fanatični
+F60.0	inclusion	(Poremećaj) ličnost(i): mrzovoljni
+F60.0	inclusion	(Poremećaj) ličnost(i): paranoidni
+F60.0	inclusion	(Poremećaj) ličnost(i): senzitivni paranodni
+F60.0	exclusion	paranojaF22.0
+F60.0	exclusion	kverulantna paranojaF22.8
+F60.0	exclusion	paranoidna: psihozaF22.0
+F60.0	exclusion	paranoidna: shizofrenijaF20.0
+F60.0	exclusion	paranoidno: stanjeF22.0
+F60.1	preferred	Shizoidni poremećaj ličnosti
+F60.1	definition	Poremećaj ličnosti koji karakterišu povlačenje iz emotivnih, društvenih i drugih kontakata, sa sklonošću ka fantaziji, samačkim aktivnostima koje rade sami i introspekciji. Postoji ograničen kapacitet ispoljavanja osjećanja i doživljavanja zadovoljstva.
+F60.1	exclusion	Aspergerov sindromF84.5
+F60.1	exclusion	sumanuti poremećajF22.0
+F60.1	exclusion	juvenilni shizoidni poremećajF84.5
+F60.1	exclusion	shizofrenijaF20.-
+F60.1	exclusion	shizotipni poremećajF21
+F60.2	preferred	Asocijalni poremećaj ličnosti
+F60.2	definition	Poremećaj ličnosti koji karakterišu odbacivanje ignorisanje nepoštovanje društvenih obaveza i gruba nemarnost za osjećanja drugih. Postoji ogromna neusklađenost između ponašanja i preovlađujućih društvenih normi. Ponašanje se ne može lako i brzo promijeniti negativnim iskustvom, uključujući tu i kažnjavanje. Postoji niska tolerancije frustracije i nizak prag za ispoljavanje agresije, uključujući i nasilje; postoji sklonost okrivljivanju drugih ili nuđenju prihvatljive racionalizacije, ponašanja koje pacijenta dovodi do konflikta sa društvom.
+F60.2	inclusion	(Poremećaj) ličnost(i): amoralni
+F60.2	inclusion	(Poremećaj) ličnost(i): antisocijalni
+F60.2	inclusion	(Poremećaj) ličnost(i): asocijalni
+F60.2	inclusion	(Poremećaj) ličnost(i): psihopatski
+F60.2	inclusion	(Poremećaj) ličnost(i): sociopatski
+F60.2	exclusion	konduktivni poremećajiF91.-
+F60.2	exclusion	emocionalno nestabilni poremećaj ličnostiF60.3
+F60.3	preferred	Emocionalno nestabilni poremećaj ličnosti
+F60.3	definition	Poremećaj ličnosti koji karakterišu izražena tendencija impulsivnog reagovanja delanja bez razmišljanja o posljedicama; raspoloženje je nepredvidivo i hirovito. Postoji sklonost ka izlivima emocija i nesposobnost kontrole eksplozivnog ponašanja. Postoji  sklonost ka svađalačkom ponašanju i konfliktima sa drugima, naročito, osobito ako se impulsivni postupci sprečavaju ili osuđuju. Mogu se razlikovati dva tipa: impulsivni tip koji dominantno karakterišu emocionalna nestabilnost i nedostatak kontrole impulsa, i granični tip - koji karakterišu dodatno poremećenost slike o sebi, ciljeva i unutrašnjih sklonosti, hronično osjećanje praznine, intenzivni i nestabilni interpersonalni odnosi i sklonost ka samodestruktivnom ponašanju, uključujući  samoubilačke postupke i pokušaje.
+F60.3	inclusion	(Poremećaj) ličnost(i): agresivni
+F60.3	inclusion	(Poremećaj) ličnost(i): borderline
+F60.3	inclusion	(Poremećaj) ličnost(i): eksplozivni
+F60.3	exclusion	Asocijalni poremećaj ličnostiF60.2
+F60.4	preferred	Histrionski teatralni poremećaj ličnosti
+F60.4	definition	Poremećaj ličnosti koji karakterišu plitka i nestabilna osjećajnost, samodramatizacija, teatralnost, pretjerano ispoljavanje emocija, sugestibilnost, egocentričnost, samougađanje, nedostatak obzira za druge, laka povredljiva osjećanja i kontinuirano traženje priznavanja poštovanja, uzbuđenja i pažnje.
+F60.4	inclusion	(Poremećaj) ličnost(i): histerični
+F60.4	inclusion	(Poremećaj) ličnost(i): psihoinfantilni
+F60.5	preferred	Anankastčni poremećaj ličnosti
+F60.5	definition	Poremećaj ličnosti koji karakterišu osjećanje sumnje, perfekcionizam, pretjerana savjesnost, provjeravanje i preokupiranost detaljima, tvrdoglavost, opreznost i rigidnost. Mogu postojati uporne i neželjene misli ili impulsi, koji ne dobijaju težinu opsesivno-kompulsivnog poremećaja.
+F60.5	inclusion	(Poremećaj) ličnost(i): kompulsivni
+F60.5	inclusion	(Poremećaj) ličnost(i): opsesivni
+F60.5	inclusion	(Poremećaj) ličnost(i): opsesivno-kompulsivni
+F60.5	exclusion	opsesivno-kompulsivni poremećaj F42.-
+F60.6	preferred	Anksiozni [izbjegavajući] poremećaj ličnosti
+F60.6	definition	Poremećaj ličnosti koji karakterišu osjećanje napetosti i zebnje, nesigurnosti i inferiornosti. Postoji stalna čežnja da se bude voljen i prihvaćen i preosjetljivost na odbacivanje i kritiku sa ograničenim ličnim vezivanjima, kao i tendencija izbegavanja određenih aktivnosti zbog uobičajenog preuveličavanja potencijalnih opasnosti ili rizika u svakodnevnim situacijama.
+F60.7	preferred	Zavisni poremećaj ličnosti
+F60.7	definition	Poremećaj ličnosti koji karakterišu pervazivno pasivno oslanjanje na druge ljude za donošenje sopstvenih većih ili manjih životnih odluka, ogroman strah od napuštanja, osjećaji bespomoćnosti i nesposobnosti, pasivno povinovanje željama starijih i drugih osoba i slab odgovor na dnevne životne potrebe. Nedostatak energije se može pokazati u emocionaoj ili intelektualnoj sferi; često postoji tendencija da se odgovornost prebaci na druge.
+F60.7	inclusion	(Poremećaj) ličnost(i): astenični
+F60.7	inclusion	(Poremećaj) ličnost(i): neadekvatni
+F60.7	inclusion	(Poremećaj) ličnost(i): pasivni
+F60.7	inclusion	(Poremećaj) ličnost(i): samoodbrambena
+F60.8	preferred	Drugi specifični poremećaji ličnosti
+F60.8	inclusion	(Poremećaj) ličnost(i): ekscentrični
+F60.8	inclusion	(Poremećaj) ličnost(i): 
+F60.8	inclusion	(Poremećaj) ličnost(i): nezreli
+F60.8	inclusion	(Poremećaj) ličnost(i): narcistički
+F60.8	inclusion	(Poremećaj) ličnost(i): pasivno-agresivni
+F60.8	inclusion	(Poremećaj) ličnost(i): psihoneurotični
+F60.9	preferred	Poremećaj ličnosti, neoznačen
+F60.9	inclusion	Neurotični karakter NOS
+F60.9	inclusion	Patološka ličnost Morbidna ličnost
+F61	preferred	Mješoviti i ostali poremećaji ličnosti
+F61	definition	Ova kategorija je predviđena za poremećaje ličnosti koji su često neugodni, ali ne pokazuju specifične obrasce simptoma koji karakterišu poremećaje opisane u F60.-. Zbog toga ih je često mnogo teže dijagnostikovati nego poremećaje u F60.-. Primjeri su: mješoviti poremećaji ličnosti sa odlikama nekoliko poremećaja iz F60.- ali bez dominantne grupe simptoma koji bi dozvolili specifičniju dijagnozu neugodne promjene ličnosti koja se ne može klasifikovati u F60.- ili F62.-, a koje se smatraju sekundarnim za glavnu dijagnozu, udruženog afektivnog ili anksioznog poremećaja.
+F61	exclusion	isticanje crta ličnostiZ73.1
+F62	preferred	Trajne promjene ličnosti, koja se ne mogu pripisati oštećenju i bolesti mozga
+F62	definition	Poremećaji ličnosti i ponašanja odraslih osoba koji su se razvili bez ranijeg poremećaja ličnosti poslije katastrofičnog ili prolongiranog stresa ili poslije teške psihijatrijske bolesti. Ove dijagnoze treba postaviti samo kada postoji dokaz o definitivnoj i trajnoj promijeni obrasca percipcije, odnosa prema ili mišljenja o okolini i sebi samome. Promjena ličnosti treba da bude značajna i udružena sa neelastičnim i maladaptivnim ponašanjem, koje nije postojalo prije patološkog doživljaja. Promjena ne smije biti direktna posljedica nekog drugog duševnog poremećaja, niti rezidualni simptom ranijeg duševnog poremećaja.
+F62	exclusion	poremećaji ličnosti i poremećaji ponašanja uzrokovani bolešću, oštećenjem i disfunkcijom mozgaF07.-
+F62.0	preferred	Trajna promjena ličnosti poslije doživljene katastrofe
+F62.0	definition	Trajna promjena ličnosti, prisutna najmanje dvije godine, nastala poslije izlaganja katastrofalnom stresu. Stres mora biti tako ekstreman da nije neophodno razmotrati osobnu ranjivost da bi se objasnila njegova teška posljedica na ličnost. Poremećaj karakterišu neprijateljstvo ili nepovjerenje prema svijetu, socijalno povlačenje, osjećanja praznine i bespomoćnosti, hronični doživljaj „prijetećeg sloma” (kao da postoji stalna ugroženost) i otuđenost. Posttraumatski stresni poremećaj (F43.1) može prethoditi ovom obliku promjene ličnosti.
+F62.0	inclusion	Promjena ličnosti nakon: iskustva u koncentracionom logoru
+F62.0	inclusion	Promjena ličnosti nakon: nesreće
+F62.0	inclusion	Promjena ličnosti nakon: produženog: zatočeništva sa izvjesnom mogućnošću da se bude ubijen
+F62.0	inclusion	Promjena ličnosti nakon: produženog: izlaganja životno-ugrožavajućim situcaijama kao što je biti žrtva terorizma
+F62.0	inclusion	Promjena ličnosti nakon: mučenja
+F62.0	exclusion	posttraumatski stresni poremećajF43.1
+F62.1	preferred	Trajna promjena ličnosti poslije psihijatrijske bolesti
+F62.1	definition	Promjena ličnosti u trajanju od najmanje dvije godine, koja se može pripisati traumatskom iskustvu bolovanja od teške psihijatrijske bolesti. Promjena se ne može objasniti prethodno postojećim poremećajem ličnosti i treba je razlikovati od rezidualne shizofrenije i drugih stanja nepotpunog oporavka od ranijeg duševnog poremećaja. Ovaj poremećaj karakterišu pretjerana zavisnost od i zahtjevan stav prema drugima; ubjeđenje da je izmijenjen ili stigmatisan bolešću koje dovodi do nemogućnosti uspostavljanja i održavanja bliskih i povjerljivih ličnih odnosa i do socijalne izolacije; pasivnost, smanjeno interesovanje i umanjeno bavljenje slobodnim aktivnostima. Stalne žalbe osobe da je bolesna, što se može povezati sa hipohondrijalnim tvrdnjama i bolesnim ponašanjem; disforično i labilno raspoloženje, koje nije posljedica prisutnosti sadašnjeg duševnog poremećaja, niti prethodnog duševnog poremećaja sa rezidualnim afektivnim simptomima; i dugotrajni problemi u oblasti socijalnog i profesionalnog funkcionisanja.
+F62.8	preferred	Druge trajne promjene ličnosti
+F62.8	inclusion	Sindrom ličnosti sa hroničnim bolom
+F62.9	preferred	Trajna promjena ličnosti, neoznačena
+F63	preferred	Poremećaji navika i impulsa
+F63	definition	Ova kategorija uključuje određene poremećaje u ponašanju koji koji se ne mogu klasifikovati pod drugim kategorijama. Karakterišu ih ponavljani postupci za koje ne postoji jasna racionalna motivacija, koji se ne mogu kontrolisati i koji štete interesima bolesnika i interesima drugih ljudi. Pacijent iznosi da je ponašanje udruženo sa impulsima za određeni postupak. Uzroci ovih stanja su nepoznati, a grupisani su zajedno zbog velikih deskriptivnih sličnosti, a ne zato štoje poznato da dijele bilo koje druge značajne karakteristike.
+F63	exclusion	habitualna prekomjerna upotreba alkohola ili psihoaktivnih supstanci F10-F19
+F63	exclusion	poremećaji impulsa i navika koji uključuju seksualno ponašanjeF65.-
+F63.0	preferred	Patološko kockanje
+F63.0	definition	Poremećaj se sastoji od čestih, ponavljanih epizoda kockanja, koje dominiraju životom pacijenta dovodeći do gubitka njegovih socijalnih, profesionalnih, materijalnih i porodičnih vrijednosti i obaveza.
+F63.0	inclusion	Kompulsivno kockanje
+F63.0	exclusion	prekomjerno kockanje kod maničnih pacijenataF30.-
+F63.0	exclusion	kockanje i klađenje NOSZ72.6
+F63.0	exclusion	kockanje kod disocijativnog poremećajaF60.2
+F63.1	preferred	Patološko podmetanje požara [piromanija]
+F63.1	definition	Poremećaj koji karakterišu višestruka podmetanja ili pokušaji podmetanja požara na imovini i drugim objektima, bez očiglednog motiva, i stalna preokupiranost temama koje su povezane sa vatrom i spaljivanjem. Ovo ponašanje je često povezano sa osjećanjem rasta napetosti prije i intenzivno uzbuđenje odmah poslije podmetanja požara.
+F63.1	exclusion	podmetanje požara (od strane)(kod): odrasle osobe sa disocijativnim poremećajem ličnostiF60.2
+F63.1	exclusion	podmetanje požara (od strane)(kod): intoksikacije alkoholom ili psihoaktivnim supstancama F10-F19, sa zajedničkim četvrtim karakterom .0)
+F63.1	exclusion	podmetanje požara (od strane)(kod): kao razlog posmatranja kod sumnje na duševni poremećaj
+F63.1	exclusion	podmetanje požara (od strane)(kod): konduktivnih poremećajaF91.-
+F63.1	exclusion	podmetanje požara (od strane)(kod): organski duševni poremećajF00-F09
+F63.1	exclusion	podmetanje požara (od strane)(kod): shizofrenijeF20.-
+F63.2	preferred	Patološka sklonost kradji [kleptomanija]
+F63.2	definition	Poremećaj koji karakteriše ponavljani neuspjeh osobe da se suprotstavi impulsima da krade stvari koje nijesu za ličnu upotrebu ni za novčani dobitak. Ukradene stvari se umjesto toga odbacuju, daju ili sakupljaju. Ovo ponašanje obično prate povećana napetost prije i zadovoljstvo tokom i odmah poslije krađe.
+F63.2	exclusion	depresivni poremećaj sa krađomF31-F33
+F63.2	exclusion	organski mentalni poremećajF00-F09
+F63.2	exclusion	krađa kao razlog za osmatranje zbog sumnje na mentalni poremećajZ03.2
+F63.3	preferred	Trihotilomanija
+F63.3	definition	Poremećaj koji karakteriše primjetni gubitak kose zbog ponavljanih neuspjeha odupiranju impulsima za čupanje kose. Čupanju kose obično prethodi rastuća napetost, a potom slijedi osjećaj olakšanja ili zadovoljenja. Ovu dijagnozu ne treba postaviti ako je prethodno postojalo zapaljenje kože, ili ako je čupanje kose odgovor na sumanutu idejuzabludu ili halucinaciju.
+F63.3	exclusion	stereotipni poremećaj pokreta sa čupanjem koseF98.4
+F63.8	preferred	Drugi poremećaji navika i impulsa
+F63.8	definition	Druge vrste stalno repetitivnog maladaptivnog ponašanja koje nije sekundarno u odnosu na poznati psihijatrijski sindrom i u kojima osoba, uvijek iznova, ne uspijeva da se odupre impulsima za izvršenje tog ponašanja. Postoji prodromalni period napetosti osjećanjem olakšanja u vrijeme izvršenja djela.
+F63.8	inclusion	Intermitentni eksplozivni poremećaj
+F63.9	preferred	Poremećaj navika i impulsa, neoznačen
+F64	preferred	Poremećaj polnog identiteta
+F64.0	preferred	Transsekualizam
+F64.0	definition	Želja da se živi i bude prihvaćen kao osoba suprotnog pola, obično praćena osjećajem nelagodnosti sa ili neadekvatnost sopstvenog anatomskog pola, i želja da se podvrgne operaciji ili hormonskom tretmanu da bi se tijelo što više uskladilo sa željenim polom....
+F64.1	preferred	Transvestitizam sa dvostrukom ulogom
+F64.1	definition	Oblačenje odjeće suprotnog pola u dijelu postojanja individue radi prolaznog iskustva osjećanja pripadnosti suprotnom polu, ali bez želje za trajnom promjenom pola ili operacijom promjene pola i bez seksualnog uzbuđenja koje prati transvestizam oblačenje robe suprotnog pola
+F64.1	inclusion	Poremećaj polnog identiteta u adolescenciji ili odraslom dobu, netransseksualni tip
+F64.1	exclusion	fetišistički transvestizamF65.1
+F64.2	preferred	Poremećaj polnog identiteta u djetinjstvu
+F64.2	definition	Poremećaj se obično javlja prvi put za vrijeme ranog djetinjstva (i uvijek prije puberteta), a karakterišu ga stalno i intenzivno nezadovoljstvo dodijeljenim polom sa željom (ili nastojanjem) da se bude suprotnog pola. Postoji stalna preokupiranost odjećom i aktivnostima suprotnog pola, uz nepriznavanje sopstvenog pola. Ova dijagnoza podrazumijeva težak poremećaj normalnog polnog identiteta, te samo bučno ponašanje kod djevojčica i dječaka nije dovoljno. Poremećaj polnog identiteta kod osoba koje su u pubertetu ili ulaze u pubertet ne treba dijagnostikovati ovdje već u F66.-.
+F64.2	exclusion	egodistonička seksualna orijentacijaF66.1
+F64.2	exclusion	poremećaj seksualnog sazrijevanjaF66.0
+F64.8	preferred	Drugi poremećaji polnog identiteta
+F64.9	preferred	Poremećaj polnog identiteta, neoznačen
+F64.9	inclusion	Poremećaj polne uloge NOS
+F65	preferred	Poremećaji polne sklonosti
+F65	inclusion	parafilija
+F65.0	preferred	Fetišizam
+F65.0	definition	Korišćenje nekog neživog objekta kao stimulusa za polno uzbuđenje i polno zadovoljstvo. Mnogi fetiši su dodaci za ljudsko tijelo, kao što su djelovi odjeće ili obuće. Drugi uobičajeni primjeri se karakterišu nekom određenom teksturom, kao što su guma, plastika ili koža. Fetiši se se mogu razlikovati po svojoj važnosti za osobu. U nekim slučajevima jednostavno služe za pojačavanje polnog uzbuđenja koje se postiže na uobičajeni način (npr. partner oblači određenu odjeću).
+F65.1	preferred	Fetišistički transvestitizam
+F65.1	definition	Oblačenje odjeće suprotnog pola prije svega radi postizanja polnog uzbuđenja i stvaranja izgleda osobe suprotnog pola. Fetišistički transvestizam se razlikuje od  transseksualnog transvestizma po jasnoj povezanosti sa polnim uzbuđenjem i jakom željom da se ukloni odjeća, kada se doživi orgazam i seksualno uzbuđenje opadne. Može da se pojavi kao ranija faza u razvoju transseksualizma.
+F65.1	inclusion	Transvestistički fetišizam
+F65.2	preferred	Egzibicionizam
+F65.2	definition	Povratna ili trajna tendencija osobe da pokazuje svoje polne organe nepoznatim osobama (obično osobama suprotnog pola) ili na javnim mjestima, bez pozivanja i namjere da se ostvari bliži kontakt. Obično, ali ne uvijek, postoji polno uzbuđenje u vrijeme pokazivanja a postupak je, obično, praćen masturbacijom.
+F65.3	preferred	Voajerizam
+F65.3	definition	Periodična ili trajna tendencija posmatranja drugih osoba u toku polnog odnosa ili intimnog ponašanja, kao što je skidanje odjeće. Ovo se izvodi bez znanja posmatranih ljudi  i obično vodi polnom uzbuđenju i masturbaciji .
+F65.4	preferred	Pedofilija
+F65.4	definition	Polna sklonost prema djeci, dječacima ili djevojčicama ili i jednima i drugima, obično prepubertetskog ili ranog pubertetskog uzrasta.
+F65.5	preferred	Sadomazohizam
+F65.5	definition	Preferiranje polne aktivnosti koja uključuje nanošenje bola ili ponižavanje ili potčinjavanje. Ako osoba više voli da  prima takvu stimulaciju to se zove mazohizam; ako ih pruža, sadizam. Često osoba postiže polno uzbuđenje i sadističkim i mazohističkim aktivnostima.
+F65.5	inclusion	Mazohizam
+F65.5	inclusion	Sadizam
+F65.6	preferred	Višetruki poremećaji polne sklonosti
+F65.6	definition	Nekada se više od jednog poremećaja polne sklonosti pojavljuje kod jedne osobe pri čemu nijedan ne prednjači nije prvorangiranije prvi u nizu. Najčešća kombinacija je fetišizam, transvestitizam i sadomazohizam.
+F65.8	preferred	Drugi poremećaji polne sklonosti
+F65.8	definition	Mnoštvo drugih modela polne sklonosti i aktivnosti, uključujući i opscene telefonske pozive, trljanje o druge ljude radi polne stimulacije na prepunim javnim mjestima, polnu aktivnost sa životinjama, i korišćenje gušenja ili anoksije radi pojačavanja polnog uzbuđenja.
+F65.8	inclusion	Froterizam
+F65.8	inclusion	Nekrofilija
+F65.9	preferred	Poremećaj polne sklonosti, neoznačen
+F65.9	inclusion	Polna devijacija NOS
+F66	preferred	Psihološki poremećaji i poremećaji ponašanja povezani sa polnim razvojem i orijentacijom
+F66	note	Seksualna orijentacija sama po sebi se ne treba smatrati poremećajem.
+F66.0	preferred	Poremećaj polnog sazrijevanja
+F66.0	definition	Osoba pati od nesigurnosti u vezi sa njegovim ili njenim polnim identitetom ili polnom orijentacijom, što uzrokuje anksioznost ili depresiju. Poremećaj se naječesće javlja kod adolescenata koji nijesu sigurni da li imaju homoseksualnu, heteroseksualnu ili biseksualnu orijentaciju, ili kod osoba koje, poslije perioda očevidne stabilne polne orijentacije (često u okviru dugotrajne veze), otkrivaju da se njihova polna orijentacija mijenja.
+F66.1	preferred	Egodistonička polna orijentacija
+F66.1	definition	Nema sumnje u vezi sa polnim identitetom ili polnom sklonošću (homoseksualna, heteroseksualna, biseksualna ili prepubertetska), ali osoba želi da bude drugačija, zbog pridruženih psiholoških poremećaja i poremećaja ponašanja, i može čak tražiti tretman da se to promijeni.
+F66.2	preferred	Poremećaj odnosa sa seksualnim partnerom
+F66.2	definition	Identitet roda ili polna orijentacija (heteroseksualna, homoseksualna ili biseksualna) odgovorni su za teškoće u uspostavljanju ili održavanju veze sa seksualnim partnerom.
+F66.8	preferred	Drugi psihoseksualni razvojni poremećaji
+F66.9	preferred	Psihoseksualni razvojni poremećaj, neoznačen
+F68	preferred	Drugi poremećaji ličnosti i poremećaji ponašanja odraslih
+F68.0	preferred	Obrada tjelesnih simptoma zbog psiholoških razloga
+F68.0	definition	Fizički simptomi, koji odgovaraju ili su posljedica potvrđenog fizičkog poremećaja, bolesti ili nesposobnosti, postaju pretjerani ili dugo traju zbog psihološkog stanja pacijenta. Pacijentu je, uobičajeno, nelagodno zbog bola ili nesposobnosti i često je preokupiran brigama, koje mogu biti opravdane zbog mogućnosti produžavanja ili pogoršavanja nesposobnosti ili bola.
+F68.0	inclusion	Kompenzatorna neuroza
+F68.1	preferred	Namjerno izazivanje ili simuliranje simptoma ili nesposobnosti, bilo fizičkih ili psihičkih (vještački poremećaj)
+F68.1	definition	Pacijent ponavljano simulira simptome bez očiglednog razloga i čak se može samopovrijediti u cilju izazivanja simptoma ili znakova. Motivacija je nejasna, vjerovatno intrapsihička unutrašnja, sa ciljem prihvatanja uloge bolesnika. Poremećaj je često udružen sa drugim poremećajima ličnosti i poremećajima odnosa.
+F68.1	inclusion	Sindrom bolničkog skakavca
+F68.1	inclusion	Münchhausen-ov sindrom
+F68.1	inclusion	Lutajući pacijent
+F68.1	exclusion	umišljeni dermatitisL98.1
+F68.1	exclusion	osoba koja simulira bolest (sa očiglednim motivom)Z76.5
+F68.8	preferred	Drugi označeni poremećaji ličnosti i poremećaji ponašanja odraslih
+F68.8	inclusion	Poremećaj karaktera NOS
+F68.8	inclusion	Poremećaj odnosa NOS
+F69	preferred	Neoznačeni poremećaji ličnosti i poremećaji ponašanja odrasle osobe
+F70-F79	preferred	Mentalna retardacija
+F70-F79	definition	Stanje usporenog ili nepotpunog razvoja uma, koje se naročito karakteriše oštećenjem vještina koje se manifestuje u toku razvojnog perioda, vještina koje doprinose sveukupnom stepenu inteligencije tj. kognitivnih, jezičkih, motornih i socijalnih sposobnosti. Zaostalost se može javiti sa ili bez drugih mentalnih ili fizičkih poremećaja. Stepen mentalne retardacije se konvencionalno procjenjuje standardizovanim testovima inteligencije. Oni se mogu zamijeniti ljestvicama procjene socijalne adaptacije u datoj sredini. Ova mjerenja daju približni nagovještaj stepena mentalne zaostalosti. Dijagnoza će, takođe, zavisiti od sveukupne procjene intelektualnog funkcionisanja, koju vrši stručni dijagnostičar.  Intelektualne sposobnosti i socijalna adaptacija  se mogu mijenjati vremenom, i kako god loše bile,a mogu se poboljšati kao rezultat vježbajna i rehabilitacije. Dijagnozu treba postaviti na osnovu trenutnog stepena funkcionisanja.
+F70-F79	coding-hint	Koristite dodatnu šifru, ako je potrebno, da označite prateća stanja kao što su autizam, drugi razvojni poremećaji, epilepsija, konduktivni poremećaji ili teški fizički hendikep.
+F70	preferred	Laka duševna zaostalost
+F70[S05F70_4]	modifierlink	[Vidi prije F70 za podjele]
+F70	definition	IQ je približno od 50 do 69 (kod odraslih, mentalna starost od 9 do manje od 12 godina). Vjerovatno prouzrokuje određene poteškoće u učenju u školi. Mnoge odrasle osobe će biti sposobni da rade i održavaju dobre socijalne odnose i da doprinose društvu.
+F70	inclusion	slaboumnost
+F70	inclusion	blaga mentalna subnormalnost
+F71	preferred	Umjerena mentalna retardacija
+F71[S05F70_4]	modifierlink	[Vidi prije F70 za podjele]
+F71	definition	IQ je približno od 35 do 49 (kod odraslih, mentalna starost od 6 do manje od 9 godina). Vjerovatno prouzrokuje značajne razvojne zastoje u djetinjstvu, ali većina može naučiti da razvije određeni stepen nezavisnosti u staranju o samom sebi i da savlada adekvatne komunikacione i akademske vještine. Odraslima će biti potreban različit stepen pomoći da žive i rade u zajednici.
+F71	inclusion	umjerena mentalna subnormalnost
+F72	preferred	Teška mentalna retardacija
+F72[S05F70_4]	modifierlink	[Vidi prije F70 za podjele]
+F72	definition	IQ je približno od 20 do 34 (kod odraslih, mentalna starost od 3 do manje od 6 godina). Vjerovatno zahtjeva stalnu pomoć.
+F72	inclusion	teška mentalna subnormalnost
+F73	preferred	Duboka mentalna retardacija
+F73[S05F70_4]	modifierlink	[Vidi prije F70 za podjele]
+F73	definition	IQ je ispod 20 (kod odraslih, mentalna starost manje od 3 godine). Uzrokuje ozbiljno ograničeno staranje o sebi samom, kontrolu sfinktera, komuniciranje i pokretnost.
+F73	inclusion	duboka mentalna subnormalnost
+F78	preferred	Druga mentalna retardacija
+F78[S05F70_4]	modifierlink	[Vidi prije F70 za podjele]
+F79	preferred	Neoznačenamentalna retardacija
+F79[S05F70_4]	modifierlink	[Vidi prije F70 za podjele]
+F79	inclusion	mentalna: deficijencija NOS
+F79	inclusion	mentalna: subnormalnost NOS
+F80-F89	preferred	Poremećaji psihološkog razvoja
+F80-F89	definition	Poremećaji uvršteni u ovu podgrupu imaju zajedničke: (a) početak, bez izuzetka, u djetinjstvu; (b) oštećenje ili zaostajanje u razvoju funkcija koje su tijesno povezane sa biološkim sazrijevanjem centralnog nervnog sistema; i (c) stabilan tok, bez remisija i recidiva. U većini slučajeva, oštećene su funkcije govora, vidno-prostorne sposobnosti i motorna koordinacija. Obično, zaostajanje ili oštećenje je prisutno od kada se najranije moglo pouzdano otkriti i postepeno će se smanjivati kako dijete odrasta, iako blaži deficiti očesto staju i u odraslom dobu.
+F80	preferred	Specifični poremećaji razvoja govora i jezika
+F80	definition	Poremećaji kod kojih su normalni obrasci sticanja govora ometeni od ranih stadijuma razvoja. Ova stanja se ne mogu direktno pripisati neurološkim ili poremećajima mehanizma govora, čulnim oštećenjima, mentalnoj zaostalosti ili faktorima sredine. Određene poremećaje u razvoju govora i jezika su često prate udruženi problemi, kao što su teškoće u čitanju i spelovanju, nenormalnosti u međuljudskim odnosima i emocionalni poremećaji i poremećaji ponašanja.
+F80.0	preferred	Specifični poremećaj artikulacije govora Specifični poremećaj izgovora
+F80.0	definition	Specifičan poremećaj razvoja u kome je dijetetova upotreba govornih glasova ispod odgovarajuće za njegov mentalni uzrast, ali u kome postoji normalan nivo jezičkih sposobnosti.
+F80.0	inclusion	Razvojni: fonološki poremećaj
+F80.0	inclusion	Razvojni: poremećaj artikulacije govora
+F80.0	inclusion	Dislalija
+F80.0	inclusion	Funkcionalni poremećaj artikulacije govora
+F80.0	inclusion	Tepanje
+F80.0	exclusion	oštećenje artikulacije govora (zbog): afazije NOSR47.0
+F80.0	exclusion	oštećenje artikulacije govora (zbog): apraksijeR48.2
+F80.0	exclusion	oštećenje artikulacije govora (zbog): gubitka sluhaH90-H91
+F80.0	exclusion	oštećenje artikulacije govora (zbog): mentalne retardacijeF70-F79
+F80.0	exclusion	oštećenje artikulacije govora (zbog): sa poremećajem razvoja jezika: ekspresivnimF80.1
+F80.0	exclusion	oštećenje artikulacije govora (zbog): sa poremećajem razvoja jezika: receptivnimF80.2
+F80.1	preferred	Poremećaj ekspresivnog govora Ekspresivni jezički poremećaj
+F80.1	definition	Specifičan poremećaj razvoja u kome je sposobnost djeteta da koristi ekspresivni govorni jezik značajno ispod odgovarajućeg nivoa za njegov mentalni uzrast, ali u kome je razumijevanje jezika u granicama normale. Mogu, a ne moraju, da postoje poremećaji artikulacije.
+F80.1	inclusion	Razvojna disfazija ili afazija, ekspresivni tip
+F80.1	exclusion	stečena afazija sa epilepsijom [Landau-Kleffner]F80.3
+F80.1	exclusion	disfazija i afazija: NOSR47.0
+F80.1	exclusion	disfazija i afazija: razvojna, receptivni tipF80.2
+F80.1	exclusion	elektivni mutizamF94.0
+F80.1	exclusion	mentalna retardacijaF70-F79
+F80.1	exclusion	pervazivni poremećaji razvojaF84.-
+F80.2	preferred	Poremećaj receptivnog govora Receptivni jezički poremećaj
+F80.2	definition	Specifičan poremećaj razvoja u kome je djetetovo razumijevanje jezika ispod odgovarajućeg nivoa za njegov mentalni uzrast. U gotovo svim slučajevima ekspresivni jezik će takođe biti značajno pogođen i uobičajeni su poremećaji u izgovoru riječi
+F80.2	inclusion	Urođena auditorna ......nedostatak percepcije ili selektivna percepcija
+F80.2	inclusion	Razvojna disfazija ili afazija, receptivni tip
+F80.2	inclusion	Razvojna: Wernicke-ova afazija
+F80.2	inclusion	Gluvoća za riječi
+F80.2	exclusion	stečena afazija sa epilepsijom [Landau-Kleffner]F80.3
+F80.2	exclusion	autizamF84.0-F84.1
+F80.2	exclusion	disfazija i afazija: NOSR47.0
+F80.2	exclusion	disfazija i afazija: razvojna, ekspresivni tipF80.1
+F80.2	exclusion	elektivni mutizamF94.0
+F80.2	exclusion	jezičko zaostajanje zbog gluvoćeH90-H91
+F80.2	exclusion	mentalna retardacijaF70-F79
+F80.3	preferred	Stečena afazija sa epilepsijom [Landau-Kleffner]
+F80.3	definition	Poremećaj u kome dijete, koje je prethodno imalo normalan razvoj govornog jezika, gubi i receptivne i ekspresivne jezičke sposobnosti, ali zadržava opštu inteligenciju; početak je praćen paroksizmalnim poremećajima EEG-a i u većini slučajeva epileptičnim napadima. Počinje obično između treće i sedme godine kada se sposobnosti gube danima ili nedjeljama. Vremenska povezanost početka napada i gubitka jezičkih sposobnosti je različita, prvo prethodi drugom (ili obratno) nekoliko mjeseci do dvije godine. Upalni encefalitični proces se predlaže kao mogući uzrok ovog poremećaja. Oko dvije trećine pacijenata ostaje sa više ili manje teškim receptivnim oštećenjima govora.
+F80.3	exclusion	afazija (zbog): NOSR47.0
+F80.3	exclusion	afazija (zbog): autizmaF84.0-F84.1
+F80.3	exclusion	afazija (zbog): dezintegrativnih poremećaja u djetinjstvuF84.2-F84.3
+F80.8	preferred	Drugi poremećaji razvoja govora i jezika
+F80.8	inclusion	sigmatizam
+F80.9	preferred	Poremećaj razvoja govora i jezika, neoznačen
+F80.9	inclusion	Poremećaj jezika NOS
+F81	preferred	Specifični poremećaji razvoja sposobnosti za  školovanje
+F81	definition	Poremećaji u kojima su normalni putevi sticanja vještina ometeni od ranih stadijuma razvoja. Ovo nije obična posljedica nedostatka prilike za učenje, nije samo posljedica mentalne zaostalosti i nije posljedica bilo kog oblika stečene moždane traume ili bolesti.
+F81.0	preferred	Specifični poremećaj čitanja
+F81.0	definition	Osnovna karakteristika je specifično i značajno oštećenje razvoja sposobnosti čitanja koje se ne može objasniti mentalnim uzrastom, problemima oštrine vida ili neadekvatnim školovanjem. Mogu biti oštećeni shvatanje pročitanog, prepoznavanje pročitanih riječi, vještina čitanja naglas i izvršenje zadataka koje čitanje zahtijeva. Teškoće spelovanja su, često, udružene sa specifičnim poremećajem čitanja i često ostaju tokom adolescencije, čak i poslije izvjesnog napretka u čitanju. Specifičnim poremećajima čitanja obično prethode u istoriji bolesti poremećaji razvoja govora i jezika. Pridružene emocionalne i smetnje u ponašanju su česte u periodu školskog uzrasta.
+F81.0	inclusion	"Čitanje unazad"
+F81.0	inclusion	Razvojna disleksija
+F81.0	inclusion	Specifična zaostalost u čitanju
+F81.0	exclusion	aleksija NOSR48.0
+F81.0	exclusion	disleksija NOSR48.0
+F81.0	exclusion	teškoće u čitanju sekundarne emocionalnim poremećajimaF93.-u emocionalnom poremećaju
+F81.1	preferred	Specifični poremećaj spelovanja
+F81.1	definition	Glavna karakteristika je specifično i značajno oštećenje razvoja sposobnosti spelovanja bez podataka o postojanju specifičnog poremećaja čitanja, što se ne može objasniti samo malim mentalnim uzrastom, problemima oštrine vida ili neadekvatnim školovanjem. Pogođene su sposobnosti i usmenog spelovanja i pravilnog pisanja riječi.
+F81.1	inclusion	Specifična zaostalost u spelovanju (bez poremećaja čitanja)
+F81.1	exclusion	agrafija NOSR48.8
+F81.1	exclusion	teškoće u spelovanju: udružene sa poremećajem čitanjaF81.0
+F81.1	exclusion	teškoće u spelovanju: zbog neadekvatnog podučavanjaZ55.8
+F81.2	preferred	Specifični poremećaj računanja aritmetičkih vještina
+F81.2	definition	Poremećaj karakteriše specifično oštećenje sposobnosti računanja, koje se ne može objasniti jedino mentalnom retardacijom ili neadekvatnim školovanjem. Deficit je uglavnom u oblasti računskih radnji sabiranja, oduzimanja, množenja i dijeljenja, a manje u oblasti apstraktnih matematičkih sposobnosti, koje se primjenjuju u algebri, trigonometriji, geometriji i infinitezimalni račun.
+F81.2	inclusion	Razvojna: akalkulija 
+F81.2	inclusion	Razvojni: aritmetički poremećaj
+F81.2	inclusion	Razvojni: Gerstmann-ov sindrom
+F81.2	exclusion	akalkulija NOSR48.8
+F81.2	exclusion	aritmetičke teškoće: udružene sa poremećajem čitanja ili spelovanjaF81.3
+F81.2	exclusion	aritmetičke teškoće: zbog neadekvatnog podučavanjaZ55.8
+F81.3	preferred	Mješoviti poremećaj sposobnosti za školovanje školskih vještina
+F81.3	definition	Nejasno definisana preostala kategorija poremećaja u kojima  su i aritmetičke vještine i vještina čitanja ili spelovanja značajno oštećene, ali se poremećaj ne može objasniti samo mentalnom retardacijom ili neadekvatnim školovanjem. Treba je koristiti za poremećaje koji zadovoljavaju kriterijume za F81.2 i za F81.0 ili F81.1.
+F81.3	exclusion	specifični: poremećaj aritmetičkih vještinaF81.2
+F81.3	exclusion	specifični: poremećaj čitanjaF81.0
+F81.3	exclusion	specifični: poremećaj spelovanjaF81.1
+F81.8	preferred	Drugi poremećaj razvoja školskih vještina
+F81.8	inclusion	Razvojni poremećaj ekspresivnog pisanja
+F81.9	preferred	Poremećaj razvoja školskih vještina, neoznačen
+F81.9	inclusion	Nesposobnost sticanja znanja NOS
+F81.9	inclusion	Učenja: nesposobnost NOS
+F81.9	inclusion	Učenja: poremećaj NOS
+F82	preferred	Specifični poremećaj razvoja pokretljivosti Specifični i poremećaj razvoja motorne funkcije
+F82	definition	Poremećaj čija je glavna karakteristika ozbiljno oštećenje razvoja motorne koordinacije  koji se ne može objasniti samo opštom intelektualnom zaostalošću ili bilo kojim specifičnim urođenim ili stečenim neurološkim poremećajem. Ipak, u većini slučajeva pažljiv klinički pregled pokazuje značajne nezrelosti neurološkog razvoja kao što su horeiformni pokreti  nepoduprtih udova ili pokreti "kao u ogledalu" i druge udružene motorne odlike, kao i oštećenje fine i grube motorne koordinacije.
+F82	inclusion	Sindrom nespretnog djeteta
+F82	inclusion	Razvojni: poremećaj koordinacije
+F82	inclusion	Razvojna: dispraksija
+F82	exclusion	nepravilnosti hoda držanja i kretanja R26.-
+F82	exclusion	nedostatak koordinacijeR27.-
+F82	exclusion	nedostatakkoordinacije sekundarno kod mentalne retardacijeF70-F79
+F83	preferred	Mješoviti specifični razvojni poremećaji
+F83	definition	Preostala kategorija za poremećaje u kojima postoje mješavine specifičnih razvojnih poremećaja govora i jezika, školskih vještina i motorne funkcije, ali u kojima nemaju dovoljno specifičnosti da se ustanovi osnovna dijagnoza. Ovu poremećajnu kategoriju treba koristiti samo kada ima značajnog preklapanja ovih specifičnih poremećaja razvoja. Ovi poremećaji su obično udruženi, ne uvijek, sa izvjesnim oštešenjem kognitivnih funkcija. Stoga ovu kategoriju treba koristiti kada nema dva ili više kriterijuma za F80.-, F81.-i F82.
+F84	preferred	Pervazivni razvojni poremećaji
+F84	definition	Grupa poremećaja koje karakterišu kvalitativne nepravilnosti u recipročnim socijalnim interakcijama i obrascima komunikacije i ograničeni, stereotipni, repetitivni repertoari interesovanja i aktivnosti. Ove kvalitativne nepravilnosti su pervazivna odlika funkcionisanja osobe u svim situacijama. 
+F84	coding-hint	Koristiti dodatnu šifru, ako je potrebno, za označavanje eventualnog pridruženog medicinskog stanja i mentalne zaostalosti.
+F84.0	preferred	Dječiji autizam
+F84.0	definition	Tip pervazivnog razvojnog poremećaja koji definišu: (a) postojanje nenormalnog ili oštećenog razvoja koji se manifestuje prije treće godine života; (b) karakteristični tip nenormalnog funkcionisanja u svima trima oblastima psihopatologije: recipročnoj socijalnoj interakciji, komunikaciji i ograničenom, stereotipnom, repetitivnom ponašanju. Pored ovih specifičnih dijagnostičkih karakteristika, čitav niz nespecifičnih problema su česti, kao što su: fobije, smetnje spavanja i ishrane, napadi bijesa i (auto)agresije (usmjerene na sebe samoga)
+F84.0	inclusion	Autistični poremećaj
+F84.0	inclusion	Infantilni: autizam
+F84.0	inclusion	Infantilna: psihoza
+F84.0	inclusion	Kanner-ov sindrom
+F84.0	exclusion	autistična psihopatijaF84.5
+F84.1	preferred	Atipični autizam
+F84.1	definition	Tip pervazivnog razvojnog poremećaja koji se razlikuje od dječijeg autizma ili po uzrastu u kome počinje, ili ne ispunjava sva tri seta dijagnostičkih kiterijuma. Ovu potkategoriju treba koristiti kada nenormalan i oštećen razvoj postoji tek poslije treće godine života, i kada ne postoji dovoljno očiglednih nenormalnosti u jednoj ili dvije od tri oblasti psihopatologije, neophodnih za dijagnozu autizma (to su: recipročne socijalne interakcije, komunikacija i ograničeno, stereotipno i ponavljano ponašanje), uprkos postojanju karakterističnih nenormalnosti u drugoj(drugim) oblasti(ma). Atipičan autizam se javlja najčešće kod duboko retardiranih osoba i kod osoba sa teškim specifičnim poremećajem razvoja receptivnog jezika.
+F84.1	inclusion	Atipična dječija psihoza psihoza u djetinjstvu
+F84.1	inclusion	Mentalna retardacija sa autističnim odlikama
+F84.1	coding-hint	Koristiti dodatnu šifru (F70-F79) za označavanje eventualnog pridruženog medicinskog stanja i mentalne zaostalosti.
+F84.2	preferred	Rett-ov sindrom
+F84.2	definition	Stanje, do sada nađeno samo kod djevojčica, u kome izgleda nakon normalnog ranog razvoja slijedi djelimični ili potpuni gubitak govora i vještina kretanja, korišćenja šaka, zajedno sa usporenjem rasta glave, obično sa početkom između 7. i 24. mjeseca života. Gubitak svrsishodnih pokreta šaka, stereotipno kršenje šaka i hiperventilacija su karakteristični. Socijalni razvoj i razvoj igre su usporeni, ali socijalni interes je očuvan. Ataksija i apraksija trupa počinju da se razvijaju do četvrte godine života i praćeni su, često, horeoatetoidnim pokretima. Teška mentalna zaostalost prozilazi skoro bez izuzetka.
+F84.3	preferred	Drugi dezintegrativni poremećaj u djetinjstvu
+F84.3	definition	Tip pervazivnog razvojnog poremećaja kojeg definiše period potpuno normalnog razvoja prije početka simptoma poremećaja nakon koga slijedi konačni gubitak prethodno stečenih vještina u nekoliko oblasti, u toku nekoliko mjeseci. Tipično ovo bude praćeno opštim gubitkom interesovanja za okolinu, stereotipnim, ponavljano motornim manirizmima i nenormalnostima sličnim onima kod autizma u socijalnim interakcijama i komunikaciji . U nekim slučajevima može se pokazati da je poremećaj  nastao zbog  pridružene encefalopatije, ali dijagnozu treba postaviti na osnovu odlika ponašanja.
+F84.3	inclusion	Infantilna demencija
+F84.3	inclusion	Dezintegrativna psihoza
+F84.3	inclusion	Heller-ov sindrom
+F84.3	inclusion	Simbiotska psihoza
+F84.3	coding-hint	Koristiti dodatnu šifru, ako je potrebno, za označavanje bilo kog pratećeg neurološkog stanja.
+F84.3	exclusion	Rett-ov sindromF84.2
+F84.4	preferred	Hiperkinetički poremećaj udružen sa mentalnom zaostalošću i stereotipnim pokretima
+F84.4	definition	Nejasno definisan poremećaj nesigurne nozološke valjanosti. Kategorija je kreirana da uključi grupu djece sa teškom mentalnom zaostalošću (IQ ispod 35), koja imaju velike probleme u hiperaktivnosti i pažnji i imaju stereotipna ponašanja. Takva djeca nemaju koristi od upotrebe stimulativnih ljekova (za razliku od onih sa IQ-om u granicama normale) i mogu da ispolje teške disforijčne reakcije (nekada, sa psihomotornom retardacijom), kada im se daju stimulansi. U adolescenciji, hiperaktivnost ima tendenciju da bude zamijenjena hipoaktivnošću (oblik koji nije uobičajen za hiperkinetičnu djecu sa normalnom inteligencijom). Ovaj sindrom je često udružen sa brojnim razvojnim zastojima, bilo specifičnim ili opštim. Nije poznato do kog stepena je obrazac ponašanja funkcija niskog IQ ili funkcija organskog oštećenja mozga.
+F84.5	preferred	Asperger-ov sindrom
+F84.5	definition	Poremećaj nesigurne nozološke valjanosti koji karakteriše isti tip kvalitativnih nepravilnosti recipročne socijalne interakcije, karakterističan za  autizam i ograničeni, stereotipni ponavljajući repertoari interesovanja i aktivnosti. Razlikuje se od autizma prije svega zbog činjenice da ne postoji opšte zaostajanje ili retardacija u razvoju jezika ili kognitivnom razvoju. Ovaj poremećaj često prati izrazita nespretnost. Postoji izražena tendencija perzistiranja nenormalnosti tokom adolescencije i odraslog životnog doba. Psihotične epizode se povremeno javljaju u ranom odraslom dobu.
+F84.5	inclusion	Autistična psihopatija
+F84.5	inclusion	Juvenilni shizoidni poremećaj 
+F84.8	preferred	Drugi pervazivni razvojni poremećaji
+F84.9	preferred	Pervazivni razvojni poremećaj, neoznačen
+F88	preferred	Ostali poremećaji psihološkog razvoja
+F88	inclusion	Razvojna agnozija
+F89	preferred	Neoznačeni poremećaj psihološkog razvoja,
+F89	inclusion	Razvojni poremećaj NOS
+F90-F98	preferred	Poremećaji ponašanja i emocija koji obično nastaju u djetinjstvu i adolescenciji 
+F90	preferred	Hiperkinetički poremećaji
+F90	definition	Grupa poremećaja koju karakterišu rani početak (obično u prvih pet godina života), nedostatak istrajnosti u aktivnostima koje zahtijevaju kognitivno angažovanje i tendencija prelaska sa jedne aktivnosti na drugu bez okončanja bilo koje, zajedno sa dezorganizovanom, loše kontrolisanom i pretjeranom aktivnošću. Nekoliko drugih nenormalnosti može biti prdruženo. Hiperkinetična djeca su često nesmotrena i impulsivna, sklona nezgodama, i često imaju problema sa disciplinom zbog nepromišljenog kršenja pravila, prije nego zbog svjesnog prkošenja. Njihovi odnosi sa odraslima su, često, socijalno dezinhibisani, bez uobičajene opreznosti i rezerve. Ona nisu popularna među drugom djecom i mogu postati izolovana. Oštećenje kognitivnih funkcija je često, a specifični zastoji u motornom i jezičkom razvoju su disproporcionalno česti. Sekundarne komplikacije uključuju asocijalno ponašanje i nisko samopoštovanje.
+F90	exclusion	anksiozni poremećajiF41.-
+F90	exclusion	Poremećaji raspoloženja [afektivni poremećaji]F30-F39
+F90	exclusion	pervazivni razvojni poremečajiF84.-
+F90	exclusion	shizofrenijaF20.-
+F90.0	preferred	Smetnje aktivnosti i pažnje
+F90.0	inclusion	Nedostatak pažnje: poremećaj sa hiperaktivnošću
+F90.0	inclusion	Nedostatak pažnje: poremećaj hiperaktivnosti
+F90.0	inclusion	Nedostatak pažnje: sindrom sa hiperaktivnošću
+F90.0	exclusion	hiperkinetički poremećaj udružen sa konduktivnim poremećajemF90.1
+F90.1	preferred	Hiperkinetički poremećaj ponašanja konduktivni poremećaj
+F90.1	inclusion	Hiperkinetički poremećaj udružen sa konduktivnim poremećajem
+F90.8	preferred	Drugi hiperkinetički poremećaji
+F90.9	preferred	Hiperkinetički poremećaj, neoznačen
+F90.9	inclusion	Hiperkinetička reakcija u djetinjstvu ili adolescenciji NOS
+F90.9	inclusion	Hiperkinetički sindrom NOS
+F91	preferred	Poremećaji ponašanja Konduktivni poremećaji
+F91	definition	Poremećaji koje karakteriše ponavljano i stalno antisocijalno, agresivno i drsko ponašanje vladanje. Takvo ponašanje može dostići najveće prestupe društveno očekivanog za taj uzrast; stoga je ozbiljnije od običnog dječjeg nestašluka ili adolescentnog buntovništva i uključuje trajne obrasce ponašanja (šest mjeseci ili više). Karakteristike poremećaja ponašanja, takođe, mogu biti simptomatične za druga psihijatrijska stanja, u kom slučaju se šifrira osnovna dijagnoza. Primjeri ponašanja na kojima se zasniva dijagnoza uključuju pretjerane tuče ili nasilništvo, surovost prema drugim ljudima ili životinjama, žestoku destruktivnost prema imovini, podmetanje požara, krađu, ponavljano laganje, izostajanje iz škole i bježanje od kuće, neobično česte i teške napade bijesa i neposlušnost. Svako od navedenih obilježja, ako je naglašeno, je dovoljno za dijagnozu, ali izolovani antisocijalni akti nisu.
+F91	exclusion	Poremećaji raspoloženja [afektivni poremećaji]F30-F39
+F91	exclusion	pervazivni razvojni poremečajiF84.-
+F91	exclusion	shizofrenijaF20.-
+F91	exclusion	kada su udruženi sa: emocionalnim poremećajimaF92.-
+F91	exclusion	kada su udruženi sa: hiperkinetičkim poremećajimaF90.1
+F91.0	preferred	Poremećaj ponašanja ograničen na porodicu Konduktivni poremećaji ograničeni na porodično okruženje
+F91.0	definition	Poremećaj ponašanja Konduktivni poremećaj obuhvata asocijalno ili agresivno ponašanje (ne samo opiruće, prkosno, rušilačko) i ovo nenormalno ponašanje je u potpunosti ili skoro u potpunosti, ograničeno na dom i na interakciju sa članovima najuže porodice ili sa članovima domaćinstva. Poremećaj zahtijeva zadovoljenje opštih kriterijuma za F91.-, čak i teško poremećeni odnosi roditelj-dijete nijesu, sami po sebi, dovoljni za dijagnozu.
+F91.1	preferred	Poremećaj ponašanja uzrokovan nepotpunom socijalizacijom  poremećaj nesocijalizovanog vladanja
+F91.1	definition	Poremećaj ponašanja koji karakteriše kombinacija trajnog asocijalnog ili agresivnog ponašanja (zadovoljava opšte kriterijume za F91.-a ne sastoji se samo od suprotstavljajućeg, prkosnog i rušilačkog ponašanja) i značajnog pervazivnog poremećaja odnosa osobe sa drugom djecom.
+F91.1	inclusion	Konduktivni poremećaj, pojedinačni agresivni tip
+F91.1	inclusion	Nesocijalizovani agresivni poremećaj
+F91.2	preferred	Poremećaj socijalizovanog ponašanja
+F91.2	definition	Poremećaj koji uključuje stalno asocijalno ili agresivno ponašanje (zadovoljava sve kriterijume za F91- a ne sastoji se samo od suprotstavljajućeg, prkosnog, rušilačkog ponašanja) pojedinaca, koji su uglavnom dobro uključeni u grupu svojih vršnjaka.
+F91.2	inclusion	Konduktivni poremećaj, grupni tip
+F91.2	inclusion	Grupna delikvencija
+F91.2	inclusion	Prestupi u vezi sa članstvom bande 
+F91.2	inclusion	Krađa u društvu sa drugima
+F91.2	inclusion	Izostajanje iz škole
+F91.3	preferred	Poremećaji protivljenja i prkosa
+F91.3	definition	Konduktivni poremećaj koji se obično javlja kod mlađe djece i koji prije svega karakteriše značajno prkosno, neposlušno i rušilačko ponašanje,koje ne uključuje delinkventne aktivnosti, ili ekstremne forme asocijalnog ili agresivnog ponašanja. Poremećaja podrazumijeva zadovoljenje opštih kriterijuma za F91.-; čak i jako nestašno ili nevaljalo ponašanje nije, samo po sebi, dovoljno za postavljanje dijagnoze. Treba biti oprezan prije korišćenja ove kategorije, naročito kod starije djece jer je klinički značajan poremećaj ponašanja starije djece, obično, praćen asocijalnin ili agresivnim ponašanjem koje prevazilazi samo nepokoronost, neposlušnost, ili rušilaštvo.
+F91.8	preferred	Drugi poremećaji ponašanja konduktivni poremećaji
+F91.9	preferred	Poremećaj ponašanja konduktivni poremećaj, neoznačen
+F91.9	inclusion	U djetinjstvu: poremećaj ponašanja NOS
+F91.9	inclusion	U djetinjstvu: konduktivni poremećaj NOS
+F92	preferred	Mješoviti poremećaji ponašanja i emocija
+F92	definition	Grupa poremećaja koju karakteriše kombinacija trajno agresivnog, asocijalnog ili prkosnog ponašanja i jasnih i značajnih simptoma depresije, anksioznosti ili drugog emocionalnog poremećaja. Moraju biti zadovoljeni kriterijumi i za konduktivne poremećaje u djetinjstvu (F91.-) i  emocionalne poremećaje u djetinjstvu (F93.-) ili dijagnoze neuroza odraslih (F40-F48) ili poremećaja raspoloženja (F30-F39).
+F92.0	preferred	Poremećaji ponašanja u vidu depresije Depresivni konduktivni poremećaj
+F92.0	definition	Ova kategorija zahtijeva kombinaciju konduktivnih poremećaja (F91.-) sa trajnim i značajnim depresivnim raspoloženjem (F32.-), prikazani simptomima kao sto su pretjerana bezvoljnost, gubitak interesovanja i zadovoljstva za uobičajene aktivnosti, samookrivljivanje i beznađe; mogu biti prisutne, takođe i smetnje spavanja i apetita.
+F92.0	inclusion	Konduktivni poremećaji iz F91.- udruženi sa depresivnim poremećajem iz F32.-
+F92.8	preferred	Drugi mješoviti poremećaji vladanja i emocija
+F92.8	definition	Ova kategorija zahtijeva kombinaciju konduktivnih poremećaja(F91.-) i stalnih i naglašenih emocionalnih simptoma, kao sto su anksioznost, opsesije ili prisilne radnje, depersonalizacija ili derealizacija, fobije ili hipohondrija.
+F92.8	inclusion	Konduktivni poremećaji iz F91.- udruženi sa emocionalnim poremećajem iz F93.-
+F92.8	inclusion	Konduktivni poremećaji iz F91.- udruženi sa neurotičnim poremećajem iz F40-F48.-
+F92.9	preferred	Mješoviti poremećaj vladanja i emocija, neoznačen
+F93	preferred	Emocionalni poremećaj sa početkom u djetinjstvu
+F93	definition	U normalnim razvojnim tokovima djece, u većini, srijeću se samo pretjerivanja normalnog toka, a ne nenormalni kvalitativni poremećaji, sami po sebi. Svojstvenost razvoja se upotrebljava, kao ključno dijagnostičko sredstvo, pri određivanju razlike između ovih poremećaja emocija sa početkom specifičnim za djetinjstvo i neurotskih poremećaja (F40-F48).
+F93	exclusion	kada su udruženi sa konduktivnim poremećajemF92.-
+F93.0	preferred	Anksiozni poremećaj odvajanja u djetinjstvu
+F93.0	definition	Ovaj poremećaj treba dijagnostikovati kada strah od odvajanja čini osnov anksioznosti i kada se ta anksioznost pojavljuje prvi put tokom ranog djetinjstva. Razlikuje se od normalne anksioznosti odvajanja, kada je stepen (ozbiljnosti), statistički neuobičajen (uključujući nenormalno dugo zadržavanje poslije uobičajenog uzrasta) i kada je udružen sa značajnim problemima u socijalnom funkcionisanju.
+F93.0	exclusion	Poremećaj raspoloženja [afektivni poremećaj]F30-F39
+F93.0	exclusion	neurotski poremećajiF40-F48
+F93.0	exclusion	fobijsko-anksiozni poremećaj u djetinjstvuF93.1
+F93.0	exclusion	socijalno-anksiozni poremećaj u djetinjstvuF93.2
+F93.1	preferred	Fobijsko-anksiozni poremećaj u djetinjstvu
+F93.1	definition	Strahovi u djetinjstvu koji pokazuju značajnu specifičnost faze u razvoju i javljaju se (do izvjesnog stepena) kod većine djece, ali koji nisu normalnog nivoa. Druge strahove u djetinjstvu, koji nijesu normalni dio psihosocijalnog razvoja (na primjer agorafobija), treba šifrirati odgovarajućom kategorijom u podgrupi F40-F49.
+F93.1	exclusion	generalizovani anksiozni poremećajF41.1
+F93.2	preferred	Socijalno-anksiozni poremećaj u djetinjstvu
+F93.2	definition	U ovom poremećaju postoji opreznost od nepoznatih osoba i strahovanje ili anksioznost pri susretanju sa novim, nepoznatim ili socijalno prijetećim situacijama. Ovu kategoriju treba upotrebljavati samo kada se ovakvi strahovi jave u ranom životnom dobu i kada su i neobično jaki i udruženi sa problemima u socijalnom funkcionisanju.
+F93.2	inclusion	Poremećaj izbjegavanja u djetinjstvu i adolescenciji
+F93.3	preferred	Poremećaj suparništva sa bratom ili sestrom
+F93.3	definition	Izvjesni stepen emocionalnih smetnji, obično nakon rođenja mlađeg brata ili sestre, pokazuje većina male djece. Poremećaj suparništva sa bratom ili sestrom treba dijagnostikovati samo ako je stepen ili trajanje teškoća, statistički neuobičajeno i udruženo sa nenormalnostima u socijalnim interakcijama.
+F93.3	inclusion	Ljubomora na brata ili sestru
+F93.8	preferred	Drugi emocionalni poremećaji u djetinjstvu
+F93.8	inclusion	Poremećaj identiteta
+F93.8	inclusion	Poremećaj pretjerane anksioznosti
+F93.8	exclusion	poremećaj polnog identiteta u djetinjstvuF64.2
+F93.9	preferred	Emocionalni poremećaj u djetinjstvu, neoznačen
+F94	preferred	Poremećaji socijalnog funkcionisanja sa početkom u djetinjstvu i adolescenciji
+F94	definition	Donekle heterogena grupa poremećaja kojima su zajedničke nenormalnosti u socijalnom funkcionisanju, koje počinju u razvojnom periodu, ali koje (za razliku od pervazivnih poremećaja razvoja) ne karakterišu primarno naizgled konstitucionalna socijalna nesposobnost ili deficit koji prožima sve sfere funkcionisanja. U mnogim slučajevima, teška iskrivljenost ili nedostatak okoline vjerovatno igraju značajnu ulogu u etiologiji.
+F94.0	preferred	Elektivni mutizam
+F94.0	definition	Karakteriše ga značajna, emocionalno uslovljena selektivnost u govoru, takva pa dijete ispoljava govorne sposobnosti u nekim situacijama, dok u drugim (određenim) situacijama ne uspijeva da govori. Poremećaj je, obično, udružen sa upadljivim crtama ličnosti, kao sto su anksioznost, povučenost, osjetljivost ili opiranje.
+F94.0	inclusion	Selektivni mutizam
+F94.0	exclusion	pervazivni razvojni poremeććajF84.-
+F94.0	exclusion	shizofrenijaF20.-
+F94.0	exclusion	specifični razvojni poremećaji govora i jezikaF80.-
+F94.0	exclusion	prolazni mutizam kao dio anksioznosti zbog odvajanja kod male djeceF93.0
+F94.1	preferred	Reaktivni poremećaj vezivanja u djetinjstvu
+F94.1	definition	Počinje u prvih pet godina života, a karakterišu ga trajne nenormalnosti u djetetovom obrascu socijalnih odnosa koje su  udružene sa emocionalnim smetnjama i koje su reaktivne na promjene uslova okoline (npr. strašljivost i pretjerana opreznost, loše socijalne interakcije sa vršnjacima, agresija prema sebi i drugima, nevoljnost i zaostajanje u rastu u nekim slučajevima). Sindrom, vjerovatno, nastaje kao direkna posljedica teškog zanemarivanja od strane roditelja, zlostavljanja ili veoma lošeg postupanja.
+F94.1	coding-hint	Koristiti dodatnu šifru, ako je potrebno, za označavanje neuspjeha u napredovanju ili zaostajanja u rastu.
+F94.1	exclusion	Asperger-ov sindromF84.5
+F94.1	exclusion	Poremećaj neinhibiranog vezivanja u djetinjstvu
+F94.1	exclusion	sindromi zlostavljanjaT74.-
+F94.1	exclusion	normalna varijacija u obrascu selektivnog vezivanja
+F94.1	exclusion	seksualno ili fizičko zlostavljanje u djetinjstvu koje prouzrokuje psihosocijalne problemeZ61.4-Z61.6
+F94.2	preferred	Poremećaj neinhibiranog vezivanja u djetinjstvu
+F94.2	definition	Poseban obrazac nenormalnog socijalnog funkcionisanja, koji karakterišu: pojavljivanje u prvih pet godina života i težnja da se obrazac zadrži, uprkos značajnim promjenama u sredini. Dijete obično ispoljava: difuzno, neselijektivno usmjereno ponašanje vezivanja, traži pažnju i slijepo prijateljsko ponašanje i slabu modulaciju odnosa sa vršnjacima. Može, ali ne mora, biti praćeno poremećajima emocija ili ponašanja, a što zavisi od okolnosti u kojima se dijete nalazi.
+F94.2	inclusion	Bezosjećajna psihopatija
+F94.2	inclusion	Institutcionalni sindrom
+F94.2	exclusion	Asperger-ov sindromF84.5
+F94.2	exclusion	hospitalizam kod djeceF43.2
+F94.2	exclusion	hiperkinetički poremećajiF90.-
+F94.2	exclusion	Reaktivni poremećaj vezivanja u djetinjstvuF94.1
+F94.8	preferred	Drugi poremećaji socijalnog funkcionisanja u djetinjstvu
+F94.9	preferred	Poremećaj socijalnog funkcionisanja u djetinjstvu, neoznačen
+F95	preferred	Tikovi
+F95	definition	Sindromi u kojima je glavni simptom neki oblik tika. Tik je nevoljan, brz, ponavljajući, neritmički motorni pokret (obično zahvata ograničene mišićne grupe), ili naglo proizveden glas, koji je iznenadan i ne služi vidljivoj svrsi. Tikovi se doživljaju kao da im se ne može oduprijeti, ali se obično mogu zaustaviti na neko vrijeme, pojačavaju se stresom i nestaju tokom spavanja. Česti prosti motorni tikovi su žmirkanje, trzanje vratom, sleganje ramenima i pravljenje grimasa. Česti prosti glasovni tikovi su pročišćavanje grla, lajanje, šmrkanje i šištanje. Česti složeni tikovi su udaranje samog sebe, skakanje i cupkanje. Složeni glasovni tikovi su ponavljanje određenih riječi, i ponekad upotreba socijalno neprihvatljivih (često opscenih) riječi (koprolalija) i ponavljanje sopstvenih glasova ili riječi (palilalija).
+F95.0	preferred	Prolazan tik
+F95.0	definition	Ispunjava opšte kriterijume za tik, ali tikovi ne traju duže od 12 mjeseci. Tikovi se, obično, javljaju u obliku žmirkanja, pravljenja grimasa ili trzanja glavom.
+F95.1	preferred	Hronični motorni ili glasovni tik
+F95.1	definition	Ispunjava opšte kriterijume tik, gdje postoje motorni ili glasovni tikovi (ali ne i jedni i drugi), koji mogu biti pojedinačni ili višestruki (ali obično višestruki) i traju duže od jedne godine.
+F95.2	preferred	Kombinovani glasovni i višestruki motorni tik [de la Tourette]
+F95.2	definition	Oblik tika pri kome postoje (ili su postojali) složeni tikovi mišića i jedan ili više glasovnih tikova, ali se ne moraju pojavljivati podudarno. Tik se obično pogoršava tokom adolescencije i teži da traje i tokom odraslog životnog doba. Glasovni tikovi, obično, složeni sa eksplozivnom pojavljajućom vokalizacijom, kašljucanjem. groktanjem i upotrebom, nekada, nepristojnih riječi i izraza. Ponekada ovo prati gestikularna ehopraksija, koja, takode, može biti nepristojne prirode (kopropraksija).
+F95.8	preferred	Drugi tik
+F95.9	preferred	Tik, neoznačen
+F95.9	inclusion	Tik NOS
+F98	preferred	Ostali poremećaji emocija i ponašanja sa početkom u djetinjstvu i adolescenciji
+F98	definition	Heterogena grupa poremećaja kojima je zajedničko vrijeme početka simptoma, a inače se po mnogočemu razlikuju. Neka od stanja predstavljaju jasno definisane sindrome, dok su druga samo kompleks simptoma, koja se moraju uključiti, zbog njihove učestalosti i udruženosti sa psihosocijalnim problemima, a ne mogu se uvrstiti u druge sindrome.
+F98	exclusion	nastupi zadržavanja dahaR06.8
+F98	exclusion	poremećaj polnog identiteta u djetinjstvuF64.2
+F98	exclusion	Kleine-Levin-ov sindromG47.8
+F98	exclusion	opsesivno-kompulsivni poremećajF42.-
+F98	exclusion	poremećaji spavanja zbog emotivnih uzrokaF51.-
+F98.0	preferred	Neorgansko nevoljno mokrenje 
+F98.0	definition	Poremećaj koji karakteriše nevoljno mokrenje, danju i noću, koji nije normalno za mentalni uzrast osobe i koje nije posljedica nemanja kontrole mokraćne bešike zbog neurološkog poremećaja, epileptičkih napada ili bilo koje strukturne promjene urinarnog trakta. Enureza može biti prisutna od rođenja ili se može pojaviti poslije perioda uspostavljene kontrole mokraćne bešike. Enureza može, a ne mora, biti udružena sa mnogo širim poremećajem emocija ili ponašanja.
+F98.0	inclusion	Enureza (primarna)(sekundarna) neorganskog porijekla
+F98.0	inclusion	Funkcionalna enureza
+F98.0	inclusion	Psihogena enureza
+F98.0	inclusion	Urinarna inkontinencija neorganskog porijekla
+F98.0	exclusion	enureza NOSR32
+F98.1	preferred	Neorgansko nevoljno ispuštanje stolice
+F98.1	definition	Ponavljano, voljno ili nevoljno ispuštanje fecesa, obično normalne ili skoro normalne konzistencije, na za to neprikladnim mjestima u sociokulturnoj sredini osobe. Stanje može da predstavlja nenormalan produžetak normalne infantilne inkontinencije, gubitak već stečene kontrole crijeva ili namjernu defekaciju na neprikladnim mjestima, uprkos normalnoj fiziološkoj kontroli crijeva. Stanje se može javiti kao monosimptomatski poremećaj, ili može biti dio šireg poremećaja, naročito poremećaja emocija (F93.-) ili konduktivnog poremećaja (F91.-)
+F98.1	inclusion	Funkcionalna enkopreza
+F98.1	inclusion	Inkontinencija fecesa neorganskog porijekla
+F98.1	inclusion	Psihogena enkopreza
+F98.1	coding-hint	Koristiti dodatnu šifru, ako je potrebno, za označavanje uzroka bilo koje udržene opstipacije.
+F98.1	exclusion	enkopreza NOS
+F98.2	preferred	Poremećaj ishrane odojčadi i u djetinjstvu
+F98.2	definition	Poremećaj ishrane različitih manifestacija obično specifični za period odojčeta i ranog djetinjstva. Uopšteno obuhvata odbijanje hrane, ekstremnu hirovitost u prisustvu adekvatne količine hrane i razumno sposobnog staratelja i odsustva organskog oboljenja. Može, a ne mora, biti izražena i ruminacija (ponavljana regurgitacija bez muke ili gastrointestinalnog oboljenja).
+F98.2	inclusion	Ruminacija kod odojčeta
+F98.2	exclusion	anoreksija nervoza i drugi poremećaji ishraneF50.-
+F98.2	exclusion	hranjenje: teškoće i neuređena ishranaR63.3
+F98.2	exclusion	hranjenje: problemi kod novorođenčetaP92.-
+F98.2	exclusion	Pika u ranijem ili kasnijem djetinjstvuF98.3
+F98.3	preferred	Pika u ranijem ili kasnijem djetinjstvu
+F98.3	definition	Uporno jedenje supstanci koje nijesu za ishranu (kao što su zemlja, komadići okrunjene boje itd.). Može se javiti kao samo jedan od simptoma koji su dio šireg psihijatrijskog poremećaja (kao što je autizam), ili kao relativno izolovano psihopatološko ponašanje; samo se ovo poslednje klasifikuje ovdje. Pojava je najčešća kod mentalno zaostale djece i, ako je mentalna zaostalost prisutna, F70-F79 treba odabrati kao glavnu dijagnozu.
+F98.4	preferred	Poremećaji sterotipnih pokreta
+F98.4	definition	Voljni, ponavljani, stereotipni, nefunkcionalni (i često ritmički) pokreti, koji nijesu sastavni dio bilo kog poznatog psihijatrijskog ili neurološkog stanja. Kada se ovakvi pokreti pojave, kao simptom nekog drugog poremećaja, samo se glavni poremećaj bilježi. Pokreti koji nemaju karakter samopovređivanja uključuju: klaćenje tijela, klaćenje glave, čupanje kose, uvrtanje kose, učestalo pucketanje prstima i lepršanje rukama. Stereotipno samopovređujuće ponašanje obuhvata ponavljano udaranje glavom, šamaranje lica, bodenje očiju i griženje šaka, usana ili drugih djelova tijela. Svi poremećaji stereotipnih pokreta se najčešće sreću zajedno sa mentalnom zaostalošću. (kada je ovo slučaj, oba treba zabilježiti). Ako se pojavi bodenje očiju kod djeteta sa oštećenim vidom treba šifrirati oba poremećaja: bodenje očiju pod ovom kategorijom i stanje vida odgovarajućom šifrom somatskog poremećaja.
+F98.4	inclusion	Stereotipni poremećaj poremećaj navika
+F98.4	exclusion	nenormalni nevoljni pokretiR25.-
+F98.4	exclusion	poremećaji pokreta organskog porijeklaG20-G25
+F98.4	exclusion	Grickanje noktijuF98.8
+F98.4	exclusion	Čačkanje nosaF98.8
+F98.4	exclusion	steretipi koji su dio šireg psihijatrijskog poremećajaF00-F95
+F98.4	exclusion	Sisanje palcaF98.8
+F98.4	exclusion	tikoviF95.-
+F98.4	exclusion	trihotilomanijaF63.3
+F98.5	preferred	Mucanje
+F98.5	definition	Govor koji karakteriše često ponavljanje ili produžavanje glasova ili slogova ili riječi, ili česta oklijevanja ili pauze koje narušavaju ritmički tok govora. Treba ga klasifikovati kao poremećaj samo ako je toliko ozbiljan da značajno ometa tečnost govora.
+F98.5	exclusion	Eksplozivni govor sa prekidimaF98.6
+F98.5	exclusion	tikoviF95.-
+F98.6	preferred	Eksplozivni govor sa prekidima
+F98.6	definition	Ubrzan govor sa prekidima u tečnosti, ali bez ponavljanja ili oklijevanja u mjeri koja bi istakla smanjenu razumljivost govora. Govor je nestalan i disritmičan, sa naglim ubrzanjima što obično uključuje obrasce pogrešnog izražavanja .
+F98.6	exclusion	mucanjeF98.6
+F98.6	exclusion	tikoviF95.-
+F98.8	preferred	Drugi specifični poremećaji emocija i ponašanja sa početkom obično u djetinjstvu i adolescenciji
+F98.8	inclusion	Poremećaj deficita pažnje bez hiperaktivnosti
+F98.8	inclusion	Pretjerana mastrubacija
+F98.8	inclusion	Grickanje noktiju
+F98.8	inclusion	Čačkanje nosa
+F98.8	inclusion	Sisanje palca
+F98.9	preferred	Neoznačeni poremećaji emocija i ponašanja sa početkom obično u djetinjstvu i adolescenciji
+F99-F99	preferred	Neoznačeni mentalni poremećaj
+F99	preferred	Mentalni poremećaj, neoznačen na drugom mjestu
+F99	inclusion	mentalna bolest NOS
+F99	exclusion	organski mentalni poremećaj NOSF06.9

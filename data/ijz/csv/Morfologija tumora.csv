@@ -1,0 +1,880 @@
+M800	icd-o	Neoplazme NOS
+M8000/0	icd-o	Neoplazma, dobroćudna
+M8000/1	icd-o	Neoplazma, neizvjesno da li je dobroćudna ili zloćudna
+M8000/3	icd-o	Neoplazma zloćudna
+M8000/6	icd-o	Neoplazma, metastatska
+M8001/0	icd-o	Tumorske ćelije, dobroćudne
+M8001/1	icd-o	Tumorske ćelije, neizvjesno da li su dobroćudne ili zloćudne
+M8001/3	icd-o	Tumorske ćelije, zloćudne
+M8002/3	icd-o	Zloćudna neoplazma, malih ćelija
+M8003/3	icd-o	Zloćudna neoplazma, divovskih ćelija
+M8004/3	icd-o	Zloćudna neoplazma, vretenastih ćelija
+M801-M804	icd-o	Epitelijalne neoplazme NOS
+M8010/0	icd-o	Epitelijalni tumor, dobroćudan
+M8010/2	icd-o	Carcinoma in situ NOS
+M8010/3	icd-o	Karcinom NOS
+M8010/6	icd-o	Karcinom, metastatski NOS
+M8011/0	icd-o	Epiteliom, dobroćudan
+M8011/3	icd-o	Epiteliom, zloćudan
+M8012/3	icd-o	Karcinom velikih ćelija NOS
+M8020/3	icd-o	Karcinom, nediferenciran NOS
+M8021/3	icd-o	Karcinom, anaplastični NOS
+M8022/3	icd-o	Pleomorfni karcinom
+M8030/3	icd-o	Karcinom divovskih vretenastih ćelija
+M8031/3	icd-o	Karcinom divovskih ćelija
+M8032/3	icd-o	Karcinom vretenastih ćelija
+M8033/3	icd-o	Pseudosarkomatozni karcinom
+M8034/3	icd-o	Karcinom poligonalnih ćelija
+M8040/1	icd-o	Tumorlet
+M8041/3	icd-o	Karcinom sitnih ćelija NOS
+M8042/3	icd-o	Oat cell karcinom (C34.-)
+M8043/3	icd-o	Karcinom sitnih ćelija, vretenastog tipa (C34.-)
+M8044/3	icd-o	Karcinom sitnih ćelija, intermedijskog tipa (C34.-)
+M8045/3	icd-o	Karcinom malih-velikih ćelija (C34.-)
+M805-M808	icd-o	Neoplazme pločastih ćelija
+M8050/0	icd-o	Papilom NOS (osim papiloma mokraćne bešike M8120/1)
+M8050/2	icd-o	Papilarni karcinom in situ
+M8050/3	icd-o	Papilarni karcinom NOS
+M8051/0	icd-o	Verukozni papilom
+M8051/3	icd-o	Verukozni karcinom NOS
+M8052/0	icd-o	Papilom pločastih ćelija
+M8052/3	icd-o	Papilarni karcinom pločastih ćelija
+M8053/0	icd-o	Invertirani papilom
+M8060/0	icd-o	Papilomatoza NOS
+M8070/2	icd-o	Karcinom pločastih ćelija in situ NOS
+M8070/3	icd-o	Karcinom pločastih ćelija NOS
+M8070/6	icd-o	Karcinom pločastih ćelija, metastatski NOS
+M8071/3	icd-o	Karcinom pločastih ćelija s orožnjavanjem NOS
+M8072/3	icd-o	Karcinom pločastih ćelija, s velikim ćelijama bez orožnjavanja
+M8073/3	icd-o	Karcinom pločastih ćelija, s malim ćelijama bez orožnjavanja
+M8074/3	icd-o	Karcinom pločastih ćelija, s vretenastim ćelijama
+M8075/3	icd-o	Karcinom pločastih ćelija, adenoidni
+M8076/2	icd-o	Karcinom pločastih ćelija in situ s upitnom invazijom strome (D06.-)
+M8076/3	icd-o	Karcinom pločastih ćelija, mikroinvazivni (C53.-)
+M8077/2	icd-o	Intraepitelna neoplazija, stepen III, vrata materice, stidnice i rodnice
+M8080/2	icd-o	Queyratova eritroplazija (D07.4)
+M8081/2	icd-o	Bowenova bolest
+M8082/3	icd-o	Limfoepitelni karcinom
+M809-M811	icd-o	Neoplazme bazalnih ćelija
+M8090/1	icd-o	Tumor bazalnih ćelija (D48.5)
+M8090/3	icd-o	Karcinom bazalnih ćelija NOS (C44.-)
+M8091/3	icd-o	Multicentrični karcinom bazalnih ćelija (C44.-)
+M8092/3	icd-o	Karcinom bazalnih ćelija, morfoeja (C44.-)
+M8093/3	icd-o	Karcinom bazalnih ćelija, fibroepitelni (C44.-)
+M8094/3	icd-o	Karcinom bazalnopločastih ćelija (C44.-)
+M8095/3	icd-o	Metatipičan karcinom (C44.-)
+M8096/0	icd-o	Intraepidermalni epiteliom Jadassohn (D23.-)
+M8100/0	icd-o	Trihoepiteliom (D23.-)
+M8101/0	icd-o	Trihofolikulom (D23.-)
+M8102/0	icd-o	Triholemom (D23.-)
+M8110/0	icd-o	Pilomatriksom NOS (D23.-)
+M8110/3	icd-o	Pilomatriks karcinom (C44.-)
+M812-M813	icd-o	Papilomi i karcinomi prelaznih ćelija
+M8120/0	icd-o	Papilom prelaznih ćelija NOS
+M8120/1	icd-o	Papilom urotela
+M8120/2	icd-o	Karcinom prelaznih ćelija in situ
+M8120/3	icd-o	Karcinom prelaznih ćelija NOS
+M8121/0	icd-o	Schneiderov papilom
+M8121/1	icd-o	Papilom prelaznih ćelija, invertni
+M8121/3	icd-o	Schneiderov karcinom
+M8122/3	icd-o	Karcinom prelaznih ćelija, vretenaste ćelije
+M8123/3	icd-o	Bazaloidni karcinom (C21.1)
+M8124/3	icd-o	Kloakogeni karcinom (C21.2)
+M8130/3	icd-o	Papilarni karcinom prelaznih ćelija
+M814-M838	icd-o	Adenomi i adenokarcinomi
+M8140/0	icd-o	Adenom NOS
+M8140/1	icd-o	Bronhalni adenom (D38.1)
+M8140/2	icd-o	Adenokarcinom in situ NOS
+M8140/3	icd-o	Adenokarcinom NOS
+M8140/6	icd-o	Adenokarcinom, metastatski NOS
+M8141/3	icd-o	Scirozni adenokarcinom
+M8142/3	icd-o	Linitis plastica (C16.-)
+M8143/3	icd-o	Adenokarcinom s površinskim širenjem
+M8144/3	icd-o	Adenokarcinom, intestinalni tip (C16.-)
+M8145/3	icd-o	Karcinom, difuzni tip (C16.-)
+M8146/0	icd-o	Monomorfni adenom
+M8147/0	icd-o	Adenom bazalnih ćelija (D11.-)
+M8147/3	icd-o	Adenokarcinom bazalnih ćelija (C07.-, C08.-)
+M8150/0	icd-o	Adenom ćelija ostrvaca (D13.7)
+M8150/3	icd-o	Karcinom ćelija ostrvaca  (C25.4)
+M8151/0	icd-o	Insulinom NOS (D13.7)
+M8151/3	icd-o	Insulinom, maligni (C25.4)
+M8152/0	icd-o	Glukagonom NOS (D13.7)
+M8152/3	icd-o	Glucagonom, maligni (C25.4)
+M8153/1	icd-o	Gastrinom NOS
+M8153/3	icd-o	Gastrinom, maligni
+M8154/3	icd-o	Miješani adenokarcinom ćelija ostrvaca i egzokrinog dijela (C25.-)
+M8155/3	icd-o	Vipom
+M8160/0	icd-o	Adenom žućnih vodova (D13.4)
+M8160/3	icd-o	Holangiokarcinom (C22.1)
+M8161/0	icd-o	Cistadenom žučnih vodova
+M8161/3	icd-o	Cistadenokarcinom žučnih vodova
+M8162/3	icd-o	Klatskinov tumor (C22.1)
+M8170/0	icd-o	Adenom jetrenih ćelija (D13.4)
+M8170/3	icd-o	Hepatocelularni karcinom NOS (C22.0)
+M8171/3	icd-o	Hepatocelularni karcinom, fibrolamelarni (C22.0)
+M8180/3	icd-o	Kombinovani hepatocelularni karcinom i holangiokarcinom (C22.0)
+M8190/0	icd-o	Trabekularni adenom
+M8190/3	icd-o	Trabekularni adenokarcinom
+M8191/0	icd-o	Embrionalni adenom
+M8200/0	icd-o	Ekrini cilindrom kože (D23.-)
+M8200/3	icd-o	Adenoidno-cistični karcinom
+M8201/3	icd-o	Kribriformni karcinom
+M8202/0	icd-o	Mikrocistični adenom (D13.7)
+M8210/0	icd-o	Adenomatozni polip NOS
+M8210/2	icd-o	Adenokarcinom in situ u adenomatoznom polipu
+M8210/3	icd-o	Adenokarcinom u adenomatoznom polipu
+M8211/0	icd-o	Tubularni adenom NOS
+M8211/3	icd-o	Tubularni adenokarcinom
+M8220/0	icd-o	Adenomatozna polipoza crijeva (D12.-)
+M8220/3	icd-o	Adenokarcinom u adenomatoznoj polipozi crijeva (C18.-)
+M8221/0	icd-o	Multipli adenomatozni polipi
+M8221/3	icd-o	Adenokarcinom u multiplim adenomatoznim polipima
+M8230/3	icd-o	Solidni karcinom NOS
+M8231/3	icd-o	Jednostavni (simplex) karcinom
+M8240/1	icd-o	Karcinoidni tumor NOS, crvuljka (apendiksa) (D37.3)
+M8240/3	icd-o	Karcinoidni tumor (osim apendiksa M8240/1)
+M8241/1	icd-o	Karcinoidni tumor, argentafinom NOS
+M8241/3	icd-o	Karcinoidni tumor, zloćudni argentafinom
+M8243/3	icd-o	Karcinoid peharastih ćelija (C18.1)
+M8244/3	icd-o	Složeni karcinoid
+M8245/3	icd-o	Adenokarcinoidni tumor
+M8246/3	icd-o	Neuroendokrini karcinom
+M8247/3	icd-o	Karcinom Merkelovih ćelija (C44.-)
+M8248/1	icd-o	Apudom
+M8250/1	icd-o	Plućna adenomatoza (D38.1)
+M8250/3	icd-o	Bronhiolo-alveolarni adenokarcinom (C34.-)
+M8251/0	icd-o	Alveolarni adenom (D14.3)
+M8251/3	icd-o	Alveolarni adenokarcinom (C34.-)
+M8260/0	icd-o	Papilarni adenom NOS
+M8260/3	icd-o	Papilarni adenokarcinom NOS
+M8261/1	icd-o	Vilozni adenom NOS
+M8261/2	icd-o	Adenokarcinom in situ u viloznom adenomu
+M8261/3	icd-o	Adenokarcinom u viloznom adenomu
+M8262/3	icd-o	Vilozni adenokarcinom
+M8263/0	icd-o	Tubulovilozni adenom NOS
+M8263/2	icd-o	Adenokarcinom in situ u tubuloviloznom adenomu
+M8263/3	icd-o	Adenokarcinom u tubuloviloznom adenomu
+M8270/0	icd-o	Hromofobni adenom (D35.2)
+M8270/3	icd-o	Hromofobni karcinom (C75.1)
+M8271/0	icd-o	Prolaktinom (D35.2)
+M8280/0	icd-o	Acidofilni adenom (D35.2)
+M8280/3	icd-o	Acidofilni karcinom (C75.1)
+M8281/0	icd-o	Mješoviti acidofilno-bazofilni adenom (D35.2)
+M8281/3	icd-o	Mješoviti acidofilno-bazofilni karcinom (C75.1)
+M8290/0	icd-o	Oksifilni adenom
+M8290/3	icd-o	Oksifilni adenokarcinom
+M8300/0	icd-o	Bazofilni adenom (D35.2)
+M8300/3	icd-o	Bazofilni karcinom (C75.1)
+M8310/0	icd-o	Adenom svijetlih ćelija
+M8310/3	icd-o	Adenokarcinom svijetlih ćelija NOS
+M8311/1	icd-o	Hipernefroidni tumor
+M8312/3	icd-o	Karcinom bubrežnih ćelija (C64)
+M8313/0	icd-o	Adenofibrom svijetlih ćelija
+M8314/3	icd-o	Karcinom bogat lipidima (C50.-)
+M8315/3	icd-o	Karcinom bogat glikogenom (C50.-)
+M8320/3	icd-o	Karcinom granuliranih ćelija
+M8321/0	icd-o	Adenom glavnih ćelija (D35.1)
+M8322/0	icd-o	Adenom vodeno-svijetlih ćelija (D35.1)
+M8322/3	icd-o	Adenokarcinom vodeno-svijetlih ćelija (C75.0)
+M8323/0	icd-o	Adenom miješanih ćelija
+M8323/3	icd-o	Adenokarcinom miješanih ćelija
+M8324/0	icd-o	Lipoadenom
+M8330/0	icd-o	Folikularni adenom (D34)
+M8330/3	icd-o	Folikularni adenokarcinom NOS (C73)
+M8331/3	icd-o	Folikularni adenokarcinom, dobro diferenciran (C73)
+M8332/3	icd-o	Folikularni adeokarcinom, trabekularni (C73)
+M8333/0	icd-o	Mikrofolikularni adenom (D34)
+M8334/0	icd-o	Makrofolikularni adenom (D34)
+M8340/3	icd-o	Papilarni karcinom, folikularni oblik (C73)
+M8350/3	icd-o	Neučaureni sklerozirajući karcinom  (C73)
+M8360/1	icd-o	Multipli endokrini adenomi
+M8361/1	icd-o	Juktaglomerularni tumor (D41.0)
+M8370/0	icd-o	Adenom kore nadbubrežne žlijezde NOS (D35.0)
+M8370/3	icd-o	Karcinom kore nadbubrežne žlijezde NOS (C74.0)
+M8371/0	icd-o	Adenom kore nadbubrežne žlijezde, kompaktnih ćelija (D35.0)
+M8372/0	icd-o	Adenom kore nadbubrežne žlijezde, oblik s jakom pigmentacijom (D35.0)
+M8373/0	icd-o	Adenom kore nadbubrežne žlijezde, svijetlih ćelija (D35.0)
+M8374/0	icd-o	Adenom kore nadbubrežne žlijezde, glomeruloznih ćelija (D35.0)
+M8375/0	icd-o	Adenom kore nadbubrežne žlijezde, miješanih ćelija (D35.0)
+M8380/0	icd-o	Endometroidni adenom NOS (D27)
+M8380/1	icd-o	Endometroidni adenom, granične zloćudnosti (D39.1)
+M8380/3	icd-o	Endometroidni karcinom  (C56)
+M8381/0	icd-o	Endometroidni adenofibrom NOS (D27)
+M8381/1	icd-o	Endometroidni adenofibrom, granične zloćudnosti (D39.1)
+M8381/3	icd-o	Endometroidni adenofibrom, zloćudni (C56)
+M839-M842	icd-o	Neoplazme tvorevina kože
+M8390/0	icd-o	Adenom kožnih adneksa (D23.-)
+M8390/3	icd-o	Karcinom kožnih adneksa (C43.-)
+M8400/0	icd-o	Adenom znojnih žlijezda (D23.-)
+M8400/1	icd-o	Tumor znojnih žlijezda NOS (D48.5)
+M8400/3	icd-o	Adenokarcinom znojnih žlijezda (C44.-)
+M8401/0	icd-o	Adenom apokrinih žlijezda
+M8401/3	icd-o	Adenokarcinom apokrinih žlijezda
+M8402/0	icd-o	Akrospirom ekrinih žlijezda (D23.-)
+M8403/0	icd-o	Spiradenom ekrinih žlijezda (D23.-)
+M8404/0	icd-o	Hidrocistom (D23.-)
+M8405/0	icd-o	Papilarni hidradenom (D23.-)
+M8406/0	icd-o	Papilarni siringoadenom (D23.-)
+M8407/0	icd-o	Siringoma NOS (D23.-)
+M8408/0	icd-o	Ekrinpapilarni adenom (D23.-)
+M8410/0	icd-o	Adenom lojnih žlijezda (D23.-)
+M8410/3	icd-o	Adenokarcinom lojnih žlijezda (C44.-)
+M8420/0	icd-o	Adenom ceruminoznih žlijezda (D23.2)
+M8420/3	icd-o	Adenokarcinom ceruminoznih žlijezda (C44.2)
+M843	icd-o	Mukoepidermoidne neoplazme
+M8430/1	icd-o	Mukoepidermoidni tumor
+M8430/3	icd-o	Mukoepidermoidni karcinom
+M844-M849	icd-o	Cistične, mucinozne i serozne neoplazme
+M8440/0	icd-o	Cistadenom NOS
+M8440/3	icd-o	Cistadenokarcinom NOS
+M8441/0	icd-o	Serozni cistadenom NOS (D27)
+M8441/3	icd-o	Cistadenokarcinom NOS (C56)
+M8442/3	icd-o	Serozni cistadenom, granične zloćudnosti (C56)
+M8450/0	icd-o	Papilarni cistadenom NOS (D27)
+M8450/3	icd-o	Papilarni cistadenokarcinom NOS (C56)
+M8451/3	icd-o	Papilarni cistadenom, granične zloćudnosti (C56)
+M8452/1	icd-o	Papilarni cistični tumor (D37.7)
+M8460/0	icd-o	Papilarni serozni cistadenom NOS (D27)
+M8460/3	icd-o	Papilarni serozni cistadenokarcinom (C56)
+M8461/0	icd-o	Papilom seroznih površina (D27)
+M8461/3	icd-o	Papilarni karcinom seroznih površina (C56)
+M8462/3	icd-o	Papilarni serozni cistadenom, granične zloćudnosti (C56)
+M8470/0	icd-o	Mucinozni (sluzavi) cistadenom NOS (D27)
+M8470/3	icd-o	Mucinozni cistadenokarcinom NOS (C56)
+M8471/0	icd-o	Papilarni mucinozni cistadenom NOS (D27)
+M8471/3	icd-o	Papilarni mucinozni cistadenokarcinom (C56)
+M8472/3	icd-o	Mucinozni cistadenom, granične zloćudnosti (C56)
+M8473/3	icd-o	Papilarni mucinozni cistadenom, granične malignosti (C56)
+M8480/0	icd-o	Mucinozni adenom
+M8480/3	icd-o	Mucinozni adenokarcinom
+M8480/6	icd-o	Pseudomiksom peritoneuma (C78.6)
+M8481/3	icd-o	Adenokarcinom sa stvaranjem mucina
+M8490/3	icd-o	Karcinom ćelija prstena pečetnjaka
+M8490/6	icd-o	Metastatski karcinom ćelija prstena pečetnjaka
+M850-M854	icd-o	Duktalne, lobularne i medularne neoplazme
+M8500/2	icd-o	Intraduktalni karcinom, neinfiltrirajući NOS
+M8500/3	icd-o	Infiltrirajući duktalni karcinom (C50.-)
+M8501/2	icd-o	Komedokarcinom, neinfiltrirajući (D05.-)
+M8501/3	icd-o	Komedokarcinom NOS  (C50.-)
+M8502/3	icd-o	Juvenilni karcinom dojke (C50.-)
+M8503/0	icd-o	Intraduktalni papilom
+M8503/2	icd-o	Neinfiltrirajući intraduktalni papilarni adenokarcinom (D05.-)
+M8503/3	icd-o	Intraduktalni papilarni adenokarcinom s invazijom (C50.-)
+M8504/0	icd-o	Intracistični papilarni adenom
+M8504/2	icd-o	Neinfiltrirajući intracistični karcinom
+M8504/3	icd-o	Intracistični karcinom NOS
+M8505/0	icd-o	Intraduktalna papilomatoza NOS
+M8506/0	icd-o	Adenom bradavice (D24)
+M8510/3	icd-o	Medularni karcinom NOS
+M8511/3	icd-o	Medularni karcinom s amiloidnom stromom (C73.-)
+M8512/3	icd-o	Medularni karcinom s limfoidnom stromom (C50.-)
+M8520/2	icd-o	Lobularni karcinom in situ (D05.0)
+M8520/3	icd-o	Lobularni karcinom NOS (C50.-)
+M8521/3	icd-o	Infiltrirajući duktalni karcinom (C50.-)
+M8522/2	icd-o	Intraduktalni i lobularni karcinom in situ (D05.7)
+M8522/3	icd-o	infiltrirajući duktalni i lobularni karcinom (C50.-)
+M8530/3	icd-o	Upalni (inflamatorni) karcinom (C50.-)
+M8540/3	icd-o	Pagetova bolest dojke (C50.-)
+M8541/3	icd-o	Pagetova bolest i infiltrirajući duktalni karcinom dojke (C50.-)
+M8542/3	icd-o	Pagetova bolest, izvan dojke (osim Pagetove bolesti kosti)
+M8543/3	icd-o	Pagetova bolest i intraduktalni karcinom dojke (C50.-)
+M855	icd-o	Neoplazme acinarnih ćelija
+M8550/0	icd-o	Adenom acinarnih ćelija
+M8550/1	icd-o	Tumor acinarnih ćelija
+M8550/3	icd-o	Karcinom acinarnih ćelija
+M856-M858	icd-o	Složene epitelijalne neoplazme
+M8560/3	icd-o	Adenoskvamozni karcinom
+M8561/0	icd-o	Adenolimfom (D11.-)
+M8562/3	icd-o	Epitelno-mioepitelni karcinom
+M8570/3	icd-o	Adenokarcinom s pločastom metaplazijom
+M8571/3	icd-o	Adenokarcinom s hrskavičnom i koštanom metaplazijom
+M8572/3	icd-o	Adenokarcinom s metaplazijom vretenastih ćelija
+M8573/3	icd-o	Adenokarcinom s apokrinom metaplazijom
+M8580/0	icd-o	Timom, benigni (D15.0)
+M8580/3	icd-o	Timom, maligni (C37)
+M859-M867	icd-o	Posebni tumori polnih žlijezda
+M8590/1	icd-o	Tumor strome genitalne vrpce
+M8600/0	icd-o	Tekom NOS (D27)
+M8600/3	icd-o	Tekom, maligni (C56)
+M8601/0	icd-o	Tekom, luteinizirani (D27)
+M8602/0	icd-o	Sklerozirajući stromalni tumor (D27)
+M8610/0	icd-o	Luteom NOS (D27)
+M8620/1	icd-o	Tumor granuloza ćelija NOS (D39.1)
+M8620/3	icd-o	Tumor granuloza ćelija, maligni NOS (C56)
+M8621/1	icd-o	Tumor granuloza teka ćelija (D39.1)
+M8622/1	icd-o	Juvenilni tumor granuloza ćelija (D39.1)
+M8623/1	icd-o	Tumor genitalne vrpce s anularnim tubulima (D39.1)
+M8630/0	icd-o	Androblastom, benigni
+M8630/1	icd-o	Androblastom NOS
+M8630/3	icd-o	Androblastom, maligni
+M8631/0	icd-o	Tumor Sertoli-Leydigovih ćelija
+M8632/1	icd-o	Ginandroblastom (D39.1)
+M8640/0	icd-o	Tumor Sertolijevih ćelija, NOS
+M8640/3	icd-o	Karcinom Sertolijevih ćelija (C62.-)
+M8641/0	icd-o	Tumor Sertolijevih ćelija s lipidnim sadržajem (D27)
+M8650/0	icd-o	Tumor Leydigovih ćelija, benigni (D29.2)
+M8650/1	icd-o	Tumor Leydigovih ćelija, NOS (D40.1)
+M8650/3	icd-o	Tumor Leydigovih ćelija, maligni (C62.-)
+M8660/0	icd-o	Tumor hilusnih ćelija (D27)
+M8670/0	icd-o	Tumor lipidnih ćelija jajnika (D27)
+M8671/0	icd-o	Tumor ostataka nadbubrega
+M868-M871	icd-o	Paragangliomi i glomus tumori
+M8680/1	icd-o	Paragangliom NOS
+M8680/3	icd-o	Paragangliom, maligni
+M8681/1	icd-o	Paragangliom simpatikusa
+M8682/1	icd-o	Paragangliom parasimpatikusa
+M8683/0	icd-o	Gangliocitični paragangliom (D13.2)
+M8690/1	icd-o	Tumor jugularnoga glomusa (D44.7)
+M8691/1	icd-o	Tumor aortalnoga tjelašca (D44.7)
+M8692/1	icd-o	Tumor karotidnoga tjelašca (D44.6)
+M8693/1	icd-o	Paragangliom izvan nadbubrega, NOS
+M8693/3	icd-o	Paragangliom izvan nadbubrega, zloćudni
+M8700/0	icd-o	Feohromocitom, NOS (D35.0)
+M8700/3	icd-o	Feohromocitom, zloćudni (C74.1)
+M8710/3	icd-o	Glomangiosarkom
+M8711/0	icd-o	Glomusni tumor
+M8712/0	icd-o	Glomangiom
+M8713/0	icd-o	Glomangiomiom
+M872-M879	icd-o	Mladeži i melanomi
+M8720/0	icd-o	Pigmentirani mladež NOS (D22.-)
+M8720/2	icd-o	Melanom in situ (D03.-)
+M8720/3	icd-o	Maligni melanom NOS
+M8721/3	icd-o	Nodularni melanom (C43.-)
+M8722/0	icd-o	Mladež baloniranih ćelija (D22.-)
+M8722/3	icd-o	Melanom baloniranih ćelija (C43.-)
+M8723/0	icd-o	Halo nevus (D22.-)
+M8723/3	icd-o	Maligni melanom, u regresiji (C43.-)
+M8724/0	icd-o	Fibrozne papule nosa (D22.3)
+M8725/0	icd-o	Neuronevus (D22.-)
+M8726/0	icd-o	Mladež velikih ćelija (D31.4)
+M8727/0	icd-o	Displastični nevus (D22.-)
+M8730/0	icd-o	Nepigmentirani nevus (D22.-)
+M8730/3	icd-o	Amelanotični melanom (C43.-)
+M8740/0	icd-o	Junkcionalni nevus NOS (D22.-)
+M8740/3	icd-o	Maligni melanom u junkcionalnom nevusu (C43.-)
+M8741/2	icd-o	Prekarcinozna melanoza NOS  (D03.-)
+M8741/3	icd-o	Maligni melanom u prekarcinoznoj melanozi (C43.-)
+M8742/2	icd-o	Hutchinsonova melanotična pjega NOS (D03.-)
+M8742/3	icd-o	Maligni melanom u Hutchinsovoj melanotičnoj pjegi (C43.-)
+M8743/3	icd-o	Melanom s površinskim širenjem (C43.-)
+M8744/3	icd-o	Akralni lentiginozni melanom, maligni (C43.-)
+M8745/3	icd-o	Dezmoplastični melanom, zloćudni (C43.-)
+M8750/0	icd-o	Intradermalni nevus (D22.-)
+M8760/0	icd-o	Složeni mladež (D22.-)
+M8761/1	icd-o	Divovski pigmentirani mladež NOS (D22.-)
+M8761/3	icd-o	Maligni melanom u divovskom pigmentiranom mladežu (C43.-)
+M8770/0	icd-o	Nevus epiteloidnih vretenastih ćelija (D22.-)
+M8770/3	icd-o	Melanom miješanih epiteloidnih i vretenastih ćelija
+M8771/0	icd-o	Nevus epiteloidnih ćelija (D22.-)
+M8771/3	icd-o	Melanom epiteloidnih ćelija
+M8772/0	icd-o	Nevus vretenastih ćelija (D22.-)
+M8772/3	icd-o	Melanom vretenastih ćelija NOS
+M8773/3	icd-o	Melanom vretenastih ćelija tipa A (C69.4)
+M8774/3	icd-o	Melanom vretenastih ćelija tipa B (C69.4)
+M8780/0	icd-o	Plavi mladež NOS (D22.-)
+M8780/3	icd-o	Plavi mladež, zloćudni (C43.-)
+M8790/0	icd-o	Celularni plavi mladež (D22.-)
+M880	icd-o	Tumori mekih tkiva i sarkomi NOS
+M8800/0	icd-o	Tumor mekoga tkiva, benigni
+M8800/3	icd-o	Sarkom NOS
+M8800/6	icd-o	Sarkomatoza NOS
+M8801/3	icd-o	Sarkom vretenastih ćelija
+M8802/3	icd-o	Sarkom divovskih ćelija (osim koštani M9250/3)
+M8803/3	icd-o	Sitnoćelijski sarkom
+M8804/3	icd-o	Epiteloidni sarkom
+M881-M883	icd-o	Fibromatozne neoplazme
+M8810/0	icd-o	Fibrom NOS
+M8810/3	icd-o	Fibrosarkom NOS
+M8811/0	icd-o	Fibromiksom
+M8811/3	icd-o	Fibromiksosarkom
+M8812/0	icd-o	Periostalni fibrom (D16.-)
+M8812/3	icd-o	Periostalni fibrosarkom (C40.-, C41.-)
+M8813/0	icd-o	Fibrom fascije
+M8813/3	icd-o	Fibrosarkom farcije
+M8814/3	icd-o	Fibrosarkom infantilni
+M8820/0	icd-o	Elastofibrom
+M8821/1	icd-o	Agresivna fibromatoza
+M8822/1	icd-o	Abdominalna fibromatoza
+M8823/1	icd-o	Dezmoplastični fibrom
+M8824/1	icd-o	Miofibromatoza
+M8830/0	icd-o	Fibrozni histiocitom NOS
+M8830/1	icd-o	Atipični fibrozni histiocitom
+M8830/3	icd-o	Fibrozni histiocitom, zloćudni
+M8832/0	icd-o	Dermatofibrom NOS (D23.-)
+M8832/3	icd-o	Dermatofibrosarkom NOS (C44.-)
+M8833/3	icd-o	Pigmentirani dermatofibrosarkom protuberans
+M884	icd-o	Lipomatozne neoplazme
+M8840/0	icd-o	Miksom NOS
+M8840/3	icd-o	Miksosarkom
+M8841/1	icd-o	Angiomiksom
+M885-M888	icd-o	Lipomatozne neoplazme
+M8850/0	icd-o	Lipom NOS (D17.-)
+M8850/3	icd-o	Liposarkom NOS
+M8851/0	icd-o	Fibrolipom (D17.-)
+M8851/3	icd-o	Liposarkom, dobro diferenciran
+M8852/0	icd-o	Fibromiksolipom (D17.-)
+M8852/3	icd-o	Miksoidni liposarkom
+M8853/3	icd-o	Liposarkom okruglih ćelija
+M8854/0	icd-o	Pleomorfni lipom (D17.-)
+M8854/3	icd-o	Pleomorfni liposarkom
+M8855/3	icd-o	Mješoviti liposarkom
+M8856/0	icd-o	Intramuskularni lipom (D17.-)
+M8857/0	icd-o	Lipom vretenastih ćelija (D17.-)
+M8858/3	icd-o	Liposarkom dediferencirani
+M8860/0	icd-o	Angiomiolipom (D17.-)
+M8861/0	icd-o	Angiolipom NOS (D17.-)
+M8870/0	icd-o	Mijelolipom (D17.-)
+M8880/0	icd-o	Hibernom (D17.-)
+M8881/0	icd-o	Lipoblastomatoza (D17.-)
+M889-M892	icd-o	Miomatozne neoplazme
+M8890/0	icd-o	Lejomiom NOS
+M8890/1	icd-o	Lejomiomatoza NOS
+M8890/3	icd-o	Lejomiosarkom NOS
+M8891/0	icd-o	Epiteloidni lejomiom
+M8891/3	icd-o	Epiteloidni lejomiosarkom
+M8892/0	icd-o	Celularni lejomiom
+M8893/0	icd-o	Bizarni lejomiom
+M8894/0	icd-o	Angiomiom
+M8894/3	icd-o	Angiomiosarkom
+M8895/0	icd-o	Miom
+M8895/3	icd-o	Miosarkom
+M8896/3	icd-o	Lejomiosarkom miksoidni (sluzavi)
+M8897/1	icd-o	Tumor glatkih mišića NOS
+M8900/0	icd-o	Rabdomiom NOS
+M8900/3	icd-o	Rabdomiosarkom NOS
+M8901/3	icd-o	Pleomorfni rabdomiosarkom NOS
+M8902/3	icd-o	Rabdomiosarkom mješovitog tipa
+M8903/0	icd-o	Fetalni rabdomiom
+M8904/0	icd-o	Adultni rabdomiom
+M8910/3	icd-o	Embrionalni rabdomiosarkom
+M8920/3	icd-o	Alveolarni rabdomiosarkom
+M893-M899	icd-o	Mješoviti tumori i tumori strome
+M8930/0	icd-o	Endometrijalni stromalni čvor (D26.1)
+M8930/3	icd-o	Endometrijalni stromalni sarkom (C54.1)
+M8931/1	icd-o	Endolimfatična stromalna mioza (D39.0)
+M8932/0	icd-o	Adenomiom
+M8933/3	icd-o	Adenosarkom
+M8940/0	icd-o	Pleomorfni adenom
+M8940/3	icd-o	Miješani tumor, zloćudni NOS
+M8941/3	icd-o	Karcinom u pleomorfnom adenomu (C07.-, C08.-)
+M8950/3	icd-o	Miješani Müllerov tumor (C54.-)
+M8951/3	icd-o	Miješani mezodermalni tumor
+M8960/1	icd-o	Mezoblastični nefrom
+M8960/3	icd-o	Nefroblastom NOS (C64)
+M8963/3	icd-o	Rabdoidni sarkom
+M8964/3	icd-o	Svijetloćelijski sarkom bubrega (C64)
+M8970/3	icd-o	Hepatoblastom (C22.0)
+M8971/3	icd-o	Pankreatoblastom (C25.-)
+M8972/3	icd-o	Plućni blastom (C34.-)
+M8980/3	icd-o	Karcinosarkom NOS
+M8981/3	icd-o	Karcinosarkom, embrionalni
+M8982/0	icd-o	Mioepiteliom
+M8990/0	icd-o	Mezenhimom, benigni
+M8990/1	icd-o	Mezenhimom NOS
+M8990/3	icd-o	Mezenhimom, zloćudni
+M8991/3	icd-o	Embrionalni sarkom
+M900-M903	icd-o	Fibroepitelne neoplazme
+M9000/0	icd-o	Brennerov tumor NOS (D27)
+M9000/1	icd-o	Brennerov tumor, granične zloćudnosti (D39.1)
+M9000/3	icd-o	Brennerov tumor, zloćudni (C56)
+M9010/0	icd-o	Fibroadenom NOS (D24)
+M9011/0	icd-o	Intrakanalikularni fibroadenom  (D24)
+M9012/0	icd-o	Perikanalikularni fibroadenom (D24)
+M9013/0	icd-o	Adenofibrom NOS (D27)
+M9014/0	icd-o	Serozni adenofibrom (D27)
+M9015/0	icd-o	Mucinozni adenofibrom (D27)
+M9016/0	icd-o	Džinovski fibroadenom (D24)
+M9020/0	icd-o	Phylloides tumor, dobroćudni (D24)
+M9020/1	icd-o	Phylloides tumor NOS (D48.6)
+M9020/3	icd-o	Phylloides tumor, zloćudni (C50.-)
+M9030/0	icd-o	Juvenilni fibroadenom (D24)
+M904	icd-o	Tumori sinovija
+M9040/0	icd-o	Sinoviom, benigni
+M9040/3	icd-o	Sinovijalni sarkom NOS
+M9041/3	icd-o	Sinovijalni sarkom vretenastih ćelija
+M9042/3	icd-o	Sinovijalni sarkom epiteloidnih ćelija
+M9043/3	icd-o	Sinovijalni sarkom, bifazični
+M9044/3	icd-o	Sarkom svijetlih ćelija (osim bubrega M 8964/3)
+M905	icd-o	Mezotelne neoplazme
+M9050/0	icd-o	Mezoteliom, dobroćudni (D19.-)
+M9050/3	icd-o	Mezoteliom, zloćudni (D45.-)
+M9051/0	icd-o	Fibrozni mezoteliom, dobroćudni (D19.-)
+M9051/3	icd-o	Fibrozni mezoteliom, zloćudni (C45.-)
+M9052/0	icd-o	Epiteloidni mezoteliom, dobroćudni (D19.-)
+M9052/3	icd-o	Epiteloidni mezoteliom, zloćudni (C45.-)
+M9053/0	icd-o	Mezoteliom, bifazični, dobroćudni (D19.-)
+M9053/3	icd-o	Mezoteliom, bifazični, zloćudni (C45.-)
+M9054/0	icd-o	Adenomatoidni tumor NOS (D19.-)
+M9055/1	icd-o	Cistični mezoteliom
+M906-M909	icd-o	Neoplazme zametnih ćelija
+M9060/3	icd-o	Disgerminom
+M9061/3	icd-o	Seminom NOS (C62.-)
+M9062/3	icd-o	Seminom, anaplastični (C62.-)
+M9063/3	icd-o	Spermatocitni seminom (C62.-)
+M9064/3	icd-o	Germinom
+M9070/3	icd-o	Embrionalni karcinom NOS
+M9071/3	icd-o	Endodermalni sinus tumor
+M9072/3	icd-o	Poliembriom
+M9073/1	icd-o	Gonadoblastom
+M9080/0	icd-o	Teratom, dobroćudni
+M9080/1	icd-o	Teratom, NOS
+M9080/3	icd-o	Teratom, zloćudni NOS
+M9081/3	icd-o	Teratokarcinom
+M9082/3	icd-o	Maligni teratom, nediferenciran
+M9083/3	icd-o	Maligni teratom, intermedijarni
+M9084/0	icd-o	Dermoidna cista NOS
+M9084/3	icd-o	Teratom sa zloćudnom transformacijom
+M9085/3	icd-o	Miješani tumor zametnih ćelija
+M9090/0	icd-o	Struma jajnika NOS (D27)
+M9090/3	icd-o	Struma jajnika, zloćudna (C56)
+M9091/1	icd-o	Strumalni karcinoid (D39.1)
+M910	icd-o	Neoplazme trofoblasta
+M9100/0	icd-o	Hidatiformna mola NOS (O01.9)
+M9100/1	icd-o	Invazivna hidatiformna mola (D39.2)
+M9100/3	icd-o	Horiokarcinom NOS
+M9101/3	icd-o	Horiokarcinom kombinovan s ostalim elementima zametnih ćelija
+M9102/3	icd-o	Maligni teratom, trofoblastični (C62.-)
+M9103/0	icd-o	Parcijalna hidatiformna mola (O01.1)
+M9104/1	icd-o	Trofoblastični tumor ležišta posteljice (D39.2)
+M911	icd-o	Mezonefromi
+M9110/0	icd-o	Mezonefrom, dobroćudni
+M9110/1	icd-o	Mezonefrički tumor
+M9110/3	icd-o	Mezonefrom, zloćudni
+M912-M916	icd-o	Tumori krvnih sudova
+M9120/0	icd-o	Hemangiom NOS (D18.0)
+M9120/3	icd-o	Hemangiosarkom
+M9121/0	icd-o	Kavernozni hemangiom (D18.0)
+M9122/0	icd-o	Venski hemangiom (D18.0)
+M9123/0	icd-o	Racemozni hemangiom (D18.0
+M9124/3	icd-o	Sarkom Kupfferovih ćelija (C22.0)
+M9125/0	icd-o	Epiteloidni hemangiom (D18.0)
+M9126/0	icd-o	Histiocitoidni hemangiom (D18.0)
+M9130/0	icd-o	Hemangioendoteliom, benigni (D18.0)
+M9130/1	icd-o	Hemangioendoteliom, NOS
+M9130/3	icd-o	Hemangioendoteliom, zloćudni
+M9131/0	icd-o	Kapilarni hemangiom (D18.0)
+M9132/0	icd-o	Intramuskularni hemangiom (D18.0)
+M9133/1	icd-o	Epiteloidni hemangioendoteliom NOS
+M9133/3	icd-o	Epiteloidni hemangioendoteliom, zloćudni
+M9134/1	icd-o	Intravaskularni bronhalni alveolarni tumor (D38.1)
+M9140/3	icd-o	Kaposijev sarkom (C46.-)
+M9141/0	icd-o	Angiokeratom (D18.0)
+M9142/0	icd-o	Verukozni keratotični hemangiom (D18.0)
+M9150/0	icd-o	Hemangiopericitom, dobroćudni (D18.0)
+M9150/1	icd-o	Hemangiopericitom, NOS
+M9150/3	icd-o	Hemangiopericitom, zloćudni
+M9160/0	icd-o	Angiofibrom NOS (D18.0)
+M9161/1	icd-o	Hemangioblastom
+M917	icd-o	Tumori limfnih sudova
+M9170/0	icd-o	Limfangiom NOS (D18.1)
+M9170/3	icd-o	Limfangiosarkom
+M9171/0	icd-o	Kapilarni limfangiom (D18.1)
+M9172/0	icd-o	Kavernozni limfangiom (D18.1)
+M9173/0	icd-o	Cistični limfangiom (D18.1)
+M9174/0	icd-o	Limfangiomiom (D18.1)
+M9174/1	icd-o	Limfangiomiomatoza
+M9175/0	icd-o	Hemolimfangiom (D18.1)
+M918-M924	icd-o	Neoplazme kosti i hrskavice
+M9180/0	icd-o	Osteom NOS (D16.-)
+M9180/3	icd-o	Osteosarkom NOS (C40.-, C41.-)
+M9181/3	icd-o	Hondroblastični osteosarkom (C40.-, C41.-)
+M9182/3	icd-o	Fibroblastični osteosarkom (C40.-, C41.-)
+M9183/3	icd-o	Teleangiektatični osteosarkom (C40.-, C41.-)
+M9184/3	icd-o	Osteosarkom u Pagetovoj bolesti kostiju (C40.-, C41.-)
+M9185/3	icd-o	Osteosarkom malih ćelija (C40.-, C41.-)
+M9190/3	icd-o	Jukstakortikalni osteosarkom (C40.-, C41.-)
+M9191/0	icd-o	Osteoidni osteom NOS (D16.-)
+M9200/0	icd-o	Osteoblastom NOS (D16.-)
+M9200/1	icd-o	Agresivni osteoblastom (D48.0)
+M9210/0	icd-o	Osteohondrom (D16.-)
+M9210/1	icd-o	Osteohondromatoza NOS (D48.0)
+M9220/0	icd-o	Hondrom NOS (D16.-)
+M9220/1	icd-o	Hondromatoza NOS
+M9220/3	icd-o	Hondrosarkom NOS (C40.-, C41.-)
+M9221/0	icd-o	Jukstakortikalni hondrom (D16.-)
+M9221/3	icd-o	Jukstakortikalni hondrosarkom (C40.-, C41.-)
+M9230/0	icd-o	Hondroblastom NOS (D16.-)
+M9230/3	icd-o	Hondroblastom, zloćudni (C40.-, C41.-)
+M9231/3	icd-o	Miksoidni hondrosarkom
+M9240/3	icd-o	Mezenhimalni hondrosarkom
+M9241/0	icd-o	Hondromiksoidni fibrom (D16.-)
+M925	icd-o	Tumori džinovskih ćelija
+M9250/1	icd-o	Gigantocelularni tumor kosti NOS (D48.0)
+M9250/3	icd-o	Gigantocelularni tumor kosti, zloćudni (C40.-,C41.-)
+M9251/1	icd-o	Tumor džinovskih ćelija mekih djelova, NOS
+M9251/3	icd-o	Zloćudni tumor džinovskih ćelija mekih djelova
+M926	icd-o	Razni/ostali tumori kosti
+M9260/3	icd-o	Ewingov sarkom (C40.-, C41.-)
+M9261/3	icd-o	Adamantinom dugačkih kosti (C40.-, C41.-)
+M9262/0	icd-o	Osificirajući fibrom (D16.-)
+M927-M934	icd-o	Odontogeni tumori
+M9270/0	icd-o	Odontogeni tumor, dobroćudni (D16.4, D16.5)
+M9270/1	icd-o	Odontogeni tumor, NOS (D48.0)
+M9270/3	icd-o	Odontogeni tumor, zloćudni (C41.0, C41.1)
+M9271/0	icd-o	Dentinom (D16.4, D16.5)
+M9272/0	icd-o	Cementom NOS (D16.4, D16.5)
+M9273/0	icd-o	Cementoblastom, dobroćudni (D16.4, D16.5)
+M9274/0	icd-o	Cementirajući fibrom (D16.4, D16.5)
+M9275/0	icd-o	Gigantiformni cementom (D16.4, D16.5)
+M9280/0	icd-o	Odontom NOS (D16.4, D16.5)
+M9281/0	icd-o	Složeni odontom (D16.4, D16.5)
+M9282/0	icd-o	Kompleksni odontom (D16.4, D16.5)
+M9290/0	icd-o	Ameloblastični fibroodontom (D16.4, D16.5)
+M9290/3	icd-o	Ameloblastični odontosarkom (C41.0, C41.1)
+M9300/0	icd-o	Adenomatoidni odontogeni tumor (D16.4, D16.5)
+M9301/0	icd-o	Kalcificirajuća odontogena cista
+M9302/0	icd-o	Odontogeni "ghost cell" tumor
+M9310/0	icd-o	Ameloblastom NOS (D16.4, D16.5)
+M9310/3	icd-o	Ameloblastom, zloćudni (C41.0, C41.1)
+M9311/0	icd-o	Odontoameloblastom (D16.4, D16.5)
+M9312/0	icd-o	Odontogeni tumor pločastih ćelija (D16.4, D16.5)
+M9320/0	icd-o	Odontogeni miksom (D16.4, D16.5)
+M9321/0	icd-o	Centralni odontogeni fibrom (D16.4, D16.5)
+M9322/0	icd-o	Periferni odontogeni fibrom (D16.4, D16.5)
+M9330/0	icd-o	Ameloblastični fibrom (D16.4, D16.5)
+M9330/3	icd-o	Ameloblastični fibrosarkom (C41.0, C41.1)
+M9340/0	icd-o	Kalcificirajući epitelni odontogeni tumor (D16.4, D16.5)
+M935-M937	icd-o	Razni tumori
+M9350/1	icd-o	Kraniofaringeom (D44.3,D44.4)
+M9360/1	icd-o	Pinealom (D44.5)
+M9361/1	icd-o	Pineocitom (D44.5)
+M9362/3	icd-o	Pineoblastom (C75.3)
+M9363/0	icd-o	Melanotični neuroektodermalni tumor
+M9364/3	icd-o	Periferni neuroektodermalni tumor
+M9370/3	icd-o	Hordom
+M938-M948	icd-o	Gliomi
+M9380/3	icd-o	Gliom, zloćudni (C71.-)
+M9381/3	icd-o	Gliomatoza mozga (C71.-)
+M9382/3	icd-o	Miješani gliom (C71.-)
+M9383/1	icd-o	Subependimalni gliom (D43.-)
+M9384/1	icd-o	Subependinalni astrocitom džinovskih ćelija (D43)
+M9390/0	icd-o	Papilom horioidnog pleksusa NOS (D33.0)
+M9390/3	icd-o	Papilom horioidnog pleksusa zloćudni (C71.5)
+M9391/3	icd-o	Ependimom NOS (C71.-)
+M9392/3	icd-o	Ependimom anaplastični (C71.-)
+M9393/1	icd-o	Papilarni ependimom (D43.-)
+M9394/1	icd-o	Miksopapilarni ependimom (D43.-)
+M9400/3	icd-o	Astrocitom NOS (C71.-)
+M9401/3	icd-o	Astrocitom anaplastični (C71.-)
+M9410/3	icd-o	Protoplazmatski astrocitom (C71.-)
+M9411/3	icd-o	Gemistocitni astrocitom (C71.-)
+M9420/3	icd-o	Fibrilarni astrocitom (C71.-)
+M9421/3	icd-o	Pilocitni astrocitom (C71.-)
+M9422/3	icd-o	Spongioblastom NOS (C71.-)
+M9423/3	icd-o	Spongioblastom polarni (C71.-)
+M9424/3	icd-o	Pleomorfni ksantoastrocitom (C71.-)
+M9430/3	icd-o	Astroblastom (C71.-)
+M9440/3	icd-o	Glioblastom NOS (C71.-)
+M9441/3	icd-o	Glioblastom džinovskih ćelija (C71.-)
+M9442/3	icd-o	Gliosarkom (C71.-)
+M9443/3	icd-o	Spongioblastom primitivni polarni (C71.-)
+M9450/3	icd-o	Oligodendrogliom NOS (C71.-)
+M9451/3	icd-o	Oligodendrogliom, anaplastični (C71.-)
+M9460/3	icd-o	Oligodendroblastom (C71.-)
+M9470/3	icd-o	Meduloblastom NOS (C71.6)
+M9471/3	icd-o	Dezmoplastični meduloblastom (C71.6)
+M9472/3	icd-o	Medulomioblastom (C71.6)
+M9473/3	icd-o	Primitivni neuroektodermalni tumor (C71.-)
+M9480/3	icd-o	Cerebelarni sarkom NOS (C71.6)
+M9481/3	icd-o	Monstrocelularni sarkom (C71.-)
+M949-M952	icd-o	Tumori nervnog i epiteloidnog tkiva
+M9490/0	icd-o	Ganglioneurom
+M9490/3	icd-o	Ganglioneuroblastom
+M9491/0	icd-o	Ganglioneuromatoza
+M9500/3	icd-o	Neuroblastom NOS
+M9501/3	icd-o	Meduloepiteliom NOS
+M9502/3	icd-o	Teratoidni meduloepiteliom
+M9503/3	icd-o	Neuroepiteliom NOS
+M9504/3	icd-o	Spongioneuroblastom
+M9505/1	icd-o	Gangliogliom
+M9506/0	icd-o	Neurocitom
+M9507/0	icd-o	Tumor Pacinijevih tjelašaca
+M9510/3	icd-o	Retinoblastom NOS (C69.2)
+M9511/3	icd-o	Retinoblastom, diferencirani (C69.2)
+M9512/3	icd-o	Retinoblastom, nediferencirani (C69.2)
+M9520/3	icd-o	Olfaktorni neurogeni tumor
+M9521/3	icd-o	Estezioneurocitom (C30.0)
+M9522/3	icd-o	Estezioneuroblastom (C30.0)
+M9523/3	icd-o	Estezioneuroepiteliom
+M953	icd-o	Meningeomi
+M9530/0	icd-o	Meningeom NOS (D32.-)
+M9530/1	icd-o	Meningeomatoza (D42.-)
+M9530/3	icd-o	Meningeom, zloćudni (C70.-)
+M9531/0	icd-o	Meningoteliomatozni menigeom (D32.-)
+M9532/0	icd-o	Fibrozni meningeom (D32.-)
+M9533/0	icd-o	Psamomatozni meningeom (D32.-)
+M9534/0	icd-o	Angiomatozni meningeom (D32.-)
+M9535/0	icd-o	Hemangioblastični meningeom (D32.-)
+M9536/0	icd-o	Hemangiopericitični meningeom (D32.-)
+M9537/0	icd-o	Meningeom prelaznog tipa (D32.-)
+M9538/1	icd-o	Papilarni meningeom (D42.-)
+M9539/3	icd-o	Meningealna sarkomatoza (C70.-)
+M954-M957	icd-o	Tumori  nervnih opni
+M9540/0	icd-o	Neurofibrom NOS
+M9540/1	icd-o	Neurofibromatoza NOS (Q85.0)
+M9540/3	icd-o	Neurofibrosarkom
+M9541/0	icd-o	Melanotični neurofibrom
+M9550/0	icd-o	Pleksiformni neurofibrom
+M9560/0	icd-o	Neurilemom NOS
+M9560/1	icd-o	Neurinomatoza
+M9560/3	icd-o	Neurilemom, zloćudni
+M9561/3	icd-o	Triton tumor, zloćudni
+M9562/0	icd-o	Neurotekom
+M9570/0	icd-o	Neurom NOS
+M958	icd-o	Tumori granuliranih ćelija i alveolarni sarkom mekih djelova
+M9580/0	icd-o	Tumor granuliranih ćelija NOS
+M9580/3	icd-o	Tumor granuliranih ćelija, zloćudni
+M9581/3	icd-o	Alveolarni sarkom mekih djelova
+M959-M971	icd-o	Hodgkin i ne-Hodgkin limfomi
+M959	icd-o	Zloćudni limfomi NOS ili difuzni (C85.9)
+M9590/3	icd-o	Zloćudni limfom NOS
+M9591/3	icd-o	Zloćudni limfom, non-Hodgkin NOS (C85.9)
+M9592/3	icd-o	Limfosarkom NOS (C85.0)
+M9593/3	icd-o	Retikulosarkom NOS (C83.9)
+M9594/3	icd-o	Mikrogliom (C85.7)
+M9595/3	icd-o	Zloćudni limfom, difuzni NOS (C83.9)
+M965-M966	icd-o	Hodgkinova bolest
+M9650/3	icd-o	Hodgkinova bolest NOS (C81.9)
+M9652/3	icd-o	Hodgkinova bolest, mješovita celularnost NOS (C81.2)
+M9653/3	icd-o	Hodgiknova bolest, limfocitna deplecija (C81.3)
+M9654/3	icd-o	Hodgkinova bolest, limfocitna, deplecija, difuzna fibroza (C81.3)
+M9655/3	icd-o	Hodgkinova bolest, limfocitna deplecija, retikularna (C81.3)
+M9657/3	icd-o	Hodgkinova bolest, limfocitna predominacija NOS (C81.0)
+M9658/3	icd-o	Hodgikonva bolest, limfocitna predominacija, difuzna (C81.0)
+M9659/3	icd-o	Hodgkinova bolest, limfocitna predominacija, nodularna (C81.0)
+M9660/3	icd-o	Hodgkinov paragranulom NOS (C81.7)
+M9661/3	icd-o	Hodgkinov granulom (C81.7)
+M9662/3	icd-o	Hodgkinov sarkom (C81.7)
+M9663/3	icd-o	Hodgkinova bolest, nodularna skleroza NOS (C81.1)
+M9664/3	icd-o	Hodgkinova bolest, nodularna skleroza, celularna faza (C81.1)
+M9665/3	icd-o	Hodgkinova bolest, nodularna skleroza, limfocitna predominacija (C81.1)
+M9666/3	icd-o	Hodgkinova bolest, nodularna skleroza, mješovita celularnost (C81.1)
+M9667/3	icd-o	Hodgkinova bolest, nodularna skleroza, limfocitna deplecija (C81.1)
+M967-M968	icd-o	Zloćudni (non Hodgkin) limfomi, difuzni ili NOS, određenog tipa
+M9670/3	icd-o	Zloćudni (non Hodgkin) limfom malih limfocita NOS (C83.0)
+M9671/3	icd-o	Zloćudni (non Hodgkin) limfom, limfoplazmacitni (C83.8)
+M9672/3	icd-o	Zloćudni (non Hodgkin) limfom malih usječenih ćelija, difuzni (C83.1)
+M9673/3	icd-o	Zloćudni (non Hodgkin)limfom, limfocitni srednje diferenciranosti, difuzni (C83.8)
+M9674/3	icd-o	Zloćudni (non Hodgkin) limfom, centrocitni (C83.8)
+M9675/3	icd-o	Zloćudni (non Hodgkin)limfom, miješanih malih i velikih ćelija, difuzni (C83.2)
+M9676/3	icd-o	Zloćudni (non Hodgkin) limfom, centroblastno-centrocitni, difuzni (C83.8)
+M9677/3	icd-o	Zloćudna limfomatozna polipoza (C83.8)
+M9680/3	icd-o	Zloćudni (non Hodgkin) limfom, velikih ćelija, difuzni (C83.3)
+M9681/3	icd-o	Zloćudni (non Hodgkin) limfom velikih, usječenih ćelija, difuzni (C83.3)
+M9682/3	icd-o	Zloćudni (non Hodgkin) limfom velikih, neusječenih ćelija, difuzni (C83.3)
+M9683/3	icd-o	Zloćudni (non Hodgkin) limfom, centroblastni, difuzni (C83.8)
+M9684/3	icd-o	Zloćudni (non Hodgkin) limfom, imunoblastni NOS (C83.4)
+M9685/3	icd-o	Zloćudni (non Hodgkin) limfom, limfoblastni (C83.5)
+M9686/3	icd-o	Zloćudni (non Hodgkin) limfom, malih neusječenih ćelija, difuzni
+M9687/3	icd-o	Burkittov limfom NOS (C83.7)
+M969	icd-o	Zloćudni (non Hodgkin) limfom, folikularni ili nodularni, sa ili bez difuznih područja
+M9690/3	icd-o	Zloćudni (non Hodgkin) limfom, folikularni NOS (C82.9)
+M9691/3	icd-o	Zloćudni (non Hodgkin) limfom, miješanih malih usječenih i velikih ćelija, folikularni (C82.1)
+M9692/3	icd-o	Zloćudni limfom, centroblastno-centrocitni, folikularni (C82.7)
+M9693/3	icd-o	Zloćudni (non Hodgkin) limfom, limfocitni, dobro diferenciran nodularni (C82.7)
+M9694/3	icd-o	Zloćudni (non Hodgkin) limfom, limfocitni, srednje diferenciran, nodularni (C82.7)
+M9695/3	icd-o	Zloćudni (non Hodgkin) limfom, malih usječenih ćelija, folikularni (C82.0)
+M9696/3	icd-o	Zloćudni (non Hodgkin) limfom, limfocitni, slabo diferenciran, nodularni (C82.7)
+M9697/3	icd-o	Zloćudni (non Hodgkin) limfom, centroblastni, folikularni (C82.7)
+M9698/3	icd-o	Zloćudni (non Hodgkin) (non Hodgkin) limfom, velikih ćelija, folikularni NOS (C82.2)
+M970	icd-o	Specifični kožni i limfomi perifernih T limfocita
+M9700/3	icd-o	Mikozis fungoides (C84.0)
+M9701/3	icd-o	Sezarijeva bolest (C84.1)
+M9702/3	icd-o	Periferni T-ćelijski limfom NOS (C84.4)
+M9703/3	icd-o	Limfom zone-T (C84.2)
+M9704/3	icd-o	Limfoepiteloidni limfom (C84.3)
+M9705/3	icd-o	Periferni T-ćelijski limfom, AILD  (angioimunoblastna limfadenopatija s disproteinemijom) (C84.4)
+M9706/3	icd-o	Periferni T-ćelijski limfom, pleomorfnih malih ćelija (C84.4)
+M9707/3	icd-o	Periferni T-ćelijski limfom pleomorfnih srednjih i velikih ćelija (C84.4)
+M9709/3	icd-o	Limfom kože (C84.5)
+M971	icd-o	Drugi specifičnim ne Hodgkin limfomi
+M9711/3	icd-o	Monocitoidni B-ćelijski limfom (C85.7)
+M9712/3	icd-o	Angioendoteliomatoza (C85.7)
+M9713/3	icd-o	Angiocentrični T-ćelijski limfom (C85.7)
+M9714/3	icd-o	Limfom krupnoćelijski (Ki-1+) (C85.7)
+M972	icd-o	Druge limforetikularne neoplazme
+M9720/3	icd-o	Zloćudna histiocitoza (C96.1)
+M9722/3	icd-o	Letterer-Siweova bolest (C96.0)
+M9723/3	icd-o	Pravi histiocitni limfom (C96.3)
+M973	icd-o	Tumori plazmocita
+M9731/3	icd-o	Plasmacitom NOS (C90.2)
+M9732/3	icd-o	Multipli mijelom (C90.0)
+M974	icd-o	Tumori mastocita
+M9740/1	icd-o	Mastocitom NOS (D47.0)
+M9740/3	icd-o	Sarkom mastocita (C96.2)
+M9741/3	icd-o	Zloćudna mastocitoza (C96.2)
+M976	icd-o	Imunoproloferativne bolesti
+M9760/3	icd-o	Imunoproliferativna bolest NOS (C88.9)
+M9761/3	icd-o	Waldenströmova makroglobulinemija (C88.0)
+M9762/3	icd-o	Bolest alfa teških lanaca (C88.1)
+M9763/3	icd-o	Bolest gama teških lanaca (C88.2)
+M9764/3	icd-o	Imunoproliferativna bolest tankoga crijeva (C88.3)
+M9765/1	icd-o	Monoklonalna gamopatija (D47.2)
+M9766/1	icd-o	Angiocentrična imunoproliferativna lezija (D47.2)
+M9767/1	icd-o	Angioimunoblastna limfadenopatija (D47.7)
+M9768/1	icd-o	T-gama limfoproliferativna bolest (D47.7)
+M980-M994	icd-o	Leukemije
+M980	icd-o	Leukemije NOS
+M9800/3	icd-o	Leukemija NOS (C95.9)
+M9801/3	icd-o	Akutna leukemija NOS (C95.0)
+M9802/3	icd-o	Subakutna leukemija NOS (C95.2)
+M9803/3	icd-o	Hronična leukemija NOS (C95.1)
+M9804/3	icd-o	Aleukemična leukemija NOS (C95.7)
+M982	icd-o	Limfoidne leukemije
+M9820/3	icd-o	Limfoidna leukemija NOS (C91.9)
+M9821/3	icd-o	Akutna limfoblastna leukemija NOS (C91.0)
+M9822/3	icd-o	Subakutna limfoidna leukemija (C91.2)
+M9823/3	icd-o	Hronična limfocitna leukemija (C91.1)
+M9824/3	icd-o	Aleukemična limfoidna leukemija (C91.7)
+M9825/3	icd-o	Prolimfocitna leukemija (C91.3)
+M9826/3	icd-o	Leukemija Burkittovih ćelija (C91.7)
+M9827/3	icd-o	Adultna T-ćelijska leukemija/limfom (C91.5)
+M983	icd-o	Plazmocitna leukemija 
+M9830/3	icd-o	Plazmocitna leukemija (C90.1)
+M984	icd-o	Eritroleukemije
+M9840/3	icd-o	Eritroleukemija (C94.0)
+M9841/3	icd-o	Akutna eritremija (C94.0)
+M9842/3	icd-o	Hronična eritremija (C94.1)
+M985	icd-o	Leukemija limfosarkomatoznih ćelija
+M9850/3	icd-o	Leukemija limfosarkomatoznih ćelija (C94.7)
+M986	icd-o	Mijeloidne (granulocitne) leukemije
+M9860/3	icd-o	Mijeloidna  leukemija NOS (C92.9)
+M9861/3	icd-o	Akutna mijeloidna leukemija (C92.0)
+M9862/3	icd-o	Subakutna mijeloidna leukemija (C92.2)
+M9863/3	icd-o	Hronična mijeloidna leukemija (C92.1)
+M9864/3	icd-o	Aleukemična mijeloidna leukemija (C92.7)
+M9866/3	icd-o	Akutna promijelocitna leukemija (C92.4)
+M9867/3	icd-o	Akutna mijelomonocitna leukemija (C92.5)
+M9868/3	icd-o	Hronična mijelomonocitna leukemija (C92.7)
+M987	icd-o	Bazofilna leukemija
+M9870/3	icd-o	Bazofilna leukemija (C94.7)
+M988	icd-o	Eozinofilna leukemija
+M9880/3	icd-o	Eozinofilna leukemija (C94.7)
+M989	icd-o	Monocitne leukemije
+M9890/3	icd-o	Monocitna leukemija NOS (C93.9)
+M9891/3	icd-o	Akutna monocitna leukemija (C93.0)
+M9892/3	icd-o	Subakutna monocitna leukemija (C93.2)
+M9893/3	icd-o	Hronična monocitna leukemija (C93.1)
+M9894/3	icd-o	Aleukemična monocitna leukemija (C93.7)
+M990-M994	icd-o	Ostale leukemije
+M9900/3	icd-o	Mastocitna leukemija (C94.3)
+M9910/3	icd-o	Akutna megakarioblastna leukemija (C94.2)
+M9930/3	icd-o	Mijeloidni sarkom (C92.3)
+M9931/3	icd-o	Akutna panmijeloza (C94.4)
+M9932/3	icd-o	Akutna mijelofibroza (C94.5)
+M9940/3	icd-o	"Hairy cell" leukemija (triholeukemija) (C91.4)
+M9941/3	icd-o	Leukemijska retikuloendotelioza (C91.4)
+M995-M997	icd-o	Razni mijeloproliferativni i limfoproliferativni poremećaji
+M9950/1	icd-o	Policitemija vera (D45)
+M9960/1	icd-o	Kronična mijeloproliferativna bolest (D47.1)
+M9961/1	icd-o	Mijeloskleroza s mijeloidnom metaplazijom (D47.1)
+M9962/1	icd-o	Idiopatska trombocitemija (D47.3)
+M9970/1	icd-o	Limfoproliferativna bolest NOS (D47.9)
+M998	icd-o	Mijelodisplastički sindrom
+M9980/1	icd-o	Refraktorna anemija NOS (D46.4)
+M9981/1	icd-o	Refraktorna anemija bez sideroblasta (D46.0)
+M9982/1	icd-o	Refraktorna anemija sa sideroblastima (D46.1)
+M9983/1	icd-o	Refraktorna anemija s viškom blasta (D46.2)
+M9984/1	icd-o	Refraktorna anemija s viškom blasta u transformaciji (D46.3)
+M9989/1	icd-o	Mijelodisplastički sindrom NOS (D46.9)

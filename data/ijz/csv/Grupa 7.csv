@@ -1,0 +1,797 @@
+VII	preferred	Bolesti oka i adneksa ( pripoja !!!!!)oka
+VII	exclusion	Stanja u porođajnom periodu (P00–P96)
+VII	exclusion	Zarazne i parazitarne bolesti (A00–B99)
+VII	exclusion	komplikacije trudnoće, rađanja i babinja (O00–O99)
+VII	exclusion	Urođene nakaznosti, deformacije i hromozomske nenormalnosti (Q00– Q99)
+VII	exclusion	Bolesti žlijezda sa unutrašnjim lučenjem, ishrane i metabolizma (E00–E90)
+VII	exclusion	Povrede, trovanja i posljedice djelovanja spoljašnjih uzroka (S00–T98)
+VII	exclusion	Tumori (C00–D48)
+VII	exclusion	Simptomi, znaci i nenormalni klinički i laboratorijski nalazi (R00–R99)
+H00-H06	preferred	Poremećaji kapaka, suznog aparata i orbite
+H00	preferred	Čmičak i tvrdo zrno u očnom kapku
+H00.0	preferred	Čmičak i druga duboka zapaljenja očnog kapaka
+H00.0	inclusion	Apsces očnog kapka
+H00.0	inclusion	Furunkul očnog kapka
+H00.0	inclusion	
+H00.1	preferred	Tvrdo zrno u očnom kapku
+H01	preferred	Druga zapaljenja očnog kapka
+H01.0	preferred	Zapaljenje ivice očnog kapka
+H01.0	exclusion	Zapaljenje ivice očnog kapka i vežnjače H10.5
+H01.1	preferred	Nezarazno oboljenje kože očnog kapka
+H01.1	inclusion	Alergijsko zapaljenje kože očnog kapka
+H01.1	inclusion	Kontaktno zapaljenje kože očnog kapka
+H01.1	inclusion	Ekcematozno zapaljenje kože očnog kapka
+H01.1	inclusion	Eritematozni diskoidni lupus očnog kapka
+H01.1	inclusion	Kseroderma očnog kapka
+H01.8	preferred	Druga označena zapaljenja očnog kapka
+H01.9	preferred	Zapaljenje očnog kapka , neoznačeno
+H02	preferred	Ostali poremećaji očnog kapka
+H02	exclusion	Urodjene malformacije očnog kapka
+H02.0	preferred	Uvrnutost očnog kapka  i trepavice
+H02.1	preferred	Izvrnutost očnog kapka
+H02.2	preferred	Nepotpuno zatvaranje očnog kapka
+H02.3	preferred	Opuštanje kože očnog kapka
+H02.4	preferred	Spušten očni kapak
+H02.5	preferred	Drugi poremećaji funkcije očnog kapka
+H02.5	inclusion	Ankiloblefaron?
+H02.5	inclusion	Blefarofimoza ?
+H02.5	inclusion	Retrakcija kapka
+H02.5	exclusion	Grč očnih kapaka ( blefarospazam)G24.5
+H02.5	exclusion	Nevoljni pokreti (psihogeni) F95.-
+H02.5	exclusion	Nevoljni pokreti (psihogeni) organski G95.6
+H02.6	preferred	Ksantelazma očnog kapka
+H02.7	preferred	Druge degenrativni poremećaji očnog kapka i okoline oka
+H02.7	inclusion	Hloazma očnog kapka
+H02.7	inclusion	Madaroza očnog kapka
+H02.7	inclusion	Vitiligo očnog kapka
+H02.8	preferred	Drugi označeni poremećaji očnog kapka
+H02.8	inclusion	Hipertrihoza očnog kapka
+H02.8	inclusion	Zadržano strano tijelo u očnom kapku
+H02.9	preferred	Poremećaj očnog kapka , neoznačena
+H03	preferred	Poremećaji očnog kapka u drugim bolestima
+H03.0	preferred	Parazitarna oboljenja očnog kapka  u drugim bolestima
+H03.0	inclusion	Zapaljenje kože očnog kapka izazvano grinjama Demodex vrste B88.0
+H03.0	inclusion	Parazitarna infekcija očnog kapka kod lajšmanijaze B55.-
+H03.0	inclusion	Parazitarna infekcija očnog kapka kod lojaze: B74.3
+H03.0	inclusion	Parazitarna infekcija očnog kapka kod onkocerkijaze: B73
+H03.0	inclusion	Parazitarna infekcija očnog kapka kod vašljivosti: B85.3
+H03.1	preferred	Bolest očnog kapka  u drugim zaraznim bolestima
+H03.1	inclusion	Zahvaćenost očnog kapka kod Herpes simpleks virusne infekcije B00.5
+H03.1	inclusion	Zahvaćenost očnog kapka kod Lepre A30.-
+H03.1	inclusion	Zahvaćenost očnog kapka kod zarazne peteljkaste bradavice B08.1
+H03.1	inclusion	Zahvaćenost očnog kapka kod tuberkuloze A18.4
+H03.1	inclusion	Zahvaćenost očnog kapka kod neveneričnog sifilisa A66.-
+H03.1	inclusion	Zahvaćenost očnog kapka kod zoster virusne infekcije B02.3
+H03.8	preferred	Bolesti očnog kapka  u drugim bolestima
+H03.8	inclusion	Zahvaćenost očnog kapka kod impetiga L01.0
+H04	preferred	Bolesti suznog aparata
+H04	exclusion	Urođene malformacije suznog aparata Q10.4-g10.6
+H04.0	preferred	Zapaljenje suzne žlijezde
+H04.0	inclusion	Hronično uvećanje suzne žlijezde
+H04.1	preferred	Drugi poremećaji suzne žlijezde
+H04.1	inclusion	
+H04.1	inclusion	Sindrom suvih očiju
+H04.1	inclusion	Cista suzne žlijezde
+H04.1	inclusion	Atrofija suzne žlijezde 
+H04.2	preferred	Suženje
+H04.3	preferred	Akutno i neoznačeno zapaljenje suznih puteva, neoznačeno
+H04.3	inclusion	 Zapaljenje suzne kesice ( flegmonozno) akutno, subakutno ili neoznačeno
+H04.3	inclusion	Zapaljenje oko suzne kesice akutno, subakutno ili neoznačeno
+H04.3	inclusion	Zapaljenje suznih kanalića akutno, subakutno ili neoznačeno
+H04.3	exclusion	Zapaljenje suzne kesice novorodjenčeta P39.1
+H04.4	preferred	Hronično zapaljenje suznih puteva
+H04.4	inclusion	Hronično zapaljenje suzne kesice suznih puteva!!!!!!
+H04.4	inclusion	Hronično zapaljenje suznih kanalića
+H04.4	inclusion	Hronične suzne mukokele
+H04.5	preferred	Suženje i nedovoljna funkcija (insuficijencija) suznih puteva
+H04.5	inclusion	Kamen u suznom putu
+H04.5	inclusion	Izvrtanje suznog punktuma
+H04.5	inclusion	Stenoza suznog kanalića
+H04.5	inclusion	Stenoza suznog duktusa
+H04.5	inclusion	Stenoza suzne kese
+H04.6	preferred	Druge promjene na suznim putevima
+H04.6	inclusion	Suzna fistula
+H04.8	preferred	Drugi poremećaji suznog aparata
+H04.9	preferred	Poremećaj suznog aparata, neoznačen
+H05	preferred	Poremećaji očne duplje
+H05	exclusion	Urodjena malformacija očne duplje Q10.7
+H05.0	preferred	Akutno zapaljenje očne duplje
+H05.0	inclusion	Apsces očne duplje
+H05.0	inclusion	Celulitis očne duplje
+H05.0	inclusion	Zapaljenje kostiju očne duplje
+H05.0	inclusion	Zapaljenje periosta kostiju očne duplje
+H05.0	inclusion	Tenonitis
+H05.1	preferred	Hronično zapaljenje ( zapaljenski poremećaji) očne duplje
+H05.1	inclusion	Granulom očne duplje
+H05.2	preferred	Egzoftalmus ( abnormalna protruzija očne jabučice)-stanja izbuljenosti oka
+H05.2	inclusion	Dislokacija bulbusa ( spoljnje) NOS
+H05.2	inclusion	Krvarenje u očnoj duplji
+H05.2	inclusion	Otok očne duplje
+H05.3	preferred	Deformacija očne duplje
+H05.3	inclusion	Atrofija očne duplje
+H05.3	inclusion	Egzostoza očne duplje
+H05.4	preferred	Uvučenost oka u duplju oka
+H05.5	preferred	Zaostalo strano tijelo poslije penetrirajuće ozljede očne duplje
+H05.5	inclusion	Strano tijelo iza očne jabučice
+H05.8	preferred	Drugi poremećaji očne duplje
+H05.8	inclusion	Cista očne duplje
+H05.9	preferred	Poremećaji očne duplje, neoznačeni
+H06	preferred	Poremećaji suznog aparata i očne duplje u drugim bolestima
+H06.0	preferred	Poremećaji suznog aparata u drugim bolestima
+H06.1	preferred	Parazitarna oboljenja očne duplje u drugim bolestima
+H06.1	inclusion	Ehinokokna infekcija očne duplje B67.-
+H06.1	inclusion	Mijaza očne duplje B87.2
+H06.2	preferred	Egzoftalmus (izbuljenost oka ili protruzija očne jabučice) uzrokovana poremećajem funkcije štitaste žlijezde
+H06.3	preferred	Druge bolesti ( poremećaji)očne duplje u drugim bolestima
+H10-H13	preferred	Poremećaji vežnjače 
+H10	preferred	Zapaljenje vežnjače
+H10	exclusion	Zapaljenje rožnjače i vežnjače
+H10.0	preferred	Sluzavo-gnojno zapaljenje vežnjače
+H10.1	preferred	Akutno atopično zapaljenje vežnjače
+H10.2	preferred	Drugo akutno zapaljenje vežnjače
+H10.3	preferred	Akutno zapaljenje vežnjače, neoznačeno
+H10.3	exclusion	Novorodjenačka oftalmija NOS P39.1
+H10.4	preferred	Hronično zapaljenje vežnjače
+H10.5	preferred	Zapaljenje ruba ocnog kapka i vežnjače
+H10.8	preferred	Drugo zapaljenje vežnjače
+H10.9	preferred	Zapaljenje vežnjače, neoznačeno
+H11	preferred	Ostali poremećaji vežnjače
+H11	exclusion	???? Ponovljena dg
+H11.0	preferred	Pterigijum ( da li staviti krilasta navlaka)
+H11.0	exclusion	Pseudopterigijum H11.8
+H11.1	preferred	Degenerativne promjene i naslage vežnjače
+H11.1	inclusion	Argirozis (argiria) vežnjače
+H11.1	inclusion	Konkrementi vežnjače
+H11.1	inclusion	Pigmentacija vežnjače
+H11.1	inclusion	Kseroza vežnjače NOS
+H11.2	preferred	Ožiljci vežnjače
+H11.2	inclusion	Srašćenje kapka i očne jabučice
+H11.3	preferred	Krvarenje vežnjače
+H11.3	inclusion	Subkonjuktivalno krvarenje
+H11.4	preferred	Drugi poremećaji krvnih sudova i cista vežnjače
+H11.4	inclusion	Aneurizma vežnjače
+H11.4	inclusion	Povećana prokrvljenost vežnjače
+H11.4	inclusion	Otok vežnjače
+H11.8	preferred	Drugi označeni poremećaji vežnjače
+H11.8	inclusion	????? Ponovljenja dg
+H11.9	preferred	Poremećaj vežnjače, neoznačen
+H13	preferred	Poremećaji vežnjače u drugim bolestima
+H13.0	preferred	Filarijaza vežnjače B60.1
+H13.1	preferred	Zapaljenje vežnjače u zaraznim i parazitarnim bolestima
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik Akantamebijaza B60.1
+H13.1	inclusion	Folikularno zapaljenje vežnjače: uzročnik adenovirus (akutno) B30.1
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik hlamidia A74.0
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik difterija A36.8
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik gonokok A54.3
+H13.1	inclusion	Akutno epidemijsko hemoragično zapaljenje vežnjače????
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik herpes simpleks virus B00.5
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik meningokok A39.8
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik Newcastle B30.8
+H13.1	inclusion	Zapaljenje vežnjače: uzročnik herpes zoster virusB02.8
+H13.2	preferred	Zapaljenje vežnjače u drugim bolestima
+H13.3	preferred	Plikovnjača oka
+H13.8	preferred	Drugi poremećaji vežnjače u drugim bolestima
+H15-H22	preferred	Poremećaji beonjače, rožnjača, dužica i cilijarnog tijela
+H15	preferred	Bolesti beonjače
+H15.0	preferred	Zapaljenje beonjače
+H15.1	preferred	Površinsko zapaljenje beonjače
+H15.8	preferred	Drugi poremećaji beonjače
+H15.8	inclusion	Ekvatorijalna protruzija ( isturenost ) beonjače ili rožnjače
+H15.8	inclusion	Proširenje beonjače
+H15.8	exclusion	degenerativna miopija H44
+H15.9	preferred	Poremećaj beonjače, neoznačen
+H16	preferred	Zapaljenje rožnjače
+H16.0	preferred	Grizlica rožnjače
+H16.0	inclusion	Grizlica: rožnjanje: NOS
+H16.0	inclusion	Grizlica: rožnjanje: centralna
+H16.0	inclusion	Grizlica: rožnjanje: ivična
+H16.0	inclusion	Grizlica: rožnjanje: perforirana
+H16.0	inclusion	Grizlica: rožnjanje: prstenasta
+H16.0	inclusion	Grizlica: rožnjanje: gnojna
+H16.0	inclusion	Grizlica: roznjanje: Muren
+H16.1	preferred	Drugo površinsko zapaljenje rožnjače, bez zapaljenja vežnjače
+H16.1	inclusion	Zapaljenje rožnjače: areolarno
+H16.1	inclusion	Zapaljenje rožnjače: filamentorno
+H16.1	inclusion	Zapaljenje rožnjače: numularno ( ovalno)
+H16.1	inclusion	Zapaljenje rožnjače: zvjezdasto
+H16.1	inclusion	Zapaljenje rožnjače: strijatno
+H16.1	inclusion	Zapaljenje rožnjače: tačkasto površinsko
+H16.1	inclusion	Zapaljenje rožnjače: izazvano ultravioletnim zračenjem
+H16.1	inclusion	Zapaljenje rožnjače izazvano ultravioletnim zracima odbijenim od snijega ( snjiježno slepilo)
+H16.2	preferred	Zapaljenje rožnjače i vežnjače
+H16.2	inclusion	Zapaljenje rožnjače i vežnjače: NOS
+H16.2	inclusion	Zapaljenje rožnjače i vežnjače: ekspozicioni
+H16.2	inclusion	Zapaljenje rožnjače i vežnjače: neurotropni
+H16.2	inclusion	Zapaljenje rožnjače i vežnjače: fliktenularni ( sa vezikulama ili pustulom na rožnjači ili vežnjači)
+H16.2	inclusion	Nodozno zapaljenje vežnjače ili očne jabučice (nodozna oftalmija)
+H16.2	inclusion	Površinsko zapaljenje rožnjače sa zapaljenjem vežnjače
+H16.3	preferred	Duboko zapaljenje rožnjače
+H16.4	preferred	Novanastala vaskularizacija rožnjače
+H16.4	inclusion	Slabi krvni sudovi rožnjače
+H16.4	inclusion	Panus rožnjače ( vaskularna promjena koja uzrokuje površnu neprozirnost rožnjače)
+H16.8	preferred	Drugo zapaljenje rožnjače
+H16.9	preferred	Zapaljenje rožnjače, neoznačeno
+H17	preferred	Ožiljci i zamućenje rožnjače
+H17.0	preferred	Adherentna bijela pjega
+H17.1	preferred	Drugo centralno zamućenje rožnjače
+H17.8	preferred	Drugi ožiljci i zamućenje rožnjače
+H17.9	preferred	Ožiljak i zamućenje rožnjače
+H18	preferred	Drugi poremećaji rožnjače
+H18.0	preferred	Pigmentacije i naslage na roznjači
+H18.0	inclusion	krvarenje u rožnjači
+H18.0	inclusion	Kajzer-Flajščerov prsten
+H18.0	inclusion	Krukenbergovo vreteno
+H18.0	inclusion	Steahlijeva linija
+H18.0	coding-hint	Koristiti dodatne spoljašnje uzroka ( Poglavlje XX), za identifikaciju lijeka , ako je lijek uzrok.
+H18.1	preferred	Plikovito oboljenje rožnjače
+H18.2	preferred	Drugi otok rožnjače
+H18.3	preferred	Promjene membrane rožnjače
+H18.3	inclusion	Nabor Descementne membrane
+H18.3	inclusion	Ruptura (rascjep) Descementne membrane
+H18.4	preferred	Degeneracija rožnjače
+H18.4	inclusion	Senilni luk
+H18.4	inclusion	??????????
+H18.4	exclusion	Murenov ulcer
+H18.5	preferred	Nasljedna distrofija rožnjače
+H18.5	inclusion	Distrofija : rožnjače: epitelijana
+H18.5	inclusion	Distrofija : rožnjače: granularna
+H18.5	inclusion	Distrofija : rožnjače: rešetkasta
+H18.5	inclusion	Distrofija : rožnjače: makularna
+H18.5	inclusion	Distrofija : Fuksova
+H18.6	preferred	Kupasta rožnjača
+H18.7	preferred	Druge deformacije rožnjače
+H18.7	inclusion	Širenje rožnjače
+H18.7	inclusion	Stafiloma rožnjače
+H18.7	inclusion	Descementocele
+H18.7	exclusion	Urodjene malformacije rožnjače Q13.3-Q13.4
+H18.8	preferred	Drugi označeni poremećaji rožnjače
+H18.8	inclusion	Oduzetost rožnjače
+H18.8	inclusion	Smanjena osjetljivost rožnjače
+H18.8	inclusion	Povratna erozija rožnjače
+H18.9	preferred	Poremećaj rožnjače, neoznačen
+H19	preferred	Poremećaj beonjače i rožnjače u drugim bolestima
+H19.0	preferred	Površinska i duboka zapaljenja beonjače u drugim bolestima
+H19.0	inclusion	Sifilisno površinsko zapaljenje beonjače A52.7 (episkleritis)
+H19.0	inclusion	Tuberkulozno površinsko zapaljenje beonjače A18.5 (episkleritis)
+H19.0	inclusion	Zapaljenje beonjače uzrokovano herpes zoster virusom B02.3
+H19.1	preferred	Zapaljenje rožnjače i rožnjače sa vežnjačom oka izazvano herpes virusom B00.5
+H19.1	inclusion	Dendritično i disciformno zapaljenje rožnjače
+H19.2	preferred	Zapaljenje rožnjače i zapaljenje rožnjače sa vežnjačom oka u drugim bolestima 
+H19.2	inclusion	Epidemijsko zapaljenje rožnjače i vežnjače B30.0
+H19.2	inclusion	Zapaljenje rožnjače i zapaljenje rožnjače sa vežnjačom oka (intersticijalno) kod : akantoamebijaze B60.1
+H19.2	inclusion	Zapaljenje rožnjače i zapaljenje rožnjače sa vežnjačom oka (intersticijalno) kod : malih boginja B05.8
+H19.2	inclusion	Zapaljenje rožnjače i zapaljenje rožnjače sa vežnjačom oka (intersticijalno) kod : sifilisa A50.3
+H19.2	inclusion	Zapaljenje rožnjače i zapaljenje rožnjače sa vežnjačom oka (intersticijalno) kod : tuberkuloze A18.5
+H19.2	inclusion	Zapaljenje rožnjače i zapaljenje rožnjače sa vežnjačom oka (intersticijalno) kod : zostera B02.3
+H19.3	preferred	Zapaljenje rožnjače i rožnjače sa vežnjačom oka u drugim bolestima
+H19.3	inclusion	Sjogrenov sindrom suvi sa zapaljenjem rožnjače i vežnjače
+H19.8	preferred	Druge bolesti rožnjače i beonjače u drugim bolestima
+H19.8	inclusion	Kupasta rožnjača kod Daunovog sindroma Q90.-
+H20	preferred	Zapaljenje dužice i zrakastog ( da li cilijarnog)tijela
+H20.0	preferred	Akutno i subakutno zapaljenje dužice i zrakastog tijela
+H20.0	inclusion	Prednje zapaljenje sudovne opne akutno, rekurentno ili subakutno
+H20.0	inclusion	Zapaljenje clijarnog tijela akutno, rekurentno ili subakutno
+H20.0	inclusion	Zapaljenje dužice akutno, rekurentno ili subakutno
+H20.1	preferred	Hronično zapaljenje dužice i zrakastog tijela
+H20.2	preferred	Zapaljenje dužice i zrakastog tijela uzrokovano nošenjem sočiva
+H20.8	preferred	Drugo zapaljenje dužice i zrakastog tijela
+H20.9	preferred	Zapaljenje dužice i zrakastog tijela, neoznačeno
+H21	preferred	Drugi poremaćaji dužice i zrakastog tijela
+H21	exclusion	Simpatičnko zapaljenje sudovne opne H44.1
+H21.0	preferred	Krv u prednjoj komori oka
+H21.0	exclusion	Traumatsko krvarenje u prednjoj  komori oka
+H21.1	preferred	Drugi poremećaji krvnih sudova dužice i zrakastog tijela
+H21.1	inclusion	Neovaskularizacija dužice ili cilijarnog tijela
+H21.1	inclusion	rubeoza dužice
+H21.2	preferred	Degeneracija dužice i zrakastog tijela
+H21.2	inclusion	Degeneracija dužice (pigmentna)
+H21.2	inclusion	Degeneracija ivice dužice
+H21.2	inclusion	Rascjep dužice
+H21.2	inclusion	Atrofija dužice (osnovna)(progresivna)
+H21.2	inclusion	Cista zjenice uzrokovana miozom
+H21.2	inclusion	Transluncecija dužice
+H21.3	preferred	Cista dužice, zrakastog tijela i prednje komore oka
+H21.3	inclusion	Cista dužice, zrakastog tijela i prednje komore oka: NOS
+H21.3	inclusion	Cista dužice, zrakastog tijela i prednje komore oka: exudativna
+H21.3	inclusion	Cista dužice, zrakastog tijela i prednje komore oka: implatativna
+H21.3	inclusion	Cista dužice, zrakastog tijela i prednje komore oka: parazitarna
+H21.3	exclusion	Cista zjenice uzrokovana miozom
+H21.4	preferred	Oboljenje membrane zenice
+H21.4	inclusion	Iris bombé!!!!!
+H21.4	inclusion	Zjenica: Okluzija 
+H21.4	inclusion	Zjenica: Odvajanje
+H21.5	preferred	Druge srasline i rascjepi dužice i zrakastog tijela
+H21.5	inclusion	Goniosynechiae !!!!!
+H21.5	inclusion	Odvajanje irisa od cilijarnog tijela
+H21.5	inclusion	Povlačenje ( recesija), ugla komore
+H21.5	inclusion	Priraslice (dužica) : NOS
+H21.5	inclusion	Priraslice (dužica) : prednje
+H21.5	inclusion	Priraslice (dužica) : zadnje
+H21.5	exclusion	Urođena dislokacija zjenice Q13.2
+H21.8	preferred	Drugi označeni poremećaji dužice i zrakastog tijela
+H21.9	preferred	Poremećaj dužice i zrakastog tijela (cilijarnog tijela), neoznačen
+H22	preferred	Poremećaji dužice i zrakastog tijela (cilijarnog tijela)u drugim bolestima
+H22.0	preferred	Zapaljenje dužice i zrakastog tijela (cilijarnog tijela) u drugim zaraznim i parazitarnim bolestima
+H22.0	inclusion	Zapaljenje dužice i zrakastog tijela( cilijarnog tijela) kod : gonokokne infekcije A54.3
+H22.0	inclusion	Zapaljenje dužice i zrakastog tijela( cilijarnog tijela) kod : herpesvirusne ( herpes simplex) infekcije B00.5
+H22.0	inclusion	Zapaljenje dužice i zrakastog tijela( cilijarnog tijela) kod : sifilisa   ( sekundarni )  A51.4
+H22.0	inclusion	Zapaljenje dužice i zrakastog tijela( cilijarnog tijela) kod : tuberkuloze A18.5
+H22.0	inclusion	Zapaljenje dužice i zrakastog tijela( cilijarnog tijela) kod : zostera B02.3
+H22.1	preferred	Zapaljenje dužice i zrakastog tijela ( cilijarnog tijela ) u drugim bolestima
+H22.1	inclusion	Zapaljenje dužice i cilijarnog tijela kod: ankiloznog spondilitisa M45
+H22.1	inclusion	Zapaljenje dužice i cilijarnog tijela kod: sarkoidoze D86.8
+H22.8	preferred	Drugi poremećaji dužice i zrakastog tijela ( cilijarnog tijela) u drugim bolestima
+H25-H28	preferred	Poremećaji očnog sočiva
+H25	preferred	Staračka katarakta
+H25	exclusion	Capsularni glaukom sa pseudoeksfolijacijom H40.1
+H25.0	preferred	Staračka katarakta početna 
+H25.0	inclusion	Staračka katarakta: koronarna 
+H25.0	inclusion	Staračka katarakta : kortikalna
+H25.0	inclusion	Staračka katarakta : tačkasta
+H25.0	inclusion	Staračka katarakta: subkapsularna polarna (prednja) (zadnja)
+H25.0	inclusion	Water clefts
+H25.1	preferred	Staračka nuklearna katarakta
+H25.1	inclusion	Cataracta brunescens !!!!!!!
+H25.1	inclusion	Nuklearna sklerozna katarakta
+H25.2	preferred	Morgagnijeva staračka katarakta
+H25.2	inclusion	Staračka izrazito zrela katarakta
+H25.8	preferred	Druga staračka katarakta
+H25.8	inclusion	Kombinovane forme staračke katarakte
+H25.9	preferred	Staračka katarakta, neoznačena
+H26	preferred	Druga katarakta
+H26	exclusion	Urođena katarakta Q12.0
+H26.0	preferred	Katarakta djece, mladih i odraslih osoba
+H26.1	preferred	Katarakta uzrokovana povredom (traumom)
+H26.1	coding-hint	Koristiti dodatne spoljašnje uzroka ( Poglavlje XX), za identifikaciju uzroka
+H26.2	preferred	Komplikovana katarakta
+H26.2	inclusion	Katarakta kod hroničnog zapaljenja dužice i cilijarnog tijela
+H26.2	inclusion	Katarakta kao posledica drugih očnih poremećaja
+H26.2	inclusion	Glaukomatozne fleke ( subskapularne)
+H26.3	preferred	Katarakta uzrokovana ljekovima
+H26.3	coding-hint	Koristiti dodatne spoljašnje uzroka ( Poglavlje XX), za identifikaciju lijeka ako je lijek uzrok
+H26.4	preferred	After-cataract !!!!
+H26.4	inclusion	Sekundarna katarakta
+H26.4	inclusion	Soemmerring ring !!!!!!!!
+H26.8	preferred	Druga označena katarakta
+H26.9	preferred	Katarakta, neoznačena
+H27	preferred	Ostali poremećaji sočiva oka
+H27	exclusion	Kongenitalni poremećaji očnog sočiva Q12.-
+H27	exclusion	Mehaničke komplikacije zbog unutaročnog sočiva T85.2
+H27	exclusion	Prisustvo sočiva kao implantanta u oku Z96.1 !!!!
+H27.0	preferred	Nedostatak sočiva oka 
+H27.1	preferred	Dislokacija sočiva oka
+H27.8	preferred	Drugi označeni poremećaji sočiva oka
+H27.9	preferred	Poremećaj sočiva oka, neoznačen
+H28	preferred	Katarakta i drugi poremećaji sočiva oka u drugim bolestima
+H28.0	preferred	Katarakta kod šećerne bolesti
+H28.1	preferred	Katarakta u drugim bolestima žlijezda sa unutrašnjim lučenjem, bolestima ishrane i metabolizma
+H28.1	inclusion	Katarakta kod smanjenja funkcije paraštitne žlijezde E20.-
+H28.1	inclusion	Katarakta kod podhranjenosti i dehidracije E40-E46
+H28.2	preferred	Katarakta u drugim bolestima
+H28.2	inclusion	Katarakta uzrokovana sporim dekontrahovanjem mišića G71.1
+H28.8	preferred	Drugi poremećaji sočiva oka u drugim bolestima
+H30-H36	preferred	Poremećaji sudovnjače i mrežnjače
+H30	preferred	Zapaljenje sudovnjače i mrežnjače
+H30.0	preferred	Fokalno zapaljenje sudovnjače i mrežnjače isto se ponavlja
+H30.0	inclusion	Fokalno zapaljenje sudovnjače i mrežnjače isto se ponavlja
+H30.0	inclusion	Fokalno zapaljenje sudovnjače
+H30.0	inclusion	Fokalno zapaljenje mrežnjače
+H30.0	inclusion	Fokalno zapaljenje sudovnjače i mrežnjače isto se ponavlja
+H30.1	preferred	Rasijano zapaljenje sudovnjače i mrežnjače isto
+H30.1	inclusion	Rasijano zapaljenje sudovnjače i mrežnjače isto
+H30.1	inclusion	Rasijano zapaljenje sudovnjače 
+H30.1	inclusion	Rasijano zapaljenje mrežnjače
+H30.1	inclusion	Rasijano zapaljenje sudovnjače i mrežnjače isto
+H30.1	exclusion	Eksudativna retinopatija H35.0
+H30.2	preferred	Zapaljenje zadnjeg dijela zrakastog tijela
+H30.2	inclusion	Pars planitis
+H30.8	preferred	Drugo zapaljenje sudovnjače i mrežnjače
+H30.8	inclusion	Harada disease
+H30.9	preferred	Zapaljenje sudovnjače i mrežnjače, neoznačeno
+H30.9	inclusion	Zapaljenje sudovnjače i mrežnjače, NOS
+H30.9	inclusion	Zapaljenje sudovnjače NOS
+H30.9	inclusion	Zapaljenje mrežnjače NOS
+H30.9	inclusion	Zapaljenje sudovnjače i mrežnjače, NOS
+H31	preferred	Drugi poremećaji sudovnjače
+H31.0	preferred	Ožiljak sudovnjače i mrežnjače
+H31.0	inclusion	Ožiljci žute mrlje  i zadnjeg pola mrežnjače ( postzapaljensko) (posttraumatsko)
+H31.0	inclusion	Oboljenje mrežnjače kao posledica dejstva sunca ( solarna retinopatija)
+H31.1	preferred	Degeneracija sudovnjače
+H31.1	inclusion	Atrofija sudovnjače
+H31.1	inclusion	Skleroza sudovnjače
+H31.1	exclusion	angioid streaksH35.3
+H31.2	preferred	Nasljedna distrofija sudovnjače
+H31.2	inclusion	Choroideremia ( progresivno degenerativno nasljedno oboljenje sudovanjče koje se prenosi X hromozomom  a karakteriše ga noćno sljepilo, suženje vidnog polja i eventualno sljepilo)
+H31.2	inclusion	Distrofija sudovnjače ( centralna areolarna)(generalizovana)(peripapilarna)
+H31.2	inclusion	Spiralna atrofija sudovnjače
+H31.2	exclusion	Bolest oka zbog poremećaja metabolizma ornitina E72.4
+H31.3	preferred	Krvarenje i prskanje sudovnjače
+H31.3	inclusion	Kraverenje sudovnjače : NOS
+H31.3	inclusion	Kraverenje sudovnjače : expulzivno
+H31.4	preferred	Odlubljivanje sudovnjače
+H31.8	preferred	Drugi označeni poremećaji sudovnjače
+H31.9	preferred	Poremećaj sudovnjače, neoznačen
+H32	preferred	Poremećaji sudovnjače i bolesti ( višak) mrežnjače u drugim bolestima ( klasifikovanih na drugom mjestu)
+H32.0	preferred	Zapaljenje sudovnjače i mrežnjače u zaraznim i parazitarnim bolestima ( klasifikovanih na drugom mjestu)
+H32.0	inclusion	Zapaljenje sudovnjače i mrežnjače kod poznog sifilisa A52.7
+H32.0	inclusion	Zapaljenje sudovnjače i mrežnjače kod  toksoplazmoze B58.0
+H32.0	inclusion	Zapaljenje sudovnjače i mrežnjače kod tuberkuloze A18.5
+H32.8	preferred	Drugi poremećaji sudovnjače i bolesti mrežnjače u drugim bolestima klasifikovanih na drugom mjestu
+H32.8	inclusion	Zapaljenje mrežnjače kod albuminurije N18.5
+H32.8	inclusion	Zapaljenje mrežnjače kod oboljenja bubrega N18.5 Nema ove šifre u mkb !!!!!!!!
+H33	preferred	Odlubljenje i rascjep mrežnjače
+H33	exclusion	Odlubljivanje pigmentnog epitela mrežnjače !!!!!!!!!!!
+H33.0	preferred	Odlubljenje mrežnjače sa rascjepom
+H33.0	inclusion	Rhegmatogenous retinal detachment !!!!!!!!!!
+H33.1	preferred	Rascjep i cista mrežnjače
+H33.1	inclusion	Cista zubčaste linije
+H33.1	inclusion	Parazitarna cista mrežnjače NOS
+H33.1	inclusion	Pseudocista mrežnjače
+H33.1	exclusion	Urođeno cijepanje mrežnjače 
+H33.1	exclusion	Mikrocistoidna degeneracija mrežnjače H35.4
+H33.2	preferred	Serozna odljubljenost mrežnjače
+H33.2	inclusion	Odlubljivanje mrežnjače : NOS
+H33.2	inclusion	Odlubljivanje mrežnjače bez rascejepa mrežnjače
+H33.2	exclusion	central serous chorioretinopathyH35.7 !!!!!!
+H33.3	preferred	Rascjep mrežnjače bez odlubljenosti
+H33.3	inclusion	Potkovičasti rascjep mrežnjače bez odlubljenja
+H33.3	inclusion	Okrugla rupa u mrežnjači bez odlubljenja
+H33.3	inclusion	Operculum !!!!!
+H33.3	inclusion	Rascjep mrežnjače NOS
+H33.3	exclusion	Ožiljci mrežnjače poslije operativnog zahvata kod odlubljenja
+H33.3	exclusion	Periferna degeneracija mrežnjače bez rascjepa H35.4
+H33.4	preferred	Trakciono odlubljenje mrežnjače
+H33.4	inclusion	Proliferativno oboljenje mrežnjače i staklastog tijela bez odlubljenja mrežnjače
+H33.5	preferred	Druga odlubljenja mrežnjače
+H34	preferred	Okluzije krvnih sud mrežnjače
+H34	exclusion	Kratkotrajno slepilo G45.3
+H34.0	preferred	Prolazna okluzija arterije mrežnjače
+H34.1	preferred	Okluzija centralne arterije mrežnjače
+H34.2	preferred	Druge okluzija arterije mrežnjače
+H34.2	inclusion	Hollenhorst plaque !!!!
+H34.2	inclusion	Mrežnjača : okluzija arterije : grane
+H34.2	inclusion	Mrežnjačaa. Okluzija arterije: parcijalna ( djelimična)
+H34.2	inclusion	Mrežnjača: mikroembilizam
+H34.8	preferred	Druge okluzije krvnih sudova mrežnjače
+H34.8	inclusion	Mrežnjača : okluzija vene: centralna
+H34.8	inclusion	Mrežnjača : okluzija vene: početna
+H34.8	inclusion	Mrežnjača : okluzija vene: parcijalna ( djelimična)
+H34.8	inclusion	Mrežnjača : okluzija vene: 
+H34.9	preferred	Okluzija krvnih sudova mrežnjače, neoznačena
+H35	preferred	Drugi poremećaji mrežnjače
+H35.0	preferred	Retinopatija i promjene na krvnim sudovima mrežnjače
+H35.0	inclusion	Promjene u izgledu krvnih sudova mrežnjače
+H35.0	inclusion	Mrežnjača : mikroaneurizme 
+H35.0	inclusion	Mrežnjača : neovaskularizacija
+H35.0	inclusion	Mrežnjača : zapaljenje okoline krvnih sudova !!!!! 
+H35.0	inclusion	Mrežnjača : varikoziteti 
+H35.0	inclusion	Mrežnjača: vascular sheating !!!!!!
+H35.0	inclusion	Mrežnjača : zapaljenje krvnih sudova
+H35.0	inclusion	Retinopatija: NOS
+H35.0	inclusion	Retinopatija: background NOS
+H35.0	inclusion	Retinopatija: Coats
+H35.0	inclusion	Retinopatija: exudativna
+H35.0	inclusion	Retinopatija: hipertenzivna !!!!
+H35.1	preferred	Retinopatija nedonoščeta
+H35.1	inclusion	Retrolentalna fibroplazija !!!!!
+H35.2	preferred	Druga proliferativna retinopatija
+H35.2	inclusion	Proliferativna vitreoretinopatija
+H35.2	exclusion	Proliferativna vitreoretinopatija sa odlubljenjem mrežnjače H33.4
+H35.3	preferred	Degeneracija žute mrlje i zadnjeg pola mrežnjače
+H35.3	inclusion	Angioid streaks of macula !!!!
+H35.3	inclusion	Cista makule ( žute mrlje)
+H35.3	inclusion	Drusenova degenerativna makula ( žuta mrlja)
+H35.3	inclusion	Zjap žute mrlje !!!! ( pukotina)
+H35.3	inclusion	Naboranje žute mrlje
+H35.3	inclusion	Kuhnt -Juniusova degeneracija
+H35.3	inclusion	Senilna degeneracija žute mrlje ( atrofična) ( eksudativna)
+H35.3	inclusion	Toksična makulopatija  (toksično oštećenje žute mrlje)
+H35.3	coding-hint	Koristiti dodatne šifre spoljnjih uzroka ( poglavlje XX ) za identifikaciju lijeka ako je lijek uzrok
+H35.4	preferred	Periferna degeneracija mrežnjače
+H35.4	inclusion	Degeneracija, mreznjača: NOS
+H35.4	inclusion	Degeneracija, mreznjača: rešetkasta
+H35.4	inclusion	Degeneracija, mreznjača: mikrocistoidna
+H35.4	inclusion	Degeneracija, mreznjača: palisadna
+H35.4	inclusion	Degeneracija, mreznjača: kaldrmasta
+H35.4	inclusion	Degeneracija, mreznjača: retikularna
+H35.4	exclusion	sa rascjepom mrežnjače H33.3
+H35.5	preferred	Nasljedna distrofija mrežnjače
+H35.5	inclusion	Distrofija : mrežnjače ( albipunctate) (pigmentna) (viteliformna)
+H35.5	inclusion	Distrofija : taperetinalna
+H35.5	inclusion	Distrofija : vitreoretinalna
+H35.5	inclusion	Pigmentni retinitis
+H35.5	inclusion	Stargartova bolest !!!!!
+H35.6	preferred	Krvarenje mrežnjače
+H35.7	preferred	Razdvajanje slojeva mrežnjače
+H35.7	inclusion	Centralna serozna horioretinopatija !!!!
+H35.7	inclusion	Odlubljenje pigmentnog epitela mrežnjače
+H35.8	preferred	Drugi označeni poremećaji mrežnjače
+H35.9	preferred	Poremećaj mrežnjače, neoznačen
+H36	preferred	Poremećaji mrežnjače u drugim bolestima
+H36.0	preferred	Retinopatija kod šećerne bolesti
+H36.8	preferred	Drugi poremećaji mrežnjače u drugim bolestima
+H36.8	inclusion	Aterosklerotična retinopatija I70.8
+H36.8	inclusion	Retinopatija usled proliferacije srpastih ćelija D57.-
+H36.8	inclusion	Retinalna distrofija kod poremećaja deponovanja masti E75.-
+H40-H42	preferred	Glaukom !!!
+H40	preferred	Glaukom
+H40	exclusion	Apsolutni glaukom H44.5
+H40	exclusion	Urodjeni glaukom Q15.0
+H40	exclusion	Traumatski glaukom kod povrede na rođenju P15.3
+H40.0	preferred	Sumnja na glaukom
+H40.0	inclusion	Okularna hipertenzija
+H40.1	preferred	Primarni glaukom otvorenog ugla
+H40.1	inclusion	Glaukom ( primarni)(rezidualni stadijum) : kapsularni sa pseudoeksfolijacijom očnog sočiva
+H40.1	inclusion	Glaukom ( primarni)(rezidualni stadijum) : kapsularni sa pseudoeksfolijacijom očnog sočiva
+H40.1	inclusion	Glaukom ( primarni)(rezidualni stadijum) : kapsularni sa pseudoeksfolijacijom očnog sočiva
+H40.1	inclusion	Glaukom ( primarni)(rezidualni stadijum) : kapsularni sa pseudoeksfolijacijom očnog sočiva
+H40.2	preferred	Primarni glaukom zatvorenog ugla
+H40.2	inclusion	Glaukom zatvorenog ugla (primarni) (rezidualni stadijum):
+H40.2	inclusion	Glaukom zatvorenog ugla (primarni) (rezidualni stadijum):
+H40.2	inclusion	Glaukom zatvorenog ugla (primarni) (rezidualni stadijum):
+H40.3	preferred	Sekundarni glaukom zbog povrede oka
+H40.3	coding-hint	Koristiti dodatne šifre, ako je potrebno,  za identifikaciju uzroka
+H40.4	preferred	Sekundarni glaukom poslije zapaljenja oka
+H40.4	coding-hint	Koristiti dodatne šifre, ako je potrebno,  za identifikaciju uzroka
+H40.5	preferred	Sekundarni glaukom poslije drugih poremećaja oka
+H40.5	coding-hint	Koristiti dodatne šifre, ako je potrebno,  za identifikaciju uzroka
+H40.6	preferred	Sekundarni glaukom uzrokovana ljekovima
+H40.6	coding-hint	Koristiti dodatne šifre spoljnjih uzroka ( poglavlje XX ) , ako je potrebno) za identifikaciju lijeka ako je lijek uzrok
+H40.8	preferred	Drugi glaukom
+H40.9	preferred	Glaukom, neoznačen
+H42	preferred	Glaukom u drugim bolestima
+H42.0	preferred	Glaukom u bolestima žlijezda sa unutrašnjim lučenjem, bolestima ishrane i metabolizma
+H42.0	inclusion	Glaukom: kod amiloidoze E85.-
+H42.0	inclusion	Glaukom: kod Lowe sindroma E72.0
+H42.8	preferred	Glaukom u drugim bolestima
+H42.8	inclusion	Glaukom kod onkocerkiazeB73
+H43-H45	preferred	Poremećaji staklastog tijela i očne jabučice 
+H43	preferred	Poremećaji staklastog tijela
+H43.0	preferred	Prolaps staklastog tijela
+H43.0	exclusion	Sindrom staklastog tijela poslije operacije katarakte (sive mrene)
+H43.1	preferred	Krvarenje u staklastom tijelu
+H43.2	preferred	Kristalne naslage u staklastom tijelu
+H43.3	preferred	Druga zamućenja staklastog tijela
+H43.3	inclusion	Membrane i vlakna staklastog tijela
+H43.8	preferred	Drugi poremećaji staklastog tijela
+H43.8	inclusion	Degeneracija staklastog tijela
+H43.8	inclusion	Odlubljenje staklastog tijela
+H43.8	exclusion	Proliferativna vitreoretinopatija !!! sa odlubljenjem mrežnjače H33.4
+H43.9	preferred	Poremećaj staklastog tijela, neoznačen
+H44	preferred	Poremećaji (u mkbu su bolesti) očne jabučice
+H44	inclusion	Poremećaji koji zahvataju više struktura oka
+H44.0	preferred	Gnojno zapaljenje unutrašnjeg tkiva očne jabučice
+H44.0	inclusion	Zapaljenje svih tkiva ošne jabučice
+H44.0	inclusion	Abces staklastog tijela
+H44.1	preferred	Druga zapaljenja unutrašnjeg tkiva očne jabučice
+H44.1	inclusion	Parazitarno zapaljenje unutrašnjeg tkiva očne jabučice
+H44.1	inclusion	Simpatični uveitis !!!!
+H44.2	preferred	Degenerativna kratkovidost
+H44.3	preferred	Drugi degenerativni poremećaji očne jabučice
+H44.3	inclusion	Halcosa!!!!!
+H44.3	inclusion	Sideroza oka
+H44.4	preferred	Snizen očni pritisak!!!!!
+H44.5	preferred	Degenerativna stanja očne jabučice
+H44.5	inclusion	Absolutni glaukom
+H44.5	inclusion	Atrofija očne jabučice
+H44.5	inclusion	Ftisis !!!!! očne jabučice
+H44.6	preferred	Zaostalo  strano tijelo u oku, magnetno
+H44.6	inclusion	Zaostalo magnetno strano tijelo u oku: u prednjoj komori
+H44.6	inclusion	Zaostalo magnetno strano tijelo u oku: u cilijarnom tijelu
+H44.6	inclusion	Zaostalo magnetno strano tijelo u oku: u dužici
+H44.6	inclusion	Zaostalo magnetno strano tijelo u oku: u očnom sočivu
+H44.6	inclusion	Zaostalo magnetno strano tijelo u oku: U zadnjem zidu očne jabučice
+H44.6	inclusion	Zaostalo magnetno strano tijelo u oku: u staklastom tijelu
+H44.7	preferred	Zaostalo strano tijelo u oku,  nemagnetno
+H44.7	inclusion	Zaostalo nemagnetno strano tijelo u oku: u prednjoj komori
+H44.7	inclusion	Zaostalo nemagnetno strano tijelo u oku: u cilijarnom tijelu
+H44.7	inclusion	Zaostalo nemagnetno strano tijelo u oku: u dužici
+H44.7	inclusion	Zaostalo nemagnetno strano tijelo u oku: u očnom sočivu
+H44.7	inclusion	Zaostalo nemagnetno strano tijelo u oku: u zadnjem zidu očne jabučice
+H44.7	inclusion	Zaostalo nemagnetno strano tijelo u oku: u staklastom tijelu
+H44.8	preferred	Drugi poremećaji očne jabučice
+H44.8	inclusion	Krvarenje u oku
+H44.8	inclusion	Išcačenje očne jabučice
+H44.9	preferred	Poremećaj očne jabučice, neoznačen
+H45	preferred	Poremećaji staklastog tijela i očne jabučice u drugim bolestima
+H45.0	preferred	Krvarenje u staklastom tijelu u drugim bolestima
+H45.1	preferred	Zapaljenje unutrašnjeg tkiva očne jabučice u drugim bolestima
+H45.1	inclusion	Zapaljenje unutrašnjeg tkiva očne jabučice: kod cisticerkoze B69.1
+H45.1	inclusion	Zapaljenje unutrašnjeg tkiva očne jabučice: kod onkocerkijaze B73
+H45.1	inclusion	Zapaljenje unutrašnjeg tkiva očne jabučice: kod tokso karijaze B83.0
+H45.8	preferred	Drugi poremećaji staklastog tijela i očne jabučice u drugim bolestima
+H46-H48	preferred	Poremećaji vidnog živca i poremećaji vidnih puteva 
+H46	preferred	Zapaljenje vidnog živca
+H46	inclusion	Optička neuropatija!!!!!!! U staroj mkb je je kao iskljucuje se
+H46	inclusion	Zapaljenje papile očnog živca
+H46	inclusion	Retrobulbarni neuritis NOS (zapaljenje vidnog živca iza jabučice oka)
+H46	exclusion	ishemijsko oboljenje vidnog živca H47.0
+H46	exclusion	zapaljenje mijelinskog omotača vidnog živca ( Devic) G36.0
+H47	preferred	Drugi poremećaji vidnog živca i vidnih puteva
+H47.0	preferred	Poremećaji vidnog živca, neklasifikovani na drugom mjestu
+H47.0	inclusion	Kompresija vidnog živca
+H47.0	inclusion	Krvarenje u omotaču vidnog živca
+H47.0	inclusion	Ishemijsko oboljenje vidnog živca 
+H47.1	preferred	Otok papile vidnog živca, neoznačen
+H47.2	preferred	Atrofija vidnog živca
+H47.2	inclusion	Sljepoočno  bljedilo vidnog diska ( papile)
+H47.3	preferred	Drugi poremećaji papile vidnog živca
+H47.3	inclusion	Druze vidnog diska
+H47.3	inclusion	Pseudopapiloedem !!!!!
+H47.4	preferred	Poremećaji hiazme vidnog živca
+H47.5	preferred	Drugi poremećaji vidnig puteva!!!!!
+H47.5	inclusion	Poremećaji vidnog trakta, udruženog jedra i vidnih zraka
+H47.6	preferred	Poremećaji centra za vid u kori mozga
+H47.7	preferred	Poremećaj vidnog puta, neoznačen
+H48	preferred	Poremećaji vidnog živca i vidnih puteva u drugim bolestima
+H48.0	preferred	Atrofija vidnog živca u drugim bolestima
+H48.0	inclusion	Atrofija vidnog živca u poznom sifilisu A52.1
+H48.1	preferred	Zapaljenje retrobulbarnog živca!!!! u drugim bolestima
+H48.1	inclusion	Zapaljenje  retrobulbarnog živca u: poznom sifilisu A52.1
+H48.1	inclusion	Zapaljenje retrobulbarnog živca u: meningokoknoj infekciji A39.8
+H48.1	inclusion	Zapaljenje retrobulbarnog živca u: multiploj sklerozi G35
+H48.8	preferred	Drugi poremećaji vidnog živca i bolesti vidnih puteva u drugim bolestima
+H49-H52	preferred	Poremećaji vidnih mišića, dvoočnog vida, prilagođavanja i prelamanja vida 
+H49-H52	exclusion	nistagmus (trzaji) i drugi nepravilni pokreti oka H55
+H49	preferred	Paralitična razrokost
+H49	exclusion	Paraliza Oduzetost očnih  mišića : unutrašnja H52.5
+H49	exclusion	Paraliza Oduzetost očnih  mišića : međujedarna ili u staroj MKB moždana H51.2
+H49	exclusion	Paraliza Oduzetost očnih  mišića : progresivna supranuklearna G23.1
+H49.0	preferred	Paraliza trećeg (okulomotornog)  kranijalnog živca
+H49.1	preferred	Paraliza četvrtog ( trohlearnog ) kranijalnog živca
+H49.2	preferred	Paraliza šestog ( abducensa) kranijalnog živca
+H49.3	preferred	Spoljašnja potpuna oftalmoplegija paraliza očnih mišića
+H49.4	preferred	Spoljašnja progresivna oftalmoplegija  paraliza očnih mišića
+H49.8	preferred	Druga paralitična razrokost
+H49.8	inclusion	Spoljašnja paraliza očnih mišića NOS
+H49.8	inclusion	Kearns-Sayre syndrome
+H49.9	preferred	Paralitična razrokost, neoznačen
+H50	preferred	Druga razrokost
+H50.0	preferred	Prateća konvergentna razrokost
+H50.0	inclusion	Esotropia (alternating)(monocular), except intermittent !!!!!!
+H50.1	preferred	Prateća divergentna razrokost
+H50.1	inclusion	Exotropia (alternating)(monocular), except intermittent !!!!!
+H50.2	preferred	Vertikalna razrokost
+H50.2	inclusion	Hipertrofija
+H50.2	inclusion	Hipotrofija
+H50.3	preferred	Povremena razrokost
+H50.3	inclusion	Povremena: esotropia (alternating)(monocular)
+H50.3	inclusion	Povremena: exotropia (alternating)(monocular)
+H50.4	preferred	Druga i neoznačena razrokost
+H50.4	inclusion	Prateća razrokost NOS
+H50.4	inclusion	Cyclotropia
+H50.4	inclusion	Microtropia
+H50.4	inclusion	Sindrom monofiksacije
+H50.5	preferred	Sklonost razrokosti
+H50.5	inclusion	Alternating hyperphoria
+H50.5	inclusion	Esophoria
+H50.5	inclusion	Exophoria
+H50.6	preferred	Mehanička razrokost
+H50.6	inclusion	Braunov sindrom oka
+H50.6	inclusion	Razrokost zbog priraslica
+H50.6	inclusion	Traumatsko ograničenje pokretljivosti mišića oka
+H50.8	preferred	Druga označena razrokost
+H50.8	inclusion	Duanov sindrom
+H50.9	preferred	Razrokost, neoznačena
+H51	preferred	Ostali poremećaji pokretanja oba oka
+H51.0	preferred	Paraliza konjugovanog gledanja
+H51.1	preferred	Oslabljenost ili pojačana konvergencija
+H51.2	preferred	Moždana oduzetost mišića oka
+H51.8	preferred	Drugi označeni poremećaji pokretanja oba oka
+H51.9	preferred	Poremećaj pokretanja oba oka, neoznačen
+H52	preferred	Poremećaji refrakcije i akomaodacije
+H52.0	preferred	Dalekovidost
+H52.1	preferred	Kratkovidost
+H52.1	exclusion	degenerativna kratkovidost H44.2
+H52.2	preferred	Astigmatizam
+H52.3	preferred	Anizometropija i anizeikonija
+H52.4	preferred	Staračka dalekovidost
+H52.5	preferred	Poremećaji akomodacije
+H52.5	inclusion	Unutrašnja oftalmoplegija!!!! (potpuna)(totalna)
+H52.5	inclusion	Pareza akomodacije
+H52.5	inclusion	Spazam akomodacije
+H52.6	preferred	Drugi poremećaji refrakcije
+H52.7	preferred	Poremećaj refrakcije, neoznačen
+H53-H54	preferred	Porećaji vida i sljepilo
+H53	preferred	Poremećaji vida
+H53.0	preferred	Slabovidost bez gubitka vida
+H53.0	inclusion	Slabovidost sa anisometropijom
+H53.0	inclusion	Slabovidost sa deprivacijom
+H53.0	inclusion	Slabovidost sa razrokošću
+H53.1	preferred	Subjektivni poremećaji vida
+H53.1	inclusion	Astenopia
+H53.1	inclusion	Dnevno sljepilo
+H53.1	inclusion	Hemeralopia - Smanjen vid pri osvjetljenju
+H53.1	inclusion	Metamorphopsia
+H53.1	inclusion	Fotofobija
+H53.1	inclusion	Trepereći skotomi
+H53.1	inclusion	Iznenadni gubitak vida
+H53.1	inclusion	Vidni haloi
+H53.1	exclusion	Vidne halucinacije R44.1
+H53.2	preferred	Udvojeno vidjenje
+H53.2	inclusion	Duple slike
+H53.3	preferred	Drugi poremećaji dvoočnog vida
+H53.3	inclusion	Abnormalna korespodencija mrežnjače
+H53.3	inclusion	Fuzija sa defektnom stereopsiom
+H53.3	inclusion	Istovremena vidna percepcija sa fuzijom
+H53.3	inclusion	Smanjenje vida na oba oka 
+H53.4	preferred	Oštećenja u vidnom polju
+H53.4	inclusion	Uvećanje slijepe mrlje
+H53.4	inclusion	Generalno suženje vidnog polja
+H53.4	inclusion	Ispad u polovini vidnog polja (raznoimenog) (istoimenog)
+H53.4	inclusion	Kvadratni ispadi u vidnom polju
+H53.4	inclusion	Skotom: lučni
+H53.4	inclusion	Skotom: Bjerum
+H53.4	inclusion	Skotom: centralni
+H53.4	inclusion	Skotom: prstenasti
+H53.5	preferred	Poremećaji prepoznavanja boja
+H53.5	inclusion	Potpuno sljepilo za boje
+H53.5	inclusion	Stečeni gubitak vida za boje
+H53.5	inclusion	Sljepilo za boje
+H53.5	inclusion	Deuteranomalija - djelimično sljepilo za zelenu boju!!!!!!
+H53.5	inclusion	Nesposobnost razlikovanja!!!!!!
+H53.5	inclusion	Protanomalija-djelimično sljepilo za crvenu boju!!!!!!
+H53.5	inclusion	Protanopia
+H53.5	inclusion	Tritanomaly
+H53.5	inclusion	Tritanopia
+H53.5	exclusion	Dnevno sljepilo H53.1
+H53.6	preferred	Noćno sljepilo
+H53.6	exclusion	nedostatak vitamina A E50.5
+H53.8	preferred	Drugi poremećaji vida
+H53.9	preferred	Poremećaj vida, neoznačen
+H54	preferred	Oštećenje vida uključujući sljepilo (oba oka ili jednog oka)
+H54	note	Za definisanje kategorija oštećenja vida vidjeti tabelu ispod
+H54	exclusion	Kratkotrajno sljepilo G45.3
+H54.0	preferred	Sljepilo na oba oka
+H54.0	inclusion	Oštećenje vida kategorija 5
+H54.1	preferred	Teško oštećenje vida, oba oka
+H54.1	inclusion	Oštećenje vida kategorija 2
+H54.2	preferred	Umjereno oštećenje vida, oba oka
+H54.2	inclusion	Oštećenje vida kategorija 1
+H54.3	preferred	Blago oštećenje vida ili bez oštećenja, oba oka
+H54.3	inclusion	Oštećenje vida kategorija 0
+H54.4	preferred	Sljepilo na jednom oku
+H54.4	inclusion	Oštećenje vida kategorije 3, 4, 5 na jednom oku i kategorije 0, 1, 2 ili 9 na drugom oku
+H54.5	preferred	Teško oštećenje vida, jedno oko
+H54.5	inclusion	Oštećenje vida kategorija 2 na jednom oku i kategorije 0, 1 ili 9 na drugom oku
+H54.6	preferred	Umjereno oštećenje vida, jedno oko
+H54.6	inclusion	Oštećenje vida kategorija 1 na jednom oku i kategorije 0 ili 9 na drugom oku
+H54.9	preferred	Oštećenje vida, neoznačeno (oba oka)
+H54.9	inclusion	Oštećenje vida kategorija 9
+H54.9	coding-hint	Tabela ispod daje klasifikaciju jačine poremećaja vida, koju je predložila Rezolucija međunarodnog savjeta za oftamologiju (2002. godine): preporuka SZO o razvoju standarda za karakterizaciju gubitaka vida i funkcionisanje vida (septembar 2003. godine). Karakterizaciju poremećaja vida za: Šifre H54.0-H54.3 treba oštrinu vida mjeriti sa oba otvorena oka, konstatujući korekcije ako ih ima Šifre H54.4-H54.6 treba oštrinu vida mjeriti na jednom oku, predstavljajući korekcije ako ih ima Ako se uzme širina vidnog polja na boljem oku, koja nije veća od 10° u radijusu oko centralne tačke, poremećaji treba da budu stavljeni u kategoriju za sljepilo na jednom oku (H54.4) ovaj stepen gubitka vidnog polja treba primijeniti na oko koje je ugroženo.
+H54.9	coding-hint	
+H54.9	coding-hint	Napomena: Termin vizualni poremećaji sastoji se od kategorija: 0 za slabo oštećenje ili nema oštećenja 1 za umjereni vizualni poremećaj 2 za jaki (veliki) vizualni poremećaj 3, 4, 5 za sljepilo 9 za neoznačeni vizualni poremećaj Termin „slabovidost” iz prethodne revizije zamijenjen je kategorijama 1 i 2 da bi se izbjegla zabuna za one kojima treba njega.
+H55-H59	preferred	Drugi poremećaji oka i pripoja oka
+H55	preferred	Nistagmus i drugi nepravilni pokreti oka
+H55	inclusion	Nistagmus: NOS
+H55	inclusion	Nistagmus: urođeni
+H55	inclusion	Nistagmus: deprivacioni !!!!
+H55	inclusion	Nistagmus: disocijativni !!!!
+H55	inclusion	Nistagmus: latentni
+H57	preferred	Ostali poremećaji oka i pripojaka oka
+H57.0	preferred	Nepravilnosti funkcije zjenice
+H57.1	preferred	Bol oka
+H57.8	preferred	Drugi označeni poremećaji oka i pripojaka oka
+H57.9	preferred	Poremećaj oka i pripojaka oka, neoznačen
+H58	preferred	Ostali poremećaji oka i pripojaka oka u drugim bolestima
+H58.0	preferred	Nepravilnosti funkcije zjenice u drugim bolestima
+H58.0	inclusion	Argil Robentsonov fenomen ili zjenica, sifilisni A52.1
+H58.1	preferred	Poremećaji vida u drugim bolestima
+H58.8	preferred	Drugi označeni poremećaji oka i pripojaka oka u drugim bolestima
+H58.8	inclusion	Sifilisno oboljenje oka NEC: urođeno: rano A50.0
+H58.8	inclusion	Sifilisno oboljenje oka NEC: urođeno: kasno A50.3
+H58.8	inclusion	Sifilisno oboljenje oka NEC: rano ( sekundarno) A51.4
+H58.8	inclusion	Sifilisno oboljenje oka NEC: kasno A52.7
+H59	preferred	Poremećaji oka i pripojaka oka poslije intervencija, neklasifikovani na drugom mjestu
+H59	exclusion	mehanička komplikacija zbog unutaročnog sočiva T85.2
+H59	exclusion	mehanička komplikacija zbog drugih očnih protetskih aparata, implantanata i kalemova T85.3
+H59	exclusion	prisustvo sočiva u oku Z96.1
+H59.0	preferred	Keratopatija ( bulozna afakija) poslije operacije katarakte
+H59.0	inclusion	Sindrom staklastog tijela 
+H59.0	inclusion	Sindrom staklastog tijela i rožnjače!
+H59.8	preferred	Drugi poremećaji oka i pripojaka oka poslije intervencija
+H59.8	inclusion	Plik povezan za unutrašnjim zapaljenjem očne jabučice
+H59.8	inclusion	Sudovnomrežnjačni ožiljci poslije hirurgije odlubljenja
+H59.8	inclusion	Upala (infekcija) poslije operacije plika
+H59.8	inclusion	Postoperacioni blebitis
+H59.9	preferred	Poremećaj oka i pripojaka oka poslije intervencija, neoznačen

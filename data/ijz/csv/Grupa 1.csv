@@ -1,0 +1,1982 @@
+I	preferred	Određene zarazne i parazitarne bolesti
+I	inclusion	Bolesti opšte poznate kao zarazne ili prenosne
+I	coding-hint	Koristiti dodatne šifre (U80-U89) ako se žele identifikovati antibiotici na koje su bakterije rezistentne.
+I	exclusion	Kliconoštvo ili sumnja na kliconoštvo određene zarazne bolesti označeno pod Z22.-
+I	exclusion	Određene lokalizovane infekcije - videti grupe šifri koje se odnose na specifične organske sisteme i tamo označena oboljenja
+I	exclusion	Zarazne i parazitarne bolesti koje komplikuju trudnoću, porođaj i babinje [izuzev porođajnog tetanusa], označene pod O98.-
+I	exclusion	Zarazne i parazitarne bolesti specifične za porođajni period [izuzimaju se tetanus novorođenčeta, urođeni sifilis, porođajna gonokokna infekcija i porođajna bolest izazvana virusom HIV-a], označene od P35 do P39
+I	exclusion	Grip i druge akutne infekcije disajnih puteva, označene od J00 do J22
+A00-A09	preferred	Crijevne zarazne bolesti
+A00	preferred	Kolera
+A00.0	preferred	Kolera, uzročnik Vibrio cholerae 01, biotip cholerae
+A00.0	inclusion	Klasična kolera
+A00.1	preferred	Kolera, uzročnik Vibrio cholerae 01, biotip El Tor
+A00.1	inclusion	Kolera El Tor
+A00.9	preferred	Kolera, neoznačena
+A01	preferred	Tifusne  i paratifusne groznice
+A01.0	preferred	Trbušni tifus
+A01.0	inclusion	Infekcija uzrokovana sa Salmonella typhi
+A01.1	preferred	Paratifus A
+A01.2	preferred	Paratifus B
+A01.3	preferred	Paratifus C
+A01.4	preferred	Paratifus, neoznačen
+A01.4	inclusion	Infekcije uzrokovane sa Salmonella paratyphi NOS
+A02	preferred	Druge infekcije uzrokovane salmonelama
+A02	inclusion	Infekcije ili "trovanja hranom" uzrokovana bilo kojom drugom salmonelom, osim S. typhi i S. paratyphi
+A02.0	preferred	Zapaljenje tankog crijeva uzrokovano salmonelama
+A02.0	inclusion	Salmoneloza
+A02.1	preferred	Sepsa uzrokovana salmonelama
+A02.2	preferred	Lokalizovane infekcije uzrokovane salmonelama
+A02.2	inclusion	Salmonelozni artritis označen pod M01.3
+A02.2	inclusion	Salmonelozni meningitis označen pod G01
+A02.2	inclusion	Salmonelozni osteomijelitis označen pod M90.2
+A02.2	inclusion	Salmonelozna upala pluća označena pod J17.0
+A02.2	inclusion	Salmonelom izazvana tubularno-tkivna bolest bubrega označena pod N16.0
+A02.8	preferred	Ostale označene infekcije salmonelama
+A02.9	preferred	Salmonelozna infekcija, neoznačena
+A03	preferred	Šigeloza - bacilarna dizenterija
+A03.0	preferred	Šigeloza, uzročnik Shigella dysenteriae
+A03.0	inclusion	Šigeloza, uzročnik šigela grupe A (dizenterija Shiga-Kruse)
+A03.1	preferred	Šigeloza, uzročnik Shigella flexneri
+A03.1	inclusion	Šigeloza uzročnik šigela grupe B
+A03.2	preferred	Šigeloza, uzročnik Shigella boydi
+A03.2	inclusion	Šigeloza, uzročnik šigela grupe C
+A03.3	preferred	Šigeloza, uzročnik Shigella sonnei
+A03.3	inclusion	Šigeloza, uzročnik šigela grupe D
+A03.8	preferred	Druga šigeloza
+A03.9	preferred	Šigeloza, neoznačena
+A03.9	inclusion	Bacilarna dizenterija, NOS
+A04	preferred	Druge infekcije crijeva uzrokovane bakterijama
+A04	exclusion	"Trovanja hranom", označena na drugom mjestu
+A04	exclusion	Tuberkulozna upala crijeva, označena pod A18.3
+A04.0	preferred	Infekcija crijeva, uzročnik enteropatogena Escherichia coli
+A04.1	preferred	Infekcija crijeva, uzročnik enterotoksična Escherichia coli
+A04.2	preferred	Infekcija crijeva, uzročnik enteroinvazivna Escherichia coli
+A04.3	preferred	Infekcija crijeva, uzročnik enterohemoragijska Escherichia coli
+A04.4	preferred	Druge infekcije crijeva, uzročnik Escherichia coli
+A04.4	inclusion	Zapaljenje tankog crijeva uzrokovano sa Escherichia coli, NOS
+A04.5	preferred	Zapaljenje tankog crijeva, uzročnik Campylobacter
+A04.6	preferred	Zapaljenje tankog crijeva, uzročnik Yersinia enterocolitica
+A04.6	exclusion	Vancrijevna jersinioza, označena pod A28.2
+A04.7	preferred	Zapaljenje crijeva, uzročnik Clostridium difficile
+A04.7	inclusion	Trovanje hranom izazvano sa Clostridium difficile
+A04.7	inclusion	Pseudomembranozni kolitis
+A04.8	preferred	Druge označene infekcije crijeva uzrokovane bakterijama
+A04.9	preferred	Infekcija crijeva, uzrokovana bakterijama, neoznačena
+A04.9	inclusion	Bakterijsko zapaljenje tankog crijeva NOS
+A05	preferred	Ostala trovanja hranom uzrokovana bakterijama, neoznačena na drugom mjestu
+A05	exclusion	Infekcije izazvane se Escherichia coli označene od A04.0 do A04.4
+A05	exclusion	Listerioza označena pod A32.-
+A05	exclusion	Trovanje hranom i upala izazvana salmonelama označena pod A02.-
+A05	exclusion	Toksičko dejstvo štetnih supstanci unetih hranom označeno pod T61 - T62
+A05.0	preferred	Trovanje hranom uzrokovano stafilokokom
+A05.1	preferred	Botulizam
+A05.1	inclusion	Klasično trovanje hranom uzrokovano sa Clostridium botulinum
+A05.2	preferred	Trovanje hranom, uzročnik Clostridium perfringens [Clostridium welchii]
+A05.2	inclusion	Nekrotizirajuće zapaljenje tankog crijeva
+A05.2	inclusion	"Pig-bel"
+A05.3	preferred	Trovanje hranom, uzročnik Vibrio parahaemolyticus
+A05.4	preferred	Trovanje hranom, uzročnik Bacillus cereus
+A05.8	preferred	Druga označena trovanja hranom uzrokovana bakterijama
+A05.9	preferred	Trovanje hranom uzrokovano bakterijama, neoznačeno
+A06	preferred	Amebijaza
+A06	inclusion	Infekcija izazvana sa Entamoeba histolytica
+A06	exclusion	druge infekcije crijeva uzrokovane protozoama označene pod A07.-
+A06.0	preferred	Akutna dizenterija uzrokovana amebama
+A06.0	inclusion	Akutna amebijaza
+A06.0	inclusion	Crijevna amebijaza NOS
+A06.1	preferred	Hronična amebijaza crijeva
+A06.2	preferred	Nedizenterijsko zapaljenje debelog crijeva uzrokovano amebama
+A06.3	preferred	Amebom, tumor crijeva uzrokovan amebama
+A06.3	inclusion	Amebom, NOS
+A06.4	preferred	Apsces jetre uzrokovan amebama
+A06.4	inclusion	Jetrena amebijaza
+A06.5	preferred	Apsces pluća uzrokovan amebama označen pod I99.8.
+A06.5	inclusion	Apsces pluća (i jetre) uzrokovan amebama
+A06.6	preferred	Apsces mozga uzrokovan amebama označen pod G07
+A06.6	inclusion	Apsces mozga (i jetre) (i pluća) uzrokovan amebama
+A06.7	preferred	Amebijaza kože
+A06.8	preferred	Infekcija drugih lokalizacija uzrokovana amebama
+A06.8	inclusion	Upala crvuljka izazvana amebama
+A06.8	inclusion	Zapaljenje glansa penisaizazvano amebama označeno pod N51.2
+A06.9	preferred	Amebijaza, neoznačena
+A07	preferred	Druge infekcije crijeva uzrokovane protozoama
+A07.0	preferred	Balantidijaza, uzročnik Balantidium coli
+A07.0	inclusion	Dizenterija izazvana sa Balantidium coli
+A07.1	preferred	Gjardijaza [lamblijaza], uzročnik Lamblia intestinalis
+A07.2	preferred	Kriptosporidijaza, uzročnik Cryptosporidium
+A07.3	preferred	Izosporijaza
+A07.3	inclusion	Infekcija izazvana sa Isospora belli i Isospora hominis
+A07.3	inclusion	Crijevna kokcijdijaza
+A07.3	inclusion	Izosporoza
+A07.8	preferred	Druge označene infekcije crijeva uzrokovane protozoama
+A07.8	inclusion	Crijevna trihomonijaza
+A07.8	inclusion	Sarkocistoza
+A07.8	inclusion	Sarkosporidijaza
+A07.9	preferred	Oboljenje crijeva uzrokovano protozoama, neoznačeno
+A07.9	inclusion	Proliv izazvan bičarima
+A07.9	inclusion	Upala debelog crijeva izazvana protozoama
+A07.9	inclusion	Proliv izazvan protozoama
+A07.9	inclusion	Dizenterija izazvana protozoama
+A08	preferred	Virusne i druge označene crijevne infekcije
+A08	exclusion	Infekcija virusom gripa sa simptomima organa za varenje, označena pod J09, J10.8, J11.8
+A08.0	preferred	Zapaljenje tankog crijeva uzrokovano rotavirusima
+A08.1	preferred	Akutno oboljenje želuca i tankog crijeva izazvano Norwalkovim agensom
+A08.1	inclusion	Enteritis uzrokovan sitnim okruglim virusima
+A08.2	preferred	Zapaljenje tankog crijeva uzrokovano adenovirusima
+A08.3	preferred	Druga zapaljenja tankog crijeva uzrokovana virusima
+A08.4	preferred	Infekcija crijeva uzrokovana virusima, neoznačena
+A08.4	inclusion	Virusno zapaljenje tankog crijeva, NOS
+A08.4	inclusion	Virusno zapaljenje želuca i tankog crijeva, NOS
+A08.4	inclusion	Akutno oboljenje želuca i tankog crijeva izazvano virusima, NOS
+A08.5	preferred	Druge označene infekcije crijeva
+A09	preferred	Druga zapaljenja želuca, tankog i debelog crijeva zaraznog ili neoznačenog porijekla
+A09	exclusion	bakterijski, protozoički, virusni i drugi zarazni uzročnici navedeni u tačkama A00 - A08
+A09	exclusion	prolivi nezaraznog porijekla (K52.9)
+A09	exclusion	neonatalni prolivi nezaraznog porijekla (P78.3)
+A09.0	preferred	Druga i neoznačena zapaljenja želuca, tankog i debelog crijeva zaraznog porijekla
+A09.0	inclusion	Kataralna upala, tankog ili kompletnog crijeva
+A09.0	inclusion	Proliv: akutni sa primjesama krvi
+A09.0	inclusion	Proliv: akutni sa krvarenjem
+A09.0	inclusion	Proliv: akutni vodeni
+A09.0	inclusion	Proliv: dizenterijski
+A09.0	inclusion	Proliv: epidemijski
+A09.0	inclusion	Zarazna ili septička upala debelog crijeva, NOS
+A09.0	inclusion	Zarazna ili septička upala debelog crijeva sa krvarenjem
+A09.0	inclusion	Zarazna ili septička upala tankog crijeva, NOS
+A09.0	inclusion	Zarazna ili septička upala tankog crijeva sa krvarenjem
+A09.0	inclusion	Zarazna ili septička upala želuca i tankog crijeva, NOS
+A09.0	inclusion	Zarazna ili septička upala želuca i tankog crijeva sa krvarenjem
+A09.0	inclusion	Zarazni prolivi, NOS
+A09.9	preferred	Zapaljenje želuca , tankog i debelog crijeva neoznačenog porijekla
+A15-A19	preferred	Tuberkuloza
+A15-A19	inclusion	Infekcije izazvane sa Mycobacterium tuberculosis i Mycobacterium bovis
+A15-A19	exclusion	Urođena tuberkuloza označena pod P37.0
+A15-A19	exclusion	Bolest izazvana virusom HIV-a sa posljedičnom tuberkulozom označena pod B20.0
+A15-A19	exclusion	Pneumokonioza povezana sa tuberkulozom označena pod J65
+A15-A19	exclusion	Posljedice tuberkuloze označena pod B90
+A15-A19	exclusion	Silikotuberkuloza označena pod J65
+A15	preferred	Tuberkuloza organa za disanje potvrđena bakteriološki i histološki
+A15.0	preferred	Tuberkuloza pluća, potvrđena mikroskopijom ispljuvka sa ili bez kulture
+A15.0	inclusion	Tuberkuloza pluća: sa brohiektazijama, potvrđena mikroskopijom ispljuvka sa ili bez kulture
+A15.0	inclusion	Tuberkuloza pluća: sa fibrozom pluća, potvrđena mikroskopijom ispljuvka sa ili bez kulture
+A15.0	inclusion	Tuberkuloza pluća: sa pneumonijom, potvrđena mikroskopijom ispljuvka sa ili bez kulture
+A15.0	inclusion	Tuberkuloza pluća: sa pneumotoraksom, potvrđena mikroskopijom ispljuvka sa ili bez kulture
+A15.1	preferred	Tuberkuloza pluća, potvrđena samo kulturom
+A15.1	inclusion	sva stanja navedena pod A15.0, potvrđena samo kulturom
+A15.2	preferred	Tuberkuloza pluća, potvrđena histološki
+A15.2	inclusion	sva stanja navedena pod A15.0, potvrđena histološki
+A15.3	preferred	Tuberkuloza pluća, potvrđena neoznačenim metodama
+A15.3	inclusion	sva stanja navedena pod A15.0, neoznačenog načina potvrđivanja ili bakteriološki ili histološki
+A15.4	preferred	Tuberkuloza limfnih čvorova u grudnom košu, potvrđena bakteriološki i histološki
+A15.4	inclusion	Tuberkuloza limfnih čvorova u hilusima pluća: potvrđena bakteriološki i histološki
+A15.4	inclusion	Tuberkuloza limfnih čvorova u sredogruđu, potvrđena bakteriološki i histološki
+A15.4	inclusion	Tuberkuloza dušničkih limfnih čvorova, potvrđena bakteriološki i histološki
+A15.4	exclusion	Primarna tuberkuloza pluća, označena pod A15.7
+A15.5	preferred	Tuberkuloza grkljana, dušnika i dušnica, potvrđena bakteriološki i histološki
+A15.5	inclusion	Tuberkuloza dušnica, potvrđena bakteriološki i histološki
+A15.5	inclusion	Tuberkuloza glotisa potvrđena bakteriološki i histološki
+A15.5	inclusion	Tuberkuloza grkljana potvrđena bakteriološki i histološki
+A15.5	inclusion	Tuberkuloza dušnika potvrđena bakteriološki i histološki
+A15.6	preferred	Tuberkulozno zapaljenje plućne maramice, potvrđeno bakteriološki i histološki
+A15.6	inclusion	Tuberkuloza plućne maramice potvrđena bakteriološki i histološki
+A15.6	inclusion	Tuberkulozni empijem potvrđen bakteriološki i histološki
+A15.6	exclusion	Primarna tuberkuloza pluća, potvrđena bakteriološki i histološki označena pod A15.7
+A15.7	preferred	Primarna tuberkuloza pluća, potvrđena bakteriološki i histološki
+A15.8	preferred	Ostale tuberkuloze  organa za disanje, potvrđene bakteriološki i histološki
+A15.8	inclusion	Tuberkuloza sredogruđa potvrđena bakteriološki i histološki
+A15.8	inclusion	Tuberkuloza nazofarinksa potvrđena bakteriološki i histološki
+A15.8	inclusion	Tuberkuloza nosa, potvrđena bakteriološki i histološki
+A15.8	inclusion	Tuberkuloza sinusnih šupljina, [bilo koje paranazalnog šupljine] potvrđena bakteriološki i histološki
+A15.9	preferred	Tuberkuloza organa za disanje, potvrđena bakteriološki i histološki, neoznačena
+A16	preferred	Tuberkuloza organa za disanje, nepotvrđena bakteriološki i histološki
+A16.0	preferred	Tuberkuloza pluća, bakteriološki i histološki negativna
+A16.0	inclusion	Tuberkuloza pluća: sa brohiektazijama, bakteriološki i histološki negativna
+A16.0	inclusion	Tuberkuloza pluća: sa fibrozom pluća, bakteriološki i histološki negativna
+A16.0	inclusion	Tuberkuloza pluća: sa upalom pluća,  bakteriološki i histološki negativna
+A16.0	inclusion	Tuberkuloza pluća: sa pneumotoraksom,  bakteriološki i histološki negativna
+A16.1	preferred	Tuberkuloza pluća, bez bakteriološkog i histološkog ispitivanja
+A16.1	inclusion	Sva stanja navedena po  A16.0, bez bakteriološkog i histološkog ispitivanja
+A16.2	preferred	Tuberkuloza pluća, bez bakteriološke ili histološke potvrde
+A16.2	inclusion	Tuberkuloza pluća NOS (bez bakteriološke ili histološke potvrde)
+A16.2	inclusion	Tuberkuloza pluća: sa bronhiektazijama NOS (bez bakteriološke ili histološke potvrde)
+A16.2	inclusion	Tuberkuloza pluća: sa fibrozom pluća NOS (bez bakteriološke ili histološke potvrde)
+A16.2	inclusion	Tuberkuloza pluća: sa pneumonijom NOS (bez bakteriološke ili histološke potvrde)
+A16.2	inclusion	Tuberkuloza pluća: sa pneumotoraksom NOS (bez bakteriološke ili histološke potvrde)
+A16.3	preferred	Tuberkuloza limfnih čvorova u grudnom košu, bez bakteriološke i histološke potvrde
+A16.3	inclusion	Tuberkuloza limfnih čvorova u hilusima pluća NOS, bez bakteriološke i histološke potvrde
+A16.3	inclusion	Tuberkuloza limfnih čvorova u grudnom košu NOS, bez bakteriološke i histološke potvrde
+A16.3	inclusion	Tuberkuloza limfnih čvorova u sredogruđu NOS, bez bakteriološke i histološke potvrde
+A16.3	inclusion	Tuberkuloza  limfnih čvorova dušnika i dušnica NOS, bez bakteriološke i histološke potvrde
+A16.3	exclusion	Primarna tuberkuloza pluća označene pod A16.7
+A16.4	preferred	Tuberkuloza grkljana, dušnika i dušnica, bez bakteriološke i histološke potvrde 
+A16.4	inclusion	Tuberkuloza dušnica NOS, bez bakteriološke i histološke potvrde 
+A16.4	inclusion	Tuberkuloza glotisa NOS, bez bakteriološke i histološke potvrde 
+A16.4	inclusion	Tuberkuloza grkljana NOS, bez bakteriološke i histološke potvrde 
+A16.4	inclusion	Tuberkuloza dušnika NOS, bez bakteriološke i histološke potvrde 
+A16.5	preferred	Tuberkulozno zapaljenje plućne maramice, bez bakteriološke i histološke potvrde
+A16.5	inclusion	Tuberkuloza plućne maramice NOS, bez bakteriološke i histološke potvrde
+A16.5	inclusion	Tuberkulozni empijem NOS, bez bakteriološke i histološke potvrde
+A16.5	inclusion	Tuberkulozno zapaljenje plućne maramice NOS, bez bakteriološke i histološke potvrde
+A16.5	exclusion	Primarna tuberkuloza pluća označene pod A16.7
+A16.7	preferred	Primarna tuberkuloza pluća,bez bakteriološke i histološke potvrde
+A16.7	inclusion	Primarna tuberkuloza organa za disanje NOS
+A16.7	inclusion	Primarni tuberkulozni kompleks
+A16.8	preferred	Druga tuberkuloza organa za disanje, bez bakteriološke i histološke potvrde
+A16.8	inclusion	Tuberkuloza sredogruđa NOS, bez bakteriološke i histološke potvrde
+A16.8	inclusion	Tuberkuloza nazofarinksa NOS, bez bakteriološke i histološke potvrde
+A16.8	inclusion	Tuberkuloza nosa NOS, bez bakteriološke i histološke potvrde
+A16.8	inclusion	Tuberkuloza sinusnih šupljina, [bilo koje paranazalnog šupljine] NOS, bez bakteriološke i histološke potvrde
+A16.9	preferred	Tuberkuloza organa za disanje, bez bakteriološkog i histološkog ispitivanja, neoznačena
+A16.9	inclusion	Tuberkuloza respiratornih organa NOS
+A16.9	inclusion	Tuberkuloza NOS
+A17	preferred	Tuberkoloza nervnog sistema
+A17.0	preferred	Tuberkulozno zapaljenje moždanica, označeno kao G01
+A17.0	inclusion	Tuberkuloza moždanih ovojnica (mozga) (kičmene moždine)
+A17.0	inclusion	Tuberkulozno zapaljenje meke i paučinaste moždanice 
+A17.1	preferred	Tuberkulozni čvorić na moždanicama, označen pod G07
+A17.1	inclusion	Tuberkulozni čvorić moždanica
+A17.8	preferred	Ostale tuberkuloze nervnog sistema
+A17.8	inclusion	Tuberkulozni čvorić u mozgu, označen pod G07
+A17.8	inclusion	Tuberkulozni čvorić u kičmenoj moždini, označen pod G07
+A17.8	inclusion	Tuberkuloza mozga, označena pod G07
+A17.8	inclusion	Tuberkuloza kičmene moždine, označena pod G07
+A17.8	inclusion	Tuberkulozni absces mozga, označen pod G07
+A17.8	inclusion	Tuberkulozno zapaljenje mozga i moždanica, označeno pod G05.0
+A17.8	inclusion	Tuberkulozna upala kičmene moždine, označena pod G05.0
+A17.8	inclusion	Tuberkulozno oštećenje više živaca, označeno pod G99.8
+A17.9	preferred	Tuberkuloza nervnog sistema, neoznačena (G99.8)
+A18	preferred	Tuberkuloza drugih organa
+A18.0	preferred	Tuberkuloza kostiju i zglobova
+A18.0	inclusion	Tuberkuloza kuka, označena pod M01.1
+A18.0	inclusion	Tuberkuloza kolena, označena pod M01.1
+A18.0	inclusion	Tuberkuloza kičmenog stuba, označena pod M49.9
+A18.0	inclusion	Tuberkuloznni artritis, označen pod M01.1
+A18.0	inclusion	Tuberkulozna upala mastoidnog nastavka, označena pod H75.0
+A18.0	inclusion	Tuberkulozna nekroza koštanog tkiva, označena popd M90.0
+A18.0	inclusion	Tuberkulozna upala koštanog tkiva, označena pod M90.0
+A18.0	inclusion	Tuberkulozna upala kostiju i mišića, označena pod M90.0
+A18.0	inclusion	Tuberkulozna upala sinovijalnih opni, označena pod M68.0
+A18.0	inclusion	Tuberkulozna upala sinovijalnih opni i tetiva označena pod M68.0
+A18.1	preferred	Tuberkuloza mokraćno-polnog sistema
+A18.1	inclusion	Tuberkuloza mokraćne bešike, označena pod N33.0
+A18.1	inclusion	Tuberkuloza grlića materice, označena pod N74.0
+A18.1	inclusion	Tuberkuloza bubrega, označena pod N29.1
+A18.1	inclusion	Tuberkuloza muških polnih organa, označena pod N51
+A18.1	inclusion	Tuberkuloza mokraćovoda, označena pod N29.1
+A18.1	inclusion	Tuberkulozna zapaljenska bolest karlice kod žena, označena pod N74.1
+A18.2	preferred	Tuberkulozno oboljenje perifernih limfnih čvorova
+A18.2	inclusion	Tuberkulozna upala perifernih limfnih čvorova
+A18.2	exclusion	tuberkuloza limfnih čvorova u grudnom košu označena pod A15.4 i A16.3
+A18.2	exclusion	Tuberkuloza mezenteričnih i retroperitonealnih limfnih čvorova, označenih pod A18.3
+A18.2	exclusion	tuberkulozno oboljenje limfnih čvorova dušnika i dušnica označeno pod A15.4 i A16.3
+A18.3	preferred	Tuberkuloza crijeva, trbusne maramice i mezentričnih žlijezdi
+A18.3	inclusion	Tuberkuloza čmara i rektuma, označena pod K93.0
+A18.3	inclusion	Tuberkuloza crijeva (debolog) (tankog), označena pod K93.0
+A18.3	inclusion	Tuberkuloza retroperitonelanih limfnih čvorova
+A18.3	inclusion	tuberkulozni ascites
+A18.3	inclusion	Tuberkulozno zapaljenje tankog crijeva, označeno pod K93.0
+A18.3	inclusion	Tuberkulozna upala trbušne maramice, označena pod K67.3
+A18.4	preferred	Tuberkuloza kože i potkožnog tkiva
+A18.4	inclusion	Tuberkulozni indurirani eritem
+A18.4	inclusion	Nagrizajući Lupus
+A18.4	inclusion	Lupus vulgaris NOS
+A18.4	inclusion	Lupus vulgaris očnih kapaka, označen pod H03.1
+A18.4	inclusion	Skrofuloderma
+A18.4	exclusion	Eritematozni lupus, označen pod L93
+A18.4	exclusion	Sistemski eritematozni lupus, označen pod M32
+A18.5	preferred	Tuberkuloza oka
+A18.5	inclusion	Tuberkulozna upala sudovnjače i mrežnjače, označena pod H32.0
+A18.5	inclusion	Tuberkulozna upala površinskog sloja beonjače, označena pod H19.0
+A18.5	inclusion	Tuberkulozna upala intersticijuma rožnjače, označena pod H19.2
+A18.5	inclusion	Tuberkulozna upala dužice i cilijarnog tijela, označena pod H22.0
+A18.5	inclusion	Tuberkulozna upala rožnjače i vežnjače (intersticijalni) (čvorićasti), označen pod H19.2
+A18.5	exclusion	Lupus vulgaris očnoga kapka, označen pod A18.4
+A18.6	preferred	Tuberkuloza uva
+A18.6	inclusion	Tuberkulozna upala srednjeg uva, označena pod H67.0
+A18.6	exclusion	tuberkulozna upala mastoidnog nastavka, označena pod A18.0
+A18.7	preferred	Tuberkuloza nadbubreznih žlezda, označena pod E35.1
+A18.7	inclusion	Adisonova bolesti, tuberkuloznog porijekla
+A18.8	preferred	Tuberkuloza drugih označenih organa
+A18.8	inclusion	Tuberkuloza endokarda, označena pod I39.8
+A18.8	inclusion	Tuberkuloza srčanog mišića, označena pod I41.0
+A18.8	inclusion	Tuberkuloza jednjaka, označena pod K23.0
+A18.8	inclusion	Tuberkuloza srčane maramice, označena pod I32.0
+A18.8	inclusion	Tuberkuloza štitaste žlezde, označena pod E35.0
+A18.8	inclusion	Tuberkulozni arteritis moždanih arterija, označen pod I68.1
+A19	preferred	Rasijana tuberkuloza
+A19	inclusion	Raširena tuberkuloza
+A19	inclusion	Opšta tuberkuloza
+A19	inclusion	Tuberkulozna upala više seroznih ovojnica
+A19.0	preferred	Akutna rasijana tuberkuloza, označene lokalizacije
+A19.1	preferred	Akutna rasijana tuberkuloza, višestrukih lokalizacija
+A19.2	preferred	Akutna rasijana tuberkuloza, neoznačena
+A19.8	preferred	Druge rasijane tuberkuloze
+A19.9	preferred	Rasijana tuberkuloza, neoznačena
+A20-A28	preferred	Zoonoze izazvane bakterijama
+A20	preferred	Kuga
+A20	inclusion	Infekcija izazvana Yersinia-om pestis
+A20.0	preferred	Kuga čvorova prepona
+A20.1	preferred	Kuga kože
+A20.2	preferred	Kuga pluća
+A20.3	preferred	Zapaljenje moždanica uzrokovano kugom
+A20.7	preferred	Sepsa uzrokovana kugom
+A20.8	preferred	Drugi oblici kuge
+A20.8	inclusion	Abortivna kuga
+A20.8	inclusion	Asimptomatska kuga
+A20.8	inclusion	"Pestis minor"
+A20.9	preferred	Kuga, neoznačena
+A21	preferred	Tularemija - kuga glodara
+A21	inclusion	"Groznica jelenske muve"
+A21	inclusion	Infekcije izazvane sa Francisella tularensis
+A21	inclusion	"Zečija groznica"
+A21.0	preferred	Ulcerozna tularemija žlijezda
+A21.1	preferred	Tularemija žlijezda oka
+A21.1	inclusion	Tularemija oka
+A21.2	preferred	Tularemija pluća
+A21.3	preferred	Tularemija želuca i crijeva
+A21.3	inclusion	Stomačna tularemija
+A21.7	preferred	Generalizovana tularemija
+A21.8	preferred	Drugi oblici tularemije
+A21.9	preferred	Tularemija, neoznačena
+A22	preferred	Antraks - crni prišt
+A22	inclusion	Infekcija uzrokovana sa Bacillu anthracis
+A22.0	preferred	Antraks kože
+A22.0	inclusion	Maligni oblik antraksa: karbunkul
+A22.0	inclusion	Maligni oblik antraksa: pustula
+A22.1	preferred	Antraks pluća
+A22.1	inclusion	Inhalacioni antraks
+A22.1	inclusion	"Bolest krpara"
+A22.1	inclusion	"Bolest skupljača vune"
+A22.2	preferred	Antraks želuca i crijeva
+A22.7	preferred	Sepsa uzrokovana antraksom
+A22.8	preferred	Drugi oblici antraksa
+A22.8	inclusion	Antraksni meningitis, označen pod G01
+A22.9	preferred	Antraks, neoznačen
+A23	preferred	Bruceloza
+A23	inclusion	Malta groznica
+A23	inclusion	Mediteranska groznica
+A23	inclusion	Undulantna groznica
+A23.0	preferred	Bruceloza, uzročnik Brucella melitensis
+A23.1	preferred	Bruceloza, uzročnik Brucella abortus
+A23.2	preferred	Bruceloza, uzročnik Brucella suis
+A23.3	preferred	Bruceloza, uzročnik Brucella canis
+A23.8	preferred	Druge bruceloze
+A23.9	preferred	Bruceloza, neoznačena
+A24	preferred	Sakagija i melioidoza
+A24.0	preferred	Sakagija
+A24.0	inclusion	Infekcija, uzročnik Pseudomonas mallei
+A24.0	inclusion	Infekcija, uzročnik Burkholderia mallei
+A24.0	inclusion	Maleus
+A24.1	preferred	Akutna i perakutna melioidoza
+A24.1	inclusion	Meloidoza sa upalom pluća
+A24.1	inclusion	Meloidozna sepsa
+A24.2	preferred	Subakutna i hronična melioidoza
+A24.3	preferred	Druga melioidoza
+A24.4	preferred	Melioidoza, neoznačena
+A24.4	inclusion	Infekcija, uzročnik Pseudomonas pseudomallei NOS
+A24.4	inclusion	Infekcija, uzročnik Burkholderia pseudomallei NOS
+A24.4	inclusion	Whitmor-ova bolest
+A25	preferred	Groznica poslije ujeda miša
+A25.0	preferred	Spiriloza uzrokovana spirilama
+A25.0	inclusion	Sodoku (infekcija uzrokovana sa Spirillum minus / minor)
+A25.1	preferred	Streptobaciloza
+A25.1	inclusion	Epidemijski artritični eritem
+A25.1	inclusion	"Haverhil groznica"
+A25.1	inclusion	Streptobacilarna groznica nakon ujeda miša
+A25.9	preferred	Groznica poslije ujeda misa, neoznačena
+A26	preferred	Erizipeloid - oboljenje slično crvenom vjetru
+A26.0	preferred	Erizipeloid kože
+A26.0	inclusion	Šetajući eritem (Eritema migrans )
+A26.7	preferred	Erizipeloidna sepsa
+A26.8	preferred	Drugi oblici erizipeloida
+A26.9	preferred	Erizipeloid, neoznačen
+A27	preferred	Leptospiroza
+A27.0	preferred	Leptospiroza sa žuticom i krvarenjima
+A27.0	inclusion	Leptospiroza , uzročnik Leptospira interrogans serovarijanta icterohaemorrhagiae
+A27.8	preferred	Drugi oblici leptospiroze
+A27.9	preferred	Leptospiroza, neoznačena
+A28	preferred	Ostale bakterijske zoonoze, neklasifikovane na drugom mjestu
+A28.0	preferred	Pasteroloza
+A28.1	preferred	Bolest nakon ogreba mačke
+A28.1	inclusion	Groznica nakon ogreba mačke
+A28.2	preferred	Jersinioza, vancrijevna
+A28.2	exclusion	Zapaljenje tankog crijeva, uzročnik Yersinia enterocolitica označeno pod A04.6
+A28.2	exclusion	Kuga, označena pod A20.-
+A28.8	preferred	Druge označene zoonoze uzrokovane bakterijama, neklasifikovane na drugom mjestu
+A28.9	preferred	Bakterijska zoonoza, neoznačena
+A30-A49	preferred	Druge bolesti uzrokovane bakterijama
+A30	preferred	Guba - Hansen-ova bolest
+A30	inclusion	Infekcija sa Mycobacterium leprae
+A30	exclusion	Posljedice gube, označene pod B92.-
+A30.0	preferred	Guba, neodređena
+A30.0	inclusion	Guba I
+A30.1	preferred	Tuberkuloidna guba
+A30.1	inclusion	TT guba
+A30.2	preferred	Granicna tuberkuloidna guba
+A30.2	inclusion	BT guba
+A30.3	preferred	Granicna guba
+A30.3	inclusion	BB guba
+A30.4	preferred	Granicna lepromatozna guba
+A30.4	inclusion	BL guba
+A30.5	preferred	Lepromatozna guba
+A30.5	inclusion	LL guba
+A30.8	preferred	Drugi oblici gube
+A30.9	preferred	Guba, neoznačena
+A31	preferred	Infekcije izazvane uzrokovane ostalim mikobakterijama
+A31	exclusion	Guba, označena pod A30.-
+A31	exclusion	Tuberkuloza, označena od A15 do A19
+A31.0	preferred	Infekcija pluća uzrokovana mikobakterijama
+A31.0	inclusion	infekcije uzrokovane sa Mycobacterium avium
+A31.0	inclusion	infekcije uzrokovane sa Mycobacterium intracellulare [Battey-ev bacil]
+A31.0	inclusion	infekcije uzrokovane sa Mycobacterium kansasii
+A31.1	preferred	Infekcije kože uzrokovane mikobakterijama
+A31.1	inclusion	"Buruli-jev čir"
+A31.1	inclusion	Infekcije uzrokovane sa Mycobacterium marinum
+A31.1	inclusion	Infekcije uzrokovane sa Mycobacterium ulcerans
+A31.8	preferred	Druge infekcije uzrokovane mikobakterijama
+A31.9	preferred	Infekcija uzrokovana mikobakterijama, neoznačena
+A31.9	inclusion	Netipične infekcije mikobakterijama NOS
+A31.9	inclusion	Mikobakterioze NOS
+A32	preferred	Listerioza
+A32	inclusion	Listerioza uzrokovana konzumiranjem pokvarene hrane
+A32	exclusion	Novorođenačka (rasijana) listerioza, označena pod P37.2
+A32.0	preferred	Listerioza kože
+A32.1	preferred	Zapaljenje moždanica i moždanica sa mozgom uzrokovano listeriozom
+A32.1	inclusion	Listeriozna upala moždanica, označena pod G01
+A32.1	inclusion	Listeriozna upala moždanica i mozga, označena pod G05.0
+A32.7	preferred	Listeriozna sepsa
+A32.8	preferred	Drugi oblici listerioze
+A32.8	inclusion	Listeriozno zapaljenje moždanih arterija, označeno kao I68.1
+A32.8	inclusion	Listeriozni endokarditis, označen pod I39.8
+A32.8	inclusion	Listerioza žlijezda oka
+A32.9	preferred	Listerioza, neoznačena
+A33	preferred	Tetanus novorođenčeta
+A34	preferred	Porođajni tetanus
+A35	preferred	Drugi tetanus
+A35	inclusion	Tetanus, NOS
+A35	exclusion	Novorođenački tetanus, označen pod A33
+A35	exclusion	Porođajni tetanus, označen pod A34
+A36	preferred	Difterija
+A36.0	preferred	Difterija ždrijela
+A36.0	inclusion	Upala grla sa difteričnim membranama
+A36.0	inclusion	Difterija krajnika
+A36.1	preferred	Difterija nazofarinksa
+A36.2	preferred	Difterija grkljana
+A36.2	inclusion	Difterična upala grkljana i dušnika
+A36.3	preferred	Difterija kože
+A36.3	exclusion	Eritrazma, označena pod L08.1
+A36.8	preferred	Druga difterija
+A36.8	inclusion	Difterična upala vežnjače, označena pod H13.1
+A36.8	inclusion	Difterična upala srčanog mišića, označena pod I41.0
+A36.8	inclusion	Difterična upala više živaca, označena pod G63.0
+A36.9	preferred	Difterija, neoznačena
+A37	preferred	Veliki kašalj
+A37.0	preferred	Veliki kašalj, uzročnik Bordetella pertussis
+A37.1	preferred	Veliki kašalj, uzročnik Bordetella parapertussis
+A37.8	preferred	Veliki kašalj, uzročnik bordetella druge vrste
+A37.9	preferred	Veliki kašalj, neoznačen
+A38	preferred	Šarlah
+A38	inclusion	Šarlah
+A38	exclusion	Gušobolja izazvana streptokokama, označena pod J02.2
+A39	preferred	Infekcija uzrokovana meningokokom
+A39.0	preferred	Zapaljenje moždanica uzrokovano meningokokom, označeno kao G01
+A39.1	preferred	Sindrom Waterhouse - Friderichsen, označen pod E35.1
+A39.1	inclusion	Infekcija nadbubrežnih žljezda praćena krvarenjem u njih, izazvana meningokokom
+A39.1	inclusion	Nadbubrežni sindrom izazvan meningkokom
+A39.2	preferred	Akutna sepsa - trovanje uzrokovano meningokokom
+A39.3	preferred	Hronična sepsa - trovanje uzrokovano meningokokom
+A39.4	preferred	Sepsa - trovanje uzrokovano meningokokom, neoznačena
+A39.4	inclusion	Meningokokna bakteriemija NOS
+A39.5	preferred	Bolest srca uzrokovana meningokokom
+A39.5	inclusion	Upala srca uzrokovana meningokokom NOS, označena pod I52.0
+A39.5	inclusion	Upala endokarda uzrokovana meningokokom, označena pod I39.8
+A39.5	inclusion	Upala srčanog mišića uzrokovana menigokokom, označena pod I41.0
+A39.5	inclusion	Upala srčane maramice, uzrokovana menigokokom, označena pod I32.0
+A39.8	preferred	Druge infekcije uzrokovane meningokokom
+A39.8	inclusion	Meningokokni artritis, označen pod M01.0
+A39.8	inclusion	Meningokokna upala vežnjače oka, označena pod H13.1
+A39.8	inclusion	Meningokokna upala mozga, označena pod G05.0
+A39.8	inclusion	Meningokokno zapaljenje vidnog živca iza očne jabučice, označeno pod H48.1
+A39.8	inclusion	Post-meningokokni artritis, označen pod M03.0
+A39.9	preferred	Infekcija uzrokovana meningokokom, neoznačena
+A39.9	inclusion	Menigokokna bolest NOS
+A40	preferred	Sepsa uzrokovana streptokokom
+A40	exclusion	Tokom porođaja, označena pod O75.3
+A40	exclusion	Nakon abortusa ili prekida ektopične ili molarne trudnoće, označeno kao O03-O07, O08.0
+A40	exclusion	Nakon sprovođenja imunizacije, označeno kao T88.0
+A40	exclusion	Nakon davanja infuzije, transfuzije ili injekcije u sklopu terapije, označeno kao T80.2
+A40	exclusion	Sepsa novorođenčeta, označena od P36.0 - P36.1
+A40	exclusion	Nakon medicinske procedure, označena pod T81.4
+A40	exclusion	Babinjska, označena pod O85
+A40.0	preferred	Sepsa uzrokovana streptokokom grupe A
+A40.1	preferred	Sepsa uzrokovana streptokokom grupe A
+A40.2	preferred	Sepsa uzrokovana streptokokom grupe D
+A40.3	preferred	Sepsa uzrokovana sa Streptococcus pneumoniae
+A40.3	inclusion	Pneumokokna sepsa
+A40.8	preferred	Druge sepse uzrokovane streptokokom
+A40.9	preferred	Sepsa uzrokovana streptokokom, neoznačena
+A41	preferred	Druge sepse
+A41	exclusion	Bakteriemija NOS, označena pod A49.9
+A41	exclusion	tokom porođaja, označena pod O75.3
+A41	exclusion	nakon abortusa ili prekida ektopične ili molarne trudnoće, označeno kao O03-O07, O08.0
+A41	exclusion	nakon sprovođenja imunizacije, označeno kao T88.0
+A41	exclusion	nakon davanja infuzije, transfuzije ili injekcije u sklopu terapije, označeno kao T80.2
+A41	exclusion	sepsa (usljed) (u sklopu) aktinomikozne infekcije, označena pod A42.7
+A41	exclusion	sepsa (usljed) (u sklopu) antraksne infekcije, označena pod A22.7
+A41	exclusion	sepsa (usljed) (u sklopu) kandidijaze, označena pod A37.7
+A41	exclusion	sepsa (usljed) (u sklopu) erizipela, označena pod A26.7
+A41	exclusion	sepsa (usljed) (u sklopu) van crijevne jersinioze, označena pod A28.2
+A41	exclusion	sepsa (usljed) (u sklopu) gonokokne infekcije, označena pod A54.8
+A41	exclusion	sepsa (usljed) (u sklopu) infekcije sa herpes virusima, označena pod A00.7
+A41	exclusion	sepsa (usljed) (u sklopu) listerioze, označena pod A32.7
+A41	exclusion	sepsa (usljed) (u sklopu) meningokokoze, označena od A39.2 - A39.4
+A41	exclusion	sepsa (usljed) (u sklopu) nakon rođenja, označena pod P36.-
+A41	exclusion	sepsa (usljed) (u sklopu) medicinske procedure, označena pod T81.4
+A41	exclusion	sepsa (usljed) (u sklopu) babinja, označena pod O85
+A41	exclusion	sepsa (usljed) (u sklopu) streptokokoze, označena pod A40.-
+A41	exclusion	sepsa (usljed) (u sklopu) tularemije, označena pod A21.7
+A41	exclusion	septična meliodoza, označena pod A24.1
+A41	exclusion	septična kuga, označena pod A20.7
+A41	exclusion	sindrom toksičnog šoka, označen pod A48.3
+A41.0	preferred	Sepsa, uzročnik Staphilococcus aureus
+A41.1	preferred	Sepsa koju uzrokuje drugi označeni stafilokok
+A41.1	inclusion	Sepsa koju uzrokuje koagulaza negativni stafilokok
+A41.2	preferred	Sepsa uzrokovana neoznačenim stafilokokom
+A41.3	preferred	Sepsa, uzročnik Haemophilius influenzae
+A41.4	preferred	Sepsa uzrokovana anaerobnim bacilima
+A41.4	exclusion	Gasna gangrena, označena pod A48.0
+A41.5	preferred	Sepsa uzrokovana drugim gram-negativnim organizmima
+A41.5	inclusion	Gram-negativna sepsa NOS
+A41.8	preferred	Druga označena sepsa
+A41.9	preferred	Sepsa, neoznačena
+A41.9	note	Potrebno je koristiti dodatnu šifru (R57.2) radi označavanja septičkog šoka
+A41.9	inclusion	Septički šok
+A41.9	inclusion	septikemija
+A42	preferred	Aktinomikoza
+A42	exclusion	Aktinomicetoma, označena pod B47.1
+A42.0	preferred	Aktinomikoza pluća
+A42.1	preferred	Aktinomikoza trbušnih organa
+A42.2	preferred	Aktinomikoza vrata i lica
+A42.7	preferred	Sepsa uzrokovana aktinomicesom
+A42.8	preferred	Drugi oblici aktinomikoze
+A42.9	preferred	Aktinomikoza, neoznačena
+A43	preferred	Nokardioza
+A43.0	preferred	Nokardioza pluća
+A43.1	preferred	Nokardioza kože
+A43.8	preferred	Drugi oblici nokardioze
+A43.9	preferred	Nokardioza, neoznačena
+A44	preferred	Bartoneloza
+A44.0	preferred	Sistematska bartoneloza
+A44.0	inclusion	"Oroya groznica"
+A44.1	preferred	Bartoneloza kože i sluznica
+A44.1	inclusion	"Peruanske bradavice"
+A44.8	preferred	Drugi oblici bartoneloze
+A44.9	preferred	Bartoneloza, neoznačena
+A46	preferred	Crveni vjetar
+A46	exclusion	Nakon porođaja ili babinja, označen pod O86.8
+A48	preferred	Ostale bakterijske bolesti, neklasifikovane na drugom mjestu
+A48	exclusion	Aktinomicetom, označen pod B47.1
+A48.0	preferred	Gasna gangrena
+A48.0	inclusion	Celulitis uzrokovan klostridijama
+A48.0	inclusion	Nekroza mišića uzrokovana klostridijama
+A48.1	preferred	Legioneloza, "legionarska bolest"
+A48.2	preferred	Legioneloza lokalizovana izvan pluća, [Pontijačka groznica]
+A48.3	preferred	Toksični šokni sindrom
+A48.3	exclusion	Endotoksični šok NOS, označen pod R57.8
+A48.3	exclusion	Sepsa NOS, označena pod A41.9
+A48.4	preferred	Brazilska osipna groznica
+A48.4	inclusion	Sistemaska infekcija uzrokovana sa Haemophilus aegyptius
+A48.8	preferred	Druge označene bakterijske bolesti
+A49	preferred	Bakterijske infekcije neoznačene lokalizacije
+A49	exclusion	Bakterije kao uzročnici drugih bolesti koje su klasifikovane u  odjeljcima B95 - B96
+A49	exclusion	Infekcije uzrokovane hlamidijama NOS, označene pod A74.9
+A49	exclusion	Infekcije uzrokovane meningokokom NOS, označene pod A39.9
+A49	exclusion	Infekcije uzrokovane rikecijama NOS, označene pod A79.9
+A49	exclusion	Infekcije uzrokovane spirohetama NOS, označene pod A69.9
+A49.0	preferred	Infekcija  neoznačene lokalizacije uzrokovana stafilokokom
+A49.1	preferred	Infekcija neoznačene lokalizacije uzrokovana streptokokom
+A49.2	preferred	Infekcija neoznačene lokalizacije uzročnik haemophilius influenzae
+A49.3	preferred	Infekcija neoznačene lokalizacije uzrokovana mikoplazmom
+A49.8	preferred	Druge infekcije neoznačene lokalizacije uzrokovane bakterijama
+A49.9	preferred	Infekcija uzrokovana bakterijama, neoznačena
+A49.9	inclusion	Bakteriemija NOS
+A50-A64	preferred	Bolesti koje se prenose pretežno polnim odnosom
+A50-A64	exclusion	Bolest izazvana virusom humane imunodeficijencije [HIV], označen pod B20-B24
+A50-A64	exclusion	Nespecifična i negonokokna upala mokraćne cijevi, označen pod N34.1
+A50-A64	exclusion	Reiter-ova bolest, označena pod M2.3
+A50	preferred	Urođeni sifilis
+A50.0	preferred	Rani urođeni simptomatski sifilis
+A50.0	text	Bilo koje urođeno sifilisno stanje, označeno kao rano ili manifestovano tokom prve dve godine života rođenja
+A50.0	inclusion	Rani urođeni sifilis sa kožnim manifestacijama
+A50.0	inclusion	Rani urođeni sifilis sa kožnim i sluzokožnim manifestacijama
+A50.0	inclusion	Rani urođeni sifilis sa manifestacijama na organima
+A50.0	inclusion	Rani urođeni sifilis sa manifestacijama na grkljanu
+A50.0	inclusion	Rani urođeni sifilis sa poremećajima oka
+A50.0	inclusion	Rani urođeni sifilis sa poremećajima kostiju i hrskavice
+A50.0	inclusion	Rani urođeni sifilis sa manifestacijama na ždrijelu
+A50.0	inclusion	Rani urođeni sifilis sa upalom pluća
+A50.0	inclusion	Rani urođeni sifilis sa upalom sluzokože nosa
+A50.1	preferred	Rani urođeni latentni sifilis
+A50.1	text	Urođeni sifilis bez kliničkih manifestacija u prve dve godine života sa pozitivnom serološkom reakcijom i negativnom reakcijom u likvoru
+A50.2	preferred	Rani urođeni sifilis, neoznačen
+A50.2	text	Urođeni sifilis NOS u prve dve godine života
+A50.3	preferred	Pozno sifilisno urođeno oboljenje oka
+A50.3	inclusion	Pozna sifilisna urođena upala intersticijuma rožnjače, označena pod H19.2
+A50.3	inclusion	Pozno sifilisno urođeno oboljenje oka NEC, označeno pod H58.8
+A50.3	exclusion	Hačinsonov trijas, označen pod A50.5
+A50.4	preferred	Pozni urođeni neurosifilis (mladalacki neurosifilis)
+A50.4	inclusion	Mladalačka demencija sa paralizom
+A50.4	inclusion	Opšta mladalačka neurološka slabost (pareza)
+A50.4	inclusion	Mladalački tabes dorsalis
+A50.4	inclusion	Mladalački neurosifilis sa taboparezom
+A50.4	inclusion	Pozni urođeni sifilis sa upalom mozga, označen pod G05.0
+A50.4	inclusion	Pozni urođeni sifilis sa upalom moždanica, označen pod G01
+A50.4	inclusion	Pozni urođeni sifilis sa upalom više živaca, označenom pod G63.0
+A50.4	coding-hint	Po potrebi se mogu koristiti dodatne šifre kako bi se identifikovali mentalni poremećaji.
+A50.4	exclusion	Hačinsonov trijas, označen pod A50.5
+A50.5	preferred	Drugi pozni urođeni simptomatski sifilis
+A50.5	text	Bilo koje urođeno sifilisno stanje, označeno kao pozno ili manifestovano dvije ili više godina posle rođenja
+A50.5	inclusion	Klatonovi zglobovi, označeni pod M03.1
+A50.5	inclusion	Hačinsonovi zubi
+A50.5	inclusion	Hačinsonov trijas
+A50.5	inclusion	Pozni urođeni sifilis srca i krvnih sudova, označen pod I98.0
+A50.5	inclusion	pozni urođeni sifilis sa oboljenjem zglobova, označeno pod M03.1 
+A50.5	inclusion	pozni urođeni sifilis sa poremećajima kostiiju i hrskavice, označene pod M90.2
+A50.5	inclusion	Sifilitični sedlasti nos
+A50.6	preferred	pozni urođeni latentni sifilis
+A50.6	text	Urođeni sifilis bez kliničkih manifestacija, sa pozitivnom serološkom reakcijom i negativnom reakcijom likvora, dvije ili više godina nakon rođenja
+A50.7	preferred	pozni urođeni sifilis, neoznačen
+A50.7	text	Urođeni sifilis NOS, dvije ili više godina nakon rođenja
+A50.9	preferred	Urođeni sifilis, neoznačen
+A51	preferred	Svježi sifilis
+A51.0	preferred	Primarni sifilis polnih organa
+A51.0	inclusion	Sifilitični šankr NOS
+A51.1	preferred	Primarni sifilis čmara
+A51.2	preferred	Primarni sifilis drugih lokalizacija
+A51.3	preferred	Sekundarni sifilis kože i sluznica
+A51.3	inclusion	Kondilomata lata - genitalni kondilomi
+A51.3	inclusion	Sifilitični nedostatak kose (alopecija), označena pod L99.8
+A51.3	inclusion	Sifilitični gubitak pigmentacije kože (leukodermija) označena pod L99.8
+A51.3	inclusion	Sifilitični plak na sluzokoži
+A51.4	preferred	Ostali sekundarni sifilis
+A51.4	inclusion	Sekundarni sifilis sa zapaljenskom bolešću karlice kod žena, označenom pod N74.2
+A51.4	inclusion	Sekundarni sifilis sa upalom dužice i cilijarnog tijela, označenom pod H22.0
+A51.4	inclusion	Sekundarni sifilis sa oboljenjem limfnih čvorova
+A51.4	inclusion	Sekundarni sifilis sa zapaljenjem moždanica, označenim pod G01
+A51.4	inclusion	Sekundarni sifilis sa upalom mišića, označenom pod M63.0
+A51.4	inclusion	Sekundarni sifilis sa poremećajima oka NEC, označenim pod H58.8
+A51.4	inclusion	Sekundarni sifilis sa upalom periosta, označenom pod M90.1
+A51.5	preferred	Rani latentni sifilis
+A51.5	text	Sifilis (stečeni) bez kliničkih manifestacija, sa pozitivnom serološkom reakcijom i negativniom reakcijom likvora do dvije godine nakon infekcije.
+A51.9	preferred	Svježi sifilis, neoznačen
+A52	preferred	Pozni sifilis
+A52.0	preferred	Sifilis srca i krvnih sudova
+A52.0	inclusion	Sifilis srca i krvnih sudova NOS, označen pod I98.0
+A52.0	inclusion	Sifilitična aneurizma aorte, označena pod I79.0
+A52.0	inclusion	Sifilisom uzrokovana nesposobnost aortne valvule, označena pod I39.1
+A52.0	inclusion	Sifilitično zapaljenje aorte, označeno pod I79.1
+A52.0	inclusion	Sifilitično zapaljenje arterija mozga, označeno pod I68.1
+A52.0	inclusion	Sifilitično zapaljenje endokarda NOS, označeno pod I39.8
+A52.0	inclusion	Sifilitično zapaljenje srčanog mišića, označeno pod I41.0
+A52.0	inclusion	Sifilitično zapaljenje srčane maramice, označeno pod I32.0
+A52.0	inclusion	Sifilisom uzrokovana regurgitacija na zaliscima plućne arterije , označena pod I39.3
+A52.1	preferred	Simptomatski neurosifilis
+A52.1	inclusion	Šarkotovo oboljenje zgloba
+A52.1	inclusion	Pozni sifilis sa zapaljenjem slušnog živca, označen pod H94.0
+A52.1	inclusion	Pozni sifilis sa zapaljenjem mozga, označen po G05.0
+A52.1	inclusion	Pozni sifilis sa zapaljenjem moždanica, označen pod G01
+A52.1	inclusion	Pozni sifilis sa atrofijom vidnog živca, označen pod H48.0
+A52.1	inclusion	Pozni sifilis sa oboljenjem više živaca, označen pod G63.0
+A52.1	inclusion	Pozni sifilis sa zapaljenjem vidnog živca iza jabučice oka, označen pod H48.1
+A52.1	inclusion	Sifilitični parkinsonizam, klasifikovan pod G22
+A52.1	inclusion	Tabes dorzalis
+A52.2	preferred	Asimptomatski neurosifilis
+A52.3	preferred	Neurosifilis, neoznačen
+A52.3	inclusion	Sifilitične gume centralnog nervnog sistema NOS
+A52.3	inclusion	Sifilis (pozni) centralnog nervnog sistema NOS
+A52.3	inclusion	Sifilom centralnog nervnog sistema NOS
+A52.7	preferred	Drugi pozni simptomatski sifilis
+A52.7	inclusion	Oboljenje glomerula bubrega u sifilisu, označeno pod N08.0
+A52.7	inclusion	Sifilitične gume bilo koje lokalizacije, osim onih klasifikovanih od A52.0 do A52.3
+A52.7	inclusion	Pozni ili tercijarni sifilis bilo koje lokalizacije, osim onih klasifikovanih od A52.0 do A52.3
+A52.7	inclusion	Pozni sifilis sa zapaljenjem seroznih kesa (Sifilitični burzitis), klasifikovan pod M73.1
+A52.7	inclusion	Pozni sifilis sa zapaljenjem dužice i cilijarnog tijela, klasifikovanim pod H32.0
+A52.7	inclusion	Pozni sifilis sa površinskim zapaljenjem beonjače, klasifikovanim pod H19.0
+A52.7	inclusion	Pozni sifilis sa zapaljenskom bolešću karlice kod žena, označenom pod N74.2
+A52.7	inclusion	Pozni sifilis sa gubitkom pigmentacije kože (leukodermija) označenim pod L99.8
+A52.7	inclusion	Pozni sifilis sa poremećajima oka NEC, klasifikovanim pod H58.8
+A52.7	inclusion	Pozni sifilis sa zapaljenjem trbušne maramice, označenim pod K67.2
+A52.7	inclusion	Sifilis [neoznačene faze] kosti, klasifikovan pod M90.2
+A52.7	inclusion	Sifilis [neoznačene faze] jetre, klasifikovan pod K77.0
+A52.7	inclusion	Sifilis [neoznačene faze] pluća, klasifikovan pod J99.8
+A52.7	inclusion	Sifilis [neoznačene faze] mišića, klasifikovan pod M63.0
+A52.7	inclusion	Sifilis [neoznačene faze] sinovijalnih ovojnica, klasifikovan pod M68.0
+A52.8	preferred	Pozni latentni sifilis
+A52.8	text	Sifilis (stečeni) bez kliničkih manifestacija, sa pozitivnom serološkom reakcijom i negativnom reakcijom likvora, dvije ili više godina nakon infekcije
+A52.9	preferred	Pozni sifilis, neoznačen
+A53	preferred	Drugi i neoznačeni sifilis
+A53.0	preferred	Latentni sifilis, neoznačen pod rani ili pozni
+A53.0	inclusion	Latentni sifilis NOS
+A53.0	inclusion	Pozitivna serološka reakcija na sifilis
+A53.9	preferred	Sifilis, neoznačen
+A53.9	inclusion	Infekcija uzrokovana sa Treponema pallidum NOS
+A53.9	inclusion	Sifilis (stečeni) NOS
+A53.9	exclusion	Sifilis NOS koji dovodi do smrti u uzrastu ispod dvije godine, klasifikovan pod A50.2
+A54	preferred	Infekcija gonokokom
+A54.0	preferred	Infekcija gonokokom donjeg dijela polno-mokraćnih puteva bez apscesa oko mokraćne cijevi i bez apscesa pomoćnih žlijezda
+A54.0	inclusion	Gonokokno zapaljenje grlića materice NOS
+A54.0	inclusion	Gonokokno zapaljenje mokraćne bešike NOS
+A54.0	inclusion	Gonokokno zapaljenje mokraćne cevi NOS
+A54.0	inclusion	Gonokokno zapaljenje stidnice i vagine NOS
+A54.0	exclusion	Apsces genito-urinarnih žlijezda, označen pod A54.1
+A54.0	exclusion	Apsces oko mokraćne cijevi, označen pod A54.1
+A54.1	preferred	Gonokokna infekcija donjeg dijela polno-mokraćnih puteva sa apscesom oko mokraćne cijevi i apscesom akcesornih žlijezda
+A54.1	inclusion	Gonokokni apsces Bartolinijeve žlijezde
+A54.2	preferred	Zapaljenja trbušne maramice karlice i druge infekcije polno-mokraćnih puteva uzrokovane gonokokom
+A54.2	inclusion	Gonokokno zapaljenje pasemenika označeno pod N51.1
+A54.2	inclusion	Gonokokom izazvana zapaljenska bolest karlice kod žena, označena pod N74.3
+A54.2	inclusion	Gonokokno zapaljenje testisa, označena pod N51.1
+A54.2	inclusion	Gonokokno zapaljenje prostate, označeno pod N51.0
+A54.2	exclusion	Gonokokno zapaljenje trbušne maramice, označeno pod A54.8
+A54.3	preferred	Gonokokna infekcija oka
+A54.3	inclusion	Gonokokno zapaljenje vežnjače, označeno pod H13.1
+A54.3	inclusion	Gonokokna upala dužice i cilijarnog tijela, označena pod H22.0
+A54.3	inclusion	Novorođenačko zapaljenje oka izazvano gonokokom
+A54.4	preferred	Infekcija misicno-skeletnog sistema izazvana gonokokom
+A54.4	inclusion	Gonokokna upala zgloba, označena pod M01.3
+A54.4	inclusion	Gonokokna upala serozne kese uzrokovano gonokokom, označena pod M73.0
+A54.4	inclusion	Gonokokna upala kostiju i mišića, označena pod M90.2
+A54.4	inclusion	Gonokokna upala sinovijalnih ovojnica, označena pod M68.0
+A54.4	inclusion	Gonokokna upala tetiva i sinovijalnih ovojnica, označena pod M68.0
+A54.5	preferred	Zapaljenje ždrijela uzrokovano gonokokom
+A54.6	preferred	Infekcija cmara i pravog crijeva uzrokovana gonokokom
+A54.8	preferred	Druge infekcije gonokokom
+A54.8	inclusion	Gonokokni apsces mozga,označen pod G07
+A54.8	inclusion	Gonokokno zapaljenje endokarda, označeno pod I39.8
+A54.8	inclusion	Gonokokno zapaljenje moždanica, označeno pod G01
+A54.8	inclusion	Gonokokno zapaljenje srčanog mišića, označena pod I41.0
+A54.8	inclusion	Gonokokno zapaljenje srčane maramice, označena pod I32.0
+A54.8	inclusion	Gonokokno zapaljenje trbušne maramice, označeno pod K67.1
+A54.8	inclusion	Gonokokna upala pluća, označena pod J17.0
+A54.8	inclusion	Gonokokna sepsa
+A54.8	inclusion	Gonokokom uzrokovane promjene na koži
+A54.8	exclusion	Gonokokom uzrokovano zapaljenje trbušne maramice i organa karlice, označeno pod A54.2
+A54.9	preferred	Infekcija gonokokom, neoznačena
+A55	preferred	Hlamidijski (venerični) limfogranulom
+A55	inclusion	Klimatski ili tropski bubo
+A55	inclusion	Durand-Nikolas-Favrova bolest
+A55	inclusion	Estiomena
+A55	inclusion	Ingvinalni limfogranulom
+A56	preferred	Ostale polno prenosive bolesti uzrokovane hlamidijom 
+A56	inclusion	Polno prenosive bolesti uzrokovane sa Chlamydia trachomatis
+A56	exclusion	Hlamidijalni limfogranulom, klasifikovan pd A55
+A56	exclusion	Hlamidijalna novorođenačka upala konjuktive oka, označena pod P39.1
+A56	exclusion	Hlamidijalna novorođenačka upala pluća, označena pod P23.1
+A56	exclusion	Stanja označena pod A74.-
+A56.0	preferred	Infekcija donjih mokraćno-polnih puteva uzrokovana hlamidijom
+A56.0	inclusion	Hlamidijalna upala grlića materice
+A56.0	inclusion	Hlamidijalna upala mokraćne bešike
+A56.0	inclusion	Hlamidijalna upala mokraćne cijevi
+A56.0	inclusion	Hlamidijalna upala stidnice i vagine
+A56.1	preferred	Infekcija trbušne maramce karlice i drugih mokraćno-polnih organa uzrokovana hlamidijom
+A56.1	inclusion	Hlamidijalna upala pasemenika, označena pod N51.1
+A56.1	inclusion	Hlamidijalna zapaljenska bolest karlice kod žena, označena pod N74.4
+A56.1	inclusion	Hlamidijalna upala testisa, označena pod N51.1
+A56.2	preferred	Infekcija mokraćno-polnih organa uzrokovana hlamidijom, neoznačena
+A56.3	preferred	Infekcija čmara i rektuma uzrokovana hlamidijom
+A56.4	preferred	Infekcija ždrijela uzrokovana hlamidijom
+A56.8	preferred	Infekcija  drugih lokalizacija prenijeta polnim odnosom, uzrokovana hlamidijom
+A57	preferred	Šankroid
+A57	inclusion	Meki šankr
+A58	preferred	Zrnasti tumor prepone
+A58	inclusion	Donovanioza
+A59	preferred	Trihomonijaza
+A59	exclusion	Crijevna trihomonijaza, označena pod A07.8
+A59.0	preferred	Trihomonijaza polno-mokracnog sistema
+A59.0	inclusion	Vaginalna leukoreja (bijelo pranje) uzrokovano sa Trichomonas (vaginalis)
+A59.0	inclusion	Upala prostate označena pod N51.0 uzrokovana sa Trichomonas-om (vaginalis)
+A59.8	preferred	Trihomonijaza drugih lokalizacija
+A59.9	preferred	Trihomonijaza, neoznačena
+A60	preferred	Anogenitalna infekcija uzrokovana virusom herpesa
+A60.0	preferred	Infekcija polnih organa i mokraćno-polnog sistema uzrokovana virusom herpesa
+A60.0	inclusion	Infekcija polnih organa žene uzrokovana virusom herpesa, označena pod N77.0 - N77.1
+A60.0	inclusion	Infekcija polnih organa muškarca uzrokovana virusom herpesa, označena pod N51.-
+A60.1	preferred	Infekcija rektuma i kože okoline čmara uzrokovana virusom herpesa
+A60.9	preferred	Anogenitalna infekcija uzrokovana virusom herpesa, neoznačena
+A63	preferred	Ostale bolesti koje se pretežno prenose polnim odnosom, neklasifikovane na drugom mjestu
+A63	exclusion	Zarazna peteljkasta bradavica (molluscum contagiosum), označena pod B08.1
+A63	exclusion	Papilom grlića materice, klasifikovan pod D26.0
+A63.0	preferred	Anogenitalne (venerične) bradavice
+A63.8	preferred	Druge označene bolesti koje se pretežno prenosepolnim odnosom
+A64	preferred	Neoznačena bolest prenijeta polnim odnosom
+A64	inclusion	Venerična bolest NOS
+A65-A69	preferred	Druge bolesti uzrokovane spirohetama
+A65-A69	exclusion	Lepotospiroze, klasifikovane pod A27.-
+A65-A69	exclusion	Sifilis, klasifikovan od A50 do A53
+A65	preferred	Sifilis van polnih organa
+A65	inclusion	"Bejel"
+A65	inclusion	Endemski sifilis
+A65	inclusion	"Njovera"
+A66	preferred	Frambezijaze, uzročnik Treponaema pertenius
+A66	inclusion	Bouba
+A66	inclusion	Frambezija (tropska)
+A66	inclusion	Pian
+A66.0	preferred	Početne lezije kod frambezije
+A66.0	inclusion	Frambezijazni šankr
+A66.0	inclusion	Početna ili primarna frambezija
+A66.0	inclusion	Početai frambezijazna grizlica (ulcer)
+A66.0	inclusion	Frambezija majke
+A66.1	preferred	Višestruki papilomi i vlažne grizlice kod frambezije
+A66.1	inclusion	Frambeziom
+A66.1	inclusion	Pianom
+A66.1	inclusion	Papilomi šaka i stopala u sklopu frambezije
+A66.2	preferred	Druga rana oštećenja kože kod frambezije
+A66.2	inclusion	Kožna frambezija manifestovana manje od pet godina nakon infekcije
+A66.2	inclusion	Rana frambezija (kožna) (makularna) (makulopapularna) (mikropapularna) (papularna)
+A66.2	inclusion	Frambezid u sklopu rane frambezije
+A66.3	preferred	Hiperkeratoza uzrokovana frambezijom
+A66.3	inclusion	"demonska" ruka
+A66.3	inclusion	Hiperkeratoza šaka i stopala (rana) (kasna) kod frambezije
+A66.3	inclusion	"crvotočna" stopala
+A66.4	preferred	Gûme i grizlice kod frambezije
+A66.4	inclusion	Gumatozni frambezid
+A66.4	inclusion	Kasna čvorasta frambezija (sa grizlicama)
+A66.5	preferred	Unakaženost nosa i ždrijela kod frambezije
+A66.5	inclusion	Mutilantna upala nosa i ždrijela
+A66.6	preferred	Lezije kostiju i zglobova kod frambezije
+A66.6	inclusion	Čvor kod frambezije (rane) (kasne)
+A66.6	inclusion	Nakupljanje tečnosti u zglobovima kod frambezije (rane) (kasne)
+A66.6	inclusion	Upala kostiju kod frambezije (rane) (kasne)
+A66.6	inclusion	Upala periosta kosti (hipertrofijska) kod frambezije (rane) (kasne)
+A66.6	inclusion	Gundo kod frambezije (kasne)
+A66.6	inclusion	Gûme kod frambezije (kasne)
+A66.6	inclusion	Gumatozna inflamacija kosti i periosta kod frambezije (kasne)
+A66.7	preferred	Druge manifestacije frambezije
+A66.7	inclusion	Okolo zglobni čvorići kod frambezije
+A66.7	inclusion	Frabezijaza sluznica
+A66.8	preferred	Latentna frambezija
+A66.8	inclusion	frambezija bez kliničkih manifestacija, sa pozitivnim serološkim nalazom
+A66.9	preferred	Frambezija, neoznačena
+A67	preferred	Pinta
+A67.0	preferred	Primarne lezije pinte
+A67.0	inclusion	Šankr (primarni) u sklopu pinte
+A67.0	inclusion	Papula (primarna) u sklopu pinte
+A67.1	preferred	Periodične lezije pinte
+A67.1	inclusion	Eritematozni plakovi u sklopu pinte
+A67.1	inclusion	Hiperhromne lezije u sklopu pinte
+A67.1	inclusion	Hiperkeratoza u sklopu pinte
+A67.1	inclusion	Pintide
+A67.2	preferred	Kasna oštećenja u sklopu pinte
+A67.2	inclusion	Oštećenja srca i krvnih sudova, označeno pod I98.1
+A67.2	inclusion	Oštećenja kože, gubitak prebojenosti u sklopu pinte
+A67.2	inclusion	Oštećenja kože, ožiljavanje u sklopu pinte
+A67.2	inclusion	Oštećenja kože, promjena prebojenosti u sklopu pinte
+A67.3	preferred	Mješovite lezije pintu sklopu pinte
+A67.3	inclusion	Gubitak prebojenosti zajedno sa pojačanom prebojenošću kožnih oštećenja u sklopu pinte
+A67.9	preferred	Pinta, neoznačena
+A68	preferred	Povratna groznica
+A68	inclusion	Rekurentna groznica
+A68	exclusion	Lajmska bolest, označena pod A69.2
+A68.0	preferred	Povratna groznica uzrokovana vašima
+A68.0	inclusion	Povratna groznica izazvana sa Borrelia recurrentis
+A68.1	preferred	Povratna groznica uzrokovana krpeljima
+A68.1	inclusion	Povratna groznica izazvana bilo kojim sojem Borrelia osim Borrelia recurrentis
+A68.9	preferred	Povratna groznica, neoznačena
+A69	preferred	Druge infekcije spirohetama
+A69.0	preferred	Ulcerozno-nekrotičko zapaljenje sluznice usta
+A69.0	inclusion	
+A69.0	inclusion	Fuzospirohetalna gangrena
+A69.0	inclusion	Noma
+A69.0	inclusion	Gangrenozna upala sluzokože usta
+A69.1	preferred	Druge infekcije izazvane spirohetom Vincent
+A69.1	inclusion	Fuzospirohetalna upala ždrijela
+A69.1	inclusion	Nekrotizirajuća ulcerativna (akutna) upala sluzokože desni
+A69.1	inclusion	Nekrotizirajuća ulcerativna (akutna) upala sluzokože desni i usta
+A69.1	inclusion	Spirohetama iazvana upala sluzokože usta
+A69.1	inclusion	"Rovovska usta"
+A69.1	inclusion	Upala grla (angina) uzrokovana spirohetom Vincent
+A69.1	inclusion	Upala desni uzrokovana spirohetom Vincent
+A69.2	preferred	Lajmska bolest
+A69.2	inclusion	Hronični migratorni (šetajući) eritem usled infekcije sa Borrelia burgdorferi
+A69.8	preferred	Druge označene infekcije uzrokovane spirohetama
+A69.9	preferred	Infekcija uzrokovana spirohetom, neoznačena
+A70-A74	preferred	Druge bolesti uzrokovane hlamidijama
+A70	preferred	Hlamidijaza, uzročnik Chalamydia psittaci
+A70	inclusion	Ornitoza
+A70	inclusion	Papagajska groznica
+A70	inclusion	Psitakoza
+A71	preferred	Trahom
+A71	exclusion	posljedice trahoma, označene pod B94.0
+A71.0	preferred	Početni trahom
+A71.0	inclusion	
+A71.1	preferred	Aktivni trahom
+A71.1	inclusion	Granularna (trahomatozna) upala vežnjače 
+A71.1	inclusion	Trahomatozna upala vežnjače sa mjehurićima
+A71.1	inclusion	Trahomatozni panus
+A71.9	preferred	Trahom, neoznačen
+A74	preferred	Druge hlamidijaze
+A74	exclusion	Hlamidijalna upala pluća, označena pod J16.0
+A74	exclusion	Novorođenačka upala vežnjače izazvana hlamidijom, označena pod P39.1
+A74	exclusion	Novorođenačka upala pluća izazvana hlamiđom, označena pod P23.1
+A74	exclusion	Seksualnim odnosom prenosive hlamidijalne bolesti, označena pod A55-A56
+A74.0	preferred	Zapaljenje vežnjače uzrokovano hlamidijom, označeno pod H13.1
+A74.0	inclusion	Paratrahom
+A74.8	preferred	Druge bolesti uzrokovane hlamidijom
+A74.8	inclusion	Hlamidijalna upala trbušne maramice, označena pod K67.0
+A74.9	preferred	Infekcija uzrokovana hlamidijom, neoznačena
+A74.9	inclusion	Hlamidijaza NOS
+A75-A79	preferred	Rikecioze - bolesti koje se prenose artropodama
+A75	preferred	Pjegavac - tifusna groznica
+A75	exclusion	Rikecioza uzrokovana sa Ehrichia sennetsu, označena pod A79.8
+A75.0	preferred	Pjegavi tifus -  tifusna groznica koju prenose vaši, uzročnik Rickettsia prowazeki
+A75.0	inclusion	Klasični pjegavac (tifusna groznica)
+A75.0	inclusion	Epidemijski (koji prenose vaši) tifus
+A75.1	preferred	"Brill-ova bolest" - povratni tifus
+A75.1	inclusion	"Bril-Zinserova bolest"
+A75.2	preferred	Pjegavac, uzročnik Rickettsia typhi
+A75.2	inclusion	Murini (koji prenose buve) tifus 
+A75.3	preferred	Pjegavac, uzročnik Rickettsia tsutsugamushi
+A75.3	inclusion	Skrab (koji prenose gnjide) tifus
+A75.3	inclusion	Tsutsumaguši groznica
+A75.9	preferred	Pjegavac, neoznačen
+A75.9	inclusion	Tifus (groznica) NOS
+A77	preferred	Osipna groznica [rikecioze koje prenose krpelji]
+A77.0	preferred	Osipna groznica, uzročnik Rickettsia rickettsii
+A77.0	inclusion	Ospina groznica Stjenovitih planina (Rocky Mountain)
+A77.0	inclusion	Groznica Sao Paolo
+A77.1	preferred	Osipna groznica, uzročnik Rickettsia conori
+A77.1	inclusion	Afrički krpeljski tifus
+A77.1	inclusion	"dugmetasta" groznica
+A77.1	inclusion	Indijski krpeljski tifus
+A77.1	inclusion	Kenijski krpeljski tifus
+A77.1	inclusion	Marsejska groznica
+A77.1	inclusion	Mediteranska krpeljska groznica
+A77.2	preferred	Osipna groznica, uzročnik Rickettsia siberica
+A77.2	inclusion	Sjeverno Azijska krpeljska groznica
+A77.2	inclusion	Sibirski krpeljski tifus
+A77.3	preferred	Osipna groznica, uzročnik Rickettsia australis
+A77.3	inclusion	Kvinslendski krpeljski tifus
+A77.8	preferred	Druge osipne groznice koje prenose krpelji
+A77.9	preferred	Osipna groznica koju prenose krpelji, neoznačena
+A77.9	inclusion	Krpeljski tifus NOS
+A78	preferred	Kju-groznica
+A78	inclusion	Infekcija izazvana sa Coxiella burneti
+A78	inclusion	"Nine Mile" groznica
+A78	inclusion	"Četvorostrana" groznica
+A79	preferred	Druge rikecioze
+A79.0	preferred	Rovovska groznica
+A79.0	inclusion	Groznica sa ospom u obliku mete; Kvintana groznica
+A79.0	inclusion	Volhinijska groznica
+A79.1	preferred	Rikecijske boginje, uzročnik Rickettsia  akari
+A79.1	inclusion	Groznica "Kew Garden"
+A79.1	inclusion	Mjehurasta (vezikularna) rikecioza
+A79.8	preferred	Druge označene rikecioze
+A79.8	inclusion	Rikecioza izazvana sa Ehrlichia sennetsu
+A79.9	preferred	Rikecioza, neoznačena
+A79.9	inclusion	Rikecijalna infekcija NOS
+A80-A89	preferred	Virusne infekcije centralnog nervnog sistema
+A80-A89	exclusion	posljedice dječije paralize, označene pod B91
+A80-A89	exclusion	posljedice vriusne upale mozga označene pod B94.1
+A80	preferred	Akutna dječija paraliza
+A80.0	preferred	Akutna dječija paraliza, povezana sa vakcinacijom
+A80.1	preferred	Akutna dječija paraliza divljim sojem virusa, importovana
+A80.2	preferred	Akutna dječija paraliza, divljim sojem virusa, domaća
+A80.3	preferred	Druga i neoznačena akutna dječija paraliza
+A80.4	preferred	Akutna neparaliticka dječija paraliza
+A80.9	preferred	Akutna dječija paraliza, neoznačena
+A81	preferred	Atipične infekcije centralnog nervnog sistema uzrokovane virusima
+A81	inclusion	bolest cenralnog nervnog sistema uzrokovana prionima
+A81.0	preferred	"Creutzfeldt-Jakobova bolest"
+A81.0	inclusion	Subakutno spongiformno oboljenje mozga (encefalopatija)
+A81.1	preferred	Subakutno sklerozirajuce difuzno zapaljenje mozga
+A81.1	inclusion	Upala mozka sa Dawson inkluzionim tjelašcima
+A81.1	inclusion	"Van Bogaert-ovo" sklerozirajuće oboljenje bijele moždane mase
+A81.2	preferred	Progresivno višežarišno oboljenje bijele moždane mase
+A81.2	inclusion	Progresivno multifokalno oboljenje bele moždane mase NOS
+A81.8	preferred	Druge atipične infekcije centralnog nervnog sistema uzrokovane virusom
+A81.8	inclusion	"Kuru"
+A81.9	preferred	Atipične infekcije centralnog nervnog sistema uzrokovane virusima, neoznačene
+A81.9	inclusion	Bolest centralnog nervnog sistema uzrokovana prionima NOS
+A82	preferred	Bjesnilo
+A82.0	preferred	Šumsko bjesnilo
+A82.1	preferred	Gradsko bjesnilo
+A82.9	preferred	Bjesnilo, neoznačeno
+A83	preferred	Zapaljenje mozga uzrokovana virusima koje prenose komarci
+A83	inclusion	Zapaljenje mozga i moždanica uzrokovano virusima koje prenose komarci
+A83	exclusion	Zapaljenje mozga kod venecuelanske konjske groznice, klasifikovane pod A92.2
+A83.0	preferred	Japansko zapaljenje mozga
+A83.1	preferred	Zapadno konjsko zapaljenje mozga
+A83.2	preferred	Istocno konjsko zapaljenje mozga
+A83.3	preferred	Zapaljenje mozga St. Louis
+A83.4	preferred	Australijsko zapaljenje mozga
+A83.4	inclusion	Kunjin virusno oboljenje
+A83.5	preferred	Kalifornijsko zapaljenje mozga
+A83.5	inclusion	Kalifornijsko zapaljenje mozga i moždanica
+A83.5	inclusion	La Crosse zapaljenje mozga
+A83.6	preferred	Rociova bolest
+A83.8	preferred	Druga zapaljenja mozga uzrokovana virusima koje prenose komarci
+A83.9	preferred	Zapaljenje mozga uzrokovano virusima koje prenose komarci, neoznačeno
+A84	preferred	Zapaljenje mozga uzrokovano virusima koje prenose krpelji
+A84	inclusion	Zapaljenje mozga i moždanica uzrokovano virusima koje prenose krpelji
+A84.0	preferred	Dalekoistocno zapaljenje mozga uzrokovana virusima koje prenose krpelji
+A84.1	preferred	Centralnoevropsko zapaljenje mozga uzrokovano virusima koje prenose krpelji
+A84.8	preferred	Druga zapaljenja mozga uzrokovana virusima koje prenose krpelji
+A84.8	inclusion	"Louping ill"
+A84.8	inclusion	"Powassan" virusno oboljenje
+A84.9	preferred	Zapaljenje mozga uzrokovano virusima koje prenose krpelji, neoznačeno
+A85	preferred	Ostala zapaljenja mozga uzrokovana virusima, neoznačena na drugom mjestu
+A85	inclusion	Označeno virusno zapaljenje mozga i kičmene moždine NEC
+A85	inclusion	Označeno virusno zapaljenje mozga i moždanica NEC
+A85	exclusion	Benigna upala mozga i kičmene moždine sa bolom u mišićima, označena pod G93.3
+A85	exclusion	Zapaljenje mozga uzrokovano herpes virusom (herpes simplex) označeno pod B00.4
+A85	exclusion	Zapaljenje mozga uzrokovano virusom malih boginja, označeno pod B05.0
+A85	exclusion	Zapaljenje mozga uzrokovano virusom zaušaka, označeno pod B26.2
+A85	exclusion	Zapaljenje mozga uzrokovano virusom đečije paralize, označeno pod A80.-
+A85	exclusion	Zapaljenje mouzga uzrokovano herpes zoster virusom, klasifikovanim pod B02.0
+A85	exclusion	Zapaljenje moždanica i horoidnog pleksusa sa limfocitnom infiltracijom, označeno pod A87.2
+A85.0	preferred	Zapaljenje mozga uzrokovano enterovirusima, označeno pod G05.1
+A85.0	inclusion	Zapaljenje mozga i kičmene moždine uzrokovano entero virusima
+A85.1	preferred	Zapaljenje mozga uzrokovano adenovirusima
+A85.1	inclusion	Zapaljenje mozga i moždanica izazvano adenovirusima
+A85.2	preferred	Zapaljenje mozga uzrokovano virusima koje prenose zglavkari neoznačeno
+A85.8	preferred	Druga označena zapaljenja mozga uzrokovana virusima
+A85.8	inclusion	Zapaljenje mozga praćeno pospanošću
+A85.8	inclusion	"Von Economo-Chruchet-ova" bolest
+A86	preferred	Zapaljenje mozga uzrokovano virusima, neoznačeno
+A86	inclusion	Virusno zapaljenj mozga i kičmene moždine NOS
+A86	inclusion	Virusno zapaljenje mozga i moždanica NOS
+A87	preferred	Zapaljenja moždanica uzrokovano virusima
+A87	exclusion	zapaljenje moždanica uzrokovana herpesvirusom (herpes simpleks) označeno pod B05.1
+A87	exclusion	Zapaljenje moždanica uzrokovano virusom malih boginja, označeno pod B05.1
+A87	exclusion	Zapaljenje moždanica uzrokovano virusom zaušaka, označeno pod B26.1
+A87	exclusion	Zapaljenje moždanica uzrokovano virusom đečije paralize, označeno pod A80.-
+A87	exclusion	Zapaljenje moždanica uzrokovano herpes zoster virusom, označeno pod B02.1
+A87.0	preferred	Zapaljenja moždanica uzrokovana enterovirusima
+A87.0	inclusion	Zapaljenje moždanica izazvano Coxsackie virusom
+A87.0	inclusion	Zapaljenje moždanica iuzrokovano Echovirusom
+A87.1	preferred	Zapaljenja moždanica uzrokovana adenovirusima
+A87.2	preferred	Zapaljenje moždanica i horoidnog pleksusa sa limfocitnom infiltracijom
+A87.2	inclusion	Zapaljenje mozga i moždanica sa limfocitnom infiltracijom
+A87.8	preferred	Druga zapaljenja moždanica uzrokovana virusima
+A87.9	preferred	Zapaljenja moždanica uzrokovana virusima, neoznačena
+A88	preferred	Ostale infekcije centralnog nervnog sistema uzrokovane virusima, neoznačena na drugom mjestu
+A88	exclusion	Virusno zapaljenje mozga NOS (A86)
+A88	exclusion	Virusno zapaljenje moždanica NOS (A87.9)
+A88.0	preferred	Osipna groznica uzrokovana enterovirusom [Bostonski osip]
+A88.1	preferred	Epidemijska vrtoglavica
+A88.8	preferred	Druge označene infekcije centralnog nervnog sistema uzrokovane virusima
+A89	preferred	Infekcija centralnog nervnog sistema uzrokovana virusima, neoznačena
+A90-A99	preferred	Virusne gorznice i virusne hemoragijske groznice koje prenose artropodi
+A90	preferred	Denga groznica
+A90	exclusion	Hemoragijska denga groznica, označena pod A91
+A91	preferred	Hemoragijska denga groznica
+A92	preferred	Druge groznice uzrokovane virusima koje prenose komarci
+A92	exclusion	Bolest "Ross River", označena pod B33.1
+A92.0	preferred	Bolest uzrokovana virusom Chikungunya
+A92.0	inclusion	Čikungunja (hemoragijska) groznica
+A92.1	preferred	Groznica "O'nyong-nyong"
+A92.2	preferred	Venecuelanska konjska groznica
+A92.2	inclusion	Venecuelanska konjska groznica sa upalom mozga
+A92.2	inclusion	Venecuelanska konjska groznica sa virusnom upalom mozga i kičmene moždine
+A92.3	preferred	Infekcija virusom Zapadnog Nila
+A92.3	inclusion	Zapadnonilska groznica
+A92.4	preferred	Groznica "Rift Valley"
+A92.8	preferred	Druge označene groznice uzrokovane virusima koje prenose komarci
+A92.9	preferred	Groznica uzrokovana virusima koje prenose komarci, neoznačena
+A93	preferred	Druge groznice uzrokovane virusima koju prenose insekti, neklasifikovane na drugom mjestu
+A93.0	preferred	Bolest uzrokovana virusom "Oropouche"
+A93.0	inclusion	"Oropouche" groznica
+A93.1	preferred	Groznica papatači
+A93.1	inclusion	Papatači groznica
+A93.1	inclusion	Pflebotomna groznica
+A93.2	preferred	Groznica Kolorado koju prenose krpelji
+A93.8	preferred	Druge označene groznice uzrokovane virusima koje prenose insekti
+A93.8	inclusion	"Piry" virusna bolest
+A93.8	inclusion	Virusna upala sluznice usta sa mjehurićima [Indijana groznica]
+A94	preferred	Groznica uzrokovana virusima koje prenose insekti, neoznačena
+A94	inclusion	Groznica izazvana Arbovirusima NOS
+A94	inclusion	Infekcija izazvana Arbovirusima NOS
+A95	preferred	Žuta groznica
+A95.0	preferred	Šumska žuta groznica
+A95.0	inclusion	Žuta groznica džungle
+A95.1	preferred	Gradska žuta groznica
+A95.9	preferred	Žuta groznica, neoznačena
+A96	preferred	Hemoragijska groznica uzrokovana arenavirusima
+A96.0	preferred	Hemoragijska groznica "Junin"
+A96.0	inclusion	Argentinska hemoragijska groznica
+A96.1	preferred	Hemoragijska groznica "Machupo"
+A96.1	inclusion	Bolivijska hemoragijska groznica
+A96.2	preferred	Lasa groznica
+A96.8	preferred	Druge hemoragijske groznice uzrokovane arenavirusima
+A96.9	preferred	Hemoragijska groznica uzrokovana arenavirusima, neoznačena
+A98	preferred	Ostale hemoragijske groznice uzrokovane virusima, neklasifikovane na drugom mjestu
+A98	exclusion	Čikungunja (hemoragijska) groznica, označena pod A92.0
+A98	exclusion	Denga hemoragijska groznica, označena pod A91
+A98.0	preferred	Krimsko-kongoanska hemoragijska groznica
+A98.0	inclusion	Centralno Azijska hemoragijska groznica
+A98.1	preferred	Omska hemoragijska groznica
+A98.2	preferred	Šumska bolest "Kyasanura"
+A98.3	preferred	Marburgška virusna bolest
+A98.4	preferred	Ebola hemoragijska groznica
+A98.5	preferred	Hemoragijska groznica sa bubrežnim sindromom
+A98.5	inclusion	Epidemijska hemoragijska groznica
+A98.5	inclusion	Korejska hemoragijska groznica
+A98.5	inclusion	Ruska hemoragijska groznica
+A98.5	inclusion	Bolest izazvana Hantaan virusom
+A98.5	inclusion	Bolest izazvana Hantaan virusom sa bubrežnom manifestacijom
+A98.5	inclusion	Epidemijska nefropatija
+A98.5	exclusion	(srčano-) plućni sindrom izazvan hantaanvirusom, označen pod B33.4 i j17.1
+A98.8	preferred	Druge označene hemoragijske groznice uzrokovane virusima
+A99	preferred	Hemoragijska groznica uzrokovana virusom, neoznačena
+B00-B09	preferred	Infekcije sa oštećenjima kože i sluzokoža uzrokovane virusima
+B00	preferred	Infekcije virusom, uzročnik herpes simplex
+B00	exclusion	Anogenitalna infekcija uzrokovana virusom herpesa, označena pod A60.-
+B00	exclusion	Urođena infekcija herpes virusom, označena pod P35.2
+B00	exclusion	Mononukleoza uzrokovana virusom gamaherpesa, označena pod B27.0
+B00	exclusion	Herpangina, označena pod A08.5
+B00.0	preferred	Osip uzrokovana herpes virusom
+B00.0	inclusion	Kapošijev osip nalik na varičelu
+B00.1	preferred	Mjehurasto zapaljenje kože uzrokovano herpes virusom
+B00.1	inclusion	Infekcija herpes simpleks virusom lokalizovana na licu
+B00.1	inclusion	Infekcija herpes simpleks virusom lokalizovana na na usnama
+B00.1	inclusion	Mjehurasto zapaljenje kože uha uzrokovano humanim (alfa) herpes virusom tipa 2
+B00.1	inclusion	Mjehurasto zapaljenje usne uzrokovano humanim (alfa) herpes virusom tipa 2
+B00.2	preferred	Zapaljenje sluznice desni, usta, ždrijela i krajnika uzrokovano herpes virusom
+B00.2	inclusion	Zapaljenje ždrijela uzrokovano herpesvirusom
+B00.3	preferred	Zapaljenje moždanica uzrokovano herpesvirusom, označeno pod G02.0
+B00.4	preferred	Zapaljenje mozga uzrokovano herpesvirusom, označeno pod G05.1
+B00.4	inclusion	Zapaljenje mozga i moždanica uzrokovano herpesvirusom
+B00.4	inclusion	Bolest izazvana infekcijom sa Herpes simijan B virusom 
+B00.5	preferred	Bolest oka uzrokovana herpesvirusom
+B00.5	inclusion	Zapaljenje vežnjače oka uzrokovano herpesvirusom označeno pod H13.1
+B00.5	inclusion	Zapaljenje kože očnoga kapka uzrokovano herpesvirusom, označeno pod H03.1
+B00.5	inclusion	Zapaljenje dužice i cilijarnog tijela uzrokovana herpesvirusom,označeno pod H22.0
+B00.5	inclusion	Zapaljenje dužice uzrokovano herpesvirusom, označeno pod H22.0
+B00.5	inclusion	Zapaljenje rožnjače uzrokovano herpesvirusom, označeno pod H19.1
+B00.5	inclusion	Zapaljenje rožnjače i vežnjače uzrokovano herpesvirusom, označeno pod h19.1
+B00.5	inclusion	Zapaljenje prednjeg dijela sudovnjače oka uzrokovano herpesvirusom, označeno pod H22.0
+B00.7	preferred	Generalizovana bolest uzrokovana herpesvirusom
+B00.7	inclusion	Sepsa uzrokovana herpesvirusom
+B00.8	preferred	Drugi oblici infekcija uzrokovanih herpes virusom
+B00.8	inclusion	Zapaljenje jetre uzrokovano herpesvirusom, označeno pod K77.0
+B00.8	inclusion	Zapaljenje kože prstiju uzrokovano herpesvirusom
+B00.9	preferred	Infekcija uzrokovana herpes virusom, neoznačena
+B00.9	inclusion	Infekcija uzrokovana herpes simpleks virusom NOS
+B01	preferred	Varičela - ovčije boginje
+B01.0	preferred	Zapaljenje moždanica uzrokovano virusom varicele, označeno pod G02.0
+B01.1	preferred	Zapaljenje mozga uzrokovano virusom varičele, označeno pod G05.1
+B01.1	inclusion	Zapaljenje mozga nakon ovčijih boginja
+B01.1	inclusion	Zapaljenje mozga i kičmene moždine uzrokovano virusom varičele
+B01.2	preferred	Zapaljenje pluća uzrokovano virusom varičele,  označeno pod J17.1
+B01.8	preferred	Ovčije boginje sa drugim komplikacijama
+B01.9	preferred	Ovčije boginje bez komplikacija
+B01.9	inclusion	Varičela - ovčije boginje NOS
+B02	preferred	Herpes zoster
+B02	inclusion	Zoster
+B02	inclusion	zonalni herpes
+B02.0	preferred	Zapaljenje mozga uzrokovano virusom herpes zostera, označeno pod G05.1
+B02.0	inclusion	Zapaljenje mozga i moždanica uzrokovano virusom herpes zostera
+B02.1	preferred	Zapaljenje moždanica uzrokovano virusom herpes zostera, označeno pod G02.0
+B02.2	preferred	Herpes zoster sa drugim komplikacijama nervnog sistema
+B02.2	inclusion	Zapaljenje koljenog gangliona facijalisa nakon infekcije sa herpes zoster virusom, označeno pod G53.0
+B02.2	inclusion	Zapaljenje više živaca nakon infekcije sa herpes zoster virusom, označeno pod G63.0
+B02.2	inclusion	Neuralgija trogranog živca nakon infekcije sa herpes zoster virusom, označeno pod G53.0
+B02.3	preferred	Bolest oka uzrokovana virusom herpes zostera
+B02.3	inclusion	Zapaljenje očnih kapaka uzrokovano virusom herpes zostera, označeno pod H03.1
+B02.3	inclusion	Zapaljenje vežnjače oka uzrokovano virusom herpes zostera  označeno pod H13.1
+B02.3	inclusion	Zapaljenje dužice i cilijarnog tijela uzrokovano virusom herpes zostera, označeno pod H22.0
+B02.3	inclusion	Zapaljenje dužice uzrokovano virusom herpes zostera, označeno pod H22.0
+B02.3	inclusion	Zapaljenje rožnjače uzrokovano virusom herpes zostera, označeno pod H19.2
+B02.3	inclusion	Zapaljenje rožnjače i vežnjače uzrokovano virusom herpes zostera, označeno pod H19.2
+B02.3	inclusion	Zapaljenje beonjače uzrokovano virusom herpes zostera, označeno pod H19.0 
+B02.7	preferred	Rasejani herpes zoster
+B02.8	preferred	Herpes zoster sa drugim komplikacijama
+B02.9	preferred	Herpes zoster bez komplikacija
+B02.9	inclusion	Herpes zoster NOS
+B03	preferred	Velike boginje
+B03	footnote	1980 godine, na 33.-em zasjedanju, Generalna skupština SZO-a proglasila je velike boginje iskorjenjenom bolešću. Navedena kalsifikacija i dalje postoji u svrhu nadzora.
+B04	preferred	Boginje majmuna
+B05	preferred	Morbili - male boginje
+B05	inclusion	Morbili
+B05	exclusion	Subakutno sklerozirajuće difuzno zapaljenje mozga, označeno pod A81.1
+B05.0	preferred	Male boginje, sa zapaljenjem mozga klasifikovanim pod G05.1
+B05.0	inclusion	Zapaljenje mozga nakon malih boginja
+B05.1	preferred	Male boginje sa zapaljenjem moždanica, klasifikovanim pd G02.0
+B05.1	inclusion	Zapaljenje moždanica nakon malih boginja
+B05.2	preferred	Male boginje sa zapaljenjem pluća, klasifikovanim pod J17.1 
+B05.2	inclusion	Zapaljenje pluća nakon malih boginja
+B05.3	preferred	Male boginje sa zapaljenjem srednjeg uva, klasifikovanim pod H67.1
+B05.3	inclusion	Zapaljenje srednjeg uva nakon malih boginja
+B05.4	preferred	Male boginje sa crijevnim komplikacijama
+B05.8	preferred	Male boginje sa drugim komplikacijama
+B05.8	inclusion	Zapaljenje rožnjače i zapaljenje rožnjače i vežnjače uzrokovano virusom malih boginja, označeno pod H19.2
+B05.9	preferred	Male boginje bez komplikacija
+B05.9	inclusion	Male boginje NOS
+B06	preferred	Rubeola - crvenka
+B06	exclusion	Urođena crvenka, označena pod P35.0
+B06.0	preferred	Rubeola sa neuroloskim komplikacijama
+B06.0	inclusion	Rubeola sa zapaljenjem mozga, označenim pod G05.1
+B06.0	inclusion	Rubeola sa zapaljenjem moždanica, označenim pod G02.0
+B06.0	inclusion	Rubeola sa zapaljenjem mozga i moždanica, označenim pod G05.1
+B06.8	preferred	Rubeola sa drugim komplikacijama
+B06.8	inclusion	Rubeola sa zapaljenjem zglobova, označenim pod M01.4
+B06.8	inclusion	Rubeola sa zapaljenjem pluća, označenim pod J17.1
+B06.9	preferred	Rubeola bez komplikacija
+B06.9	inclusion	Rubeola NOS
+B07	preferred	Virusne bradavice
+B07	inclusion	Proste bradavice
+B07	inclusion	obične bradavice
+B07	exclusion	Anogenitalne (venerične) bradavice
+B07	exclusion	Papilom mokraćne bešike, klasifikovan pod D41.1
+B07	exclusion	Papilom grlića materice, klasifikovan pod D26.0
+B07	exclusion	Papilom grkljana, klasifikovan pod D14.1
+B08	preferred	Druge infekcije sa oštećenjem kože i sluzokoža uzrokovane virusima
+B08	exclusion	Mjehurasto zapaljenje sluznice usta izazvano virusima, označeno pod A93.8
+B08.0	preferred	Druge infekcije uzrokovane ortopoks virusom
+B08.0	inclusion	Kravlje boginje
+B08.0	inclusion	Virusna orf bolest
+B08.0	inclusion	
+B08.0	inclusion	Vakcinija
+B08.0	exclusion	Boginje majmuna
+B08.1	preferred	Zarazna peteljkasta bradavica
+B08.2	preferred	Ospa kože uzrokovana virusima
+B08.3	preferred	Zarazno crvenilo
+B08.4	preferred	Mjehurasto zapaljenje sluznice usta uzrokovano enterovirusom
+B08.4	inclusion	Bolest ruku, usta i stopala
+B08.5	preferred	Plikovito zapaljenje ždrijela uzrokovano enterovirusom
+B08.5	inclusion	Herpangina
+B08.8	preferred	Druge označene infekcije sa oštećenjem kože i sluzokoža, uzrokovane virusima
+B08.8	inclusion	Zapaljenje ždrijela sa zahvaćenošu limfnih čvorova uzrokovano enterovirusima
+B08.8	inclusion	Bolest usta i stopala
+B08.8	inclusion	Bolest uzrokovana Tanapox virusom
+B08.8	inclusion	Bolest uzrokovana Yaba pox virusom
+B09	preferred	Neoznačena infekcija sa ostecenjima kože i sluznice, uzrokovana virusima
+B09	inclusion	Osip na sluzokoži virusnog porijekla NOS
+B09	inclusion	Kožni osip virusnog porijekla NOS
+B15-B19	preferred	Virusna zapaljenja jetre
+B15-B19	text	Po potrebi koristiti dodatne šifre (Poglavlje XX) kako bi se označio lijek, ako se radi o posttransfuzionom zapaljenju jetre
+B15-B19	exclusion	Zapaljenje jetre izazvano citomegalo virusom, označeno pod B25.1
+B15-B19	exclusion	Zapaljenje jetre izazvano herpes simpleks virusom, označeno pod B00.8
+B15-B19	exclusion	Posljedice virusnog zapaljenje jetre, klasifikovane pod B94.2
+B15	preferred	Akutno zapaljenje jetre uzrokovano virusom hepatitisa tipa A
+B15.0	preferred	Akutno zapaljenje jetre sa hepatičkom komom, uzrokovano virusom hepatitisa tipa A
+B15.9	preferred	Akutno zapaljenje jetre bez hepatičke kome, uzrokovano virusom hepatitisa tipa A
+B15.9	inclusion	Akutno zapaljenje jetre izazvano virusom tipa A NOS
+B16	preferred	Akutno zapaljenje jetre uzrokovano virusom hepatitisa tipa B
+B16.0	preferred	Akutno zapaljenje jetre sa hepatičkom komom, uzrokovano zajedničkom infekcijom (koinfekcija) virusa hepatitisa tip B i delta 
+B16.1	preferred	Akutno zapaljenje jetre bez hepatičke kome, uzrokovano zajedničkom infekcijom (koinfekcija) virusa hepatitisa tip B i delta 
+B16.2	preferred	Akutno zapaljenje jetre sa hepatičkom komom, uzrokovano virusom hepatitisa tipa B, bez delta agensa
+B16.9	preferred	Akutno zapaljenje jetre bez hepatičke kome, uzrokovano virusom hepatitisa tip B, bez delta agensa
+B16.9	inclusion	Akutno zapaljenje jetre izazvano virusom hepatitisa tipa B NOS
+B17	preferred	Druga akutna zapaljenja jetre uzrokovana virusima
+B17.0	preferred	Akutna superinfekcija jetre sa delta agensom kod vironoše hepatitisa B
+B17.1	preferred	Akutno zapaljenje jetre uzrokovano virusom hepatitisa tipa C
+B17.2	preferred	Akutno zapaljenje jetre uzrokovano virusom hepatitisa tipa E
+B17.8	preferred	Druga označena akutna zapaljenja jetre uzrokovana virusima
+B17.8	inclusion	Akutno ne-A ne-B virusno zapaljenje jetre NEC
+B17.9	preferred	Akutno virusno zapaljenje jetre, neoznačeno
+B17.9	inclusion	Akutno zapaljenje jetre, NOS
+B18	preferred	Hronična zapaljenja jetre uzrokovana virusima
+B18.0	preferred	Hronično zapaljenje jetre uzrokovano virusom b sa delta agensom
+B18.1	preferred	Hronično zapaljenje jetre uzrokovano virusom hepatitisa tipa B bez delta agensa
+B18.1	inclusion	Hronično virusno zapaljenje jetre uzrokovano virusom hepatitisa tipa B
+B18.2	preferred	Hronično zapaljenje jetre uzrokovano virusom hepatitisa tipa  C
+B18.8	preferred	Drugo hronično zapaljenje jetre uzrokovano virusom
+B18.9	preferred	Hronično zapaljenje jetre uzrokovano virusom, neoznačeno
+B19	preferred	Neoznačeno zapaljenje jetre uzrokovano virusom
+B19.0	preferred	Neoznačeno zapaljenje jetre sa komom uzrokovano virusom
+B19.9	preferred	Neoznačeno zapaljenje jetre bez kome uzrokovano virusom
+B19.9	inclusion	Virusno zapaljenje jetre NOS
+B20-B24	preferred	Bolest uzrokovana virusom HIV-a (humane imunodeficijencije)
+B20-B24	exclusion	Asimptomatska infekcija virusom HIV-a (humane imunodeficijencije), označena pod Z21
+B20-B24	exclusion	Bolest iuzrokovana HIV-om koja komplikuje trudnoću, porođaj i babinje, označena pod O98.7
+B20	preferred	Sida - bolest stečenog nedostatka imuniteta izazvana sa virusom HIV, sa zaraznim i parazitarnim bolestima
+B20	exclusion	Sindrom akutne infekcije virusom HIV, klasifikovan pod B23.0
+B20.0	preferred	Sida, sa infekcijom uzrokovanom mikrobakterijama
+B20.0	inclusion	Sida, sa pratećom tuberkulozom
+B20.1	preferred	Sida sa drugim infekcijama uzrokovanim bakterijama
+B20.2	preferred	Sida sa citomegalovirusnom bolešću
+B20.3	preferred	Sida sa drugim infekcijama uzrokovanim virusima
+B20.4	preferred	Sida sa kandidijazom
+B20.5	preferred	Sida sa drugim mikozama
+B20.6	preferred	Sida sa zapaljenjem pluća, uzročnik Pneumocystitis jirovecii
+B20.6	inclusion	Sida sa zapaljenjem pluća, uzročnik Pneumocistis carinii
+B20.7	preferred	Sida sa drugim višestrukim infekcijama
+B20.8	preferred	Sida sa drugim zaraznim i parazitarnim bolestima
+B20.9	preferred	Sida sa neoznačenom zaraznom ili parazitarnom bolescu
+B20.9	inclusion	Sida sa pratećom infekcijom NOS
+B21	preferred	Sida sa zloćudnim tumorima
+B21.0	preferred	Sida sa Kaposi sarkomom
+B21.1	preferred	Sida sa Burkitt tumorom limfnih žlijezda
+B21.2	preferred	Sida sa drugim tipovima ne-Hodgkinovih tumora limfnih žlijezda
+B21.3	preferred	Sida sa drugim zloćudnim tumorima limfnog, hematopoeznog i srodnog tkiva
+B21.7	preferred	Sida sa višestrukim zloćudnim tumorima
+B21.8	preferred	Sida sa drugim zloćudnim tumorima
+B21.9	preferred	Sida sa neoznačenim zloćudnim tumorom
+B22	preferred	Sida sa drugim označenim bolestima
+B22.0	preferred	Sida sa oboljenjem mozga
+B22.0	inclusion	Sida sa demencijom
+B22.1	preferred	Sida sa intersticijalnim limfoidnim zapaljenjem pluća
+B22.2	preferred	Sida sa "sindromom pustoši"
+B22.2	inclusion	Sida sa usporenim rastom i razvojem
+B22.2	inclusion	Bolest mršavljenja
+B22.7	preferred	Sida sa mnogim bolestima
+B22.7	note	Prilikom upotrebe ove šifre, potrebno je koristiti pravila šifriranja vezana za morbiditet i mortalitet prema pravilima navedenim u Knjizi 2 MKB-a
+B23	preferred	Sida sa drugim stanjima
+B23.0	preferred	Akutni sindrom infekcije HIV-om
+B23.1	preferred	Sida sa opstim (stalnim) oboljenjem limfnih čvorova
+B23.2	preferred	Sida sa hematološkim i imunološkim poremećajima, neklasifikovanim na drugom mjestu
+B23.8	preferred	Sida sa drugim označenim stanjima
+B24	preferred	Sida, neoznačena
+B24	inclusion	Sida, NOS
+B24	inclusion	AIDS kompleks [ARC] NOS
+B25-B34	preferred	Druge bolesti uzrokovane virusima
+B25	preferred	Oboljenja uzrokovana citomegalovirusima
+B25	exclusion	Urođena infekcija citomegalovirusom, označena pod P35.1
+B25	exclusion	Mononukleoza uzrokovana citomegalovirusom, označena pod B27.1
+B25.0	preferred	Zapaljenje pluća uzrokovano citomegalovirusima, označeno pod J17.1
+B25.1	preferred	Zapaljenje jetre uzrokovano citomegalovirusima, označeno pod K77.0
+B25.2	preferred	Zapaljenje gušterače uzrokovano citomegalovirusima, označeno pod K87.1
+B25.8	preferred	Druga oboljenja uzrokovana citomegalovirusima
+B25.9	preferred	Bolest uzrokovana citomegalovirusima, neoznačena
+B26	preferred	Zauške
+B26	inclusion	Epidemijsko zapaljenje parotidne pljuvačne žlezde
+B26	inclusion	Zarazna upala parotidnih pljuvačnih žlezda
+B26.0	preferred	Zauške sa zapaljenjem testisa, označenim pod N51.1
+B26.1	preferred	Zauške sa zapaljenjem moždanica, označenim pod G02.0
+B26.2	preferred	Zauške sa zapaljenjem mozga, označenim pod G05.1
+B26.3	preferred	Zauške sa zapaljenjem gušterače, označenim pod K87.1
+B26.8	preferred	Zauške sa drugim komplikacijama
+B26.8	inclusion	Zauške sa zapaljenjem zglobova, označenim pod M 01.5
+B26.8	inclusion	Zauške za zapaljenjem srčanog mišića, označenim pod I41.1
+B26.8	inclusion	Zauške sa zapaljenjen bubrega, označenim kao N08.0
+B26.8	inclusion	Zauške za zapaljenjem više živaca, označenim pod G63.0
+B26.9	preferred	Zauške bez komplikacija
+B26.9	inclusion	Zauške NOS
+B26.9	inclusion	Zauške 
+B27	preferred	Zarazna mononukleoza - oboljenje uzrokovano virusom praceno povećanjem broja monocita u krvi
+B27	inclusion	"Žlezdana groznica"
+B27	inclusion	Monocitna upala grla (angina)
+B27	inclusion	Pfeiffer-ova bolest
+B27.0	preferred	Mononukleoza uzrokovana virusom gamaherpesa
+B27.0	inclusion	Mononukleoza uzrokovana Epstein-Barr virusom
+B27.1	preferred	Mononukleoza uzrokovana citomegalovirusom
+B27.8	preferred	Druge zarazne mononukleoze
+B27.9	preferred	Zarazna mononukleoza, neoznačena
+B30	preferred	Zapaljenje vežnjače uzrokovano virusima
+B30	exclusion	Bolest oka izazvana herpes simpleks virusom, označena pod B00.5
+B30	exclusion	Bolest oka izazvana herpes zoster virusom, označena pod B02.3
+B30.0	preferred	Zapaljenje rožnjače i vežnjače uzrokovano adenovirusom, označeno pod H19.1
+B30.0	inclusion	Epidemijsko zapaljenje rožnjače i vežnjače
+B30.0	inclusion	Brodogradilišno oko
+B30.1	preferred	Zapaljenje vežnjače uzrokovano adenovirusima
+B30.1	inclusion	Akutno mjehurasto zapaljenje vežnjače izazvano adenovirusima
+B30.1	inclusion	Bazensko zapaljenje vežnjače
+B30.2	preferred	Zapaljenje ždrijela i vežnjače uzrokovano virusima
+B30.3	preferred	Akutno epidemijsko zapaljenje vežnjače  sa krvarenjem, uzrokovano enterovirusima, označeno pod H13.1
+B30.3	inclusion	Zapaljenje vežnjače uzrokovano coxackie virusima
+B30.3	inclusion	Zapaljenje vežnjače uzrokovano entero virusima
+B30.3	inclusion	Zapaljenje vežnjače sa krvarenjem (akutm0) (epidemijsko)
+B30.8	preferred	Druga zapaljenja vežnjače uzrokovana virusima, označena pod H13.1
+B30.8	inclusion	Zapaljenje vežnjače tipa "Newcastle"
+B30.9	preferred	Zapaljenje vežnjače uzrokovano virusima, neoznačeno
+B33	preferred	Druge bolesti uzrokovane virusima, neoznačena na drugom mjestu
+B33.0	preferred	Epidemijski bol u mišićima
+B33.0	inclusion	"Bronholm-ova" bolest
+B33.1	preferred	Ross River bolest
+B33.1	inclusion	Epidemijska upala više zglobova sa egzantemom
+B33.1	inclusion	Ross River groznica
+B33.2	preferred	Zapaljenje srca uzrokovano virusima
+B33.3	preferred	Infekcija uzrokovana retrovirusima, neoznačena na drugom mjestu
+B33.3	inclusion	Infekcija uzrokovana retrovirusima NOS
+B33.4	preferred	Hantavirusni (srčano-) plućni sindrom, [HPS] [HCPS], označen pod J17.1
+B33.4	inclusion	Hantavirusna bolest sa plućnim manifestacijama
+B33.4	inclusion	Sin Nombre virusna bolest
+B33.4	coding-hint	poželjno je koristiti dodatnu šifru (N17.9), kako bi se označila bubrežna insuficijencija povezana sa HPS izazvanim infekcijom sa sojevima hantavirusa: Andi, Bayou i Black Creek Canal
+B33.4	exclusion	Hemoragijska groznica sa bubrežnim sindromom, označena pod A98.5
+B33.8	preferred	Druge označene bolesti uzrokovane virusima
+B34	preferred	Infekcija uzrokovana virusima, neoznačene lokalizacije
+B34	exclusion	Citomegalovirusna bolest NOS B25.9
+B34	exclusion	Infekcija sa herpes (simpleks) virusom NOS B00.9
+B34	exclusion	Infekcija sa retrovirusima NOS B33.3
+B34	exclusion	Virusi kao izazivači bolesti, klasifikovani u drugim poglavljima B97
+B34.0	preferred	Infekcija uzrokovana adenovirusima, neoznačene lokalizacije
+B34.1	preferred	Infekcija uzrokovana enterovirusima, neoznačene lokalizacije
+B34.1	inclusion	Infekcija uzrokovana Coxackievirusima NOS
+B34.1	inclusion	Infekcija uzrokovana Echovirusima NOS
+B34.2	preferred	Infekcija uzrokovana koronavirusima, neoznačene lokalizacije
+B34.2	exclusion	SARS, teški akutni respiratorni sindrom, označen pod U04.9
+B34.3	preferred	Infekcija uzrokovana parvovirusima, neoznačene lokalizacije
+B34.4	preferred	Infekcija uzrokovana papovavirusima, neoznačene lokalizacije
+B34.8	preferred	Druge infekcije uzrokovane virusima, neoznačene lokalizacije
+B34.9	preferred	Infekcija uzrokovana virusima, neoznačena
+B34.9	inclusion	Viremija, NOS
+B35-B49	preferred	Mikoze - gljivična oboljenja
+B35-B49	exclusion	zapaljenje pluća usljed hipersenzitivne reakcije na prašinu organskog porijekla, označeno pod J67
+B35-B49	exclusion	Fungoidna mikoza (funkoidni granulom), označen pod C84.0
+B35	preferred	Dermatofitoza, zapaljenja uzrokovana dermatofitima
+B35	inclusion	Favus
+B35	inclusion	Infekcije izazvane sa gljivicama roda Epidermophyton, Microsporum i Trichophyton
+B35	inclusion	Tinea, površinska gljivična oboljenja osim onih označenih pod B36.-
+B35.0	preferred	Tinea - površinsko gljivično oboljenje brade i kose
+B35.0	inclusion	Tinea brade
+B35.0	inclusion	Kerion
+B35.0	inclusion	Tinea poglavine
+B35.0	inclusion	Sikoza - zapaljenje folikula dlake, uzrokovana gljivicama
+B35.1	preferred	Tinea nokata
+B35.1	inclusion	Zapaljnje tkiva oko nokta uzrokovano dermatofitima
+B35.1	inclusion	Dermatofitoza nokata
+B35.1	inclusion	Glivično zapaljenje nokata
+B35.1	inclusion	Tinea nokata
+B35.2	preferred	Tinea šaka
+B35.2	inclusion	Dermatifitoza šaka
+B35.2	inclusion	Tinea šaka
+B35.3	preferred	Tinea stopala
+B35.3	inclusion	Atletsko stopalo
+B35.3	inclusion	Dermatofitoza stopala
+B35.3	inclusion	Tinea pedis
+B35.4	preferred	Tinea tijela
+B35.4	inclusion	Tinea corporis
+B35.5	preferred	Tinea u vidu koncetričnih prstenova
+B35.5	inclusion	"Tokelau"
+B35.6	preferred	Tinea potkoljenice
+B35.6	inclusion	„Dhobi itch“
+B35.6	inclusion	Tinea prepona
+B35.6	inclusion	„Jock itch“
+B35.8	preferred	Druge dermatofitoze
+B35.8	inclusion	Rasejana dermatofitoza
+B35.8	inclusion	Granulomatozna dermatofitoza
+B35.9	preferred	Dermatofitoza, neoznačena
+B35.9	inclusion	Tinea NOS
+B36	preferred	Druga površinska oboljenja kože uzrokovana gjivicama
+B36.0	preferred	Pitrijaza verzikolor, raznobojno gljivično oboljenje kože 
+B36.0	inclusion	Tinea, žute prebojenosti
+B36.0	inclusion	Tinea, raznobojna
+B36.1	preferred	Tinea, tamne prebojenosti
+B36.1	inclusion	Gljivična infekcija površnih slojeva dlanova, tamne prebojenosti
+B36.1	inclusion	Mikrosoproza tamne prebojenosti
+B36.1	inclusion	Pitirijaza nigra
+B36.2	preferred	Gljivično oboljenje kose sa bijelim čvorićima
+B36.2	inclusion	Tinea kose sa bijelom prebojenošću
+B36.3	preferred	Gljivično oboljenje kose sa crnim čvorićima
+B36.8	preferred	Druge označene površinske mikoze
+B36.9	preferred	Površinska mikoza, neoznačena
+B37	preferred	Kandidijaza
+B37	inclusion	Kandidoza
+B37	inclusion	Monolijaza
+B37	exclusion	Novorođenačka kandidijaza, označena pod P37.5
+B37.0	preferred	Zapaljenje sluznice usta uzrokovano kandidom
+B37.0	inclusion	
+B37.1	preferred	Kandidijaza pluća
+B37.2	preferred	Kandidijaza kože i nokata
+B37.2	inclusion	Zapaljnje tkiva oko nokta uzrokovano kandidom
+B37.2	inclusion	Zapaljenje korijena nokta izazvano kandidom
+B37.2	exclusion	Dermatitis pelena, označen pod L22
+B37.3	preferred	Kandidijaza stidnice i vagine
+B37.3	inclusion	Zapaljenje stidnice i vagine izazvano kandidom
+B37.3	inclusion	Zapaljenje stidnice i vagine izazvano monolijazom
+B37.3	inclusion	
+B37.4	preferred	Druge kandidijaze mokraćno-polnog sistema
+B37.4	inclusion	Kandidom uzrokovano zapaljenje glansa penisa, označeno pod N51.2
+B37.4	inclusion	Kandidom uzrokovano zapaljenje mokraćne cijevi, označeno pod N37.0
+B37.5	preferred	Kandidom uzrokovano zapaljenje moždanica, označeno pod G02.1
+B37.6	preferred	Kandidom uzrokovano zapaljenje endokarda, označeno pod I39.8
+B37.7	preferred	Kandidom uzrokovana sepsa
+B37.8	preferred	Kandidijaza drugih lokalizacija
+B37.8	inclusion	Kandidom uzrokovano zapaljenje usana
+B37.8	inclusion	Kandidom uzrokovano zapaljenje tankog crijeva
+B37.9	preferred	Kandidijaza, neoznačena
+B37.9	inclusion	
+B38	preferred	Kokcidioidomikoza
+B38.0	preferred	Akutna kokcidioidomikoza pluća
+B38.1	preferred	Hronična kokcidioidomikoza pluća
+B38.2	preferred	Kokcidioidomikoza pluća, neoznačena
+B38.3	preferred	Kokcidioidomikoza kože
+B38.4	preferred	Kokcidioidomikoza moždanica, označena pod G02.1
+B38.7	preferred	Rasijana kokcidioidomikoza
+B38.7	inclusion	Generalizovana kokcidioidomikoza
+B38.8	preferred	Drugi oblici kokcidioidomikoze
+B38.9	preferred	Kokcidioidomikoza, neoznačena
+B39	preferred	Histoplazmoza
+B39.0	preferred	Akutna histoplazmoza pluća, uzročnik h. capsulatum
+B39.1	preferred	Hronična histoplazmoza pluća, uzročnik h. capsulatum
+B39.2	preferred	Histoplazmoza pluća, uzročnik h. capsulatum, neoznačena
+B39.3	preferred	Rasijana histoplazmoza, uzročnik h. capsulatum
+B39.3	inclusion	Generalizovana histoplazmoza, uzročnik H. capsulatum
+B39.4	preferred	Histoplazmoza, uzročnik h. capsulatum, neoznačena
+B39.4	inclusion	Američka histoplazmoza
+B39.5	preferred	Afrička histoplazmoza, uzročnik h. duboisii
+B39.5	inclusion	Afrička histoplazmoza 
+B39.9	preferred	Histoplazmoza, neoznačena
+B40	preferred	Blastomikoza
+B40	exclusion	Brazilska blastomikoza, označena pod B41.-
+B40	exclusion	Keloidalna blastomikoza, označena pod B48.0
+B40.0	preferred	Akutna blastomikoza pluća
+B40.1	preferred	Hronična blastomikoza pluća
+B40.2	preferred	Blastomikoza pluća, neoznačena
+B40.3	preferred	Blastomikoza kože
+B40.7	preferred	Rasijana blastomikoza
+B40.7	inclusion	Generalizovana blastomikoza
+B40.8	preferred	Drugi oblici blastomikoze
+B40.9	preferred	Blastomikoza, neoznačena
+B41	preferred	Parakokcidioidomikoza
+B41	inclusion	Brazilska blastomikoza
+B41	inclusion	"Lutz-ova" bolest
+B41.0	preferred	Parakokcidioidomikoza pluća
+B41.7	preferred	Rasijana parakokcidioidomikoza
+B41.7	inclusion	Generalizovana parakokcidioidomikoza
+B41.8	preferred	Drugi oblici parakokcidioidomikoza
+B41.9	preferred	Parakokcidioidomikoza, neoznačena
+B42	preferred	Sporotrihoza
+B42.0	preferred	Sporotrihoza pluća, označena pod J99.8
+B42.1	preferred	Sporotrihoza kože i limfnih sudova kože
+B42.7	preferred	Rasijana sporotrihoza
+B42.7	inclusion	Generalizovana sporotrihoza
+B42.8	preferred	Drugi oblici sporotrihoze
+B42.9	preferred	Sporotrihoza, neoznačena
+B43	preferred	Hromomikoza i feomikozni apsces
+B43.0	preferred	Hromomikoza kože
+B43.0	inclusion	Verukozni dermatitis
+B43.1	preferred	Feomikozni apsces mozga
+B43.1	inclusion	Moždana hromomikoza
+B43.2	preferred	Potkožni feomikozni apsces i cista
+B43.8	preferred	Drugi oblici hromomikoze
+B43.9	preferred	Hromomikoza, neoznačena
+B44	preferred	Aspergiloza
+B44	inclusion	Aspergilom
+B44.0	preferred	Invazivna aspergiloza pluća
+B44.1	preferred	Druga aspergiloza pluća
+B44.2	preferred	Aspergiloza krajnika
+B44.7	preferred	Rasijana aspergiloza
+B44.7	inclusion	Generalizovana aspergiloza
+B44.8	preferred	Drugi oblici aspergiloze
+B44.9	preferred	Aspergiloza, neoznačena
+B45	preferred	Kriptokokoza
+B45.0	preferred	Kriptokokoza pluća
+B45.1	preferred	Kriptokokoza mozga
+B45.1	inclusion	Kriptokokozno zapaljenje moždanica, označeno pod G02.1
+B45.1	inclusion	Kriptokokozno zapaljenje mozga i moždanica
+B45.2	preferred	Kriptokokoza kože
+B45.3	preferred	Kriptokokoza kosti
+B45.7	preferred	Rasijana kriptokokoza
+B45.7	inclusion	Generalizovana kriptokokoza
+B45.8	preferred	Drugi oblici kriptokokoze
+B45.9	preferred	Kriptokokoza, neoznačena
+B46	preferred	Zigomikoza
+B46.0	preferred	Mukormikoza pluća
+B46.1	preferred	Mukormikoza nosa i mozga
+B46.2	preferred	Mukormikoza želuca i crijeva
+B46.3	preferred	Mukormikoza kože
+B46.3	inclusion	Mukormikoza potkožnog tkiva
+B46.4	preferred	Rasijana mukormikoza
+B46.4	inclusion	Generalizovana mukormikoza
+B46.5	preferred	Mukormikoza, neoznačena
+B46.8	preferred	Druge zigomikoze
+B46.8	inclusion	Entomoftoromikoza
+B46.9	preferred	Zigomikoza, neoznačena
+B46.9	inclusion	Fikomikoza NOS
+B47	preferred	Micetom
+B47.0	preferred	Eumicetom, uzrokovan micetom
+B47.0	inclusion	Madurijsko stopalo 
+B47.0	inclusion	Maduromikoza
+B47.1	preferred	Aktinomicetom
+B47.9	preferred	Micetom, neoznačen
+B47.9	inclusion	Madurijsko stopalo, neoznačeno 
+B48	preferred	Ostale mikoze, neklasifikovane na drugom mjestu
+B48.0	preferred	Lobomikoza
+B48.0	inclusion	Keloidalna blastomikoza
+B48.0	inclusion	Lobo-va bolest
+B48.1	preferred	Rinosporidioza
+B48.2	preferred	Alesherijaza
+B48.2	inclusion	Infekcije uzrokovane sa Pseudallescheria boydii
+B48.2	exclusion	Eumicetom, označen pod B47.0
+B48.3	preferred	Geotrihoza
+B48.3	inclusion	Zapaljenje sluznice usta uzrokovano geotrichumom
+B48.4	preferred	Peniciloza
+B48.7	preferred	Oportunističke mikoze
+B48.7	text	Mikoze izazvane gljivicama niske virulence, koje mogu izazvati infekciju samo u slučaju postojanja dodatnih faktora, kao što su iscrpljujuće bolesti ili primjena imunosupresivnih i drugih terapijskih sredstava ili radijacione terapije. Većina ovih gljivica normalno se javljaju kao saprofitni organizmi u zemljištu i vegetaciji koja truli.
+B48.8	preferred	Druge, označene mikoze
+B48.8	inclusion	Adiaspiromikoza
+B49	preferred	Mikoza, neoznačena
+B49	inclusion	Fungemija NOS
+B50-B64	preferred	Bolesti uzrokovane protozoama
+B50-B64	exclusion	amebijaza, označena pod A 06.-
+B50-B64	exclusion	ostale protozoalne bolesti crijeva, označene pod A07.-
+B50	preferred	Malarija, uzrokovana sa Plasmodium falciparum
+B50	inclusion	Miješovite infekcije koje uzrokuje Plasmodium falciparum sa drugim vrstama plazmodijuma
+B50.0	preferred	Malarija, uzrokovana sa Plasmodium falciparum, sa moždanim komplikacijama
+B50.0	inclusion	Moždana malarija NOS
+B50.8	preferred	Druga teški i komplikovani oblici malarije,  uzrokovani sa Plasmodium falciparum
+B50.8	inclusion	Teška i komplikovana malarija,  uzrokovana sa Plasmodium falciparum NOS
+B50.9	preferred	Malarija, uzrokovana sa Plasmodium falciparum, neoznačena
+B51	preferred	Malarija, uzrokovana sa Plasmodium vivax
+B51	inclusion	Miješovite infekcije koje uzrokuje Plasmodium vivax sa drugim vrstama plazmodijuma izuzev sa Plasmodium falciparum
+B51	exclusion	Miješovita infekcija sa Plasmodium vivax i Plasmodium falciparum, označena pod B50.-
+B51.0	preferred	Malarija, uzrokovana sa Plasmodium vivax, sa prskanjem slezine
+B51.8	preferred	Malarija, uzrokovana sa Plasmodium vivax, sa drugim komplikacijama
+B51.9	preferred	Malarija, uzrokovana sa Plasmodium vivax,  bez komplikacija
+B51.9	inclusion	Malarija uzrokovana sa Plasmodium vivax, NOS
+B52	preferred	Malarija, uzročnik plasmodium malariae
+B52	inclusion	Mješovite infekcije koje uzrokuje Plasmodium malariae sa drugim vrstama plazmodijuma, izuzev sa Plasmodium falciparum i sa Plasmodium vivax
+B52	exclusion	Mješovita infekcija koju uzrokuje Plasmodium malariae sa Plasmodium falciparum, označena pod B50.-
+B52	exclusion	Mješovita infekcija koju uzrokuje Plasmodium malariae sa Plasmodium vivax, označena pod B51.-
+B52.0	preferred	Malarija urokovana sa Plasmodium malariae, sa oboljenjem bubrega
+B52.8	preferred	Malarija urokovana sa Plasmodium malariae, sa drugim komplikacijama
+B52.9	preferred	Malarija urokovana sa Plasmodium malariae, bez drugih komplikacija
+B52.9	inclusion	Malarija urokovana sa Plasmodium malariae NOS
+B53	preferred	Druga malarija, parazitološki potvrđena
+B53.0	preferred	Malarija, uzročnik plasmodium ovale
+B53.0	exclusion	Mješovita infekcija koju uzrokuje Plasmodium ovale sa Plasmodium falciparum, označena pod B50.-
+B53.0	exclusion	Mješovita infekcija koju uzrokuje Plasmodium ovale sa Plasmodium malariae, označena pod B52.-
+B53.0	exclusion	Mješovita infekcija koju uzrokuje Plasmodium ovale sa Plasmodium vivax, označena pod B51.-
+B53.1	preferred	Malarija, uzročnik Plasmodium simiae
+B53.1	exclusion	Mješovita infekcija koju uzrokuje Plasmodium simian sa Plasmodium falciparum, označena pod B50.-
+B53.1	exclusion	Mješovita infekcija koju uzrokuje Plasmodium simian sa Plasmodium malariae, označena pod B52.-
+B53.1	exclusion	Mješovita infekcija koju uzrokuje Plasmodium simian sa Plasmodium ovale, označena pod B53.0
+B53.1	exclusion	Mješovita infekcija koju uzrokuje Plasmodium simian sa Plasmodium vivax, označena pod B51.-
+B53.8	preferred	Druga malarija parazitološki potvrđena, neoznačena na drugom mjestu
+B53.8	inclusion	Parazitološki potvrđena malarija, NOS
+B54	preferred	Neoznačena malarija
+B54	inclusion	Klinički dijagnostifikovana malarija bez parazitološke potvrde
+B55	preferred	Lajšmanijaza
+B55.0	preferred	Lajšmanijaza unutrašnjih organa
+B55.0	inclusion	Kala-azar
+B55.0	inclusion	Kožne manifestacije lajšmanijaze nakon Kala-azara
+B55.1	preferred	Lajšmanijaza kože
+B55.2	preferred	Lajšmanijaza kože i sluznice
+B55.9	preferred	Lajšmanijaza, neoznačena
+B56	preferred	Afrička tripanozomijaza ili bolest spavanja
+B56.0	preferred	Gambijska tripanozomijaza
+B56.0	inclusion	Infekcija koju uzrokuje Trypanosoma brucei gambiense
+B56.0	inclusion	Zapadno-afrička bolest spavanja
+B56.1	preferred	Rodezijska tripanozomijaza
+B56.1	inclusion	Istočno-afrička bolest spavanja
+B56.1	inclusion	Infekcija koju uzrokuje Trypanosoma brucei rhodesiense
+B56.9	preferred	Africka tripanozomijaza, neoznačena
+B56.9	inclusion	Bolest spavanja, NOS
+B56.9	inclusion	Tripanzomijaza NOS, u mjestima gđe dominira afrička tripanzomijaza
+B57	preferred	"Chagas-ova" bolest
+B57	inclusion	Američka tripanzomijaza
+B57	inclusion	Infekcija koju uzrokuje Trypansoma cruzi
+B57.0	preferred	Akutna Chagas-ova bolest sa oštećenjem srca, označena pod I41.2 i I98.1
+B57.0	inclusion	Akutna Chagas-ova bolest sa oštećenjem srca i krvnih sudova, označena pod I41.2
+B57.0	inclusion	Akutna Chagas-ova bolest sa upalom srčanog mišića, označena pod I41.2
+B57.1	preferred	Akutna Chagas-ova bolest bez oštećenja srca
+B57.1	inclusion	Akutna Chagas-ova bolest NOS
+B57.2	preferred	Hronična Chagas-ova bolest sa oštećenjem srca
+B57.2	inclusion	Američka tripanzomijaza NOS
+B57.2	inclusion	Chagasova bolest (hronična) NOS
+B57.2	inclusion	Chagasova bolest (hronična) sa oštećenjem srca i krvnih sudova NEC, označena pod I98.1
+B57.2	inclusion	Chagasova bolest (hronična) sa upalom srčanog mišića, označena pod I41.2
+B57.2	inclusion	Tripanzomijaza NOS, u mjestima gđe dominira Chagas-ova bolest
+B57.3	preferred	Hronična Chagas-ova bolest sa oštećenjem sistema za varenje
+B57.4	preferred	Hronična Chagas-ova bolest sa oštećenjem nervnog sistema
+B57.5	preferred	Hronična Chagas-ova bolest sa oštećenjem drugih organa
+B58	preferred	Toksoplazmoza
+B58	inclusion	Infekcija koju uzrokuje Toxoplasma gondii
+B58	exclusion	Urođena toksoplazmoza P37.1
+B58.0	preferred	Toksoplazmoza oka
+B58.0	inclusion	Toksoplazmozna upala sudovnjače i mrežnjače, označena pod H32.0
+B58.1	preferred	Zapaljenje jetre uzrokovano toksoplazmozom, označeno pod K77.0
+B58.2	preferred	Zapaljenje moždanica i mozga uzrokovano toksoplazmozom, označeno pod G05.2
+B58.3	preferred	Toksoplazmoza pluća, označena pod J17.3
+B58.8	preferred	Toksoplazmoza sa oštećenjem drugih organa
+B58.8	inclusion	Toksoplazmoza sa upalom srčanog mišića, označenim pod I41.2
+B58.8	inclusion	Toksoplazmoza sa upalom mišića, označenom pod M63.1
+B58.9	preferred	Toksoplazmoza, neoznačena
+B59	preferred	Pneumocistoza, označena pod J17.3
+B59	inclusion	Upala pluća uzrokovana sa Pneumocystis carinii
+B59	inclusion	Upala pluća uzrokovana sa Pneumocystis jirovecii
+B60	preferred	Ostale bolesti uzrokovane protozoama, neklasifikovane na drugom mjestu
+B60	exclusion	Kriptosporidijaza, označena pod A07.2
+B60	exclusion	Mikrosporidijaza crijeva, označena pod A07.8
+B60	exclusion	Izosporijaza, označena pod A07.3
+B60.0	preferred	Babezijaza
+B60.0	inclusion	Prioplazmoza
+B60.1	preferred	Akantoamebijaza
+B60.1	inclusion	Zapaljenje večnjače oka uzrokovano sa Acanthamoeba, označeno pod H13.1
+B60.1	inclusion	Zapaljenje vežnjače i beonjače oka uzrokovano sa Acanthamoeba, označeno pod H19.2
+B60.2	preferred	Neglerijaza
+B60.2	inclusion	Primarno zapaljenje mozga i moždanica uzrokovano amebama, označeno pod G05.2
+B60.8	preferred	Druge označene bolesti uzrokovane protozoama
+B60.8	inclusion	Mikrosporidijaza
+B64	preferred	Neoznačena bolest uzrokovana protozoama
+B65-B83	preferred	Helmitijaze - bolesti uzrokovane parazitnim crvima
+B65	preferred	Šistozomijaza (bilharzijaza)
+B65	inclusion	Groznica puževa
+B65.0	preferred	Šistozomijaza, uzročnik schistosoma haematobium (urinarna šistosomijaza)
+B65.1	preferred	Šistozomijaza, uzročnik schistosoma mansoni (crijevna šistosomijaza)
+B65.2	preferred	Šistozomijaza, uzročnik schistosoma japonicum
+B65.2	inclusion	Azijska šistosomijaza
+B65.3	preferred	Zapaljenje kože uzrokovano metiljima
+B65.3	inclusion	"Svrab plivača"
+B65.8	preferred	Druga šistozomijaza
+B65.8	inclusion	Oboljenje uzrokovano sa Schistosoma intercalatum
+B65.8	inclusion	Oboljenje uzrokovana sa Schistosoma mattheei
+B65.8	inclusion	Oboljenje uzrokovano sa Schistosoma mekongi
+B65.9	preferred	Šistozomijaza, neoznačena
+B66	preferred	Druge bolesti uzrokovane metiljima
+B66.0	preferred	Opistorhijaza
+B66.0	inclusion	Oboljenje uzrokovano mačijim metiljom
+B66.0	inclusion	Oboljenje uzrokovano sa Opisthorchim (felineus) (viverrini)
+B66.1	preferred	Klonorhijaza
+B66.1	inclusion	Oboljenje uzrokovano kineskim metiljom
+B66.1	inclusion	Oboljenje uzrokovano sa Clonorchis sinensis
+B66.1	inclusion	Oboljenje uzrokovano orjentalnim metiljom
+B66.2	preferred	Dikrocelijaza
+B66.2	inclusion	Oboljenje uzrokovano sa Dicrocoelium dendriticum
+B66.2	inclusion	Oboljenje uzrokovano kopljastim metiljom
+B66.3	preferred	Fasciolijaza
+B66.3	inclusion	Oboljenje uzrokovano sa Fasciola gigantica
+B66.3	inclusion	Oboljenje uzrokovano sa Fasciola hepatica
+B66.3	inclusion	Oboljenje uzrokovano sa Fasciola indica
+B66.3	inclusion	Oboljenje uzrokovano ovčijim metiljem
+B66.4	preferred	Paragonimijaza
+B66.4	inclusion	Oboljenje uzrokovano sa Paragonimus species
+B66.4	inclusion	Oboljenje uzrokovano plućnim metiljem
+B66.4	inclusion	Plućna distomijaza
+B66.5	preferred	Fasciolopijaza
+B66.5	inclusion	Infekcija uzrokovana sa Fasciolopsis buski
+B66.5	inclusion	Crijevna distomijaza
+B66.8	preferred	Druge označene infekcije uzrokovane metiljima
+B66.8	inclusion	Ehinostomijaza
+B66.8	inclusion	Hetrofijaza
+B66.8	inclusion	Metagonimijaza
+B66.8	inclusion	Nanofietijaza
+B66.8	inclusion	"Watsonijaza"
+B66.9	preferred	Infekcije uzrokovane metiljima, neoznačene
+B67	preferred	Ehinokokoza
+B67	inclusion	Hidatidoza
+B67.0	preferred	Ehinokokoza jetre, uzročnik Echinococcus granulosus
+B67.1	preferred	Ehinokokoza pluća, uzročnik Echinococcus granulosus
+B67.2	preferred	Ehinokokoza kosti, uzročnik Echinococcus granulosus
+B67.3	preferred	Ehinokokoza drugih i višestrukih lokalizacija, uzročnik Echinococcus granulosus
+B67.4	preferred	Ehinokokoza, neoznačena
+B67.4	inclusion	Pseća pantljičara (oboljenje)
+B67.5	preferred	Ehinokokoza jetre, uzročnik Echinococcus multilocularis
+B67.6	preferred	Ehinokokoza drugih i višestrukih lokalizacija, uzročnik Echinococcus multilocularis
+B67.7	preferred	Ehinokokoza drugih i višestrukih lokalizacija, uzročnik Echinococcus multilocularis, neoznačena
+B67.8	preferred	Ehininokokoza jetre, neoznačena
+B67.9	preferred	Ehinokokoza, druga i neoznačena
+B67.9	inclusion	Ehinokokoza NOS
+B68	preferred	Tenijaze
+B68	exclusion	Cisticerkoza, označena pod B69.-
+B68.0	preferred	Tenijaza uzrokovana sa Taenia solium 
+B68.0	inclusion	Svinjska pantljičara (oboljenje)
+B68.1	preferred	Tenijaza uzrokovana sa Taenia saginata
+B68.1	inclusion	Goveđa pantljičara (oboljenje)
+B68.1	inclusion	Oboljenje uzrokovano adultnom formom Taenia saginata
+B68.9	preferred	Tenijaza, neoznačena
+B69	preferred	Cisticerkoza
+B69	inclusion	Cisticerkozno oboljenje uzrokovano larvenom formom Taenia solium
+B69.0	preferred	Cisticerkoza centralnog nervnog sistema
+B69.1	preferred	Cisticerkoza oka
+B69.8	preferred	Cisticerkoza drugih lokalizacija
+B69.9	preferred	Cisticerkoza, neoznačena
+B70	preferred	Difilobotrijaza i sparganoza
+B70.0	preferred	Difilobotrijaza
+B70.0	inclusion	Oboljenje uzrokovano sa Diphyllobothrium (adult)(latum)(pacificum) 
+B70.0	inclusion	Riblja pantljičara (oboljenje)
+B70.0	exclusion	Difilobotrijaza uzrokovana larvenim formama, označena pod B70.1
+B70.1	preferred	Sparganoza
+B70.1	inclusion	Oboljenje uzrokovano sa Sparganum (mansoni)(proliferum)
+B70.1	inclusion	Oboljenje uzrokovano sa Spirometra larvae
+B70.1	inclusion	Difilobotrijaza uzrokovana larvenim formama
+B70.1	inclusion	Spirometroza
+B71	preferred	Druge infekcije uzrokovane pantljičarama
+B71.0	preferred	Himenolepijaza
+B71.0	inclusion	Patuljasta pantljičara (oboljenje)
+B71.0	inclusion	Pacovska pantljičara (oboljenje)
+B71.1	preferred	Dipilidijaza
+B71.1	inclusion	Pseća pantljičara (oboljenje)
+B71.8	preferred	Druga označena oboljenja uzrokovana pantljičarama
+B71.8	inclusion	Cenuroza
+B71.9	preferred	Oboljenja uzrokovana pantljičarama, neoznačena
+B71.9	inclusion	Pantljičara (oboljenje) NOS
+B72	preferred	Drakunkulijaza
+B72	inclusion	Gvinejska glista - oboljenje
+B72	inclusion	Oboljenje uzrokovano sa Dracunculus medinensis
+B73	preferred	Onhocerkijaza
+B73	inclusion	Oboljenje uzrokovano sa Onchocerca volvulus
+B73	inclusion	Onkocerkoza
+B73	inclusion	Riječno sljepilo
+B74	preferred	Filarijaza
+B74	exclusion	Onhocerkijaza, označena pod B73
+B74	exclusion	Tropska (plućna) eozinofilija NOS J82
+B74.0	preferred	Filarijaza, uzročnik Wucheria bancrofti
+B74.0	inclusion	Elefantijaza, uzrokovana sa W. Bancrofti
+B74.0	inclusion	Filarijaza, uzrokovana sa W. Bancrofti
+B74.1	preferred	Filarijaza, uzrokovana sa Brugia malayi
+B74.2	preferred	Filarijaza, uzrokovana sa Brugia timori
+B74.3	preferred	Lojaza
+B74.3	inclusion	"Calabar-ski" otok
+B74.3	inclusion	Afrička bolest očnih crva
+B74.3	inclusion	Loa Loa
+B74.4	preferred	Mansonelijaza, filirijaza uzrokovana Masonella-ama
+B74.4	inclusion	Filarijaza, uzročnik Mansonella ozzardi
+B74.4	inclusion	Filarijaza, uzročnik Mansonella perstans
+B74.4	inclusion	Filarijaza, uzročnik Mansonella streptocerca
+B74.8	preferred	Druge filarijaze
+B74.8	inclusion	Diprofilarijaza
+B74.9	preferred	Filarijaza, neoznačena
+B75	preferred	Trihineloza
+B75	inclusion	Oboljenje uzrokovano sa Trichinella species
+B75	inclusion	Trihinijaza
+B76	preferred	Bolest kukastih crva
+B76	inclusion	uncinarijaza
+B76.0	preferred	Ankilostomijaza
+B76.0	inclusion	Oboljenje uzrokovano sa Ancylostoma species
+B76.1	preferred	Nekatorijaza
+B76.1	inclusion	Oboljenje uzrokovano sa Necator americanus
+B76.8	preferred	Druge bolesti uzrokovane kukastim crvima
+B76.9	preferred	Bolest kukastih crva, neoznačena
+B76.9	inclusion	Kožna šetajuća larva (larva migrans) NOS
+B77	preferred	Askarijaza
+B77	inclusion	Askaridijaza
+B77	inclusion	Oboljenje uzrokovano okruglim crvima
+B77.0	preferred	Askarijaza sa crijevnim komplikacijama
+B77.8	preferred	Askarijaza bez komplikacija
+B77.9	preferred	Askarijaza, neoznačena
+B78	preferred	Strongiloidijaza
+B78	exclusion	Trihostrongilijaza, označena pod B81.2
+B78.0	preferred	Strongiloidijaza crijeva
+B78.1	preferred	Strongiloidijaza kože
+B78.7	preferred	Rasijana strongiloidijaza
+B78.9	preferred	Strongiloidijaza, neoznačena
+B79	preferred	Trihurijaza
+B79	inclusion	Trihocefalijaza
+B79	inclusion	Bičasta glista (oboljenje)
+B80	preferred	Enterobijaza
+B80	inclusion	Oksiurijaza
+B80	inclusion	Oboljenje uzrokovano igličastom glistom
+B80	inclusion	__ glista
+B81	preferred	Ostale helmintijaze crijeva, neklasifikovane na drugom mjestu
+B81	exclusion	Angiostrongilijaza uzrokovana sa Angiostrongylus cantonensis označena pod B83.2
+B81	exclusion	Angiostrongilijaza uzrokovana sa Parastrongylus cantonensis označena pod B83.2
+B81.0	preferred	Anisakijaza
+B81.0	inclusion	Oboljenje uzrokovano Anisakis larvom
+B81.1	preferred	Kapilarijaza crijeva
+B81.1	inclusion	Kapilarijaza NOS
+B81.1	inclusion	Oboljenje uzrokovano sa Capillaria philippinensis
+B81.1	exclusion	Jetrena kapilarijaza, označenap pod B83.8
+B81.2	preferred	Trihostrongilijaza
+B81.3	preferred	Angiostrongilijaza crijeva
+B81.3	inclusion	Angiostrongilijaza uzrokovana sa Angiostrongylus costaricensis
+B81.3	inclusion	Angiostrongilijaza uzrokovana sa Parastrongylus costaricensis
+B81.4	preferred	Miješovite crijevne helmintijaze
+B81.4	inclusion	Oboljenja prouzrokovana crijevnim helmintima koja mogu da se klasifikuju u više kategorija od B65.0 do B81.3, uključujući i B81.8
+B81.4	inclusion	Miješovite helmintijaze NOS
+B81.8	preferred	Druge označene helmintijaze crijeva
+B81.8	inclusion	Oboljenje uzrokovano sa Oesophagostomum species [ezofagostomijaza]
+B81.8	inclusion	Oboljenje uzrokovano saTernidens deminutus [ternidenzijaza]
+B82	preferred	Neoznačeno oboljenje uzrokovano crijevnim parazitima 
+B82.0	preferred	Helmintijaza crijeva, neoznačena
+B82.9	preferred	Oboljenje crijeva uzrokovano parazitima, neoznačeno
+B83	preferred	Druge helmintijaze
+B83	exclusion	Kapilirijaza NOS, označena pod B81.1
+B83	exclusion	Crijevna kapilirijaza označena pod B81.1
+B83.0	preferred	Unutaršnja šetajuća larva (larva vigrans)
+B83.0	inclusion	Toksokarijaza
+B83.1	preferred	Gnatostomijaza
+B83.1	inclusion	Šetajući otok
+B83.2	preferred	Angiostrongilijaza, uzrokovana sa Parastrongylis cantonensis
+B83.2	inclusion	Angiostrongilijaza, uzrokovana sa Angiostrongylis cantonensis
+B83.2	inclusion	Upala mozga i moždanica sa eozinofilima, označena pod G05.2
+B83.2	exclusion	Crijevna angiostrongilijaza
+B83.3	preferred	Singamijaza
+B83.3	inclusion	Singamoza
+B83.4	preferred	Unutrašnja pijavica
+B83.4	exclusion	Spoljašnja pijavica, označana pod B88.3
+B83.8	preferred	Druge označene helmintijaze
+B83.8	inclusion	Akantocefalijaza
+B83.8	inclusion	Gongilonemijaza
+B83.8	inclusion	Jetrena kapilarijaza
+B83.8	inclusion	Metastrongilijaza
+B83.8	inclusion	Telazijaza
+B83.9	preferred	Helmintijaza, neoznačena
+B83.9	inclusion	Gliste NOS
+B83.9	exclusion	Crijevna helmintijaza NOS, označena pod B82.0
+B85-B89	preferred	Vašljivost, akarijaza i druge infestacije
+B85	preferred	Vašljivost glave i stidnog pređela
+B85.0	preferred	Vašljivost glave, uzrokovana sa Pediculus humanus capitis
+B85.0	inclusion	Vašljivost uzrokovana sivom (glavenom) vaši
+B85.1	preferred	Vašljivost tijela, uzročnik Pediculus humanus corporis
+B85.1	inclusion	Vašljivost uzrokovana tjelesnom vaši
+B85.2	preferred	Vašljivost, neoznačena
+B85.3	preferred	Vašljivost stidnih dlaka, uzročnik Phthirus pubis
+B85.3	inclusion	Vašljivost uzrokovana stidnom vaši
+B85.3	inclusion	Vašljivost uzročnik Phthirus pubis
+B85.4	preferred	Miješovita vašljivost
+B85.4	inclusion	Infestacije koje mogu da se klasifikuju u više kategorija od B85.0 do B85.3
+B86	preferred	Šuga
+B86	inclusion	Svrab uzrokovan sa Sarcoptes scabiei
+B87	preferred	Mijaza
+B87	inclusion	Infestacije uzrokovane larvama raznih vrsta muva
+B87.0	preferred	Mijaza kože
+B87.0	inclusion	"Puzajuća" mijaza
+B87.1	preferred	Mijaza rana
+B87.1	inclusion	Mijaza traumatizovanog tkiva
+B87.2	preferred	Mijaza oka
+B87.3	preferred	Mijaza nosa i ždrijela
+B87.3	inclusion	Mijaza grkljana
+B87.4	preferred	Mijaza uva
+B87.8	preferred	Mijaza drugih lokalizacija
+B87.8	inclusion	Mijaza mokraćno-polnog sistema
+B87.8	inclusion	Mijaza crijeva
+B87.9	preferred	Mijaza, neoznačena
+B88	preferred	Ostale infestacije
+B88.0	preferred	Ostale akarijaze - infestacije uzrokovane grinjama
+B88.0	inclusion	Zapaljenje kože uzrokovano grinjama
+B88.0	inclusion	Zapaljenje kože uzrokovano sa Demodex species
+B88.0	inclusion	Zapaljenje kože uzrokovano sa Dermanyssus gallinae
+B88.0	inclusion	Zapaljenje kože uzrokovano sa Liponyssoides sanguineus
+B88.0	inclusion	Trombikuloza
+B88.0	exclusion	Šuga, označena pod B86
+B88.1	preferred	Tungijaza (infestacija pješčanom mvom)
+B88.2	preferred	Druge infestacije člankonošcima
+B88.2	inclusion	Skarabijaza
+B88.3	preferred	Spoljašnja pijavica
+B88.3	inclusion	Infestacija pijavicom NOS
+B88.3	exclusion	Unutrašnja pijavica, označena pod B83.4
+B88.8	preferred	Druge označene infestacije
+B88.8	inclusion	Ihtioparazitizam urokovan sa Vandellia cirrhosa
+B88.8	inclusion	Lingvatuloza
+B88.8	inclusion	Porocefalijaza
+B88.9	preferred	Infestacija, neoznačene
+B88.9	inclusion	Kožne infestacije NOS
+B88.9	inclusion	Infestacije gnjidama NOS
+B88.9	inclusion	Kožni paraziti NOS
+B89	preferred	Neoznačena parazitarna bolest
+B90-B94	preferred	Posljedice zaraznih i parazitarnihbolesti
+B90-B94	note	Šifre B90-B94 se upotrebljavaju za šifriranje stanja prethodno kategorisanih od A00 do B89 a koja su uzrok određenih posljedica (sekvela) klasifikovanih na drugom mjestu. Posljedice obuhvataju stanja označena pod takva; ali i kasne posljedice bolesti koje se mogu svrstati u gore spomenute kategorije ukoliko postoje dokazi da bolest nije više prisutna. Za korišćenje ovih šifri, potrebno je pridržavati se pravila šifriranja mortaliteta i morbiditeta sadržana u Knjizi 2. Ove šifre ne bi trebalo da se koriste za označavanje hroničnih infekcija. Skorašnje infekcije treba šifrirati odgovarajućim šiframa hroničnih ili aktivnih infekcija. 
+B90	preferred	Posljedice tuberkuloze.
+B90.0	preferred	Posljedice tuberkuloze centralnog nervnog sistema
+B90.1	preferred	Posljedice tuberkuloze mokraćno-polnog sistema.
+B90.2	preferred	Posljedice tuberkuloze kostiju i zglobova.
+B90.8	preferred	Posljedice tuberkuloze drugih organa.
+B90.9	preferred	Posljedice tuberkuloze respiratornog sistema i druge neoznačene tuberkuloze
+B90.9	inclusion	Posljedice tuberkuloze NOS
+B91	preferred	Posljedice infekcije polio virusom
+B91	exclusion	Sinrom nakon polia, označen pod G14
+B92	preferred	Posljedice gube
+B94	preferred	Posljedice drugih i neoznačenih zaraznih i parazitarnih bolesti
+B94.0	preferred	Posljedice trahoma
+B94.1	preferred	Posljedice zapaljenja mozga uzrokovanog virusima
+B94.2	preferred	Posljedice zapaljenja jetre uzrokovanog virusima
+B94.8	preferred	Posljedice drugih označenih zaraznih i parazitarnih bolesti
+B94.9	preferred	Posljedice neoznačene zarazne i parazitarne bolesti
+B95-B98	preferred	Bakterijski, virusni i drugi zarazni uzročnici bolesti
+B95-B98	note	Ove šifre nikada ne bi trebale da se koriste u primarnom šifriranju. One su predviđene kao dopunske ili dodatne šifre kada se želi da identifikuje infektivni agens (agensi) kod bolesti klasifikovane na drugom mjestu.
+B95	preferred	Streptokok i stafilokok kao uzročnik bolesti označene na drugom mjestu
+B95.0	preferred	Streptokok grupe A kao uzročnik bolesti klasifikovane na drugom mjestu
+B95.1	preferred	Streptokok grupe B kao uzročnik bolesti klasifikovane na drugom mjestu
+B95.2	preferred	Streptokok grupe D kao uzročnik bolesti klasifikovane na drugom mjestu
+B95.3	preferred	Pneumokok kao uzrok bolesti klasifikovane na drugom mjestu
+B95.4	preferred	Druge streptokoke kao uzrok bolesti klasifikovane na drugom mjetsu
+B95.5	preferred	Neoznačene streptokoke kao uzrok bolesti klasifikovane na drugom mjestu
+B95.6	preferred	Staphylococcus aureus kao uzrok bolesti klasifikovane na drugom mjestu
+B95.7	preferred	Druge stafilokoke kao uzrok bolesti klasifikovane na drugom mjestu
+B95.8	preferred	Neoznačene stafilokoke kao uzrok bolesti klasifikovane na drugom mjestu
+B96	preferred	Drugi označeni bakterijski agensi kao uzrok bolesti klasifikovane na drugom mjestu
+B96.0	preferred	Mycoplasma pneumoniae kao uzrok bolesti klasifikovane na drugom mjestu

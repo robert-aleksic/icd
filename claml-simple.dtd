@@ -1,0 +1,69 @@
+### Thown out: Variants and History never used, attribute types
+
+ClaML (version)
+	!Meta* (name, value)
+	Identifier* (authority?, uid)
+	Title (name, version?, date?) <>
+	Authors?
+    Author* (name) <>
+	ClassKinds # category, block, chapter
+	  ClassKind+ (name)
+  UsageKinds? # aster, dagger
+    UsageKind+ (name, mark)
+	RubricKinds # footnote, text, coding-hint, definition, introduction, modifierlink, note, exclusion, inclusion, preffered, preferredLong
+	  RubrickKind+ (name, inherited? [!true|false])
+	Modifier* (code)
+		Meta* 
+		!SubClass* (code)
+		Rubric*
+	ModifierClass* (code, modifier, usage?)
+    Meta* 
+	  !SuperClass (code)
+	  SubClass*  
+	  Rubric*
+	Class* (code, kind, usage?)
+		Meta* 
+	  SuperClass 
+	  SubClass*  
+		ModifiedBy* (code, all? [!true|false], position?)
+	  	Meta* 
+      ValidModifierClass* (code)
+		ExcludeModifier* (code)
+		Rubric*
+
+Rubric (kind, id?, usage?)
+  Label+ (xml:lang, xml:space? [!default|preserve]) <>
+    %rubric.complex*
+
+%rubric.simple | 
+  %text 
+  Reference (code?, class?, usage?, authority?, uid?) <>    # [], code (len<=16), code(.+)/d
+  Term (class?) <>                                          # tab subscript italics bold
+
+%rubric.complex |
+  %rubric.med
+  IncludeDescendants (code, kind)
+  Fragment (class?, usage?, type? [!item|list]) <> # item, list
+    %rubric.simple*
+
+%rubric.med |
+  %rubric.simple
+	!Para (class?) <>
+	  %rubric.simple*
+  !Include (class?, rubric)
+	!List (class?) <>
+	  ListItem+ (class?) <> |
+	    %rubric.med*
+	!Table (class?) <>
+	  Caption? (class?) <>
+	    %rubric.simple*
+	  THead? (class?) <>
+	    Row+
+	  TBody? (class?) <>
+	    Row+
+	  TFoot? (class?) <>
+	    Row+
+
+Row (class?) <>
+	Cell* (class?, rowspan?, colspan?) 
+	  %rubric.med*

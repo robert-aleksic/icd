@@ -1,0 +1,2084 @@
+XX	preferred	
+XX	text	
+V01-X59	preferred	Udesi
+V01-V99	preferred	Saobraćajni udesi
+V01-V99	note	Ovaj odjeljak je podijeljen u 12 podgrupa. One koje se odnose na drumske saobraćajne udese (V01-V89). Opisuje način trasportovanja žrtve i dalje su podijeljene da bi se identifikovale žrtve saputnici i tip udesa. Vozilo u kome se povrijeđena  osoba transportovala je identifikovano sa dva prva slova jer se uvidjelo da je to najznačaniji faktor u smislu definisanja preventivnih mjera.
+V01-V99	exclusion	udes osoba koje se bave održavanjem ili popravkom transportne  opreme ili vozila (koje nije u pokretu), osim ako je povrijeđen drugim vozilom u pokretu (W00-X59)
+V01-V99	exclusion	udese koji uključuju vozila, ali nemaju nikakve veze sa opasnošću koja je u vezi sa prevoznim sredstvima, na primjer, povrede koje su nastale u tuči na brodu; transportno vozilo koje je zahvaćeno prirodnom nepogodom (kataklizmom); prst koji je slomljen prilikom zatvaranja vrata auta (W00-X59)
+V01-V99	exclusion	Napad koji je nastao razbijanjem motornog vozila (Y03.-)
+V01-V99	exclusion	Događaj sa neutvrđenom namjerom (Y31-Y33)
+V01-V99	exclusion	Namjerno samopovređivanje (X81-X83)
+V01-V09	preferred	Pješak povrijeđen u saobraćajnom udesu 
+V01-V09	exclusion	Sudara pješaka koji pješači sa drugim pješakom koji pješači (W51.-)
+V01-V09	exclusion	Pad uslijed sudara pješaka koji pješači sa drugim pješakom koji pješači (W03.-)
+V01	preferred	Pješak povrijeđen udarom bicikla
+V01[S20V01_4]	modifierlink	
+V02	preferred	Pješak povrijeđen udarom motornog vozila sa dva ili tri točka
+V02[S20V01_4]	modifierlink	
+V03	preferred	Pješak povrijeđen udarom kolima, pick-up vozilom ili kombijem
+V03[S20V01_4]	modifierlink	
+V04	preferred	Pješak povrijeđen udarom teškog transportnog vozila ili autobusa
+V04[S20V01_4]	modifierlink	
+V05	preferred	Pješak povrijeđen udarom voza ili pružnog vozila
+V05[S20V01_4]	modifierlink	
+V06	preferred	Pješak povrijeđen udarom nekog drugog vozila bez motora
+V06	inclusion	Udar sa zaprežnim vozilom, životinjom koju neko jaše i tramvajem
+V06[S20V01_4]	modifierlink	
+V09	preferred	Pješak povrijeđen u drugim i neoznačenim saobraćajnim udesima
+V09	inclusion	Pješak povrijeđen specijalnim vozilom
+V09.0	preferred	Pješak povrijeđen u nesaobraćajnom udesu u kome su učestvovala neka druga ili neoznačena motorna vozila
+V09.1	preferred	Pješak povrijeđen u neoznačenom nesaobraćajnom udesu
+V09.2	preferred	Pješak povrijeđen u saobraćajnom udesu u kome su učestvovala neka druga ili neoznačena motorna vozila
+V09.3	preferred	Pješak povrijeđen u neoznačenom saobraćajnom udesu
+V09.9	preferred	Pješak povrijeđen u neoznačenom udesu
+V10-V19	preferred	Biciklista povrijeđen u saobraćajnom udesu
+V10	preferred	Biciklista povrijeđen u sudaru sa pješakom ili životinjom
+V10	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše
+V10[S20V10_4]	modifierlink	
+V11	preferred	Biciklista povrijeđen u sudaru sa drugim biciklistom
+V11[S20V10_4]	modifierlink	
+V12	preferred	Biciklista povrijeđen u sudaru sa motornim vozilom na dva ili tri točka
+V12[S20V10_4]	modifierlink	
+V13	preferred	Biciklista povrijeđen u sudaru sa autom, pick-up vozilom ili kombijem
+V13[S20V10_4]	modifierlink	
+V14	preferred	Biciklista povrijeđen u sudaru sa teškim transportnim vozilom ili autobusom
+V14[S20V10_4]	modifierlink	
+V15	preferred	Biciklista povrijeđen u sudaru sa vozom ili pružnim vozilom
+V15[S20V10_4]	modifierlink	
+V16	preferred	Biciklista povrijeđen u sudaru sa drugim vozilom bez motora
+V16	inclusion	Sudar sa zaprežnim vozilom, životinjom koju neko jaše i tramvajem
+V16[S20V10_4]	modifierlink	
+V17	preferred	Biciklista povrijeđen u sudaru sa fiksiranim ili nepokretnim predmetom
+V17[S20V10_4]	modifierlink	
+V18	preferred	Biciklista povrijeđen u saobraćajnom udesu bez sudara
+V18	inclusion	Pad ili guranje sa bicikla (bez prethodnog sudara) - prevrtanje: neoznačeno 
+V18	inclusion	Pad ili guranje sa bicikla (bez prethodnog sudara) - prevrtanje: bez sudara
+V18[S20V10_4]	modifierlink	
+V19	preferred	Biciklista povrijeđen u drugim i neoznačenim saobraćajnim udesima
+V19.0	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V19.1	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V19.2	preferred	Neoznačen biciklista povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V19.2	inclusion	Sudar bicikliste neoznačen, nesaobraćajni
+V19.3	preferred	Biciklista (bilo koji) povrijeđen u neoznačenom nesaobraćajnom udesu
+V19.3	inclusion	Udes bicikliste neoznačen, nesaobraćajni
+V19.3	inclusion	Biciklista povrijeđen u nesaobraćajnom udesu, neoznačen
+V19.4	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V19.5	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V19.6	preferred	Neoznačen biciklista povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V19.6	inclusion	Neoznačen sudar bicikliste, (saobraćajni)
+V19.8	preferred	Biciklista (bilo koji) povrijeđen u drugim označenim saobraćajnim udesima
+V19.8	inclusion	Prikliješten dijelom bicikla
+V19.9	preferred	Biciklista (bilo koji) povrijeđen u neoznačenom saobraćajnom udesu
+V19.9	inclusion	Udes bicikliste, neoznačen
+V20-V29	preferred	Motociklista povrijeđen u saobraćajnom udesu
+V20-V29	inclusion	Moped
+V20-V29	inclusion	Motocikl sa pobočnim sjedištem
+V20-V29	inclusion	Motorizovani bicikl
+V20-V29	inclusion	Skuter
+V20-V29	exclusion	Motorno vozilo na tri točka (V30-V39)
+V20	preferred	Motociklista povrijeđen u sudaru sa pješakom ili životinjom
+V20	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V26.-)
+V20[S20V20_4]	modifierlink	
+V21	preferred	Motociklista povrijeđen u sudaru sa biciklistom
+V21[S20V20_4]	modifierlink	
+V22	preferred	Motociklista povrijeđen u sudaru sa motornim vozilom sa dva ili tri točka
+V22[S20V20_4]	modifierlink	
+V23	preferred	Motociklista povrijeđen u sudaru sa automobilom, pick-up vozilom ili kombijem
+V23[S20V20_4]	modifierlink	
+V24	preferred	Motociklista povrijeđen u sudaru sa teškim transportnim vozilom ili autobusom
+V24[S20V20_4]	modifierlink	
+V25	preferred	Motociklista povrijeđen u sudaru sa  vozom ili pružnim vozilom
+V25[S20V20_4]	modifierlink	
+V26	preferred	Motociklista povrijeđen u sudaru sa drugim vozilom bez motora
+V26	inclusion	Sudar sa zaprežnim vozilom, životinjom koju neko jaše i  tramvajem
+V26[S20V20_4]	modifierlink	
+V27	preferred	Motociklista povrijeđen u sudaru sa fiksiranim ili nepokretnim predmetom
+V27[S20V20_4]	modifierlink	
+V28	preferred	Motociklista povrijeđen u saobraćajnom udesu bez sudara
+V28	inclusion	Pad ili guranje sa motocikla (bez prethodnog sudara) - prevrtanje, neoznačeno
+V28	inclusion	Pad ili guranje sa motocikla (bez prethodnog sudara) - prevrtanje, bez sudara
+V28[S20V20_4]	modifierlink	
+V29	preferred	Motociklista povrijeđen u drugim i neoznačenim saobraćajnim udesima
+V29.0	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V29.1	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V29.2	preferred	Neoznačeni motociklista povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V29.2	inclusion	Neoznačeni motociklista u sudaru, nesaobraćajni
+V29.3	preferred	Motociklista (bilo koji) povrijeđen u neoznačenom nesaobraćajnom udesu
+V29.3	inclusion	Udes motocikliste neoznačen, nesaobraćajni
+V29.3	inclusion	Motociklista povrijeđen u neoznačenom nesaobraćajnom udesu
+V29.4	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V29.5	preferred	Putnik  povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V29.6	preferred	Neoznačeni motociklista povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V29.6	inclusion	Neoznačen sudar motocikliste, (saobraćajni)
+V29.8	preferred	Motociklista (bilo koji) povrijeđen u drugim označenim saobraćajnim udesima
+V29.8	inclusion	Prikliješten dijelom motocikla
+V29.9	preferred	Motociklista (bilo koji) povrijeđen u neoznačenom saobraćajnom udesu
+V29.9	inclusion	Udes motocikliste, neoznačen
+V30-V39	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u saobraćajnom udesu
+V30-V39	inclusion	Tricikl sa motorom
+V30-V39	exclusion	Motocikl sa pobočnim sjedištem (V20-V29)
+V30-V39	exclusion	Vozilo predviđeno prvenstveno za korišćenje van puta (terensko vozilo) (V86.-)
+V30	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa pješakom ili životinjom
+V30	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V36.-)
+V30[S20V30_4]	modifierlink	
+V31	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa biciklistom
+V31[S20V30_4]	modifierlink	
+V32	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa motornim vozilom sa dva ili tri točka
+V32[S20V30_4]	modifierlink	
+V33	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa automobilom, pick-up vozilom ili kombijem
+V33[S20V30_4]	modifierlink	
+V34	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa teškim transportnim vozilom ili autobusom
+V34[S20V30_4]	modifierlink	
+V35	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa vozom ili pružnim vozilom
+V35[S20V30_4]	modifierlink	
+V36	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa drugim vozilom bez motora
+V36	inclusion	Sudar sa zaprežnim vozilom, životinjom koju neko jaše i tramvajem
+V36[S20V30_4]	modifierlink	
+V37	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa fiksiranim ili nepokretnim predmetom
+V37[S20V30_4]	modifierlink	
+V38	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u saobraćajnom udesu bez sudara
+V38	inclusion	Pad ili guranje sa motornog vozila sa tri točka (bez prethodnog sudara) - prevrtanje: neoznačeno
+V38	inclusion	Pad ili guranje sa motornog vozila sa tri točka (bez prethodnog sudara) - prevrtanje: bez sudara
+V38[S20V30_4]	modifierlink	
+V39	preferred	Osoba u motornom vozilu sa tri točka povrijeđena u drugim i neoznačenim saobraćajnim udesima
+V39.0	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V39.1	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V39.2	preferred	Neoznačena osoba u motornom vozilu sa tri točka povrijeđena u sudaru sa drugim i neoznačenim motornim vozilom u nesaobraćajnom udesu
+V39.2	inclusion	Neoznačen sudar motornog vozila sa tri točka, nesaobraćajni
+V39.3	preferred	Osoba u motornom vozilu sa tri točka (bilo koja) povrijeđena u neoznačenom nesaobraćajnom udesu
+V39.3	inclusion	Udes motornog vozila sa tri točka neoznačen, nesaobraćajni
+V39.3	inclusion	Osoba u motornom vozilu sa tri točka povrijeđena u nesaobraćajnom udesu, neoznačen
+V39.4	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V39.5	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V39.6	preferred	Neoznačena osoba u motornom vozilu sa tri točka  povrijeđena u sudaru sa drugim i neoznačenim motornim vozilom u saobraćajnom udesu
+V39.6	inclusion	Neoznačen sudar, u kome je učestvovalo motorno vozilo sa tri točka (saobraćajni)
+V39.8	preferred	Osoba u motornom vozilu sa tri točka (bilo koja) povrijeđena u drugim označenim saobraćajnim udesima
+V39.8	inclusion	Prikliješten vratima ili dijelom motornog vozila sa tri točka
+V39.9	preferred	Osoba u motornom vozilu sa tri točka (bilo koji) povrijeđena u neoznačenom saobraćajnom udesu
+V39.9	inclusion	Udes motornog vozila sa tri točka, neoznačen
+V40-V49	preferred	Osoba u automobilu povrijeđena u saobraćajnom udesu
+V40-V49	inclusion	Minibus
+V40	preferred	Osoba u automobilu povrijeđena u sudaru sa pješakom ili životinjom
+V40	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V46.-)
+V40[S20V40_4]	modifierlink	
+V41	preferred	Osoba u automobilu povrijeđena u sudaru sa biciklistom
+V41[S20V40_4]	modifierlink	
+V42	preferred	Osoba u automobilu povrijeđena u sudaru sa motornim vozilom sa dva ili tri točka
+V42[S20V40_4]	modifierlink	
+V43	preferred	Osoba u automobilu povrijeđena u sudaru sa automobilom, pick-up vozilom ili kombijem
+V43[S20V40_4]	modifierlink	
+V44	preferred	Osoba u automobilu povrijeđena u sudaru sa teškim transportnim vozilom ili autobusom
+V44[S20V40_4]	modifierlink	
+V45	preferred	Osoba u automobilu povrijeđena u sudaru sa  vozom ili pružnim vozilom
+V45[S20V40_4]	modifierlink	
+V46	preferred	Osoba u automobilu povrijeđena u sudaru sa drugim vozilom bez motora
+V46	inclusion	Sudar sa zaprežnim vozilom, životinjom koju neko jaše i  tramvajem
+V46[S20V40_4]	modifierlink	
+V47	preferred	Osoba u automobilu povrijeđena u sudaru sa fiksiranim ili nepokretnim predmetom
+V47[S20V40_4]	modifierlink	
+V48	preferred	Osoba u automobilu povrijeđena u saobraćajnom udesu bez sudara
+V48	inclusion	Prevrtanje: neoznačeno
+V48	inclusion	Prevrtanje: bez sudara
+V48[S20V40_4]	modifierlink	
+V49	preferred	Osoba u automobilu povrijeđena u drugim i neoznačenim saobraćajnim udesima
+V49.0	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V49.1	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima  u nesaobraćajnom udesu
+V49.2	preferred	Neoznačena osoba u automobilu u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V49.2	inclusion	Neoznačen sudar automobila, nesaobraćajni
+V49.3	preferred	Osoba u automobilu (bilo koja) povrijeđena u neoznačenom nesaobraćajnom udesu
+V49.3	inclusion	Udes automobila, neoznačen, nesaobraćajni
+V49.3	inclusion	Osoba u automobilu povrijeđena u nesaobraćajnom udesu, neoznačeno
+V49.4	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V49.5	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V49.6	preferred	Neoznačena osoba u automobilu povrijeđena u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V49.6	inclusion	Neoznačen sudar automobila, (saobraćajni)
+V49.8	preferred	Osoba u automobilu (bilo koja) povrijeđena u drugim označenim saobraćajnim udesima
+V49.8	inclusion	Prikliješten vratima ili drugim dijelom automobila
+V49.9	preferred	Osoba u automobilu (bilo koja) povrijeđena u drugom neoznačenom saobraćajnom  udesu
+V49.9	inclusion	Sudar automobila, neoznačen
+V50-V59	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u saobraćajnom udesu
+V50-V59	exclusion	Teško transportno vozilo (V60-V69)
+V50	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa pješakom ili životinjom
+V50	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V56.-)
+V50[S20V50_4]	modifierlink	
+V51	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa biciklistom
+V51[S20V50_4]	modifierlink	
+V52	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa motornim vozilom sa dva ili tri točka
+V52[S20V50_4]	modifierlink	
+V53	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa automobilom, pick-up vozilom ili kombijem
+V53[S20V50_4]	modifierlink	
+V54	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa teškim transportnim vozilom ili autobusom
+V54[S20V50_4]	modifierlink	
+V55	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa  vozom ili pružnim vozilom
+V55[S20V50_4]	modifierlink	
+V56	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa drugim vozilom bez  motora
+V56	inclusion	Sudar sa zaprežnim vozilom, životinjom koju neko jaše i  tramvajem
+V56[S20V50_4]	modifierlink	
+V57	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa fiksiranimnim ili nepokretnim predmetom
+V57[S20V50_4]	modifierlink	
+V58	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u saobraćajnom udesu bez sudara
+V58	inclusion	Prevrtanje: neoznačeno
+V58	inclusion	Prevrtanje: bez sudara
+V58[S20V50_4]	modifierlink	
+V59	preferred	Osoba u pick-up vozilu ili kombiju povrijeđena u drugim i neoznačenim saobraćajnim udesima
+V59.0	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilIma u nesaobraćajnom udesu
+V59.1	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V59.2	preferred	Neoznačena osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V59.2	inclusion	Neoznačeni sudar pick-up vozila ili kombija, nesaobraćajni
+V59.3	preferred	Osoba u pick-up vozilu ili kombiju (bilo koja) povrijeđena u neoznačenom nesaobraćajnom udesu
+V59.3	inclusion	Neoznačen udes, u koji je  uključeno pick-up vozilo ili kombi, nesaobraćajni
+V59.3	inclusion	Osoba u pick-up vozilu ili kombiju povrijeđena u nesaobraćajnom udesu, neoznačena
+V59.4	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V59.5	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V59.6	preferred	Neoznačena osoba u pick-up vozilu ili kombiju povrijeđena u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V59.6	inclusion	Neoznačeni sudar pick-up vozila ili kombija, (saobraćajni)
+V59.8	preferred	Osoba u pick-up vozilu ili kombiju (bilo koja) povrijeđena u drugim označenim saobraćajnim udesima
+V59.8	inclusion	Prikliješten vratima ili drugim dijelom pick-up vozila ili kombija 
+V59.9	preferred	Osoba u pick-up vozilu ili kombiju (bilo koja) povrijeđena u neoznačenom saobraćajnom udesu
+V59.9	inclusion	Neoznačeni udes pick-up vozila ili kombija
+V60-V69	preferred	Osoba u teškom transportnom vozilu povrijeđena u saobraćajnom udesu
+V60	preferred	Osoba u teškom transportnom vozilu povrijeđena u sudaru sa pješakom ili životinjom
+V60	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V66.-)
+V60[S20V60_4]	modifierlink	
+V61	preferred	Osoba u teškom transportnom vozilu povrijeđena u sudaru sa biciklistom
+V61[S20V60_4]	modifierlink	
+V62	preferred	Osoba u teškom transportnom vozilu povrijeđena  u sudaru sa motornim vozilom sa dva ili tri točka
+V62[S20V60_4]	modifierlink	
+V63	preferred	Osoba u teškom transportnom vozilu povrijeđena u sudaru sa automobilom, pick-up vozilom ili kombijem
+V63[S20V60_4]	modifierlink	
+V64	preferred	Osoba u teškom transportnom vozilu povrijeđena u sudaru sa teškim transportnim vozilom ili autobusom
+V64[S20V60_4]	modifierlink	
+V65	preferred	Osoba u teškom transportnom vozilu povrijeđena u sudaru sa  vozom ili pružnim vozilom
+V65[S20V60_4]	modifierlink	
+V66	preferred	Osoba u teškom transportnom vozilu povrijeđena u sudaru sa drugim vozilom bez  motora
+V66	inclusion	Sudar sa zaprežnim vozilom, životinju koju neko jaše i tramvajem
+V66[S20V60_4]	modifierlink	
+V67	preferred	Osoba u teškom transportnom vozilu povrijeđena u sudaru sa fiksiranim ili nepokretnim predmetom
+V67[S20V60_4]	modifierlink	
+V68	preferred	Osoba u teškom transportnom vozilu povrijeđena u saobraćajnom udesu bez sudara
+V68	inclusion	Prevrtanje: neoznačeno
+V68	inclusion	Prevrtanje: bez sudara
+V68[S20V60_4]	modifierlink	
+V69	preferred	Osoba u teškom transportnom vozilu povrijeđena u drugim i neoznačenim saobraćajnim udesima
+V69.0	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V69.1	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V69.2	preferred	Neoznačena osoba u teškom transportnom vozilu povrijeđena u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V69.2	inclusion	Neoznačeni sudar teškog transportnog vozila, nesaobraćajni
+V69.3	preferred	Osoba (bilo koja) u teškom transportnom vozilu povrijeđena u neoznačenom nesaobraćajnom udesu
+V69.3	inclusion	Neoznačeni udes teškog transportnog vozila, nesaobraćajni
+V69.3	inclusion	Osoba u teškom transportnom vozilu povrijeđena u nesaobraćajnom udesu,  neoznačena
+V69.4	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V69.5	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V69.6	preferred	Neoznačena osoba u teškom transportnom vozilu povrijeđena u sudaru sa drugim i neoznačenim motornim vozilma u saobraćajnom udesu
+V69.6	inclusion	Neoznačeni sudar teškog transportnog vozila, (saobraćajni)
+V69.8	preferred	Osoba (bilo koja) u teškom transportnom vozilu povrijeđena u drugim označenim saobraćajnim udesima
+V69.8	inclusion	Prikliješten vratima ili drugim dijelom teškog transportnog vozila
+V69.9	preferred	Osoba (bilo koja) u teškom transportnom vozilu povrijeđena u drugom neoznačenom saobraćajnom udesu
+V69.9	inclusion	Neoznačeni udes teškog transportnog vozila
+V70-V79	preferred	Osoba u autobusu povrijeđena u saobraćajnom udesu
+V70-V79	exclusion	Minibus (V40-V49)
+V70	preferred	Osoba u autobusu povrijeđena u sudaru sa pješakom ili životinjom
+V70	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V76.-)
+V70[S20V70_4]	modifierlink	
+V71	preferred	Osoba u autobusu povrijeđena u sudaru sa biciklistom
+V71[S20V70_4]	modifierlink	
+V72	preferred	Osoba u autobusu povrijeđena u sudaru sa motornim vozilom sa dva ili tri točka
+V72[S20V70_4]	modifierlink	
+V73	preferred	Osoba u autobusu povrijeđena u sudaru sa automobilom, pick-up vozilom ili  kombijem
+V73[S20V70_4]	modifierlink	
+V74	preferred	Osoba u autobusu povrijeđena u sudaru sa teškim transportnim vozilom ili  autobusom
+V74[S20V70_4]	modifierlink	
+V75	preferred	Osoba u autobusu povrijeđena u sudaru sa  vozom ili pružnim vozilom
+V75[S20V70_4]	modifierlink	
+V76	preferred	Osoba u autobusu povrijeđena u sudaru sa drugim vozilom bez motora
+V76	inclusion	Sudar sa zaprežnim vozilom, životinjom koju neko jaše i tramvajem
+V76[S20V70_4]	modifierlink	
+V77	preferred	Osoba u autobusu povrijeđena u sudaru sa fiksiranim ili nepokretnim predmetom
+V77[S20V70_4]	modifierlink	
+V78	preferred	Osoba u autobusu povrijeđena u saobraćajnom udesu bez sudara
+V78	inclusion	Prevrtanje: neoznačeno
+V78	inclusion	Prevrtanje: bez sudara
+V78[S20V70_4]	modifierlink	
+V79	preferred	Osoba u autobusu povrijeđena u drugim i neoznačenim saobraćajnim udesima
+V79.0	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V79.1	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V79.2	preferred	Neoznačena osoba u autobusu povrijeđena u sudaru sa drugim i neoznačenim motornim vozilima u nesaobraćajnom udesu
+V79.2	inclusion	Neoznačen sudar autobusa, nesaobraćajni
+V79.3	preferred	Osoba (bilo koja) u autobusu povrijeđena u neoznačenom nesaobraćajnom udesu
+V79.3	inclusion	Neoznačen udes autobusa, nesaobraćajni
+V79.3	inclusion	Osoba u autobusu povrijeđena u nesaobraćajnom udesu, neoznačena
+V79.4	preferred	Vozač povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V79.5	preferred	Putnik povrijeđen u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V79.6	preferred	Neoznačena osoba u autobusu povrijeđena u sudaru sa drugim i neoznačenim motornim vozilima u saobraćajnom udesu
+V79.6	inclusion	Neoznačeni sudar autobusa, (saobraćajni)
+V79.8	preferred	Osoba u autobusu (bilo koja) povrijeđena u drugim označenim saobraćajnim udesima
+V79.8	inclusion	Prikliješten vratima ili drugim dijelom autobusa
+V79.9	preferred	Osoba u autobusu (bilo koja) povrijeđena u drugom neoznačenom saobraćajnom  udesu
+V79.9	inclusion	Udes autobusa, neoznačen
+V80-V89	preferred	Drugi drumski saobraćajni udesi
+V80	preferred	Jahač životinje ili osoba u zaprežnom vozilu povrijeđena u saobraćajnom udesu
+V80.0	preferred	Jahač ili osoba povrijeđena padom ili guranjem sa životinje ili zaprežnog vozila u udesu bez sudara
+V80.0	inclusion	Prevrtanje: neoznačeno
+V80.0	inclusion	Prevrtanje: bez sudara
+V80.1	preferred	Jahač ili osoba povrijeđena u sudaru sa pješakom ili životinjom
+V80.1	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V80.7)
+V80.2	preferred	Jahač ili osoba povrijeđena u sudaru sa vozilom na pedale
+V80.3	preferred	Jahač ili osoba povrijeđena u sudaru sa motornim vozilom sa dva ili tri točka
+V80.4	preferred	Jahač ili osoba povrijeđena u sudaru sa automobilom, pick-up vozilom, kombijem, teškim transportnim vozilom ili autobusom
+V80.5	preferred	Jahač ili osoba povrijeđena u sudaru sa drugim označenim motornim vozilom 
+V80.6	preferred	Jahač ili osoba povrijeđena u sudaru sa vozom ili pružnim vozilom
+V80.7	preferred	Jahač ili osoba povrijeđena u sudaru sa drugim vozilom bez motora
+V80.7	inclusion	Sudar sa: životinjom koju neko jaše
+V80.7	inclusion	Sudar sa: zaprežnim vozilom
+V80.7	inclusion	Sudar sa: tramvajem
+V80.8	preferred	Jahač ili osoba povrijeđena u sudaru sa fiksiranim ili nepokretnim predmetom
+V80.9	preferred	Jahač ili osoba povrijeđena u drugom i neoznačenom saobraćajnom udesu
+V80.9	inclusion	Udes zaprežnog vozila, neoznačen
+V80.9	inclusion	Udes jahača životinje, neoznačen
+V81	preferred	Osoba u vozu ili pružnom vozilu povrijeđena u saobraćajnom udesu
+V81	inclusion	Osoba koja se nalazi na spoljnjem dijelu voza
+V81.0	preferred	Osoba u vozu ili pružnom vozilu povrijeđena u sudaru sa motornim vozilom u nesaobraćajnom udesu
+V81.1	preferred	Osoba u vozu ili pružnom vozilu povrijeđena u sudaru sa motornim vozilom u saobraćajnom udesu
+V81.2	preferred	Osoba u vozu ili pružnom vozilu povrijeđena u sudaru sa odronom ili pri udaru odrona
+V81.3	preferred	Osoba u vozu ili pružnom vozilu povrijeđena u sudaru sa drugim objektom
+V81.3	inclusion	Sudar voza, neoznačen
+V81.4	preferred	Osoba povrijeđena pri ulasku ili izlasku iz voza ili pružnog vozila
+V81.5	preferred	Osoba u vozu ili pružnom vozilu povrijeđena padom u vozu ili pružnom vozilu 
+V81.5	exclusion	Pad: tokom iskliznuća: voza iz šina sa prethodnim sudarom (V81.0-V81.3)
+V81.5	exclusion	Pad: tokom iskliznuća: voza iz šina bez prethodnog sudara (V81.7)
+V81.5	exclusion	Pad: tokom ukrcavanja i iskrcavanja (V81.4)
+V81.6	preferred	Osoba u vozu ili pružnom vozilu povrijeđena padom iz voza ili iz pružnog vozila
+V81.6	exclusion	Pad: tokom iskliznuća: voza iz šina sa prethodnim sudarom (V81.0-V81.3)
+V81.6	exclusion	Pad: tokom iskliznuća: voza iz šina bez prethodnog sudara (V81.7)
+V81.6	exclusion	Pad: tokom ukrcavanja ili iskrcavanja (V81.4)
+V81.7	preferred	Osoba u vozu ili pružnom vozilu povrijeđena tokom iskliznuća iz šina bez prethodnog sudara
+V81.8	preferred	Osoba u vozu ili pružnom vozilu povrijeđena u drugim označenim željezničkim udesima
+V81.8	inclusion	Eksplozija ili vatra
+V81.8	inclusion	Udar padom: zemlje
+V81.8	inclusion	Udar padom: stijene
+V81.8	inclusion	Udar padom: drveta
+V81.8	exclusion	Ispadanje iz šina: sa prethodnim sudarom (V81.0-V81.3)
+V81.8	exclusion	Ispadanje iz šina: bez prethodnog sudara (V81.7)
+V81.9	preferred	Osoba u vozu ili pružnom vozilu povrijeđena u neoznačenom željezničkom udesu
+V81.9	inclusion	Željeznički udes, neoznačen
+V82	preferred	Osoba u tramvaju povrijeđena u saobraćajnom udesu
+V82	inclusion	Osoba koja se nalazi na spoljnjem dijelu tramvaja
+V82.0	preferred	Osoba u tramvaju povrijeđena u sudaru sa motornim vozilom u nesaobraćajnom udesu
+V82.1	preferred	Osoba u tramvaju povrijeđena u sudaru sa motornim vozilom u saobraćajnom udesu
+V82.2	preferred	Osoba u tramvaju povrijeđena u sudaru sa odronom ili udarena odronom
+V82.3	preferred	Osoba u tramvaju povrijeđena u sudaru sa drugim objektom
+V82.3	exclusion	Sudar sa zaprežnim vozilom ili životinjom koju neko jaše (V82.8)
+V82.4	preferred	Osoba povrijeđena pri ulasku ili izlasku iz tramvaja
+V82.5	preferred	Osoba u tramvaju povrijeđena padom u tramvaju
+V82.5	exclusion	Pad: tokom ukrcavanja ili iskrcavanja (V82.4)
+V82.5	exclusion	Pad: sa prethodnim sudarom (V82.0-V82.3)
+V82.6	preferred	Osoba u tramvaju povrijeđena padom iz tramvaja
+V82.6	exclusion	Pad: tokom ukrcavanja ili iskrcavanja (V82.4)
+V82.6	exclusion	Pad: sa prethodnim sudarom (V82.0-V82.3)
+V82.7	preferred	Osoba u tramvaju povrijeđena kod iskakanja tramvaja iz šina bez prethodnog sudara
+V82.8	preferred	Osoba u tramvaju povrijeđena u drugim označenim saobraćajnim udesima
+V82.8	inclusion	Sudar sa vozom ili drugim vozilom bez motora 
+V82.9	preferred	Osoba u tramvaju povrijeđena u drugom neoznačenom saobraćajnom udesu
+V82.9	inclusion	Udes tramvaja, neoznačen
+V83	preferred	Putnik specijalnog vozila, koje se uglavnom koristi u industriji, povrijeđen u saobraćajnom udesu
+V83	exclusion	Vozilo za stacionarnu upotrebu ili na održavanju (W31.-)
+V83.0	preferred	Vozač specijalnog industrijskog vozila povrijeđen u saobraćajnom udesu
+V83.1	preferred	Putnik specijalnog industrijskog vozila povrijeđen u saobraćajnom udesu
+V83.2	preferred	Osoba koja se nalazi na spoljnjem dijelu specijalnog industrijskog vozila povrijeđena u saobraćajnom udesu
+V83.3	preferred	Neoznačena osoba specijalnog industrijskog vozila povrijeđena u saobraćajnom udesu
+V83.4	preferred	Osoba povrijeđena pri ulasku u ili izlasku iz specijalnog industrijskog vozila
+V83.5	preferred	Vozač specijalnog industrijskog vozila povrijeđen u nesaobraćajnom udesu
+V83.6	preferred	Putnik specijalnog industrijskog vozila povrijeđen u nesaobraćajnom udesu
+V83.7	preferred	Osoba koja se nalazi na spoljnjem dijelu specijalnog industrijskog vozila povrijeđena u nesaobraćajnom udesu
+V83.9	preferred	Neoznačena osoba u specijalnom industrijskom vozilu povrijeđena u nesaobraćajnom udesu
+V83.9	inclusion	Udes specijalnog industrijskog vozila, neoznačen
+V84	preferred	Osoba u specijalnom vozilu koje se uglavnom koristi u poljoprivredi povrijeđena u saobraćajnom udesu
+V84	exclusion	Vozilo za stacionarnu upotrebu ili na održavanju (W30.-)
+V84.0	preferred	Vozač specijalnog poljoprivrednog vozila povrijeđen u saobraćajnom udesu
+V84.1	preferred	Putnik specijalnog poljoprivrednog vozila povrijeđen u saobraćajnom udesu
+V84.2	preferred	Osoba koja se nalazi na spoljnjem dijelu specijalnog poljoprivrednog vozila povrijeđena u saobraćajnom udesu
+V84.3	preferred	Neoznačena osoba u specijalnom poljoprivrednom vozilu povrijeđen u saobraćajnom udesu
+V84.4	preferred	Osoba povrijeđena pri ulasku u ili izlasku iz specijalnog poljoprivrednog vozila
+V84.5	preferred	Vozač specijalnog poljoprivrednog vozila povrijeđen u nesaobraćajnom udesu
+V84.6	preferred	Putnik specijalnog poljoprivrednog vozila povrijeđen u nesaobraćajnom udesu
+V84.7	preferred	Osoba koja se nalazi na spoljnjem dijelu specijalnog poljoprivrednog vozila povrijeđena u nesaobraćajnom udesu
+V84.9	preferred	Neoznačena osoba u specijalnom poljoprivrednom vozilu povrijeđena u nesaobraćajnom udesu
+V84.9	inclusion	Udes specijalnog poljoprivrednog vozila, neoznačen
+V85	preferred	Osoba u specijalnom građevinskom vozilu povrijeđena u saobraćajnom udesu
+V85	exclusion	Vozilo za stacionarnu upotrebu ili na održavanju (W31.-)
+V85.0	preferred	Vozač specijalnog građevinskog vozila povrijeđen u saobraćajnom udesu
+V85.1	preferred	Putnik specijalnog građevinskog vozila povrijeđen u saobraćajnom udesu
+V85.2	preferred	Osoba koja se nalazi na spoljnjem dijelu specijalnog građevinskog vozila povrijeđena u saobraćajnom udesu
+V85.3	preferred	Neoznačena osoba u specijalnom građevinskom vozilu povrijeđena u saobraćajnom udesu
+V85.4	preferred	Osoba povrijeđena u toku ulaska u ili izlaska iz specijalnog građevinskog vozila
+V85.5	preferred	Vozač specijalnog građevinskog vozila povrijeđen u nesaobraćajnom udesu
+V85.6	preferred	Putnik u specijalnom građevinskom vozilu povrijeđen u nesaobraćajnom udesu
+V85.7	preferred	Osoba koja se nalazi na spoljnjem dijelu specijalnog građevinskog vozila povrijeđena u nesaobraćajnom udesu
+V85.9	preferred	Putnik  vozila specijalnog građevinskog vozila povrijeđen u nesaobraćajnom udesu
+V85.9	inclusion	Udes specijalnog građevinskog vozila, neoznačen
+V86	preferred	Osoba u specijalnom vozilu za sve terene ili u drugom motornom vozilu, namijenjenom prvenstveno za korišćenje van puta, povrijeđena u  saobraćajnom udesu
+V86	exclusion	Vozilo za stacionarnu upotrebu ili na održavanju (W31.-)
+V86.0	preferred	Vozač vozila za sve terene ili drugog motornog vozila za korišćenje van puta povrijeđen u saobraćajnom udesu
+V86.1	preferred	Putnik vozila za sve terene ili drugog motornog vozila za korišćenje van puta povrijeđen u saobraćajnom udesu
+V86.2	preferred	Osoba koja se nalazi na spoljnjem dijelu vozila za sve terene ili drugog motornog vozila za korišćenje van puta povrijeđena u saobraćajnom udesu
+V86.3	preferred	Neoznačena osoba u vozilu za sve terene ili u drugom motornom vozilu za korišćenje van puta povrijeđena u saobraćajnom udesu
+V86.4	preferred	Osoba povrijeđena u toku ulaska u ili izlaska iz vozila za sve terene ili druga motorna vozila za korišćenje van puta
+V86.5	preferred	Vozač vozila za sve terene ili drugog motornog vozila za korišćenje van puta povrijeđen u nesaobraćajnom udesu
+V86.6	preferred	Putnik vozila za sve terene ili drugog motornog vozila za korišćenje van puta povrijeđen u nesaobraćajnom udesu
+V86.7	preferred	Osoba koja se nalazi na spoljnjem dijelu vozila za sve terene ili drugog motornog vozila za korišćenje van puta povrijeđena u nesaobraćajnom udesu
+V86.9	preferred	Neoznačena osoba u vozilu za sve terene ili u drugom motornom vozilu za korišćenje van puta povrijeđena u nesaobraćajnom udesu
+V86.9	inclusion	Udes motornog vozila za sve terene, neoznačen
+V86.9	inclusion	Udes motornog vozila za korišćenje van puta, neoznačen
+V87	preferred	Saobraćajni udes označenog tipa, s tim što je način transporta žrtve nepoznat
+V87	exclusion	Sudar koji uključuje: biciklistu (V10-V19)
+V87	exclusion	Sudar koji uključuje: pješaka (V01-V09)
+V87.0	preferred	Osoba povrijeđena u sudaru automobila i motornog vozila sa dva ili tri točka (u saobraćaju)
+V87.1	preferred	Osoba povrijeđena u sudaru drugog motornog vozila i motornog vozila sa dva ili tri točka (u saobraćaju)
+V87.2	preferred	Osoba povrijeđena u sudaru automobila i pick-up vozila ili kombija (u saobraćaju)
+V87.3	preferred	Osoba povrijeđena u sudaru automobila i autobusa (u saobraćaju)
+V87.4	preferred	Osoba povrijeđena u sudaru automobila i teškog transportnog vozila (u saobraćaju)
+V87.5	preferred	Osoba povrijeđena u sudaru teškog transportnog vozila i autobusa (u saobraćaju)
+V87.6	preferred	Osoba povrijeđena u sudaru voza ili pružnog vozila i automobila (u saobraćaju)
+V87.7	preferred	Osoba povrijeđena u sudaru drugih označenih motornih vozila (u saobraćaju)
+V87.8	preferred	Osoba povrijeđena u drugim označenim saobraćajnim udesima bez sudara u kojima je učestvovalo motorno vozilo (u saobraćaju)
+V87.9	preferred	Osoba povrijeđena u drugim označenim saobraćajnim udesima (sa sudarom) (bez sudara) u kojima je učestvovalo vozilo bez motora (u saobraćaju)
+V88	preferred	Nesaobraćajni udes označenog tipa s tim što je način transporta žrtve nepoznat
+V88	exclusion	Sudar koji uključuje: Biciklistu (V10-V19)
+V88	exclusion	Sudar koji uključuje: Pješaka (V01-V09)
+V88.0	preferred	Osoba povrijeđena u sudaru automobila i motornog vozila sa dva ili tri točka, van saobraćaja
+V88.1	preferred	Osoba povrijeđena u sudaru drugog motornog vozila i motornog vozila sa dva ili tri točka, van saobraćaja
+V88.2	preferred	Osoba povrijeđena u sudaru automobila i dostavnog vozila ili kamiona, van saobraćaja
+V88.3	preferred	Osoba povrijeđena u sudaru automobila i autobusa, van saobraćaja
+V88.4	preferred	Osoba povrijeđena u sudaru automobila i teškog transportnog vozila, van saobraćaja
+V88.5	preferred	Osoba povrijeđena u sudaru teškog transportnog vozila i autobusa, van saobraćaja
+V88.6	preferred	Osoba povrijeđena u sudaru voza ili pružnog vozila i automobila, van saobraćaja
+V88.7	preferred	Osoba povrijeđena u sudaru drugih označenih motornih vozila, van saobraćaja
+V88.8	preferred	Osoba povrijeđena u drugim označenim saobraćajnim udesima bez sudara u kojima je učestvovalo motorno vozilo, van saobraćaja
+V88.9	preferred	Osoba povrijeđena u drugim označenim saobraćajnim udesima (sa sudarom) (bez sudara) u kojima je učestvovalo vozilo bez motora, van saobraćaja
+V89	preferred	Udes motornog vozila ili vozila bez motora, tip vozila neoznačen
+V89.0	preferred	Osoba povrijeđena u udesu neoznačenog motornog vozila, van saobraćaja
+V89.0	inclusion	Udes motornog vozila, neoznačen, van saobraćaja
+V89.1	preferred	Osoba povrijeđena u udesu neoznačenog vozila bez motora, van saobraćaja
+V89.1	inclusion	Udes vozila bez motora, neoznačen, van saobraćaja
+V89.2	preferred	Osoba povrijeđena u udesu neoznačenog motornog vozila, u saobraćaju
+V89.2	inclusion	Udes motornog vozila, neoznačen
+V89.2	inclusion	Udes (saobraćajni) na putu, neoznačen
+V89.3	preferred	Osoba povrijeđena u udesu neoznačenog  vozila bez motora, u saobraćaju
+V89.3	inclusion	Saobraćajni udes vozila bez motora, neoznačen
+V89.9	preferred	Osoba povrijeđena u udesu neoznačenog vozila
+V89.9	inclusion	Sudar, neoznačen
+V90-V94	preferred	Udesi u vodenom saobraćaju
+V90-V94	inclusion	Udesi plovila u toku rekreativnih aktivnosti 
+V90	preferred	Udes plovila koji je uzrokovao udavljenje i utopljenje
+V90	inclusion	Udavljenje i utopljenje zbog: prevrtanja čamca
+V90	inclusion	Udavljenje i utopljenje zbog: potonuća čamca
+V90	inclusion	Udavljenje i utopljenje zbog: padanja ili skakanja sa: zapaljenog  broda
+V90	inclusion	Udavljenje i utopljenje zbog: padanja ili skakanja sa: udarenog plovila
+V90	inclusion	Udavljenje i utopljenje zbog: drugih udesa plovila
+V90	exclusion	Udavljenje i utopljenje povezano sa vodenim transportom bez udesa plovila (V92.-)
+V90[S20V90_4]	modifierlink	
+V91	preferred	Udes plovila koji je uzrokovao druge povrede
+V91	inclusion	Bilo koja povreda izuzev udavljenja i utopljenja kao rezultat udesa plovila 
+V91	inclusion	Opečen prilikom požara na brodu
+V91	inclusion	Zgnječen između sudarenih brodova
+V91	inclusion	Zgnječen čamcem za spasavanje nakon napuštanja broda
+V91	inclusion	Pad zbog sudara ili drugih udesa plovila
+V91	inclusion	Pogođen padajućim objektom kao rezultat udesa plovila
+V91	inclusion	Povrijeđen u udesu plovila koji uključuje sudar plovila
+V91	inclusion	Udaren čamcem ili njegovim dijelom nakon padanja ili skakanja sa oštećenog  čamca
+V91	exclusion	Opekotine zadobijene iz lokalizovanog požara ili eksplozije na brodu (V93.-)
+V91[S20V90_4]	modifierlink	
+V92	preferred	Udavljenje i utopljenje povezano sa vodenim transportom bez udesa plovila
+V92	inclusion	Udavljenje i utopljenje kao rezultat udesa, poput: pada: sa brodskih  stepenica
+V92	inclusion	Udavljenje i utopljenje kao rezultat udesa, poput: pada: sa broda
+V92	inclusion	Udavljenje i utopljenje kao rezultat udesa, poput: pada: preko palube
+V92	inclusion	Udavljenje i utopljenje kao rezultat udesa, poput: pada: zbacivanja preko palube zbog kretanja broda
+V92	inclusion	Udavljenje i utopljenje kao rezultat udesa, poput: pada: otplavljen preko palube
+V92	exclusion	Udavljenje i utopljenje plivača ili ronioca koji je svojevoljno skočio sa čamca koji nije uključen u udes (W69.-W73.-)
+V92[S20V90_4]	modifierlink	
+V93	preferred	Udes na palubi plovila bez udesa plovila koji nije uzrokovao udavljenje i utopljenje
+V93	inclusion	Slučajno trovanje gasovima ili isparenjima na brodu
+V93	inclusion	Kvar atomskog reaktora na plovilu
+V93	inclusion	Zgnječen predmetom koji je pao na brod
+V93	inclusion	Prekomjerna toplota u: kotlarnici
+V93	inclusion	Prekomjerna toplota u: mašinskom postrojenju
+V93	inclusion	Prekomjerna toplota u: sušionici
+V93	inclusion	Prekomjerna toplota u: ložionici
+V93	inclusion	Eksplozija kotla na parobrodu
+V93	inclusion	Pad sa jednog nivoa na drugi na plovilu
+V93	inclusion	Pad sa stepenica ili merdevina na plovilu
+V93	inclusion	Povrede na plovilu uzrokovane: uređajima na palubi
+V93	inclusion	Povrede na plovilu uzrokovane: uređajima u mašinskom postrojenju
+V93	inclusion	Povrede na plovilu uzrokovane: uređajima u brodskoj kuhinji
+V93	inclusion	Povrede na plovilu uzrokovane: uređajima u perionici
+V93	inclusion	Povrede na plovilu uzrokovane: uređajima  za utovar
+V93	inclusion	Lokalizovani požar na brodu
+V93	inclusion	Udes uređaja na plovilu
+V93[S20V90_4]	modifierlink	
+V94	preferred	Drugi i neoznačeni udesi u vodenom saobraćaju
+V94	inclusion	Udes osobe koja nije na plovilu
+V94	inclusion	Udaren čamcem u toku skijanja na vodi
+V94[S20V90_4]	modifierlink	
+V95-V97	preferred	Vazdušni i svemirski saobraćajni udesi
+V95	preferred	Osoba povrijeđena u udesu motornog vazduhoplova
+V95	inclusion	Sudar motornog vazduhoplova ili na motornom vazduhoplovu s bilo kojim predmetom (objektom) fiksiranim, pokretnim ili u kretanju
+V95	inclusion	Pad motornog vazduhoplova ili na motorni vazduhoplov
+V95	inclusion	Eksplozija motornog vazduhoplova ili na motornom vazduhoplovu
+V95	inclusion	Požar motornog vazduhoplova ili na motornom vazduhoplovu
+V95	inclusion	Prinudno slijetanje motornog vazduhoplova ili na motorni vazduhoplov
+V95.0	preferred	Osoba povrijeđena u udesu helikoptera 
+V95.1	preferred	Osoba povrijeđena u udesu ultralake, mikrolake jedrilice ili motorne jedrilice 
+V95.2	preferred	Osoba povrijeđena u udesu privatnog vazduhoplova sa fiksiranim krilima 
+V95.3	preferred	Osoba povrijeđena u udesu komercijalne letjelice sa fiksiranim krilima 
+V95.4	preferred	Osoba povrijeđena u udesu svemirskog broda  
+V95.8	preferred	Osoba povrijeđena u drugim vazduhoplovnim udesima 
+V95.9	preferred	Osoba povrijeđena u udesu neoznačenog vazduhoplova 
+V95.9	inclusion	Udes vazduhoplova, neoznačen
+V95.9	inclusion	Udes u vazdušnom saobraćaju, neoznačen
+V96	preferred	Osoba povrijeđena u udesu vazduhoplova bez motora 
+V96	inclusion	Sudar vazduhoplova bez motora s bilo kojim predmetom (objektom) fiksiranim, pokretnim ili u kretanju
+V96	inclusion	Pad vazduhoplova bez motora ili na vazduhoplov bez motora
+V96	inclusion	Eksplozija vazduhoplova bez motora i na vazduhoplovu bez motora
+V96	inclusion	Požar vazduhoplova bez motora i na vazduhoplovu bez motora
+V96	inclusion	Prinudno slijetanje vazduhoplova bez motora ili na vazduhoplovu bez motora
+V96.0	preferred	Osoba povrijeđena u udesu balona 
+V96.1	preferred	Osoba povrijeđena u udesu jedrilice na vuču
+V96.2	preferred	Osoba povrijeđena u udesu jedrilice (bez motora) 
+V96.8	preferred	Osoba povrijeđena u udesu drugih letjelica bez motora 
+V96.8	inclusion	Zmaj koji nosi neku osobu (Zmaj sa letačem)
+V96.9	preferred	Osoba povrijeđena u neoznačenom udesu vazduhoplova bez motora
+V96.9	inclusion	Udes vazduhoplova bez motora, neoznačen
+V97	preferred	Drugi označeni udesi u vazdušnom saobraćaju
+V97	inclusion	Udesi osoba koje nisu bile u vazduhoplovu
+V97.0	preferred	Osoba u vazduhoplovu povrijeđena u drugom označenom vazdušnom saobraćajnom udesu
+V97.0	inclusion	Padanje u, na ili iz vazduhoplova u vazdušnom saobraćajnom udesu 
+V97.0	exclusion	Udes: tokom ukrcavanja ili iskrcavanja (V97.1)
+V97.1	preferred	Osoba povrijeđena u toku ulaska u ili izlaska iz vazduhoplova
+V97.2	preferred	Padobranac povrijeđen u vazdušnom saobraćajnom udesu
+V97.2	exclusion	Osoba koja iskače padobranom poslije udesa vazduhoplova (V95-V96)
+V97.3	preferred	Osoba povrijeđena na zemlji u vazdušnom saobraćajnom udesu 
+V97.3	inclusion	Udaren predmetom ispalim iz vazduhoplova
+V97.3	inclusion	Povrijeđen propelerom koji se okreće
+V97.3	inclusion	Usisan u mlazni motor
+V97.8	preferred	Drugi vazdušni saobraćajni udesi, neklasifikovani na drugom mjestu
+V97.8	inclusion	Povreda nanesena mašinom na vazduhoplovu
+V97.8	exclusion	Udes vazduhoplova, neoznačen (V95.9)
+V97.8	exclusion	Izlaganje promjenama vazdušnog pritiska tokom uzlijetanja ili slijetanja (W94.-)
+V98-V99	preferred	Drugi i neoznačeni saobraćajni udesi
+V98-V99	exclusion	Sudar vozila, tip vozila neoznačen (V89.-)
+V98	preferred	Drugi označeni saobraćajni udesi
+V98	inclusion	Uključuje udes na ili u kojima sudjeluju: žičara, koja nije na šinama
+V98	inclusion	Uključuje udes na ili u kojima sudjeluju:  jedrilicu na ledu
+V98	inclusion	Uključuje udes na ili u kojima sudjeluju: jedrilicu na kopnu
+V98	inclusion	Uključuje udes na ili u kojima sudjeluju: ski lift sa stolicom
+V98	inclusion	Uključuje udes na ili u kojima sudjeluju: ski lift sa gondolom
+V98	inclusion	Zahvaćen ili vučen žičarom, koja nije na šinama
+V98	inclusion	Pao ili skočio sa žičare, koja nije na šinama
+V98	inclusion	Predmet bačen sa ili u žičaru koja nije na šinama
+V99	preferred	Saobraćajni udes, neoznačen
+W00-X59	preferred	Drugi spoljašnji uzroci i slučajne povrede
+W00-W19	preferred	Padovi
+W00-W19	text	
+W00-W19	exclusion	Napad (Y01-Y02)
+W00-W19	exclusion	Pad (u) (sa): životinje (V80.-)
+W00-W19	exclusion	Pad (u) (sa): zgrade koja gori (X00.-)
+W00-W19	exclusion	Pad (u) (sa): u vatru (X00-X04, X08-X09)
+W00-W19	exclusion	Pad (u) (sa): u vodu (sa udavljenjem ili utapanjem) (W65-W74)
+W00-W19	exclusion	Pad (u) (sa): mašine u radu (W28-W31)
+W00-W19	exclusion	Pad (u) (sa): ponovljeni padovi koji ne proizilaze iz nesreće (R29.6)
+W00-W19	exclusion	Pad (u) (sa): transportnog vozila (V01-V99)
+W00-W19	exclusion	Namjerno samopovređivanje (X80-X81)
+W00	preferred	Pad na istom nivou na ledu i snijegu
+W00	exclusion	Pad sa klizaljki za led i skija (W02.-)
+W00	exclusion	Pad sa stepeništa i stepenika (W10.-)
+W01	preferred	Pad na istom nivou zbog okliznuća, saplitanja i posrtanja
+W01	exclusion	Pad na ledu ili snijegu (W00.-)
+W02	preferred	Pad sa klizaljki za led, skija, rolera ili skejtborda
+W03	preferred	Drugi padovi na istom nivou uzrokovani sudarom sa drugom osobom ili guranjem od strane druge osobe
+W03	inclusion	Pad uslijed sudara pješaka koji pješači sa drugim pješakom koji pješači
+W03	exclusion	Gnječen ili guran od strane gomile ili gomile ljudi u pokretu (ljudskog stampeda)(W52.-)
+W03	exclusion	Pad na ledu ili snijegu (W00.-)
+W04	preferred	Pad u toku nošenja ili pridržavanja od strane druge osobe
+W04	inclusion	Slučajno ispušten u toku nošenja od strane druge osobe
+W05	preferred	Pad iz invalidskih kolica
+W06	preferred	Pad sa kreveta
+W07	preferred	Pad sa stolice
+W08	preferred	Pad sa druge vrste namještaja
+W09	preferred	Pad sa opreme na dječijem igralištu
+W09	exclusion	Pad sa sprave za rekreaciju (W31.-)
+W10	preferred	Pad na i sa: stepeništa ili stepenika 
+W10	inclusion	Pad (na)(sa): pokretnog stepeništa  
+W10	inclusion	Pad (na)(sa): prolaza pod nagibom
+W10	inclusion	Pad (na)(sa): stepeništa ili stepenika na kojima su led ili snijeg
+W10	inclusion	Pad (na)(sa): rampe
+W11	preferred	Pad sa merdevina i na njih
+W12	preferred	Pad sa građevinske skele i na nju
+W13	preferred	Pad (iz)(kroz)(sa): zgrade ili građevine 
+W13	inclusion	Pad (iz)(kroz)(sa): balkona 
+W13	inclusion	Pad (iz)(kroz)(sa): mosta 
+W13	inclusion	Pad (iz)(kroz)(sa): zgrade 
+W13	inclusion	Pad (iz)(kroz)(sa): stuba za zastavu 
+W13	inclusion	Pad (iz)(kroz)(sa): sprata 
+W13	inclusion	Pad (iz)(kroz)(sa): ograde
+W13	inclusion	Pad (iz)(kroz)(sa): krova
+W13	inclusion	Pad (iz)(kroz)(sa): tornja 
+W13	inclusion	Pad (iz)(kroz)(sa): kule
+W13	inclusion	Pad (iz)(kroz)(sa): vijadukta 
+W13	inclusion	Pad (iz)(kroz)(sa): zida 
+W13	inclusion	Pad (iz)(kroz)(sa): prozora 
+W13	exclusion	Rušenje zgrade ili građevine (W20.-)
+W13	exclusion	Pad ili skakanje sa zgrade ili građevine u plamenu (X00.-)
+W14	preferred	Pad sa drveta
+W15	preferred	Pad sa litice
+W16	preferred	Ronjenje ili skakanje u vodu koje je uzrokovalo neku drugu povredu, a ne udavljenje i utapanje
+W16	inclusion	Ronjenje ili skakanje u plitku vodu koje je dovelo do udaranja o dno
+W16	inclusion	Ronjenje ili skakanje u vodu koje je dovelo do udaranja u zid bazena ili dasku za skakanje 
+W16	inclusion	Ronjenje ili skakanje u vodu koje je dovelo do udaranja o površinu vode 
+W16	exclusion	Slučajno udavljenje i utapanje (W65-W74)
+W16	exclusion	Ronjenje sa nedovoljnom količinom obezbijeđenog kiseonika (W81.-)
+W16	exclusion	Djelovanje vazdušnog pritiska prilikom ronjenja (W94.-)
+W17	preferred	Drugi padovi sa jednog nivoa na drugi
+W17	inclusion	Pad (u)(sa): u šupljinu
+W17	inclusion	Pad (u)(sa): sa doka
+W17	inclusion	Pad (u)(sa): sa plasta (stoga) sijena
+W17	inclusion	Pad (u)(sa): u rupu
+W17	inclusion	Pad (u)(sa): u jamu
+W17	inclusion	Pad (u)(sa): u kamenolom
+W17	inclusion	Pad (u)(sa): u šahtu
+W17	inclusion	Pad (u)(sa): u cistjernu
+W17	inclusion	Pad (u)(sa): u bunar
+W18	preferred	Drugi padovi na istom nivou 
+W18	inclusion	Pad: zbog udara u neki predmet
+W18	inclusion	Pad: sa toaleta
+W18	inclusion	Pad: na istom nivou, neoznačen
+W19	preferred	Pad, neoznačen
+W19	inclusion	Slučajan pad, neoznačen
+W20-W49	preferred	Izlaganje neživim mehaničkim silama
+W20-W49	text	
+W20-W49	exclusion	Napad (X85-Y09)
+W20-W49	exclusion	Kontakt ili sudar sa životinjama ili osobama (W50-W64)
+W20-W49	exclusion	Namjerno samopovređivanje (X60-X84)
+W20	preferred	Udarac bačenim, ispaljenim ili padajućim predmetom
+W20	inclusion	Urušavanje bez gušenja ili ugušenja
+W20	inclusion	Rušenje građevine, izuzev u požaru
+W20	inclusion	Padanje: stijene
+W20	inclusion	Padanje: kamena
+W20	inclusion	Padanje: drveta
+W20	exclusion	Rušenje zgrade koja gori (X00.-)
+W20	exclusion	Padanje predmeta u: prirodnoj nepogodi (kataklizmi) (X34-X39)
+W20	exclusion	Padanje predmeta u: prilikom kvara uređaja (W24.-, W28-W31)
+W20	exclusion	Padanje predmeta u: saobraćajnom udesu (V01-V99)
+W20	exclusion	Predmet pokrenut:  eksplozijom (W35-W40)
+W20	exclusion	Predmet pokrenut: vatrenim oružjem (W32-W34)
+W20	exclusion	Sportski rekvizit (W21.-)
+W21	preferred	Udaranje u sportski rekvizit ili udarac sportskog rekvizita
+W21	inclusion	Udarac: udarenom ili bačenom loptom
+W21	inclusion	Udarac: štapom za hokej ili pakom
+W22	preferred	Udaranje u druge predmete ili udarac drugih predmeta
+W22	inclusion	Nalijetanje na zid pri hodu
+W23	preferred	Uhvaćen, zgnječen, zaglavljen ili ukliješten u ili između predmeta
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se kreću, uključujući predmete na sklapanje
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se kreću kao što su klizna vrata i okvir vrata
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se kreću poslije ispuštanja, sanduka za pakovanje i poda
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se kreću kao što je bubanj mašine za pranje veša
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se ne kreću i koji se kreću, kao što je predmet koji se sklapa
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se ne kreću i koji se kreću kao što su klizna vrata i okvir vrata
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se kreću i onih koji se ne kreću poslije ispuštanja, kao što su sanduk za pakovanje i pod
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: između: predmeta koji se kreću i onih koji se ne kreću kao što je bubanj mašine za pranje veša
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: unutar predmeta na sklapanje
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: unutar kliznih vrata i okvira vrata
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: unutar sanduka za pakovanje i poda, nakon ispuštanja
+W23	inclusion	Uhvaćen, zgnječen, zaglavljen ili ukliješten: unutar bubnja mašine za pranje veša
+W23	exclusion	Povreda izazvana: instrumentima za sječenje i bodenje (W25-W27)
+W23	exclusion	Povreda izazvana: uređajima za dizanje i prenošenje (W24.-)
+W23	exclusion	Povreda izazvana: uređajima (W28-W31)
+W23	exclusion	Povreda izazvana: ručnim alatom bez motora (W 27.-)
+W23	exclusion	Povreda izazvana: saobraćajnim vozilom kada se koristi u saobraćaju (V01-V99)
+W23	exclusion	Pogođen bačenim, ispaljenim ili padajućim predmetom (W20.-)
+W24	preferred	Kontakt sa uređajima za dizanje i prenošenje, neklasifikovan na drugom mjestu
+W24	inclusion	Dizalica sa lancem
+W24	inclusion	Kaiš za motorna vozila
+W24	inclusion	Kotur (čekrk)
+W24	inclusion	Konopac
+W24	inclusion	Prenosni kaiš ili kabl
+W24	inclusion	Vitlo
+W24	inclusion	Žica
+W24	exclusion	Saobraćajni udesi (V01-V99)
+W25	preferred	Kontakt sa oštrim staklom
+W25	exclusion	Pad koji uključuje staklo (W00-W19)
+W25	exclusion	Staklo koje poleti uslijed eksplozije ili opaljivanja vatrenog oružja (W32-W40)
+W26	preferred	Kontakt sa nožem, mačem ili bodežom
+W27	preferred	Kontakt sa ručnim alatom bez motora
+W27	inclusion	Sjekira
+W27	inclusion	Otvarač konzervi, neoznačen
+W27	inclusion	Dlijeto
+W27	inclusion	Viljuška
+W27	inclusion	Ručna testera
+W27	inclusion	Motika
+W27	inclusion	Šiljak za led
+W27	inclusion	Igla
+W27	inclusion	Rezač papira
+W27	inclusion	Vile
+W27	inclusion	Grabulje
+W27	inclusion	Makaze
+W27	inclusion	Odvijač (šrafciger)
+W27	inclusion	Mašina za šivenje bez motora
+W27	inclusion	Lopata
+W27	exclusion	Potkožna igla (W46.-)
+W28	preferred	Kontakt sa motornom kosačicom za travu
+W28	exclusion	Izlaganje električnoj struji (W86.-)
+W29	preferred	Kontakt sa drugim motornim ručnim alatima i kućnim aparatima
+W29	inclusion	Mikser
+W29	inclusion	Motorni: Otvarač konzervi 
+W29	inclusion	Motorna: Testera
+W29	inclusion	Motorni: Alat „uradi sam”
+W29	inclusion	Motorni: Baštenski alat 
+W29	inclusion	Motorni: Trimer za živu ogradu 
+W29	inclusion	Motorni: Nož  
+W29	inclusion	Motorna: Mašina za šivenje
+W29	inclusion	Motorni: Mašina za sušenje veša 
+W29	inclusion	Mašina za pranje veša
+W29	exclusion	lzlaganje električnoj struji (W86.-)
+W30	preferred	Kontakt sa poljoprivrednim mašinama
+W30	inclusion	Poljoprivredna mašina koju pokreću životinje
+W30	inclusion	Kombinovana žetjelica (kombajn)
+W30	inclusion	Dizalica za sijeno
+W30	inclusion	Poljoprivredna mašina, neoznačena
+W30	inclusion	Žetjelica za male usjeve
+W30	inclusion	Vršalica
+W30	exclusion	Kontakt sa poljoprivrednom mašinom koja se kreće pomoću sopstvenog motora ili je vuče neko drugo vozilo (V01-V99)
+W30	exclusion	Izlaganje električnoj struji (W86.-)
+W31	preferred	Kontakt sa drugom i neoznačenom mašinom
+W31	inclusion	Mašina, neoznačena
+W31	inclusion	Mašina za rekreaciju
+W31	exclusion	Kontakt sa mašinom koja se kreće pomoću sopstvenog motora ili je vuče neko drugo vozilo (V01-V99)
+W31	exclusion	Izlaganje električnoj struji (W86.-)
+W32	preferred	Opaljivanje iz ručnog vatrenog oružja
+W32	inclusion	Vatreno oružje sa kojim se rukuje jednom rukom
+W32	inclusion	Pištoj
+W32	inclusion	Revolver
+W32	exclusion	Signalni pištolj (W34.-)
+W33	preferred	Opaljivanje iz puške, sačmare i većeg vatrenog oružja
+W33	inclusion	Vojnička puška
+W33	inclusion	Lovačka puška
+W33	inclusion	Automatska puška
+W33	exclusion	Vazdušna puška (W34.-)
+W34	preferred	Opaljivanje iz drugog i neoznačenog vatrenog oružja
+W34	inclusion	Vazdušna puška
+W34	inclusion	Vazdušni pištolj koji ispaljuje kuglice sa bojom (pejntbol)
+W34	inclusion	Rana nanijeta pištoljem, neoznačena
+W34	inclusion	Pucanj, neoznačen
+W34	inclusion	Signalni pištolj
+W35	preferred	Eksplozija i pucanje bojlera
+W36	preferred	Eksplozija i pucanje boce sa gasom
+W36	inclusion	Aerosol raspršivač
+W36	inclusion	Rezervoar vazduha
+W36	inclusion	Plinska boca
+W37	preferred	Eksplozija i pucanje gume, cijevi ili crijeva pod pritiskom
+W38	preferred	Eksplozija i pucanje ostalih označenih uređaja pod pritiskom
+W39	preferred	Ispaljivanje vatrometa
+W40	preferred	Eksplozija ostalih materijala
+W40	inclusion	Eksplozivni materijal
+W40	inclusion	Eksplozija (u): neoznačeno
+W40	inclusion	Eksplozija (u): deponiji
+W40	inclusion	Eksplozija (u): fabrici
+W40	inclusion	Eksplozija (u): silosu
+W40	inclusion	Eksplozija (u): municije
+W40	inclusion	Eksplozivni gas
+W41	preferred	Izlaganje mlazu visokog pritiska
+W41	inclusion	Hidraulični mlaz
+W41	inclusion	Pneumatski mlaz
+W42	preferred	Izlaganje buci
+W42	inclusion	Zvučni talasi
+W42	inclusion	Supersonični (nadzvučni) talasi
+W43	preferred	Izlaganje vibraciji
+W43	inclusion	Infrazvučni talasi
+W44	preferred	Strano tijelo koji je ušlo u oko ili prirodne otvore ili je prošlo kroz njih
+W44	exclusion	Korozivna tečnost  (X49.-)
+W44	exclusion	Inhalacija ili ingestija stranog tijela sa opstrukcijom respiratornog sistema (W78-W80)
+W45	preferred	Strano tijelo ili predmet koji su ušli kroz kožu
+W45	inclusion	Ivica čvrstog papira
+W45	inclusion	Ekser
+W45	inclusion	Iver (trn)
+W45	inclusion	Poklopac limene konzerve
+W45	exclusion	Kontakt sa: ručnim alatom (bez motora) (sa motorom) (W27-W29)
+W45	exclusion	Kontakt sa: potkožnom iglom (W46.-)
+W45	exclusion	Kontakt sa: nožem, mačem ili bodežom (W26.-)
+W45	exclusion	Kontakt sa: oštrim staklom (W25.-)
+W45	exclusion	Udarac nekim predmetom (W20-W22)
+W46	preferred	Kontakt sa potkožnom iglom
+W49	preferred	Izlaganje ostalim i neoznačenim neživim mehaničkim silama
+W49	inclusion	Abnormalne gravitacione (G) sile
+W50-W64	preferred	Izlaganje živim mehaničkim silama
+W50-W64	text	
+W50-W64	exclusion	Ujedi, otrovni (X20-X29)
+W50-W64	exclusion	Ubodi (otrovni) (X20-X29)
+W50	preferred	Guranje, udaranje, uvrtanje, ujed ili grebanje od strane druge osobe
+W50	exclusion	Napad (X85-Y09)
+W50	exclusion	Udar predmetima (W20-W22)
+W51	preferred	Udaranje ili nalijetanje od strane druge osobe
+W51	exclusion	Pad uslijed sudara pješaka koji pješači sa drugim pješakom koji pješači (W03.-)
+W52	preferred	Gnječen, guran ili gažen od gomile ili gomile ljudi u pokretu (ljudskog stampeda)
+W53	preferred	Ujeden od strane pacova
+W54	preferred	Ujeden ili udaren od strane psa
+W55	preferred	Ujeden ili udaren od strane ostalih sisara
+W55	exclusion	Kontakt sa morskim sisarom (W56.-)
+W56	preferred	Kontakt sa morskom životinjom
+W56	inclusion	Ujeden ili udaren od strane morske životinje
+W57	preferred	Ujeden ili uboden od strane neotrovnog insekta i drugih neotrovnih zglavkara
+W58	preferred	Ujeden ili udaren od strane krokodila ili aligatora
+W59	preferred	Ujeden  ili zgnječen od strane drugih reptila
+W59	inclusion	Gušter
+W59	inclusion	Zmija, neotrovna
+W60	preferred	Kontakt sa trnjem i bodljama biljaka i oštrim lišćem
+W64	preferred	Izlaganje drugim i neoznačenim živim mehaničkim silama
+W65-W74	preferred	Zadesno udavljenje i utapanje
+W65-W74	text	
+W65-W74	exclusion	Udavljenje i utapanje uzrokovano: prirodnom nepogodom (kataklizmom) (X34-X39)
+W65-W74	exclusion	Udavljenje i utapanje uzrokovano: saobraćajnim udesima (V01- V99)
+W65-W74	exclusion	Udavljenje i utapanje uzrokovano: udesom u vodenom saobraćaju (V90.-V92.-)
+W65	preferred	Udavljenje i utapanje u toku kupanja u kadi
+W66	preferred	Udavljenje i utapanje poslije pada u kadu
+W67	preferred	Udavljenje i utapanje za vrijeme boravka u bazenu za plivanje
+W68	preferred	Udavljenje i utapanje poslije pada u bazen za plivanje
+W69	preferred	Udavljenje i utapanje u toku boravka u vodi u prirodi
+W69	inclusion	Jezero
+W69	inclusion	Otvoreno more
+W69	inclusion	Rijeka
+W69	inclusion	Potok
+W70	preferred	Udavljenje i utapanje poslije pada u vodu u prirodi
+W73	preferred	Drugo označeno udavljenje i utapanje
+W73	inclusion	Protivpožarni rezervoar
+W73	inclusion	Rezervoar
+W74	preferred	Udavljenje i utapanje, neoznačeno 
+W74	inclusion	Udavljenje, neoznačeno
+W74	inclusion	Pad u vodu, neoznačen
+W75-W84	preferred	Drugi zadesi koji ugrožavaju disanje
+W75-W84	text	
+W75	preferred	Zadesno ugušenje i davljenje u krevetu
+W75	inclusion	Ugušenje i davljenje: posteljinom
+W75	inclusion	Ugušenje i davljenje: majčinim tijelom 
+W75	inclusion	Ugušenje i davljenje: jastukom
+W76	preferred	Druga zadesna vješanja i davljenja
+W77	preferred	Ugrožavanje disanja izazvano urušavanjem, padanjem zemlje i drugih materija
+W77	inclusion	Urušavanje, neoznačeno
+W77	exclusion	Urušavanje uzrokovano prirodnom nepogodom (kataklizmom) (X34-X39)
+W77	exclusion	Urušavanje bez gušenja ili ugušenja (W20.-)
+W78	preferred	Inhalacija želudačnog sadržaja 
+W78	inclusion	Gušenje povraćenim sadržajem (hranom)
+W78	inclusion	Zagrcanje povraćenim sadržajem (hranom)
+W78	inclusion	Ugušenje povraćenim sadržajem (hranom)
+W78	inclusion	Aspiracija i inhalacija povraćenog sadržaja (u respiratorni sistem), neoznačeno
+W78	inclusion	Kompresija dušnika povraćenim sadržajem u jednjaku
+W78	inclusion	Prekid disanja povraćenim sadržajem u jednjaku
+W78	inclusion	Opstrukcija disanja zbog povraćenog sadržaja u jednjaku
+W78	exclusion	Povreda, izuzev gušenja ili opstrukcije respiratornog sistema, izazvana povraćenim sadržajem (W44.-)
+W78	exclusion	Opstrukcija jednjaka povraćenim sadržajem bez pominjanja gušenja ili opstrukcije respiratornog sistema (W44.-)
+W79	preferred	Inhalacija i ingestija hrane koja izaziva opstrukciju respiratornog sistema
+W79	inclusion	Gušenje hranom (uključujući kosti i sjemenje)
+W79	inclusion	Zagrcanje hranom (uključujući kosti i sjemenje)
+W79	inclusion	Ugušenje hranom (uključujući kosti i sjemenje)
+W79	inclusion	Aspiracija i inhalacija hrane (bilo koje) (u respiratorni sistem), neoznačena
+W79	inclusion	Kompresija dušnika hranom u jednjaku
+W79	inclusion	Prekid disanja zbog hrane u jednjaku
+W79	inclusion	Opstrukcija disanja zbog hrane u jednjaku
+W79	inclusion	Opstrukcija ždrijela hranom (bolusom)
+W79	exclusion	Inhalacija povraćenog sadržaja (W78.-)
+W79	exclusion	Povreda, osim ugušenja ili opstrukcije disajnih puteva, uzrokovana hranom (W44.-)
+W79	exclusion	Opstrukcija jednjaka hranom bez pominjanja gušenja ili opstrukcije respiratornog sistema (W44.-)
+W80	preferred	Inhalacija i ingestija ostalih predmeta koji izazivaju opstrukciju respiratornog sistema
+W80	inclusion	Gušenje bilo kojim predmetom, osim povraćenim sadržajem koji ulazi preko nosa i usta
+W80	inclusion	Zagrcnuće bilo kojim predmetom, osim povraćenim sadržajem koji ulazi preko nosa i usta
+W80	inclusion	Ugušenje bilo kojim predmetom, osim hrane i povraćenog sadržaja, koji ulazi preko nosa i usta
+W80	inclusion	Aspiracija i inhalacija stranog tijela, osim hrane i povraćenog sadržaja (u respiratorni sistem), neoznačeno
+W80	inclusion	Kompresija dušnika stranim tijelom u jednjaku
+W80	inclusion	Prekid disanja stranim tijelom u jednjaku
+W80	inclusion	Opstrukcija disanja stranim tijelom u jednjaku
+W80	inclusion	Strano tijelo u nosu
+W80	inclusion	Opstrukcija ždrijela stranim tijelom
+W80	exclusion	Inhalacija povraćenog sadržaja ili hrane (W78-W79)
+W80	exclusion	Povreda, osim ugušenja ili opstrukcije respiratornog sistema, uzrokovana stranim tijelom (W44.-)
+W80	exclusion	Opstrukcija jednjaka stranim tijelom bez pominjanja gušenja ili začepljenja respiratornog sistema (W44.-)
+W81	preferred	Zatvoren ili zaglavljen u prostoriji sa nedovoljno kiseonika
+W81	inclusion	Slučajno zatvaranje u frižider ili u drugi hermetički zatvoren prostor
+W81	inclusion	Ronjenje sa nedovoljnom količinom obezbijeđenog vazduha
+W81	exclusion	Ugušenje uzrokovano plastičnom kesom (W83.-)
+W83	preferred	Druga označena ugrožavanja disanja
+W83	inclusion	Ugušenje uzrokovao plastičnom kesom
+W84	preferred	Ugrožavanje disanja, neoznačeno 
+W84	inclusion	Zagušenje, neoznačeno
+W84	inclusion	Aspiracija, neoznačena
+W84	inclusion	Ugušenje, neoznačeno
+W85-W99	preferred	Izlaganje električnoj struji, zračenju i previsokoj temperaturi vazduha i previsokom pritisku vazduha
+W85-W99	text	
+W85-W99	exclusion	Abnormalna reakcija na komplikaciju procedure, bez pominjanja nezgode (Y84.2)
+W85-W99	exclusion	Nezgoda prilikom hiruške ili medicinske procedure(Y63.2-Y63.5)
+W85-W99	exclusion	Izlaganje: prirodnoj: hladnoći (X31.-)
+W85-W99	exclusion	Izlaganje: prirodnoj: toploti (X30.-)
+W85-W99	exclusion	Izlaganje: zračenju, neoznačeno (X39.-)
+W85-W99	exclusion	Izlaganje: sunčevoj svjetlosti (X32.-)
+W85-W99	exclusion	Žrtva udara munje(X33.-)
+W85	preferred	Izlaganje vodovima za prenos električne energije
+W86	preferred	Izlaganje drugim označenim izvorima električne struje
+W87	preferred	Izlaganje drugim neoznačenim izvorima električne struje
+W87	inclusion	Opekotine ili druge povrede nastale zbog električne struje (neoznačeno)
+W87	inclusion	Električni šok, neoznačen
+W87	inclusion	Pogubljenje električnom strujom, neoznačeno
+W88	preferred	Izloženost jonizujućem zračenju
+W88	inclusion	Radioaktivni izotopi
+W88	inclusion	X zraci
+W89	preferred	Izloženost vidljivoj i ultraljubičastoj svjetlosti, koju je izazvao čovjek
+W89	inclusion	Svjetlost koja nastaje tokom varenja (luk)
+W90	preferred	Izlaganje ostalom nejonizujućem zračenju
+W90	inclusion	Infracrveno zračenje
+W90	inclusion	Lasersko zračenje
+W90	inclusion	Radiofrekventno zračenje
+W91	preferred	Izlaganje neoznačenom tipu zračenja
+W92	preferred	Izlaganje prekomjernoj toploti koju je izazvao čovjek
+W93	preferred	Izlaganje prekomjernoj hladnoći koju je izazvao čovjek
+W93	inclusion	Kontakt ili inhalacija: suvog leda
+W93	inclusion	Kontakt ili inhalacija: tečnog: vazduha
+W93	inclusion	Kontakt ili inhalacija: tečnog: vodonika
+W93	inclusion	Kontakt ili inhalacija: tečnog: azota
+W93	inclusion	Dugotrajno izlaganje u hladnjacima za duboko zamrzavanje
+W94	preferred	Izlaganje visokom i niskom vazdušnom pritisku i izmjenama vazdušnog pritiska
+W94	inclusion	Povećanje vazdušnog pritiska pri brzom uranjanju 
+W94	inclusion	Smanjenje atmosferskog pritiska prilikom izranjanja na površinu: nakon ronjenja u dubokoj vodi
+W94	inclusion	Smanjenje atmosferskog pritiska prilikom izlaska na površinu: iz podzemnih prostora
+W94	inclusion	Boravak ili duže zadržavanje na velikoj visini kao uzrok: anoksije
+W94	inclusion	Boravak ili duže zadržavanje na velikoj visini kao uzrok: barodontalgije
+W94	inclusion	Boravak ili duže zadržavanje na velikoj visini kao uzrok: barotitisa
+W94	inclusion	Boravak ili duže zadržavanje na velikoj visini kao uzrok: hipoksije
+W94	inclusion	Boravak ili duže zadržavanje na velikoj visini kao uzrok: visinske bolesti
+W94	inclusion	Iznenadne promjene vazdušnog pritiska u vazduhoplovu u toku uzlijetanja ili slijetanja 
+W99	preferred	Izlaganje drugim i neoznačenim faktorima okoline koje je izazvao čovjek
+X00-X09	preferred	Izlaganje dimu, vatri i plamenu (X00-X09)
+X00-X09	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta događaja i aktivnosti
+X00-X09	inclusion	Vatra uzrokovana munjom
+X00-X09	exclusion	Podmetanje požara (X97.-)
+X00-X09	exclusion	Vatra nastala kao rezultat eksplozije (W35-W40)
+X00-X09	exclusion	Saobraćajni udesi (V01-V99)
+X00	preferred	Izlaganje nekontrolisanoj vatri u zgradi ili građevini
+X00	inclusion	Rušenje zgrade ili građevine koja gori 
+X00	inclusion	Pad sa zgrade ili građevine koja gori 
+X00	inclusion	Udarac predmetom koji pada sa zgrade ili građevine koja gori
+X00	inclusion	Skakanje sa zgrade ili građevine koja gori 
+X00	inclusion	Požar
+X00	inclusion	Instalacija koja gori
+X00	inclusion	Namještaj koji gori
+X00	inclusion	Instalacija koja se topi
+X00	inclusion	Namještaj koji se topi
+X00	inclusion	Instalacija koja tinja
+X00	inclusion	Namještaj koji tinja
+X01	preferred	Izlaganje nekontrolisanoj vatri, van zgrade ili građevine
+X01	inclusion	Šumski požar
+X02	preferred	Izlaganje kontrolisanoj vatri u zgradi ili građevini
+X02	inclusion	Vatra u: Kaminu
+X02	inclusion	Vatra u: Peći
+X03	preferred	Izlaganje kontrolisanoj vatri, van zgrade ili građevine
+X03	inclusion	Vatra u kampu
+X04	preferred	Izlaganje paljenju lako zapaljivog materijala
+X04	inclusion	Paljenje: Benzina
+X04	inclusion	Paljenje: Kerozina
+X04	inclusion	Paljenje: Nafte
+X05	preferred	Izlaganje paljenju ili topljenju noćne odjeće (pidžame, spavaćice)
+X06	preferred	Izlaganje paljenju ili topljenju druge odjeće i opreme
+X06	inclusion	Paljenje plastičnog nakita
+X06	inclusion	Topljenje plastičnog nakita
+X08	preferred	Izlaganje drugom označenom dimu, vatri i plamenu
+X09	preferred	Izlaganje neoznačenom dimu, vatri i plamenu
+X09	inclusion	Gorenje, neoznačeno
+X09	inclusion	Spaljivanje, neoznačeno
+X10-X19	preferred	Kontakt sa toplotom i vrelim supstancama (X10-X19)
+X10-X19	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta događaja i aktivnosti
+X10-X19	exclusion	Izlaganje: Prekomjernoj prirodnoj toploti (X30.-)
+X10-X19	exclusion	Izlaganje: Vatri i plamenu (X00-X09)
+X10	preferred	Kontakt sa vrelim pićima, hranom, mastima i jestivim uljima 
+X11	preferred	Kontakt sa vrelom vodom iz slavine
+X11	inclusion	Vrela voda u: Kupatilu
+X11	inclusion	Vrela voda u: Kanti
+X11	inclusion	Vrela voda u: Kadi
+X11	inclusion	Vrela voda koja ističe iz: crijeva (tuša)
+X11	inclusion	Vrela voda koja ističe iz: slavine
+X12	preferred	Kontakt sa drugim vrelim tečnostima
+X12	inclusion	Voda zagrijana na šporetu
+X12	exclusion	Vreli (tečni) metali (X18.-)
+X13	preferred	Kontakt sa parom i vrelim isparenjima
+X14	preferred	Kontakt sa vrelim vazduhom i gasovima
+X14	inclusion	Udisanje vrelog vazduha i gasova
+X15	preferred	Kontakt sa vrelim uređajima u domaćinstvu
+X15	inclusion	Šporet
+X15	inclusion	Vrela ploča
+X15	inclusion	Kotao
+X15	inclusion	Tiganj (stakleni) (metalni)
+X15	inclusion	Peć (kuhinjska)
+X15	inclusion	Toster
+X15	exclusion	Uređaji za grijanje (X16.-)
+X16	preferred	Kontakt sa vrelim uređajima za grijanje, radijatorima i cijevima
+X17	preferred	Kontakt sa vrelim motorima, mašinama i alatom
+X17	exclusion	Vreli uređaji za grijanje, radijatori i cijevi (X16.-)
+X17	exclusion	Vreli uređaji u domaćinstvu (X15.-)
+X18	preferred	Kontakt sa drugim vrelim metalima
+X18	inclusion	Tečni metal 
+X19	preferred	supstancama
+X19	exclusion	Predmeti koji nisu obično vreli, npr. predmet koji se ugrije požarom u kući (X00-X09)
+X20-X29	preferred	Kontakt sa otrovnim životinjama i biljkama 
+X20-X29	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta događaja i aktivnosti
+X20-X29	inclusion	Hemijske supstance oslobođene od strane: životinje
+X20-X29	inclusion	Hemijske supstance oslobođene od strane:  insekta
+X20-X29	inclusion	Oslobađanje otrova preko otrovnih zuba, dlaka, bodlji, krakova i drugih sistema za ispuštanje otrova
+X20-X29	inclusion	Otrovni ujedi i ubodi
+X20-X29	exclusion	Gutanje otrovnih životinja ili biljaka (X49.-)
+X20	preferred	Kontakt sa otrovnim zmijama i gušterima
+X20	inclusion	Kobra
+X20	inclusion	Fer de lance ("vrh koplja")
+X20	inclusion	Gila čudovište (bradavičasti gušter)
+X20	inclusion	Krait
+X20	inclusion	Zvečarka
+X20	inclusion	Morska zmija
+X20	inclusion	Zmija (otrovnica)
+X20	inclusion	Poskok
+X20	exclusion	Gušter, neotrovan (W59.-)
+X20	exclusion	Zmija, neotrovna (W59.-)
+X21	preferred	Kontakt sa otrovnim paucima
+X21	inclusion	Pauk "crna udovica"
+X21	inclusion	Tarantula
+X22	preferred	Kontakt sa škorpionima
+X23	preferred	Kontakt sa stršljenima, osama i pčelama
+X23	inclusion	Žuti stršljen
+X24	preferred	Kontakt sa otrovnim stonogama i otrovnim milipodama (tropskim)
+X25	preferred	Kontakt sa drugim označenim otrovnim zglavkarima (artropodima)
+X25	inclusion	Mrav
+X25	inclusion	Gusjenica
+X26	preferred	Kontakt sa otrovnim morskim životinjama i biljkama
+X26	inclusion	Koral
+X26	inclusion	Meduza
+X26	inclusion	Nematociste
+X26	inclusion	Morske: Sase
+X26	inclusion	Morski: Krastavac
+X26	inclusion	Morski: Jež
+X26	exclusion	Neotrovne morske životinje (W56.-)
+X26	exclusion	Morske zmije (X20.-)
+X27	preferred	Kontakt sa drugim označenim otrovnim životinjama
+X28	preferred	Kontakt sa drugim označenim otrovnim biljkama
+X28	inclusion	Ubrizgavanje otrova ili toksina u ili kroz kožu putem trnja biljke, bodlji ili drugim mehanizmima
+X28	exclusion	Gutanje otrovnih biljaka (X49.-)
+X28	exclusion	Ubodne rane, neoznačene, uzrokovane biljnim bodljama ili trnovima (W60.-)
+X29	preferred	Kontakt sa neoznačenim otrovnim životinjama ili biljkama
+X29	inclusion	Ubod (otrovni), neoznačen
+X29	inclusion	Otrovni ujed, neoznačen
+X30-X39	preferred	Izlaganje prirodnim silama
+X30-X39	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta događaja i aktivnosti
+X30	preferred	Izlaganje prekomjernoj prirodnoj toploti
+X30	inclusion	Prekomjerna toplota kao uzrok toplotnog udara
+X30	inclusion	Izlaganje toploti, neoznačeno
+X30	exclusion	Prekomjerna toplota koju je izazvao čovjek (W92.-)
+X31	preferred	Izlaganje prekomjernoj prirodnoj hladnoći 
+X31	inclusion	Prekomjerna hladnoća kao uzrok: promrzlina, neoznačena
+X31	inclusion	Prekomjerna hladnoća kao uzrok: uranjanja noge ili ruke 
+X31	inclusion	Izlaganje: hladnoći, neoznačeno
+X31	inclusion	Izlaganje: vremenskim uslovima 
+X31	exclusion	Hladnoća koju je izazvao čovjek (W93.-)
+X31	exclusion	Kontakt ili udisanje suvog leda (W93.-)
+X31	exclusion	Kontakt ili udisanje tečnog gasa (W93.-)
+X32	preferred	Izlaganje sunčevoj svjetlosti
+X33	preferred	Žrtva munje
+X33	exclusion	Vatra uzrokovana munjom (X00-X09)
+X33	exclusion	Povreda nastala padom drveta ili drugog predmeta uzrokovana munjom (W20.-)
+X34	preferred	Žrtva zemljotresa
+X34.0	preferred	Žrtva (kataklizmičnog) kretanja zemljišta uzrokovanog zemljotresom 
+X34.0	inclusion	Zatrpanost ili povrijeđivanje rušenjem zgrade ili druge građevine
+X34.1	preferred	Žrtva cunamija
+X34.8	preferred	Žrtva drugih označenih dejstava zemljotresa
+X34.9	preferred	Žrtva neoznačenog dejstva zemljotresa
+X35	preferred	Žrtva vulkanske erupcije
+X36	preferred	Žrtva lavine, klizišta i drugih kretanja zemljišta
+X36	inclusion	Kretanje blata katastrofalnih razmjera
+X36	exclusion	Zemljotres (X34.-)
+X36	exclusion	Saobraćajni udes zbog sudara sa lavinom ili klizištem koji se ne pokreću (V01-V99)
+X37	preferred	Žrtva katastrofalne oluje
+X37	inclusion	Sniježna mećava
+X37	inclusion	Provala oblaka
+X37	inclusion	Ciklon
+X37	inclusion	Orkan
+X37	inclusion	Talas plime uzrokovan olujom
+X37	inclusion	Tornado
+X37	inclusion	Kiša koja uzrokuje bujice
+X37	inclusion	Saobraćajno vozilo koje je oluja odnijela sa puta
+X37	exclusion	Rušenje brane ili građevine koju je sagradio čovjek, a koje je uzrokovalo pokretanje zemljišta (X36.-)
+X37	exclusion	Saobraćajni udes koji se desio poslije oluje (V01-V99) 
+X38	preferred	Žrtva poplave
+X38	inclusion	Poplava: koja nastaje zbog oluje u daljini
+X38	inclusion	Poplava: katastrofalnih razmjera nastala otapanjem snijega
+X38	inclusion	Poplava: koja je direktna posljedica oluje
+X38	exclusion	Rušenje brane ili građevine koju je sagradio čovjek, a koje je uzrokovalo pokretanje zemljišta (X36.-)
+X38	exclusion	Talas plime: neoznačen (X39.-)
+X38	exclusion	Talas plime: uzrokovan olujom (X37.-)
+X39	preferred	Izlaganje drugim i neoznačenim prirodnim silama
+X39	inclusion	Prirodno zračenje, neoznačeno
+X39	inclusion	Talas plime, neoznačen
+X39	exclusion	Izlaganje, neoznačeno (X59.9)
+X39	exclusion	Cunami (X34.1)
+X40-X49	preferred	Slučajna trovanja i izlaganja štetnim supstancama
+X40-X49	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta događaja i aktivnosti
+X40-X49	note	Za spisak specifičnih preparata ili drugih supstanci koje su klasifikovane u grupe označenih sa tri šifre, vidjeti tabelu preparata i hemikalija u Abecednom indeksu. Podatak o alkoholu u kombinaciji sa supstancama koje su navedene u daljem tekstu može da se identifikuje korišćenjem dopunskih oznaka (Y90-Y91).
+X40-X49	inclusion	Nenamjerno predoziranje lijeka ili davanje pogrešnog lijeka ilipogrešno uzimanje lijeka i nehotično uzimanje lijeka
+X40-X49	inclusion	Nezgode u korišćenju lijekova, preparata i bioloških supstanci prilikom medicinskih ili hirurških intervencija 
+X40-X49	inclusion	(Samopovređivanje) Trovanje, kada nije označeno da li je slučajno ili sa namjerom da se naškodi. Pratiti sudske odluke kada su na raspolaganju (vidjeti napomenu Y10-Y34).
+X40-X49	exclusion	Administracija supstance sa ubilačkim ili samoubilačkim namjerama, namjerom da se naškodi, ili u drugim slučajevima koji mogu  da se klasifikuju u grupe X60-X69, X85-X90, Y10-Y19
+X40-X49	exclusion	Ispravan lijek ispravno dat u terapijskoj ili profilaktičkoj dozi koji je uzrokovao neželjena dejstva (Y40-Y59)
+X40	preferred	Slučajno trovanje i izlaganje analgeticima, koji ne pripadaju opijatima, antipireticima i antireumaticima 
+X40	inclusion	Derivati 4-aminofenola
+X40	inclusion	Nesteroidni antizapaljenski ljekovi (NSAIL)
+X40	inclusion	Derivati pirazolona
+X40	inclusion	Salicilati
+X41	preferred	Slučajno trovanje i izlaganje antiepilepticima, sedativima-hipnoticima, antiparkinsonicima i psihotropnim ljekovima, neklasifikovano na drugom mjestu
+X41	inclusion	Antidepresivi
+X41	inclusion	Barbiturati
+X41	inclusion	Derivati hidantoina
+X41	inclusion	Iminostilbeni
+X41	inclusion	Jedinjenja metakvalona
+X41	inclusion	Neuroleptici
+X41	inclusion	Psihostimulansi
+X41	inclusion	Sukcinimidi i oksazolidinedioni
+X41	inclusion	Trankvilizatori
+X42	preferred	Slučajno trovanje i izlaganje narkoticima, psihodislepticima (halucinogenima), neklasifikovano na drugom mjestu 
+X42	inclusion	Kanabis (derivati)
+X42	inclusion	Kokain
+X42	inclusion	Kodein
+X42	inclusion	Heroin
+X42	inclusion	Lizergid (LSD)
+X42	inclusion	Meskalin
+X42	inclusion	Metadon
+X42	inclusion	Morfin
+X42	inclusion	Opijum (alkaloidi)
+X43	preferred	Slučajno trovanje i izlaganje drugim ljekovima koji djeluju na autonomni nervni sistem
+X43	inclusion	Parasimpatikolitici (antiholinergici i antimuskarinici) i spazmolitici
+X43	inclusion	Parasimpatikomimetici (holinergici)
+X43	inclusion	Simpatolitici (antiadrenergici)
+X43	inclusion	Simpatikomimetici (adrenergici)
+X44	preferred	Slučajno trovanje i izlaganje drugim neoznačenim ljekovima, preparatima i biološkim supstancama
+X44	inclusion	Agensi koji primarno djeluju na glatke i skeletne mišiće i na respiratorni sistem
+X44	inclusion	Anestetici (opšti) (lokalni)
+X44	inclusion	Ljekovi koji djeluju na kardiovaskularni sistem
+X44	inclusion	Ljekovi koji djeluju na gastrointestinalni sistem
+X44	inclusion	Hormoni i sintetičke zamjene
+X44	inclusion	Sistemski i hematološki agensi
+X44	inclusion	Sistemski antibiotici i druga antiinfektivna  sredstva
+X44	inclusion	Terapeutski gasovi
+X44	inclusion	Preparati za lokalnu primjenu
+X44	inclusion	Vakcine
+X44	inclusion	Sredstva koja djeluju na balans vode i ljekovi koji djeluju na metabolizam minerala i mokraćne kisjeline
+X45	preferred	Slučajno trovanje i izlaganje alkoholu
+X45	inclusion	Alkohol: neoznačen 
+X45	inclusion	Alkohol: butil (1-butanol)
+X45	inclusion	Alkohol: etil (etanol)
+X45	inclusion	Alkohol: izopropil (2-propanol)
+X45	inclusion	Alkohol: metil (metanol)
+X45	inclusion	Alkohol: propil (1-propanol)
+X45	inclusion	Alkohol višeg reda koji se dobija vrenjem (patoka, patočno ulje)
+X46	preferred	Slučajno trovanje i izlaganje organskim rastvaračima i halogenim ugljovodonicima i njihovim isparenjima
+X46	inclusion	Benzen i njegovi homolozi
+X46	inclusion	Ugljenik-tetrahlorid (tetrahlormetan)
+X46	inclusion	Hlorofluorougljenici
+X46	inclusion	Petrolej (derivati)
+X47	preferred	Slučajno trovanje i izlaganje drugim gasovima i isparenjima
+X47	inclusion	Ugljen -monoksid
+X47	inclusion	Suzavac
+X47	inclusion	Izduvni gasovi motora (vozila)
+X47	inclusion	Azotni oksidi
+X47	inclusion	Sumpor-dioksid
+X47	inclusion	Gas (za domaćinstvo)
+X47	exclusion	Dimovi i isparenja metala (X49.-)
+X48	preferred	Slučajno trovanje i izlaganje pesticidima
+X48	inclusion	Fumiganti
+X48	inclusion	Fungicidi
+X48	inclusion	Herbicidi
+X48	inclusion	Insekticidi
+X48	inclusion	Rodenticidi
+X48	inclusion	Sredstva za zaštitu drveta
+X48	exclusion	Biljna hrana i đubriva (X49.-)
+X49	preferred	Slučajno trovanje i izlaganje drugim i neoznačenim hemikalijama i štetnim supstancama
+X49	inclusion	Korozivni aromatici, kisjeline i kaustične alkalije
+X49	inclusion	Ljepila i adhezivna sredstva
+X49	inclusion	Metali uključujući dimove i isparenja
+X49	inclusion	Farbe i boje
+X49	inclusion	Biljna hrana i đubriva
+X49	inclusion	Trovanje, neoznačeno
+X49	inclusion	Otrovne namirnice i otrovne biljke
+X49	inclusion	Sapuni i deterdženti
+X49	exclusion	Kontakt sa otrovnim životinjama i biljkama (X20-X29)
+X50-X57	preferred	Prekomjeran fizički napor, putovanje i oskudica
+X50-X57	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta  događaja i aktivnosti
+X50-X57	exclusion	Napad (X85-Y09)
+X50-X57	exclusion	Saobraćajni udesi (V01-V99)
+X50	preferred	Prekomjeran napor i pretjerani ili ponavljani pokreti
+X50	inclusion	Dizanje: teških predmeta
+X50	inclusion	Dizanje: tegova
+X50	inclusion	Trčanje maratona
+X50	inclusion	Veslanje
+X51	preferred	Putovanje i kretanje
+X52	preferred	Produženi boravak u bestežinskim uslovima
+X52	inclusion	Bestežinsko stanje u svemirskoj letjelici (simulator)
+X53	preferred	Nedostatak hrane
+X53	inclusion	Nedostatak hrane kao uzrok: iscrpljenosti
+X53	inclusion	Nedostatak hrane kao uzrok: pothranjenosti
+X53	inclusion	Nedostatak hrane kao uzrok: izgladnjelosti
+X53	exclusion	Zanemarivanje ili napuštanje (Y06.-)
+X53	exclusion	Nedovoljan unos hrane i vode zbog samozanemarivanja (R63.6)
+X53	exclusion	Samozanemarivanje, neoznačeno (R46.8)
+X54	preferred	Nedostatak vode
+X54	inclusion	Nedostatak vode kao uzrok: dehidracije
+X54	inclusion	Nedostatak vode kao uzrok: iscrpljenosti
+X54	exclusion	Zanemarivanje ili napuštanje (Y06.-)
+X57	preferred	Neoznačena lišenost
+X57	inclusion	Oskudica (nemaština)
+X58-X59	preferred	Slučajno izlaganje drugim i neoznačenim faktorima
+X58-X59	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta  događaja i aktivnosti
+X58	preferred	Izlaganje drugim označenim faktorima
+X59	preferred	Izlaganje neoznačenim faktorima
+X59.0	preferred	Izlaganje neoznačenim faktorima koji izazivaju prelom
+X59.9	preferred	Izlaganje neoznačenim faktorima koji izazivaju druge i  neoznačene povrede
+X59.9	inclusion	Nesreća, neoznačeno
+X59.9	inclusion	Izlaganje, neoznačeno
+X60-X84	preferred	Namjerno samopovređivanje
+X60-X84	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta  događaja i aktivnosti
+X60-X84	inclusion	Namjerno samotrovanje ili samoubilačke povrede
+X60-X84	inclusion	Samoubistvo (pokušaj)
+X60	preferred	Namjerno samotrovanje i izlaganje analgeticima, koji ne pripadaju opijatima, antipireticima i antireumaticima 
+X60	inclusion	Derivati 4-aminofenola
+X60	inclusion	Nesteroidni antizapaljenski ljekovi (NSAIL)
+X60	inclusion	Derivati pirazolona
+X60	inclusion	Salicilati
+X61	preferred	Namjerno samotrovanje i izlaganje antiepilepticima, sedativima-hipnoticima, antiparkinsonicima i psihotropnim ljekovima, neklasifikovano na drugom mjestu 
+X61	inclusion	Antidepresivi
+X61	inclusion	Barbiturati
+X61	inclusion	Derivati hidantoina
+X61	inclusion	Iminostilbeni
+X61	inclusion	Jedinjenja metakvalona
+X61	inclusion	Neuroleptici
+X61	inclusion	Psihostimulansi
+X61	inclusion	Sukcinimidi i oksazolidinedioni
+X61	inclusion	Tranvilizatori
+X62	preferred	Namjerno samotrovanje i izlaganje narkoticima i psihodislepticima (halucinogenima), neklasifikovano na drugom mjestu 
+X62	inclusion	Kanabis (derivati)
+X62	inclusion	Kokain
+X62	inclusion	Kodein
+X62	inclusion	Heroin
+X62	inclusion	Lizergid (LSD)
+X62	inclusion	Meskalin
+X62	inclusion	Metadon
+X62	inclusion	Morfin
+X62	inclusion	Opijum (alkaloidi)
+X63	preferred	Namjerno samotrovanje i izlaganje drugim ljekovima koji djeluju na autonomni nervni sistem
+X63	inclusion	Parasimpatikolitici (antiholinergici i antimuskarinici) i spazmolitici
+X63	inclusion	Parasimpatikomimetici (holinergici)
+X63	inclusion	Simpatolitici (antiadrenergici)
+X63	inclusion	Simpatikomimetici (adrenergici)
+X64	preferred	Namjerno samotrovanje i izlaganje drugim neoznačenim ljekovima, preparatima i biološkim supstancama
+X64	inclusion	Agensi koji primarno djeluju na glatke i skeletne mišiće i na respiratorni sistem
+X64	inclusion	Anestetici (opšti) (lokalni)
+X64	inclusion	Ljekovi koji djeluju na: kardiovaskularni sistem
+X64	inclusion	Ljekovi koji djeluju na: gastrointestinalni sistem
+X64	inclusion	Hormoni i sintetičke zamjene
+X64	inclusion	Sistemski i hematološki agensi
+X64	inclusion	Sistemski antibiotici i drugi antiinfektivni ljekovi
+X64	inclusion	Terapeutski gasovi
+X64	inclusion	Preparati za lokalnu primjenu
+X64	inclusion	Vakcine
+X64	inclusion	Sredstva koja djeluju na balans vode i ljekovi koji djeluju na metabolizam minerala i mokraćne kisjeline
+X65	preferred	Namjerno samotrovanje i izlaganje alkoholu
+X65	inclusion	Alkohol: neoznačen 
+X65	inclusion	Alkohol: butil (1-butanol)
+X65	inclusion	Alkohol: etil (etanol)
+X65	inclusion	Alkohol: izopropil (2-propanol)
+X65	inclusion	Alkohol: metil (metanol)
+X65	inclusion	Alkohol: propil (1-propanol)
+X65	inclusion	Alkohol višeg reda koji se dobija vrenjem (patoka, patočno ulje)
+X66	preferred	Namjerno samotrovanje i izlaganje organskim rastvaračima i halogenim ugljovodonicima i njihovim isparenjima
+X66	inclusion	Benzen i njegovi homolozi
+X66	inclusion	Ugljenik-tetrahlorid (tetrahlorometan)
+X66	inclusion	Hlorofluorougljenici
+X66	inclusion	Petrolej (derivati)
+X67	preferred	Namjerno samotrovanje i izlaganje drugim gasovima i  isparenjima
+X67	inclusion	Ugljen-monoksid
+X67	inclusion	Suzavac
+X67	inclusion	Izduvni gasovi motora (vozila)
+X67	inclusion	Azotni oksidi
+X67	inclusion	Sumpor-dioksid
+X67	inclusion	Gas za domaćinstvo
+X67	exclusion	Dimovi i isparenja metala (X49.-)
+X68	preferred	Namjerno samotrovanje i izlaganje pesticidima
+X68	inclusion	Fumiganti
+X68	inclusion	Fungicidi
+X68	inclusion	Herbicidi
+X68	inclusion	Insekticidi
+X68	inclusion	Rodenticidi
+X68	inclusion	Sredstva za zaštitu drveta
+X68	exclusion	Biljna hrana i đubriva (X69.-)
+X69	preferred	Namjerno samotrovanje i izlaganje drugim i neoznačenim hemikalijama i štetnim supstancama
+X69	inclusion	Korozivni aromatici, kisjeline i kaustične alkalije
+X69	inclusion	Ljepila i adhezivna sredstva
+X69	inclusion	Metali uključujući dimove i isparenja
+X69	inclusion	Farbe i boje
+X69	inclusion	Biljna hrana i đubriva 
+X69	inclusion	Otrovne namirnice i otrovne biljke
+X69	inclusion	Sapuni i deterdženti
+X70	preferred	Namjerno samopovređivanje vješanjem, davljenjem i  gušenjem
+X71	preferred	Namjerno samopovređivanje udavljenjem i utopljenjem
+X72	preferred	Namjerno samopovređivanje opaljivanjem iz ručnog vatrenog oružja
+X73	preferred	Namjerno samopovređivanje opaljivanjem iz puške, sačmare i većeg vatrenog oružja
+X74	preferred	Namjerno samopovređivanje opaljivanjem iz drugog i neoznačenog vatrenog oružja
+X75	preferred	Namjerno samopovređivanje eksplozivnom materijalom
+X76	preferred	Namjerno samopovređivanje dimom, vatrom i plamenom
+X77	preferred	Namjerno samopovređivanje vodenom parom, vrelim isparenjima i vrelim predmetima
+X78	preferred	Namjerno samopovređivanje oštrim predmetom
+X79	preferred	Namjerno samopovređivanje tupim predmetom
+X80	preferred	Namjerno samopovređivanje skakanjem sa visokog mjesta (visine)
+X80	inclusion	Namjeran pad sa jednog nivoa na drugi
+X81	preferred	Namjerno samopovređivanje skakanjem ili ležanjem ispred predmeta koji je u pokretu
+X82	preferred	Namjerno samopovređivanje razbijanjem motornog vozila
+X82	inclusion	Namjerni sudar sa: motornim vozilom
+X82	inclusion	Namjerni sudar sa: vozom
+X82	inclusion	Namjerni sudar sa: tramvajem
+X82	exclusion	Razbijanje vazduhoplova (X83.-)
+X83	preferred	Namjerno samopovređivanje na druge neoznačene načine
+X83	inclusion	Namjerno samopovređivanje: kaustičnim  supstancama, izuzev trovanja
+X83	inclusion	Namjerno samopovređivanje: razbijanjem vazduhoplova
+X83	inclusion	Namjerno samopovređivanje: udarom električne struje
+X84	preferred	Namjerno samopovređivanje na neoznačene načine
+X85-Y09	preferred	Napad 
+X85-Y09	text	Pogledajte na početku ovog poglavlja klasifikaciju mjesta  događaja i aktivnosti
+X85-Y09	inclusion	Ubistvo
+X85-Y09	inclusion	Povrede koje je nanijela druga osoba sa namjerom da povrijedi ili ubije, na bilo koji način
+X85-Y09	exclusion	Povrede zbog: zakonske intervencije (Y35.-)
+X85-Y09	exclusion	Povrede zbog: ratnih operacija (Y36.-)
+X85	preferred	Napad drogama, ljekovima i biološkim supstancama
+X85	inclusion	Ubistvo trovanjem (bilo kojim): biološkim supstancama
+X85	inclusion	Ubistvo trovanjem (bilo kojim): drogama
+X85	inclusion	Ubistvo trovanjem (bilo kojim): ljekovima
+X86	preferred	Napad korozivnim supstancama
+X86	exclusion	Korozivni gas (X88.-)
+X87	preferred	Napad pesticidima
+X87	inclusion	Sredstva za zaštitu drveta
+X87	exclusion	Biljna hrana i đubriva (X89.-)
+X88	preferred	Napad gasovima i isparenjima
+X89	preferred	Napad drugim označenim hemikalijama i štetnim supstancama
+X89	inclusion	Biljna hrana i đubriva 
+X90	preferred	Napad neoznačenim hemikalijama i štetnim supstancama
+X90	inclusion	Ubistvo trovanjem, neoznačeno
+X91	preferred	Napad vješanjem, davljenjem i gušenjem
+X92	preferred	Napad udavljenjem i utopljenjem
+X93	preferred	Napad pucanjem iz ručnog vatrenog oružja
+X94	preferred	Napad pucanjem iz puške, sačmare i drugog većeg vatrenog oružja
+X95	preferred	Napad pucanjem iz drugog i neoznačenog vatrenog oružja
+X96	preferred	Napad eksplozivnom materijom
+X96	exclusion	Sredstvo za paljenje vatre (X97.-)
+X97	preferred	Napad dimom, vatrom i plamenom
+X97	inclusion	Podmetanje požara
+X97	inclusion	Cigarete
+X97	inclusion	Sredstvo za paljenje vatre
+X98	preferred	Napad vodenom parom, vrelim isparenjima i vrelim predmetima 
+X99	preferred	Napad oštrim predmetom
+X99	inclusion	Ubod, neoznačen
+Y00	preferred	Napad tupim predmetom
+Y01	preferred	Napad guranjem sa visokog mjesta (visine)
+Y02	preferred	Napad guranjem ili stavljanjem žrtve ispred predmeta u pokretu
+Y03	preferred	Napad razbijanjem motornog vozila
+Y03	inclusion	Namjerno udaranje ili gaženje motornim vozilom
+Y04	preferred	Napad uz primjenu tjelesne snage
+Y04	inclusion	Tuča ili borba bez oružja
+Y04	exclusion	Napad: davljenjem (X91.-)
+Y04	exclusion	Napad: utopljenje (X92.-)
+Y04	exclusion	Napad: upotrebom oružja (X93-X95, X99.-, Y00.-)
+Y04	exclusion	Seksualni napad primjenom tjelesne snage (Y05.-)
+Y05	preferred	Seksualni napad primjenom tjelesne snage 
+Y05	inclusion	Silovanje (pokušaj)
+Y05	inclusion	Obljuba životinja (sodomija) (pokušaj)
+Y06	preferred	Zanemarivanje i napuštanje
+Y06.0	preferred	Od strane supružnika ili partnera
+Y06.1	preferred	Od strane roditelja
+Y06.2	preferred	Od strane poznanika ili prijatelja
+Y06.8	preferred	Od strane drugih označenih osoba
+Y06.9	preferred	Od strane neoznačene osobe
+Y07	preferred	Drugi oblici zlostavljanja
+Y07	inclusion	Psihičko zlostavljanje
+Y07	inclusion	Fizičko zlostavljanje
+Y07	inclusion	Seksualno zlostavljanje
+Y07	inclusion	Mučenje
+Y07	exclusion	Zanemarivanje i napuštanje (Y06.-)
+Y07	exclusion	Seksualni napad primjenom tjelesne snage (Y05.-)
+Y07.0	preferred	Od strane supružnika ili partnera
+Y07.1	preferred	Od strane roditelja
+Y07.2	preferred	Od strane poznanika ili prijatelja
+Y07.3	preferred	Od strane službenih lica
+Y07.8	preferred	Od strane drugih označenih osoba
+Y07.9	preferred	Od strane neoznačene osobe
+Y08	preferred	Napad na druge označene načine
+Y09	preferred	Napad na neoznačen način
+Y09	inclusion	Atentat (pokušaj), neoznačen
+Y09	inclusion	Ubistvo (pokušaj), neoznačeno
+Y09	inclusion	Ubistvo iz nehata
+Y09	inclusion	Ubistvo sa predumišljajem (pokušaj), neoznačeno
+Y10-Y34	preferred	Događaj sa neodređenom namjerom
+Y10-Y34	text	Vidjeti na početku poglavlja klasifikaciju mjesta nastanka događaja
+Y10-Y34	note	Ova grupa obuhvata događaje za koje nema dovoljno raspoloživih podataka koji bi omogućili medicinskim i pravnim autoritetima da razlikuju nesrećni slučaj, samopovređivanje i napad. Ona obuhvata povrede koje su nanijete sebi, ali ne i trovanje, kada nije određeno da li je nenamjerno ili sa namjerom da se nanese povreda.
+Y10	preferred	Trovanje i izlaganje analgeticima, koji ne pripadaju opijatima, antipireticima i antireumaticima, neutvrđene namjere
+Y10	inclusion	Derivati 4-aminofenola
+Y10	inclusion	Nesteroidni antizapaljenski ljekovi (NSAIL)
+Y10	inclusion	Derivati pirazolona
+Y10	inclusion	Salicilati
+Y11	preferred	Trovanje i izlaganje antiepilepticima, sedativima-hipnoticima, antiparkinsonicima i psihotropnim ljekovima, neklasifikovano na drugom mjestu
+Y11	inclusion	Antidepresivi
+Y11	inclusion	Barbiturati
+Y11	inclusion	Derivati hidantoina
+Y11	inclusion	Iminostilbeni
+Y11	inclusion	Jedinjenja metakvalona
+Y11	inclusion	Neuroleptici
+Y11	inclusion	Psihostimulansi
+Y11	inclusion	Sukcinimidi i oksazolidinedioni
+Y11	inclusion	Trankvilizatori
+Y12	preferred	Trovanje i izlaganje narkoticima i psihodislepticima (halucinogenima), neklasifikovano na drugom mjestu, neutvrđene namjere
+Y12	inclusion	Kanabis (derivati)
+Y12	inclusion	Kokain
+Y12	inclusion	Kodein
+Y12	inclusion	Heroin
+Y12	inclusion	Lizergid (LSD)
+Y12	inclusion	Meskalin
+Y12	inclusion	Metadon
+Y12	inclusion	Morfin
+Y12	inclusion	Opijum (alkaloidi)
+Y13	preferred	Trovanje i izlaganje drugim ljekovima koji djeluju na autonomni nervni sistem, neutvrđene namjere
+Y13	inclusion	Parasimpatolitici (antiholinergici i antimuskarinici) i spazmolitici
+Y13	inclusion	Parasimpatomimetici (holinergici)
+Y13	inclusion	Simpatolitici (antiadrenergici)
+Y13	inclusion	Simpatomimetici (adrenergici)
+Y14	preferred	Trovanje i izlaganje drugim neoznačenim ljekovima, preparatima i biološkim supstancama, neutvrđene namjere
+Y14	inclusion	Ljekovita sredstva koja primarno djeluju na glatku i skeletnu muskulaturu i respiratorni sistem
+Y14	inclusion	Anestetici (opšti) (lokalni)
+Y14	inclusion	Ljekovi koji djeluju na: kardiovaskularni sistem
+Y14	inclusion	Ljekovi koji djeluju na: gastrointestinalni sistem
+Y14	inclusion	Hormoni i sintetičke zamjene
+Y14	inclusion	Sistemska i hematološka ljekovita sredstva 
+Y14	inclusion	Sistemski antibiotici i druga antiinfektivna sredstva
+Y14	inclusion	Terapeutski gasovi
+Y14	inclusion	Preparati za lokalnu primjenu
+Y14	inclusion	Vakcine
+Y14	inclusion	Ljekovi koji djeluju na ravnotežu vode i na metabolizam minerala i mokraćne kisjeline
+Y15	preferred	Trovanje i izlaganje alkoholu, neutvrđene namjere
+Y15	inclusion	Alkohol: neoznačen
+Y15	inclusion	Alkohol: butil (1-butanol)
+Y15	inclusion	Alkohol: etil (etanol)
+Y15	inclusion	Alkohol: izopropil (2-propanol)
+Y15	inclusion	Alkohol: metil (metanol)
+Y15	inclusion	Alkohol: propil (1-propanol)
+Y15	inclusion	Alkohol višeg reda koji se dobija vrenjem (patoka, patočno ulje)
+Y16	preferred	Trovanje i izlaganje organskim rastvaračima i halogenim ugljovodonicima i njihovim isparenjima, neutvrđene namjere
+Y16	inclusion	Benzen i njegovi homologi
+Y16	inclusion	Ugljenik-tetrahlorid (tetrahlormetan)
+Y16	inclusion	Hlorofluorougljenici
+Y16	inclusion	Petrolej (derivati)
+Y17	preferred	Trovanje i izlaganje drugim gasovima i isparenjima, neutvđene namjere
+Y17	inclusion	Ugljen-monoksid
+Y17	inclusion	Suzavac
+Y17	inclusion	Izduvni gasovi motora (vozila)
+Y17	inclusion	Azotni oksidi
+Y17	inclusion	Sumpor-dioksid
+Y17	inclusion	Gas za domaćinstvo
+Y17	exclusion	Dimovi i isparenja metala Y19
+Y18	preferred	Slučajno trovanje i izlaganje pesticidima, neutvrđene namjere
+Y18	inclusion	Fumiganti
+Y18	inclusion	Fungicidi
+Y18	inclusion	Herbicidi
+Y18	inclusion	Insekticidi
+Y18	inclusion	Rodenticidi
+Y18	inclusion	Sredstva za zaštitu drveta
+Y18	exclusion	Biljna hrana i đubriva (Y19.-)
+Y19	preferred	Trovanje i izlaganje drugim i neoznačenim hemikalijama i štetnim supstancama, neutvrđene namjere
+Y19	inclusion	Korozivni aromatici, kisjeline i kaustične alkalije
+Y19	inclusion	Ljepila i adhezivna sredstva
+Y19	inclusion	Metali uključujući dimove i isparenja
+Y19	inclusion	Farbe i boje 
+Y19	inclusion	Biljna hrana i đubriva
+Y19	inclusion	Otrovne namirnice i otrovne biljke
+Y19	inclusion	Sapuni i deterdženti
+Y20	preferred	Vješanje, davljenje i gušenje, neodređene namjere
+Y21	preferred	Udavljenje i utopljenje, neodređene namjere
+Y22	preferred	Opaljivanje iz ručnog vatrenog oružja, neodređene namjere
+Y23	preferred	Opaljivanje iz puške, sačmare i većeg vatrenog oružja, neodređene namjere
+Y24	preferred	Opaljivanje iz neoznačenog vatrenog oružja, neodređene namjere
+Y25	preferred	Kontakt sa eksplozivnim materijalom, neodređene namjere
+Y26	preferred	Izlaganje dimu, vatri i plamenu, neodređene namjere
+Y27	preferred	Kontakt sa vodenom parom, vrelim isparenjima i vrelim predmetima, neodređene namjere
+Y28	preferred	Kontakt sa oštrim predmetom, neodređene namjere
+Y29	preferred	Kontakt sa tupim predmetom, neodređene namjere
+Y30	preferred	Padanje, skakanje ili guranje sa visokog mjesta (visine), neodređene namjere
+Y30	inclusion	Padanje žrtve sa jednog nivoa na drugi, neodređene namjere
+Y31	preferred	Padanje, ležanje ili trčanje ispred ili prema predmetu koji je u pokretu, neodređene namjere
+Y32	preferred	Razbijanje motornog vozila, neodređene namjere
+Y33	preferred	Drugi neoznačeni događaji, neodređene namjere
+Y34	preferred	Neoznačeni događaj, neodređene namjere
+Y35-Y36	preferred	Zakonska intervencija i ratne operacije
+Y35	preferred	Zakonska intervencija
+Y35	inclusion	Povrede koje je nanijela policija ili drugi čuvari javnog reda i mira, uključujući povrede nanijete od strane vojske na dužnosti prilikom hapšenja ili pokušaja hapšenja prestupnika, kao i povrede nanijete prilikom suzbijanja nemira, održavanje reda i drugih zakonskih radnji
+Y35.0	preferred	Zakonska intervencija koja uključuje opaljivanje iz vatrenog oružja
+Y35.0	inclusion	Zakonska intervencija: automatskom puškom
+Y35.0	inclusion	Zakonska intervencija: revolverom
+Y35.0	inclusion	Zakonska intervencija: puščanom sačmom ili gumenim metkom
+Y35.1	preferred	Zakonska intervencija koja uključuje primjenu eksploziva
+Y35.1	inclusion	Zakonska intervencija upotrebom: dinamita
+Y35.1	inclusion	Zakonska intervencija upotrebom: eksplozivne granate
+Y35.1	inclusion	Zakonska intervencija upotrebom: bombe
+Y35.1	inclusion	Zakonska intervencija upotrebom: minobacača
+Y35.2	preferred	Zakonska intervencija koja uključuje primjenu gasa
+Y35.2	inclusion	Zakonska intervencija koja uključuje gušenje gasom
+Y35.2	inclusion	Zakonska intervencija koja uključuje povredu suzavcem
+Y35.2	inclusion	Zakonska intervencija koja uključuje trovanje gasom
+Y35.3	preferred	Zakonska intervencija koja uključuje primjenu tupih predmeta
+Y35.3	inclusion	Osoba pogođena, udarena: palicom tokom zakonske intervencije
+Y35.3	inclusion	Osoba pogođena, udarena: tupim predmetom tokom zakonske intervencije
+Y35.3	inclusion	Osoba pogođena, udarena: motkom tokom zakonske intervencije
+Y35.4	preferred	Zakonska intervencija koja uključuje primjenu oštrih predmeta
+Y35.4	inclusion	Posjekotina tokom zakonske intervencije
+Y35.4	inclusion	Povreda bajonetom tokom zakonske intervencije
+Y35.4	inclusion	Ubod tokom zakonske intervencije
+Y35.5	preferred	Zakonska egzekucija
+Y35.5	inclusion	Bilo koja egzekucija koja je izvršena po nalogu pravosudne ili vladajuće institucije (stalne ili privremene), kao što je: ugušenje gasom
+Y35.5	inclusion	Bilo koja egzekucija koja je izvršena po nalogu pravosudne ili vladajuće institucije (stalne ili privremene), kao što je: odsjecanje glave, dekapitacija (giljotinom)
+Y35.5	inclusion	Bilo koja egzekucija koja je izvršena po nalogu pravosudne ili vladajuće institucije (stalne ili privremene), kao što je: smrtna kazna
+Y35.5	inclusion	Bilo koja egzekucija koja je izvršena po nalogu pravosudne ili vladajuće institucije (stalne ili privremene), kao što je: električna stolica
+Y35.5	inclusion	Bilo koja egzekucija koja je izvršena po nalogu pravosudne ili vladajuće institucije (stalne ili privremene), kao što je: vješanje
+Y35.5	inclusion	Bilo koja egzekucija koja je izvršena po nalogu pravosudne ili vladajuće institucije (stalne ili privremene), kao što je: trovanje
+Y35.5	inclusion	Bilo koja egzekucija koja je izvršena po nalogu pravosudne ili vladajuće institucije (stalne ili privremene), kao što je: strijeljanje
+Y35.6	preferred	Zakonska intervencija koja uključuje druga označena sredstva
+Y35.6	inclusion	Grub postupak upotrebom ljudske snage (maltretiranje) 
+Y35.7	preferred	Zakonska intervencija, sredstvo neoznačeno
+Y36	preferred	Ratne operacije
+Y36	note	Povrede uzrokovane ratnim operacijama koje su nastale poslije prekida neprijateljstava klasifikovane su u grupi Y36.8
+Y36	inclusion	Povrede pripadnika vojske i civila izazvane ratom i civilnim pobunama 
+Y36.0	preferred	Ratne operacije koje uključuju eksploziju pomorskog oružja 
+Y36.0	inclusion	Dubinske bombe
+Y36.0	inclusion	Pomorske mine
+Y36.0	inclusion	Mina, na moru ili u luci, neoznačena
+Y36.0	inclusion	Artiljerijska granata za upotrebu na moru
+Y36.0	inclusion	Torpedo
+Y36.0	inclusion	Podvodna eksplozija
+Y36.1	preferred	Ratne operacije koje obuhvataju uništenje vazduhoplova
+Y36.1	inclusion	Vazduhoplov: izgorio
+Y36.1	inclusion	Vazduhoplov: eksplodirao
+Y36.1	inclusion	Vazduhoplov: oboren
+Y36.1	inclusion	Zgnječen palim vazduhoplovom 
+Y36.2	preferred	Ratne operacije koje obuhvataju druge eksplozije i fragmente nastale eksplozijom
+Y36.2	inclusion	Slučajna eksplozija: municije koja se koristi u ratu tokom ratnih operacija
+Y36.2	inclusion	Slučajna eksplozija: sopstvenog oružja koje se koristi tokom ratnih operacija
+Y36.2	inclusion	Kasetne bombe (fragmenti) tokom ratnih operacija
+Y36.2	inclusion	Eksplozija: artiljerijske granate tokom ratnih operacija
+Y36.2	inclusion	Eksplozija: zatvarača (ležišta) vatrenog oružja, tokom ratnih operacija
+Y36.2	inclusion	Eksplozija: zatvarača topa tokom ratnih operacija
+Y36.2	inclusion	Eksplozija: minobacača tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: artiljerijske granate tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: bombe tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: granate tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: navođenog projektila tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: mine tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: rakete tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: čaure tokom ratnih operacija
+Y36.2	inclusion	Fragmenti: šrapnela tokom ratnih operacija
+Y36.2	inclusion	Mina tokom ratnih operacija, neoznačena
+Y36.3	preferred	Ratne operacije koje obuhvataju primjenu vatre, velikih požara i vrelih supstanci
+Y36.3	inclusion	Gušenje koje potiče od vatre izazvane direktno uređajem (sredstvom) za stvaranje vatre ili indirektno bilo kojim konvencionalnim oružjem
+Y36.3	inclusion	Opekotine koje potiču od vatre izazvane direktno uređajem (sredstvom) za stvaranje vatre ili indirektno bilo kojim konvencionalnim oružjem
+Y36.3	inclusion	Druge povrede koje potiču od vatre izazvane direktno uređajem (sredstvom) za stvaranje vatre ili indirektno bilo kojim konvencionalnim oružjem
+Y36.3	inclusion	Molotovljev koktel 
+Y36.4	preferred	Ratne operacije koje obuhvataju opaljivanje iz vatrenog oružja i druge oblike konvencionalnog vođenja rata
+Y36.4	inclusion	Ratne rane
+Y36.4	inclusion	Povreda  bajonetom
+Y36.4	inclusion	Metak: kratke puške
+Y36.4	inclusion	Metak: automatske puške
+Y36.4	inclusion	Metak: pištolja
+Y36.4	inclusion	Metak: puške
+Y36.4	inclusion	Metak: gumeni (puške)
+Y36.4	inclusion	Udavljenje u toku ratnih operacija, neoznačeno
+Y36.4	inclusion	Zrna sačmare
+Y36.5	preferred	Ratne operacije koje uključuju primjenu nuklearnog oružja
+Y36.5	inclusion	Blast efekti
+Y36.5	inclusion	Izlaganje jonizujućem zračenju iz nuklearnog oružja
+Y36.5	inclusion	Efekti vatrene kugle
+Y36.5	inclusion	Toplota
+Y36.5	inclusion	Drugi direktni i sekundarni efekti nuklearnog oružja
+Y36.6	preferred	Ratne operacije koje uključuju biološka oružja
+Y36.7	preferred	Ratne operacije koje uključuju hemijska oružja i druge oblike nekonvencionalnog vođenja rata
+Y36.7	inclusion	Gasovi, dimovi i hemikalije
+Y36.7	inclusion	Laseri
+Y36.8	preferred	Ratne operacije nakon obustave neprijateljstava
+Y36.8	inclusion	Povrede nastale eksplozijom bombi ili mina postavljenih u toku ratnih operacija, ako je eksplozija nastala nakon obustave neprijateljstava
+Y36.8	inclusion	Povrede izazvane ratnim operacijama klasifikovne u grupama Y36.0– Y36.7 ili Y36.9, ali koje su nastale nakon obustave neprijateljstava
+Y36.9	preferred	Ratne operacije, neoznačene
+Y40-Y84	preferred	Komplikacije medicinskog ili hirurškog postupka
+Y40-Y84	inclusion	Komplikacije izazvane medicinskim uređajima
+Y40-Y84	inclusion	Ispravan lijek dat na ispravan način u terapijskoj ili profilaktičkoj dozi kao uzrok bilo kakvog neželjenog dejstva
+Y40-Y84	inclusion	Nezgoda koja se dogodila bolesniku u toku hirurškog ili medicinskog postupka
+Y40-Y84	inclusion	Hirurške ili medicinske procedure kao uzrok abnormalne reakcije bolesnika, ili kasnije komplikacije, bez navođenja nezgode koja se dogodila u toku procedure
+Y40-Y84	exclusion	Nenamjerno prekomjerno doziranje lijeka ili davanje pogrešnog lijeka ili pogrešno uzimanje lijeka (X40-X44)
+Y40-Y59	preferred	Droge, ljekovi i biološke supstance koje uzrokuju neželjena dejstva pri liječenju
+Y40-Y59	note	Za listu specifičnih ljekova sa četvorocifrenom šifrom vidjeti Tabelu ljekova i hemikalija u Abecednom indeksu.
+Y40-Y59	exclusion	Nezgode uzrokovane načinom davanja droga, ljekova i bioloških supstanci u medicinskim i hirurškim procedurama (Y60-Y69)
+Y40	preferred	Sistemski antibiotici
+Y40	exclusion	Antibiotici, lokalna primjena (Y56.-)
+Y40	exclusion	Antineoplastični antibiotici (Y43.3)
+Y40.0	preferred	Penicilini
+Y40.1	preferred	Cefalosporini i drugi beta-laktamski antibiotici
+Y40.2	preferred	Grupa hloramfenikola
+Y40.3	preferred	Makrolidi
+Y40.4	preferred	Tetraciklini
+Y40.5	preferred	Aminoglikozidi
+Y40.5	inclusion	Streptomicin
+Y40.6	preferred	Rifamicini
+Y40.7	preferred	Antifungicidni antibiotici, sistemska upotreba
+Y40.8	preferred	Drugi sistemski antibiotici 
+Y40.9	preferred	Sistemski antibiotici, neoznačeni
+Y41	preferred	Drugi sistemski antiinfektivni i antiparazitarni ljekovi 
+Y41	exclusion	Antiinfektivni ljekovi, lokalna primjena (Y56.-)
+Y41.0	preferred	Sulfonamidi
+Y41.1	preferred	Antimikobakterijski ljekovi
+Y41.1	exclusion	Rifamicini (Y40.6)
+Y41.1	exclusion	Streptomicin (Y40.5)
+Y41.2	preferred	Antimalarici i ljekovi koji djeluju na druge protozoe u krvi
+Y41.2	exclusion	Derivati hidroksikvinolina (Y41.8)
+Y41.3	preferred	Drugi antiprotozoalni ljekovi 
+Y41.4	preferred	Antihelmintici
+Y41.5	preferred	Antivirotici
+Y41.5	exclusion	Amantadin (Y46.7)
+Y41.5	exclusion	Citarabin (Y43.1)
+Y41.8	preferred	Druga označena sistemska antiinfektivna i antiparazitarna sredstva 
+Y41.8	inclusion	Derivati hidroksikvinolina 
+Y41.8	exclusion	Antimalarici (Y41.2)
+Y41.9	preferred	Sistemska antiinfektivna i antiparazitarna sredstva, neklasifikovana na drugom mjestu
+Y42	preferred	Hormoni i njihove sintetičke zamjene i antagonisti, neklasifikovani na drugom mjestu
+Y42	exclusion	Mineralokortikoidi i njihovi antagonisti (Y54.0-Y54.1)
+Y42	exclusion	Oksitocinski hormoni (Y55.0)
+Y42	exclusion	Paratireoidni hormoni i derivati (Y54.7)
+Y42.0	preferred	Glikokortikoidi i sintetički analozi
+Y42.0	exclusion	Glikokortikoidi za lokalnu primjenu (Y56.-)
+Y42.1	preferred	Tireoidni hormoni i zamjene
+Y42.2	preferred	Antitireoidni ljekovi
+Y42.3	preferred	Insulin i antidijabetički ljekovi za oralnu primjenu
+Y42.4	preferred	Kontraceptivna sredstva za oralnu primjenu
+Y42.4	inclusion	Preparati sa jednim ili više sastojaka
+Y42.5	preferred	Drugi estrogeni i progesteroni
+Y42.5	inclusion	Mješavine i zamjene
+Y42.6	preferred	Antigonadotropini, antiestrogeni, antiandrogeni, neklasifikovani na drugom mjestu
+Y42.6	inclusion	Tamoksifen
+Y42.7	preferred	Androgeni i srodni anabolici
+Y42.8	preferred	Drugi i neoznačeni hormoni i njihove sintetičke zamjene
+Y42.8	inclusion	Hormoni prednjeg režnja hipofize (adenohipofiza)
+Y42.9	preferred	Drugi i neoznačeni antagonisti hormona
+Y43	preferred	Primarna sistemska sredstva 
+Y43	exclusion	Vitamini, neklasifikovani na drugom mjestu (Y57.7)
+Y43.0	preferred	Antialergijski i antiemetički ljekovi
+Y43.0	exclusion	Fenotiazinski neuroleptici 
+Y43.1	preferred	Antineoplastični antimetaboliti 
+Y43.1	inclusion	Citarabin 
+Y43.2	preferred	Antineoplastični prirodni proizvodi 
+Y43.3	preferred	Drugi antineoplastični ljekovi 
+Y43.3	inclusion	Antineoplastični antibiotici 
+Y43.3	exclusion	Tamoksifen (Y42.6)
+Y43.4	preferred	Imunosupresivna sredstva
+Y43.5	preferred	Acidifikantna i alkalizantna sredstva
+Y43.6	preferred	Enzimi, neklasifikovani na drugom mjestu
+Y43.8	preferred	Druga primarna sistemska sredstva, neklasifikovana na drugom mjestu
+Y43.8	inclusion	Antagonisti teških metala
+Y43.9	preferred	Primarno sistemsko sredstvo, neoznačeno
+Y44	preferred	Sredstva koja primarno djeluju na sastojke krvi
+Y44.0	preferred	Preparati gvožđa i drugi preparati koji djeluju protiv hipohromne anemije
+Y44.1	preferred	Vitamin B12, folna kisjelina i drugi preparati koji djeluju protiv megaloblastne anemije
+Y44.2	preferred	Antikoagulansi
+Y44.3	preferred	Antagonisti antikoagulanata, vitamin K i drugi koagulansi
+Y44.4	preferred	Antitrombocitni ljekovi (inhibitori agregacije trombocita)
+Y44.4	exclusion	Acetilsalicilna kisjelina (Y45.1)
+Y44.4	exclusion	Dipiridamol (Y52.3)
+Y44.5	preferred	Trombolitički ljekovi
+Y44.6	preferred	Prirodna krv i produkti krvi
+Y44.6	exclusion	Imunoglobulin (Y59.3)
+Y44.7	preferred	Zamjene plazme krvi
+Y44.9	preferred	Druga i neoznačena sredstva koja djeluju na sastojke krvi
+Y45	preferred	Analgetici, antipiretici i antizapaljenski ljekovi
+Y45.0	preferred	Opioidi i srodni analgetici
+Y45.1	preferred	Salicilati
+Y45.2	preferred	Derivati propionske kisjeline
+Y45.2	inclusion	Derivati propanske kisjeline 
+Y45.3	preferred	Drugi nesteroidni antizapaljenski ljekovi
+Y45.4	preferred	Antireumatici
+Y45.4	exclusion	Hlorokvin (Y41.2)
+Y45.4	exclusion	Glikokortikoidi (Y42.0)
+Y45.4	exclusion	Salicilati (Y45.1)
+Y45.5	preferred	Derivati 4-aminofenola
+Y45.8	preferred	Drugi analgetici, antipiretici i antizapaljenski ljekovi
+Y45.9	preferred	Neoznačen analgetik, antipiretik i antizapaljenski lijek
+Y46	preferred	Antiepileptici i antiparkinsonici
+Y46	exclusion	Acetazolamid (Y54.2)
+Y46	exclusion	Barbiturati NEC (Y47.0)
+Y46	exclusion	Benzodiazepini (Y47.1)
+Y46	exclusion	Paraldehid (Y47.3)
+Y46.0	preferred	Sukcinimidi
+Y46.1	preferred	Oksazolidinedioni
+Y46.2	preferred	Derivati hidantoina
+Y46.3	preferred	Deoksibarbiturati
+Y46.4	preferred	Iminostilbeni
+Y46.4	inclusion	Karbamazepin
+Y46.5	preferred	Valproinska kisjelina
+Y46.6	preferred	Drugi i neoznačeni antiepileptici
+Y46.7	preferred	Antiparkinsonici
+Y46.7	inclusion	Amantadin 
+Y46.8	preferred	Antispazmolitici
+Y46.8	exclusion	Benzodiazepini (Y47.1)
+Y47	preferred	Sedativi, hipnotici i antianksiotici
+Y47.0	preferred	Barbiturati, neklasifikovani na drugom mjestu
+Y47.0	exclusion	Deoksibarbiturati (Y46.3)
+Y47.0	exclusion	Tiobarbiturati (Y48.1)
+Y47.1	preferred	Benzodiazepini
+Y47.2	preferred	Derivati hlorala
+Y47.3	preferred	Paraldehid
+Y47.4	preferred	Jedinjenja broma
+Y47.5	preferred	Mješavine sedativa i hipnotika, neklasifikovani na drugom mjestu
+Y47.8	preferred	Drugi sedativi, hipnotici i antianksiotici
+Y47.8	inclusion	Metakvalon
+Y47.9	preferred	Sedativi, hipnotici i antianksiotici, neoznačeni
+Y47.9	inclusion	Sredstva za spavanje: rastvori, neoznačeni
+Y47.9	inclusion	Sredstva za spavanje: ljekovi, neoznačeni
+Y47.9	inclusion	Sredstva za spavanje: tablete, neoznačeni
+Y48	preferred	Anestetici i gasovi za liječenje
+Y48.0	preferred	Inhalacioni anestetici
+Y48.1	preferred	Anestetici za parenteralnu primjenu
+Y48.1	inclusion	Tiobarbiturati 
+Y48.2	preferred	Drugi i neoznačeni opšti anestetici
+Y48.3	preferred	Lokalni anestetici
+Y48.4	preferred	Anestetici, neoznačeni
+Y48.5	preferred	Gasovi za liječenje
+Y49	preferred	Psihotropni ljekovi, neklasifikovani na drugom mjestu
+Y49	exclusion	Sredstva koja smanjuju apetit (anoreksici) (Y57.0)
+Y49	exclusion	Barbiturati NEC (Y47.0)
+Y49	exclusion	Benzodiazepini (Y47.1)
+Y49	exclusion	Kofein (Y50.2)
+Y49	exclusion	Kokain (Y48.3)
+Y49	exclusion	Metakvalon (Y47.8)
+Y49.0	preferred	Triciklični i tetraciklični antidepresivi
+Y49.1	preferred	Inhibitori monoaminoksidaze kao antidepresivi
+Y49.2	preferred	Drugi i neoznačeni antidepresivi
+Y49.3	preferred	Fenotiazinski antipsihotici i neuroleptici
+Y49.4	preferred	Butirofenonski i tioksantenski neuroleptici
+Y49.5	preferred	Drugi antipsihotici i neuroleptici
+Y49.5	exclusion	Rauvolfija (Y52.5)
+Y49.6	preferred	Psihodisleptici (halucinogeni)
+Y49.7	preferred	Psihostimulansi sa mogućnošću drogiranja
+Y49.8	preferred	Drugi psihotropni ljekovi, neklasifikovani na drugom mjestu
+Y49.9	preferred	Psihotropni lijek, neoznačen
+Y50	preferred	Stimulatori centralnog nervnog sistema, neklasifikovani na drugom mjestu
+Y50.0	preferred	Analeptici
+Y50.1	preferred	Antagonisti receptora opioida
+Y50.2	preferred	Metilksantini, neklasifikovani na drugom mjestu
+Y50.2	inclusion	Kofein 
+Y50.2	exclusion	Aminofilin (Y55.6)
+Y50.2	exclusion	Teobromin (Y55.6)
+Y50.2	exclusion	Teofilin (Y55.6)
+Y50.8	preferred	Drugi stimulatori centralnog nervnog sistema
+Y50.9	preferred	Stimulator centralnog nervnog sistema, neoznačen
+Y51	preferred	Ljekovi koji primarno djeluju na autonomni nervni sistem
+Y51.0	preferred	Antiholinesterazna sredstva
+Y51.1	preferred	Drugi parasimpatikomimetici (holinergici)
+Y51.2	preferred	Ljekovi koji blokiraju ganglije, neklasifikovani na drugom mjestu
+Y51.3	preferred	Drugi parasimpatikomimetici (antiholinergici i antimuskarinici) i spazmolitici, neklasifikovani na drugom mjestu
+Y51.3	inclusion	Papaverin
+Y51.4	preferred	Pretežno agonisti alfa-adrenoreceptora, neklasifikovani na drugom mjestu
+Y51.4	inclusion	Metaraminol
+Y51.5	preferred	Pretežno agonisti beta-adrenoreceptora, neklasifikovani na drugom mjestu
+Y51.5	exclusion	Salbutamol (Y55.6)
+Y51.6	preferred	Antagonisti alfa-adrenoreceptora, neklasifikovani na drugom mjestu
+Y51.6	exclusion	Ergotaminski alkaloidi (Y55.0)
+Y51.7	preferred	Antagonisti beta-adrenoreceptora, neklasifikovani na drugom mjestu
+Y51.8	preferred	Sredstva koja djeluju centralno i blokiranjem adrenergičkih neurona, neklasifikovana na drugom mjestu
+Y51.8	exclusion	Klonidin (Y52.5)
+Y51.8	exclusion	Gvanetidin (Y52.5)
+Y51.9	preferred	Drugi i neoznačeni ljekovi koji primarno djeluju na autonomni nervni sistem
+Y51.9	inclusion	Ljekovi koji stimulišu i alfa i beta adrenoreceptore
+Y52	preferred	Sredstva koja primarno djeluju na kardiovaskularni sistem
+Y52	exclusion	Metaraminol (Y51.4)
+Y52.0	preferred	Glikozidi koji stimulišu srce i ljekovi sličnog djelovanja
+Y52.1	preferred	Kalcijumski blokatori
+Y52.2	preferred	Drugi antiaritmički ljekovi, neklasifikovani na drugom mjestu
+Y52.2	exclusion	Antagonisti beta-adrenoreceptora (Y51.7)
+Y52.3	preferred	Koronarni vazodilatatori, neklasifikovani na drugom mjestu
+Y52.3	inclusion	Dipiridamol 
+Y52.3	exclusion	Antagonisti beta adrenoreceptora (Y51.7)
+Y52.3	exclusion	Blokatori kalcijumskih kanala (Y52.1)
+Y52.4	preferred	Inhibitori angiotenzin-konvertujućeg enzima
+Y52.5	preferred	Drugi antihipertenzivni ljekovi, neklasifikovani na drugom mjestu
+Y52.5	inclusion	Klonidin 
+Y52.5	inclusion	Gvanetidin 
+Y52.5	inclusion	Rauvolfija
+Y52.5	exclusion	Antagonisti beta adrenoreceptora (Y51.7)
+Y52.5	exclusion	Blokatori kalcijumskih kanala (Y52.1)
+Y52.5	exclusion	Diuretici (Y54.0-Y54.5)
+Y52.6	preferred	Ljekovi koji djeluju protiv hiperlipidemije i arterioskleroze
+Y52.7	preferred	Periferni vazodilatatori
+Y52.7	inclusion	Nikotinska kisjelina (derivati)
+Y52.7	exclusion	Papaverin (Y51.3)
+Y52.8	preferred	Ljekovi protiv proširenih vena, uključujući sredstva koja djeluju sklerozirajuće
+Y52.9	preferred	Druga i neoznačena sredstva koja primarno djeluju na kardiovaskularni sistem
+Y53	preferred	Sredstva koja primarno djeluju na gastrointestinalni sistem
+Y53.0	preferred	Antagonisti histaminskih H2-receptora
+Y53.1	preferred	Drugi antacidi i ljekovi koji djeluju protiv sekrecije želuca
+Y53.2	preferred	Stimulantni laskativi
+Y53.3	preferred	Soni i osmotski laskativi
+Y53.4	preferred	Drugi laskativi
+Y53.4	inclusion	Ljekovi protiv atonije crijeva
+Y53.5	preferred	Digestivi
+Y53.6	preferred	Ljekovi protiv proliva
+Y53.6	exclusion	Antibiotici koji djeluju sistemski i druga antiinfektivna sredstva (40-Y41)
+Y53.7	preferred	Emetici
+Y53.8	preferred	Druga sredstva koja primarno djeluju na gastrointestinalni sistem
+Y53.9	preferred	Sredstvo koje primarno djeluje na gastrointestinalni sistem, neoznačeno
+Y54	preferred	Sredstva koja primarno djeluju na ravnotežu vode i minerala i metabolizam mokraćne kisjeline
+Y54.0	preferred	Mineralokortikoidi
+Y54.1	preferred	Antagonisti mineralokortikoida (antagonisti aldosterona)
+Y54.2	preferred	Inhibitori karboanhidraze
+Y54.2	inclusion	Acetazolamid
+Y54.3	preferred	Derivati benzotiadiazina
+Y54.4	preferred	Diuretici sa brzim i snažnim djelovanjem
+Y54.5	preferred	Drugi diuretici
+Y54.6	preferred	Elektroliti i sredstva koji djeluju na ravnotežu tečnosti
+Y54.6	inclusion	Soli za oralnu rehidraciju
+Y54.7	preferred	Sredstva koja djeluju na kalcifikaciju
+Y54.7	inclusion	Paratireoidni hormoni i derivati 
+Y54.7	inclusion	Vitamin D
+Y54.8	preferred	Sredstva koja djeluju na metabolizam mokraćne kisjeline
+Y54.9	preferred	Mineralne soli, neklasifikovane na drugom mjestu
+Y55	preferred	Sredstva koja primarno djeluju na glatke i skeletne mišiće i respiratorni sistem 
+Y55.0	preferred	Oksitocinski  ljekovi
+Y55.0	inclusion	Ergotaminski alkaloidi 
+Y55.0	exclusion	Estrogeni, progesteroni i antagonisti (Y42.5-Y42.6)
+Y55.1	preferred	Relaksanti skeletnih mišića (neuromuskularni blokatori)
+Y55.1	exclusion	Antispazmolitici (Y46.8)
+Y55.2	preferred	Druga i neoznačena sredstva koja djeluju prvenstveno na mišiće
+Y55.3	preferred	Antitusici
+Y55.4	preferred	Ekspektoransi
+Y55.5	preferred	Ljekovi protiv prehlade
+Y55.6	preferred	Antiastmatici, neklasifikovani na drugom mjestu
+Y55.6	inclusion	Aminofilin
+Y55.6	inclusion	Salbutamol
+Y55.6	inclusion	Teobromin
+Y55.6	inclusion	Teofilin
+Y55.6	exclusion	Agonisti beta adrenoreceptora (Y51.5)
+Y55.6	exclusion	Hormoni prednjeg režnja hipofize (adenohipofiza) (Y42.8)
+Y55.7	preferred	Druga i neoznačena sredstva koja primarno djeluju na respiratorni sistem 
+Y56	preferred	Lokalna sredstva koja primarno djeluju na kožu i sluzokože i oftalmološki, otorinolaringološki i  stomatološki ljekovi 
+Y56	inclusion	Glikokortikoidi, lokalna primjena
+Y56.0	preferred	Lokalni antifungicidi, antiinfektivni i antizapaljenski ljekovi, neklasifikovani na drugom mjestu
+Y56.1	preferred	Antipruritici
+Y56.2	preferred	Lokalna adstringentna sredstva i deterdženti
+Y56.3	preferred	Emolijensi, demulcencije i zaštitna sredstva 
+Y56.4	preferred	Keratolitici, keratoplastici i drugi ljekovi i preparati koji djeluju na dlaku
+Y56.5	preferred	Oftalmološki ljekovi i preparati
+Y56.6	preferred	Otorinolaringološki ljekovi i preparati
+Y56.7	preferred	Stomatološki ljekovi, lokalna primjena
+Y56.8	preferred	Druga sredstva koja se primjenjuju lokalno
+Y56.8	inclusion	Spermicidi
+Y56.9	preferred	Lokalna sredstva, neoznačena
+Y57	preferred	Drugi neoznačeni ljekovi i preparati
+Y57.0	preferred	Sredstva koja smanjuju apetit (anoreksici)
+Y57.1	preferred	Lipotropni ljekovi
+Y57.2	preferred	Antidoti i sredstva za vezivanje (helati), neklasifikovani na drugom mjestu
+Y57.3	preferred	Sredstva za odvikavanje od alkohola
+Y57.4	preferred	Farmaceutske pomoćne supstance (ekscipijenti)
+Y57.5	preferred	Rendgenska kontrastna sredstva 
+Y57.6	preferred	Druga dijagnostička sredstva
+Y57.7	preferred	Vitamini, neklasifikovani na drugom mjestu
+Y57.7	exclusion	Nikotinska kisjelina (Y52.7)
+Y57.7	exclusion	Vitamin B12 (Y44.1)
+Y57.7	exclusion	Vitamin D (Y54.7)
+Y57.7	exclusion	Vitamin K (Y44.3)
+Y57.8	preferred	Drugi ljekovi i preparati
+Y57.9	preferred	Lijek ili preparat, neoznačen
+Y58	preferred	Vakcine protiv bakterija
+Y58.0	preferred	BCG vakcina
+Y58.1	preferred	Vakcina protiv trbušnog tifusa i paratifusa
+Y58.2	preferred	Vakcina protiv kolere
+Y58.3	preferred	Vakcina protiv kuge
+Y58.4	preferred	Vakcina protiv tetanusa
+Y58.5	preferred	Vakcina protiv difterije
+Y58.6	preferred	Vakcina protiv pertusisa, uključujući i kombinacije sa komponentama pertusisa
+Y58.8	preferred	Miješane bakterijske vakcine, izuzev kombinovanih vakcina sa komponentom protiv pertusisa
+Y58.9	preferred	Druge i neoznačene vakcine protiv bakterija
+Y59	preferred	Druge i neoznačene vakcine i biološke supstance
+Y59.0	preferred	Vakcine protiv virusa
+Y59.1	preferred	Vakcine protiv rikecija
+Y59.2	preferred	Vakcine protiv protozoa
+Y59.3	preferred	Imunoglobulini
+Y59.8	preferred	Druge označene vakcine i biološke suspstance
+Y59.9	preferred	Vakcina ili biološka suspstanca, neoznačena
+Y60-Y69	preferred	Nezgode koje su se dogodile bolesnicima u toku hirurškog ili medicinskog postupka
+Y60-Y69	exclusion	Nezgode povezane sa neispravnim ili pokvarenim medicinskim uređajima (tokom procedure) (poslije implantacije) (tekuće upotrebe) (Y70-Y82)
+Y60-Y69	exclusion	Hirurške i medicinske procedure kao uzrok nenormalnih reakcija bolesnika, bez pominjanja nezgode za vrijeme procedure (Y83–Y84)
+Y60	preferred	Nenamjerno izazvana posjekotina, ubod, perforacija ili krvarenje u toku hirurškog ili medicinskog postupka
+Y60.0	preferred	U toku hirurškog zahvata
+Y60.1	preferred	U toku davanja infuzije ili transfuzije
+Y60.2	preferred	U toku dijalize bubrega ili druge perfuzije
+Y60.3	preferred	U toku davanja injekcije ili imunizacije
+Y60.4	preferred	U toku endoskopskog pregleda
+Y60.5	preferred	U toku kateterizacije srca
+Y60.6	preferred	U toku aspiracije, punkcije i druge kateterizacije
+Y60.7	preferred	U toku klistiranja
+Y60.8	preferred	U toku drugih hirurških i medicinskih postupaka
+Y60.9	preferred	U toku neoznačenog hirurškog i medicinskog postupka
+Y61	preferred	Strani predmet slučajno ostavljen u tijelu u toku hirurškog i medicinskog postupka
+Y61.0	preferred	U toku hirurškog zahvata
+Y61.1	preferred	U toku davanja infuzije ili transfuzije
+Y61.2	preferred	U toku dijalize bubrega ili druge perfuzije
+Y61.3	preferred	U toku davanja injekcije ili imunizacije
+Y61.4	preferred	U toku endoskopskog pregleda
+Y61.5	preferred	U toku kateterizacije srca
+Y61.6	preferred	U toku aspiracije, punkcije i druge kateterizacije
+Y61.7	preferred	U toku uklanjanja katetera ili zavoja
+Y61.8	preferred	U toku drugog hirurškog i medicinskog postupka
+Y61.9	preferred	U toku neoznačenog hirurškog i medicinskog postupka
+Y62	preferred	Greška u procesu sterilizacije u toku hirurškog i medicinskog postupka
+Y62.0	preferred	U toku hirurškog zahvata
+Y62.1	preferred	U toku davanja infuzije ili transfuzije
+Y62.2	preferred	U toku dijalize bubrega ili druge perfuzije
+Y62.3	preferred	U toku davanja injekcije ili imunizacije
+Y62.4	preferred	U toku endoskopskog pregleda
+Y62.5	preferred	U toku kateterizacije srca
+Y62.6	preferred	U toku aspiracije, punkcije i druge kateterizacije
+Y62.8	preferred	U toku drugog hirurškog i medicinskog postupka
+Y62.9	preferred	U toku neoznačenog hirurškog i medicinskog postupka
+Y63	preferred	Greška u doziranju u toku hirurškog i medicinskog postupka
+Y63	exclusion	Nenamjerno predoziranje lijekom ili davanje pogrešnog lijeka greškom (X40-X44)
+Y63.0	preferred	Prekomjerna količina krvi i drugih tečnosti data u toku transfuzije ili infuzije
+Y63.1	preferred	Nepravilno rastvaranje tečnosti za infuziju
+Y63.2	preferred	Prekomjerno izlaganje zračenju u toku radioterapije
+Y63.3	preferred	Nenamjerno izlaganje bolesnika zračenju u toku medicinskog postupka
+Y63.4	preferred	Greška u doziranju pri liječenju elektrošokom ili insulinskim šokom
+Y63.5	preferred	Neodgovarajuća temperatura pri lokalnoj primjeni obloga
+Y63.6	preferred	Nedavanje neophodnog lijeka, preparata ili biološke supstance
+Y63.8	preferred	Greška u doziranju u toku drugog hirurškog i medicinskog postupka
+Y63.9	preferred	Greška u doziranju u toku neoznačenog hirurškog i medicinskog postupka
+Y64	preferred	Kontaminirane medicinske i biološke supstance
+Y64.0	preferred	Kontaminirana medicinska ili biološka supstanca koja se daje transfuzijom ili infuzijom
+Y64.1	preferred	Kontaminirana medicinska ili biološka supstanca koja se daje injekcijom ili radi imunizacije
+Y64.8	preferred	Kontaminirana medicinska ili biološka supstanca koja se daje na druge načine
+Y64.9	preferred	Kontaminirana medicinska ili biološka supstanca koja se daje na neoznačene načine
+Y64.9	inclusion	Davanje kontaminirane medicinske ili biološke supstance, neoznačeno
+Y65	preferred	Druge nezgode u toku hirurškog i medicinskog postupka
+Y65.0	preferred	Neodgovarajuća krv data u toku transfuzije
+Y65.1	preferred	Pogrešna tečnost data u toku infuzije 
+Y65.2	preferred	Greška u suturi ili ligaturi u toku hirurškog zahvata
+Y65.3	preferred	Pogrešno postavljen endotrahealni tubus u toku anestezije
+Y65.4	preferred	Greška pri stavljanju ili uklanjanju tubusa
+Y65.5	preferred	Izvođenje neodgovarajućeg hirurškog zahvata
+Y65.8	preferred	Druge označene greške u toku hirurškog i medicinskog postupka
+Y66	preferred	Nesprovođenje hirurškog i medicinskog postupka
+Y66	inclusion	Rano prekidanje hirurškog i medicinskog postupka
+Y69	preferred	Neoznačene nezgode u toku hirurškog i medicinskog postupka
+Y70-Y82	preferred	Neželjeni događaji povezani sa medicinskim uređajima za dijagnostiku i liječenje
+Y70-Y82	inclusion	Kvar ili neispravnost medicinskog uređaja (tokom procedure), (posle implantacije), (tekuće upotrebe)
+Y70-Y82	exclusion	Nezgoda koja ser dogodila bolesnicima u toku hirurškog i medicinskog postupka, klasifikovane u Y60-Y69
+Y70-Y82	exclusion	Kasne komplikacije nakon korišćenja medicinskih uređaja bez pominjanja kvara ili neispravnosti Y83–Y84
+Y70	preferred	Uređaji u anesteziologiji povezani sa neželjenim događajima
+Y70[S20Y70_4]	modifierlink	
+Y71	preferred	Uređaji u kardiovaskularnoj oblasti povezani sa neželjenim događajima
+Y71[S20Y70_4]	modifierlink	
+Y72	preferred	Uređaji u otorinolaringologiji povezani sa neželjenim događajima
+Y72[S20Y70_4]	modifierlink	
+Y73	preferred	Uređaji u gastroenterologiji i urologiji povezani sa neželjenim događajima
+Y73[S20Y70_4]	modifierlink	
+Y74	preferred	Uređaji za opštu bolničku i ličnu upotrebu povezani sa neželjenim događajima
+Y74[S20Y70_4]	modifierlink	
+Y75	preferred	Uređaji u neurologiji povezani sa neželjenim događajima
+Y75[S20Y70_4]	modifierlink	
+Y76	preferred	Uređaji u akušerstvu i ginekologiji povezani sa neželjenim događajima
+Y76[S20Y70_4]	modifierlink	
+Y77	preferred	Uređaji u oftalmologiji povezani sa neželjenim događajima
+Y77[S20Y70_4]	modifierlink	
+Y78	preferred	Uređaji u radiologiji povezani sa neželjenim događajima
+Y78[S20Y70_4]	modifierlink	
+Y79	preferred	Uređaji u ortopediji povezani sa neželjenim događajima
+Y79[S20Y70_4]	modifierlink	
+Y80	preferred	Uređaji u fizikalnoj medicini povezani sa neželjenim događajima
+Y80[S20Y70_4]	modifierlink	
+Y81	preferred	Uređaji u opštoj i plastičnoj hirurgiji povezani sa neželjenim događajima
+Y81[S20Y70_4]	modifierlink	
+Y82	preferred	Drugi i neoznačeni medicinski uređaji povezani sa neželjenim događajima
+Y82[S20Y70_4]	modifierlink	
+Y83-Y84	preferred	Hirurški zahvat i druge medicinske procedure kao uzrok abnormalne reakcije bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja u toku postupka
+Y83-Y84	exclusion	Nezgode koje su se dogodile bolesnicima u toku hirurškog ili medicinskog postupka, klasifikovane u Y60-Y69
+Y83-Y84	exclusion	Neispravnost ili kvar medicinskog uređaja (tokom procedure) (nakon implantacije) (tekuće upotrebe) (Y70-Y82)
+Y83	preferred	Hirurški zahvat i druge hirurške procedure kao uzrok abnormalne reakcije bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja u toku procedure
+Y83.0	preferred	Hirurški zahvat sa transplatacijom kompletnog organa
+Y83.1	preferred	Hirurški zahvat sa implantacijom vještačkog unutrašnjeg uređaja
+Y83.2	preferred	Hirurški zahvat sa anastomozom, bajpasom ili graftom
+Y83.3	preferred	Hirurški zahvat sa formiranjem eksterne stome
+Y83.4	preferred	Drugi rekonstruktivni zahvat
+Y83.5	preferred	Amputacija ekstremiteta
+Y83.6	preferred	Uklanjanje drugih organa (djelimično) (potpuno)
+Y83.8	preferred	Druge hirurške procedure
+Y83.9	preferred	Hirurška procedura, neoznačena
+Y84	preferred	Druge medicinske procedure kao uzrok abnormalne reakcije bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja u toku procedure
+Y84.0	preferred	Kateterizacija srca
+Y84.1	preferred	Dijaliza bubrega
+Y84.2	preferred	Radiološka procedura i radioterapija
+Y84.3	preferred	Šok terapija
+Y84.4	preferred	Aspiracija tečnosti
+Y84.5	preferred	Uvlačenje gastrične ili duodenalne sonde
+Y84.6	preferred	Kateterizacija mokraćnih puteva
+Y84.7	preferred	Uzimanje krvi
+Y84.8	preferred	Druge medicinske procedure 
+Y84.9	preferred	Medicinska procedura, neoznačena
+Y85-Y89	preferred	Posledice spoljašnjih uzroka obolijevanja i umiranja
+Y85-Y89	note	Podgrupe Y85–Y89 treba koristiti da se prikažu okolnosti koje su uzrok smrti, oštećenja ili nesposobnosti nastalih zbog posljedica ili „poznih efekata”, koji su inače klasifikovani na drugim mjestima. Posljedice obuhvataju oboljenja koja se prijavljuju kao takva ili koja nastaju kao „pozni efekti” jednu godinu ili više od događaja koji ih je izazvao.
+Y85-Y89	coding-hint	Ne koristi se za hronična trovanja i štetna izlaganja. Koristi se za trenutno trovanje i štetno izlaganje.
+Y85	preferred	Posljedice saobraćajnih udesa
+Y85.0	preferred	Posljedice udesa sa motornim vozilom
+Y85.9	preferred	Posljedice drugih i neoznačenih saobraćajnih udesa
+Y86	preferred	Posljedice drugih udesa
+Y87	preferred	Posljedice namjernog samopovređivanja, napada i događaja neutvrđene namjere
+Y87.0	preferred	Posljedice namjernog samopovređivanja
+Y87.1	preferred	Posljedice napada
+Y87.2	preferred	Posljedice događaja neutvrđene namjere
+Y88	preferred	Posljedice hirurškog i medicinskog postupka kao spoljašnjeg uzroka
+Y88.0	preferred	Posljedice neželjenih efekata izazvanih drogama, ljekovima i biološkim supstancama korišćenim u liječenju
+Y88.1	preferred	Posljedice neželjenih događaja u toku hirurških i medicinskih procedura
+Y88.2	preferred	Posljedice neželjenih incidenata povezanih sa medicinskim uređajima koji se koriste u dijagnostičke i terapijske svrhe
+Y88.3	preferred	Posljedice hirurških i medicinskih procedura kao uzrok abnormalne reakcije bolesnika ili kasnije nastale komplikacije, bez pominjanja neželjenih događaja u toku procedure 
+Y89	preferred	Posljedice drugih spoljašnjih uzroka
+Y89.0	preferred	Posljedice zakonske intervencije
+Y89.1	preferred	Posljedice ratnih operacija
+Y89.9	preferred	Posljedice neoznačenog spoljašnjeg uzroka
+Y90-Y98	preferred	Dodatni faktori obolijevanja i umiranja, klasifikovani na drugom mjestu
+Y90-Y98	note	Ove podgrupe mogu da se koriste, ako se želi, za obezbjeđivanje dodatnih informacija o uzrocima obolijevanja i umiranja. Njih ne treba koristiti kao jedinu šifru za šifriranje oboljenja ili smrti.
+Y90	preferred	Podatak o uticaju alkohola određenog na osnovu koncetracije alkohola u krvi
+Y90.0	preferred	Koncentracija alkohola u krvi manja od 20 mg/100 ml
+Y90.1	preferred	Koncentracija alkohola u krvi od 20-39 mg/100 ml
+Y90.2	preferred	Koncentracija alkohola u krvi od 40-59 mg/100 ml
+Y90.3	preferred	Koncentracija alkohola u krvi od 60-79 mg/100 ml
+Y90.4	preferred	Koncentracija alkohola u krvi od 80-99 mg/100 ml
+Y90.5	preferred	Koncentracija alkohola u krvi od 100-119 mg/100 ml
+Y90.6	preferred	Koncentracija alkohola u krvi od 120-199 mg/100 ml
+Y90.7	preferred	Koncentracija alkohola u krvi od 200-239 mg/100 ml
+Y90.8	preferred	Koncentracija alkohola u krvi od 240 mg/100 ml ili veca
+Y90.9	preferred	Prisustvo alkohola u krvi, koncentracija nije označena
+Y91	preferred	Podatak o uticaju alkohola određen nivoom intoksikacije
+Y91	exclusion	Podatak o uticaju alkohola određen koncentracijom alkohola u krvi (Y90.-)
+Y91.0	preferred	Blaga intoksikacija alkoholom
+Y91.0	text	Dah sa mirisom na alkohol, lak poremećaj ponašanja u funkcijama i odgovorima ili lake teškoće u koordinaciji
+Y91.1	preferred	Umjerena intoksikacija alkoholom
+Y91.1	text	Dah sa mirisom na alkohol, umjeren poremećaj ponašanja u funkcijama i odgovorima ili umjerene teškoće u koordinaciji
+Y91.2	preferred	Teška intoksikacija alkoholom
+Y91.2	text	Težak poremećaj ponašanja u funkcijama i odgovorima ili oslabljena koordinacija pokreta, ili poremećaj u sposobnosti za saradnju
+Y91.3	preferred	Veoma teška intoksikacija alkoholom
+Y91.3	text	Veoma težak poremećaj ponašanja u funkcijama i odgovorima, velike teškoće u koordinaciji ili izgubljena mogućnost saradnje
+Y91.9	preferred	Uticaj alkohola, neoznačen
+Y91.9	inclusion	Sumnja na uticaj alkohola, neoznačena
+Y95	preferred	Bolnički uslovi
+Y96	preferred	Uslovi povezani sa radom
+Y97	preferred	Uslovi povezani sa zagađenjem spoljašnje sredine
+Y98	preferred	Uslovi povezani sa načinom života
