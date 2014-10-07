@@ -1,3 +1,19 @@
+Tools needed:
+  - git
+  - ruby, best to install with rvm
+  - gems installed as in lib/base.rb
+  - text editor, sublime recommended with ruby tools
+
+Files:
+
+- all relevant csv/xml files are in data folder
+- subfolder ijz in data is there just for initial join it can be discarded afterwards
+- lib contains common simple stuff in base.rb and some discarded code in snippetes.rb
+- root folder contains basic tools ruby files and
+  - join.rb (obsolete) - get data from multiple csv's and generate icd-me.csv and error and merge file, insert # for separation
+  - error file from some tools
+  - icd-merge file to be edited to correct errors
+
 Basic tools:
 
 - pull.rb (only one run) 
@@ -11,6 +27,8 @@ Basic tools:
 
     - get data from multiple csv's and generate icd-me.csv and error and merge file
     - inserts # for separation
+    - includes icd-o which will be ignored for time being
+    - if errors are detected error file is generated and merge file contains 
 
 - push.rb - get data form transalation file icd-me.csv and create into claml, might generate error file
 
