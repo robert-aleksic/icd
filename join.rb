@@ -108,7 +108,8 @@ File.open outfile, 'w' do |f|
       f.puts s.join("\t")
 
       if !( empty?(me) || (num == 0) )
-        s = [a[:num],k.to_s,a[:kind],a[:desc],num+1,eng,me]
+        # s = [a[:num],k.to_s,a[:kind],a[:desc],num+1,eng,me]
+        s = [a[:num],k.to_s,a[:kind],a[:desc],eng,me]
         m.puts s.join("\t")
       end
     end

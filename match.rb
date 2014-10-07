@@ -14,7 +14,8 @@ def csvread (filename, merge)
 
  
       if merge 
-        num, code, kind, desc, len, contenten, contentme = line.split("\t")
+        #num, code, kind, desc, len, contenten, contentme = line.split("\t")
+        num, code, kind, desc, contenten, contentme = line.split("\t")
       else
         num, code, kind, desc, contenten, contentme = line.split("\t")
       end
@@ -25,7 +26,8 @@ def csvread (filename, merge)
       contenten = clean(contenten)
       contentme = clean(contentme)
 
-      yield num, code, kind, desc, len, contenten, contentme
+      # yield num, code, kind, desc, len, contenten, contentme
+      yield num, code, kind, desc, contenten, contentme
 
     end
   end
@@ -76,7 +78,8 @@ end
 
 puts 'reading rubrics'
 rubrics = []
-csvread infile, false do |num, code, kind, desc, len, contenten, contentme|
+#csvread infile, false do |num, code, kind, desc, len, contenten, contentme|
+csvread infile, false do |num, code, kind, desc, contenten, contentme|
   rubrics[num.to_i] = {code: code, kind: kind, desc: desc, contenten: contenten, contentme:contentme}
 end
 
@@ -84,7 +87,8 @@ puts 'merging...'
 
 count = {}
 File.open tmpmergefile, 'w' do |f|
-  csvread mergefile, true do |num, code, kind, desc, len, contenten, contentme|
+  #csvread mergefile, true do |num, code, kind, desc, len, contenten, contentme|
+  csvread mergefile, true do |num, code, kind, desc, contenten, contentme|
     count[desc] ||= 0
     count[desc] += 1
     r = rubrics[num.to_i]
@@ -93,7 +97,8 @@ File.open tmpmergefile, 'w' do |f|
       count[desc] += -1
       r[:contentme] = m
     else
-      s = [num, code, kind, desc, len, contenten, contentme] 
+      # s = [num, code, kind, desc, len, contenten, contentme] 
+      s = [num, code, kind, desc, contenten, contentme] 
       f.puts s.join("\t")
     end
   end
