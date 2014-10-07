@@ -2,7 +2,7 @@
 
 require_relative 'lib/base'
 
-infile       = 'data/icd-me.csv'
+infile       = 'data/icd-en-me.csv'
 mergefile    = 'icd-merge.csv'
 
 

@@ -3,7 +3,7 @@
 require_relative 'lib/base'
 
 inxml  = 'data/icd-en.xml'
-incsv  = 'data/icd-me.csv'
+incsv  = 'data/icd-en-me.csv'
 outxml = 'data/icd-me.xml'
 errfile = 'error.txt'
 

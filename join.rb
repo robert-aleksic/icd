@@ -5,7 +5,7 @@ require_relative 'lib/base'
 foldercsv = 'data/ijz/csv/*.csv'
 infile    = 'data/icd-en.csv'
 inofile   = 'data/icd-o.csv'
-outfile   = 'data/icd-me.csv'
+outfile   = 'data/icd-en-me.csv'
 mergefile = 'icd-merge.csv'
 errfile   = 'errors.txt'
 
