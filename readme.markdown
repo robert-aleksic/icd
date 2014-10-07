@@ -5,26 +5,28 @@ Tools needed:
   - text editor, sublime recommended with ruby tools
 
 Files:
-
-- all relevant csv/xml files are in data folder
-- subfolder ijz in data is there just for initial join it can be discarded afterwards
+- data folder
+  * all relevant csv/xml files
+  * claml-simple is simplified dtd for reference and understanding claml format
+  * subfolder ijz contains initial csv's it can be discarded after using join.rb
 - lib contains common simple stuff in base.rb and some discarded code in snippetes.rb
-- root folder contains basic tools ruby files and
-  - join.rb (obsolete) - get data from multiple csv's and generate icd-me.csv and error and merge file, insert # for separation
-  - error file from some tools
-  - icd-merge file to be edited to correct errors
+- root folder 
+  * basic tools ruby files and
+  * error file from some tools most of the tools erase it when empty
+  * merge file (icd-merge.csv) to be edited to correct errors if editing full translation file is cumbersome
 
 Basic tools:
 
-- pull.rb (only one run) 
+- pull.rb  
 
-    * get data from claml and extract to language file icd-en.csv
+    * get data from english claml and extract to language file icd-en.csv might be modified to extract from icd-me.xls
     * inserts # as separator in rubrics texts
     * text kinds go to third column to describe separated texts
-    * each rubric gets one line and line number infront for further use
+    * each rubric gets one line with line number infront for further use
 
-- join.rb (obsolete) 
+- join.rb  
 
+    - uses icd-en.csv for english texts
     - get data from multiple csv's and generate icd-me.csv and error and merge file
     - inserts # for separation
     - includes icd-o which will be ignored for time being
