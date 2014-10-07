@@ -2,15 +2,15 @@ Basic tools:
 
 - pull.rb (only one run) 
 
-    get data from claml and extract to language file icd-en.csv
-    inserts # as separator in rubrics texts
-    text kinds go to third column to describe separated texts
-    each rubric gets one line and line number infront for further use
+    * get data from claml and extract to language file icd-en.csv
+    * inserts # as separator in rubrics texts
+    * text kinds go to third column to describe separated texts
+    * each rubric gets one line and line number infront for further use
 
 - join.rb (obsolete) 
 
-    get data from multiple csv's and generate icd-me.csv and error and merge file
-    inserts # for separation
+    - get data from multiple csv's and generate icd-me.csv and error and merge file
+    - inserts # for separation
 
 - push.rb - get data form transalation file icd-me.csv and create into claml, might generate error file
 
