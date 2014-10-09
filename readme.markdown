@@ -10,34 +10,34 @@ Files:
   * all relevant csv/xml files
   * claml-simple is simplified dtd for reference and understanding claml format
   * subfolder ijz contains initial csv's it can be discarded after using join.rb
-  * icd-en-me.csv is working translation file
 - lib contains common simple stuff in base.rb and some discarded code in snippetes.rb
 - root folder 
   * basic tools ruby files and
-  * error file from some tools most of the tools erase it when empty
   * merge file (icd-merge.csv) to be edited to correct errors if editing full translation file is cumbersome
-
+  * icd-merge.csv translation file errors extracted by *basicerror* and *merge*
+  
 Basic tools:
 
 - pull.rb  
-  * get data from english claml and extract to language file icd-en.csv might be modified to extract from icd-me.xls
+  * get data from english claml and extract to icd-en-me initial.csv
   * inserts # as separator in rubrics texts
   * text kinds go to third column to describe separated texts
   * each rubric gets one line with line number infront for further use
 
-- join.rb  
-  * uses icd-en.csv for english texts
-  *  get data from multiple csv's and generate icd-me.csv and error and merge file
-  * inserts # for separation
-  * includes icd-o which will be ignored for time being
-  * if errors are detected error file is generated and merge file contains 
-
-- match.rb 
-  * get data from merge file and incorporate valid ones in icd-me.csv, erase corrected from merge file
+- how to generate intial translation file? (maybe in pull)
 
 - push.rb 
-  * get data form translation file icd-me.csv and create icd-me.xml claml, 
-  * might generate error file
+  * get data form translation file and create icd-me.xml clam
+  * might generate error file with references to translation file
+  * no error.txt means that there are no errors
+
+- basicerrors.rb
+  * get data from translation file, check references, existing translations and # separation
+  * errors are going into merge file
+
+- merge.rb
+  * get data from merge, merge correct data into using basicerrors algorithm
+
 
 
 

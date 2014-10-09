@@ -9,22 +9,6 @@ errfile = 'error.txt'
 
 
 
-def csvread (filename)
-  File.readlines(filename).each do |line|
-    if line && !empty?(line)
-      num, code, kind, desc, contenten, contentme = line.split("\t")
-
-      num = num
-      code = clean(code)
-      kind = clean(kind)
-      contenten = clean(contenten)
-      contentme = clean(contentme)
-
-      yield num, code, kind, desc, contenten, contentme
-    end
-  end
-end
-
 def processrubric (pos, r, me)
 
   def processchild (pos,c)
@@ -35,10 +19,8 @@ def processrubric (pos, r, me)
           me = @me[@i]
           en = c.content          
           if c.parent.name == 'Reference'
-            #me = en if empty? me
-            #me = me[0..me.length-1] if me.length>1 && me.last==')'
-            if empty?(me) || ((en!=me) && (me.length<16))
-              err('csv', "#{pos}: #{en} vs. #{me}")
+            if empty?(me) || ((en!=me) && (me.length<16)) # no translation, references differ
+              err incsv, "reference mismatch @ #{pos} - #{en} vs. #{me}"
               me = '!!! '+(empty?(me) ? '' : me)
             end
           end
@@ -60,26 +42,22 @@ def processrubric (pos, r, me)
 
 end
 
-
-
-
 # empty error file
 @errf = File.open errfile,'w'
 
-
-puts 'reading csv'
+puts 'reading csv from '+incsv
 me = []
 csvread incsv do |num, code, kind, desc, contenten, contentme|
   me[num.to_i] = contentme
 end
 
-puts 'reading claml'
+puts 'reading claml from '+inxml
 xml = nil
 File.open inxml do |f| 
   xml = Nokogiri::XML f
 end
 
-puts 'substituting'
+puts 'substituting language'
 claml = xml.root
 i = 1
 claml.children.each do |c|
@@ -91,7 +69,7 @@ claml.children.each do |c|
   end
 end
 
-puts 'writing claml'
+puts 'writing claml '+out.xml
 File.open outxml, 'w' do |f|
   f.write xml
 end

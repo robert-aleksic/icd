@@ -2,7 +2,7 @@
 
 require_relative 'lib/base'
 
-language = 'en'
+language = 'en' 
 
 fileclaml = "data/icd-#{language}.xml"
 filecsv   = "data/icd-#{language}.csv"
@@ -56,14 +56,14 @@ def processrubric (rubrics, ref, code)
   
 end
 
-puts 'reading claml file'
+puts 'reading claml from '+fileclaml
 xml = nil
 File.open fileclaml do |f| 
   xml = Nokogiri::XML f
 end
 
+puts 'extracting rubrics... '
 rubrics = {}
-
 claml = xml.root
 claml.children.each do |c|
   case c.name 
@@ -79,13 +79,13 @@ claml.children.each do |c|
 end
 
 i = 1
-puts 'writing extracted rubrics'
+puts 'writing extracted rubrics into '+filecsv
 File.open filecsv, 'w' do |f|
   rubrics.each do |k,v|
     v.each do |a|
-      out = [i.to_s,k.to_s,a[:kind],a[:desc],a[:content]]
+      out = [i.to_s,k.to_s,a[:kind],a[:desc],a[:content],a[:content]]
       f.write out.join("\t")+"\n"
-      i = i+1
+      i += 1
     end
   end
 end
