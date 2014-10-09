@@ -14,6 +14,7 @@ Files:
 - root folder 
   * basic tools ruby files and
   * icd-merge.csv translation file errors extracted by *basicerror* and *merge*
+  * errors.txt if push wasn't perfect
   
 Basic tools:
 
