@@ -19,12 +19,10 @@ Files:
 Basic tools:
 
 - pull.rb  
-  * get data from english claml and extract to icd-en-me initial.csv
+  * get data from english claml and extract to icd-en-me initial.csv, initial file for translation
   * inserts # as separator in rubrics texts
   * text kinds go to third column to describe separated texts
   * each rubric gets one line with line number infront for further use
-
-- how to generate intial translation file? (maybe in pull)
 
 - push.rb 
   * get data form translation file and create icd-me.xml clam
@@ -39,9 +37,9 @@ Basic tools:
   * get data from merge, merge correct data into using basicerrors algorithm
 
 
-
-
 notes:
 - order in language file is important since merging will be based on order when you have consecutive incl/excl or simmilar
 - solve preffered/prefferedlong for pdf
 - translation of background texts / chapter / incl. / excl. / note: / and this chapter includes...
+- what to do with latin?
+- icd-o is added by obsolete join tool into translation file and not used for claml generation
