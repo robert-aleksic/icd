@@ -13,7 +13,6 @@ Files:
 - lib contains common simple stuff in base.rb and some discarded code in snippetes.rb
 - root folder 
   * basic tools ruby files and
-  * merge file (icd-merge.csv) to be edited to correct errors if editing full translation file is cumbersome
   * icd-merge.csv translation file errors extracted by *basicerror* and *merge*
   
 Basic tools:
@@ -25,7 +24,8 @@ Basic tools:
   * each rubric gets one line with line number infront for further use
 
 - push.rb 
-  * get data form translation file and create icd-me.xml clam
+  * get data form translation file and create icd-me.xml claml
+  * errorneus translations are included with !!! or . for fragments in resulting claml
   * might generate error file with references to translation file
   * no error.txt means that there are no errors
 
