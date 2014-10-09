@@ -9,13 +9,12 @@ Files:
 - data folder
   * all relevant csv/xml files
   * claml-simple is simplified dtd for reference and understanding claml format
-  * subfolder ijz contains initial csv's it can be discarded after using join.rb
 - lib contains common simple stuff in base.rb and some discarded code in snippetes.rb
 - root folder 
   * basic tools ruby files and
   * icd-merge.csv translation file errors extracted by *basicerror* and *merge*
   * errors.txt if push wasn't perfect
-  
+
 Basic tools:
 
 - pull.rb  
