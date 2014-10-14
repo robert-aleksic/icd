@@ -4,7 +4,7 @@ require_relative 'lib/base'
 
 infile       = 'data/icd-en-me.csv'
 tmpinfile    = 't1.csv'
-mergefile    = 'icd-merge.csv'
+mergefile    = 'icd-merge-1.csv'
 tmpmergefile = 't2.csv'
 
 
@@ -21,6 +21,7 @@ File.open tmpmergefile, 'w' do |f|
   csvread mergefile do |num, code, kind, desc, contenten, contentme|
     r = rubrics[num.to_i]
     
+    puts num
     errs = haveerrors r[:desc], r[:contenten], contentme
 
     if errs == ''
@@ -49,8 +50,8 @@ puts 'Distribution'
 puts count.to_a.sort_by{|e|-e[1]}.to_h
 puts "Total: #{count.to_a.map(&:last).inject(:+)}"
 
-#puts 'shufling files '
-#File.delete mergefile
-#File.rename tmpmergefile, mergefile
-#File.delete infile
-#File.rename tmpinfile, infile
+puts 'shufling files '
+File.delete mergefile
+File.rename tmpmergefile, mergefile
+File.delete infile
+File.rename tmpinfile, infile

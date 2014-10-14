@@ -8,7 +8,6 @@ outxml = 'data/icd-me.xml'
 errfile = 'error.txt'
 
 
-
 def processrubric (pos, r, me)
 
   def processchild (pos,c)
@@ -20,7 +19,7 @@ def processrubric (pos, r, me)
           en = c.content          
           if c.parent.name == 'Reference'
             if empty?(me) || ((en!=me) && (me.length<16)) # no translation, references differ
-              err incsv, "reference mismatch @ #{pos} - #{en} vs. #{me}"
+              err @infname, "reference mismatch @ #{pos} - #{en} vs. #{me}"
               me = '!!! '+(empty?(me) ? '' : me)
             end
           end
@@ -41,6 +40,8 @@ def processrubric (pos, r, me)
   end
 
 end
+
+@infname = incsv
 
 # empty error file
 @errf = File.open errfile,'w'
@@ -65,11 +66,12 @@ claml.children.each do |c|
     if ch.name == 'Rubric'
       processrubric(i, ch,me[i])
       i += 1
+      puts i if i % 1000 == 0
     end
   end
 end
 
-puts 'writing claml '+out.xml
+puts 'writing claml '+outxml
 File.open outxml, 'w' do |f|
   f.write xml
 end

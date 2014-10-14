@@ -20,3 +20,5 @@ File.open mergefile, 'w' do |m|
 
   end
 end
+
+File.delete(mergefile) if File.stat(mergefile).size == 0
