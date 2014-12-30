@@ -6319,8 +6319,8 @@
 6319	E72.5	inclusion	l	Non-ketotic hyperglycinaemia	Neketotična hiperglicinemija
 6320	E72.5	inclusion	l	Sarcosinaemia	Sarkozinemija
 6321	E72.8	preferred	l	Other specified disorders of amino-acid metabolism	Drugi označeni poremećaji metabolizma aminokisjelina
-6322	E72.8	inclusion	FF	Disorders of:#Beta-amino-acid metabolism	Poremećaji:#metabolizma Beta-aminokisjelina
-6323	E72.8	inclusion	FF	Disorders of:#Gamma-glutamyl cycle	Poremećaji:#ciklusa Gama-glutamila
+6322	E72.8	inclusion	FF	Disorders of:#Beta-amino-acid metabolism	Poremećaji:#metabolizma beta-aminokisjelina
+6323	E72.8	inclusion	FF	Disorders of:#Gamma-glutamyl cycle	Poremećaji:#ciklusa gama-glutamila
 6324	E72.9	preferred	l	Disorder of amino-acid metabolism, unspecified	Poremećaj metabolizma aminokisjelina, neoznačen
 6325	E73	preferred	l	Lactose intolerance	Intolerancija laktoze
 6326	E73.0	preferred	l	Congenital lactase deficiency	Urođeni nedostatak laktaze
@@ -6408,7 +6408,7 @@
 6408	E76.1	inclusion	l	Hunter syndrome	Hunterov sindrom
 6409	E76.2	preferred	l	Other mucopolysaccharidoses	Druge mukopolisaharidoze
 6410	E76.2	inclusion	l	Beta-glucuronidase deficiency	Nedostatak beta-glukuronidaze
-6411	E76.2	inclusion	l	Mucopolysaccharidosis, types III, IV, VI, VII	Mukopolisaharidoza, tipovi III, IV, VI, VII
+6411	E76.2	inclusion	l	Mucopolysaccharidosis, types III, IV, VI, VII	Mukopolisaharidoza, tipovi: III, IV, VI i VII
 6412	E76.2	inclusion	FF	Syndrome:#Maroteaux-Lamy (mild)(severe)	Sindrom:#Maroteaux-Lamy (blag)(težak)
 6413	E76.2	inclusion	FF	Syndrome:#Morquio(-like)(classic)	Sindrom:#Morquio(sličan)(klasičan)
 6414	E76.2	inclusion	FF	Syndrome:#Sanfilippo (type B)(type C)(type D)	Sindrom:#Sanfilippo (tip B)(tip C)(tip D)
@@ -10997,7 +10997,7 @@
 10997	I83.0	inclusion	l	Any condition in I83.9 with ulcer or specified as ulcerated	Bilo koje stanje u I83.9 sa ulkusom ili označeno kao ulcerisano
 10998	I83.0	inclusion	l	Varicose ulcer (lower extremity, any part)	Varikozni ulkus (donjeg ekstremiteta, bilo koji dio)
 10999	I83.1	preferred	l	Varicose veins of lower extremities with inflammation	Proširene vene donjih ekstremiteta sa zapaljenjem
-11000	I83.1	inclusion	l	Any condition in I83.9 with inflammation or specified as inflamed Stasis dermatitis NDO	Bilo koje stanje u I83.9 sa zapaljenjem ili označeno kao zapaljenski Stazni dermatitis NDO
+11000	I83.1	inclusion	l	Any condition in I83.9 with inflammation or specified as inflamed Stasis dermatitis NDO	Bilo koje stanje u I83.9 sa zapaljenjem ili označeno kao zapaljenski stazni dermatitis NDO
 11001	I83.2	preferred	l	Varicose veins of lower extremities with both ulcer and inflammation	Proširene vene donjih ekstremiteta sa ulkusom i zapaljenjem
 11002	I83.2	inclusion	l	Any condition in I83.9 with both ulcer and inflammation	Bilo koje stanje u I83.9 sa ulkusom i zapaljenjem
 11003	I83.9	preferred	l	Varicose veins of lower extremities without ulcer or inflammation	Proširene vene donjih ekstremiteta bez ulkusa ili zapaljenja
@@ -26166,7 +26166,7 @@
 26166	Y69	preferred	l	Unspecified misadventure during surgical and medical care	Neoznačena nezgoda u toku hirurškog i medicinskog postupka
 26167	Y70-Y82	preferred	l	Medical devices associated with adverse incidents in diagnostic and therapeutic use	Neželjeni događaji povezani sa medicinskim uređajima za dijagnostiku i liječenje
 26168	Y70-Y82	inclusion	l	breakdown or malfunctioning of medical device (during procedure)(after implantation)(ongoing use)	kvar ili neispravnost medicinskog uređaja (tokom procedure)(posle implantacije)(tekuće upotrebe)
-26169	Y70-Y82	exclusion	lR	misadventure to patients during surgical and medical care, classifiable to Y60-Y69#Y60-Y69	nezgoda koja se dogodila bolesnicima u toku hirurškog i medicinskog postupka, klasifikovane u Y60-Y69#Y60-Y69
+26169	Y70-Y82	exclusion	lR	misadventure to patients during surgical and medical care, classifiable to Y60-Y69#Y60-Y69	nezgoda koja se dogodila bolesnicima u toku hirurškog i medicinskog postupka, klasifikovane kao#Y60-Y69
 26170	Y70-Y82	exclusion	lR	later complications following use of medical devices without mention of breakdown or malfunctioning of medical device#Y83-Y84	kasne komplikacije poslije korišćenja medicinskih uređaja bez pominjanja kvara ili neispravnosti medicinskog uređaja#Y83-Y84
 26171	Y70	preferred	l	Anaesthesiology devices associated with adverse incidents	Uređaji u anesteziologiji povezani sa neželjenim događajima
 26172	Y70	modifierlink	R	[See before Y70 for subdivisions]	[Vidi podjele ispred šifre V70]
