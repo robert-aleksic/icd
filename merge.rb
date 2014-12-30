@@ -4,7 +4,7 @@ require_relative 'lib/base'
 
 infile       = 'data/icd-en-me.csv'
 tmpinfile    = 't1.csv'
-mergefile    = 'icd-merge-1.csv'
+mergefile    = 'icd-merge.csv'
 tmpmergefile = 't2.csv'
 
 
