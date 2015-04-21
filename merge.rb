@@ -50,8 +50,8 @@ puts 'Distribution'
 puts count.to_a.sort_by{|e|-e[1]}.to_h
 puts "Total: #{count.to_a.map(&:last).inject(:+)}"
 
-puts 'shufling files '
-File.delete mergefile
-File.rename tmpmergefile, mergefile
-File.delete infile
-File.rename tmpinfile, infile
+#puts 'shufling files '
+#File.delete mergefile
+#File.rename tmpmergefile, mergefile
+#File.delete infile
+#File.rename tmpinfile, infile

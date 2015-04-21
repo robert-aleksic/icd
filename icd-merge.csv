@@ -1,0 +1,39 @@
+817	A17.8	inclusion	FFFR	Tuberculoma#of#brain#G07	Tuberkulozni čvorić#mozga#G07	različita dužina
+818	A17.8	inclusion	FFFR	Tuberculoma#of#spinal cord#G07	Tuberkulozni čvorić#kičmene moždine#G07	različita dužina
+819	A17.8	inclusion	FFFR	Tuberculosis#of#brain#G07	Tuberkuloza#mozga#G07	različita dužina
+820	A17.8	inclusion	FFFR	Tuberculosis#of#spinal cord#G07	Tuberkuloza#kičmene moždine#G07	različita dužina
+5038	D51	preferred	lSl	Vitamin B#12# deficiency anaemia	Anemija zbog nedostatka vitamina B#12#	podela pomoću znaka #
+5039	D51	exclusion	lSlR	Vitamin B#12# deficiency#E53.8	Nedostatak vitamina B#12##E53.8	podela pomoću znaka #
+5051	D51.8	preferred	lSl	Other vitamin B#12# deficiency anaemias	Druge anemije zbog nedostatka vitamina B#12#	podela pomoću znaka #
+6131	E53	exclusion	lSlR	vitamin B#12# deficiency anaemia#D51.-	anemija zbog nedostatka vitamina B#12#D51.-	različita dužina
+6135	E53.1	inclusion	lSl	Vitamin B#6# deficiency	Nedostatak vitamina B#6#	podela pomoću znaka #
+7347	F51.2	inclusion	FFF	Psychogenic inversion of:#sleep#rhythm	Psihogena inverzija:#ritma spavanja	različita dužina
+8260	G32.0	exclusion	lSlR	Subacute combined degeneration of spinal cord in vitamin B#12# deficiency#E53.8	Subakutna kombinovana degeneracija kičmene moždine u nedostatku vitamina B#12#E53.8	različita dužina
+15927	N30-N39	exclusion	FFRRRl	urinary infection (complicating):#pregnancy, childbirth and the puerperium#O23.-#O75.3#O86.2#, ,	infekcija mokraćnog sistema (kao komplikacija):#trudnoće, porođaja i babinja#O23.-#O75.3#O86.2#	podela pomoću znaka #
+16677	XV	exclusion	lRlR	injury, poisoning and certain other consequences of external cause#S00-T88.1#, #T88.6-T98	povrede, trovanja i druge posljedice djelovanja spoljašnjeg uzroka#S00-T88.1,#T88.6-T98	različita dužina
+16860	O20-O29	exclusion	FFR	maternal:#care related to the fetus and amniotic cavity and possible delivery problems#O30-O48	briga o majci vezana za plod, amnionsku šupljinu i moguće porođajne probleme#O30-O48	različita dužina
+16861	O20-O29	exclusion	FFR	maternal:#diseases classifiable elsewhere but complicating pregnancy, labour and delivery, and the puerperium#O98-O99	bolesti majke klasifikovane na drugim mjestima koje komplikuju trudnoću, porođaj, rađanje i babinje#O98-O99	različita dužina
+22535	T14.3	inclusion	FFFF	Avulsion#of#joint (capsule)#NDO	Otkinuće#zgloba (kapsule)#NDO	različita dužina
+22536	T14.3	inclusion	FFFF	Avulsion#of#ligament#NDO	Otkinuće#ligamenta#NDO	različita dužina
+22537	T14.3	inclusion	FFFF	Laceration#of#joint (capsule)#NDO	Razderotina#zgloba (kapsule)#NDO	različita dužina
+22538	T14.3	inclusion	FFFF	Laceration#of#ligament#NDO	Razderotina#ligamenta#NDO	različita dužina
+22539	T14.3	inclusion	FFFF	Sprain#of#joint (capsule)#NDO	Uganuće#zgloba (kapsule)#NDO	različita dužina
+22540	T14.3	inclusion	FFFF	Sprain#of#ligament#NDO	Uganuće#ligamenta#NDO	različita dužina
+22541	T14.3	inclusion	FFFF	Strain#of#joint (capsule)#NDO	Istegnuće#zgloba (kapsule)#NDO	različita dužina
+22542	T14.3	inclusion	FFFF	Strain#of#ligament#NDO	Istegnuće#ligamenta#NDO	različita dužina
+23497	T62	exclusion	FFRRRl	allergic reaction to food, such as:#dermatitis#L23.6#L25.4#L27.2#, ,	alergijska reakcija na hranu, kao:#dermatitis#L23.6#L25.4#L27.2#	podela pomoću znaka #
+23796	T80.2	coding-hint	lRl	Use additional code #R57.2#, if desired, to identify septic shock	Ako želite da označite septički šok, koristite dodatnu šifru#R57.2#	podela pomoću znaka #
+23833	T81.1	coding-hint	lRl	Use additional code #R57.2#, if desired, to identify septic shock	Ako želite da označite septički šok, koristite dodatnu šifru#R57.2#	podela pomoću znaka #
+23846	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#catheter#during a procedure	Slučajna perforacija:#krvnog suda#kateterom#u toku procedure	različita dužina
+23847	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#endoscope#during a procedure	Slučajna perforacija:#krvnog suda#endoskopom#u toku procedure	različita dužina
+23848	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#instrument#during a procedure	Slučajna perforacija:#krvnog suda#instrumentom#u toku procedure	različita dužina
+23849	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#probe#during a procedure	Slučajna perforacija:#krvnog suda#sondom#u toku procedure	različita dužina
+23850	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#catheter#during a procedure	Slučajna perforacija:#nerva#kateterom#u toku procedure	različita dužina
+23851	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#endoscope#during a procedure	Slučajna perforacija:#nerva#endoskopom#u toku procedure	različita dužina
+23852	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#instrument#during a procedure	Slučajna perforacija:#nerva#instrumentom#u toku procedure	različita dužina
+23853	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#probe#during a procedure	Slučajna perforacija:#nerva#sondom#u toku procedure	različita dužina
+23854	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#catheter#during a procedure	Slučajna perforacija:#organa#kateterom#u toku procedure	različita dužina
+23855	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#endoscope#during a procedure	Slučajna perforacija:#organa#endoskopom#u toku procedure	različita dužina
+23856	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#instrument#during a procedure	Slučajna perforacija:#organa#instrumentom#u toku procedure	različita dužina
+23857	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#probe#during a procedure	Slučajna perforacija:#organa#sondom#u toku procedure	različita dužina
+27004	Z63	exclusion	lR	maltreatment syndromes#T74.-	0	različita dužina
