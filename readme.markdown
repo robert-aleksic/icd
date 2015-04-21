@@ -10,7 +10,7 @@ Files:
   * all relevant csv/xml files
   * claml-simple is simplified dtd for reference and understanding claml format
 - lib contains common simple stuff in base.rb and some discarded code in snippetes.rb
-- root folder 
+- root folder
   * basic tools ruby files and
   * icd-merge.csv translation file errors extracted by *basicerror* and *merge*
   * errors.txt if push wasn't perfect
@@ -23,7 +23,7 @@ Basic tools:
   * text kinds go to third column to describe separated texts
   * each rubric gets one line with line number infront for further use
 
-- push.rb 
+- push.rb
   * get data form translation file and create icd-me.xml claml
   * errorneus translations are included with !!! or . for fragments in resulting claml
   * might generate error file with references to translation file
