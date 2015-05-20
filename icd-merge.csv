@@ -1,0 +1,16 @@
+6131	E53	exclusion	lSlR	vitamin B#12# deficiency anaemia#D51.-	anemija zbog nedostatka vitamina B#12##D51.-	podela pomoću znaka #
+6135	E53.1	inclusion	lSl	Vitamin B#6# deficiency	Nedostatak vitamina B#6#	podela pomoću znaka #
+8260	G32.0	exclusion	lSlR	Subacute combined degeneration of spinal cord in vitamin B#12# deficiency#E53.8	Subakutna kombinovana degeneracija kičmene moždine u nedostatku vitamina B#12##E53.8	podela pomoću znaka #
+23833	T81.1	coding-hint	lRl	Use additional code #R57.2#, if desired, to identify septic shock	Ako želite da označite septički šok, koristite dodatnu šifru#R57.2#	podela pomoću znaka #
+23846	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#catheter#during a procedure	Slučajna perforacija:#krvnog suda##kateterom#u toku procedure	podela pomoću znaka #
+23847	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#endoscope#during a procedure	Slučajna perforacija:#krvnog suda##endoskopom#u toku procedure	podela pomoću znaka #
+23848	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#instrument#during a procedure	Slučajna perforacija:#krvnog suda##instrumentom#u toku procedure	podela pomoću znaka #
+23849	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#probe#during a procedure	Slučajna perforacija:#krvnog suda##sondom#u toku procedure	podela pomoću znaka #
+23850	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#catheter#during a procedure	Slučajna perforacija:#nerva##kateterom#u toku procedure	podela pomoću znaka #
+23851	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#endoscope#during a procedure	Slučajna perforacija:#nerva##endoskopom#u toku procedure	podela pomoću znaka #
+23852	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#instrument#during a procedure	Slučajna perforacija:#nerva##instrumentom#u toku procedure	podela pomoću znaka #
+23853	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#probe#during a procedure	Slučajna perforacija:#nerva##sondom#u toku procedure	podela pomoću znaka #
+23854	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#catheter#during a procedure	Slučajna perforacija:#organa##kateterom#u toku procedure	podela pomoću znaka #
+23855	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#endoscope#during a procedure	Slučajna perforacija:#organa##endoskopom#u toku procedure	podela pomoću znaka #
+23856	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#instrument#during a procedure	Slučajna perforacija:#organa##instrumentom#u toku procedure	podela pomoću znaka #
+23857	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#probe#during a procedure	Slučajna perforacija:#organa##sondom#u toku procedure	podela pomoću znaka #
