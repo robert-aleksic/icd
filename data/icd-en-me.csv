@@ -5035,8 +5035,8 @@
 5035	D50.1	inclusion	l	Plummer-Vinson syndrome	Plummer-Vinsonov sindrom
 5036	D50.8	preferred	l	Other iron deficiency anaemias	Druge anemije zbog nedostatka gvožđa
 5037	D50.9	preferred	l	Iron deficiency anaemia, unspecified	Anemija zbog nedostatka gvožđa, neoznačena
-5038	D51	preferred	lSl	Vitamin B#12# deficiency anaemia	Anemija zbog nedostatka vitamina B#12#:
-5039	D51	exclusion	lSlR	Vitamin B#12# deficiency#E53.8	Nedostatak vitamina B#12#:#E53.8
+5038	D51	preferred	lSl	Vitamin B#12# deficiency anaemia	Anemija zbog nedostatka vitamina B#12#.
+5039	D51	exclusion	lSlR	Vitamin B#12# deficiency#E53.8	Nedostatak vitamina B#12#.#E53.8
 5040	D51.0	preferred	lSl	Vitamin B#12# deficiency anaemia due to intrinsic factor deficiency	Anemija zbog nedostatka vitamina B#12# uzrokovana nedostatkom unutrašnjeg činioca
 5041	D51.0	inclusion	FF	Anaemia:#Addison	Anemija:#Addisonova
 5042	D51.0	inclusion	FF	Anaemia:#Biermer	Anemija:#Biermerova
@@ -5048,7 +5048,7 @@
 5048	D51.2	preferred	l	Transcobalamin II deficiency	Nedostatak transkobalamina II
 5049	D51.3	preferred	lSl	Other dietary vitamin B#12# deficiency anaemia	Druga anemija zbog nedostatka vitamina B#12# u ishrani
 5050	D51.3	inclusion	l	Vegan anaemia	Anemija kod strogih vegetarijanaca (vegana)
-5051	D51.8	preferred	lSl	Other vitamin B#12# deficiency anaemias	Druge anemije zbog nedostatka vitamina B#12#:
+5051	D51.8	preferred	lSl	Other vitamin B#12# deficiency anaemias	Druge anemije zbog nedostatka vitamina B#12#.
 5052	D51.9	preferred	lSl	Vitamin B#12# deficiency anaemia, unspecified	Anemija zbog nedostatka vitamina B#12#, neoznačena
 5053	D52	preferred	l	Folate deficiency anaemia	Anemija zbog nedostatka folata
 5054	D52.0	preferred	l	Dietary folate deficiency anaemia	Anemija zbog nedostatka folata u ishrani
@@ -5116,9 +5116,9 @@
 5116	D57.0	preferred	l	Sickle-cell anaemia with crisis	Anemija srpastih ćelija sa krizom
 5117	D57.0	inclusion	l	Hb-SS disease with crisis	Bolest Hb-SS sa krizom
 5118	D57.1	preferred	l	Sickle-cell anaemia without crisis	Anemija srpastih ćelija bez krize
-5119	D57.1	inclusion	FFF	Sickle-cell:#anaemia#NDO	Anemija:#srpastih ćelija#NDO
-5120	D57.1	inclusion	FFF	Sickle-cell:#disease#NDO	Bolest:#srpastih ćelija#NDO
-5121	D57.1	inclusion	FFF	Sickle-cell:#disorder#NDO	Poremećaj:#srpastih ćelija#NDO
+5119	D57.1	inclusion	FFF	Sickle-cell:#anaemia#NDO	Srpaste ćelije:#anemija#NDO
+5120	D57.1	inclusion	FFF	Sickle-cell:#disease#NDO	Srpaste ćelije:#bolest#NDO
+5121	D57.1	inclusion	FFF	Sickle-cell:#disorder#NDO	Srpaste ćelije:#poremećaj#NDO
 5122	D57.2	preferred	l	Double heterozygous sickling disorders	Dvostruki heterozigotni poremećaji sa srpastim eritrocitima i nepravilnim hemoglobinom
 5123	D57.2	inclusion	FF	Disease:#Hb-SC	Bolest sa:#hemoglobinom-SC
 5124	D57.2	inclusion	FF	Disease:#Hb-SD	Bolest sa:#hemoglobinom-SD
@@ -6128,11 +6128,11 @@
 6128	E52	exclusion	lR	sequelae of niacin deficiency#E64.8	posljedice nedostatka niacina#E64.8
 6129	E53	preferred	l	Deficiency of other B group vitamins	Nedostatak drugih vitamina grupe B
 6130	E53	exclusion	lR	sequelae of vitamin B deficiency#E64.8	posljedice nedostatka vitamina grupe B#E64.8
-6131	E53	exclusion	lSlR	vitamin B#12# deficiency anaemia#D51.-	anemija zbog nedostatka vitamina B#12#:#D51.-
+6131	E53	exclusion	lSlR	vitamin B#12# deficiency anaemia#D51.-	anemija zbog nedostatka vitamina B#12#.#D51.-
 6132	E53.0	preferred	l	Riboflavin deficiency	Nedostatak riboflavina
 6133	E53.0	inclusion	l	Ariboflavinosis	Ariboflavinoza
 6134	E53.1	preferred	l	Pyridoxine deficiency	Nedostatak piridoksina
-6135	E53.1	inclusion	lSl	Vitamin B#6# deficiency	Nedostatak vitamina B#6#:
+6135	E53.1	inclusion	lSl	Vitamin B#6# deficiency	Nedostatak vitamina B#6#.
 6136	E53.1	exclusion	lR	pyridoxine-responsive sideroblastic anaemia#D64.3	sideroblastna anemija koja se popravlja na terapiju piridoksinom#D64.3
 6137	E53.8	preferred	l	Deficiency of other specified B group vitamins	Nedostatak drugih označenih vitamina grupe B
 6138	E53.8	inclusion	FF	Deficiency:#biotin	Nedostatak:#biotina
@@ -6690,7 +6690,7 @@
 6690	F02.8	inclusion	FFR	Dementia (in):#systemic lupus erythematosus#M32.-	Demencija (u):#sistemskom eritematoznom lupusu#M32.-
 6691	F02.8	inclusion	FFRR	Dementia (in):#trypanosomiasis#B56.-#B57.-	Demencija (u):#tripanozomijazi#B56.-#B57.-
 6692	F02.8	inclusion	FFR	Dementia (in):#uraemia#N18.5	Demencija (u):#uremiji#N18.5
-6693	F02.8	inclusion	FFSFR	Dementia (in):#vitamin B#12# deficiency#E53.8	Demencija (u):#nedostatku#vitamina B#12#E53.8
+6693	F02.8	inclusion	FFSFR	Dementia (in):#vitamin B#12# deficiency#E53.8	Demencija (u):#nedostatku vitamina B#12#.#E53.8
 6694	F03	preferred	l	Unspecified dementia	Neoznačena demencija
 6695	F03	inclusion	FF	Presenile:#dementia NDO	Presenilna:#demencija NDO
 6696	F03	inclusion	FF	Presenile:#psychosis NDO	Presenilna:#psihoza NDO
@@ -7342,8 +7342,8 @@
 7342	F51.1	exclusion	lR	narcolepsy#G47.4	narkolepsija#G47.4
 7343	F51.2	preferred	l	Nonorganic disorder of the sleep-wake schedule	Neorganski poremećaj ritma spavanja
 7344	F51.2	definition	P	A lack of synchrony between the sleep-wake schedule and the desired sleep-wake schedule for the individual's environment, resulting in a complaint of either insomnia or hypersomnia.	Odsustvo sinhronizovanosti ritma spavanje budno stanje i želja za održavanjem uobičajenog ritma spavanje budno stanje u određenoj sredini koji dovodi do žalbi na nesanicu ili hipersomniju.
-7345	F51.2	inclusion	FFF	Psychogenic inversion of:#circadian#rhythm	Psihogena inverzija:#cirkadijalnog#ritma spavanja
-7346	F51.2	inclusion	FFF	Psychogenic inversion of:#nyctohemeral#rhythm	Psihogena inverzija:#niktohemeralnog#ritma spavanja
+7345	F51.2	inclusion	FFF	Psychogenic inversion of:#circadian#rhythm	Psihogena inverzija:#cirkadijalnog ritma#spavanja
+7346	F51.2	inclusion	FFF	Psychogenic inversion of:#nyctohemeral#rhythm	Psihogena inverzija:#niktohemeralnog ritma#spavanja
 7347	F51.2	inclusion	FFF	Psychogenic inversion of:#sleep#rhythm	Psihogena inverzija:#ritma#spavanja
 7348	F51.2	exclusion	lR	disorders of the sleep-wake schedule (organic)#G47.2	poremećaji obrasca spavanje budno stanje (organski)#G47.2
 7349	F51.3	preferred	l	Sleepwalking [somnambulism]	Mjesečarenje [somnambulizam]
@@ -8257,7 +8257,7 @@
 8257	G31.9	preferred	l	Degenerative disease of nervous system, unspecified	Degenerativna bolest nervnog sistema, neoznačena
 8258	G32	preferred	l	Other degenerative disorders of nervous system in diseases classified elsewhere	Drugi degenerativni poremećaji nervnog sistema u bolestima klasifikovanim na drugim mjestima
 8259	G32.0	preferred	l	Subacute combined degeneration of spinal cord in diseases classified elsewhere	Subakutna kombinovana degeneracija kičmene moždine u bolestima klasifikovanim na drugim mjestima
-8260	G32.0	exclusion	lSlR	Subacute combined degeneration of spinal cord in vitamin B#12# deficiency#E53.8	Subakutna kombinovana degeneracija kičmene moždine u nedostatku vitamina B#12#:#E53.8
+8260	G32.0	exclusion	lSlR	Subacute combined degeneration of spinal cord in vitamin B#12# deficiency#E53.8	Subakutna kombinovana degeneracija kičmene moždine u nedostatku vitamina B#12#.#E53.8
 8261	G32.8	preferred	l	Other specified degenerative disorders of nervous system in diseases classified elsewhere	Drugi označeni degenerativni poremećaji nervnog sistema u bolestima klasifikovanim na drugim mjestima
 8262	G35-G37	preferred	l	Demyelinating diseases of the central nervous system	Demijelinizujuće bolesti centralnog nervnog sistema
 8263	G35	preferred	l	Multiple sclerosis	Multipla skleroza
@@ -10997,7 +10997,7 @@
 10997	I83.0	inclusion	l	Any condition in I83.9 with ulcer or specified as ulcerated	Bilo koje stanje klasifikovano kao I83.9 sa ulkusom ili označeno kao ulcerisano
 10998	I83.0	inclusion	l	Varicose ulcer (lower extremity, any part)	Varikozni ulkus (donjeg ekstremiteta, bilo koji dio)
 10999	I83.1	preferred	l	Varicose veins of lower extremities with inflammation	Proširene vene donjih ekstremiteta sa zapaljenjem
-11000	I83.1	inclusion	l	Any condition in I83.9 with inflammation or specified as inflamed Stasis dermatitis NDO	Bilo koje stanje klasifikovano kao I83.9 sa zapaljenjem ili označeno kao zapaljenjsko Zastojni dermatitis NDO
+11000	I83.1	inclusion	l	Any condition in I83.9 with inflammation or specified as inflamed Stasis dermatitis NDO	Bilo koje stanje klasifikovano kao I83.9 sa zapaljenjem ili označeno kao zapaljenjsko, Zastojni dermatitis NDO
 11001	I83.2	preferred	l	Varicose veins of lower extremities with both ulcer and inflammation	Proširene vene donjih ekstremiteta sa ulkusom i zapaljenjem
 11002	I83.2	inclusion	l	Any condition in I83.9 with both ulcer and inflammation	Bilo koje stanje klasifikovano kao I83.9 sa ulkusom i zapaljenjem
 11003	I83.9	preferred	l	Varicose veins of lower extremities without ulcer or inflammation	Proširene vene donjih ekstremiteta bez ulkusa ili zapaljenja
@@ -21025,9 +21025,9 @@
 21025	XIX	exclusion	lR	pathological fracture#M84.4	patološki prelom#M84.4
 21026	XIX	exclusion	lR	pathological fracture with osteoporosis#M80.-	patološki prelom sa osteoporozom#M80.-
 21027	XIX	exclusion	lR	stress fracture#M84.3	stres prelom#M84.3
-21028	XIX	introduction	PPPPSPPPPPPSPPPPPPPSPPPPPPPPPPPPPPPPP	The chapter uses the S-section for coding different types of injuries related to single body regions and the T-section to cover injuries to multiple or unspecified body regions as well as poisoning and certain other consequences of external causes.#Where multiple sites of injury are specified in the titles, the word "with" indicates involvement of both sites, and the word "and" indicates involvement of either or both sites.#The principle of multiple coding of injuries should be followed wherever possible. Combination categories for multiple injuries are provided for use when there is insufficient detail as to the nature of the individual conditions, or for primary tabulation purposes when it is more convenient to record a single code; otherwise, the component injuries should be coded separately. Reference should also be made to the morbidity or mortality coding rules and guidelines in Volume 2.#The blocks of the S-section as well as T00-T14 and T90-T98 contain injuries at the three-character level classified by type as follows:#Superficial injury #including: #abrasion#blister (nonthermal)#contusion, including bruise and haematoma#injury from superficial foreign body (splinter) without major open wound#insect bite (nonvenomous)#Open wound# including: #animal bite#cut#laceration#puncture wound:#NDO#with (penetrating) foreign body#Fracture # including: #Fracture:#closed:#compound#infected#missile#fissured#greenstick#impacted#linear#march#simple#slipped epiphysis#spiral#with or without delayed healing#dislocated#displaced	Ovo poglavlje koristi podgrupu S za šifriranje različitih tipova povreda povezanih sa jednim dijelom tijela i podgrupu T za višestruke povrede ili povrede neoznačenih djelova tijela, kao i za trovanje i određene druge posljedice spoljašnih uzroka.#U označavanju višestrukih lokalizacija povrede riječ „sa” označava obuhvaćenost obje lokalizacije, a riječ „i” jednu od pomenute dvije ili obje lokalizacije.#Princip mnogostrukog šifriranja povreda trebalo bi primijeniti gdje god je moguće. Kombinovane kategorije za višestruke povrede primijeniće se u slučajevima kada nema dovoljno detalja o stanjima pojedinca ili za primarno šifriranje kada je pogodnije da se dodijeli jedna šifra; inače složene povrede treba posebno šifrirati. Treba, takođe, razmotriti pravila i uputstva za šifriranje obolijevanja i smrtnosti u Knjizi 2.#Podgrupe S, a takođe i T00-T14 i T90-T98 sadrže povrede klasifikovane sa tri cifre po sljedećem tipu:#Površinska povreda #uključuje:#razderotinu#plih (koji nije izazvan toplotom)#nagnječenje koje uključuje modricu i hematom#površinsku povredu izazvanu stranim tijelom (fragmentom) bez velike otvorene rane#ujed insekta (neotrovnog)#Otvorena rana#uključuje: #ujed životinje#posjekotinu#razderotinu#ubodnu ranu:#NDO#sa (penetrirajućim) stranim tijelom#Prelom # uključuje: #Prelom:#zatvoreni:#složeni#inficirani#izazvan projektilom#fisura (naprsnuće)#prelom tipa "zelene grane"#impaktiran#linearni#prelom zbog marša#prosti#dislokacija epifize#spiralni#sa ili bez zakašnjelog oporavka#dislocirani#izmješteni
-21029	XIX	introduction	PPPPPPPPSPPRPRPRPRPRSPPPPPPPPPPPPPPSPPPPPPPPPSPPPPPPPPP	Fracture:#open:#compound#infected#missile#puncture#with foreign body#with or without delayed healing#Excl.:#fracture:#- pathological#M84.4#-- with osteoporosis#M80.-#- stress#M84.3#malunion of fracture#M84.0#nonunion of fracture#M84.1#Dislocation, sprain and strain# including:#avulsion#laceration#sprain#strain#traumatic:#haemarthrosis#rupture#subluxation#tear#of#cartilage#joint (capsule)#ligament#Injury to nerves and spinal cord #including:#complete or incomplete lesion of spinal cord#lesion in continuity of nerves and spinal cord#traumatic:#division of nerve#haematomyelia#paralysis(transient)#paraplegia#quadriplegia#Injury to blood vessels #including:#avulsion#cut#laceration#traumatic:#aneurysm or fistula (arteriovenous)#arterial haematoma#rupture#of blood vessels	Prelom:#otvoreni:#složeni#inficirani#izazvan projektilom#sa ubodom#sa stranim tijelom#sa ili bez zakašnjelog oporavka#Isklj.:#prelom:#- patološki#M84.4#-- sa osteoporozom#M80.-#- stres prelom#M84.3#loše zarastanje preloma#M84.0#nezarastanje preloma#M84.1#Iščašenje, uganuće i istegnuće#uključuje:#otkinuće#razderotinu#uganuće#istegnuće#traumatsko(-a,i):#krvarenje u zglobu#rupturu#subluksaciju#rascjep#:#hrskavice#zgloba (kapsule)#ligamenta#Povreda živaca i kičmene moždine#uključuje:#potpunu ili nepotpunu leziju kičmene moždine#leziju kontinuiteta živaca i kičmene moždine#traumatsko(-a):#razdvajanje živca#krvarenje u kičmenoj moždini#paralizu (prolaznu)#paraplegija#kvadriplegija#Povreda krvnih sudova#uključuje:#otkinuće#posjekotinu#razderotinu#traumatsku(-i):#aneurizmu ili fistulu (arterio-vensku)#arterijski hematom#rupturu#krvnih sudova različita dužina
-21030	XIX	introduction	SPPPPPPP	Injury to muscle, fascia and tendon# including:#avulsion#cut#laceration#traumatic rupture#strain#of muscle, fascia and tendon	Povreda mišića, fascije i tetive#uključuje:#otkinuće#posjekotinu#razderotinu#traumatsku rupturu#istegnuće#mišića, fascije i tetive
+21028	XIX	introduction	PPPPSPPPPPPSPPPPPPPSPPPPPPPPPPPPPPPPP	The chapter uses the S-section for coding different types of injuries related to single body regions and the T-section to cover injuries to multiple or unspecified body regions as well as poisoning and certain other consequences of external causes.#Where multiple sites of injury are specified in the titles, the word "with" indicates involvement of both sites, and the word "and" indicates involvement of either or both sites.#The principle of multiple coding of injuries should be followed wherever possible. Combination categories for multiple injuries are provided for use when there is insufficient detail as to the nature of the individual conditions, or for primary tabulation purposes when it is more convenient to record a single code; otherwise, the component injuries should be coded separately. Reference should also be made to the morbidity or mortality coding rules and guidelines in Volume 2.#The blocks of the S-section as well as T00-T14 and T90-T98 contain injuries at the three-character level classified by type as follows:#Superficial injury #including: #abrasion#blister (nonthermal)#contusion, including bruise and haematoma#injury from superficial foreign body (splinter) without major open wound#insect bite (nonvenomous)#Open wound# including: #animal bite#cut#laceration#puncture wound:#NDO#with (penetrating) foreign body#Fracture # including: #Fracture:#closed:#compound#infected#missile#fissured#greenstick#impacted#linear#march#simple#slipped epiphysis#spiral#with or without delayed healing#dislocated#displaced	Ovo poglavlje koristi podgrupu S za šifriranje različitih tipova povreda povezanih sa jednim dijelom tijela i podgrupu T za višestruke povrede ili povrede neoznačenih djelova tijela, kao i za trovanje i određene druge posljedice spoljašnih uzroka.#U označavanju višestrukih lokalizacija povrede riječ „sa” označava obuhvaćenost obje lokalizacije, a riječ „i” jednu od pomenute dvije ili obje lokalizacije.#Princip mnogostrukog šifriranja povreda trebalo bi primijeniti gdje god je moguće. Kombinovane kategorije za višestruke povrede primijeniće se u slučajevima kada nema dovoljno detalja o stanjima pojedinca ili za primarno šifriranje kada je pogodnije da se dodijeli jedna šifra; inače složene povrede treba posebno šifrirati. Treba, takođe, razmotriti pravila i uputstva za šifriranje obolijevanja i smrtnosti u Knjizi 2.#Podgrupe S, a takođe i T00-T14 i T90-T98 sadrže povrede klasifikovane sa tri cifre po sljedećem tipu:#Površinska povreda #uključuje:#razderotinu#plih (koji nije izazvan toplotom)#nagnječenje koje uključuje modricu i hematom#površinsku povredu izazvanu stranim tijelom (fragmentom) bez velike otvorene rane#ujed insekta (neotrovnog)#Otvorena rana# uključuje: #ujed životinje#posjekotinu#razderotinu#ubodnu ranu:#NDO#sa (penetrirajućim) stranim tijelom#Prelom # uključuje: #Prelom:#zatvoreni:#složeni#inficirani#izazvan projektilom#fisura (naprsnuće)#prelom tipa "zelene grane"#impaktiran#linearni#prelom zbog marša#prosti#dislokacija epifize#spiralni#sa ili bez zakašnjelog oporavka#dislocirani#izmješteni
+21029	XIX	introduction	PPPPPPPPSPPRPRPRPRPRSPPPPPPPPPPPPPPSPPPPPPPPPSPPPPPPPPP	Fracture:#open:#compound#infected#missile#puncture#with foreign body#with or without delayed healing#Excl.:#fracture:#- pathological#M84.4#-- with osteoporosis#M80.-#- stress#M84.3#malunion of fracture#M84.0#nonunion of fracture#M84.1#Dislocation, sprain and strain# including:#avulsion#laceration#sprain#strain#traumatic:#haemarthrosis#rupture#subluxation#tear#of#cartilage#joint (capsule)#ligament#Injury to nerves and spinal cord #including:#complete or incomplete lesion of spinal cord#lesion in continuity of nerves and spinal cord#traumatic:#division of nerve#haematomyelia#paralysis(transient)#paraplegia#quadriplegia#Injury to blood vessels #including:#avulsion#cut#laceration#traumatic:#aneurysm or fistula (arteriovenous)#arterial haematoma#rupture#of blood vessels	Prelom:#otvoreni:#složeni#inficirani#izazvan projektilom#sa ubodom#sa stranim tijelom#sa ili bez zakašnjelog oporavka#Isklj.:#prelom:#- patološki#M84.4#-- sa osteoporozom#M80.-#- stres prelom#M84.3#loše zarastanje preloma#M84.0#nezarastanje preloma#M84.1#Iščašenje, uganuće i istegnuće# uključuje:#otkinuće#razderotinu#uganuće#istegnuće#traumatsko(-a,i):#krvarenje u zglobu#rupturu#subluksaciju#rascjep#:#hrskavice#zgloba (kapsule)#ligamenta#Povreda živaca i kičmene moždine# uključuje:#potpunu ili nepotpunu leziju kičmene moždine#leziju kontinuiteta živaca i kičmene moždine#traumatsko(-a):#razdvajanje živca#krvarenje u kičmenoj moždini#paralizu (prolaznu)#paraplegija#kvadriplegija#Povreda krvnih sudova# uključuje:#otkinuće#posjekotinu#razderotinu#traumatsku(-i):#aneurizmu ili fistulu (arterio-vensku)#arterijski hematom#rupturu#krvnih sudova različita dužina
+21030	XIX	introduction	SPPPPPPP	Injury to muscle, fascia and tendon# including:#avulsion#cut#laceration#traumatic rupture#strain#of muscle, fascia and tendon	Povreda mišića, fascije i tetive# uključuje:#otkinuće#posjekotinu#razderotinu#traumatsku rupturu#istegnuće#mišića, fascije i tetive
 21031	XIX	introduction	SSSPPPPPPPPPPPPS	Crushing injury#Traumatic amputation#Injury to internal organs# including:#blast injuries#bruise#concussion injuries#crushing#laceration#traumatic:#haematoma#puncture#rupture#tear#of internal organs#Other and unspecified injuries	Traumatsko zdrobljavanje#Traumatska amputacija#Povreda unutrašnjih organa# uključuje:#blast povrede#modricu#nagnječenje povrede#zdrobljavanje#razderotina#traumatski(-a,o):#hematom#ubod#ruptura#cijepanje#unutrašnjih organa#Druge i neoznačene povrede
 21032	S00-S09	preferred	l	Injuries to the head	Povrede glave
 21033	S00-S09	inclusion	FF	injuries of:#ear	povrede:#uha
@@ -23830,7 +23830,7 @@
 23830	T81.0	exclusion	lR	haematoma of obstetric wound#O90.2	hematom porođajne rane#O90.2
 23831	T81.0	exclusion	lRRRR	haemorrhage due to prosthetic devices, implants and grafts#T82.8#T83.8#T84.8#T85.8	krvarenje zbog proteza, implantata i graftova#T82.8#T83.8#T84.8#T85.8
 23832	T81.1	preferred	l	Shock during or resulting from a procedure, not elsewhere classified	Šok za vrijeme ili poslije procedure, neklasifikovan na drugom mjestu
-23833	T81.1	coding-hint	lRl	Use additional code #R57.2#, if desired, to identify septic shock	Ako želite da označite septički šok, koristite dodatnu šifru#R57.2#:
+23833	T81.1	coding-hint	lRl	Use additional code #R57.2#, if desired, to identify septic shock	Ako želite da označite septički šok, koristite dodatnu šifru#R57.2#.
 23834	T81.1	inclusion	FF	Collapse NDO#during or following a procedure	Kolaps NDO#u toku ili poslije procedure
 23835	T81.1	inclusion	FF	Shock (endotoxic)(hypovolaemic)#during or following a procedure	Šok (endotoksički)(hipovolemijski)#u toku ili poslije procedure
 23836	T81.1	inclusion	l	Postoperative shock NDO	Postoperativni šok NDO
@@ -23843,18 +23843,18 @@
 23843	T81.1	exclusion	FFR	shock:#obstetric#O75.1	šok:#u toku porođaja#O75.1
 23844	T81.1	exclusion	FFR	shock:#traumatic#T79.4	šok:#uzrokovan povredom#T79.4
 23845	T81.2	preferred	l	Accidental puncture and laceration during a procedure, not elsewhere classified	Slučajni ubod i razderotina u toku procedure, neklasifikovana na drugom mjestu
-23846	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#catheter#during a procedure	Slučajna perforacija:#krvnog suda#:#kateterom#u toku procedure
-23847	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#endoscope#during a procedure	Slučajna perforacija:#krvnog suda#:#endoskopom#u toku procedure
-23848	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#instrument#during a procedure	Slučajna perforacija:#krvnog suda#:#instrumentom#u toku procedure
-23849	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#probe#during a procedure	Slučajna perforacija:#krvnog suda#:#sondom#u toku procedure
-23850	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#catheter#during a procedure	Slučajna perforacija:#nerva#:#kateterom#u toku procedure
-23851	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#endoscope#during a procedure	Slučajna perforacija:#nerva#:#endoskopom#u toku procedure
-23852	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#instrument#during a procedure	Slučajna perforacija:#nerva#:#instrumentom#u toku procedure
-23853	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#probe#during a procedure	Slučajna perforacija:#nerva#:#sondom#u toku procedure
-23854	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#catheter#during a procedure	Slučajna perforacija:#organa#:#kateterom#u toku procedure
-23855	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#endoscope#during a procedure	Slučajna perforacija:#organa#:#endoskopom#u toku procedure
-23856	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#instrument#during a procedure	Slučajna perforacija:#organa#:#instrumentom#u toku procedure
-23857	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#probe#during a procedure	Slučajna perforacija:#organa#:#sondom#u toku procedure
+23846	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#catheter#during a procedure	Slučajna perforacija:#krvnog suda#izazvana#kateterom#u toku procedure
+23847	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#endoscope#during a procedure	Slučajna perforacija:#krvnog suda#izazvana#endoskopom#u toku procedure
+23848	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#instrument#during a procedure	Slučajna perforacija:#krvnog suda#izazvana#instrumentom#u toku procedure
+23849	T81.2	inclusion	FFFFF	Accidental perforation of:#blood vessel#by#probe#during a procedure	Slučajna perforacija:#krvnog suda#izazvana#sondom#u toku procedure
+23850	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#catheter#during a procedure	Slučajna perforacija:#nerva#izazvana#kateterom#u toku procedure
+23851	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#endoscope#during a procedure	Slučajna perforacija:#nerva#izazvana#endoskopom#u toku procedure
+23852	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#instrument#during a procedure	Slučajna perforacija:#nerva#izazvana#instrumentom#u toku procedure
+23853	T81.2	inclusion	FFFFF	Accidental perforation of:#nerve#by#probe#during a procedure	Slučajna perforacija:#nerva#izazvana#sondom#u toku procedure
+23854	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#catheter#during a procedure	Slučajna perforacija:#organa#izazvana#kateterom#u toku procedure
+23855	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#endoscope#during a procedure	Slučajna perforacija:#organa#izazvana#endoskopom#u toku procedure
+23856	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#instrument#during a procedure	Slučajna perforacija:#organa#izazvana#instrumentom#u toku procedure
+23857	T81.2	inclusion	FFFFF	Accidental perforation of:#organ#by#probe#during a procedure	Slučajna perforacija:#organa#izazvana#sondom#u toku procedure
 23858	T81.2	exclusion	lR	damage from instruments during delivery#O70-O71	povreda instrumentom za vrijeme porođaja#O70-O71
 23859	T81.2	exclusion	lR	perforation, puncture or laceration caused by device or implant intentionally left in operation wound#T82-T85	perforacija, ubod ili razderotina uzrokovana uređajem ili implantom namjerno ostavljenim u operativnoj rani#T82-T85
 23860	T81.2	exclusion	lR	specified complications classified elsewhere, such as broad ligament laceration syndrome [Allen-Masters]#N83.8	označene komplikacije klasifikovane na drugom mjestu, kao sindrom razderotine širokog ligamenta [Allen-Masters]#N83.8
