@@ -27,31 +27,58 @@ chapters = []
 blocks = {}
 items = {}
 claml.children.each do |c|
+  
+  code = c[:code]
   if c.name == 'Class' 
     case c[:kind] 
       when 'chapter'
-        chapter = {num: c[:code], name: pref(c), sub:[]}
+        chapter = {num: code, name: pref(c), sub:[]}
         c.children.each do |ch| 
           if ch.name == 'SubClass'
             chapter[:sub] << ch[:code]
             blocks[ch[:code]] = {}
           end
         end 
+        
         chapters << chapter
 
       when 'block'
-        if blocks[c[:code]]
-          blocks[c[:code]] = {name:pref(c) , els:[]}
+        if blocks[code]
+          blocks[code] = {name:pref(c) , els:[]}
+          arr = []
           c.children.each do |ch| 
             if ch.name == 'SubClass'
-              blocks[c[:code]][:els] << ch[:code]
-              items[ch[:code]] = {}
+              if !ch[:code].include?('-') 
+                blocks[code][:els] << ch[:code]
+                items[ch[:code]] = {}
+              else
+                arr << ch[:code]
+                blocks[ch[:code]] = {}
+              end
             end
+          end
+          if arr!=[]
+            case code[0]
+              when 'C'
+                chp = 1
+              when 'M' 
+                chp = 12
+              when 'T' 
+                chp = 18
+              when 'V', 'W', 'Y'
+                chp = 19
+            end
+            pos = chapters[chp][:sub].index(code)
+            #puts "chp: #{chp}, arr: #{arr}, code: #{code}, pos: #{pos}, chapter: #{chapters[chp][:sub]}" if chp==1
+            chapters[chp][:sub].insert(pos+1,arr).flatten!
           end  
         end
 
       when 'category'
-        items[c[:code]] = {name:pref(c)} if items[c[:code]]
+        if items[code]
+          dagger = ( c[:usage] == 'dagger') ? '†' : '' 
+          items[code] = {name:pref(c), dag: dagger} 
+        end
       else
     end
   end
@@ -70,7 +97,10 @@ File.open outtxt, 'w' do |f|
       f.puts "  #{blocks[s][:name]} (#{s})"
       f.puts
       blocks[s][:els].each do |i|
-        f.puts "  #{i} #{items[i][:name]}"
+        if items[i] 
+          #puts i,items[i]
+          f.puts "  #{i+items[i][:dag]}\t#{items[i][:name]}"
+        end
       end
       f.puts
     end
