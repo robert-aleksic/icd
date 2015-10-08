@@ -37,6 +37,10 @@ Basic tools:
   * get data from merge, merge correct data into using basicerrors algorithm
 
 
+- summary.rb
+  * get data from icd-me.xml
+  * generate summary.txt
+
 notes:
 - order in language file is important since merging will be based on order when you have consecutive incl/excl or simmilar
 - solve preffered/prefferedlong for pdf
