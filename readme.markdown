@@ -18,10 +18,10 @@ Files:
 Basic tools:
 
 - pull.rb  
-  * get data from english claml and extract to icd-en-me initial.csv, initial file for translation
+  * get data from english claml and extract to icd-en initial.csv, initial file for translation
   * inserts # as separator in rubrics texts
   * text kinds go to third column to describe separated texts
-  * each rubric gets one line with line number infront for further use
+  * each rubric gets one line with line number in front for further use
 
 - push.rb
   * get data form translation file and create icd-me.xml claml
