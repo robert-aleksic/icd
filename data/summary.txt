@@ -106,15 +106,14 @@ Određene zarazne i parazitarne bolesti
   A88	Druge virusne infekcije centralnog nervnog sistema, neklasifikovane na drugom mjestu
   A89	Virusna infekcija centralnog nervnog sistema, neoznačena
 
-  Virusne groznice koje prenose zglavkari i virusne hemoragijske groznice (A90-A99)
+  Virusne groznice koje prenose zglavkari i virusne hemoragijske groznice (A92-A99)
 
-  A90	Denga groznica [klasična denga]
-  A91	Hemoragijska denga groznica
   A92	Druge virusne groznice koje prenose komarci
   A93	Druge virusne groznice koju prenose zglavkari, neklasifikovane na drugom mjestu
   A94	Virusna groznica koju prenose zglavkari, neoznačena
   A95	Žuta groznica
   A96	Arenavirusna hemoragijska groznica
+  A97	!!!
   A98	Druge virusne hemoragijske groznice, neklasifikovane na drugom mjestu
   A99	Hemoragijska virusna groznica, neoznačena
 
@@ -289,7 +288,7 @@ Neoplazme
   C34	Maligna neoplazma bronha (dušnice) i pluća
   C37	Maligna neoplazma timusa (grudne žlijezde)
   C38	Maligna neoplazma srca, medijastinuma (sredogruđa) i pleure (plućne maramice)
-  C39	Maligna neoplazma drugih i nedovoljno definisanih lokalizacija unutar sistema organa za disanje i intratorakalnih organa
+  C39	Maligna neoplazma drugih i nedovoljno definisanih lokalizacija u sistemu organa za disanje i intratorakalnih organa
 
   Maligne neoplazme kosti i zglobne hrskavice (C40-C41)
 
@@ -404,7 +403,7 @@ Neoplazme
   D16	Benigna neoplazma kosti i zglobne hrskavice
   D17	Benigna neoplazma masnog tkiva
   D18	Hemangiom (neoplazma krvnih sudova) i limfangiom (neoplazma limfnih sudova), bilo koje lokalizacije
-  D19	Benigna neoplazma mezotelnog tkiva
+  D19	Benigna neoplazma mezotelijalnog tkiva
   D20	Benigna neoplazma mekog tkiva retroperitoneuma i peritoneuma (prostora iza trbušne maramice i trbušne maramice)
   D21	Druge benigne neoplazme vezivnog i drugog mekog tkiva
   D22	Melanocitni nevusi (mladeži)
@@ -511,8 +510,8 @@ Endokrine, nutritivne i metaboličke bolesti
 
   Diabetes mellitus (šećerna bolest) (E10-E14)
 
-  E10	Šećerna bolest, insulin zavisan oblik
-  E11	Šećerna bolest, insulin nezavisan oblik
+  E10	!!!
+  E11	!!!
   E12	Šećerna bolest povezana sa pothranjenošću (malnutricijska)
   E13	Druga označena šećerna bolest
   E14	Neoznačena šećerna bolest
@@ -550,7 +549,7 @@ Endokrine, nutritivne i metaboličke bolesti
   E45	Zastoj u razvoju zbog proteinsko-energetske pothranjenosti
   E46	Neoznačena proteinsko-energetska pothranjenost
 
-  Drugi nutritivni nedostaci (E50-E64)
+  Drugi nedostaci u ishrani (E50-E64)
 
   E50	Nedostatak vitamina A
   E51	Nedostatak tiamina
@@ -607,22 +606,22 @@ Mentalni poremećaji i poremećaji ponašanja
   F03	Neoznačena demencija
   F04	Organski amnestički sindrom, koji nije izazvan upotrebom alkohola ili drugih psihoaktivnih supstanci
   F05	Delirijum, koji nije izazvan upotrebom alkohola i drugih psihoaktivnih supstanci
-  F06	Drugi mentalni poremećaji uzrokovani oštećenjem i disfunkcijom mozga i fizičkom bolešću
-  F07	Poremećaji ličnosti i poremećaji ponašanja uzrokovani bolešću, oštećenjem i disfunkcijom mozga
+  F06	Drugi mentalni poremećaji izazvani oštećenjem i disfunkcijom mozga i fizičkom bolešću
+  F07	Poremećaji ličnosti i poremećaji ponašanja izazvani bolešću, oštećenjem i disfunkcijom mozga
   F09	Neoznačeni organski ili simptomatski mentalni poremećaj
 
-  Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom psihoaktivnih supstanci (F10-F19)
+  Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom psihoaktivnih supstanci (F10-F19)
 
-  F10	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom alkohola
-  F11	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom opijata
-  F12	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom kanabinoida
-  F13	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom hipnotika ili sedativa
-  F14	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom kokaina
-  F15	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom drugih stimulansa, uključujući kofein
-  F16	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom halucinogena
-  F17	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom duvana
-  F18	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom isparljivih rastvarača
-  F19	Mentalni poremećaji i poremećaji ponašanja uzrokovani upotrebom više psihoaktivnih supstanci i drugih droga
+  F10	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom alkohola
+  F11	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom opijata
+  F12	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom kanabinoida
+  F13	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom hipnotika ili sedativa
+  F14	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom kokaina
+  F15	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom drugih stimulansa, uključujući kofein
+  F16	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom halucinogena
+  F17	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom duvana
+  F18	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom isparljivih rastvarača
+  F19	Mentalni poremećaji i poremećaji ponašanja izazvani upotrebom više psihoaktivnih supstanci i drugih droga
 
   Shizofrenija, shizotipski i sumanuti poremećaji (F20-F29)
 
@@ -691,8 +690,8 @@ Mentalni poremećaji i poremećaji ponašanja
   F80	Specifični poremećaji razvoja govora i jezika
   F81	Specifični poremećaji razvoja sposobnosti za školovanje
   F82	Specifični razvojni poremećaj motorne funkcije
-  F83	Mješoviti specifični razvojni poremećaji
-  F84	Pervazivni razvojni poremećaji
+  F83	Mješoviti specifični poremećaji razvoja
+  F84	Pervazivni poremećaji razvoja
   F88	Drugi poremećaji psihološkog razvoja
   F89	Neoznačeni poremećaj psihološkog razvoja
 
@@ -1036,7 +1035,6 @@ Bolesti sistema krvotoka
   I81	Tromboza vene porte
   I82	Druge venske embolije i tromboze
   I83	Varikozne (proširene) vene donjih ekstremiteta
-  I84	Hemoroidi
   I85	Variksi (proširene vene) jednjaka
   I86	Proširene vene drugih lokalizacija
   I87	Drugi poremećaji vena
@@ -1066,8 +1064,8 @@ Bolesti sistema organa za disanje
 
   Grip i pneumonija (zapaljenje pluća) (J09-J18)
 
-  J09	Grip uzrokovan određenim dokazanim virusom gripa
-  J10	Grip, uzrokovan drugim dokazanim virusom gripa
+  J09	!!!
+  J10	!!!
   J11	Grip, virus nije dokazan
   J12	Virusna pneumonija (zapaljenje pluća), neklasifikovana na drugom mjestu
   J13	Pneumonija koju uzrokuje Streptococcus pneumoniae
@@ -1181,7 +1179,7 @@ Bolesti sistema organa za varenje
   K27	Peptički ulkus, neoznačene lokalizacije
   K28	Gastrojejunalni ulkus
   K29	Gastritis i duodenitis (zapaljenje želuca i dvanaestopalačnog crijeva)
-  K30	Dispepsija
+  K30	!!!
   K31	Druge bolesti želuca i dvanaestopalačnog crijeva
 
   Bolesti apendiksa (crvuljka) (K35-K38)
@@ -1207,7 +1205,7 @@ Bolesti sistema organa za varenje
   K51	Ulcerozni kolitis
   K52	Drugi neinfektivni gastroenteritis i kolitis
 
-  Druge bolesti crijeva (K55-K63)
+  Druge bolesti crijeva (K55-K64)
 
   K55	Vaskularni poremećaji crijeva
   K56	Paralitični ileus i opstrukcija crijeva, bez kile
@@ -1218,6 +1216,7 @@ Bolesti sistema organa za varenje
   K61	Apsces analnog i rektalnog predjela
   K62	Druge bolesti anusa i rektuma
   K63	Druge bolesti crijeva
+  K64	!!!
 
   Bolesti peritoneuma (trbušne maramice) (K65-K67)
 
@@ -1306,13 +1305,13 @@ Bolesti kože i potkožnog tkiva
   L53	Druga eritematozna stanja
   L54	Eritem u bolestima klasifikovanim na drugim mjestima
 
-  Poremećaji kože i potkožnog tkiva uzrokovani zračenjem (L55-L59)
+  Poremećaji kože i potkožnog tkiva izazvani zračenjem (L55-L59)
 
   L55	Opekotina uzrokovana sunčevim zracima
   L56	Druge akutne kožne promjene uzrokovane ultraljubičastim zračenjem
   L57	Kožne promjene uzrokovane dugotrajnim izlaganjem nejonizujućem zračenju
   L58	Radiodermatitis (zapaljenje kože zbog izlaganja jonizujućem zračenju)
-  L59	Drugi poremećaji kože i potkožnog tkiva uzrokovani zračenjem
+  L59	Drugi poremećaji kože i potkožnog tkiva izazvani zračenjem
 
   Poremećaji kožnih tvorevina (L60-L75)
 
@@ -1631,10 +1630,10 @@ Trudnoća, rađanje i babinje
   Edem, proteinurija i hipertenzivni poremećaji u trudnoći, porođaju i babinjama (O10-O16)
 
   O10	Ranije postojeća hipertenzija koja komplikuje trudnoću, porođaj i babinje
-  O11	Ranije postojeći hipertenzivni poremećaj sa superponiranom proteinurijom
-  O12	Gestacijski [uzrokovani trudnoćom] edem i proteinurija bez hipertenzije
-  O13	Gestacijska [uzrokovana trudnoćom] hipertenzija bez značajne proteinurije
-  O14	Gestacijska [uzrokovana trudnoćom] hipertenzija sa značajnom proteinurijom
+  O11	!!!
+  O12	Gestacijski [izazvani trudnoćom] edem i proteinurija bez hipertenzije
+  O13	!!!
+  O14	!!!
   O15	Eklampsija
   O16	Neoznačena hipertenzija majke
 
@@ -1642,7 +1641,7 @@ Trudnoća, rađanje i babinje
 
   O20	Krvarenje u ranoj trudnoći
   O21	Prekomjerno povraćanje u trudnoći
-  O22	Komplikacije vena u trudnoći
+  O22	!!!
   O23	Infekcije genitourinarnog trakta u trudnoći
   O24	Šećerna bolest u trudnoći
   O25	Pothranjenost u trudnoći
@@ -1681,7 +1680,7 @@ Trudnoća, rađanje i babinje
   O67	Porođaj i rađanje komplikovani krvarenjem, neklasifikovani na drugom mjestu
   O68	Porođaj i rađanje komplikovani fetalnom patnjom [distress]
   O69	Porođaj i rađanje sa komplikacijama pupčane vrpce
-  O70	Perinealna laceracija u toku porođaja
+  O70	Perinealna laceracija tokom porođaja
   O71	Druga akušerska povreda
   O72	Krvarenje poslije porođaja
   O73	Zaostala posteljica i plodove ovojnice, bez krvarenja
@@ -1700,7 +1699,7 @@ Trudnoća, rađanje i babinje
 
   O85	Puerperalna sepsa
   O86	Druge infekcije u babinjama
-  O87	Bolesti vena kao komplikacije u babinjama
+  O87	!!!
   O88	Porođajna embolija
   O89	Komplikacije zbog anestezije tokom babinja
   O90	Komplikacije u babinjama, neklasifikovane na drugom mjestu
@@ -1917,7 +1916,7 @@ Urođene malformacije, deformacije i hromozomske abnormalnosti
   Q83	Urođene malformacije dojke
   Q84	Druge urođene malformacije kože i kožnih adneksa
   Q85	Fakomatoze, neklasifikovane na drugom mjestu
-  Q86	Urođeni malformacioni sindromi uzrokovani poznatim spoljašnjim uzrocima, neklasifikovani na drugom mjestu
+  Q86	Urođeni malformacioni sindromi izazvani poznatim spoljašnjim uzrocima, neklasifikovani na drugom mjestu
   Q87	Drugi označeni urođeni malformacijski sindromi koji utiču na više sistema
   Q89	Druge urođene malformacije, neklasifikovane na drugom mjestu
 
@@ -2173,7 +2172,7 @@ Povrede, trovanja i određene druge posljedice djelovanja spoljašnjih uzroka
   S76	Povreda mišića i tetive u nivou kuka i butine
   S77	Smrskanost kuka i butine
   S78	Traumatska amputacija kuka i butine
-  S79	Druge i neoznačene povrede kuka i butine
+  S79	!!!
 
   Povrede koljena i potkoljenice (S80-S89)
 
@@ -2490,7 +2489,7 @@ Spoljašnji uzroci obolijevanja i umiranja
   W01	Pad na istom nivou zbog okliznuća, saplitanja i posrtanja
   W02	Pad sa klizaljki za led, skija, rolera ili skejtborda
   W03	Drugi padovi na istom nivou zbog sudara sa drugom osobom ili guranjem od strane druge osobe
-  W04	Pad u toku nošenja ili pridržavanja od strane druge osobe
+  W04	Pad tokom nošenja ili pridržavanja od strane druge osobe
   W05	Pad iz invalidskih kolica
   W06	Pad sa kreveta
   W07	Pad sa stolice
@@ -2515,7 +2514,7 @@ Spoljašnji uzroci obolijevanja i umiranja
   W23	Uhvaćen, zgnječen, zaglavljen ili ukliješten u ili između predmeta
   W24	Kontakt sa uređajima za dizanje i prenošenje, neklasifikovan na drugom mjestu
   W25	Kontakt sa oštrim staklom
-  W26	Kontakt sa nožem, mačem ili bodežom
+  W26	!!!
   W27	Kontakt sa ručnim alatom bez motora
   W28	Kontakt sa motornom kosačicom za travu
   W29	Kontakt sa drugim motornim ručnim alatima i kućnim aparatima
@@ -2555,11 +2554,11 @@ Spoljašnji uzroci obolijevanja i umiranja
 
   Zadesno udavljenje i utapanje (W65-W74)
 
-  W65	Udavljenje i utapanje u toku kupanja u kadi
+  W65	Udavljenje i utapanje tokom kupanja u kadi
   W66	Udavljenje i utapanje poslije pada u kadu
   W67	Udavljenje i utapanje za vrijeme boravka u bazenu za plivanje
   W68	Udavljenje i utapanje poslije pada u bazen za plivanje
-  W69	Udavljenje i utapanje u toku boravka u vodi u prirodi
+  W69	Udavljenje i utapanje tokom boravka u vodi u prirodi
   W70	Udavljenje i utapanje poslije pada u vodu u prirodi
   W73	Drugo označeno udavljenje i utapanje
   W74	Udavljenje i utapanje, neoznačeno
@@ -2783,16 +2782,16 @@ Spoljašnji uzroci obolijevanja i umiranja
   Y58	Vakcine protiv bakterija
   Y59	Druge i neoznačene vakcine i biološke supstance
 
-  Nezgode koje su se dogodile bolesnicima u toku hirurškog ili medicinskog postupka (Y60-Y69)
+  Nezgode koje su se dogodile bolesnicima tokom hirurškog ili medicinskog postupka (Y60-Y69)
 
-  Y60	Nenamjerno izazvana posjekotina, ubod, perforacija ili krvarenje u toku hirurškog ili medicinskog postupka
-  Y61	Strani predmet slučajno ostavljen u tijelu u toku hirurškog i medicinskog postupka
-  Y62	Greška u procesu sterilizacije u toku hirurškog i medicinskog postupka
-  Y63	Greška u doziranju u toku hirurškog i medicinskog postupka
+  Y60	Nenamjerno izazvana posjekotina, ubod, perforacija ili krvarenje tokom hirurškog ili medicinskog postupka
+  Y61	Strani predmet slučajno ostavljen u tijelu tokom hirurškog i medicinskog postupka
+  Y62	Greška u procesu sterilizacije tokom hirurškog i medicinskog postupka
+  Y63	Greška u doziranju tokom hirurškog i medicinskog postupka
   Y64	Kontaminirane medicinske ili biološke supstance
-  Y65	Druge nezgode u toku hirurškog i medicinskog postupka
+  Y65	Druge nezgode tokom hirurškog i medicinskog postupka
   Y66	Nesprovođenje hirurškog i medicinskog postupka
-  Y69	Neoznačena nezgoda u toku hirurškog i medicinskog postupka
+  Y69	Neoznačena nezgoda tokom hirurškog i medicinskog postupka
 
   Neželjeni događaji povezani sa medicinskim uređajima za dijagnostiku i liječenje (Y70-Y82)
 
@@ -2810,10 +2809,10 @@ Spoljašnji uzroci obolijevanja i umiranja
   Y81	Uređaji u opštoj i plastičnoj hirurgiji povezani sa neželjenim događajima
   Y82	Drugi i neoznačeni medicinski uređaji povezani sa neželjenim događajima
 
-  Hirurški zahvat i druge medicinske procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja u toku procedure (Y83-Y84)
+  Hirurški zahvat i druge medicinske procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja tokom procedure (Y83-Y84)
 
-  Y83	Hirurški zahvat i druge hirurške procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja u toku procedure
-  Y84	Druge medicinske procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja u toku procedure
+  Y83	Hirurški zahvat i druge hirurške procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja tokom procedure
+  Y84	Druge medicinske procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja tokom procedure
 
   Posledice spoljašnjih uzroka obolijevanja i umiranja (Y85-Y89)
 
@@ -2905,7 +2904,7 @@ Faktori koji utiču na zdravstveno stanje i kontakt sa zdravstvenom službom
   Z61	Problemi povezani sa negativnim životnim događajima u djetinjstvu
   Z62	Drugi problemi povezani sa vaspitanjem
   Z63	Drugi problemi povezani sa grupom za primarnu podršku, uključujući porodičnu sredinu
-  Z64	Problemi uzrokovani određenim psihosocijalnim uslovima
+  Z64	Problemi izazvani određenim psihosocijalnim uslovima
   Z65	Problemi povezani sa drugim psihosocijalnim okolnostima
 
   Osobe u kontaktu sa zdravstvenom službom u drugim okolnostima (Z70-Z76)
@@ -2916,7 +2915,7 @@ Faktori koji utiču na zdravstveno stanje i kontakt sa zdravstvenom službom
   Z73	Problemi u savlađivanju životne teškoće
   Z74	Problemi povezani sa zavisnošću od tuđe njege
   Z75	Problemi povezani sa medicinskim ustanovama i drugom zdravstvenom zaštitom
-  Z76	Osoba u kontaktu sa zdravstvenom službom u drugim okolnostima
+  Z76	Osobe u kontaktu sa zdravstvenom službom u drugim okolnostima
 
   Osobe sa potencijalnim zdravstvenim rizicima zbog porodične i lične anamneze i izvjesnih životnih uslova (Z80-Z99)
 
@@ -2943,16 +2942,18 @@ Faktori koji utiču na zdravstveno stanje i kontakt sa zdravstvenom službom
 
 Poglavlje XXII
 Šifriranje za posebne namjene
-(U00-U89)
+(U00-U85)
 
-  Uslovno se dodjeljuje za nove bolesti nepoznate etiologije (U00-U49)
+  !!! (U00-U49)
 
   U04	Teški akutni respiratorni sindrom [SARS]
+  U06	!!!
+  U07	!!!
 
-  Bakterijski agensi otporni na antibiotike (U80-U89)
+  !!! (U82-U85)
 
-  U80	Uzročnik otporan na betalaktamske antibiotike
-  U81	Uzročnik otporan na vankomicin i srodne antibiotike
-  U88	Uzročnik otporan na više antibiotika
-  U89	Uzročnik otporan na druge i neoznačene antibiotike
+  U82	!!!
+  U83	!!!
+  U84	!!!
+  U85	!!!
 

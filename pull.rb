@@ -4,7 +4,7 @@ require_relative 'lib/base'
 
 language = 'en' 
 
-fileclaml = "data/icd-#{language}-2016.xml"
+fileclaml = "data/icd-#{language}.xml"
 filecsv   = "data/icd-#{language}.csv"
 
 def processrubric (rubrics, ref, code)
