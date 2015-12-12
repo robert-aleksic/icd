@@ -38,6 +38,7 @@ File.open fme, 'w' do |f|
     else
       hashes = contenten.count('#')
       contentme = '!!!#'*hashes+'!!!'
+      #contentme = contenten
       nnew = nnew+1
     end
 
