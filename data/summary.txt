@@ -90,7 +90,7 @@ Određene zarazne i parazitarne bolesti
 
   A75	Pjegavi tifus (tifusna groznica)
   A77	Osipna groznica [rikecioze koje prenose krpelji]
-  A78	Groznica Q
+  A78	Q groznica
   A79	Druge rikecioze
 
   Virusne infekcije centralnog nervnog sistema (A80-A89)
@@ -113,7 +113,7 @@ Određene zarazne i parazitarne bolesti
   A94	Virusna groznica koju prenose zglavkari, neoznačena
   A95	Žuta groznica
   A96	Arenavirusna hemoragijska groznica
-  A97	!!!
+  A97	Denga
   A98	Druge virusne hemoragijske groznice, neklasifikovane na drugom mjestu
   A99	Hemoragijska virusna groznica, neoznačena
 
@@ -510,8 +510,8 @@ Endokrine, nutritivne i metaboličke bolesti
 
   Diabetes mellitus (šećerna bolest) (E10-E14)
 
-  E10	!!!
-  E11	!!!
+  E10	Šećerna bolest tip 1
+  E11	Šećerna bolest tip 2
   E12	Šećerna bolest povezana sa pothranjenošću (malnutricijska)
   E13	Druga označena šećerna bolest
   E14	Neoznačena šećerna bolest
@@ -910,8 +910,8 @@ Bolesti uha i mastoidnog nastavka
 
   Bolesti srednjeg uha i mastoidnog nastavka (H65-H75)
 
-  H65	Negnojno zapaljenje srednjeg uha
-  H66	Gnojno i neoznačeno zapaljenje srednjeg uha
+  H65	Nesupurativno zapaljenje srednjeg uha
+  H66	Supurativno i neoznačeno zapaljenje srednjeg uha
   H67	Zapaljenje srednjeg uha u bolestima klasifikovanim na drugim mjestima
   H68	Zapaljenje i začepljenje Eustachijeve tube
   H69	Drugi poremećaji Eustachijeve tube
@@ -1064,8 +1064,8 @@ Bolesti sistema organa za disanje
 
   Grip i pneumonija (zapaljenje pluća) (J09-J18)
 
-  J09	!!!
-  J10	!!!
+  J09	Grip uzrokovan zoonozom ili pandemijskim virusom gripa
+  J10	grip uzrokovan dokazanim sezonskim virusom gripa
   J11	Grip, virus nije dokazan
   J12	Virusna pneumonija (zapaljenje pluća), neklasifikovana na drugom mjestu
   J13	Pneumonija koju uzrokuje Streptococcus pneumoniae
@@ -1126,7 +1126,7 @@ Bolesti sistema organa za disanje
   J82	Plućna eozinofilija, neklasifikovana na drugom mjestu
   J84	Druge bolesti plućnog intersticijuma
 
-  Gnojna i nekrotična stanja donjeg dijela respiratornog trakta (J85-J86)
+  Supurativna i nekrotična stanja donjeg dijela respiratornog trakta (J85-J86)
 
   J85	Apsces pluća i medijastinuma
   J86	Piotoraks
@@ -1179,7 +1179,7 @@ Bolesti sistema organa za varenje
   K27	Peptički ulkus, neoznačene lokalizacije
   K28	Gastrojejunalni ulkus
   K29	Gastritis i duodenitis (zapaljenje želuca i dvanaestopalačnog crijeva)
-  K30	!!!
+  K30	Funkcionalna dispepsija
   K31	Druge bolesti želuca i dvanaestopalačnog crijeva
 
   Bolesti apendiksa (crvuljka) (K35-K38)
@@ -1216,7 +1216,7 @@ Bolesti sistema organa za varenje
   K61	Apsces analnog i rektalnog predjela
   K62	Druge bolesti anusa i rektuma
   K63	Druge bolesti crijeva
-  K64	!!!
+  K64	Hemoroidi i periferna venska tromboza
 
   Bolesti peritoneuma (trbušne maramice) (K65-K67)
 
@@ -1544,7 +1544,7 @@ Bolesti genitourinarnog (polnomokraćnog) sistema
   N30	Cistitis (zapaljenje mokraćne bešike)
   N31	Neuromuskularna disfunkcija mokraćne bešike, neklasifikovana na drugom mjestu
   N32	Drugi poremećaji mokraćne bešike
-  N33	Poremećaji mokraćne bešike u bolestima klasifikovanim na drugim mjestima
+  N33	Poremećaji mokraćne bešike u drugim bolestima klasifikovanim na drugim mjestima
   N34	Uretritis i uretralni sindrom
   N35	Uretralna striktura
   N36	Drugi poremećaji uretre
@@ -1630,10 +1630,10 @@ Trudnoća, rađanje i babinje
   Edem, proteinurija i hipertenzivni poremećaji u trudnoći, porođaju i babinjama (O10-O16)
 
   O10	Ranije postojeća hipertenzija koja komplikuje trudnoću, porođaj i babinje
-  O11	!!!
+  O11	Preeklampsija superponirana na hroničnu hipertenziju
   O12	Gestacijski [izazvani trudnoćom] edem i proteinurija bez hipertenzije
-  O13	!!!
-  O14	!!!
+  O13	Gestacijska [uzrokovana trudnoćom] hipertenzija
+  O14	Preeklampsija
   O15	Eklampsija
   O16	Neoznačena hipertenzija majke
 
@@ -1641,7 +1641,7 @@ Trudnoća, rađanje i babinje
 
   O20	Krvarenje u ranoj trudnoći
   O21	Prekomjerno povraćanje u trudnoći
-  O22	!!!
+  O22	Venske komplikacije i hemoroidi u trudnoći
   O23	Infekcije genitourinarnog trakta u trudnoći
   O24	Šećerna bolest u trudnoći
   O25	Pothranjenost u trudnoći
@@ -1699,7 +1699,7 @@ Trudnoća, rađanje i babinje
 
   O85	Puerperalna sepsa
   O86	Druge infekcije u babinjama
-  O87	!!!
+  O87	Venske komplikacije i hemoroidi u babinjama
   O88	Porođajna embolija
   O89	Komplikacije zbog anestezije tokom babinja
   O90	Komplikacije u babinjama, neklasifikovane na drugom mjestu
@@ -2172,7 +2172,7 @@ Povrede, trovanja i određene druge posljedice djelovanja spoljašnjih uzroka
   S76	Povreda mišića i tetive u nivou kuka i butine
   S77	Smrskanost kuka i butine
   S78	Traumatska amputacija kuka i butine
-  S79	!!!
+  S79	Druge i neoznačene povrede kuka i butine
 
   Povrede koljena i potkoljenice (S80-S89)
 
@@ -2307,7 +2307,7 @@ Povrede, trovanja i određene druge posljedice djelovanja spoljašnjih uzroka
   T73	Dejstva drugih lišavanja
   T74	Sindromi zlostavljanja
   T75	Dejstva drugih spoljašnjih uzroka
-  T78	Nepovoljna dejstva, neklasifikovana na drugom mjestu
+  T78	Neželjena dejstva, neklasifikovana na drugom mjestu
 
   Određene rane komplikacije povrede (T79-T79)
 
@@ -2514,7 +2514,7 @@ Spoljašnji uzroci obolijevanja i umiranja
   W23	Uhvaćen, zgnječen, zaglavljen ili ukliješten u ili između predmeta
   W24	Kontakt sa uređajima za dizanje i prenošenje, neklasifikovan na drugom mjestu
   W25	Kontakt sa oštrim staklom
-  W26	!!!
+  W26	Kontakt sa drugim oštrim predmetom(predmetima)
   W27	Kontakt sa ručnim alatom bez motora
   W28	Kontakt sa motornom kosačicom za travu
   W29	Kontakt sa drugim motornim ručnim alatima i kućnim aparatima
@@ -2580,8 +2580,8 @@ Spoljašnji uzroci obolijevanja i umiranja
   W85	Izlaganje vodovima za prenos električne energije
   W86	Izlaganje drugoj označenoj električnoj struji
   W87	Izlaganje drugoj neoznačenoj električnoj struji
-  W88	Izloženost jonizujućem zračenju
-  W89	Izloženost vidljivoj i ultraljubičastoj svjetlosti, koju je stvorio čovjek
+  W88	Izlaganje jonizujućem zračenju
+  W89	Izlaganje vidljivoj i ultraljubičastoj svjetlosti, koju je stvorio čovjek
   W90	Izlaganje drugom nejonizujućem zračenju
   W91	Izlaganje neoznačenom tipu zračenja
   W92	Izlaganje prekomjernoj toploti koju je stvorio čovjek
@@ -2814,7 +2814,7 @@ Spoljašnji uzroci obolijevanja i umiranja
   Y83	Hirurški zahvat i druge hirurške procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja tokom procedure
   Y84	Druge medicinske procedure kao uzrok abnormalne reakcije kod bolesnika ili kasnije komplikacije, bez pominjanja neželjenog događaja tokom procedure
 
-  Posledice spoljašnjih uzroka obolijevanja i umiranja (Y85-Y89)
+  Posljedice spoljašnjih uzroka obolijevanja i umiranja (Y85-Y89)
 
   Y85	Posljedice transportnih nesreća
   Y86	Posljedice drugih nesreća
@@ -2851,7 +2851,7 @@ Faktori koji utiču na zdravstveno stanje i kontakt sa zdravstvenom službom
 
   Osobe sa potencijalno ugroženim zdravljem povezanim sa zaraznim bolestima (Z20-Z29)
 
-  Z20	Kontakt i izloženost zaraznim bolestima
+  Z20	Kontakt i izlaganje zaraznim bolestima
   Z21	Stanje asimptomatske infekcije virusom humane imunodeficijencije [HIV]
   Z22	Kliconoša zarazne bolesti
   Z23	Potreba za imunizacijom protiv pojedinačnih bakterijskih bolesti
@@ -2897,7 +2897,7 @@ Faktori koji utiču na zdravstveno stanje i kontakt sa zdravstvenom službom
 
   Z55	Problemi sa obrazovanjem i pismenošću
   Z56	Problemi zaposlenih i nezaposlenih osoba
-  Z57	Profesionalna izloženost faktorima rizika
+  Z57	Profesionalno izlaganje faktorima rizika
   Z58	Problemi koji se odnose na životnu sredinu
   Z59	Problemi povezani sa stanovanjem i imovinskim stanjem
   Z60	Problemi povezani sa socijalnom sredinom
@@ -2944,16 +2944,16 @@ Poglavlje XXII
 Šifriranje za posebne namjene
 (U00-U85)
 
-  !!! (U00-U49)
+  Privremeno šifriranje novih bolesti nepoznate etiologije ili u hitnom slučaju (U00-U49)
 
   U04	Teški akutni respiratorni sindrom [SARS]
-  U06	!!!
-  U07	!!!
+  U06	Hitna upotreba U006
+  U07	Hitna upotreba U07
 
-  !!! (U82-U85)
+  Rezistencija na antimikrobne i antineoplastične ljekove (U82-U85)
 
-  U82	!!!
-  U83	!!!
-  U84	!!!
-  U85	!!!
+  U82	Rezistencija na betalaktamske antibiotike
+  U83	Rezistencija na druge antibiotike
+  U84	Rezistencija na druge antimikrobne ljekove
+  U85	Rezistencija na antineoplastične ljekove
 

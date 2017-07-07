@@ -9763,7 +9763,7 @@
 9763	H65-H75	preferred	l	Diseases of middle ear and mastoid	Bolesti srednjeg uha i mastoidnog nastavka
 9764	H65	preferred	l	Nonsuppurative otitis media	Nesupurativno zapaljenje srednjeg uha
 9765	H65	inclusion	l	with myringitis	sa zapaljenjem bubne opne
-9766	H65	coding-hint	lRl	Use additional code #H72.-#, if desired, to identify presence of perforated tympanic membrane.	Ako želite da označite prisustvo perforirane bubne opne koristite dodatnu šifru# H72.-#.
+9766	H65	coding-hint	lRl	Use additional code #H72.-#, if desired, to identify presence of perforated tympanic membrane.	Ako želite da označite prisustvo perforirane bubne opne koristite dodatnu šifru#H72.-#.
 9767	H65.0	preferred	l	Acute serous otitis media	Akutno serozno zapaljenje srednjeg uha
 9768	H65.0	inclusion	l	Acute and subacute secretory otitis media	Akutno i subakutno sekretorno zapaljenje srednjeg uha
 9769	H65.1	preferred	l	Other acute nonsuppurative otitis media	Drugo akutno nesupurativno zapaljenje srednjeg uha
@@ -17758,7 +17758,7 @@
 17758	O95	preferred	l	Obstetric death of unspecified cause	Porođajna smrt neoznačenog uzroka
 17759	O95	inclusion	l	Maternal death from unspecified cause occurring during pregnancy, labour and delivery, or the puerperium	Smrt majke neoznačenog uzroka nastala tokom trudnoće, porođaja i rađanja, ili babinja
 17760	O96	preferred	l	Death from any obstetric cause occurring more than 42 days but less than one year after delivery	Smrt iz bilo kog porođajnog uzroka u periodu od 42 dana do godine dana poslije porođaja
-17761	O96	note	lRRlRl	This category is to be used to indicate death from any obstetric cause (conditions in categories #O00-O75#O85-O92#, and#O98-O99# occurring more than 42 days but less than one year after delivery.	Ova kategorija se upotrebljava za šifriranje smrtnosti zbog bilo kojeg akušerskog razloga (stanja klasifikovana pod #O00-O75# O85-O92#, i#O98-O99# koji se dešavaju poslije 42 dana, ali u periodu manjem od jedne godine od porođaja.
+17761	O96	note	lRRlRl	This category is to be used to indicate death from any obstetric cause (conditions in categories #O00-O75#O85-O92#, and#O98-O99# occurring more than 42 days but less than one year after delivery.	Ova kategorija se upotrebljava za šifriranje smrtnosti zbog bilo kojeg akušerskog razloga (stanja klasifikovana pod #O00-O75#O85-O92#, i#O98-O99# koji se dešavaju poslije 42 dana, ali u periodu manjem od jedne godine od porođaja.
 17762	O96	coding-hint	l	Use additional code, if desired, to identify obstetric cause (direct or indirect) of death.	Ako želite da označite porođajni uzrok smrti (direktni ili indirektni), koristite dodatnu šifru.
 17763	O96	exclusion	lR	death from conditions specified as sequelae or late effects of obstetric causes #O97.-	smrt od stanja koja su označena kao posljedice ili kasni efekti akušerskih uzroka #O97.-
 17764	O96	exclusion	lR	conditions specified as sequelae or late effects of obstetric causes that are not resulting in death #O94	smrt od stanja koja su označena kao posljedice ili kasni efekti akušerskih uzroka koji ne rezultiraju smrću#O94

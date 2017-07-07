@@ -47,3 +47,13 @@ notes:
 - translation of background texts / chapter / incl. / excl. / note: / and this chapter includes...
 - what to do with latin?
 - icd-o is added by obsolete join tool into translation file and not used for claml generation
+- 2611 from error.txt after push should be manually corrected
+- manually replace ="en" with ="montenegrin language code"
+
+    <Rubric id="D0001787" kind="preferred">
+      <Label xml:lang="me" xml:space="default">Maligne neoplazme</Label>
+    </Rubric>
+    <Rubric id="id-WHOICD102010_v2011-January-11-1386672860136-1" kind="coding-hint">
+      <Label xml:lang="me" xml:space="default">Koristite dodatnu šifru<Reference class="in brackets">U85</Reference>, ukoliko želite da označite otpornost, nereagovanje ili refraktivne osobine neoplazme na antineoplastične lijekove.</Label>
+    </Rubric>
+

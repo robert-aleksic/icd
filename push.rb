@@ -23,7 +23,7 @@ def processrubric (pos, r, me)
               me = '!!! '+(empty?(me) ? '' : me)
             end
           end
-          c.content = !empty?(me) ? me : (c.parent.name=='Fragment' ? '.' : "!!! #{en}")
+          c.content = !empty?(me) ? me : (c.parent.name=='Fragment' ? '!!!' : "!!! #{en}")
           
           @i += 1          
         end    
@@ -66,7 +66,7 @@ claml.children.each do |c|
     if ch.name == 'Rubric'
       processrubric(i, ch,me[i])
       i += 1
-      puts i if i % 1000 == 0
+      puts i if i % 5000 == 0
     end
   end
 end
