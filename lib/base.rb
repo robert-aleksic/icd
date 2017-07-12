@@ -66,6 +66,20 @@ def csvread (filename)
   end
 end
 
+# read from latin csv's 
+def csvlatread (filename)
+  File.readlines(filename).each do |line|
+    if line && !empty?(line)
+      f1, f2, code, lat, rest = line.split("\t")
+
+      code = clean(code)
+      lat  = clean(lat).downcase
+
+      yield code, lat
+    end
+  end
+end
+
 # errors in translation
 def haveerrors (desc, en, me)
 
